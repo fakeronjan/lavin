@@ -38,17 +38,27 @@ EVENT_TYPE_ORDER = {"daily": 0, "elimination": 1, "final": 2}
 # Window units: number of elims; None = no cap. final_field_scale multiplies the
 # baseline weight on `final_field` events (finalist beats each non-finalist).
 CONFIGS = {
-    # Single solver — fleet pattern. ONE rating timeline per player; derive
-    # PEAK / ERA / ACTIVE views downstream in derive_views.py.
+    # End-of-season-only solver. We display per-season ratings; computing
+    # the WLS at every elim was producing within-season noise nobody saw.
+    # Now: one rating per (player, season-end-snapshot).
     #
-    # Settings rationale:
-    #   - 6-season window (~90 elims): wide enough to capture career arcs
-    #     without going so wide it becomes meaningless across eras.
-    #   - No recency decay: user preference; let event weights do the work.
-    #   - field_scale 0.10 (was 0.50): reduces championship dominance so a
-    #     single recent ring doesn't overwhelm 5 seasons of career evidence.
-    #     Effective weight per "finalist beats non-finalist" event = 0.10.
-    "lavin":  {"window": 90, "field_scale": 0.10, "decay": False},
+    # Settings:
+    #   - 6-season window (~90 elims back from each season-end)
+    #   - No recency decay: events in the same season get equal weight
+    #     and (for now) seasons in the window all weight equally too.
+    #   - "Equal-weight" type_scales: target ~25% of total weight per
+    #     dimension. final_within was 47% of total weight at the baseline
+    #     2.0 per-event; cutting to ~0.54 brings it in line. Dailies need
+    #     a slight bump and finals_field gets ~3x to be visible.
+    "lavin":  {
+        "window": 90, "decay": False, "eos_only": True,
+        "type_scales": {
+            "elimination":  1.0,
+            "daily":        1.24,
+            "final_within": 0.54,
+            "final_field":  0.31,
+        },
+    },
 }
 
 MIN_EVENTS_PER_PLAYER = 5        # minimum events before a player's rating is published
@@ -171,11 +181,22 @@ def solve_wls(window_events):
 # ---------------------------------------------------------
 # Top-level: compute ratings across all snapshots for one config
 # ---------------------------------------------------------
-def compute_ratings(events, gender_map, window_size, field_scale=1.0, recency_decay=True):
+def compute_ratings(events, gender_map, window_size,
+                    field_scale=1.0, recency_decay=True, eos_only=False,
+                    type_scales=None):
     """
     Iterate per snapshot. At each, take events in the window, apply recency
-    weighting AND the finals_field scale, run WLS separately for M and F,
+    weighting AND per-event-type scales, run WLS separately for M and F,
     emit per-player rating rows.
+
+    eos_only=True: only compute at the END-OF-SEASON snapshot for each
+    season (the final ranking_id in each season). Skips per-elim mid-season
+    snapshots that we never display anyway. ~20x faster, no within-season
+    noise in the rating timeline.
+
+    type_scales: optional dict {event_type: multiplier} for sensitivity
+    analysis. Defaults to {"final_field": field_scale} which preserves
+    existing behavior. Set any event_type to 0 to knock it out entirely.
     """
     events = events.copy()
     events["gender"] = events["player_a"].map(gender_map)
@@ -183,11 +204,19 @@ def compute_ratings(events, gender_map, window_size, field_scale=1.0, recency_de
     events = events[events["player_a"].map(gender_map) == events["player_b"].map(gender_map)]
 
     # Per-event-type scaling applied here so we don't rebuild events.csv per config.
-    # Currently the only tunable scale is final_field; everything else stays at 1.0.
-    type_scale = events["event_type"].map(lambda t: field_scale if t == "final_field" else 1.0)
-    events = events.assign(weight=events["weight"] * type_scale)
+    if type_scales is None:
+        type_scales = {"final_field": field_scale}
+    scale_map = events["event_type"].map(lambda t: type_scales.get(t, 1.0))
+    events = events.assign(weight=events["weight"] * scale_map)
 
     snapshots = sorted(events["elim_idx_global"].unique())
+    if eos_only:
+        # Keep only the last snapshot of each season — that's our EOS point.
+        last_per_season = (
+            events.sort_values("elim_idx_global")
+            .groupby("season_id")["elim_idx_global"].max()
+        )
+        snapshots = sorted(last_per_season.unique())
     print(f"  {len(snapshots)} snapshots to compute")
 
     out_rows = []
@@ -245,14 +274,17 @@ def main():
     print(f"  {len(events)} events, {len(snap_meta)} snapshots\n")
 
     for name, cfg in CONFIGS.items():
-        print(f"=== Config: {name} (window={cfg['window']}, field_scale={cfg['field_scale']}, decay={cfg.get('decay', True)}) ===")
+        scale_str = cfg.get("type_scales") or {"final_field": cfg.get("field_scale", 1.0)}
+        print(f"=== Config: {name} (window={cfg['window']}, decay={cfg.get('decay', True)}, scales={scale_str}) ===")
         out_dir = DATA / f"ratings_{name}"
         out_dir.mkdir(exist_ok=True)
         ratings = compute_ratings(
             events, gender_map,
             window_size=cfg["window"],
-            field_scale=cfg["field_scale"],
+            field_scale=cfg.get("field_scale", 1.0),
             recency_decay=cfg.get("decay", True),
+            eos_only=cfg.get("eos_only", False),
+            type_scales=cfg.get("type_scales"),
         )
         ratings = ratings.merge(snap_meta, on="ranking_id", how="left")
         ratings.to_csv(out_dir / "ratings.csv", index=False)
