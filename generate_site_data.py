@@ -363,16 +363,27 @@ def main():
         if _reached_finals(f):
             finals_counts[p] = finals_counts.get(p, 0) + 1
 
+    # Per-dimension ERAs (from build_dimension_eras.py)
+    dim_eras_path = DATA / "dimension_eras.csv"
+    dim_eras = pd.read_csv(dim_eras_path).set_index("player").to_dict("index") if dim_eras_path.exists() else {}
+
     goat = {"M": [], "F": []}
     for g in ("M", "F"):
+        # Top by Total ERA (used to pick the 50 players) then attach all
+        # dimension ERAs so the UI can sort on any.
         v_g = views[views["gender"] == g].sort_values("era_rating", ascending=False).head(50)
         for i, (_, row) in enumerate(v_g.iterrows(), 1):
             p = row["player"]
             apps_for_p = appearances[appearances["player"] == p]
+            d = dim_eras.get(p, {})
             goat[g].append({
                 "rank": i,
                 "player": p,
                 "era_rating": round(float(row["era_rating"]), 1),
+                "era_daily":  round(float(d.get("era_daily",  0)), 1),
+                "era_elim":   round(float(d.get("era_elim",   0)), 1),
+                "era_within": round(float(d.get("era_within", 0)), 1),
+                "era_field":  round(float(d.get("era_field",  0)), 1),
                 "peak_rating": round(float(row["peak_rating"]), 3),
                 "active_rating": round(float(row["active_rating"]), 3),
                 "n_snapshots": int(row["era_n_snapshots"]),
