@@ -71,35 +71,44 @@ def main():
             continue
         wt = raw_path.read_text(encoding="utf-8")
 
-        # Collect pair observations per player
-        player_partners = {}  # player -> {partner: [episode, ...]}
+        # Build per-player chronological partner sequence (preserves X→Y→X
+        # patterns by treating each transition as a new phase). For each
+        # episode, capture the player→partner mapping; then collapse
+        # consecutive same-partner episodes into a single phase.
+        ep_pairs = []
         for episode, pair in extract_pairs_from_game_summary(wt):
             if not pair or len(pair) != 2:
                 continue
-            a, b = pair
-            for me, them in [(a, b), (b, a)]:
-                player_partners.setdefault(me, {}).setdefault(them, []).append(episode or 99)
+            ep_pairs.append((episode or 0, pair[0], pair[1]))
 
-        # Find players with multiple partners
-        for player, partners in player_partners.items():
-            if len(partners) < 2:
+        # Sort by episode order
+        ep_pairs.sort(key=lambda x: x[0])
+
+        # For each player, walk episodes and record transitions
+        per_player_phases = {}  # player -> [partner_name_in_order]
+        for ep, a, b in ep_pairs:
+            for me, them in [(a, b), (b, a)]:
+                phases = per_player_phases.setdefault(me, [])
+                if not phases or phases[-1] != them:
+                    phases.append(them)
+
+        # Emit one row per phase per player (only when >1 phase exists)
+        for player, phases in per_player_phases.items():
+            if len(phases) < 2:
                 continue
-            # Order partners by first-seen episode
-            ordered = sorted(partners.items(), key=lambda kv: min(kv[1] or [99]))
-            for i, (p, eps) in enumerate(ordered, 1):
+            for i, p in enumerate(phases, 1):
                 rows.append({
                     "season_id": sid,
                     "player": player,
-                    "partner_order": i,  # 1 = original, 2+ = replacement(s)
+                    "partner_order": i,
                     "partner": p,
-                    "first_episode": min(eps) if eps else None,
-                    "last_episode": max(eps) if eps else None,
                 })
             summary_rows.append({
                 "season_id": sid,
                 "player": player,
-                "n_partners": len(partners),
-                "partners": " → ".join(p for p, _ in ordered),
+                "n_phases": len(phases),
+                "n_unique_partners": len(set(phases)),
+                "sequence": " → ".join(phases),
             })
 
     df = pd.DataFrame(rows)

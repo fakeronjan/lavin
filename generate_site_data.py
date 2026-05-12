@@ -158,32 +158,20 @@ def main():
     # Elim positions per (season, player) — used for "1st eliminated" / "3rd of 12" labels
     elim_pos = compute_elim_positions(eliminations, gmap, appearances)
 
-    # Mid-season partner-change history (from audit_partner_changes.py)
-    # Maps (season_id, player) → ordered list of {partner, first_ep, last_ep}.
-    # Only used for seasons where the cast table had pair structure — for
-    # individual-format seasons, multi-icon cells (Tribunal etc.) wrongly
-    # look like "partner changes" so we'd ignore them.
-    pair_seasons = set(
-        appearances[appearances["pair_id"].notna() & (appearances["pair_id"] != "")]
-        ["season_id"].unique()
-    )
+    # Mid-season partner sequence (from audit_partner_changes.py).
+    # Maps (season_id, player) → ordered list of partner names. Preserves
+    # X→Y→X back-to-original transitions. Applied across ALL seasons where
+    # detected — including rotation-format seasons (S36 Double Agents,
+    # S37 Spies Lies & Allies, S41 Vets & New Threats) — because that
+    # season-long rotation IS interesting signal.
     partner_history = {}
     pc_path = DATA / "partner_changes.csv"
     if pc_path.exists():
         pc = pd.read_csv(pc_path)
-        for sid, sg in pc.groupby("season_id"):
-            if sid not in pair_seasons:
-                continue
-            for player, pg in sg.groupby("player"):
-                pg = pg.sort_values("partner_order")
-                partner_history[(sid, player)] = [
-                    {
-                        "partner": str(r["partner"]),
-                        "first_episode": int(r["first_episode"]) if not pd.isna(r["first_episode"]) else None,
-                        "last_episode":  int(r["last_episode"])  if not pd.isna(r["last_episode"])  else None,
-                    }
-                    for _, r in pg.iterrows()
-                ]
+        for (sid, player), pg in pc.groupby(["season_id", "player"]):
+            partner_history[(sid, player)] = [
+                str(r["partner"]) for _, r in pg.sort_values("partner_order").iterrows()
+            ]
 
     DOCS_SEASONS.mkdir(parents=True, exist_ok=True)
     DOCS_PLAYERS.mkdir(parents=True, exist_ok=True)
@@ -271,6 +259,7 @@ def main():
                     "elim_position": ep[0] if ep else None,
                     "elim_total":    ep[1] if ep else None,
                     "partner": partner,
+                    "partners_history": partner_history.get((sid, p), []),
                     "team": team,
                     "forced_exit": forced_exit,
                 })
@@ -518,7 +507,7 @@ def main():
             f_label, f_ep = standardize_finish(finish_str)
             forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
             ep = elim_pos.get((sid, p))
-            partners_list = partner_history.get((sid, p), [])
+            partners_history = partner_history.get((sid, p), [])
             seasons_data.append({
                 "season_id": sid,
                 "season_num": int(srow["season_num"]),
@@ -532,7 +521,7 @@ def main():
                 "elim_total":    ep[1] if ep else None,
                 "rating_at_end": round(rating_end, 3),
                 "partner": partner,
-                "partners_history": partners_list,
+                "partners_history": partners_history,
                 "team": team,
                 "forced_exit": forced_exit,
             })
