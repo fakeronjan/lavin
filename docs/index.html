@@ -226,12 +226,35 @@
 
   .neg { color: #c62828; }
   .pos { color: #2e7d32; }
+
+  /* Side-by-side Men/Women panels for Standings, Champions, GOAT */
+  .split-tables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .split-pane { min-width: 0; }
+  .split-heading {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a6b8a;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #d8d6d0;
+  }
+  /* Champions uses a 3-col table (season | M | F) instead of split-tables.
+     No extra rules needed beyond default. */
+  @media (max-width: 880px) {
+    .split-tables { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>LAVIN 🏆</h1>
+  <h1>LAVIN 💪🤫🍷</h1>
   <p class="subtitle">The Challenge Power Rankings · Alpha</p>
   <p class="model-note">
     Head-to-head WLS ratings derived from elimination wins, daily wins, and finals placements across S5-S41.
@@ -252,16 +275,20 @@
 
 <!-- ── STANDINGS ────────────────────────────────────────────────────────── -->
 <div id="standings" class="tab active">
-  <div class="gender-pills" id="standings-gender">
-    <button class="active" data-gender="M">Men</button>
-    <button data-gender="F">Women</button>
-  </div>
   <div class="controls">
     <select id="season-select"></select>
-    <span class="count-label" id="standings-count"></span>
   </div>
-  <p class="data-note">Ratings shown at the end of the selected season. Filtered to that season's cast.</p>
-  <div id="standings-table"><p class="loading">Loading…</p></div>
+  <p class="data-note">Ratings at the end of the selected season, filtered to that season's cast.</p>
+  <div class="split-tables">
+    <div class="split-pane">
+      <h3 class="split-heading">Men</h3>
+      <div id="standings-table-M"><p class="loading">Loading…</p></div>
+    </div>
+    <div class="split-pane">
+      <h3 class="split-heading">Women</h3>
+      <div id="standings-table-F"><p class="loading">Loading…</p></div>
+    </div>
+  </div>
 </div>
 
 <!-- ── PLAYER SUMMARY ─────────────────────────────────────────────────── -->
@@ -278,28 +305,29 @@
 
 <!-- ── CHAMPIONS ──────────────────────────────────────────────────────── -->
 <div id="champions" class="tab">
-  <div class="gender-pills" id="champions-gender">
-    <button class="active" data-gender="M">Men</button>
-    <button data-gender="F">Women</button>
-  </div>
-  <p class="data-note">All season winners, most recent first.</p>
+  <p class="data-note">Every season's champions, most recent first.</p>
   <div id="champions-table"><p class="loading">Loading…</p></div>
 </div>
 
 <!-- ── GOAT ───────────────────────────────────────────────────────────── -->
 <div id="goat" class="tab">
-  <div class="gender-pills" id="goat-gender">
-    <button class="active" data-gender="M">Men</button>
-    <button data-gender="F">Women</button>
-  </div>
   <div class="controls">
     <button id="goat-view-career" class="goat-view active">Best Careers (ERA)</button>
     <button id="goat-view-seasons" class="goat-view">Best Single Seasons</button>
   </div>
   <p class="data-note" id="goat-note">
-    Top 50 careers by cumulative positive rating contribution. Rewards quality × longevity.
+    Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.
   </p>
-  <div id="goat-table"><p class="loading">Loading…</p></div>
+  <div class="split-tables">
+    <div class="split-pane">
+      <h3 class="split-heading">Men</h3>
+      <div id="goat-table-M"><p class="loading">Loading…</p></div>
+    </div>
+    <div class="split-pane">
+      <h3 class="split-heading">Women</h3>
+      <div id="goat-table-F"><p class="loading">Loading…</p></div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -402,33 +430,32 @@ async function renderStandings() {
   const sid = document.getElementById('season-select').value;
   if (!sid) return;
   const data = await fetchJSON(`seasons/${sid}.json`);
-  const standings = data.standings_at_end[state.standingsGender] || [];
-  document.getElementById('standings-count').textContent = `${standings.length} ${state.standingsGender === 'M' ? 'men' : 'women'}`;
-  if (!standings.length) {
-    document.getElementById('standings-table').innerHTML = '<p class="empty">No ratings published for this season-gender combination.</p>';
-    return;
+  for (const g of ['M', 'F']) {
+    const standings = data.standings_at_end[g] || [];
+    const wrap = document.getElementById(`standings-table-${g}`);
+    if (!standings.length) {
+      wrap.innerHTML = '<p class="empty">No ratings published.</p>';
+      continue;
+    }
+    const rows = standings.map(s => `
+      <tr>
+        <td class="rank-col">${s.rank}</td>
+        <td class="player linked" data-player="${s.player}">${s.player}</td>
+        <td class="num">${fmtRating(s.rating)}</td>
+        <td>${fmtFinish(s.finish)}</td>
+      </tr>
+    `).join('');
+    wrap.innerHTML = `
+      <table>
+        <thead><tr>
+          <th class="rank-col">Rank</th><th>Player</th><th>Rating</th><th>Finish</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
   }
-  const rows = standings.map(s => `
-    <tr>
-      <td class="rank-col">#${s.rank}</td>
-      <td class="player linked" data-player="${s.player}">${s.player}</td>
-      <td class="num">${fmtRating(s.rating)}</td>
-      <td>${fmtFinish(s.finish)}</td>
-      <td class="num">${s.n_events}</td>
-    </tr>
-  `).join('');
-  document.getElementById('standings-table').innerHTML = `
-    <table>
-      <thead><tr>
-        <th class="rank-col">#</th><th>Player</th><th>Rating</th><th>Finish</th><th>Events (window)</th>
-      </tr></thead>
-      <tbody>${rows}</tbody>
-    </table>
-  `;
   attachPlayerLinks();
 }
-
-bindGenderPills('standings-gender', 'standingsGender', renderStandings);
 
 // ════════════════════════════════════════════════════════════════
 // PLAYER SUMMARY
@@ -487,19 +514,52 @@ async function renderPlayer() {
 
 function drawTimeline(p) {
   const svg = document.getElementById('player-chart');
-  if (!p.timeline.length) return;
-  const W = svg.clientWidth, H = svg.clientHeight, pad = 24;
+  if (!p.timeline.length) { svg.innerHTML = ''; return; }
+  const W = svg.clientWidth, H = svg.clientHeight;
+  const padL = 32, padR = 12, padT = 16, padB = 28;
+  const innerW = W - padL - padR, innerH = H - padT - padB;
+
   const minR = Math.min(...p.timeline.map(t => t.rating), -0.5);
   const maxR = Math.max(...p.timeline.map(t => t.rating), 0.5);
-  const xs = i => pad + (W - 2*pad) * (i / (p.timeline.length - 1 || 1));
-  const ys = r => H - pad - (H - 2*pad) * ((r - minR) / (maxR - minR || 1));
-  let path = p.timeline.map((t, i) => `${i ? 'L' : 'M'} ${xs(i)} ${ys(t.rating)}`).join(' ');
+  const xs = i => padL + innerW * (i / (p.timeline.length - 1 || 1));
+  const ys = r => padT + innerH - innerH * ((r - minR) / (maxR - minR || 1));
+
+  // Find season transition indexes
+  const transitions = [];
+  let prevSid = null;
+  p.timeline.forEach((t, i) => {
+    if (t.season_id !== prevSid) {
+      transitions.push({ idx: i, season_id: t.season_id });
+      prevSid = t.season_id;
+    }
+  });
+
+  // Build path
+  const path = p.timeline.map((t, i) => `${i ? 'L' : 'M'} ${xs(i)} ${ys(t.rating)}`).join(' ');
   const zero = ys(0);
+
+  // Build season tick lines + labels (label every season; collapse if too dense)
+  const minLabelGap = 28;  // px
+  let lastLabelX = -Infinity;
+  const ticks = transitions.map(t => {
+    const x = xs(t.idx);
+    const m = t.season_id.match(/^s(\d+)/);
+    const label = m ? `S${parseInt(m[1])}` : '';
+    const showLabel = x - lastLabelX >= minLabelGap;
+    if (showLabel) lastLabelX = x;
+    return `
+      <line x1="${x}" y1="${padT}" x2="${x}" y2="${padT + innerH}" stroke="#eee" stroke-width="1"/>
+      ${showLabel ? `<text x="${x}" y="${H - 8}" font-size="9" fill="#888" text-anchor="middle">${label}</text>` : ''}
+    `;
+  }).join('');
+
   svg.innerHTML = `
-    <line x1="${pad}" y1="${zero}" x2="${W-pad}" y2="${zero}" stroke="#ddd" stroke-dasharray="3,3"/>
+    <line x1="${padL}" y1="${zero}" x2="${W - padR}" y2="${zero}" stroke="#999" stroke-dasharray="3,3"/>
+    ${ticks}
     <path d="${path}" fill="none" stroke="#1a6b8a" stroke-width="2"/>
-    <text x="${pad}" y="${pad-6}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
-    <text x="${pad}" y="${H-pad+12}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
+    <text x="4" y="${padT + 4}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
+    <text x="4" y="${zero + 3}" font-size="10" fill="#999">0</text>
+    <text x="4" y="${H - padB + 2}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
   `;
 }
 
@@ -517,24 +577,34 @@ async function loadChampions() {
 function renderChampions() {
   const data = state._champions;
   if (!data) return;
-  const list = data[state.championsGender] || [];
-  const rows = list.map(c => `
+  // Build a combined season list. Most seasons have both M+F winners
+  // (some only one gender if format-specific). Index by season_id.
+  const bySeason = {};
+  for (const g of ['M', 'F']) {
+    for (const c of (data[g] || [])) {
+      if (!bySeason[c.season_id]) bySeason[c.season_id] = { label: c.label, season_num: c.season_num, M: [], F: [] };
+      bySeason[c.season_id][g].push(c);
+    }
+  }
+  const seasons = Object.values(bySeason).sort((a, b) => b.season_num - a.season_num);
+  const cell = arr => arr.length
+    ? arr.map(c => `<span class="player linked" data-player="${c.player}">${c.player}</span> <span class="num" style="color:#888;font-size:11px">(${fmtRating(c.rating_at_end)})</span>`).join('<br>')
+    : '<span style="color:#aaa">—</span>';
+  const rows = seasons.map(s => `
     <tr>
-      <td>${c.label}</td>
-      <td class="player linked" data-player="${c.player}">${c.player}</td>
-      <td class="num">${fmtRating(c.rating_at_end)}</td>
+      <td><strong>${s.label}</strong></td>
+      <td>${cell(s.M)}</td>
+      <td>${cell(s.F)}</td>
     </tr>
   `).join('');
   document.getElementById('champions-table').innerHTML = `
     <table>
-      <thead><tr><th>Season</th><th>Champion</th><th>Rating at end of season</th></tr></thead>
+      <thead><tr><th>Season</th><th>Men's Champion</th><th>Women's Champion</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
   `;
   attachPlayerLinks();
 }
-
-bindGenderPills('champions-gender', 'championsGender', renderChampions);
 
 // ════════════════════════════════════════════════════════════════
 // GOAT
@@ -548,56 +618,54 @@ async function loadGoat() {
 
 function renderGoat() {
   if (!state._goat) return;
-  const g = state.goatGender;
-  if (state.goatView === 'career') {
-    document.getElementById('goat-note').textContent =
-      'Top 50 careers by cumulative positive rating contribution (ERA). Rewards quality × longevity.';
-    const list = state._goat.career[g] || [];
-    const rows = list.map(p => `
-      <tr>
-        <td class="rank-col">#${p.rank}</td>
-        <td class="player linked" data-player="${p.player}">${p.player}</td>
-        <td class="num">${fmtEra(p.era_rating)}</td>
-        <td class="num">${fmtRating(p.peak_rating)}</td>
-        <td class="num">${fmtRating(p.active_rating)}</td>
-        <td class="num">${p.n_seasons}</td>
-        <td class="num">${p.championships}</td>
-      </tr>
-    `).join('');
-    document.getElementById('goat-table').innerHTML = `
-      <table>
-        <thead><tr>
-          <th class="rank-col">#</th><th>Player</th><th>ERA</th><th>Peak</th><th>Active</th><th>Seasons</th><th>Champs</th>
-        </tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    `;
-  } else {
-    document.getElementById('goat-note').textContent =
-      'Top 50 single-season ratings (end-of-season rating, filtered to that season\'s cast).';
-    const list = state._goat.seasons[g] || [];
-    const rows = list.map(p => `
-      <tr>
-        <td class="rank-col">#${p.rank}</td>
-        <td class="player linked" data-player="${p.player}">${p.player}</td>
-        <td>${p.season_label}</td>
-        <td class="num">${fmtRating(p.rating_at_end)}</td>
-        <td>${fmtFinish(p.finish)}</td>
-      </tr>
-    `).join('');
-    document.getElementById('goat-table').innerHTML = `
-      <table>
-        <thead><tr>
-          <th class="rank-col">#</th><th>Player</th><th>Season</th><th>Rating</th><th>Finish</th>
-        </tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    `;
+  for (const g of ['M', 'F']) {
+    const wrap = document.getElementById(`goat-table-${g}`);
+    if (state.goatView === 'career') {
+      const list = state._goat.career[g] || [];
+      const rows = list.map(p => `
+        <tr>
+          <td class="rank-col">${p.rank}</td>
+          <td class="player linked" data-player="${p.player}">${p.player}</td>
+          <td class="num">${fmtEra(p.era_rating)}</td>
+          <td class="num">${fmtRating(p.peak_rating)}</td>
+          <td class="num">${p.n_seasons}</td>
+          <td class="num">${p.championships}</td>
+        </tr>
+      `).join('');
+      wrap.innerHTML = `
+        <table>
+          <thead><tr>
+            <th class="rank-col">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Champs</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    } else {
+      const list = state._goat.seasons[g] || [];
+      const rows = list.map(p => `
+        <tr>
+          <td class="rank-col">${p.rank}</td>
+          <td class="player linked" data-player="${p.player}">${p.player}</td>
+          <td>${p.season_label}</td>
+          <td class="num">${fmtRating(p.rating_at_end)}</td>
+        </tr>
+      `).join('');
+      wrap.innerHTML = `
+        <table>
+          <thead><tr>
+            <th class="rank-col">Rank</th><th>Player</th><th>Season</th><th>Rating</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    }
   }
+  // Update note text based on view
+  document.getElementById('goat-note').textContent = state.goatView === 'career'
+    ? 'Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.'
+    : 'Top 50 single-season ratings (end-of-season rating, filtered to that season\'s cast).';
   attachPlayerLinks();
 }
-
-bindGenderPills('goat-gender', 'goatGender', renderGoat);
 
 document.getElementById('goat-view-career').addEventListener('click', e => {
   state.goatView = 'career';

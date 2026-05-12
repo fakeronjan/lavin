@@ -3,7 +3,7 @@
   "safe_name": "Norman_Korpi",
   "gender": "M",
   "career": {
-    "era_rating": 8.4,
+    "era_rating": 0.2,
     "peak_rating": 0.818,
     "peak_season_id": "s05_battle_of_the_seasons",
     "active_rating": -0.082,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Eliminated in Ladder of Doom",
-      "rating_at_end": 0.218
-    },
-    {
       "season_id": "s07_the_gauntlet",
       "season_num": 7,
       "season_name": "The Gauntlet",
@@ -33,6 +24,15 @@
       "label": "S7 The Gauntlet (2004)",
       "finish": "Runners-Up in Gold Rush Part 2",
       "rating_at_end": -0.173
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Eliminated in Ladder of Doom",
+      "rating_at_end": 0.218
     }
   ],
   "timeline": [

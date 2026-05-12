@@ -3,27 +3,27 @@
   "safe_name": "Susie_Meister",
   "gender": "F",
   "career": {
-    "era_rating": 76.2,
-    "peak_rating": 0.947,
-    "peak_season_id": "s14_the_inferno_3",
-    "active_rating": 0.779,
+    "era_rating": 6.5,
+    "peak_rating": 1.417,
+    "peak_season_id": "s22_battle_of_the_exes",
+    "active_rating": 1.135,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 4,
-    "n_snapshots": 184,
-    "championships": 1,
+    "n_snapshots": 189,
+    "championships": 2,
     "elim_wins": 5,
     "elim_losses": 0,
     "daily_wins": 8
   },
   "seasons": [
     {
-      "season_id": "s11_the_gauntlet_2",
-      "season_num": 11,
-      "season_name": "The Gauntlet 2",
-      "year": 2005,
-      "label": "S11 The Gauntlet 2 (2005)",
-      "finish": "Winners in Don't Bet on It",
-      "rating_at_end": 0.66
+      "season_id": "s18_the_ruins",
+      "season_num": 18,
+      "season_name": "The Ruins",
+      "year": 2009,
+      "label": "S18 The Ruins (2009)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.43
     },
     {
       "season_id": "s14_the_inferno_3",
@@ -35,13 +35,13 @@
       "rating_at_end": 0.347
     },
     {
-      "season_id": "s18_the_ruins",
-      "season_num": 18,
-      "season_name": "The Ruins",
-      "year": 2009,
-      "label": "S18 The Ruins (2009)",
-      "finish": "Susie Meister Road Rules: Down Under 4th season / 1x champion",
-      "rating_at_end": 0.228
+      "season_id": "s11_the_gauntlet_2",
+      "season_num": 11,
+      "season_name": "The Gauntlet 2",
+      "year": 2005,
+      "label": "S11 The Gauntlet 2 (2005)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.66
     }
   ],
   "timeline": [
@@ -608,362 +608,387 @@
     {
       "ranking_id": 283,
       "season_id": "s18_the_ruins",
-      "rating": 0.228
+      "rating": 0.43
     },
     {
       "ranking_id": 284,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.22
+      "rating": 0.422
     },
     {
       "ranking_id": 285,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.283
+      "rating": 0.483
     },
     {
       "ranking_id": 286,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.283
+      "rating": 0.483
     },
     {
       "ranking_id": 288,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.27
+      "rating": 0.496
     },
     {
       "ranking_id": 289,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.27
+      "rating": 0.496
     },
     {
       "ranking_id": 290,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.244
+      "rating": 0.475
     },
     {
       "ranking_id": 292,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.35
+      "rating": 0.564
     },
     {
       "ranking_id": 295,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.343
+      "rating": 0.557
     },
     {
       "ranking_id": 296,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.282
+      "rating": 0.494
     },
     {
       "ranking_id": 297,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.299
+      "rating": 0.511
     },
     {
       "ranking_id": 298,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.31
+      "rating": 0.522
     },
     {
       "ranking_id": 300,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.273
+      "rating": 0.485
     },
     {
       "ranking_id": 303,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.252
+      "rating": 0.464
     },
     {
       "ranking_id": 304,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.246
+      "rating": 0.456
     },
     {
       "ranking_id": 305,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.266
+      "rating": 0.475
     },
     {
       "ranking_id": 306,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.247
+      "rating": 0.455
     },
     {
       "ranking_id": 308,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.299
+      "rating": 0.507
     },
     {
       "ranking_id": 309,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.299
+      "rating": 0.507
     },
     {
       "ranking_id": 310,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.284
+      "rating": 0.492
     },
     {
       "ranking_id": 312,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.237
+      "rating": 0.465
     },
     {
       "ranking_id": 313,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.261
+      "rating": 0.485
     },
     {
       "ranking_id": 314,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.221
+      "rating": 0.462
     },
     {
       "ranking_id": 316,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.178
+      "rating": 0.435
     },
     {
       "ranking_id": 317,
       "season_id": "s20_cutthroat",
-      "rating": 0.178
+      "rating": 0.435
     },
     {
       "ranking_id": 318,
       "season_id": "s20_cutthroat",
-      "rating": 0.115
+      "rating": 0.4
     },
     {
       "ranking_id": 319,
       "season_id": "s20_cutthroat",
-      "rating": 0.043
+      "rating": 0.369
     },
     {
       "ranking_id": 320,
       "season_id": "s20_cutthroat",
-      "rating": 0.148
+      "rating": 0.478
     },
     {
       "ranking_id": 321,
       "season_id": "s20_cutthroat",
-      "rating": 0.092
+      "rating": 0.446
     },
     {
       "ranking_id": 322,
       "season_id": "s20_cutthroat",
-      "rating": 0.618
+      "rating": 0.957
     },
     {
       "ranking_id": 323,
       "season_id": "s20_cutthroat",
-      "rating": 0.631
+      "rating": 0.97
     },
     {
       "ranking_id": 324,
       "season_id": "s20_cutthroat",
-      "rating": 0.629
+      "rating": 0.964
     },
     {
       "ranking_id": 325,
       "season_id": "s20_cutthroat",
-      "rating": 0.644
+      "rating": 0.979
     },
     {
       "ranking_id": 326,
       "season_id": "s20_cutthroat",
-      "rating": 0.64
+      "rating": 0.979
     },
     {
       "ranking_id": 327,
       "season_id": "s20_cutthroat",
-      "rating": 0.653
+      "rating": 0.991
     },
     {
       "ranking_id": 328,
       "season_id": "s20_cutthroat",
-      "rating": 0.688
+      "rating": 1.015
     },
     {
       "ranking_id": 329,
       "season_id": "s20_cutthroat",
-      "rating": 0.651
+      "rating": 0.98
     },
     {
       "ranking_id": 330,
       "season_id": "s20_cutthroat",
-      "rating": 0.661
+      "rating": 0.989
     },
     {
       "ranking_id": 331,
       "season_id": "s20_cutthroat",
-      "rating": 0.67
+      "rating": 1.0
     },
     {
       "ranking_id": 333,
       "season_id": "s20_cutthroat",
-      "rating": 0.67
+      "rating": 1.0
     },
     {
       "ranking_id": 334,
       "season_id": "s20_cutthroat",
-      "rating": 0.682
+      "rating": 1.038
     },
     {
       "ranking_id": 335,
       "season_id": "s21_rivals",
-      "rating": 0.635
+      "rating": 0.994
     },
     {
       "ranking_id": 336,
       "season_id": "s21_rivals",
-      "rating": 0.636
+      "rating": 0.995
     },
     {
       "ranking_id": 337,
       "season_id": "s21_rivals",
-      "rating": 0.665
+      "rating": 1.028
     },
     {
       "ranking_id": 338,
       "season_id": "s21_rivals",
-      "rating": 0.66
+      "rating": 1.025
     },
     {
       "ranking_id": 339,
       "season_id": "s21_rivals",
-      "rating": 0.66
+      "rating": 1.031
     },
     {
       "ranking_id": 340,
       "season_id": "s21_rivals",
-      "rating": 0.7
+      "rating": 1.056
     },
     {
       "ranking_id": 341,
       "season_id": "s21_rivals",
-      "rating": 0.7
+      "rating": 1.056
     },
     {
       "ranking_id": 342,
       "season_id": "s21_rivals",
-      "rating": 0.676
+      "rating": 1.041
     },
     {
       "ranking_id": 343,
       "season_id": "s21_rivals",
-      "rating": 0.708
+      "rating": 1.072
     },
     {
       "ranking_id": 344,
       "season_id": "s21_rivals",
-      "rating": 0.72
+      "rating": 1.075
     },
     {
       "ranking_id": 345,
       "season_id": "s21_rivals",
-      "rating": 0.72
+      "rating": 1.076
     },
     {
       "ranking_id": 346,
       "season_id": "s21_rivals",
-      "rating": 0.72
+      "rating": 1.076
     },
     {
       "ranking_id": 347,
       "season_id": "s21_rivals",
-      "rating": 0.724
+      "rating": 1.079
     },
     {
       "ranking_id": 348,
       "season_id": "s21_rivals",
-      "rating": 0.704
+      "rating": 1.054
     },
     {
       "ranking_id": 349,
       "season_id": "s21_rivals",
-      "rating": 0.699
+      "rating": 1.049
     },
     {
       "ranking_id": 350,
       "season_id": "s21_rivals",
-      "rating": 0.658
+      "rating": 1.013
     },
     {
       "ranking_id": 351,
       "season_id": "s21_rivals",
-      "rating": 0.658
+      "rating": 1.012
     },
     {
       "ranking_id": 352,
       "season_id": "s21_rivals",
-      "rating": 0.658
+      "rating": 1.012
     },
     {
       "ranking_id": 353,
       "season_id": "s21_rivals",
-      "rating": 0.658
+      "rating": 1.012
     },
     {
       "ranking_id": 354,
       "season_id": "s21_rivals",
-      "rating": 0.622
+      "rating": 0.98
     },
     {
       "ranking_id": 355,
       "season_id": "s21_rivals",
-      "rating": 0.698
+      "rating": 1.029
     },
     {
       "ranking_id": 356,
       "season_id": "s21_rivals",
-      "rating": 0.703
+      "rating": 1.034
     },
     {
       "ranking_id": 357,
       "season_id": "s21_rivals",
-      "rating": 0.641
+      "rating": 0.995
     },
     {
       "ranking_id": 358,
       "season_id": "s21_rivals",
-      "rating": 0.659
+      "rating": 1.026
     },
     {
       "ranking_id": 359,
       "season_id": "s21_rivals",
-      "rating": 0.706
+      "rating": 1.067
     },
     {
       "ranking_id": 360,
       "season_id": "s21_rivals",
-      "rating": 0.706
+      "rating": 1.067
     },
     {
       "ranking_id": 361,
       "season_id": "s21_rivals",
-      "rating": 0.706
+      "rating": 1.067
     },
     {
       "ranking_id": 362,
       "season_id": "s21_rivals",
-      "rating": 0.659
+      "rating": 1.089
     },
     {
       "ranking_id": 363,
       "season_id": "s21_rivals",
-      "rating": 0.711
+      "rating": 1.152
     },
     {
       "ranking_id": 364,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.73
+      "rating": 1.174
     },
     {
       "ranking_id": 365,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.779
+      "rating": 1.226
+    },
+    {
+      "ranking_id": 366,
+      "season_id": "s22_battle_of_the_exes",
+      "rating": 1.417
+    },
+    {
+      "ranking_id": 368,
+      "season_id": "s22_battle_of_the_exes",
+      "rating": 1.151
+    },
+    {
+      "ranking_id": 369,
+      "season_id": "s22_battle_of_the_exes",
+      "rating": 1.151
+    },
+    {
+      "ranking_id": 370,
+      "season_id": "s22_battle_of_the_exes",
+      "rating": 1.143
+    },
+    {
+      "ranking_id": 372,
+      "season_id": "s22_battle_of_the_exes",
+      "rating": 1.135
     }
   ]
 }

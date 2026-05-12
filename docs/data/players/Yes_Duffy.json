@@ -3,7 +3,7 @@
   "safe_name": "Yes_Duffy",
   "gender": "M",
   "career": {
-    "era_rating": 2.1,
+    "era_rating": 0.0,
     "peak_rating": 0.519,
     "peak_season_id": "s05_battle_of_the_seasons",
     "active_rating": -0.797,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Eliminated in Hang Man",
-      "rating_at_end": -0.029
-    },
-    {
       "season_id": "s06_battle_of_the_sexes",
       "season_num": 6,
       "season_name": "Battle of the Sexes",
@@ -33,6 +24,15 @@
       "label": "S6 Battle of the Sexes (2003)",
       "finish": "Eliminated in Seven Rings of Saturn",
       "rating_at_end": -0.416
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Eliminated in Hang Man",
+      "rating_at_end": -0.029
     }
   ],
   "timeline": [

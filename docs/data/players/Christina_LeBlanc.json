@@ -3,10 +3,10 @@
   "safe_name": "Christina_LeBlanc",
   "gender": "F",
   "career": {
-    "era_rating": 4.6,
-    "peak_rating": 0.388,
+    "era_rating": 0.2,
+    "peak_rating": 0.454,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.568,
+    "active_rating": -0.572,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 2,
     "n_snapshots": 91,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s27_battle_of_the_bloodlines",
-      "season_num": 27,
-      "season_name": "Battle of the Bloodlines",
-      "year": 2015,
-      "label": "S27 Battle of the Bloodlines (2015)",
-      "finish": "Eliminated in There Will Be Blood",
-      "rating_at_end": -0.613
-    },
-    {
       "season_id": "s28_rivals_iii",
       "season_num": 28,
       "season_name": "Rivals III",
@@ -33,93 +24,102 @@
       "label": "S28 Rivals III (2016)",
       "finish": "Eliminated in Rivals: Civil War",
       "rating_at_end": -0.097
+    },
+    {
+      "season_id": "s27_battle_of_the_bloodlines",
+      "season_num": 27,
+      "season_name": "Battle of the Bloodlines",
+      "year": 2015,
+      "label": "S27 Battle of the Bloodlines (2015)",
+      "finish": "Eliminated in There Will Be Blood",
+      "rating_at_end": -0.665
     }
   ],
   "timeline": [
     {
       "ranking_id": 541,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.539
+      "rating": -0.572
     },
     {
       "ranking_id": 542,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.539
+      "rating": -0.572
     },
     {
       "ranking_id": 543,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.685
+      "rating": -0.713
     },
     {
       "ranking_id": 544,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.682
+      "rating": -0.712
     },
     {
       "ranking_id": 545,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.728
+      "rating": -0.756
     },
     {
       "ranking_id": 546,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.728
+      "rating": -0.756
     },
     {
       "ranking_id": 547,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.691
+      "rating": -0.718
     },
     {
       "ranking_id": 549,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.684
+      "rating": -0.718
     },
     {
       "ranking_id": 551,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.758
+      "rating": -0.797
     },
     {
       "ranking_id": 552,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.613
+      "rating": -0.665
     },
     {
       "ranking_id": 553,
       "season_id": "s28_rivals_iii",
-      "rating": -0.581
+      "rating": -0.628
     },
     {
       "ranking_id": 556,
       "season_id": "s28_rivals_iii",
-      "rating": -0.581
+      "rating": -0.633
     },
     {
       "ranking_id": 557,
       "season_id": "s28_rivals_iii",
-      "rating": -0.62
+      "rating": -0.669
     },
     {
       "ranking_id": 560,
       "season_id": "s28_rivals_iii",
-      "rating": -0.59
+      "rating": -0.661
     },
     {
       "ranking_id": 561,
       "season_id": "s28_rivals_iii",
-      "rating": -0.606
+      "rating": -0.668
     },
     {
       "ranking_id": 562,
       "season_id": "s28_rivals_iii",
-      "rating": -0.606
+      "rating": -0.668
     },
     {
       "ranking_id": 563,
       "season_id": "s28_rivals_iii",
-      "rating": -0.593
+      "rating": -0.657
     },
     {
       "ranking_id": 565,
@@ -249,247 +249,247 @@
     {
       "ranking_id": 596,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.006
+      "rating": 0.052
     },
     {
       "ranking_id": 598,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.006
+      "rating": 0.052
     },
     {
       "ranking_id": 599,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.022
+      "rating": 0.067
     },
     {
       "ranking_id": 600,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.06
+      "rating": 0.105
     },
     {
       "ranking_id": 601,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.075
+      "rating": 0.117
     },
     {
       "ranking_id": 602,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.034
+      "rating": 0.074
     },
     {
       "ranking_id": 603,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.034
+      "rating": 0.074
     },
     {
       "ranking_id": 604,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.007
+      "rating": 0.03
     },
     {
       "ranking_id": 605,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.011
+      "rating": 0.026
     },
     {
       "ranking_id": 606,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.013
+      "rating": 0.024
     },
     {
       "ranking_id": 607,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.004
+      "rating": 0.034
     },
     {
       "ranking_id": 608,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.012
+      "rating": 0.05
     },
     {
       "ranking_id": 609,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.007
+      "rating": 0.031
     },
     {
       "ranking_id": 610,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.007
+      "rating": 0.031
     },
     {
       "ranking_id": 611,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.015
+      "rating": 0.05
     },
     {
       "ranking_id": 613,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.01
+      "rating": 0.054
     },
     {
       "ranking_id": 614,
       "season_id": "s31_vendettas",
-      "rating": 0.003
+      "rating": 0.047
     },
     {
       "ranking_id": 615,
       "season_id": "s31_vendettas",
-      "rating": 0.043
+      "rating": 0.087
     },
     {
       "ranking_id": 616,
       "season_id": "s31_vendettas",
-      "rating": -0.002
+      "rating": 0.042
     },
     {
       "ranking_id": 617,
       "season_id": "s31_vendettas",
-      "rating": 0.053
+      "rating": 0.099
     },
     {
       "ranking_id": 618,
       "season_id": "s31_vendettas",
-      "rating": 0.059
+      "rating": 0.106
     },
     {
       "ranking_id": 619,
       "season_id": "s31_vendettas",
-      "rating": 0.072
+      "rating": 0.121
     },
     {
       "ranking_id": 620,
       "season_id": "s31_vendettas",
-      "rating": 0.063
+      "rating": 0.111
     },
     {
       "ranking_id": 621,
       "season_id": "s31_vendettas",
-      "rating": 0.061
+      "rating": 0.108
     },
     {
       "ranking_id": 622,
       "season_id": "s31_vendettas",
-      "rating": 0.07
+      "rating": 0.118
     },
     {
       "ranking_id": 623,
       "season_id": "s31_vendettas",
-      "rating": 0.041
+      "rating": 0.088
     },
     {
       "ranking_id": 624,
       "season_id": "s31_vendettas",
-      "rating": 0.044
+      "rating": 0.091
     },
     {
       "ranking_id": 625,
       "season_id": "s31_vendettas",
-      "rating": 0.044
+      "rating": 0.091
     },
     {
       "ranking_id": 626,
       "season_id": "s31_vendettas",
-      "rating": 0.039
+      "rating": 0.085
     },
     {
       "ranking_id": 629,
       "season_id": "s31_vendettas",
-      "rating": 0.004
+      "rating": 0.057
     },
     {
       "ranking_id": 631,
       "season_id": "s31_vendettas",
-      "rating": 0.071
+      "rating": 0.128
     },
     {
       "ranking_id": 632,
       "season_id": "s31_vendettas",
-      "rating": 0.076
+      "rating": 0.133
     },
     {
       "ranking_id": 633,
       "season_id": "s32_final_reckoning",
-      "rating": 0.052
+      "rating": 0.111
     },
     {
       "ranking_id": 635,
       "season_id": "s32_final_reckoning",
-      "rating": 0.059
+      "rating": 0.121
     },
     {
       "ranking_id": 637,
       "season_id": "s32_final_reckoning",
-      "rating": 0.093
+      "rating": 0.156
     },
     {
       "ranking_id": 640,
       "season_id": "s32_final_reckoning",
-      "rating": 0.088
+      "rating": 0.152
     },
     {
       "ranking_id": 641,
       "season_id": "s32_final_reckoning",
-      "rating": 0.092
+      "rating": 0.146
     },
     {
       "ranking_id": 643,
       "season_id": "s32_final_reckoning",
-      "rating": 0.207
+      "rating": 0.267
     },
     {
       "ranking_id": 645,
       "season_id": "s32_final_reckoning",
-      "rating": 0.207
+      "rating": 0.267
     },
     {
       "ranking_id": 646,
       "season_id": "s32_final_reckoning",
-      "rating": 0.207
+      "rating": 0.267
     },
     {
       "ranking_id": 647,
       "season_id": "s32_final_reckoning",
-      "rating": 0.288
+      "rating": 0.351
     },
     {
       "ranking_id": 648,
       "season_id": "s32_final_reckoning",
-      "rating": 0.288
+      "rating": 0.351
     },
     {
       "ranking_id": 649,
       "season_id": "s32_final_reckoning",
-      "rating": 0.308
+      "rating": 0.369
     },
     {
       "ranking_id": 650,
       "season_id": "s32_final_reckoning",
-      "rating": 0.308
+      "rating": 0.369
     },
     {
       "ranking_id": 652,
       "season_id": "s32_final_reckoning",
-      "rating": 0.388
+      "rating": 0.454
     },
     {
       "ranking_id": 653,
       "season_id": "s32_final_reckoning",
-      "rating": 0.344
+      "rating": 0.411
     },
     {
       "ranking_id": 657,
       "season_id": "s32_final_reckoning",
-      "rating": 0.313
+      "rating": 0.384
     },
     {
       "ranking_id": 658,
       "season_id": "s32_final_reckoning",
-      "rating": 0.313
+      "rating": 0.384
     },
     {
       "ranking_id": 661,
       "season_id": "s32_final_reckoning",
-      "rating": -0.568
+      "rating": -0.572
     }
   ]
 }

@@ -3,7 +3,7 @@
   "safe_name": "Emily_Bailey",
   "gender": "F",
   "career": {
-    "era_rating": 1.1,
+    "era_rating": 0.0,
     "peak_rating": 0.157,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.348,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Runners-Up in Handsome Reward",
-      "rating_at_end": -0.213
-    },
-    {
       "season_id": "s06_battle_of_the_sexes",
       "season_num": 6,
       "season_name": "Battle of the Sexes",
@@ -33,6 +24,15 @@
       "label": "S6 Battle of the Sexes (2003)",
       "finish": "Quit in Razors Edge",
       "rating_at_end": -0.06
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Runners-Up in Handsome Reward",
+      "rating_at_end": -0.213
     }
   ],
   "timeline": [

@@ -61,21 +61,26 @@ def main():
         [["player", "active_rating", "active_ranking_id", "active_season_id"]]
     )
 
-    # ERA — cumulative POSITIVE rating contribution. Rewards quality × longevity.
-    # Also keep the mean and snapshot count for reference / debugging.
-    pos = ratings[ratings["rating"] > 0]
-    era = (
-        ratings.groupby("player")
-        .agg(era_mean=("rating", "mean"),
-             era_n_snapshots=("rating", "count"))
-        .reset_index()
+    # ERA — sum of POSITIVE end-of-season ratings across career.
+    # Reads cleaner than per-snapshot cumulative: each season contributes
+    # at most one data point (the player's rating after the season ended).
+    # Total ERA scale is intuitive: a +1.0 rating × 10 seasons = ERA 10.
+    end_of_season = (
+        ratings.sort_values("ranking_id")
+        .groupby(["player", "season_id"]).tail(1)
     )
+    pos_eos = end_of_season[end_of_season["rating"] > 0]
     era_pos = (
-        pos.groupby("player")["rating"].sum()
+        pos_eos.groupby("player")["rating"].sum()
         .rename("era_rating")
         .reset_index()
     )
-    era = era.merge(era_pos, on="player", how="left")
+    era_counts = (
+        ratings.groupby("player")
+        .agg(era_n_snapshots=("rating", "count"))
+        .reset_index()
+    )
+    era = era_counts.merge(era_pos, on="player", how="left")
     era["era_rating"] = era["era_rating"].fillna(0.0)
 
     # Join into one player-level view

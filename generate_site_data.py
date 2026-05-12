@@ -314,7 +314,7 @@ def main():
                 "finish": "" if pd.isna(ar["finish"]) else str(ar["finish"]),
                 "rating_at_end": round(rating_end, 3),
             })
-        seasons_data.sort(key=lambda x: x["season_num"])
+        seasons_data.sort(key=lambda x: x["season_num"], reverse=True)
 
         # Snapshot history (rating timeline)
         timeline = ratings[ratings["player"] == p].sort_values("ranking_id")

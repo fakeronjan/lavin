@@ -3,7 +3,7 @@
   "safe_name": "David_Broom",
   "gender": "M",
   "career": {
-    "era_rating": 4.4,
+    "era_rating": 0.3,
     "peak_rating": 0.281,
     "peak_season_id": "s11_the_gauntlet_2",
     "active_rating": -0.516,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s06_battle_of_the_sexes",
-      "season_num": 6,
-      "season_name": "Battle of the Sexes",
-      "year": 2003,
-      "label": "S6 Battle of the Sexes (2003)",
-      "finish": "Eliminated in Breath-Hold Bungee",
-      "rating_at_end": -0.313
-    },
-    {
       "season_id": "s07_the_gauntlet",
       "season_num": 7,
       "season_name": "The Gauntlet",
@@ -33,6 +24,15 @@
       "label": "S7 The Gauntlet (2004)",
       "finish": "Eliminated in Howdy Telluride",
       "rating_at_end": -0.198
+    },
+    {
+      "season_id": "s06_battle_of_the_sexes",
+      "season_num": 6,
+      "season_name": "Battle of the Sexes",
+      "year": 2003,
+      "label": "S6 Battle of the Sexes (2003)",
+      "finish": "Eliminated in Breath-Hold Bungee",
+      "rating_at_end": -0.313
     }
   ],
   "timeline": [

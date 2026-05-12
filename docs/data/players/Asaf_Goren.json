@@ -3,10 +3,10 @@
   "safe_name": "Asaf_Goren",
   "gender": "M",
   "career": {
-    "era_rating": 30.9,
-    "peak_rating": 0.869,
+    "era_rating": 1.3,
+    "peak_rating": 0.874,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.396,
+    "active_rating": 0.4,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 127,
@@ -17,6 +17,15 @@
   },
   "seasons": [
     {
+      "season_id": "s39_battle_for_a_new_champion",
+      "season_num": 39,
+      "season_name": "Battle for a New Champion",
+      "year": 2023,
+      "label": "S39 Battle for a New Champion (2023)",
+      "finish": "",
+      "rating_at_end": 0.484
+    },
+    {
       "season_id": "s35_total_madness",
       "season_num": 35,
       "season_name": "Total Madness",
@@ -24,15 +33,6 @@
       "label": "S35 Total Madness (2020)",
       "finish": "Eliminated in Mad World",
       "rating_at_end": -0.706
-    },
-    {
-      "season_id": "s39_battle_for_a_new_champion",
-      "season_num": 39,
-      "season_name": "Battle for a New Champion",
-      "year": 2023,
-      "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Eliminated <small>in Don't Let TJ Decide",
-      "rating_at_end": 0.463
     }
   ],
   "timeline": [
@@ -394,282 +394,282 @@
     {
       "ranking_id": 848,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.694
+      "rating": 0.701
     },
     {
       "ranking_id": 849,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.869
+      "rating": 0.874
     },
     {
       "ranking_id": 850,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.741
+      "rating": 0.719
     },
     {
       "ranking_id": 851,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.747
+      "rating": 0.724
     },
     {
       "ranking_id": 852,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.737
+      "rating": 0.714
     },
     {
       "ranking_id": 853,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.67
+      "rating": 0.628
     },
     {
       "ranking_id": 854,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.673
+      "rating": 0.63
     },
     {
       "ranking_id": 855,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.678
+      "rating": 0.634
     },
     {
       "ranking_id": 856,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.463
+      "rating": 0.484
     },
     {
       "ranking_id": 857,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.463
+      "rating": 0.481
     },
     {
       "ranking_id": 858,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.617
+      "rating": 0.627
     },
     {
       "ranking_id": 859,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.617
+      "rating": 0.627
     },
     {
       "ranking_id": 860,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.662
+      "rating": 0.674
     },
     {
       "ranking_id": 861,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.656
+      "rating": 0.669
     },
     {
       "ranking_id": 862,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.656
+      "rating": 0.669
     },
     {
       "ranking_id": 863,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.61
+      "rating": 0.625
     },
     {
       "ranking_id": 864,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.646
+      "rating": 0.647
     },
     {
       "ranking_id": 865,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.639
+      "rating": 0.637
     },
     {
       "ranking_id": 866,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.618
+      "rating": 0.61
     },
     {
       "ranking_id": 867,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.576
+      "rating": 0.57
     },
     {
       "ranking_id": 868,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.588
+      "rating": 0.581
     },
     {
       "ranking_id": 869,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.564
+      "rating": 0.559
     },
     {
       "ranking_id": 870,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.584
+      "rating": 0.578
     },
     {
       "ranking_id": 871,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.535
+      "rating": 0.544
     },
     {
       "ranking_id": 872,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.524
+      "rating": 0.533
     },
     {
       "ranking_id": 873,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.545
+      "rating": 0.555
     },
     {
       "ranking_id": 874,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.546
+      "rating": 0.555
     },
     {
       "ranking_id": 875,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.524
+      "rating": 0.539
     },
     {
       "ranking_id": 876,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.519
+      "rating": 0.533
     },
     {
       "ranking_id": 877,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.519
+      "rating": 0.533
     },
     {
       "ranking_id": 878,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.519
+      "rating": 0.533
     },
     {
       "ranking_id": 879,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.519
+      "rating": 0.534
     },
     {
       "ranking_id": 880,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.525
+      "rating": 0.539
     },
     {
       "ranking_id": 881,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.505
+      "rating": 0.521
     },
     {
       "ranking_id": 882,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.504
+      "rating": 0.519
     },
     {
       "ranking_id": 883,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.504
+      "rating": 0.518
     },
     {
       "ranking_id": 884,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.504
+      "rating": 0.518
     },
     {
       "ranking_id": 885,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.513
+      "rating": 0.527
     },
     {
       "ranking_id": 886,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.513
+      "rating": 0.527
     },
     {
       "ranking_id": 887,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.519
+      "rating": 0.528
     },
     {
       "ranking_id": 888,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.518
+      "rating": 0.524
     },
     {
       "ranking_id": 889,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.498
+      "rating": 0.507
     },
     {
       "ranking_id": 890,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.423
+      "rating": 0.443
     },
     {
       "ranking_id": 891,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.446
+      "rating": 0.464
     },
     {
       "ranking_id": 892,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.591
+      "rating": 0.596
     },
     {
       "ranking_id": 893,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.596
+      "rating": 0.61
     },
     {
       "ranking_id": 894,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.464
+      "rating": 0.477
     },
     {
       "ranking_id": 895,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.426
+      "rating": 0.444
     },
     {
       "ranking_id": 896,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.381
+      "rating": 0.399
     },
     {
       "ranking_id": 897,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.392
+      "rating": 0.409
     },
     {
       "ranking_id": 898,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.405
+      "rating": 0.422
     },
     {
       "ranking_id": 899,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.445
+      "rating": 0.458
     },
     {
       "ranking_id": 902,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.435
+      "rating": 0.448
     },
     {
       "ranking_id": 903,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.46
+      "rating": 0.465
     },
     {
       "ranking_id": 906,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.445
+      "rating": 0.453
     },
     {
       "ranking_id": 907,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.396
+      "rating": 0.4
     }
   ]
 }

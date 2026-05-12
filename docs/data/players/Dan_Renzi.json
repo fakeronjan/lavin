@@ -3,7 +3,7 @@
   "safe_name": "Dan_Renzi",
   "gender": "M",
   "career": {
-    "era_rating": 9.8,
+    "era_rating": 0.2,
     "peak_rating": 0.953,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.553,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s06_battle_of_the_sexes",
-      "season_num": 6,
-      "season_name": "Battle of the Sexes",
-      "year": 2003,
-      "label": "S6 Battle of the Sexes (2003)",
-      "finish": "Eliminated in People Mover",
-      "rating_at_end": 0.177
-    },
-    {
       "season_id": "s10_the_inferno_ii",
       "season_num": 10,
       "season_name": "The Inferno II",
@@ -33,6 +24,15 @@
       "label": "S10 The Inferno II (2005)",
       "finish": "Eliminated in Episode 14",
       "rating_at_end": -0.317
+    },
+    {
+      "season_id": "s06_battle_of_the_sexes",
+      "season_num": 6,
+      "season_name": "Battle of the Sexes",
+      "year": 2003,
+      "label": "S6 Battle of the Sexes (2003)",
+      "finish": "Eliminated in People Mover",
+      "rating_at_end": 0.177
     }
   ],
   "timeline": [

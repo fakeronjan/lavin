@@ -3,10 +3,10 @@
   "safe_name": "Ruthie_Alcaide",
   "gender": "F",
   "career": {
-    "era_rating": 81.9,
+    "era_rating": 4.0,
     "peak_rating": 0.945,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -1.032,
+    "active_rating": -1.015,
     "active_season_id": "s21_rivals",
     "n_seasons": 4,
     "n_snapshots": 243,
@@ -17,22 +17,13 @@
   },
   "seasons": [
     {
-      "season_id": "s06_battle_of_the_sexes",
-      "season_num": 6,
-      "season_name": "Battle of the Sexes",
-      "year": 2003,
-      "label": "S6 Battle of the Sexes (2003)",
-      "finish": "Runners-Up in Handsome Reward",
-      "rating_at_end": 0.805
-    },
-    {
-      "season_id": "s09_battle_of_the_sexes_2",
-      "season_num": 9,
-      "season_name": "Battle of the Sexes 2",
-      "year": 2004,
-      "label": "S9 Battle of the Sexes 2 (2004)",
-      "finish": "Eliminated in Episode 15",
-      "rating_at_end": 0.575
+      "season_id": "s17_the_duel_ii",
+      "season_num": 17,
+      "season_name": "The Duel II",
+      "year": 2009,
+      "label": "S17 The Duel II (2009)",
+      "finish": "Eliminated in Duelers on the Verge of a Nervous Breakdown",
+      "rating_at_end": -1.015
     },
     {
       "season_id": "s11_the_gauntlet_2",
@@ -44,13 +35,22 @@
       "rating_at_end": 0.236
     },
     {
-      "season_id": "s17_the_duel_ii",
-      "season_num": 17,
-      "season_name": "The Duel II",
-      "year": 2009,
-      "label": "S17 The Duel II (2009)",
-      "finish": "Eliminated in Duelers on the Verge of a Nervous Breakdown",
-      "rating_at_end": -1.015
+      "season_id": "s09_battle_of_the_sexes_2",
+      "season_num": 9,
+      "season_name": "Battle of the Sexes 2",
+      "year": 2004,
+      "label": "S9 Battle of the Sexes 2 (2004)",
+      "finish": "Eliminated in Episode 15",
+      "rating_at_end": 0.575
+    },
+    {
+      "season_id": "s06_battle_of_the_sexes",
+      "season_num": 6,
+      "season_name": "Battle of the Sexes",
+      "year": 2003,
+      "label": "S6 Battle of the Sexes (2003)",
+      "finish": "Runners-Up in Handsome Reward",
+      "rating_at_end": 0.805
     }
   ],
   "timeline": [
@@ -997,107 +997,107 @@
     {
       "ranking_id": 284,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.024
+      "rating": -1.023
     },
     {
       "ranking_id": 285,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.96
+      "rating": -0.961
     },
     {
       "ranking_id": 286,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.96
+      "rating": -0.961
     },
     {
       "ranking_id": 288,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.973
+      "rating": -0.956
     },
     {
       "ranking_id": 289,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.973
+      "rating": -0.956
     },
     {
       "ranking_id": 290,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.998
+      "rating": -0.974
     },
     {
       "ranking_id": 292,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.914
+      "rating": -0.901
     },
     {
       "ranking_id": 295,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.936
+      "rating": -0.922
     },
     {
       "ranking_id": 296,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.993
+      "rating": -0.983
     },
     {
       "ranking_id": 297,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.992
+      "rating": -0.982
     },
     {
       "ranking_id": 298,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.98
+      "rating": -0.97
     },
     {
       "ranking_id": 300,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.011
+      "rating": -1.003
     },
     {
       "ranking_id": 303,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.032
+      "rating": -1.024
     },
     {
       "ranking_id": 304,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.04
+      "rating": -1.033
     },
     {
       "ranking_id": 305,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.034
+      "rating": -1.028
     },
     {
       "ranking_id": 306,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.057
+      "rating": -1.05
     },
     {
       "ranking_id": 308,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.002
+      "rating": -0.995
     },
     {
       "ranking_id": 309,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.002
+      "rating": -0.995
     },
     {
       "ranking_id": 310,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.016
+      "rating": -1.01
     },
     {
       "ranking_id": 312,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -1.008
+      "rating": -1.004
     },
     {
       "ranking_id": 313,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.985
+      "rating": -0.982
     },
     {
       "ranking_id": 314,
@@ -1107,167 +1107,167 @@
     {
       "ranking_id": 316,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.993
+      "rating": -0.997
     },
     {
       "ranking_id": 317,
       "season_id": "s20_cutthroat",
-      "rating": -0.993
+      "rating": -0.997
     },
     {
       "ranking_id": 318,
       "season_id": "s20_cutthroat",
-      "rating": -0.988
+      "rating": -0.995
     },
     {
       "ranking_id": 319,
       "season_id": "s20_cutthroat",
-      "rating": -0.981
+      "rating": -0.99
     },
     {
       "ranking_id": 320,
       "season_id": "s20_cutthroat",
-      "rating": -0.869
+      "rating": -0.876
     },
     {
       "ranking_id": 321,
       "season_id": "s20_cutthroat",
-      "rating": -0.843
+      "rating": -0.851
     },
     {
       "ranking_id": 322,
       "season_id": "s20_cutthroat",
-      "rating": -0.873
+      "rating": -0.871
     },
     {
       "ranking_id": 323,
       "season_id": "s20_cutthroat",
-      "rating": -0.886
+      "rating": -0.885
     },
     {
       "ranking_id": 324,
       "season_id": "s20_cutthroat",
-      "rating": -0.884
+      "rating": -0.882
     },
     {
       "ranking_id": 325,
       "season_id": "s20_cutthroat",
-      "rating": -0.87
+      "rating": -0.868
     },
     {
       "ranking_id": 326,
       "season_id": "s20_cutthroat",
-      "rating": -0.859
+      "rating": -0.857
     },
     {
       "ranking_id": 327,
       "season_id": "s20_cutthroat",
-      "rating": -0.85
+      "rating": -0.848
     },
     {
       "ranking_id": 328,
       "season_id": "s20_cutthroat",
-      "rating": -0.847
+      "rating": -0.845
     },
     {
       "ranking_id": 329,
       "season_id": "s20_cutthroat",
-      "rating": -0.889
+      "rating": -0.888
     },
     {
       "ranking_id": 330,
       "season_id": "s20_cutthroat",
-      "rating": -0.897
+      "rating": -0.895
     },
     {
       "ranking_id": 331,
       "season_id": "s20_cutthroat",
-      "rating": -0.887
+      "rating": -0.885
     },
     {
       "ranking_id": 333,
       "season_id": "s20_cutthroat",
-      "rating": -0.887
+      "rating": -0.886
     },
     {
       "ranking_id": 334,
       "season_id": "s20_cutthroat",
-      "rating": -0.853
+      "rating": -0.851
     },
     {
       "ranking_id": 335,
       "season_id": "s21_rivals",
-      "rating": -0.922
+      "rating": -0.918
     },
     {
       "ranking_id": 336,
       "season_id": "s21_rivals",
-      "rating": -0.929
+      "rating": -0.926
     },
     {
       "ranking_id": 337,
       "season_id": "s21_rivals",
-      "rating": -0.953
+      "rating": -0.95
     },
     {
       "ranking_id": 338,
       "season_id": "s21_rivals",
-      "rating": -0.973
+      "rating": -0.97
     },
     {
       "ranking_id": 339,
       "season_id": "s21_rivals",
-      "rating": -0.944
+      "rating": -0.94
     },
     {
       "ranking_id": 340,
       "season_id": "s21_rivals",
-      "rating": -0.982
+      "rating": -0.978
     },
     {
       "ranking_id": 341,
       "season_id": "s21_rivals",
-      "rating": -0.982
+      "rating": -0.978
     },
     {
       "ranking_id": 342,
       "season_id": "s21_rivals",
-      "rating": -1.068
+      "rating": -1.055
     },
     {
       "ranking_id": 343,
       "season_id": "s21_rivals",
-      "rating": -1.088
+      "rating": -1.072
     },
     {
       "ranking_id": 344,
       "season_id": "s21_rivals",
-      "rating": -1.024
+      "rating": -1.006
     },
     {
       "ranking_id": 345,
       "season_id": "s21_rivals",
-      "rating": -1.023
+      "rating": -1.005
     },
     {
       "ranking_id": 346,
       "season_id": "s21_rivals",
-      "rating": -1.023
+      "rating": -1.005
     },
     {
       "ranking_id": 347,
       "season_id": "s21_rivals",
-      "rating": -1.014
+      "rating": -0.997
     },
     {
       "ranking_id": 348,
       "season_id": "s21_rivals",
-      "rating": -1.028
+      "rating": -1.01
     },
     {
       "ranking_id": 349,
       "season_id": "s21_rivals",
-      "rating": -1.032
+      "rating": -1.015
     }
   ]
 }

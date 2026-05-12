@@ -3,7 +3,7 @@
   "safe_name": "Holly_Shand",
   "gender": "F",
   "career": {
-    "era_rating": 36.5,
+    "era_rating": 2.6,
     "peak_rating": 0.767,
     "peak_season_id": "s11_the_gauntlet_2",
     "active_rating": 0.62,
@@ -17,6 +17,15 @@
   },
   "seasons": [
     {
+      "season_id": "s08_the_inferno",
+      "season_num": 8,
+      "season_name": "The Inferno",
+      "year": 2004,
+      "label": "S8 The Inferno (2004)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.126
+    },
+    {
       "season_id": "s05_battle_of_the_seasons",
       "season_num": 5,
       "season_name": "Battle of the Seasons",
@@ -24,15 +33,6 @@
       "label": "S5 Battle of the Seasons (2002)",
       "finish": "Eliminated in Ladder of Doom",
       "rating_at_end": -0.936
-    },
-    {
-      "season_id": "s08_the_inferno",
-      "season_num": 8,
-      "season_name": "The Inferno",
-      "year": 2004,
-      "label": "S8 The Inferno (2004)",
-      "finish": "Winners in Handsome Reward",
-      "rating_at_end": 0.126
     }
   ],
   "timeline": [

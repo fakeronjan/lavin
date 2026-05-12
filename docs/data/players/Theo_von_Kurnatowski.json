@@ -3,10 +3,10 @@
   "safe_name": "Theo_von_Kurnatowski",
   "gender": "M",
   "career": {
-    "era_rating": 80.0,
+    "era_rating": 4.9,
     "peak_rating": 1.046,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.411,
+    "active_rating": -0.438,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 4,
     "n_snapshots": 229,
@@ -17,33 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Runners-Up in Handsome Reward",
-      "rating_at_end": -0.152
-    },
-    {
-      "season_id": "s07_the_gauntlet",
-      "season_num": 7,
-      "season_name": "The Gauntlet",
-      "year": 2004,
-      "label": "S7 The Gauntlet (2004)",
-      "finish": "Winners in Gold Rush Part 2",
-      "rating_at_end": 0.24
-    },
-    {
-      "season_id": "s09_battle_of_the_sexes_2",
-      "season_num": 9,
-      "season_name": "Battle of the Sexes 2",
-      "year": 2004,
-      "label": "S9 Battle of the Sexes 2 (2004)",
-      "finish": "Winners in Episode 17",
-      "rating_at_end": 0.498
-    },
-    {
       "season_id": "s12_fresh_meat",
       "season_num": 12,
       "season_name": "Fresh Meat",
@@ -51,6 +24,33 @@
       "label": "S12 Fresh Meat (2006)",
       "finish": "Eliminated in Kenny and Tina's Triumph",
       "rating_at_end": 0.66
+    },
+    {
+      "season_id": "s09_battle_of_the_sexes_2",
+      "season_num": 9,
+      "season_name": "Battle of the Sexes 2",
+      "year": 2004,
+      "label": "S9 Battle of the Sexes 2 (2004)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.498
+    },
+    {
+      "season_id": "s07_the_gauntlet",
+      "season_num": 7,
+      "season_name": "The Gauntlet",
+      "year": 2004,
+      "label": "S7 The Gauntlet (2004)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.24
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Runners-Up in Handsome Reward",
+      "rating_at_end": -0.152
     }
   ],
   "timeline": [
@@ -912,292 +912,292 @@
     {
       "ranking_id": 232,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.347
+      "rating": 0.358
     },
     {
       "ranking_id": 233,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.347
+      "rating": 0.358
     },
     {
       "ranking_id": 234,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.37
+      "rating": 0.406
     },
     {
       "ranking_id": 235,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.244
+      "rating": 0.236
     },
     {
       "ranking_id": 236,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.245
+      "rating": 0.238
     },
     {
       "ranking_id": 237,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.245
+      "rating": 0.238
     },
     {
       "ranking_id": 238,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.245
+      "rating": 0.238
     },
     {
       "ranking_id": 239,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.245
+      "rating": 0.238
     },
     {
       "ranking_id": 240,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.15
+      "rating": 0.152
     },
     {
       "ranking_id": 241,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.149
+      "rating": 0.151
     },
     {
       "ranking_id": 242,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.149
+      "rating": 0.151
     },
     {
       "ranking_id": 243,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.14
+      "rating": 0.142
     },
     {
       "ranking_id": 244,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.148
+      "rating": 0.149
     },
     {
       "ranking_id": 245,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.147
+      "rating": 0.149
     },
     {
       "ranking_id": 246,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.155
+      "rating": 0.156
     },
     {
       "ranking_id": 247,
       "season_id": "s16_the_island",
-      "rating": 0.258
+      "rating": 0.256
     },
     {
       "ranking_id": 248,
       "season_id": "s16_the_island",
-      "rating": 0.255
+      "rating": 0.245
     },
     {
       "ranking_id": 249,
       "season_id": "s16_the_island",
-      "rating": 0.247
+      "rating": 0.239
     },
     {
       "ranking_id": 250,
       "season_id": "s16_the_island",
-      "rating": 0.277
+      "rating": 0.273
     },
     {
       "ranking_id": 251,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.394
+      "rating": 0.388
     },
     {
       "ranking_id": 252,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.394
+      "rating": 0.388
     },
     {
       "ranking_id": 253,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.394
+      "rating": 0.388
     },
     {
       "ranking_id": 254,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.394
+      "rating": 0.388
     },
     {
       "ranking_id": 255,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.268
+      "rating": 0.263
     },
     {
       "ranking_id": 256,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.264
+      "rating": 0.259
     },
     {
       "ranking_id": 257,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.255
+      "rating": 0.251
     },
     {
       "ranking_id": 258,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.267
+      "rating": 0.263
     },
     {
       "ranking_id": 259,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.271
     },
     {
       "ranking_id": 260,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.282
+      "rating": 0.278
     },
     {
       "ranking_id": 261,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.274
+      "rating": 0.27
     },
     {
       "ranking_id": 262,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.277
+      "rating": 0.272
     },
     {
       "ranking_id": 263,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.272
     },
     {
       "ranking_id": 264,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.272
     },
     {
       "ranking_id": 265,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.272
     },
     {
       "ranking_id": 266,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.272
     },
     {
       "ranking_id": 267,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.272
     },
     {
       "ranking_id": 268,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.276
+      "rating": 0.272
     },
     {
       "ranking_id": 269,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.278
+      "rating": 0.274
     },
     {
       "ranking_id": 270,
       "season_id": "s18_the_ruins",
-      "rating": 0.327
+      "rating": 0.323
     },
     {
       "ranking_id": 271,
       "season_id": "s18_the_ruins",
-      "rating": 0.337
+      "rating": 0.333
     },
     {
       "ranking_id": 272,
       "season_id": "s18_the_ruins",
-      "rating": 0.337
+      "rating": 0.333
     },
     {
       "ranking_id": 273,
       "season_id": "s18_the_ruins",
-      "rating": 0.337
+      "rating": 0.333
     },
     {
       "ranking_id": 274,
       "season_id": "s18_the_ruins",
-      "rating": 0.312
+      "rating": 0.308
     },
     {
       "ranking_id": 275,
       "season_id": "s18_the_ruins",
-      "rating": 0.285
+      "rating": 0.28
     },
     {
       "ranking_id": 276,
       "season_id": "s18_the_ruins",
-      "rating": 0.181
+      "rating": 0.177
     },
     {
       "ranking_id": 277,
       "season_id": "s18_the_ruins",
-      "rating": 0.181
+      "rating": 0.177
     },
     {
       "ranking_id": 278,
       "season_id": "s18_the_ruins",
-      "rating": 0.17
+      "rating": 0.166
     },
     {
       "ranking_id": 279,
       "season_id": "s18_the_ruins",
-      "rating": 0.164
+      "rating": 0.159
     },
     {
       "ranking_id": 280,
       "season_id": "s18_the_ruins",
-      "rating": 0.164
+      "rating": 0.158
     },
     {
       "ranking_id": 281,
       "season_id": "s18_the_ruins",
-      "rating": 0.164
+      "rating": 0.158
     },
     {
       "ranking_id": 282,
       "season_id": "s18_the_ruins",
-      "rating": 0.227
+      "rating": 0.224
     },
     {
       "ranking_id": 283,
       "season_id": "s18_the_ruins",
-      "rating": 0.227
+      "rating": 0.206
     },
     {
       "ranking_id": 284,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.486
+      "rating": -0.484
     },
     {
       "ranking_id": 285,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.486
+      "rating": -0.484
     },
     {
       "ranking_id": 286,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.532
+      "rating": -0.528
     },
     {
       "ranking_id": 288,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.514
+      "rating": -0.517
     },
     {
       "ranking_id": 289,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.462
+      "rating": -0.466
     },
     {
       "ranking_id": 290,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.411
+      "rating": -0.438
     }
   ]
 }

@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Eliminated in Hang Man",
-      "rating_at_end": -0.46
-    },
-    {
       "season_id": "s10_the_inferno_ii",
       "season_num": 10,
       "season_name": "The Inferno II",
@@ -33,6 +24,15 @@
       "label": "S10 The Inferno II (2005)",
       "finish": "Eliminated in Episode 2",
       "rating_at_end": -1.095
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Eliminated in Hang Man",
+      "rating_at_end": -0.46
     }
   ],
   "timeline": [

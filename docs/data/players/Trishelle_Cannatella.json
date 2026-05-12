@@ -3,10 +3,10 @@
   "safe_name": "Trishelle_Cannatella",
   "gender": "F",
   "career": {
-    "era_rating": 21.9,
-    "peak_rating": 0.407,
-    "peak_season_id": "s25_free_agents",
-    "active_rating": -0.651,
+    "era_rating": 0.7,
+    "peak_rating": 0.372,
+    "peak_season_id": "s24_rivals_ii",
+    "active_rating": -0.466,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 4,
     "n_snapshots": 222,
@@ -17,22 +17,13 @@
   },
   "seasons": [
     {
-      "season_id": "s07_the_gauntlet",
-      "season_num": 7,
-      "season_name": "The Gauntlet",
-      "year": 2004,
-      "label": "S7 The Gauntlet (2004)",
-      "finish": "Eliminated in Inferno",
-      "rating_at_end": -0.251
-    },
-    {
-      "season_id": "s08_the_inferno",
-      "season_num": 8,
-      "season_name": "The Inferno",
-      "year": 2004,
-      "label": "S8 The Inferno (2004)",
-      "finish": "Eliminated in Climbing Wall",
-      "rating_at_end": -0.362
+      "season_id": "s24_rivals_ii",
+      "season_num": 24,
+      "season_name": "Rivals II",
+      "year": 2013,
+      "label": "S24 Rivals II (2013)",
+      "finish": "Quit in The Dark Knight Rises",
+      "rating_at_end": 0.222
     },
     {
       "season_id": "s23_battle_of_the_seasons_2012",
@@ -44,13 +35,22 @@
       "rating_at_end": 0.265
     },
     {
-      "season_id": "s24_rivals_ii",
-      "season_num": 24,
-      "season_name": "Rivals II",
-      "year": 2013,
-      "label": "S24 Rivals II (2013)",
-      "finish": "Quit in The Dark Knight Rises",
-      "rating_at_end": 0.256
+      "season_id": "s08_the_inferno",
+      "season_num": 8,
+      "season_name": "The Inferno",
+      "year": 2004,
+      "label": "S8 The Inferno (2004)",
+      "finish": "Eliminated in Climbing Wall",
+      "rating_at_end": -0.362
+    },
+    {
+      "season_id": "s07_the_gauntlet",
+      "season_num": 7,
+      "season_name": "The Gauntlet",
+      "year": 2004,
+      "label": "S7 The Gauntlet (2004)",
+      "finish": "Eliminated in Inferno",
+      "rating_at_end": -0.251
     }
   ],
   "timeline": [
@@ -832,337 +832,337 @@
     {
       "ranking_id": 474,
       "season_id": "s24_rivals_ii",
-      "rating": 0.256
+      "rating": 0.222
     },
     {
       "ranking_id": 475,
       "season_id": "s25_free_agents",
-      "rating": 0.256
+      "rating": 0.222
     },
     {
       "ranking_id": 476,
       "season_id": "s25_free_agents",
-      "rating": 0.407
+      "rating": 0.371
     },
     {
       "ranking_id": 477,
       "season_id": "s25_free_agents",
-      "rating": 0.36
+      "rating": 0.323
     },
     {
       "ranking_id": 478,
       "season_id": "s25_free_agents",
-      "rating": 0.306
+      "rating": 0.273
     },
     {
       "ranking_id": 479,
       "season_id": "s25_free_agents",
-      "rating": 0.311
+      "rating": 0.277
     },
     {
       "ranking_id": 480,
       "season_id": "s25_free_agents",
-      "rating": 0.303
+      "rating": 0.269
     },
     {
       "ranking_id": 481,
       "season_id": "s25_free_agents",
-      "rating": 0.303
+      "rating": 0.269
     },
     {
       "ranking_id": 482,
       "season_id": "s25_free_agents",
-      "rating": 0.31
+      "rating": 0.278
     },
     {
       "ranking_id": 483,
       "season_id": "s25_free_agents",
-      "rating": 0.309
+      "rating": 0.274
     },
     {
       "ranking_id": 484,
       "season_id": "s25_free_agents",
-      "rating": 0.308
+      "rating": 0.273
     },
     {
       "ranking_id": 485,
       "season_id": "s25_free_agents",
-      "rating": 0.293
+      "rating": 0.261
     },
     {
       "ranking_id": 486,
       "season_id": "s25_free_agents",
-      "rating": 0.22
+      "rating": 0.19
     },
     {
       "ranking_id": 488,
       "season_id": "s25_free_agents",
-      "rating": 0.252
+      "rating": 0.215
     },
     {
       "ranking_id": 489,
       "season_id": "s25_free_agents",
-      "rating": 0.252
+      "rating": 0.215
     },
     {
       "ranking_id": 490,
       "season_id": "s25_free_agents",
-      "rating": 0.252
+      "rating": 0.215
     },
     {
       "ranking_id": 491,
       "season_id": "s25_free_agents",
-      "rating": 0.279
+      "rating": 0.248
     },
     {
       "ranking_id": 492,
       "season_id": "s25_free_agents",
-      "rating": 0.276
+      "rating": 0.244
     },
     {
       "ranking_id": 493,
       "season_id": "s25_free_agents",
-      "rating": 0.273
+      "rating": 0.241
     },
     {
       "ranking_id": 494,
       "season_id": "s25_free_agents",
-      "rating": 0.273
+      "rating": 0.241
     },
     {
       "ranking_id": 496,
       "season_id": "s25_free_agents",
-      "rating": 0.283
+      "rating": 0.248
     },
     {
       "ranking_id": 497,
       "season_id": "s25_free_agents",
-      "rating": 0.279
+      "rating": 0.248
     },
     {
       "ranking_id": 498,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.316
+      "rating": 0.291
     },
     {
       "ranking_id": 501,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.295
+      "rating": 0.27
     },
     {
       "ranking_id": 502,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.195
+      "rating": 0.173
     },
     {
       "ranking_id": 505,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.196
+      "rating": 0.176
     },
     {
       "ranking_id": 506,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.156
+      "rating": 0.138
     },
     {
       "ranking_id": 509,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.21
+      "rating": 0.189
     },
     {
       "ranking_id": 510,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.223
+      "rating": 0.203
     },
     {
       "ranking_id": 511,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.234
+      "rating": 0.219
     },
     {
       "ranking_id": 512,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.228
+      "rating": 0.215
     },
     {
       "ranking_id": 514,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.242
+      "rating": 0.229
     },
     {
       "ranking_id": 517,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.254
+      "rating": 0.241
     },
     {
       "ranking_id": 518,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.249
+      "rating": 0.236
     },
     {
       "ranking_id": 519,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.27
+      "rating": 0.255
     },
     {
       "ranking_id": 520,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.22
+      "rating": 0.207
     },
     {
       "ranking_id": 522,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.22
+      "rating": 0.206
     },
     {
       "ranking_id": 523,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.168
+      "rating": 0.156
     },
     {
       "ranking_id": 524,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.184
+      "rating": 0.173
     },
     {
       "ranking_id": 526,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.209
+      "rating": 0.197
     },
     {
       "ranking_id": 527,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.25
+      "rating": 0.234
     },
     {
       "ranking_id": 528,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.293
+      "rating": 0.274
     },
     {
       "ranking_id": 530,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.287
+      "rating": 0.269
     },
     {
       "ranking_id": 531,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.548
+      "rating": -0.469
     },
     {
       "ranking_id": 532,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.58
+      "rating": -0.496
     },
     {
       "ranking_id": 534,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.583
+      "rating": -0.496
     },
     {
       "ranking_id": 537,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.596
+      "rating": -0.515
     },
     {
       "ranking_id": 538,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.583
+      "rating": -0.504
     },
     {
       "ranking_id": 539,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.382
+      "rating": -0.297
     },
     {
       "ranking_id": 540,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.471
+      "rating": -0.383
     },
     {
       "ranking_id": 541,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.512
+      "rating": -0.419
     },
     {
       "ranking_id": 542,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.512
+      "rating": -0.419
     },
     {
       "ranking_id": 543,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.515
+      "rating": -0.423
     },
     {
       "ranking_id": 544,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.485
+      "rating": -0.388
     },
     {
       "ranking_id": 545,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.491
+      "rating": -0.396
     },
     {
       "ranking_id": 546,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.491
+      "rating": -0.396
     },
     {
       "ranking_id": 547,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.493
+      "rating": -0.396
     },
     {
       "ranking_id": 549,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.593
+      "rating": -0.474
     },
     {
       "ranking_id": 551,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.64
+      "rating": -0.51
     },
     {
       "ranking_id": 552,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.618
+      "rating": -0.464
     },
     {
       "ranking_id": 553,
       "season_id": "s28_rivals_iii",
-      "rating": -0.577
+      "rating": -0.418
     },
     {
       "ranking_id": 556,
       "season_id": "s28_rivals_iii",
-      "rating": -0.538
+      "rating": -0.366
     },
     {
       "ranking_id": 557,
       "season_id": "s28_rivals_iii",
-      "rating": -0.581
+      "rating": -0.411
     },
     {
       "ranking_id": 560,
       "season_id": "s28_rivals_iii",
-      "rating": -0.704
+      "rating": -0.51
     },
     {
       "ranking_id": 561,
       "season_id": "s28_rivals_iii",
-      "rating": -0.652
+      "rating": -0.47
     },
     {
       "ranking_id": 562,
       "season_id": "s28_rivals_iii",
-      "rating": -0.652
+      "rating": -0.47
     },
     {
       "ranking_id": 563,
       "season_id": "s28_rivals_iii",
-      "rating": -0.651
+      "rating": -0.466
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Kina_Dean",
   "gender": "F",
   "career": {
-    "era_rating": 41.7,
+    "era_rating": 2.6,
     "peak_rating": 0.905,
     "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.451,
+    "active_rating": -0.435,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 3,
     "n_snapshots": 161,
@@ -17,24 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s09_battle_of_the_sexes_2",
-      "season_num": 9,
-      "season_name": "Battle of the Sexes 2",
-      "year": 2004,
-      "label": "S9 Battle of the Sexes 2 (2004)",
-      "finish": "Eliminated in Episode 4",
-      "rating_at_end": -0.552
-    },
-    {
-      "season_id": "s11_the_gauntlet_2",
-      "season_num": 11,
-      "season_name": "The Gauntlet 2",
-      "year": 2005,
-      "label": "S11 The Gauntlet 2 (2005)",
-      "finish": "Winners in Don't Bet on It",
-      "rating_at_end": 0.719
-    },
-    {
       "season_id": "s13_the_duel",
       "season_num": 13,
       "season_name": "The Duel",
@@ -42,6 +24,24 @@
       "label": "S13 The Duel (2006)",
       "finish": "Eliminated in Two for Two",
       "rating_at_end": 0.691
+    },
+    {
+      "season_id": "s11_the_gauntlet_2",
+      "season_num": 11,
+      "season_name": "The Gauntlet 2",
+      "year": 2005,
+      "label": "S11 The Gauntlet 2 (2005)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.719
+    },
+    {
+      "season_id": "s09_battle_of_the_sexes_2",
+      "season_num": 9,
+      "season_name": "Battle of the Sexes 2",
+      "year": 2004,
+      "label": "S9 Battle of the Sexes 2 (2004)",
+      "finish": "Eliminated in Episode 4",
+      "rating_at_end": -0.552
     }
   ],
   "timeline": [
@@ -788,67 +788,67 @@
     {
       "ranking_id": 283,
       "season_id": "s18_the_ruins",
-      "rating": -0.199
+      "rating": -0.19
     },
     {
       "ranking_id": 284,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.207
+      "rating": -0.197
     },
     {
       "ranking_id": 285,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.141
+      "rating": -0.133
     },
     {
       "ranking_id": 286,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.141
+      "rating": -0.133
     },
     {
       "ranking_id": 288,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.164
+      "rating": -0.139
     },
     {
       "ranking_id": 289,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.164
+      "rating": -0.139
     },
     {
       "ranking_id": 290,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.187
+      "rating": -0.157
     },
     {
       "ranking_id": 292,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.223
+      "rating": -0.204
     },
     {
       "ranking_id": 295,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.123
+      "rating": -0.103
     },
     {
       "ranking_id": 296,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.137
+      "rating": -0.12
     },
     {
       "ranking_id": 297,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.149
+      "rating": -0.132
     },
     {
       "ranking_id": 298,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.552
+      "rating": -0.536
     },
     {
       "ranking_id": 300,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.451
+      "rating": -0.435
     }
   ]
 }

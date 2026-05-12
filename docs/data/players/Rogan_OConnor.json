@@ -3,10 +3,10 @@
   "safe_name": "Rogan_OConnor",
   "gender": "M",
   "career": {
-    "era_rating": 21.9,
+    "era_rating": 1.2,
     "peak_rating": 0.838,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.567,
+    "active_rating": -0.542,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 112,
@@ -17,13 +17,13 @@
   },
   "seasons": [
     {
-      "season_id": "s34_war_of_the_worlds_2",
-      "season_num": 34,
-      "season_name": "War of the Worlds 2",
-      "year": 2019,
-      "label": "S34 War of the Worlds 2 (2019)",
-      "finish": "Winners in Give Me Liberty or Give Me Cash",
-      "rating_at_end": 0.785
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Eliminated in Welcome to The Challenge",
+      "rating_at_end": -0.542
     },
     {
       "season_id": "s35_total_madness",
@@ -35,13 +35,13 @@
       "rating_at_end": 0.213
     },
     {
-      "season_id": "s41_vets_and_new_threats",
-      "season_num": 41,
-      "season_name": "Vets and New Threats",
-      "year": 2025,
-      "label": "S41 Vets and New Threats (2025)",
-      "finish": "Eliminated in Welcome to The Challenge",
-      "rating_at_end": -0.567
+      "season_id": "s34_war_of_the_worlds_2",
+      "season_num": 34,
+      "season_name": "War of the Worlds 2",
+      "year": 2019,
+      "label": "S34 War of the Worlds 2 (2019)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.785
     }
   ],
   "timeline": [
@@ -558,52 +558,52 @@
     {
       "ranking_id": 894,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.521
+      "rating": -0.5
     },
     {
       "ranking_id": 895,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.626
+      "rating": -0.604
     },
     {
       "ranking_id": 896,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.552
+      "rating": -0.52
     },
     {
       "ranking_id": 897,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.635
+      "rating": -0.601
     },
     {
       "ranking_id": 898,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.71
+      "rating": -0.675
     },
     {
       "ranking_id": 899,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.628
+      "rating": -0.596
     },
     {
       "ranking_id": 902,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.613
+      "rating": -0.581
     },
     {
       "ranking_id": 903,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.731
+      "rating": -0.706
     },
     {
       "ranking_id": 906,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.745
+      "rating": -0.718
     },
     {
       "ranking_id": 907,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.567
+      "rating": -0.542
     }
   ]
 }

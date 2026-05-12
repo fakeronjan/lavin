@@ -3,10 +3,10 @@
   "safe_name": "Beth_Stolarczyk",
   "gender": "F",
   "career": {
-    "era_rating": 26.2,
+    "era_rating": 1.2,
     "peak_rating": 0.663,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.701,
+    "active_rating": -0.713,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 7,
     "n_snapshots": 244,
@@ -17,40 +17,13 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Eliminated in Hang Man",
-      "rating_at_end": -0.469
-    },
-    {
-      "season_id": "s06_battle_of_the_sexes",
-      "season_num": 6,
-      "season_name": "Battle of the Sexes",
-      "year": 2003,
-      "label": "S6 Battle of the Sexes (2003)",
-      "finish": "Eliminated in Dead Man's Drop",
-      "rating_at_end": -0.327
-    },
-    {
-      "season_id": "s10_the_inferno_ii",
-      "season_num": 10,
-      "season_name": "The Inferno II",
-      "year": 2005,
-      "label": "S10 The Inferno II (2005)",
-      "finish": "Quit in Episode 5",
-      "rating_at_end": -0.584
-    },
-    {
-      "season_id": "s11_the_gauntlet_2",
-      "season_num": 11,
-      "season_name": "The Gauntlet 2",
-      "year": 2005,
-      "label": "S11 The Gauntlet 2 (2005)",
-      "finish": "Quit in Mac-Beth",
-      "rating_at_end": 0.453
+      "season_id": "s15_the_gauntlet_iii",
+      "season_num": 15,
+      "season_name": "The Gauntlet III",
+      "year": 2008,
+      "label": "S15 The Gauntlet III (2008)",
+      "finish": "Eliminated in Match-Up of the Century",
+      "rating_at_end": -0.49
     },
     {
       "season_id": "s13_the_duel",
@@ -62,13 +35,40 @@
       "rating_at_end": 0.401
     },
     {
-      "season_id": "s15_the_gauntlet_iii",
-      "season_num": 15,
-      "season_name": "The Gauntlet III",
-      "year": 2008,
-      "label": "S15 The Gauntlet III (2008)",
-      "finish": "Eliminated in Match-Up of the Century",
-      "rating_at_end": -0.49
+      "season_id": "s11_the_gauntlet_2",
+      "season_num": 11,
+      "season_name": "The Gauntlet 2",
+      "year": 2005,
+      "label": "S11 The Gauntlet 2 (2005)",
+      "finish": "Quit in Mac-Beth",
+      "rating_at_end": 0.453
+    },
+    {
+      "season_id": "s10_the_inferno_ii",
+      "season_num": 10,
+      "season_name": "The Inferno II",
+      "year": 2005,
+      "label": "S10 The Inferno II (2005)",
+      "finish": "Quit in Episode 5",
+      "rating_at_end": -0.584
+    },
+    {
+      "season_id": "s06_battle_of_the_sexes",
+      "season_num": 6,
+      "season_name": "Battle of the Sexes",
+      "year": 2003,
+      "label": "S6 Battle of the Sexes (2003)",
+      "finish": "Eliminated in Dead Man's Drop",
+      "rating_at_end": -0.327
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Eliminated in Hang Man",
+      "rating_at_end": -0.469
     }
   ],
   "timeline": [
@@ -1110,187 +1110,187 @@
     {
       "ranking_id": 283,
       "season_id": "s18_the_ruins",
-      "rating": -0.466
+      "rating": -0.456
     },
     {
       "ranking_id": 284,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.473
+      "rating": -0.463
     },
     {
       "ranking_id": 285,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.407
+      "rating": -0.399
     },
     {
       "ranking_id": 286,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.407
+      "rating": -0.399
     },
     {
       "ranking_id": 288,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.421
+      "rating": -0.397
     },
     {
       "ranking_id": 289,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.421
+      "rating": -0.397
     },
     {
       "ranking_id": 290,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.444
+      "rating": -0.414
     },
     {
       "ranking_id": 292,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.407
+      "rating": -0.388
     },
     {
       "ranking_id": 295,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.366
+      "rating": -0.346
     },
     {
       "ranking_id": 296,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.672
+      "rating": -0.655
     },
     {
       "ranking_id": 297,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.685
+      "rating": -0.669
     },
     {
       "ranking_id": 298,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.685
+      "rating": -0.669
     },
     {
       "ranking_id": 300,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.761
+      "rating": -0.746
     },
     {
       "ranking_id": 303,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.765
+      "rating": -0.75
     },
     {
       "ranking_id": 304,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.773
+      "rating": -0.76
     },
     {
       "ranking_id": 305,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.749
+      "rating": -0.737
     },
     {
       "ranking_id": 306,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.751
+      "rating": -0.739
     },
     {
       "ranking_id": 308,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.781
+      "rating": -0.769
     },
     {
       "ranking_id": 309,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.781
+      "rating": -0.769
     },
     {
       "ranking_id": 310,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.796
+      "rating": -0.784
     },
     {
       "ranking_id": 312,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.8
+      "rating": -0.79
     },
     {
       "ranking_id": 313,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.787
+      "rating": -0.778
     },
     {
       "ranking_id": 314,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.788
+      "rating": -0.778
     },
     {
       "ranking_id": 316,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.83
+      "rating": -0.823
     },
     {
       "ranking_id": 317,
       "season_id": "s20_cutthroat",
-      "rating": -0.83
+      "rating": -0.823
     },
     {
       "ranking_id": 318,
       "season_id": "s20_cutthroat",
-      "rating": -0.829
+      "rating": -0.823
     },
     {
       "ranking_id": 319,
       "season_id": "s20_cutthroat",
-      "rating": -0.832
+      "rating": -0.826
     },
     {
       "ranking_id": 320,
       "season_id": "s20_cutthroat",
-      "rating": -0.733
+      "rating": -0.724
     },
     {
       "ranking_id": 321,
       "season_id": "s20_cutthroat",
-      "rating": -0.74
+      "rating": -0.733
     },
     {
       "ranking_id": 322,
       "season_id": "s20_cutthroat",
-      "rating": -0.85
+      "rating": -0.861
     },
     {
       "ranking_id": 323,
       "season_id": "s20_cutthroat",
-      "rating": -0.834
+      "rating": -0.845
     },
     {
       "ranking_id": 324,
       "season_id": "s20_cutthroat",
-      "rating": -0.857
+      "rating": -0.868
     },
     {
       "ranking_id": 325,
       "season_id": "s20_cutthroat",
-      "rating": -0.837
+      "rating": -0.847
     },
     {
       "ranking_id": 326,
       "season_id": "s20_cutthroat",
-      "rating": -0.647
+      "rating": -0.659
     },
     {
       "ranking_id": 327,
       "season_id": "s20_cutthroat",
-      "rating": -0.639
+      "rating": -0.651
     },
     {
       "ranking_id": 328,
       "season_id": "s20_cutthroat",
-      "rating": -0.639
+      "rating": -0.651
     },
     {
       "ranking_id": 329,
       "season_id": "s20_cutthroat",
-      "rating": -0.701
+      "rating": -0.713
     }
   ]
 }

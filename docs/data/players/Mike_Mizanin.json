@@ -3,7 +3,7 @@
   "safe_name": "Mike_Mizanin",
   "gender": "M",
   "career": {
-    "era_rating": 60.8,
+    "era_rating": 4.7,
     "peak_rating": 1.005,
     "peak_season_id": "s14_the_inferno_3",
     "active_rating": 1.005,
@@ -17,31 +17,13 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Winners in Handsome Reward",
-      "rating_at_end": 0.801
-    },
-    {
-      "season_id": "s07_the_gauntlet",
-      "season_num": 7,
-      "season_name": "The Gauntlet",
-      "year": 2004,
-      "label": "S7 The Gauntlet (2004)",
-      "finish": "Runners-Up in Gold Rush Part 2",
-      "rating_at_end": 0.177
-    },
-    {
-      "season_id": "s08_the_inferno",
-      "season_num": 8,
-      "season_name": "The Inferno",
-      "year": 2004,
-      "label": "S8 The Inferno (2004)",
-      "finish": "Runners-Up in Handsome Reward",
-      "rating_at_end": 0.194
+      "season_id": "s10_the_inferno_ii",
+      "season_num": 10,
+      "season_name": "The Inferno II",
+      "year": 2005,
+      "label": "S10 The Inferno II (2005)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.174
     },
     {
       "season_id": "s09_battle_of_the_sexes_2",
@@ -53,13 +35,31 @@
       "rating_at_end": 0.185
     },
     {
-      "season_id": "s10_the_inferno_ii",
-      "season_num": 10,
-      "season_name": "The Inferno II",
-      "year": 2005,
-      "label": "S10 The Inferno II (2005)",
-      "finish": "Winners in Episode 16",
-      "rating_at_end": 0.174
+      "season_id": "s08_the_inferno",
+      "season_num": 8,
+      "season_name": "The Inferno",
+      "year": 2004,
+      "label": "S8 The Inferno (2004)",
+      "finish": "Runners-Up in Handsome Reward",
+      "rating_at_end": 0.194
+    },
+    {
+      "season_id": "s07_the_gauntlet",
+      "season_num": 7,
+      "season_name": "The Gauntlet",
+      "year": 2004,
+      "label": "S7 The Gauntlet (2004)",
+      "finish": "Runners-Up in Gold Rush Part 2",
+      "rating_at_end": 0.177
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.801
     }
   ],
   "timeline": [

@@ -3,10 +3,10 @@
   "safe_name": "Adam_Larson",
   "gender": "M",
   "career": {
-    "era_rating": 67.4,
+    "era_rating": 3.9,
     "peak_rating": 0.969,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.852,
+    "active_rating": -0.935,
     "active_season_id": "s15_the_gauntlet_iii",
     "n_seasons": 3,
     "n_snapshots": 169,
@@ -17,24 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s05_battle_of_the_seasons",
-      "season_num": 5,
-      "season_name": "Battle of the Seasons",
-      "year": 2002,
-      "label": "S5 Battle of the Seasons (2002)",
-      "finish": "Eliminated in Slam Dunk",
-      "rating_at_end": -0.029
-    },
-    {
-      "season_id": "s07_the_gauntlet",
-      "season_num": 7,
-      "season_name": "The Gauntlet",
-      "year": 2004,
-      "label": "S7 The Gauntlet (2004)",
-      "finish": "Winners in Gold Rush Part 2",
-      "rating_at_end": 0.644
-    },
-    {
       "season_id": "s11_the_gauntlet_2",
       "season_num": 11,
       "season_name": "The Gauntlet 2",
@@ -42,6 +24,24 @@
       "label": "S11 The Gauntlet 2 (2005)",
       "finish": "Eliminated in Derrick Steps It Up",
       "rating_at_end": 0.706
+    },
+    {
+      "season_id": "s07_the_gauntlet",
+      "season_num": 7,
+      "season_name": "The Gauntlet",
+      "year": 2004,
+      "label": "S7 The Gauntlet (2004)",
+      "finish": "Winners in infobox",
+      "rating_at_end": 0.644
+    },
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Eliminated in Slam Dunk",
+      "rating_at_end": -0.029
     }
   ],
   "timeline": [
@@ -878,17 +878,17 @@
     {
       "ranking_id": 232,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.814
+      "rating": -0.859
     },
     {
       "ranking_id": 233,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.814
+      "rating": -0.859
     },
     {
       "ranking_id": 234,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.852
+      "rating": -0.935
     }
   ]
 }

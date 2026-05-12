@@ -3,7 +3,7 @@
   "safe_name": "Dustin_Zito",
   "gender": "M",
   "career": {
-    "era_rating": 33.0,
+    "era_rating": 1.3,
     "peak_rating": 0.552,
     "peak_season_id": "s27_battle_of_the_bloodlines",
     "active_rating": 0.051,
@@ -17,22 +17,13 @@
   },
   "seasons": [
     {
-      "season_id": "s22_battle_of_the_exes",
-      "season_num": 22,
-      "season_name": "Battle of the Exes",
-      "year": 2012,
-      "label": "S22 Battle of the Exes (2012)",
-      "finish": "Medically Disqualified in Where Did Our Love Go?",
-      "rating_at_end": -0.675
-    },
-    {
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "season_num": 23,
-      "season_name": "Battle of the Seasons",
-      "year": 2012,
-      "label": "S23 Battle of the Seasons (2012)",
-      "finish": "Runners-Up in Operation Desert Scorn",
-      "rating_at_end": 0.187
+      "season_id": "s26_battle_of_the_exes_ii",
+      "season_num": 26,
+      "season_name": "Battle of the Exes II",
+      "year": 2015,
+      "label": "S26 Battle of the Exes II (2015)",
+      "finish": "Eliminated in Where Is the Love?",
+      "rating_at_end": 0.259
     },
     {
       "season_id": "s25_free_agents",
@@ -44,310 +35,319 @@
       "rating_at_end": 0.277
     },
     {
-      "season_id": "s26_battle_of_the_exes_ii",
-      "season_num": 26,
-      "season_name": "Battle of the Exes II",
-      "year": 2015,
-      "label": "S26 Battle of the Exes II (2015)",
-      "finish": "Eliminated in Where Is the Love?",
-      "rating_at_end": 0.259
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "season_num": 23,
+      "season_name": "Battle of the Seasons",
+      "year": 2012,
+      "label": "S23 Battle of the Seasons (2012)",
+      "finish": "Runners-Up in Operation Desert Scorn",
+      "rating_at_end": 0.248
+    },
+    {
+      "season_id": "s22_battle_of_the_exes",
+      "season_num": 22,
+      "season_name": "Battle of the Exes",
+      "year": 2012,
+      "label": "S22 Battle of the Exes (2012)",
+      "finish": "Medically Disqualified in Where Did Our Love Go?",
+      "rating_at_end": -0.712
     }
   ],
   "timeline": [
     {
       "ranking_id": 372,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.784
+      "rating": -0.873
     },
     {
       "ranking_id": 373,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.784
+      "rating": -0.921
     },
     {
       "ranking_id": 374,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.82
+      "rating": -0.9
     },
     {
       "ranking_id": 376,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.91
+      "rating": -0.973
     },
     {
       "ranking_id": 378,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.914
+      "rating": -0.977
     },
     {
       "ranking_id": 380,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.904
+      "rating": -0.968
     },
     {
       "ranking_id": 381,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.904
+      "rating": -0.968
     },
     {
       "ranking_id": 382,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.872
+      "rating": -0.936
     },
     {
       "ranking_id": 384,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.794
+      "rating": -0.853
     },
     {
       "ranking_id": 386,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.761
+      "rating": -0.825
     },
     {
       "ranking_id": 387,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.761
+      "rating": -0.825
     },
     {
       "ranking_id": 388,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.693
+      "rating": -0.757
     },
     {
       "ranking_id": 389,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.693
+      "rating": -0.757
     },
     {
       "ranking_id": 390,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.642
+      "rating": -0.711
     },
     {
       "ranking_id": 392,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.651
+      "rating": -0.709
     },
     {
       "ranking_id": 393,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.651
+      "rating": -0.709
     },
     {
       "ranking_id": 394,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.678
+      "rating": -0.729
     },
     {
       "ranking_id": 396,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.675
+      "rating": -0.712
     },
     {
       "ranking_id": 397,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.552
+      "rating": -0.594
     },
     {
       "ranking_id": 400,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.586
+      "rating": -0.63
     },
     {
       "ranking_id": 401,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.605
+      "rating": -0.639
     },
     {
       "ranking_id": 402,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.585
+      "rating": -0.62
     },
     {
       "ranking_id": 403,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.574
+      "rating": -0.609
     },
     {
       "ranking_id": 405,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.606
+      "rating": -0.636
     },
     {
       "ranking_id": 408,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.573
+      "rating": -0.587
     },
     {
       "ranking_id": 409,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.577
+      "rating": -0.588
     },
     {
       "ranking_id": 412,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.549
+      "rating": -0.564
     },
     {
       "ranking_id": 413,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.586
+      "rating": -0.598
     },
     {
       "ranking_id": 414,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.582
+      "rating": -0.594
     },
     {
       "ranking_id": 415,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.573
+      "rating": -0.586
     },
     {
       "ranking_id": 417,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.367
+      "rating": -0.368
     },
     {
       "ranking_id": 418,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.165
+      "rating": -0.161
     },
     {
       "ranking_id": 419,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.165
+      "rating": -0.161
     },
     {
       "ranking_id": 421,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.19
+      "rating": -0.185
     },
     {
       "ranking_id": 424,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.155
+      "rating": -0.149
     },
     {
       "ranking_id": 425,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.182
+      "rating": -0.173
     },
     {
       "ranking_id": 426,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.182
+      "rating": -0.173
     },
     {
       "ranking_id": 427,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.181
+      "rating": -0.171
     },
     {
       "ranking_id": 429,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.233
+      "rating": -0.222
     },
     {
       "ranking_id": 430,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.231
+      "rating": -0.221
     },
     {
       "ranking_id": 431,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.239
+      "rating": -0.224
     },
     {
       "ranking_id": 433,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.141
+      "rating": -0.118
     },
     {
       "ranking_id": 434,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.003
+      "rating": 0.03
     },
     {
       "ranking_id": 435,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.003
+      "rating": 0.03
     },
     {
       "ranking_id": 437,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.052
+      "rating": -0.018
     },
     {
       "ranking_id": 438,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.052
+      "rating": -0.018
     },
     {
       "ranking_id": 439,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.052
+      "rating": -0.018
     },
     {
       "ranking_id": 441,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.187
+      "rating": 0.248
     },
     {
       "ranking_id": 442,
       "season_id": "s24_rivals_ii",
-      "rating": 0.382
+      "rating": 0.421
     },
     {
       "ranking_id": 443,
       "season_id": "s24_rivals_ii",
-      "rating": 0.42
+      "rating": 0.456
     },
     {
       "ranking_id": 444,
       "season_id": "s24_rivals_ii",
-      "rating": 0.442
+      "rating": 0.477
     },
     {
       "ranking_id": 445,
       "season_id": "s24_rivals_ii",
-      "rating": 0.459
+      "rating": 0.494
     },
     {
       "ranking_id": 446,
       "season_id": "s24_rivals_ii",
-      "rating": 0.482
+      "rating": 0.514
     },
     {
       "ranking_id": 447,
       "season_id": "s24_rivals_ii",
-      "rating": 0.482
+      "rating": 0.514
     },
     {
       "ranking_id": 448,
       "season_id": "s24_rivals_ii",
-      "rating": 0.482
+      "rating": 0.514
     },
     {
       "ranking_id": 449,
       "season_id": "s24_rivals_ii",
-      "rating": 0.502
+      "rating": 0.519
     },
     {
       "ranking_id": 450,
       "season_id": "s24_rivals_ii",
-      "rating": 0.502
+      "rating": 0.519
     },
     {
       "ranking_id": 451,
       "season_id": "s24_rivals_ii",
-      "rating": 0.51
+      "rating": 0.528
     },
     {
       "ranking_id": 452,
       "season_id": "s24_rivals_ii",
-      "rating": 0.519
+      "rating": 0.535
     },
     {
       "ranking_id": 453,

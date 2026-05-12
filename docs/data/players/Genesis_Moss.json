@@ -3,7 +3,7 @@
   "safe_name": "Genesis_Moss",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
+    "era_rating": 0.0,
     "peak_rating": 0.139,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.661,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s06_battle_of_the_sexes",
-      "season_num": 6,
-      "season_name": "Battle of the Sexes",
-      "year": 2003,
-      "label": "S6 Battle of the Sexes (2003)",
-      "finish": "Eliminated in Razors Edge",
-      "rating_at_end": -0.078
-    },
-    {
       "season_id": "s09_battle_of_the_sexes_2",
       "season_num": 9,
       "season_name": "Battle of the Sexes 2",
@@ -33,6 +24,15 @@
       "label": "S9 Battle of the Sexes 2 (2004)",
       "finish": "Eliminated in Episode 2",
       "rating_at_end": -0.338
+    },
+    {
+      "season_id": "s06_battle_of_the_sexes",
+      "season_num": 6,
+      "season_name": "Battle of the Sexes",
+      "year": 2003,
+      "label": "S6 Battle of the Sexes (2003)",
+      "finish": "Eliminated in Razors Edge",
+      "rating_at_end": -0.078
     }
   ],
   "timeline": [

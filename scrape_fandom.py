@@ -4,6 +4,8 @@
 # Access: MediaWiki API, no auth, custom UA to bypass Cloudflare-on-HTML
 # =========================================================
 
+import re
+
 import requests
 import mwparserfromhell as mwp
 import pandas as pd
@@ -79,6 +81,34 @@ def _team_name_from_caption(caption, table_gender):
     if c.lower() in _GENERIC_CAPTIONS:
         return ""
     return c
+
+
+def parse_season_winners(wikitext):
+    """
+    Extract authoritative list of championship-winning player names from the
+    season's `InfoboxSeason` template `|winner = ...` field.
+
+    Necessary because some team-format seasons (e.g. The Ruins S18, The
+    Inferno 3 S14) put the team name ("Champions"/"Challengers") in the
+    cast table where the finish cell would otherwise live — so cast-table-
+    derived finish text never catches that the team won. The infobox
+    `|winner` field is the canonical source.
+
+    Returns a list of canonical player wikilink-target names.
+    """
+    if not wikitext:
+        return []
+    code = mwp.parse(wikitext)
+    for tpl in code.filter_templates():
+        tname = str(tpl.name).strip().lower()
+        if "infobox" in tname and ("season" in tname or "challenge" in tname):
+            for p in tpl.params:
+                if str(p.name).strip().lower() == "winner":
+                    value = str(p.value)
+                    # Wikilink target before any | (display alias)
+                    return [m.split("|")[0].strip()
+                            for m in re.findall(r"\[\[([^\]]+)\]\]", value)]
+    return []
 
 
 def parse_contestants(wikitext):
@@ -168,11 +198,23 @@ def _extract_contestants_from_row(cells, table_gender):
         if not plain:
             continue
         pl = plain.lower()
-        if not finish and any(k in pl for k in [
-            "winner", "runner", "place", "eliminated",
-            "quit", "disqualif", "removed", "withdrew",
-            "did not", "ejected", "champion", "finalist",
-        ]):
+        # Be precise here — "champion" and "finalist" as bare keywords match
+        # bio text like "1x champion" in player cells. Use phrases or
+        # leading-position-anchored matches that only fire on actual finish
+        # cell content.
+        if not finish and (
+            re.search(r"\bwinners?\b", pl)
+            or re.search(r"\brunners?[- ]?up\b", pl)
+            or "third place" in pl or "fourth place" in pl
+            or "fifth place" in pl or "sixth place" in pl
+            or "eliminated in" in pl
+            or "disqualif" in pl
+            or pl.startswith("quit")
+            or "withdrew" in pl
+            or "ejected" in pl
+            or "did not compete" in pl
+            or "medically" in pl
+        ):
             finish = plain
             continue
         # Origin guess: cell with wikilink mentioning Real World / Road Rules
@@ -625,6 +667,17 @@ def scrape_season(season_id, page_name, out_dir):
     (season_dir / "_raw.wikitext").write_text(wt, encoding="utf-8")
 
     contestants = parse_contestants(wt)
+
+    # Authoritative championship-winner list from the season's infobox.
+    # Override the cast-table finish for these players so we never miss a
+    # championship (especially team-format seasons where the cast table
+    # caption is the team name, not the finish).
+    winners = set(parse_season_winners(wt))
+    if winners:
+        for c in contestants:
+            if c.get("player") in winners:
+                c["finish"] = f"Winners in infobox"
+
     df_c = pd.DataFrame(contestants)
     df_c.insert(0, "season_id", season_id)
     df_c.to_csv(season_dir / "contestants.csv", index=False)

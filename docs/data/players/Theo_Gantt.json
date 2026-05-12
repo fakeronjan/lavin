@@ -3,7 +3,7 @@
   "safe_name": "Theo_Gantt",
   "gender": "M",
   "career": {
-    "era_rating": 15.5,
+    "era_rating": 0.5,
     "peak_rating": 1.154,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.516,
@@ -17,15 +17,6 @@
   },
   "seasons": [
     {
-      "season_id": "s06_battle_of_the_sexes",
-      "season_num": 6,
-      "season_name": "Battle of the Sexes",
-      "year": 2003,
-      "label": "S6 Battle of the Sexes (2003)",
-      "finish": "Eliminated in Leaky River",
-      "rating_at_end": 0.49
-    },
-    {
       "season_id": "s07_the_gauntlet",
       "season_num": 7,
       "season_name": "The Gauntlet",
@@ -33,6 +24,15 @@
       "label": "S7 The Gauntlet (2004)",
       "finish": "Eliminated in Gold Rush Part 1",
       "rating_at_end": -0.013
+    },
+    {
+      "season_id": "s06_battle_of_the_sexes",
+      "season_num": 6,
+      "season_name": "Battle of the Sexes",
+      "year": 2003,
+      "label": "S6 Battle of the Sexes (2003)",
+      "finish": "Eliminated in Leaky River",
+      "rating_at_end": 0.49
     }
   ],
   "timeline": [
