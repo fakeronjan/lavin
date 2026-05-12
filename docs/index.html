@@ -16,7 +16,7 @@
   }
 
   header {
-    background: #1a1a2e;
+    background: #1a6b8a;
     color: #fff;
     padding: 20px 24px 16px;
   }
@@ -24,7 +24,7 @@
     font-size: 28px;
     font-weight: 800;
     letter-spacing: 3px;
-    color: #ffd86b;
+    color: #ff6eb4;
   }
   header p.subtitle {
     font-size: 12px;
@@ -61,8 +61,8 @@
   }
   nav button:hover { background: #f0eee8; }
   nav button.active {
-    color: #1a1a2e;
-    border-bottom-color: #ffd86b;
+    color: #1a6b8a;
+    border-bottom-color: #ff6eb4;
   }
 
   .tab { display: none; padding: 16px 20px; }
@@ -99,9 +99,9 @@
     transition: all .15s;
   }
   .gender-pills button.active {
-    background: #1a1a2e;
-    color: #ffd86b;
-    border-color: #1a1a2e;
+    background: #1a6b8a;
+    color: #ff6eb4;
+    border-color: #1a6b8a;
   }
 
   .count-label { font-size: 12px; color: #777; }
@@ -114,7 +114,7 @@
     font-size: 13px;
   }
   thead th {
-    background: #1a1a2e;
+    background: #1a6b8a;
     color: #fff;
     padding: 8px 10px;
     text-align: left;
@@ -132,13 +132,13 @@
   td.rank-col { width: 40px; color: #888; font-weight: 600; text-align: center; }
   td.num { font-variant-numeric: tabular-nums; text-align: right; }
   td.player { font-weight: 600; }
-  td.player.linked { cursor: pointer; color: #1a4d8a; }
+  td.player.linked { cursor: pointer; color: #1a6b8a; }
   td.player.linked:hover { text-decoration: underline; }
 
   .winner-badge {
     display: inline-block;
-    background: #ffd86b;
-    color: #1a1a2e;
+    background: #c8a84b;
+    color: #1a6b8a;
     padding: 1px 5px;
     border-radius: 3px;
     font-size: 10px;
@@ -148,7 +148,7 @@
   .ru-badge {
     display: inline-block;
     background: #c0c0c0;
-    color: #1a1a2e;
+    color: #444;
     padding: 1px 5px;
     border-radius: 3px;
     font-size: 10px;
@@ -224,8 +224,8 @@
     font-style: italic;
   }
 
-  .neg { color: #b00; }
-  .pos { color: #0a7; }
+  .neg { color: #c62828; }
+  .pos { color: #2e7d32; }
 </style>
 </head>
 <body>
@@ -314,9 +314,9 @@
     cursor: pointer;
   }
   .goat-view.active {
-    background: #1a1a2e;
-    color: #ffd86b;
-    border-color: #1a1a2e;
+    background: #1a6b8a;
+    color: #ff6eb4;
+    border-color: #1a6b8a;
   }
 </style>
 
@@ -497,7 +497,7 @@ function drawTimeline(p) {
   const zero = ys(0);
   svg.innerHTML = `
     <line x1="${pad}" y1="${zero}" x2="${W-pad}" y2="${zero}" stroke="#ddd" stroke-dasharray="3,3"/>
-    <path d="${path}" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <path d="${path}" fill="none" stroke="#1a6b8a" stroke-width="2"/>
     <text x="${pad}" y="${pad-6}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
     <text x="${pad}" y="${H-pad+12}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
   `;
