@@ -141,6 +141,8 @@ def build_appearances(all_data, gmap):
                 season_players[p] = {
                     "finish": str(row.get("finish") or "").strip() if not pd.isna(row.get("finish")) else "",
                     "origin": str(row.get("origin") or "").strip() if not pd.isna(row.get("origin")) else "",
+                    "team":   str(row.get("team")   or "").strip() if not pd.isna(row.get("team"))   else "",
+                    "pair_id":str(row.get("pair_id")or "").strip() if not pd.isna(row.get("pair_id"))else "",
                     "source": "cast",
                 }
 
@@ -175,6 +177,8 @@ def build_appearances(all_data, gmap):
                 "gender": gmap.get(player, ""),
                 "finish": info["finish"],
                 "origin": info["origin"],
+                "team": info.get("team", ""),
+                "pair_id": info.get("pair_id", ""),
                 "source": info["source"],
             })
     return pd.DataFrame(rows)

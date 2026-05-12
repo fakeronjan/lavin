@@ -41,64 +41,66 @@
   }
 
   nav {
+    background: #155a75;
     display: flex;
-    border-bottom: 1px solid #d8d6d0;
-    background: #fff;
+    gap: 0;
     overflow-x: auto;
   }
   nav button {
-    flex: 1 0 auto;
-    padding: 12px 16px;
+    background: none;
+    border: none;
+    color: #aaa;
+    padding: 12px 20px;
     font-size: 13px;
     font-weight: 600;
-    background: transparent;
-    border: 0;
-    border-bottom: 3px solid transparent;
-    color: #555;
     cursor: pointer;
-    transition: background .15s, color .15s;
+    letter-spacing: 0.5px;
     white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
   }
-  nav button:hover { background: #f0eee8; }
-  nav button.active {
-    color: #1a6b8a;
-    border-bottom-color: #ff6eb4;
-  }
+  nav button:hover { color: #fff; }
+  nav button.active { color: #ff6eb4; border-bottom-color: #ff6eb4; }
 
-  .tab { display: none; padding: 16px 20px; }
+  .tab { display: none; padding: 16px; max-width: 1100px; margin: 0 auto; }
   .tab.active { display: block; }
 
   .controls {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 16px;
+    gap: 10px;
+    margin-bottom: 14px;
     align-items: center;
   }
-  .controls select, .controls input {
-    padding: 6px 10px;
-    font-size: 13px;
-    border: 1px solid #d8d6d0;
+  select {
+    padding: 7px 10px;
+    border: 1px solid #ddd;
     border-radius: 4px;
+    font-size: 13px;
     background: #fff;
+    cursor: pointer;
+    min-width: 160px;
   }
-  .gender-pills {
+  /* Fleet-standard pill buttons (matches DUNCAN/LOBO/etc.) */
+  .gender-pills, .pill-row {
     display: flex;
+    flex-wrap: wrap;
     gap: 6px;
     margin-bottom: 14px;
   }
-  .gender-pills button {
-    padding: 5px 14px;
+  .gender-pills button, .pill-row button {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #155a75;
+    padding: 6px 12px;
     font-size: 12px;
     font-weight: 600;
-    background: #f0eee8;
-    border: 1px solid #d8d6d0;
-    border-radius: 14px;
-    color: #555;
+    border-radius: 999px;
     cursor: pointer;
-    transition: all .15s;
+    letter-spacing: 0.3px;
   }
-  .gender-pills button.active {
+  .gender-pills button:hover, .pill-row button:hover { background: #fafafa; }
+  .gender-pills button.active, .pill-row button.active {
     background: #1a6b8a;
     color: #ff6eb4;
     border-color: #1a6b8a;
@@ -115,13 +117,14 @@
   }
   thead th {
     background: #1a6b8a;
-    color: #fff;
-    padding: 8px 10px;
+    color: #ff6eb4;
+    padding: 10px 12px;
     text-align: left;
-    font-weight: 600;
     font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    white-space: nowrap;
   }
   tbody td {
     padding: 7px 10px;
@@ -135,36 +138,18 @@
   td.player.linked { cursor: pointer; color: #1a6b8a; }
   td.player.linked:hover { text-decoration: underline; }
 
-  .winner-badge {
-    display: inline-block;
-    background: #c8a84b;
-    color: #1a6b8a;
-    padding: 1px 5px;
-    border-radius: 3px;
+  /* Fleet-standard finish badges */
+  .finish-badge {
     font-size: 10px;
     font-weight: 700;
-    margin-left: 6px;
-  }
-  .ru-badge {
-    display: inline-block;
-    background: #c0c0c0;
-    color: #444;
-    padding: 1px 5px;
+    padding: 2px 5px;
     border-radius: 3px;
-    font-size: 10px;
-    font-weight: 700;
-    margin-left: 6px;
+    white-space: nowrap;
+    margin-right: 4px;
   }
-  .third-badge {
-    display: inline-block;
-    background: #cd7f32;
-    color: #fff;
-    padding: 1px 5px;
-    border-radius: 3px;
-    font-size: 10px;
-    font-weight: 700;
-    margin-left: 6px;
-  }
+  .finish-champion { background: #c8a84b; color: #1a6b8a; }
+  .finish-runner   { background: #ddd;    color: #444; }
+  .finish-third    { background: #cd7f32; color: #fff; }
 
   .player-header {
     background: #fff;
@@ -270,7 +255,7 @@
   <button class="active" data-tab="standings">Standings</button>
   <button data-tab="player">Player Summary</button>
   <button data-tab="champions">Champions</button>
-  <button data-tab="goat">GOAT</button>
+  <button data-tab="goat">GOAT Table</button>
 </nav>
 
 <!-- ── STANDINGS ────────────────────────────────────────────────────────── -->
@@ -311,9 +296,9 @@
 
 <!-- ── GOAT ───────────────────────────────────────────────────────────── -->
 <div id="goat" class="tab">
-  <div class="controls">
-    <button id="goat-view-career" class="goat-view active">Best Careers (ERA)</button>
-    <button id="goat-view-seasons" class="goat-view">Best Single Seasons</button>
+  <div class="pill-row">
+    <button id="goat-view-career" class="active">Best Careers (ERA)</button>
+    <button id="goat-view-seasons">Best Single Seasons</button>
   </div>
   <p class="data-note" id="goat-note">
     Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.
@@ -330,23 +315,6 @@
   </div>
 </div>
 
-<style>
-  .goat-view {
-    padding: 6px 12px;
-    font-size: 12px;
-    font-weight: 600;
-    background: #f0eee8;
-    border: 1px solid #d8d6d0;
-    border-radius: 4px;
-    color: #555;
-    cursor: pointer;
-  }
-  .goat-view.active {
-    background: #1a6b8a;
-    color: #ff6eb4;
-    border-color: #1a6b8a;
-  }
-</style>
 
 <script>
 const BASE = './data';
@@ -386,10 +354,9 @@ function fmtEra(v) {
 function fmtFinish(text) {
   if (!text) return '';
   text = String(text);
-  // Decorate with badges for finalists
-  if (/^Winners?\b/i.test(text)) return `<span class="winner-badge">W</span> ${text}`;
-  if (/^Runners?[- ]?Up/i.test(text)) return `<span class="ru-badge">2nd</span> ${text}`;
-  if (/^Third Place/i.test(text)) return `<span class="third-badge">3rd</span> ${text}`;
+  if (/^Winners?\b/i.test(text))      return `<span class="finish-badge finish-champion">🥇</span>${text}`;
+  if (/^Runners?[- ]?Up/i.test(text)) return `<span class="finish-badge finish-runner">🥈</span>${text}`;
+  if (/^Third Place/i.test(text))     return `<span class="finish-badge finish-third">🥉</span>${text}`;
   return text;
 }
 
@@ -437,14 +404,18 @@ async function renderStandings() {
       wrap.innerHTML = '<p class="empty">No ratings published.</p>';
       continue;
     }
-    const rows = standings.map(s => `
+    const rows = standings.map(s => {
+      const ctx = s.partner ? `with ${s.partner}` : s.team ? s.team : '';
+      const ctxHtml = ctx ? `<div style="font-size:11px;color:#888">${ctx}</div>` : '';
+      return `
       <tr>
         <td class="rank-col">${s.rank}</td>
-        <td class="player linked" data-player="${s.player}">${s.player}</td>
+        <td><div class="player linked" data-player="${s.player}">${s.player}</div>${ctxHtml}</td>
         <td class="num">${fmtRating(s.rating)}</td>
         <td>${fmtFinish(s.finish)}</td>
       </tr>
-    `).join('');
+    `;
+    }).join('');
     wrap.innerHTML = `
       <table>
         <thead><tr>
@@ -495,16 +466,21 @@ async function renderPlayer() {
     </div>
     <svg id="player-chart"></svg>
   `;
-  const rows = p.seasons.map(s => `
+  const rows = p.seasons.map(s => {
+    let ctx = '';
+    if (s.partner) ctx = `with <span class="player linked" data-player="${s.partner}">${s.partner}</span>`;
+    else if (s.team) ctx = s.team;
+    return `
     <tr>
-      <td>${s.label}</td>
+      <td><strong>${s.label}</strong></td>
+      <td style="font-size:12px;color:#666">${ctx}</td>
       <td>${fmtFinish(s.finish)}</td>
       <td class="num"><span class="${s.rating_at_end >= 0 ? 'pos' : 'neg'}">${fmtRating(s.rating_at_end)}</span></td>
-    </tr>
-  `).join('');
+    </tr>`;
+  }).join('');
   html += `
     <table>
-      <thead><tr><th>Season</th><th>Finish</th><th>Rating (end of season)</th></tr></thead>
+      <thead><tr><th>Season</th><th>Partner / Team</th><th>Finish</th><th>Rating (end of season)</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
   `;
@@ -577,29 +553,47 @@ async function loadChampions() {
 function renderChampions() {
   const data = state._champions;
   if (!data) return;
-  // Build a combined season list. Most seasons have both M+F winners
-  // (some only one gender if format-specific). Index by season_id.
+  // Index by season → split into winners + RUs per gender
   const bySeason = {};
   for (const g of ['M', 'F']) {
     for (const c of (data[g] || [])) {
-      if (!bySeason[c.season_id]) bySeason[c.season_id] = { label: c.label, season_num: c.season_num, M: [], F: [] };
-      bySeason[c.season_id][g].push(c);
+      if (!bySeason[c.season_id]) bySeason[c.season_id] = {
+        label: c.label, season_num: c.season_num,
+        M: { winners: [], runners_up: [] },
+        F: { winners: [], runners_up: [] },
+      };
+      const bucket = c.role === 'winner' ? 'winners' : 'runners_up';
+      bySeason[c.season_id][g][bucket].push(c);
     }
   }
   const seasons = Object.values(bySeason).sort((a, b) => b.season_num - a.season_num);
-  const cell = arr => arr.length
-    ? arr.map(c => `<span class="player linked" data-player="${c.player}">${c.player}</span> <span class="num" style="color:#888;font-size:11px">(${fmtRating(c.rating_at_end)})</span>`).join('<br>')
-    : '<span style="color:#aaa">—</span>';
+
+  const winnerCell = arr => arr.length
+    ? arr.map(c => {
+        const total = c.championship_no ? ` <span style="color:#888;font-size:11px">(#${c.championship_no})</span>` : '';
+        return `<span class="finish-badge finish-champion">🥇</span><span class="player linked" data-player="${c.player}">${c.player}</span>${total}`;
+      }).join('<br>')
+    : '<span style="color:#bbb">—</span>';
+  const ruCell = arr => arr.length
+    ? arr.map(c => `<span class="finish-badge finish-runner">🥈</span><span class="player linked" data-player="${c.player}">${c.player}</span>`).join('<br>')
+    : '<span style="color:#bbb">—</span>';
+
   const rows = seasons.map(s => `
     <tr>
       <td><strong>${s.label}</strong></td>
-      <td>${cell(s.M)}</td>
-      <td>${cell(s.F)}</td>
+      <td>${winnerCell(s.M.winners)}</td>
+      <td>${ruCell(s.M.runners_up)}</td>
+      <td>${winnerCell(s.F.winners)}</td>
+      <td>${ruCell(s.F.runners_up)}</td>
     </tr>
   `).join('');
   document.getElementById('champions-table').innerHTML = `
     <table>
-      <thead><tr><th>Season</th><th>Men's Champion</th><th>Women's Champion</th></tr></thead>
+      <thead><tr>
+        <th>Season</th>
+        <th>Men's Winner</th><th>Men's RU</th>
+        <th>Women's Winner</th><th>Women's RU</th>
+      </tr></thead>
       <tbody>${rows}</tbody>
     </table>
   `;
@@ -629,13 +623,14 @@ function renderGoat() {
           <td class="num">${fmtEra(p.era_rating)}</td>
           <td class="num">${fmtRating(p.peak_rating)}</td>
           <td class="num">${p.n_seasons}</td>
-          <td class="num">${p.championships}</td>
+          <td class="num">${p.finals_reached}</td>
+          <td class="num">${p.championships}${p.championships ? ' 🥇' : ''}</td>
         </tr>
       `).join('');
       wrap.innerHTML = `
         <table>
           <thead><tr>
-            <th class="rank-col">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Champs</th>
+            <th class="rank-col">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Finals</th><th>Champs</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>

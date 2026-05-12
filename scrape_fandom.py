@@ -669,14 +669,27 @@ def scrape_season(season_id, page_name, out_dir):
     contestants = parse_contestants(wt)
 
     # Authoritative championship-winner list from the season's infobox.
-    # Override the cast-table finish for these players so we never miss a
-    # championship (especially team-format seasons where the cast table
-    # caption is the team name, not the finish).
+    # Override the cast-table finish for these players ONLY IF the cast
+    # table didn't already give them a proper "Winners in <episode>" line
+    # (team-format seasons whose cast table uses team names as captions
+    # never give players an explicit Winner finish, so the infobox is the
+    # only source). We preserve any existing "Winners in <X>" text so the
+    # episode name doesn't get clobbered for pair/individual seasons.
     winners = set(parse_season_winners(wt))
     if winners:
+        # Reuse an existing well-formed Winners label if any contestant has one
+        existing_winners_label = ""
+        for c in contestants:
+            f = str(c.get("finish") or "")
+            if re.match(r"^Winners?\s+in\b", f, re.IGNORECASE):
+                existing_winners_label = f
+                break
+        fallback_label = existing_winners_label or "Winners"
         for c in contestants:
             if c.get("player") in winners:
-                c["finish"] = f"Winners in infobox"
+                f = str(c.get("finish") or "")
+                if not re.match(r"^Winners?\s+in\b", f, re.IGNORECASE):
+                    c["finish"] = fallback_label
 
     df_c = pd.DataFrame(contestants)
     df_c.insert(0, "season_id", season_id)

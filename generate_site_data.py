@@ -135,13 +135,24 @@ def main():
             rows = []
             for i, (_, row) in enumerate(g_snap.iterrows(), 1):
                 p = row["player"]
-                finish = cast[cast["player"] == p]["finish"].iloc[0] if (cast["player"] == p).any() else ""
+                cast_row = cast[cast["player"] == p]
+                finish = cast_row.iloc[0]["finish"] if len(cast_row) else ""
+                # Partner / team (used as a small subtitle under player name)
+                partner, team = "", ""
+                if len(cast_row):
+                    pid = str(cast_row.iloc[0].get("pair_id") or "").strip()
+                    if pid:
+                        others = [x for x in cast[cast["pair_id"] == pid]["player"] if x != p]
+                        partner = others[0] if others else ""
+                    team = str(cast_row.iloc[0].get("team") or "").strip()
                 rows.append({
                     "rank": i,
                     "player": p,
                     "rating": round(float(row["rating"]), 3),
                     "n_events": int(row["n_events"]),
                     "finish": "" if pd.isna(finish) else str(finish),
+                    "partner": partner,
+                    "team": team,
                 })
             out["standings_at_end"][g] = rows
 
@@ -150,50 +161,104 @@ def main():
     print(f"  Wrote {len(list(DOCS_SEASONS.glob('*.json')))} season files")
 
     # ---------------------------------------------------------
-    # champions.json — winners of each season (parsed from finish text)
+    # champions.json — winners + runners-up by season + running championship totals
     # ---------------------------------------------------------
     champs = {"M": [], "F": []}
-    for _, r in s5plus.iterrows():
+    # Walk seasons in ASCENDING order so we can accumulate per-player champ
+    # counts ("3rd title", "career #2", etc.).
+    s5_asc = s5plus.sort_values("season_num", ascending=True)
+    cum_champs = {}  # player → running championships count (inclusive at this season)
+
+    for _, r in s5_asc.iterrows():
         sid = r["season_id"]
         cast = apps_by_season.get(sid)
         if cast is None:
             continue
-        winners = cast[cast["finish"].fillna("").str.contains(r"^Winner", case=False, regex=True)]
-        # Get end-of-season rating for context
         sub = ratings[ratings["season_id"] == sid]
         end_snap = sub[sub["ranking_id"] == sub["ranking_id"].max()] if len(sub) else pd.DataFrame()
-        for _, w_row in winners.iterrows():
+
+        winners = cast[cast["finish"].fillna("").str.match(r"^Winners?\b", case=False)]
+        runners = cast[cast["finish"].fillna("").str.match(r"^Runners?[- ]?Up\b", case=False)]
+
+        def make_entry(w_row, role):
             p = str(w_row["player"])
             g = gmap.get(p, "")
             if g not in ("M", "F"):
-                continue
+                return None
             rating_row = end_snap[end_snap["player"] == p]
             rating = float(rating_row.iloc[0]["rating"]) if len(rating_row) else None
-            champs[g].append({
+            count_now = None
+            if role == "winner":
+                cum_champs[p] = cum_champs.get(p, 0) + 1
+                count_now = cum_champs[p]
+            return g, {
                 "season_id": sid,
                 "season_num": int(r["season_num"]),
                 "season_name": r["season_name"],
                 "year": int(r["year"]),
                 "label": season_label(sid, seasons),
+                "role": role,
                 "player": p,
+                "championship_no": count_now,  # this player's nth championship (only for winners)
                 "rating_at_end": round(rating, 3) if rating is not None else None,
-            })
-    # Sort each gender's champions by season descending
+            }
+
+        season_entries = {"M": {"winners": [], "runners_up": []},
+                          "F": {"winners": [], "runners_up": []}}
+        for _, w_row in winners.iterrows():
+            r2 = make_entry(w_row, "winner")
+            if r2:
+                g, e = r2; season_entries[g]["winners"].append(e)
+        for _, w_row in runners.iterrows():
+            r2 = make_entry(w_row, "runner_up")
+            if r2:
+                g, e = r2; season_entries[g]["runners_up"].append(e)
+
+        for g in ("M", "F"):
+            for e in season_entries[g]["winners"]:
+                champs[g].append(e)
+            for e in season_entries[g]["runners_up"]:
+                champs[g].append(e)
+
+    # Sort each gender's champions by season descending for display
+    champs["M"].sort(key=lambda x: (x["season_num"], 0 if x["role"] == "winner" else 1), reverse=True)
+    champs["F"].sort(key=lambda x: (x["season_num"], 0 if x["role"] == "winner" else 1), reverse=True)
+    # Re-sort by season descending while keeping winners before runners-up within season
     champs["M"].sort(key=lambda x: x["season_num"], reverse=True)
     champs["F"].sort(key=lambda x: x["season_num"], reverse=True)
     (DOCS_DATA / "champions.json").write_text(json.dumps(champs, indent=2))
-    print(f"  Wrote champions.json (M:{len(champs['M'])}, F:{len(champs['F'])})")
+    n_w_m = sum(1 for c in champs["M"] if c["role"] == "winner")
+    n_w_f = sum(1 for c in champs["F"] if c["role"] == "winner")
+    print(f"  Wrote champions.json (M winners:{n_w_m}, F winners:{n_w_f})")
 
     # ---------------------------------------------------------
     # goat_players.json — top 50 ERA by gender
     # ---------------------------------------------------------
+    # Pre-compute championships and finals-reached counts per player.
+    def _has_winner(s):
+        return bool(re.match(r"^Winners?\b", str(s), re.IGNORECASE))
+    def _reached_finals(s):
+        s = str(s)
+        return any(re.match(p, s, re.IGNORECASE) for p in [
+            r"^Winners?\b", r"^Runners?[- ]?up\b",
+            r"^Third\b", r"^Fourth\b", r"^Fifth\b", r"^Sixth\b",
+        ])
+
+    champ_counts = {}
+    finals_counts = {}
+    for _, ar in appearances.iterrows():
+        p = ar["player"]
+        f = ar["finish"]
+        if _has_winner(f):
+            champ_counts[p] = champ_counts.get(p, 0) + 1
+        if _reached_finals(f):
+            finals_counts[p] = finals_counts.get(p, 0) + 1
+
     goat = {"M": [], "F": []}
     for g in ("M", "F"):
         v_g = views[views["gender"] == g].sort_values("era_rating", ascending=False).head(50)
         for i, (_, row) in enumerate(v_g.iterrows(), 1):
             p = row["player"]
-            cs = sum(1 for _, ar in apps_by_season.items()
-                     if ((ar["player"] == p) & ar["finish"].fillna("").str.contains(r"^Winner", case=False, regex=True)).any())
             apps_for_p = appearances[appearances["player"] == p]
             goat[g].append({
                 "rank": i,
@@ -203,7 +268,8 @@ def main():
                 "active_rating": round(float(row["active_rating"]), 3),
                 "n_snapshots": int(row["era_n_snapshots"]),
                 "n_seasons": int(apps_for_p["season_id"].nunique()),
-                "championships": int(cs),
+                "championships": int(champ_counts.get(p, 0)),
+                "finals_reached": int(finals_counts.get(p, 0)),
                 "peak_season": row["peak_season_id"],
             })
     (DOCS_DATA / "goat_players.json").write_text(json.dumps(goat, indent=2))
@@ -288,6 +354,16 @@ def main():
     elims_by_player_l = eliminations.groupby("loser").size()
     dailies_by_player = dailies.groupby("winner").size()
 
+    # Pre-build a partner lookup: (season, pair_id) → list of players
+    # We resolve a player's partner by finding the OTHER player with same pair_id in same season.
+    pair_lookup = {}
+    for _, ar in appearances.iterrows():
+        pid = str(ar.get("pair_id") or "").strip()
+        if not pid:
+            continue
+        key = (ar["season_id"], pid)
+        pair_lookup.setdefault(key, []).append(str(ar["player"]))
+
     for _, row in elig.iterrows():
         p = row["player"]
         sf = safe_filename(p)
@@ -305,6 +381,14 @@ def main():
                 continue
             sub_sorted = sub.sort_values("ranking_id")
             rating_end = float(sub_sorted.iloc[-1]["rating"])
+            # Partner: other player sharing this season's pair_id
+            partner = ""
+            pid = str(ar.get("pair_id") or "").strip()
+            if pid:
+                others = [x for x in pair_lookup.get((sid, pid), []) if x != p]
+                partner = others[0] if others else ""
+            t_raw = ar.get("team")
+            team = "" if pd.isna(t_raw) else str(t_raw).strip()
             seasons_data.append({
                 "season_id": sid,
                 "season_num": int(srow["season_num"]),
@@ -313,6 +397,8 @@ def main():
                 "label": season_label(sid, seasons),
                 "finish": "" if pd.isna(ar["finish"]) else str(ar["finish"]),
                 "rating_at_end": round(rating_end, 3),
+                "partner": partner,
+                "team": team,
             })
         seasons_data.sort(key=lambda x: x["season_num"], reverse=True)
 
