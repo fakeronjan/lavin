@@ -473,8 +473,15 @@ def main():
     # ---------------------------------------------------------
     # players/<safe_name>.json
     # ---------------------------------------------------------
-    elims_by_player_w = eliminations.groupby("winner").size()
-    elims_by_player_l = eliminations.groupby("loser").size()
+    # Clean eliminations: filter to same-gender + dedupe across the pair
+    # cross-product expansion. Raw eliminations.csv has 4 rows per pair-elim
+    # (MM, MF, FM, FF); without filtering we'd double-count.
+    e_w_g = eliminations["winner"].map(gmap)
+    e_l_g = eliminations["loser"].map(gmap)
+    elims_clean = eliminations[(e_w_g.isin(["M","F"])) & (e_w_g == e_l_g)] \
+        .drop_duplicates(subset=["season_id", "episode", "winner", "loser"])
+    elims_by_player_w = elims_clean.groupby("winner").size()
+    elims_by_player_l = elims_clean.groupby("loser").size()
     dailies_by_player = dailies.groupby("winner").size()
 
     # Pre-build a partner lookup: (season, pair_id) → list of players

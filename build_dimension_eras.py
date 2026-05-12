@@ -35,12 +35,17 @@ TOTAL_SCALES = {
     "final_field":  0.31,
 }
 
-# Isolation variants — keep ONLY one dimension at its committed weight, others = 0
-ISOLATIONS = {
-    "daily":         {"elimination": 0, "daily": 1.24,        "final_within": 0,    "final_field": 0},
-    "elim":          {"elimination": 1.0, "daily": 0,         "final_within": 0,    "final_field": 0},
-    "final_within":  {"elimination": 0,   "daily": 0,         "final_within": 0.54, "final_field": 0},
-    "final_field":   {"elimination": 0,   "daily": 0,         "final_within": 0,    "final_field": 0.31},
+# Component variants — 4x the chosen dimension, keep OTHERS at baseline.
+# This keeps the full event set in the regression (vs. zeroing-out which
+# makes data sparse and produces weird ratings for thin-sample players).
+# A player whose rating rises sharply under one of these is "leveraged"
+# on that dimension; one whose rating barely moves is dimension-agnostic.
+BOOST = 4.0
+COMPONENT_VARIANTS = {
+    "daily":        {**TOTAL_SCALES, "daily":        TOTAL_SCALES["daily"]        * BOOST},
+    "elim":         {**TOTAL_SCALES, "elimination":  TOTAL_SCALES["elimination"]  * BOOST},
+    "final_within": {**TOTAL_SCALES, "final_within": TOTAL_SCALES["final_within"] * BOOST},
+    "final_field":  {**TOTAL_SCALES, "final_field":  TOTAL_SCALES["final_field"]  * BOOST},
 }
 
 
@@ -75,8 +80,8 @@ def main():
     )
     eras["total"] = era_from_ratings(r, snap_meta, played_set)
 
-    for name, scales in ISOLATIONS.items():
-        print(f"=== only_{name} ===")
+    for name, scales in COMPONENT_VARIANTS.items():
+        print(f"=== {name}_4x ===")
         r = compute_ratings(
             events_ann, gmap, window_size=WINDOW, recency_decay=DECAY,
             eos_only=EOS_ONLY, type_scales=scales,
