@@ -3,7 +3,7 @@
   "safe_name": "Evelyn_Smith",
   "gender": "F",
   "career": {
-    "era_rating": 2.3,
+    "era_rating": 2.2,
     "peak_rating": 1.007,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
     "active_rating": 1.007,
@@ -27,7 +27,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.743,
+      "rating_at_end": 0.692,
       "partner": "Paula Meronek",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "All U Can Eat Stakes",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": 0.328,
+      "rating_at_end": 0.322,
       "partner": "Luke Wolfe",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in The Booby Trap",
       "finish_label": "Eliminated",
       "finish_episode": "The Booby Trap",
-      "elim_position": 9,
+      "elim_position": 2,
       "elim_total": 9,
-      "rating_at_end": 0.425,
+      "rating_at_end": 0.419,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -78,7 +78,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.417,
+      "rating_at_end": 0.406,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.241,
+      "rating_at_end": 0.224,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -112,7 +112,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.185,
+      "rating_at_end": 0.15,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -129,7 +129,7 @@
       "finish_episode": "Anxieties Run High",
       "elim_position": 1,
       "elim_total": 6,
-      "rating_at_end": -0.287,
+      "rating_at_end": -0.293,
       "partner": "Danny Jamieson",
       "partners_history": [],
       "team": "",
@@ -138,39 +138,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": -0.287
+      "rating": -0.293
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.185
+      "rating": 0.15
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.241
+      "rating": 0.224
     },
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": 0.417
+      "rating": 0.406
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.425
+      "rating": 0.419
     },
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.328
+      "rating": 0.322
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.743
+      "rating": 0.692
     }
   ]
 }

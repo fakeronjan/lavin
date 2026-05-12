@@ -3,17 +3,17 @@
   "safe_name": "Kayleigh_Morris",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.338,
+    "era_rating": 0.7,
+    "peak_rating": 0.347,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.497,
+    "active_rating": -0.481,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 7,
     "championships": 0,
     "elim_wins": 3,
-    "elim_losses": 0,
-    "daily_wins": 2
+    "elim_losses": 2,
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Dee-Day",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.121,
+      "rating_at_end": -0.435,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in It's Always Sunny in South Africa",
       "finish_label": "Eliminated",
       "finish_episode": "It's Always Sunny in South Africa",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.338,
+      "elim_position": 8,
+      "elim_total": 9,
+      "rating_at_end": 0.347,
       "partner": "Kam Williams",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Rumor Has It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.296,
+      "rating_at_end": 0.305,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.296
+      "rating": 0.305
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": 0.338
+      "rating": 0.347
     },
     {
-      "ranking_id": 759,
+      "ranking_id": 800,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.121
+      "rating": -0.435
     }
   ]
 }

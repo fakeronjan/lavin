@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.26,
-    "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.26,
+    "peak_rating": -0.234,
+    "peak_season_id": "s17_the_duel_ii",
+    "active_rating": -0.292,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 3,
     "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 0
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Karma's a Bitch",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.428,
+      "rating_at_end": -0.336,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -44,7 +44,7 @@
       "finish_episode": "The Booby Trap",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.704,
+      "rating_at_end": -0.407,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Duel Unto Others",
       "finish_label": "Eliminated",
       "finish_episode": "Duel Unto Others",
-      "elim_position": 7,
+      "elim_position": 1,
       "elim_total": 9,
-      "rating_at_end": -0.808,
+      "rating_at_end": -0.234,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.808
+      "rating": -0.234
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.704
+      "rating": -0.407
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": -0.428
+      "rating": -0.336
     }
   ]
 }

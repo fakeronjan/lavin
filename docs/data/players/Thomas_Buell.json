@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.1,
+    "peak_rating": 0.065,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.586,
+    "active_rating": -0.783,
     "active_season_id": "s31_vendettas",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -27,7 +27,7 @@
       "finish_episode": "The Naked Truth",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.387,
+      "rating_at_end": -0.388,
       "partner": "Simone Kelly",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Blood Brothers",
       "elim_position": 3,
       "elim_total": 5,
-      "rating_at_end": -0.163,
+      "rating_at_end": -0.169,
       "partner": "Stephen Buell",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "I Will Always Hate You",
       "elim_position": 2,
       "elim_total": 9,
-      "rating_at_end": 0.1,
+      "rating_at_end": 0.065,
       "partner": "Hailey Chivers",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.1
+      "rating": 0.065
     },
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.163
+      "rating": -0.169
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.387
+      "rating": -0.388
     }
   ]
 }

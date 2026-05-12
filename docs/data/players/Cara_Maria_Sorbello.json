@@ -3,17 +3,17 @@
   "safe_name": "Cara_Maria_Sorbello",
   "gender": "F",
   "career": {
-    "era_rating": 6.2,
-    "peak_rating": 0.764,
+    "era_rating": 5.8,
+    "peak_rating": 0.698,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.072,
+    "active_rating": -0.188,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 17,
     "n_snapshots": 22,
     "championships": 2,
     "elim_wins": 13,
-    "elim_losses": 7,
-    "daily_wins": 22
+    "elim_losses": 6,
+    "daily_wins": 26
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Pride Comes Before the Fall",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.072,
+      "rating_at_end": -0.188,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Location Change Era",
       "finish_label": "Eliminated",
       "finish_episode": "Location Change Era",
-      "elim_position": 9,
+      "elim_position": 13,
       "elim_total": 13,
-      "rating_at_end": 0.03,
+      "rating_at_end": -0.094,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 3,
       "elim_total": 5,
-      "rating_at_end": -0.933,
+      "rating_at_end": -0.965,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.491,
+      "rating_at_end": 0.492,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -95,7 +95,7 @@
       "finish_episode": "This Is the End",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.45,
+      "rating_at_end": 0.322,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -112,7 +112,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.509,
+      "rating_at_end": 0.535,
       "partner": "Marie Roda",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.669,
+      "rating_at_end": 0.518,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "One in a Million",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.537,
+      "rating_at_end": 0.551,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -163,7 +163,7 @@
       "finish_episode": "Go Your Own Way",
       "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": 0.492,
+      "rating_at_end": 0.524,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -180,7 +180,7 @@
       "finish_episode": "Family Matters",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.689,
+      "rating_at_end": 0.651,
       "partner": "Jamie Banks",
       "partners_history": [],
       "team": "",
@@ -197,7 +197,7 @@
       "finish_episode": "The $350,000 Pyramid",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.448,
+      "rating_at_end": 0.409,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -251,7 +251,7 @@
       "finish_episode": "Crazy in Love",
       "elim_position": 5,
       "elim_total": 9,
-      "rating_at_end": 0.404,
+      "rating_at_end": 0.396,
       "partner": "Abram Boise",
       "partners_history": [],
       "team": "",
@@ -268,7 +268,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.55,
+      "rating_at_end": 0.508,
       "partner": "Laurel Stucky",
       "partners_history": [],
       "team": "",
@@ -285,7 +285,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.197,
+      "rating_at_end": 0.228,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -302,7 +302,7 @@
       "finish_episode": "Nice to Meat You",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": 0.075,
+      "rating_at_end": 0.054,
       "partner": "Darrell Taylor",
       "partners_history": [],
       "team": "",
@@ -311,89 +311,89 @@
   ],
   "timeline": [
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.075
+      "rating": 0.054
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.197
+      "rating": 0.228
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.55
+      "rating": 0.508
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.404
+      "rating": 0.396
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.2
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": 0.408
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": 0.448
+      "rating": 0.409
     },
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.689
+      "rating": 0.651
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
+      "rating": 0.524
+    },
+    {
+      "ranking_id": 652,
+      "season_id": "s30_xxx_dirty_30",
+      "rating": 0.551
+    },
+    {
+      "ranking_id": 675,
+      "season_id": "s31_vendettas",
+      "rating": 0.518
+    },
+    {
+      "ranking_id": 744,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.535
+    },
+    {
+      "ranking_id": 784,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.322
+    },
+    {
+      "ranking_id": 800,
+      "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.492
     },
     {
-      "ranking_id": 642,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.537
-    },
-    {
-      "ranking_id": 662,
-      "season_id": "s31_vendettas",
-      "rating": 0.669
-    },
-    {
-      "ranking_id": 703,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.509
-    },
-    {
-      "ranking_id": 743,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.45
-    },
-    {
-      "ranking_id": 759,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.491
-    },
-    {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.933
+      "rating": -0.965
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.03
+      "rating": -0.094
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.072
+      "rating": -0.188
     }
   ]
 }

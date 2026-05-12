@@ -3,17 +3,17 @@
   "safe_name": "Laurel_Stucky",
   "gender": "F",
   "career": {
-    "era_rating": 3.4,
-    "peak_rating": 1.098,
+    "era_rating": 3.5,
+    "peak_rating": 1.164,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.404,
+    "active_rating": -0.204,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
-    "n_snapshots": 20,
+    "n_snapshots": 19,
     "championships": 1,
     "elim_wins": 9,
     "elim_losses": 2,
-    "daily_wins": 8
+    "daily_wins": 15
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The Era of the Purge",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.165,
+      "rating_at_end": -0.231,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.216,
+      "rating_at_end": -0.224,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,8 +60,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 6,
-      "elim_total": 11,
-      "rating_at_end": -0.07,
+      "elim_total": 12,
+      "rating_at_end": -0.098,
       "partner": "Jakk Maddox",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Benedict Laurel",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": 0.345,
+      "rating_at_end": 0.312,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -95,7 +95,7 @@
       "finish_episode": "Caged",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.356,
+      "rating_at_end": 0.41,
       "partner": "",
       "partners_history": [
         "Cara Maria Sorbello",
@@ -115,7 +115,7 @@
       "finish_episode": "A Walk in the Clouds",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.718,
+      "rating_at_end": 0.832,
       "partner": "",
       "partners_history": [
         "Cohutta Grindstaff",
@@ -135,7 +135,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.695,
+      "rating_at_end": 0.647,
       "partner": "Cara Maria Sorbello",
       "partners_history": [],
       "team": "",
@@ -152,7 +152,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.501,
+      "rating_at_end": 0.507,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -169,7 +169,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.814,
+      "rating_at_end": 0.798,
       "partner": "Kenny Santucci",
       "partners_history": [],
       "team": "",
@@ -178,49 +178,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.814
+      "rating": 0.798
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.501
+      "rating": 0.507
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.695
+      "rating": 0.647
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": 0.718
+      "rating": 0.832
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.356
+      "rating": 0.41
     },
     {
-      "ranking_id": 759,
+      "ranking_id": 800,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.345
+      "rating": 0.312
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.07
+      "rating": -0.098
     },
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.216
+      "rating": -0.224
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.165
+      "rating": -0.231
     }
   ]
 }

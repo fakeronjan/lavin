@@ -3,17 +3,17 @@
   "safe_name": "Cory_Wharton",
   "gender": "M",
   "career": {
-    "era_rating": 4.5,
-    "peak_rating": 0.89,
+    "era_rating": 4.0,
+    "peak_rating": 0.925,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": 0.445,
+    "active_rating": 0.159,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 15,
     "championships": 0,
-    "elim_wins": 12,
-    "elim_losses": 6,
-    "daily_wins": 21
+    "elim_wins": 10,
+    "elim_losses": 5,
+    "daily_wins": 20
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Must Win Era",
       "finish_label": "Eliminated",
       "finish_episode": "Must Win Era",
-      "elim_position": 6,
+      "elim_position": 15,
       "elim_total": 15,
-      "rating_at_end": 0.564,
+      "rating_at_end": 0.3,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "Titanic",
       "elim_position": 8,
       "elim_total": 11,
-      "rating_at_end": 0.521,
+      "rating_at_end": 0.548,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.561,
+      "rating_at_end": 0.613,
       "partner": "",
       "partners_history": [
         "Ashley Mitchell",
@@ -85,7 +85,7 @@
       "finish_episode": "It's the End of the World As We Know It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.437,
+      "rating_at_end": 0.53,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -102,7 +102,7 @@
       "finish_episode": "The Leftovers",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.238,
+      "rating_at_end": -0.179,
       "partner": "Devin Walker",
       "partners_history": [],
       "team": "",
@@ -117,9 +117,9 @@
       "finish": "Eliminated in #Banatalie",
       "finish_label": "Eliminated",
       "finish_episode": "#Banatalie",
-      "elim_position": 2,
+      "elim_position": 3,
       "elim_total": 9,
-      "rating_at_end": 0.326,
+      "rating_at_end": 0.153,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -134,9 +134,9 @@
       "finish": "Eliminated in Guess Who's Coming to Dinner",
       "finish_label": "Eliminated",
       "finish_episode": "Guess Who's Coming to Dinner",
-      "elim_position": 5,
+      "elim_position": 4,
       "elim_total": 6,
-      "rating_at_end": 0.285,
+      "rating_at_end": 0.283,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -153,7 +153,7 @@
       "finish_episode": "The True Champions",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.266,
+      "rating_at_end": 0.292,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -169,8 +169,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Rivals: Civil War",
       "elim_position": 4,
-      "elim_total": 6,
-      "rating_at_end": 0.383,
+      "elim_total": 7,
+      "rating_at_end": 0.379,
       "partner": "Ashley Mitchell",
       "partners_history": [],
       "team": "",
@@ -187,7 +187,7 @@
       "finish_episode": "Family Matters",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.89,
+      "rating_at_end": 0.925,
       "partner": "Mitch Reid",
       "partners_history": [],
       "team": "",
@@ -196,54 +196,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.89
+      "rating": 0.925
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.383
+      "rating": 0.379
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.266
+      "rating": 0.292
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.285
+      "rating": 0.283
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.326
+      "rating": 0.153
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": 0.238
+      "rating": -0.179
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": 0.437
+      "rating": 0.53
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.561
+      "rating": 0.613
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.521
+      "rating": 0.548
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.564
+      "rating": 0.3
     }
   ]
 }

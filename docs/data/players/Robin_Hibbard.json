@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.195,
+    "peak_rating": 0.222,
     "peak_season_id": "s14_the_inferno_3",
     "active_rating": -0.115,
     "active_season_id": "s24_rivals_ii",
@@ -13,7 +13,7 @@
     "championships": 0,
     "elim_wins": 3,
     "elim_losses": 6,
-    "daily_wins": 4
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Will You Still Love Me Tomorrow?",
       "elim_position": 9,
       "elim_total": 9,
-      "rating_at_end": -0.572,
+      "rating_at_end": -0.588,
       "partner": "Mark Long",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Welcome to the Jungle",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.491,
+      "rating_at_end": -0.549,
       "partner": "Aneesa Ferreira",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Duel Unto Others",
       "finish_label": "Eliminated",
       "finish_episode": "Duel Unto Others",
-      "elim_position": 1,
+      "elim_position": 2,
       "elim_total": 9,
-      "rating_at_end": -0.061,
+      "rating_at_end": -0.09,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.023,
+      "rating_at_end": -0.02,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.099,
+      "rating_at_end": -0.093,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -112,7 +112,7 @@
       "finish_episode": "Harsh Words",
       "elim_position": 4,
       "elim_total": 7,
-      "rating_at_end": 0.13,
+      "rating_at_end": 0.129,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.221,
+      "rating_at_end": -0.186,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -146,7 +146,7 @@
       "finish_episode": "Episode 4",
       "elim_position": 1,
       "elim_total": 4,
-      "rating_at_end": -0.189,
+      "rating_at_end": -0.121,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -161,9 +161,9 @@
       "finish": "Eliminated in Episode 14",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 14",
-      "elim_position": 5,
+      "elim_position": 11,
       "elim_total": 13,
-      "rating_at_end": -0.183,
+      "rating_at_end": -0.06,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -174,47 +174,47 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.183
+      "rating": -0.06
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.189
+      "rating": -0.121
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.221
+      "rating": -0.186
     },
     {
-      "ranking_id": 228,
+      "ranking_id": 230,
       "season_id": "s13_the_duel",
-      "rating": 0.13
+      "rating": 0.129
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.099
+      "rating": -0.093
     },
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": -0.023
+      "rating": -0.02
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.061
+      "rating": -0.09
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": -0.491
+      "rating": -0.549
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.572
+      "rating": -0.588
     }
   ]
 }

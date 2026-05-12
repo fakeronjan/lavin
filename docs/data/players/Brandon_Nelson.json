@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.129,
+    "peak_rating": 0.109,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.68,
+    "active_rating": -0.395,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 11,
     "championships": 0,
     "elim_wins": 3,
     "elim_losses": 5,
-    "daily_wins": 5
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in The Era Invitational, Part 2",
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
-      "elim_position": 7,
+      "elim_position": 4,
       "elim_total": 15,
-      "rating_at_end": -0.59,
+      "rating_at_end": -0.303,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Inadequate",
       "finish_label": "Eliminated",
       "finish_episode": "Inadequate",
-      "elim_position": 7,
+      "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.571,
+      "rating_at_end": -0.579,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "D-Day",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": 0.016,
+      "rating_at_end": 0.014,
       "partner": "Ty Ruff",
       "partners_history": [],
       "team": "",
@@ -93,9 +93,9 @@
       "finish": "Eliminated in Where the Red Team Blows",
       "finish_label": "Eliminated",
       "finish_episode": "Where the Red Team Blows",
-      "elim_position": 8,
+      "elim_position": 6,
       "elim_total": 8,
-      "rating_at_end": 0.129,
+      "rating_at_end": 0.109,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -112,7 +112,7 @@
       "finish_episode": "Meats 'N Potatoes",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.303,
+      "rating_at_end": -0.312,
       "partner": "Katelynn Cusanelli",
       "partners_history": [],
       "team": "",
@@ -121,34 +121,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.303
+      "rating": -0.312
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.129
+      "rating": 0.109
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.016
+      "rating": 0.014
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.34
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.571
+      "rating": -0.579
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.59
+      "rating": -0.303
     }
   ]
 }

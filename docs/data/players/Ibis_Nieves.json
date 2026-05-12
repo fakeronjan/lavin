@@ -6,14 +6,14 @@
     "era_rating": 0.3,
     "peak_rating": 0.847,
     "peak_season_id": "s13_the_duel",
-    "active_rating": -0.214,
+    "active_rating": -0.22,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 3,
     "n_snapshots": 8,
     "championships": 1,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Reversal of Fortune",
       "finish_label": "Eliminated",
       "finish_episode": "Reversal of Fortune",
-      "elim_position": 7,
+      "elim_position": 5,
       "elim_total": 9,
-      "rating_at_end": -0.364,
+      "rating_at_end": -0.291,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -44,7 +44,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.281,
+      "rating_at_end": 0.288,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Episode 12",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 12",
-      "elim_position": 6,
+      "elim_position": 10,
       "elim_total": 13,
-      "rating_at_end": -0.418,
+      "rating_at_end": -0.095,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -72,17 +72,17 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.418
+      "rating": -0.095
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.281
+      "rating": 0.288
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.364
+      "rating": -0.291
     }
   ]
 }

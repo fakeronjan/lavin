@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.127,
+    "peak_rating": -0.088,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.497,
+    "active_rating": -0.481,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 2,
     "n_snapshots": 6,
@@ -27,7 +27,7 @@
       "finish_episode": "God Save the Queen",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.276,
+      "rating_at_end": -0.488,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Redemption House of Cards",
       "finish_label": "Eliminated",
       "finish_episode": "Redemption House of Cards",
-      "elim_position": 2,
-      "elim_total": 5,
-      "rating_at_end": -0.127,
+      "elim_position": 6,
+      "elim_total": 9,
+      "rating_at_end": -0.088,
       "partner": "Angela Babicz",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.127
+      "rating": -0.088
     },
     {
-      "ranking_id": 759,
+      "ranking_id": 800,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.276
+      "rating": -0.488
     }
   ]
 }

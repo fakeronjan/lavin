@@ -3,17 +3,17 @@
   "safe_name": "Nany_Gonzlez",
   "gender": "F",
   "career": {
-    "era_rating": 2.0,
-    "peak_rating": 0.729,
+    "era_rating": 1.6,
+    "peak_rating": 0.775,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.522,
+    "active_rating": 0.396,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
     "n_snapshots": 18,
     "championships": 0,
     "elim_wins": 7,
-    "elim_losses": 11,
-    "daily_wins": 20
+    "elim_losses": 10,
+    "daily_wins": 17
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 8,
-      "elim_total": 8,
-      "rating_at_end": 0.522,
+      "elim_position": null,
+      "elim_total": null,
+      "rating_at_end": 0.396,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -44,7 +44,7 @@
       "finish_episode": "The End of the Ride",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.445,
+      "rating_at_end": 0.394,
       "partner": "Johnny Bananas",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.099,
+      "rating_at_end": 0.087,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.111,
+      "rating_at_end": 0.096,
       "partner": "",
       "partners_history": [
         "Kyle Christie",
@@ -97,9 +97,9 @@
       "finish": "Eliminated in Victim of Love",
       "finish_label": "Eliminated",
       "finish_episode": "Victim of Love",
-      "elim_position": 6,
+      "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -0.026,
+      "rating_at_end": -0.036,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -116,7 +116,7 @@
       "finish_episode": "Declaration of Independence",
       "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": 0.15,
+      "rating_at_end": 0.126,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -131,9 +131,9 @@
       "finish": "Eliminated in Lost in Translation",
       "finish_label": "Eliminated",
       "finish_episode": "Lost in Translation",
-      "elim_position": 8,
+      "elim_position": 9,
       "elim_total": 10,
-      "rating_at_end": 0.363,
+      "rating_at_end": 0.268,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -149,8 +149,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Raging Bullies",
       "elim_position": 6,
-      "elim_total": 6,
-      "rating_at_end": 0.252,
+      "elim_total": 7,
+      "rating_at_end": 0.275,
       "partner": "Wes Bergmann",
       "partners_history": [],
       "team": "",
@@ -167,7 +167,7 @@
       "finish_episode": "Dirty Little Secret",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.019,
+      "rating_at_end": -0.002,
       "partner": "Nicole Ramos",
       "partners_history": [],
       "team": "",
@@ -184,7 +184,7 @@
       "finish_episode": "Bye Bye, Love",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -0.1,
+      "rating_at_end": -0.124,
       "partner": "Johnny Bananas",
       "partners_history": [],
       "team": "",
@@ -201,7 +201,7 @@
       "finish_episode": "A Walk in the Clouds",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.007,
+      "rating_at_end": -0.039,
       "partner": "",
       "partners_history": [
         "Theresa Jones",
@@ -250,69 +250,69 @@
   ],
   "timeline": [
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.271
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.283
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.007
+      "rating": -0.039
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.1
+      "rating": -0.124
     },
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.019
+      "rating": -0.002
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.252
-    },
-    {
-      "ranking_id": 743,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.363
-    },
-    {
-      "ranking_id": 759,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.15
+      "rating": 0.275
     },
     {
       "ranking_id": 784,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.268
+    },
+    {
+      "ranking_id": 800,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.126
+    },
+    {
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": -0.026
+      "rating": -0.036
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.111
+      "rating": 0.096
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.099
+      "rating": 0.087
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.445
+      "rating": 0.394
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.522
+      "rating": 0.396
     }
   ]
 }

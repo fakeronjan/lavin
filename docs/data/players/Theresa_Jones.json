@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.641,
+    "peak_rating": 0.66,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": 0.058,
+    "active_rating": 0.038,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 7,
     "n_snapshots": 14,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 7,
-    "daily_wins": 7
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 3,
       "elim_total": 7,
-      "rating_at_end": 0.047,
+      "rating_at_end": 0.021,
       "partner": "",
       "partners_history": [
         "Jay Starrett",
@@ -47,7 +47,7 @@
       "finish_episode": "The Greatest Love of All",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.061,
+      "rating_at_end": -0.026,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Wes Bergmann",
@@ -65,9 +65,9 @@
       "finish": "Eliminated in The $350,000 Pyramid",
       "finish_label": "Eliminated",
       "finish_episode": "The $350,000 Pyramid",
-      "elim_position": 6,
+      "elim_position": 10,
       "elim_total": 10,
-      "rating_at_end": -0.319,
+      "rating_at_end": -0.226,
       "partner": "",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -104,7 +104,7 @@
       "finish_episode": "Underdog Day Afternoon",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": -0.296,
+      "rating_at_end": -0.366,
       "partner": "Camila Nakagawa",
       "partners_history": [],
       "team": "",
@@ -119,9 +119,9 @@
       "finish": "Eliminated in Always a Bridesmaid...",
       "finish_label": "Eliminated",
       "finish_episode": "Always a Bridesmaid...",
-      "elim_position": 3,
+      "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": -0.495,
+      "rating_at_end": -0.532,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -138,7 +138,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": -0.35,
+      "rating_at_end": -0.36,
       "partner": "Ryan Kehoe",
       "partners_history": [],
       "team": "",
@@ -147,39 +147,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.35
+      "rating": -0.36
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": -0.495
+      "rating": -0.532
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": -0.296
+      "rating": -0.366
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.287
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.319
+      "rating": -0.226
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.061
+      "rating": -0.026
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.047
+      "rating": 0.021
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.736,
+    "peak_rating": 0.679,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.736,
+    "active_rating": 0.679,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 2,
     "n_snapshots": 6,
@@ -27,7 +27,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.271,
+      "rating_at_end": 0.262,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -44,7 +44,7 @@
       "finish_episode": "Playing The Game",
       "elim_position": 2,
       "elim_total": 4,
-      "rating_at_end": -0.903,
+      "rating_at_end": -0.936,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.903
+      "rating": -0.936
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.271
+      "rating": 0.262
     }
   ]
 }

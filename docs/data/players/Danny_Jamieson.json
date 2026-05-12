@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.183,
+    "peak_rating": -0.187,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.695,
+    "active_rating": -0.734,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 13,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 8,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -44,7 +44,7 @@
       "finish_episode": "Road Kill",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": -0.454,
+      "rating_at_end": -0.514,
       "partner": "Sandy Kang",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Girls Gone Wild",
       "finish_label": "Eliminated",
       "finish_episode": "Girls Gone Wild",
-      "elim_position": 6,
+      "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": -0.671,
+      "rating_at_end": -0.708,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -78,7 +78,7 @@
       "finish_episode": "The Finale",
       "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": -0.811,
+      "rating_at_end": -0.814,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -95,7 +95,7 @@
       "finish_episode": "Off The Wall",
       "elim_position": 2,
       "elim_total": 4,
-      "rating_at_end": -0.894,
+      "rating_at_end": -0.897,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -112,7 +112,7 @@
       "finish_episode": "Anxieties Run High",
       "elim_position": 1,
       "elim_total": 6,
-      "rating_at_end": -0.183,
+      "rating_at_end": -0.187,
       "partner": "Evelyn Smith",
       "partners_history": [],
       "team": "",
@@ -121,32 +121,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": -0.183
+      "rating": -0.187
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.894
+      "rating": -0.897
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.811
+      "rating": -0.814
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.671
+      "rating": -0.708
     },
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.454
+      "rating": -0.514
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.249
     }

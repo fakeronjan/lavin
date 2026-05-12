@@ -3,17 +3,17 @@
   "safe_name": "Britni_Thornton",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.376,
+    "era_rating": 0.5,
+    "peak_rating": 0.265,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.566,
+    "active_rating": -0.539,
     "active_season_id": "s35_total_madness",
     "n_seasons": 3,
     "n_snapshots": 6,
     "championships": 0,
-    "elim_wins": 3,
-    "elim_losses": 0,
-    "daily_wins": 2
+    "elim_wins": 2,
+    "elim_losses": 1,
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in The Affair",
       "finish_label": "Eliminated",
       "finish_episode": "The Affair",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.012,
+      "elim_position": 1,
+      "elim_total": 9,
+      "rating_at_end": -0.24,
       "partner": "Chuck Mowery",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "It's Britni, Bitch",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.317,
+      "rating_at_end": 0.216,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "A Million More Reasons",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.376,
+      "rating_at_end": 0.265,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.376
+      "rating": 0.265
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.317
+      "rating": 0.216
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.012
+      "rating": -0.24
     }
   ]
 }

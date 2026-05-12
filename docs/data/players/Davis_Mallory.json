@@ -4,8 +4,8 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.045,
-    "peak_season_id": "s16_the_island",
+    "peak_rating": 0.131,
+    "peak_season_id": "s18_the_ruins",
     "active_rating": -0.382,
     "active_season_id": "s23_battle_of_the_seasons_2012",
     "n_seasons": 3,
@@ -13,7 +13,7 @@
     "championships": 0,
     "elim_wins": 4,
     "elim_losses": 3,
-    "daily_wins": 0
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Through the Looking Glass",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": -0.539,
+      "rating_at_end": -0.537,
       "partner": "Tyri Ballard-Brown",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Duel What You Gotta Duel",
       "finish_label": "Eliminated",
       "finish_episode": "Duel What You Gotta Duel",
-      "elim_position": 9,
+      "elim_position": 3,
       "elim_total": 10,
-      "rating_at_end": -0.144,
+      "rating_at_end": 0.019,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Hook The Man",
       "elim_position": 4,
       "elim_total": 4,
-      "rating_at_end": -0.075,
+      "rating_at_end": -0.078,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.075
+      "rating": -0.078
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.144
+      "rating": 0.019
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": -0.539
+      "rating": -0.537
     }
   ]
 }

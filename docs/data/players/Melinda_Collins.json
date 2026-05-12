@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.396,
+    "peak_rating": 0.389,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.617,
+    "active_rating": -0.63,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
     "n_snapshots": 14,
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Where the Red Team Blows",
       "finish_label": "Eliminated",
       "finish_episode": "Where the Red Team Blows",
-      "elim_position": 2,
+      "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -0.481,
+      "rating_at_end": -0.514,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -61,7 +61,7 @@
       "finish_episode": "All Alone",
       "elim_position": 5,
       "elim_total": 7,
-      "rating_at_end": -0.373,
+      "rating_at_end": -0.372,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -78,7 +78,7 @@
       "finish_episode": "Jailbirds",
       "elim_position": 2,
       "elim_total": 6,
-      "rating_at_end": 0.396,
+      "rating_at_end": 0.389,
       "partner": "Ryan Kehoe",
       "partners_history": [],
       "team": "",
@@ -87,22 +87,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": 0.396
+      "rating": 0.389
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.373
+      "rating": -0.372
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": -0.481
+      "rating": -0.514
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.3
     }

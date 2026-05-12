@@ -3,17 +3,17 @@
   "safe_name": "Frank_Fox",
   "gender": "M",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.635,
-    "peak_season_id": "s25_free_agents",
-    "active_rating": -0.997,
+    "era_rating": 1.8,
+    "peak_rating": 0.628,
+    "peak_season_id": "s24_rivals_ii",
+    "active_rating": -0.913,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 4,
     "n_snapshots": 7,
     "championships": 1,
-    "elim_wins": 2,
+    "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 4
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 6,
+      "elim_position": 7,
       "elim_total": 9,
-      "rating_at_end": -0.697,
+      "rating_at_end": -0.636,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "You Be Illin'",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.635,
+      "rating_at_end": 0.524,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.604
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": 0.628
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": 0.635
+      "rating": 0.524
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": -0.697
+      "rating": -0.636
     }
   ]
 }

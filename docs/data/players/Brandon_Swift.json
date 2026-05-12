@@ -3,10 +3,10 @@
   "safe_name": "Brandon_Swift",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.055,
+    "era_rating": 0.0,
+    "peak_rating": 0.02,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.267,
+    "active_rating": -0.327,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Not So Trivial Pursuits",
       "finish_label": "Eliminated",
       "finish_episode": "Not So Trivial Pursuits",
-      "elim_position": 2,
+      "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": 0.055,
+      "rating_at_end": 0.02,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": 0.055
+      "rating": 0.02
     }
   ]
 }

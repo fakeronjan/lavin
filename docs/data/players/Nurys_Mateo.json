@@ -3,17 +3,17 @@
   "safe_name": "Nurys_Mateo",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.52,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.413,
+    "era_rating": 1.0,
+    "peak_rating": 0.602,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.602,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in The Era Invitational, Part 2",
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
-      "elim_position": 12,
+      "elim_position": 3,
       "elim_total": 13,
-      "rating_at_end": 0.325,
+      "rating_at_end": 0.542,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,7 +44,7 @@
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.52,
+      "rating_at_end": 0.503,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,8 +60,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 9,
-      "elim_total": 11,
-      "rating_at_end": -0.092,
+      "elim_total": 12,
+      "rating_at_end": -0.226,
       "partner": "Nelson Thomas",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.092
+      "rating": -0.226
     },
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.52
+      "rating": 0.503
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.325
+      "rating": 0.542
     }
   ]
 }

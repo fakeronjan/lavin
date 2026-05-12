@@ -3,17 +3,17 @@
   "safe_name": "Sarah_Rice",
   "gender": "F",
   "career": {
-    "era_rating": 2.5,
-    "peak_rating": 0.857,
+    "era_rating": 2.3,
+    "peak_rating": 0.881,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": 0.714,
+    "active_rating": 0.826,
     "active_season_id": "s31_vendettas",
     "n_seasons": 9,
     "n_snapshots": 14,
     "championships": 2,
-    "elim_wins": 5,
+    "elim_wins": 6,
     "elim_losses": 2,
-    "daily_wins": 5
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Split Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.692,
+      "rating_at_end": 0.699,
       "partner": "Johnny Bananas",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The Greatest Love of All",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.201,
+      "rating_at_end": 0.21,
       "partner": "Jordan Wiseley",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "What's Love Got to Do with It?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.15,
+      "rating_at_end": -0.179,
       "partner": "Vinny Foti",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Ill Communication",
       "elim_position": 6,
       "elim_total": 8,
-      "rating_at_end": 0.186,
+      "rating_at_end": 0.133,
       "partner": "Katelynn Cusanelli",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.341,
+      "rating_at_end": 0.302,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -146,7 +146,7 @@
       "finish_episode": "Meating of the Minds",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": 0.394,
+      "rating_at_end": 0.371,
       "partner": "Vinny Foti",
       "partners_history": [],
       "team": "",
@@ -163,7 +163,7 @@
       "finish_episode": "Good Thai and Good Luck",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.517,
+      "rating_at_end": 0.484,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -172,49 +172,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.517
+      "rating": 0.484
     },
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.394
+      "rating": 0.371
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.341
+      "rating": 0.302
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.186
+      "rating": 0.133
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.15
+      "rating": -0.179
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.04
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": 0.121
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.201
+      "rating": 0.21
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.692
+      "rating": 0.699
     }
   ]
 }

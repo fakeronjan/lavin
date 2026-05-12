@@ -3,17 +3,17 @@
   "safe_name": "Nia_Moore",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.74,
+    "era_rating": 0.1,
+    "peak_rating": 0.794,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.09,
+    "active_rating": -0.278,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 8,
     "championships": 0,
     "elim_wins": 4,
-    "elim_losses": 3,
-    "daily_wins": 7
+    "elim_losses": 2,
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "I Am The Challenge",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.09,
+      "rating_at_end": -0.278,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Payback Era",
       "finish_label": "Eliminated",
       "finish_episode": "Payback Era",
-      "elim_position": 6,
+      "elim_position": 10,
       "elim_total": 13,
-      "rating_at_end": 0.102,
+      "rating_at_end": -0.157,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -61,7 +61,7 @@
       "finish_episode": "Bye Bye, Love",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.065,
+      "rating_at_end": 0.115,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -76,9 +76,9 @@
       "finish": "Eliminated in You Be Illin'",
       "finish_label": "Eliminated",
       "finish_episode": "You Be Illin'",
-      "elim_position": 8,
+      "elim_position": 3,
       "elim_total": 10,
-      "rating_at_end": -0.745,
+      "rating_at_end": -0.706,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.745
+      "rating": -0.706
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.065
+      "rating": 0.115
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.102
+      "rating": -0.157
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.09
+      "rating": -0.278
     }
   ]
 }

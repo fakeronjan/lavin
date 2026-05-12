@@ -3,17 +3,17 @@
   "safe_name": "Brittini_Sherrod",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.773,
+    "era_rating": 0.4,
+    "peak_rating": 0.5,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.773,
+    "active_rating": 0.5,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 1,
     "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 0,
-    "daily_wins": 2
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.563,
+      "rating_at_end": 0.433,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.563
+      "rating": 0.433
     }
   ]
 }

@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.728,
+    "peak_rating": 0.713,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.384,
-    "active_season_id": "s32_final_reckoning",
+    "active_rating": -0.618,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 2,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 1,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Achy Breaky Heart",
       "elim_position": 4,
       "elim_total": 7,
-      "rating_at_end": -0.665,
+      "rating_at_end": -0.642,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.531
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.665
+      "rating": -0.642
     }
   ]
 }

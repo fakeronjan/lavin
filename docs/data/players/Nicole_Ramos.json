@@ -4,15 +4,15 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.064,
+    "peak_rating": -0.023,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.778,
-    "active_season_id": "s33_war_of_the_worlds",
+    "active_rating": -0.658,
+    "active_season_id": "s32_final_reckoning",
     "n_seasons": 4,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 1,
-    "elim_losses": 2,
+    "elim_losses": 3,
     "daily_wins": 3
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "When Worlds Collide",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.064,
+      "rating_at_end": -0.023,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Guess Who's Coming to Dinner",
       "elim_position": 4,
       "elim_total": 6,
-      "rating_at_end": -0.105,
+      "rating_at_end": -0.1,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Grapes. Wrath.",
       "finish_label": "Eliminated",
       "finish_episode": "Grapes. Wrath.",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.189,
+      "elim_position": 7,
+      "elim_total": 7,
+      "rating_at_end": -0.203,
       "partner": "Dario Medrano",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Dirty Little Secret",
       "elim_position": 3,
       "elim_total": 5,
-      "rating_at_end": -0.801,
+      "rating_at_end": -0.82,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.801
+      "rating": -0.82
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.189
+      "rating": -0.203
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.105
+      "rating": -0.1
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": -0.064
+      "rating": -0.023
     }
   ]
 }

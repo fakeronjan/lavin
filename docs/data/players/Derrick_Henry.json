@@ -3,16 +3,16 @@
   "safe_name": "Derrick_Henry",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.087,
-    "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.087,
+    "era_rating": 0.3,
+    "peak_rating": 0.259,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": -0.064,
     "active_season_id": "s33_war_of_the_worlds",
     "n_seasons": 2,
     "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
-    "elim_losses": 3,
+    "elim_losses": 2,
     "daily_wins": 1
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Redemption House of Cards",
       "finish_label": "Eliminated",
       "finish_episode": "Redemption House of Cards",
-      "elim_position": 1,
-      "elim_total": 7,
-      "rating_at_end": -0.241,
+      "elim_position": 3,
+      "elim_total": 10,
+      "rating_at_end": 0.259,
       "partner": "Tori Deal",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Road to Redemption",
       "elim_position": 1,
       "elim_total": 6,
-      "rating_at_end": -0.558,
+      "rating_at_end": -0.564,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.558
+      "rating": -0.564
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.241
+      "rating": 0.259
     }
   ]
 }

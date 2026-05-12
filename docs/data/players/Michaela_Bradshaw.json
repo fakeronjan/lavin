@@ -3,15 +3,15 @@
   "safe_name": "Michaela_Bradshaw",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.673,
+    "era_rating": 0.6,
+    "peak_rating": 0.622,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.673,
+    "active_rating": 0.622,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 3,
     "championships": 0,
-    "elim_wins": 2,
+    "elim_wins": 1,
     "elim_losses": 1,
     "daily_wins": 4
   },
@@ -27,7 +27,7 @@
       "finish_episode": "Finale Part II",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.673,
+      "rating_at_end": 0.622,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -44,7 +44,7 @@
       "finish_episode": "The List",
       "elim_position": 1,
       "elim_total": 11,
-      "rating_at_end": -0.133,
+      "rating_at_end": -0.149,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.133
+      "rating": -0.149
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.673
+      "rating": 0.622
     }
   ]
 }

@@ -6,14 +6,14 @@
     "era_rating": 0.6,
     "peak_rating": 0.423,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.429,
+    "active_rating": -0.394,
     "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 8,
     "n_snapshots": 18,
     "championships": 0,
     "elim_wins": 1,
-    "elim_losses": 5,
-    "daily_wins": 8
+    "elim_losses": 4,
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Love Sick",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.54,
+      "rating_at_end": -0.516,
       "partner": "CT Tamburello",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "I Will Always Love You",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.273,
+      "rating_at_end": 0.263,
       "partner": "CT Tamburello",
       "partners_history": [],
       "team": "",
@@ -76,9 +76,9 @@
       "finish": "Eliminated in Wes Side Story",
       "finish_label": "Eliminated",
       "finish_episode": "Wes Side Story",
-      "elim_position": 6,
+      "elim_position": 1,
       "elim_total": 9,
-      "rating_at_end": 0.003,
+      "rating_at_end": -0.074,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -95,7 +95,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.023,
+      "rating_at_end": -0.072,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.047,
+      "rating_at_end": -0.039,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -129,7 +129,7 @@
       "finish_episode": "The Big Split",
       "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": 0.089,
+      "rating_at_end": 0.076,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "The Death Roll",
       "elim_position": 6,
       "elim_total": 6,
-      "rating_at_end": -0.247,
+      "rating_at_end": -0.266,
       "partner": "Derrick Kosinski",
       "partners_history": [],
       "team": "",
@@ -155,44 +155,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": -0.247
+      "rating": -0.266
     },
     {
-      "ranking_id": 228,
+      "ranking_id": 230,
       "season_id": "s13_the_duel",
-      "rating": 0.089
+      "rating": 0.076
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.047
+      "rating": -0.039
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.023
+      "rating": -0.072
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.003
+      "rating": -0.074
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.273
+      "rating": 0.263
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": 0.259
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.54
+      "rating": -0.516
     }
   ]
 }

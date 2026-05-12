@@ -3,17 +3,17 @@
   "safe_name": "Casey_Cooper",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.727,
+    "era_rating": 0.8,
+    "peak_rating": 0.721,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.53,
-    "active_season_id": "s20_cutthroat",
+    "active_rating": 0.213,
+    "active_season_id": "s21_rivals",
     "n_seasons": 4,
-    "n_snapshots": 9,
+    "n_snapshots": 10,
     "championships": 0,
     "elim_wins": 7,
     "elim_losses": 4,
-    "daily_wins": 6
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Muay So-Called Ruins",
       "finish_label": "Eliminated",
       "finish_episode": "Muay So-Called Ruins",
-      "elim_position": 5,
+      "elim_position": 9,
       "elim_total": 9,
-      "rating_at_end": -0.062,
+      "rating_at_end": -0.331,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -44,7 +44,7 @@
       "finish_episode": "What Goes Around",
       "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": 0.141,
+      "rating_at_end": 0.024,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -61,7 +61,7 @@
       "finish_episode": "Goodbye Casey",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": 0.022,
+      "rating_at_end": 0.023,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "And the Winners Are...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.727,
+      "rating_at_end": 0.721,
       "partner": "Wes Bergmann",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": 0.727
+      "rating": 0.721
     },
     {
-      "ranking_id": 228,
+      "ranking_id": 230,
       "season_id": "s13_the_duel",
-      "rating": 0.022
+      "rating": 0.023
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.141
+      "rating": 0.024
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.062
+      "rating": -0.331
     }
   ]
 }

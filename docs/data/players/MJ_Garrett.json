@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.622,
+    "peak_rating": 0.62,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": 0.362,
+    "active_rating": 0.359,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 3,
     "n_snapshots": 9,
     "championships": 1,
     "elim_wins": 2,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Duel or Die",
       "finish_label": "Eliminated",
       "finish_episode": "Duel or Die",
-      "elim_position": 6,
+      "elim_position": 9,
       "elim_total": 10,
-      "rating_at_end": 0.075,
+      "rating_at_end": 0.079,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "All Alone",
       "elim_position": 6,
       "elim_total": 8,
-      "rating_at_end": -0.305,
+      "rating_at_end": -0.309,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -61,7 +61,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.622,
+      "rating_at_end": 0.62,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.622
+      "rating": 0.62
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.305
+      "rating": -0.309
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.075
+      "rating": 0.079
     }
   ]
 }

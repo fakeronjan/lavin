@@ -3,17 +3,17 @@
   "safe_name": "Tonya_Cooley",
   "gender": "F",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.36,
+    "era_rating": 0.8,
+    "peak_rating": 0.376,
     "peak_season_id": "s18_the_ruins",
-    "active_rating": -0.003,
-    "active_season_id": "s20_cutthroat",
+    "active_rating": -0.481,
+    "active_season_id": "s21_rivals",
     "n_seasons": 8,
-    "n_snapshots": 15,
+    "n_snapshots": 16,
     "championships": 1,
     "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 5
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Girls Gone Wild",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.36,
+      "rating_at_end": 0.376,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -44,7 +44,7 @@
       "finish_episode": "Welcome to the Island",
       "elim_position": 1,
       "elim_total": 2,
-      "rating_at_end": 0.157,
+      "rating_at_end": 0.139,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.101,
+      "rating_at_end": 0.072,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -78,7 +78,7 @@
       "finish_episode": "Kayak Challenge",
       "elim_position": 4,
       "elim_total": 6,
-      "rating_at_end": -0.061,
+      "rating_at_end": -0.06,
       "partner": "Johnnie McBride",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.094,
+      "rating_at_end": 0.051,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -112,7 +112,7 @@
       "finish_episode": "Episode 13",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.138,
+      "rating_at_end": 0.065,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Mud Bath",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": 0.114,
+      "rating_at_end": 0.102,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -146,7 +146,7 @@
       "finish_episode": "Battle of the Opposite Sexes",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": 0.006,
+      "rating_at_end": 0.015,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -157,42 +157,42 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.006
+      "rating": 0.015
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.114
+      "rating": 0.102
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.138
+      "rating": 0.065
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.094
+      "rating": 0.051
     },
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": -0.061
+      "rating": -0.06
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.101
+      "rating": 0.072
     },
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": 0.157
+      "rating": 0.139
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.36
+      "rating": 0.376
     }
   ]
 }

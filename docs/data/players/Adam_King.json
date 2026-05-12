@@ -3,8 +3,8 @@
   "safe_name": "Adam_King",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.363,
+    "era_rating": 0.4,
+    "peak_rating": 0.352,
     "peak_season_id": "s16_the_island",
     "active_rating": -0.067,
     "active_season_id": "s23_battle_of_the_seasons_2012",
@@ -13,7 +13,7 @@
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 4,
-    "daily_wins": 7
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The Storm Before the Storm",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": 0.016,
+      "rating_at_end": 0.014,
       "partner": "CT Tamburello",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in The Road to Ruins",
       "finish_label": "Eliminated",
       "finish_episode": "The Road to Ruins",
-      "elim_position": 5,
+      "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": 0.03,
+      "rating_at_end": -0.034,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -61,7 +61,7 @@
       "finish_episode": "Damned if You Duel...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.184,
+      "rating_at_end": 0.124,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.25,
+      "rating_at_end": 0.242,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -95,7 +95,7 @@
       "finish_episode": "Watching Paint Dry",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.265,
+      "rating_at_end": -0.273,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -110,9 +110,9 @@
       "finish": "Eliminated in Episode 4",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 4",
-      "elim_position": 2,
+      "elim_position": 3,
       "elim_total": 14,
-      "rating_at_end": -0.382,
+      "rating_at_end": -0.372,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -123,32 +123,32 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.382
+      "rating": -0.372
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.265
+      "rating": -0.273
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.25
+      "rating": 0.242
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.184
+      "rating": 0.124
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.03
+      "rating": -0.034
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.016
+      "rating": 0.014
     }
   ]
 }

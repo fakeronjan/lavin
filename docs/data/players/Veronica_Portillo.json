@@ -3,17 +3,17 @@
   "safe_name": "Veronica_Portillo",
   "gender": "F",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.589,
+    "era_rating": 1.0,
+    "peak_rating": 0.878,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.202,
+    "active_rating": -0.551,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
     "n_snapshots": 20,
     "championships": 3,
     "elim_wins": 5,
     "elim_losses": 6,
-    "daily_wins": 8
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -26,8 +26,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 7,
-      "elim_total": 11,
-      "rating_at_end": -0.248,
+      "elim_total": 12,
+      "rating_at_end": -0.394,
       "partner": "Darrell Taylor",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Redemption House of Cards",
       "finish_label": "Eliminated",
       "finish_episode": "Redemption House of Cards",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.172,
+      "elim_position": 3,
+      "elim_total": 9,
+      "rating_at_end": -0.269,
       "partner": "CT Tamburello",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Mercenaries of Mayhem",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.151,
+      "rating_at_end": -0.115,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "A Million More Reasons",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.334,
+      "rating_at_end": -0.109,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -93,9 +93,9 @@
       "finish": "Eliminated in Ruining on Empty",
       "finish_label": "Eliminated",
       "finish_episode": "Ruining on Empty",
-      "elim_position": 8,
+      "elim_position": 6,
       "elim_total": 9,
-      "rating_at_end": -0.648,
+      "rating_at_end": -0.009,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -112,7 +112,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.37,
+      "rating_at_end": 0.349,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -127,9 +127,9 @@
       "finish": "Eliminated in Episode 11",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 11",
-      "elim_position": 7,
+      "elim_position": 9,
       "elim_total": 13,
-      "rating_at_end": 0.267,
+      "rating_at_end": 0.215,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.244,
+      "rating_at_end": 0.219,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -163,7 +163,7 @@
       "finish_episode": "Gold Rush Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.304,
+      "rating_at_end": 0.255,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -180,7 +180,7 @@
       "finish_episode": "Stairway to Heaven",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.066,
+      "rating_at_end": -0.102,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -197,7 +197,7 @@
       "finish_episode": "Hang Man",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.201,
+      "rating_at_end": -0.238,
       "partner": "Yes Duffy",
       "partners_history": [],
       "team": "",
@@ -208,57 +208,57 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.201
+      "rating": -0.238
     },
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.066
+      "rating": -0.102
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.304
+      "rating": 0.255
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.244
+      "rating": 0.219
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.267
+      "rating": 0.215
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.37
+      "rating": 0.349
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.648
+      "rating": -0.009
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.334
+      "rating": -0.109
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.151
+      "rating": -0.115
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.172
+      "rating": -0.269
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.248
+      "rating": -0.394
     }
   ]
 }

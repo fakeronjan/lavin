@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.285,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.285,
+    "peak_rating": -0.279,
+    "peak_season_id": "s22_battle_of_the_exes",
+    "active_rating": -0.337,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 2,
     "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Love in the Fast Lane",
       "finish_label": "Eliminated",
       "finish_episode": "Love in the Fast Lane",
-      "elim_position": 1,
+      "elim_position": 2,
       "elim_total": 10,
-      "rating_at_end": -0.416,
+      "rating_at_end": -0.459,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Czech Yourself Before You Wreck Yourself",
       "finish_label": "Eliminated",
       "finish_episode": "Czech Yourself Before You Wreck Yourself",
-      "elim_position": 5,
+      "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": -0.976,
+      "rating_at_end": -0.481,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": -0.976
+      "rating": -0.481
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.416
+      "rating": -0.459
     }
   ]
 }

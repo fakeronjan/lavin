@@ -3,17 +3,17 @@
   "safe_name": "Jozea_Flores",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.239,
+    "era_rating": 0.6,
+    "peak_rating": 0.583,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.009,
+    "active_rating": -0.242,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 1,
     "n_snapshots": 3,
     "championships": 0,
-    "elim_wins": 0,
+    "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Wheel of Fortune",
       "finish_label": "Eliminated",
       "finish_episode": "Wheel of Fortune",
-      "elim_position": 2,
-      "elim_total": 7,
-      "rating_at_end": 0.239,
+      "elim_position": 4,
+      "elim_total": 10,
+      "rating_at_end": 0.583,
       "partner": "Da'Vonne Rogers",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": 0.239
+      "rating": 0.583
     }
   ]
 }

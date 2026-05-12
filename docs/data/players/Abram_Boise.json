@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.9,
-    "peak_rating": 0.445,
-    "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": -0.656,
-    "active_season_id": "s31_vendettas",
+    "peak_rating": 0.496,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.611,
+    "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 9,
-    "n_snapshots": 21,
+    "n_snapshots": 20,
     "championships": 2,
     "elim_wins": 4,
     "elim_losses": 6,
@@ -27,7 +27,7 @@
       "finish_episode": "Blood Versus Love",
       "elim_position": 4,
       "elim_total": 5,
-      "rating_at_end": -0.204,
+      "rating_at_end": -0.165,
       "partner": "Mike Boise",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Crazy in Love",
       "elim_position": 5,
       "elim_total": 7,
-      "rating_at_end": -0.087,
+      "rating_at_end": -0.108,
       "partner": "Cara Maria Sorbello",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.046,
+      "rating_at_end": -0.033,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -95,7 +95,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.424,
+      "rating_at_end": 0.422,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -112,7 +112,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.018,
+      "rating_at_end": -0.027,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -127,9 +127,9 @@
       "finish": "Eliminated in Episode 5",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 5",
-      "elim_position": 3,
+      "elim_position": 4,
       "elim_total": 14,
-      "rating_at_end": 0.05,
+      "rating_at_end": 0.033,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.108,
+      "rating_at_end": 0.097,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -163,7 +163,7 @@
       "finish_episode": "All or Nothing",
       "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": -0.715,
+      "rating_at_end": -0.74,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -174,47 +174,47 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.715
+      "rating": -0.74
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.108
+      "rating": 0.097
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.05
+      "rating": 0.033
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.018
+      "rating": -0.027
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.424
+      "rating": 0.422
     },
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
       "rating": 0.305
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.046
+      "rating": -0.033
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.087
+      "rating": -0.108
     },
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.204
+      "rating": -0.165
     }
   ]
 }

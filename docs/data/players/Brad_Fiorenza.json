@@ -3,17 +3,17 @@
   "safe_name": "Brad_Fiorenza",
   "gender": "M",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 0.637,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.208,
+    "era_rating": 2.2,
+    "peak_rating": 0.576,
+    "peak_season_id": "s22_battle_of_the_exes",
+    "active_rating": -0.335,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 12,
     "n_snapshots": 21,
     "championships": 1,
-    "elim_wins": 6,
+    "elim_wins": 7,
     "elim_losses": 6,
-    "daily_wins": 14
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in My Real Friends Era",
       "finish_label": "Eliminated",
       "finish_episode": "My Real Friends Era",
-      "elim_position": 2,
+      "elim_position": 8,
       "elim_total": 15,
-      "rating_at_end": -0.134,
+      "rating_at_end": -0.236,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": 4,
       "elim_total": 7,
-      "rating_at_end": -0.4,
+      "rating_at_end": -0.347,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in It's Always Sunny in South Africa",
       "finish_label": "Eliminated",
       "finish_episode": "It's Always Sunny in South Africa",
-      "elim_position": 3,
-      "elim_total": 7,
-      "rating_at_end": -0.251,
+      "elim_position": 5,
+      "elim_total": 10,
+      "rating_at_end": -0.16,
       "partner": "Kyle Christie",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.102,
+      "rating_at_end": 0.176,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.637,
+      "rating_at_end": 0.525,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -112,7 +112,7 @@
       "finish_episode": "Thai Me Up! Thai Me Down!",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.508,
+      "rating_at_end": 0.408,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -129,7 +129,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.59,
+      "rating_at_end": 0.527,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.319,
+      "rating_at_end": 0.309,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -163,7 +163,7 @@
       "finish_episode": "The Big Payoff",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.096,
+      "rating_at_end": 0.081,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -180,7 +180,7 @@
       "finish_episode": "The Good, the Brad, and the Ugly",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": -0.238,
+      "rating_at_end": -0.255,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -197,7 +197,7 @@
       "finish_episode": "Episode 10",
       "elim_position": 4,
       "elim_total": 4,
-      "rating_at_end": -0.15,
+      "rating_at_end": -0.167,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -212,9 +212,9 @@
       "finish": "Eliminated in Episode 15",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 15",
-      "elim_position": 11,
+      "elim_position": 13,
       "elim_total": 14,
-      "rating_at_end": 0.184,
+      "rating_at_end": 0.169,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -225,62 +225,62 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.184
+      "rating": 0.169
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.15
+      "rating": -0.167
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.238
+      "rating": -0.255
     },
     {
-      "ranking_id": 228,
+      "ranking_id": 230,
       "season_id": "s13_the_duel",
-      "rating": 0.096
+      "rating": 0.081
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.319
+      "rating": 0.309
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.59
+      "rating": 0.527
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.508
+      "rating": 0.408
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.637
+      "rating": 0.525
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.102
+      "rating": 0.176
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.251
+      "rating": -0.16
     },
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.4
+      "rating": -0.347
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.134
+      "rating": -0.236
     }
   ]
 }

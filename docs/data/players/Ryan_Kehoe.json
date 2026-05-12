@@ -3,17 +3,17 @@
   "safe_name": "Ryan_Kehoe",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.5,
+    "era_rating": 0.7,
+    "peak_rating": 0.495,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.051,
+    "active_rating": -0.025,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 13,
     "championships": 0,
     "elim_wins": 4,
-    "elim_losses": 6,
-    "daily_wins": 7
+    "elim_losses": 5,
+    "daily_wins": 9
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in A New Era",
       "finish_label": "Eliminated",
       "finish_episode": "A New Era",
-      "elim_position": 4,
+      "elim_position": 12,
       "elim_total": 15,
-      "rating_at_end": 0.019,
+      "rating_at_end": 0.058,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -44,7 +44,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": -0.015,
+      "rating_at_end": 0.018,
       "partner": "Theresa Jones",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Duel Unto Others",
       "finish_label": "Eliminated",
       "finish_episode": "Duel Unto Others",
-      "elim_position": 10,
+      "elim_position": 2,
       "elim_total": 10,
-      "rating_at_end": -0.002,
+      "rating_at_end": 0.078,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.013,
+      "rating_at_end": -0.019,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Jailbirds",
       "elim_position": 2,
       "elim_total": 6,
-      "rating_at_end": 0.5,
+      "rating_at_end": 0.495,
       "partner": "Melinda Collins",
       "partners_history": [],
       "team": "",
@@ -121,34 +121,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": 0.5
+      "rating": 0.495
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
       "rating": 0.028
     },
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": -0.013
+      "rating": -0.019
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.002
+      "rating": 0.078
     },
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.015
+      "rating": 0.018
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.019
+      "rating": 0.058
     }
   ]
 }

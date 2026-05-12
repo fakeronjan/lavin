@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.015,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.062,
+    "peak_rating": 0.201,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.201,
     "active_season_id": "s31_vendettas",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Rivals: Civil War",
       "elim_position": 5,
-      "elim_total": 6,
-      "rating_at_end": -0.124,
+      "elim_total": 7,
+      "rating_at_end": -0.129,
       "partner": "Nate Siebenmark",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "There Will Be Blood",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.484,
+      "rating_at_end": -0.501,
       "partner": "Emily Reese",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.484
+      "rating": -0.501
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.124
+      "rating": -0.129
     }
   ]
 }

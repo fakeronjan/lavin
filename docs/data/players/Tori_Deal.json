@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 2.6,
-    "peak_rating": 0.651,
+    "peak_rating": 0.648,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.449,
+    "active_rating": 0.419,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
     "n_snapshots": 12,
     "championships": 1,
-    "elim_wins": 6,
+    "elim_wins": 5,
     "elim_losses": 3,
-    "daily_wins": 6
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.431,
+      "rating_at_end": 0.421,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.566,
+      "rating_at_end": 0.605,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.651,
+      "rating_at_end": 0.648,
       "partner": "Devin Walker",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.285,
+      "rating_at_end": 0.275,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": -0.028,
+      "rating_at_end": -0.047,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Should I Stay or Should I Go?",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.029,
+      "rating_at_end": -0.037,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.186,
+      "rating_at_end": 0.226,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -144,9 +144,9 @@
       "finish": "Eliminated in Redemption House of Cards",
       "finish_label": "Eliminated",
       "finish_episode": "Redemption House of Cards",
-      "elim_position": 1,
-      "elim_total": 5,
-      "rating_at_end": 0.147,
+      "elim_position": 4,
+      "elim_total": 9,
+      "rating_at_end": -0.008,
       "partner": "Derrick Henry",
       "partners_history": [],
       "team": "",
@@ -163,7 +163,7 @@
       "finish_episode": "One in a Million",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.3,
+      "rating_at_end": 0.415,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -172,49 +172,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.3
+      "rating": 0.415
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": 0.147
+      "rating": -0.008
     },
     {
-      "ranking_id": 759,
+      "ranking_id": 800,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.186
+      "rating": 0.226
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": -0.029
+      "rating": -0.037
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": -0.028
+      "rating": -0.047
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.285
+      "rating": 0.275
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.651
+      "rating": 0.648
     },
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.566
+      "rating": 0.605
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.431
+      "rating": 0.421
     }
   ]
 }

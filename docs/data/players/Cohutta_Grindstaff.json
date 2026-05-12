@@ -3,17 +3,17 @@
   "safe_name": "Cohutta_Grindstaff",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.378,
-    "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.486,
-    "active_season_id": "s31_vendettas",
+    "era_rating": 0.5,
+    "peak_rating": 0.369,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": 0.359,
+    "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 4,
-    "n_snapshots": 13,
+    "n_snapshots": 12,
     "championships": 0,
     "elim_wins": 4,
     "elim_losses": 4,
-    "daily_wins": 5
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Bad Blood",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.154,
+      "rating_at_end": 0.275,
       "partner": "Jill Tuttle",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Best Friends for Never",
       "finish_label": "Eliminated",
       "finish_episode": "Best Friends for Never",
-      "elim_position": 5,
+      "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.019,
+      "rating_at_end": 0.206,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Silence of the Ruins",
       "finish_label": "Eliminated",
       "finish_episode": "Silence of the Ruins",
-      "elim_position": 8,
+      "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": -0.039,
+      "rating_at_end": -0.122,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -78,7 +78,7 @@
       "finish_episode": "Island King",
       "elim_position": 2,
       "elim_total": 2,
-      "rating_at_end": -0.793,
+      "rating_at_end": -0.795,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": -0.793
+      "rating": -0.795
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.039
+      "rating": -0.122
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.019
+      "rating": 0.206
     },
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.154
+      "rating": 0.275
     }
   ]
 }

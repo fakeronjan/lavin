@@ -3,17 +3,17 @@
   "safe_name": "Shane_Landrum",
   "gender": "M",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.503,
-    "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.579,
-    "active_season_id": "s35_total_madness",
+    "era_rating": 1.1,
+    "peak_rating": 0.495,
+    "peak_season_id": "s12_fresh_meat",
+    "active_rating": 0.054,
+    "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 7,
-    "n_snapshots": 18,
+    "n_snapshots": 17,
     "championships": 0,
     "elim_wins": 3,
-    "elim_losses": 6,
-    "daily_wins": 8
+    "elim_losses": 7,
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in It's Always Sunny in South Africa",
       "finish_label": "Eliminated",
       "finish_episode": "It's Always Sunny in South Africa",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.086,
+      "elim_position": 9,
+      "elim_total": 10,
+      "rating_at_end": 0.087,
       "partner": "Nelson Thomas",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Pulling the Strings",
       "finish_label": "Eliminated",
       "finish_episode": "Pulling the Strings",
-      "elim_position": 4,
+      "elim_position": 5,
       "elim_total": 9,
-      "rating_at_end": -0.462,
+      "rating_at_end": -0.173,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Caged",
       "finish_label": "Eliminated",
       "finish_episode": "Caged",
-      "elim_position": 6,
+      "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": -0.663,
+      "rating_at_end": -0.144,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Jump Down Under",
       "elim_position": 4,
       "elim_total": 6,
-      "rating_at_end": 0.5,
+      "rating_at_end": 0.495,
       "partner": "Linette Gallo",
       "partners_history": [],
       "team": "",
@@ -93,9 +93,9 @@
       "finish": "Eliminated in Episode 14",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 14",
-      "elim_position": 10,
+      "elim_position": 12,
       "elim_total": 14,
-      "rating_at_end": -0.086,
+      "rating_at_end": -0.089,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Bungee Bound",
       "elim_position": 3,
       "elim_total": 4,
-      "rating_at_end": -0.326,
+      "rating_at_end": -0.327,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -129,7 +129,7 @@
       "finish_episode": "Razors Edge",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.503,
+      "rating_at_end": 0.478,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -140,37 +140,37 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.503
+      "rating": 0.478
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": -0.326
+      "rating": -0.327
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.086
+      "rating": -0.089
     },
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": 0.5
+      "rating": 0.495
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.663
+      "rating": -0.144
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": -0.462
+      "rating": -0.173
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.086
+      "rating": 0.087
     }
   ]
 }

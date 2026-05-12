@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.241,
+    "peak_rating": -0.227,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.794,
-    "active_season_id": "s32_final_reckoning",
+    "active_rating": -0.645,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Shots Fired!",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.655,
+      "rating_at_end": -0.622,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The Naked Truth",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.403,
+      "rating_at_end": -0.402,
       "partner": "Thomas Buell",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Love Sick",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.42,
+      "rating_at_end": -0.405,
       "partner": "John Jacobs",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.42
+      "rating": -0.405
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.403
+      "rating": -0.402
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.655
+      "rating": -0.622
     }
   ]
 }

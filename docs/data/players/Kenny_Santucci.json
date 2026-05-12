@@ -3,8 +3,8 @@
   "safe_name": "Kenny_Santucci",
   "gender": "M",
   "career": {
-    "era_rating": 4.3,
-    "peak_rating": 1.121,
+    "era_rating": 4.4,
+    "peak_rating": 1.117,
     "peak_season_id": "s12_fresh_meat",
     "active_rating": 0.681,
     "active_season_id": "s23_battle_of_the_seasons_2012",
@@ -13,7 +13,7 @@
     "championships": 3,
     "elim_wins": 5,
     "elim_losses": 3,
-    "daily_wins": 11
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.65,
+      "rating_at_end": 0.661,
       "partner": "Wes Bergmann",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.501,
+      "rating_at_end": 0.566,
       "partner": "Laurel Stucky",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Good Thai and Good Luck",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.48,
+      "rating_at_end": 0.57,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -78,7 +78,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.469,
+      "rating_at_end": 0.461,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.347,
+      "rating_at_end": 0.339,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -129,7 +129,7 @@
       "finish_episode": "The Drama Mafia",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": 0.304,
+      "rating_at_end": 0.286,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "And the Winners Are...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 1.121,
+      "rating_at_end": 1.117,
       "partner": "Tina Barta",
       "partners_history": [],
       "team": "",
@@ -155,44 +155,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": 1.121
+      "rating": 1.117
     },
     {
-      "ranking_id": 228,
+      "ranking_id": 230,
       "season_id": "s13_the_duel",
-      "rating": 0.304
+      "rating": 0.286
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
       "rating": 0.405
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.347
+      "rating": 0.339
     },
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": 0.469
+      "rating": 0.461
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.48
+      "rating": 0.57
     },
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.501
+      "rating": 0.566
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.65
+      "rating": 0.661
     }
   ]
 }

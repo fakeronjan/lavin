@@ -3,16 +3,16 @@
   "safe_name": "Faysal_Shafaat",
   "gender": "M",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.331,
+    "era_rating": 0.9,
+    "peak_rating": 0.332,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.246,
+    "active_rating": -0.229,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 7,
     "championships": 0,
-    "elim_wins": 4,
-    "elim_losses": 2,
+    "elim_wins": 5,
+    "elim_losses": 3,
     "daily_wins": 9
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 12,
+      "elim_position": 11,
       "elim_total": 12,
-      "rating_at_end": 0.076,
+      "rating_at_end": -0.117,
       "partner": "Moriah Jade",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Uncle CT",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.267,
+      "rating_at_end": 0.256,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.299,
+      "rating_at_end": 0.303,
       "partner": "",
       "partners_history": [
         "Aneesa Ferreira",
@@ -81,7 +81,7 @@
       "finish_episode": "It's the End of the World As We Know It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.331,
+      "rating_at_end": 0.332,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -90,24 +90,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": 0.331
+      "rating": 0.332
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.299
+      "rating": 0.303
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.267
+      "rating": 0.256
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.076
+      "rating": -0.117
     }
   ]
 }

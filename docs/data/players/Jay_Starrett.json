@@ -3,10 +3,10 @@
   "safe_name": "Jay_Starrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.108,
-    "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": -0.331,
+    "era_rating": 0.2,
+    "peak_rating": 0.125,
+    "peak_season_id": "s35_total_madness",
+    "active_rating": -0.382,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": -0.124,
+      "rating_at_end": -0.091,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": 8,
       "elim_total": 12,
-      "rating_at_end": -0.15,
+      "rating_at_end": -0.098,
       "partner": "Michele Fitzgerald",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": 0.027,
+      "rating_at_end": 0.045,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Love Will Tear Us Apart",
       "elim_position": 3,
       "elim_total": 6,
-      "rating_at_end": 0.104,
+      "rating_at_end": 0.125,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": 0.104
+      "rating": 0.125
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.027
+      "rating": 0.045
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.15
+      "rating": -0.098
     },
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.124
+      "rating": -0.091
     }
   ]
 }

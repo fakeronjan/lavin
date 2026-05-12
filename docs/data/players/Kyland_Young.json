@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 1.4,
-    "peak_rating": 0.737,
+    "peak_rating": 0.813,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.581,
+    "active_rating": 0.528,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 5,
     "elim_losses": 0,
-    "daily_wins": 7
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.633,
+      "rating_at_end": 0.615,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.737,
+      "rating_at_end": 0.813,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.737
+      "rating": 0.813
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.633
+      "rating": 0.615
     }
   ]
 }

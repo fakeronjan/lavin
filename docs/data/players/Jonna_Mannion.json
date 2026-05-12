@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.103,
-    "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.152,
+    "peak_rating": -0.012,
+    "peak_season_id": "s21_rivals",
+    "active_rating": -0.189,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
-    "n_snapshots": 12,
+    "n_snapshots": 11,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 7,
-    "daily_wins": 8
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "A King of Kamikaze",
       "elim_position": 5,
-      "elim_total": 8,
-      "rating_at_end": -0.152,
+      "elim_total": 7,
+      "rating_at_end": -0.189,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in My Real Friends Era",
       "finish_label": "Eliminated",
       "finish_episode": "My Real Friends Era",
-      "elim_position": 10,
+      "elim_position": 7,
       "elim_total": 13,
-      "rating_at_end": -0.276,
+      "rating_at_end": -0.529,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -61,7 +61,7 @@
       "finish_episode": "You've Lost That Loving Feeling",
       "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": -0.339,
+      "rating_at_end": -0.388,
       "partner": "Zach Nichols",
       "partners_history": [],
       "team": "",
@@ -76,9 +76,9 @@
       "finish": "Eliminated in Pride Before the Wall",
       "finish_label": "Eliminated",
       "finish_episode": "Pride Before the Wall",
-      "elim_position": 4,
+      "elim_position": 7,
       "elim_total": 10,
-      "rating_at_end": -0.273,
+      "rating_at_end": -0.319,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Blood on the Dance Floor",
       "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": 0.039,
+      "rating_at_end": -0.012,
       "partner": "Jasmine Reynaud",
       "partners_history": [],
       "team": "",
@@ -138,39 +138,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.039
+      "rating": -0.012
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.57
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.438
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.273
+      "rating": -0.319
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.339
+      "rating": -0.388
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.276
+      "rating": -0.529
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.152
+      "rating": -0.189
     }
   ]
 }

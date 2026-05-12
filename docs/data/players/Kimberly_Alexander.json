@@ -3,17 +3,17 @@
   "safe_name": "Kimberly_Alexander",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.059,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.059,
-    "active_season_id": "s20_cutthroat",
+    "era_rating": 0.2,
+    "peak_rating": 0.193,
+    "peak_season_id": "s17_the_duel_ii",
+    "active_rating": -0.301,
+    "active_season_id": "s21_rivals",
     "n_seasons": 2,
-    "n_snapshots": 4,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 3,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Muay So-Called Ruins",
       "finish_label": "Eliminated",
       "finish_episode": "Muay So-Called Ruins",
-      "elim_position": 4,
+      "elim_position": 8,
       "elim_total": 9,
-      "rating_at_end": -0.054,
+      "rating_at_end": 0.052,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Dueling for Dunbar",
       "finish_label": "Eliminated",
       "finish_episode": "Dueling for Dunbar",
-      "elim_position": 4,
+      "elim_position": 6,
       "elim_total": 9,
-      "rating_at_end": -0.061,
+      "rating_at_end": 0.193,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.061
+      "rating": 0.193
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.054
+      "rating": 0.052
     }
   ]
 }

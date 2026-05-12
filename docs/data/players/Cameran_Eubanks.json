@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.03,
+    "peak_rating": -0.031,
     "peak_season_id": "s09_battle_of_the_sexes_2",
-    "active_rating": -0.559,
+    "active_rating": -0.56,
     "active_season_id": "s13_the_duel",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -27,7 +27,7 @@
       "finish_episode": "We Can Work It Out",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.298,
+      "rating_at_end": -0.322,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Episode 3",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 3",
-      "elim_position": 1,
+      "elim_position": 2,
       "elim_total": 13,
-      "rating_at_end": 0.03,
+      "rating_at_end": -0.031,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -55,12 +55,12 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.03
+      "rating": -0.031
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.298
+      "rating": -0.322
     }
   ]
 }

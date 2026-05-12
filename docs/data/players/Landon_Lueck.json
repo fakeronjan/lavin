@@ -3,10 +3,10 @@
   "safe_name": "Landon_Lueck",
   "gender": "M",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 1.234,
+    "era_rating": 1.7,
+    "peak_rating": 1.233,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": 1.234,
+    "active_rating": 1.233,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 4,
     "n_snapshots": 10,
@@ -27,7 +27,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.619,
+      "rating_at_end": 0.552,
       "partner": "Carley Johnson",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Duel or Die",
       "finish_label": "Eliminated",
       "finish_episode": "Duel or Die",
-      "elim_position": 7,
+      "elim_position": 10,
       "elim_total": 10,
-      "rating_at_end": 0.027,
+      "rating_at_end": -0.156,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.627,
+      "rating_at_end": 0.615,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -78,7 +78,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.57,
+      "rating_at_end": 0.551,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -89,22 +89,22 @@
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.57
+      "rating": 0.551
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.627
+      "rating": 0.615
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.027
+      "rating": -0.156
     },
     {
-      "ranking_id": 335,
+      "ranking_id": 338,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.619
+      "rating": 0.552
     }
   ]
 }

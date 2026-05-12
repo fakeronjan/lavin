@@ -3,17 +3,17 @@
   "safe_name": "Katie_Cooley",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.34,
+    "era_rating": 0.7,
+    "peak_rating": 0.326,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.648,
+    "active_rating": -0.322,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 18,
     "championships": 1,
     "elim_wins": 6,
     "elim_losses": 11,
-    "daily_wins": 7
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in The Era Invitational, Part 2",
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
-      "elim_position": 11,
+      "elim_position": 2,
       "elim_total": 13,
-      "rating_at_end": -0.599,
+      "rating_at_end": -0.268,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Couching Tyger, Hidden Danimal",
       "finish_label": "Eliminated",
       "finish_episode": "Couching Tyger, Hidden Danimal",
-      "elim_position": 4,
+      "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.34,
+      "rating_at_end": -0.19,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Girls Gone Wild",
       "finish_label": "Eliminated",
       "finish_episode": "Girls Gone Wild",
-      "elim_position": 2,
+      "elim_position": 4,
       "elim_total": 9,
-      "rating_at_end": -0.319,
+      "rating_at_end": -0.272,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -76,9 +76,9 @@
       "finish": "Eliminated in Duel-ality",
       "finish_label": "Eliminated",
       "finish_episode": "Duel-ality",
-      "elim_position": 3,
+      "elim_position": 4,
       "elim_total": 9,
-      "rating_at_end": -0.489,
+      "rating_at_end": -0.528,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Cold Blooded",
       "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": -0.397,
+      "rating_at_end": -0.391,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -112,7 +112,7 @@
       "finish_episode": "Game Over?",
       "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": -0.155,
+      "rating_at_end": -0.172,
       "partner": "Big Easy Banks",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.062,
+      "rating_at_end": 0.03,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -144,9 +144,9 @@
       "finish": "Eliminated in Episode 9",
       "finish_label": "Eliminated",
       "finish_episode": "Episode 9",
-      "elim_position": 9,
+      "elim_position": 7,
       "elim_total": 13,
-      "rating_at_end": 0.309,
+      "rating_at_end": 0.263,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -163,7 +163,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.298,
+      "rating_at_end": 0.235,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -180,7 +180,7 @@
       "finish_episode": "I Scream",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": 0.165,
+      "rating_at_end": 0.135,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -191,52 +191,52 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.165
+      "rating": 0.135
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.298
+      "rating": 0.235
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.309
+      "rating": 0.263
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.062
+      "rating": 0.03
     },
     {
-      "ranking_id": 212,
+      "ranking_id": 214,
       "season_id": "s12_fresh_meat",
-      "rating": -0.155
+      "rating": -0.172
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.397
+      "rating": -0.391
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.489
+      "rating": -0.528
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.319
+      "rating": -0.272
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": -0.34
+      "rating": -0.19
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.599
+      "rating": -0.268
     }
   ]
 }

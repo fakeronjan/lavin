@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.151,
+    "peak_rating": -0.129,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.538,
-    "active_season_id": "s32_final_reckoning",
+    "active_rating": -0.391,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
-    "elim_losses": 2,
-    "daily_wins": 2
+    "elim_losses": 1,
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Road to Redemption",
       "finish_label": "Eliminated",
       "finish_episode": "Road to Redemption",
-      "elim_position": 5,
+      "elim_position": 1,
       "elim_total": 6,
-      "rating_at_end": -0.27,
+      "rating_at_end": -0.207,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "I'm Going Home",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.22,
+      "rating_at_end": -0.219,
       "partner": "Brandon Tindel",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.22
+      "rating": -0.219
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.27
+      "rating": -0.207
     }
   ]
 }

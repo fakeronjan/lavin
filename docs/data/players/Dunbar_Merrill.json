@@ -3,17 +3,17 @@
   "safe_name": "Dunbar_Merrill",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.542,
+    "era_rating": 0.5,
+    "peak_rating": 0.483,
     "peak_season_id": "s21_rivals",
-    "active_rating": -0.693,
+    "active_rating": -0.772,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 6,
     "n_snapshots": 12,
     "championships": 1,
     "elim_wins": 1,
     "elim_losses": 4,
-    "daily_wins": 5
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -44,7 +44,7 @@
       "finish_episode": "On the Wings of Love",
       "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": 0.362,
+      "rating_at_end": 0.329,
       "partner": "Paula Meronek",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.269,
+      "rating_at_end": 0.152,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -76,9 +76,9 @@
       "finish": "Eliminated in Muay So-Called Ruins",
       "finish_label": "Eliminated",
       "finish_episode": "Muay So-Called Ruins",
-      "elim_position": 7,
+      "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": -0.391,
+      "rating_at_end": -0.515,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -93,9 +93,9 @@
       "finish": "Eliminated in Deja Duel",
       "finish_label": "Eliminated",
       "finish_episode": "Deja Duel",
-      "elim_position": 4,
+      "elim_position": 7,
       "elim_total": 10,
-      "rating_at_end": -0.488,
+      "rating_at_end": -0.551,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.87,
+      "rating_at_end": -0.869,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -121,32 +121,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 264,
+      "ranking_id": 267,
       "season_id": "s16_the_island",
-      "rating": -0.87
+      "rating": -0.869
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.488
+      "rating": -0.551
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": -0.391
+      "rating": -0.515
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.269
+      "rating": 0.152
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.362
+      "rating": 0.329
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.781
     }

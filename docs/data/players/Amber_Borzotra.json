@@ -3,10 +3,10 @@
   "safe_name": "Amber_Borzotra",
   "gender": "F",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.702,
+    "era_rating": 1.3,
+    "peak_rating": 0.674,
     "peak_season_id": "s36_double_agents",
-    "active_rating": -0.046,
+    "active_rating": -0.332,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -25,9 +25,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 11,
-      "elim_total": 11,
-      "rating_at_end": 0.517,
+      "elim_position": 12,
+      "elim_total": 12,
+      "rating_at_end": 0.117,
       "partner": "Chauncey Palmer",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The War",
       "elim_position": 7,
       "elim_total": 11,
-      "rating_at_end": 0.545,
+      "rating_at_end": 0.525,
       "partner": "",
       "partners_history": [
         "Hughie Maughan",
@@ -64,7 +64,7 @@
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.702,
+      "rating_at_end": 0.674,
       "partner": "",
       "partners_history": [
         "Darrell Taylor",
@@ -78,19 +78,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.702
+      "rating": 0.674
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.545
+      "rating": 0.525
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.517
+      "rating": 0.117
     }
   ]
 }

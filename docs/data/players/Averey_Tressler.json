@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.302,
+    "peak_rating": 0.323,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.446,
+    "active_rating": -0.533,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 8,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in The Era of the Gladiator",
       "finish_label": "Eliminated",
       "finish_episode": "The Era of the Gladiator",
-      "elim_position": 5,
+      "elim_position": 9,
       "elim_total": 13,
-      "rating_at_end": -0.438,
+      "rating_at_end": -0.54,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "The Curse of the Black Skull",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.136,
+      "rating_at_end": 0.139,
       "partner": "Leroy Garrett",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "That's the Way Love Goes",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": 0.131,
+      "rating_at_end": 0.152,
       "partner": "Johnny Reilly",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.131
+      "rating": 0.152
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.136
+      "rating": 0.139
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.438
+      "rating": -0.54
     }
   ]
 }

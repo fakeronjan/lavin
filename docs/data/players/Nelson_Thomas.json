@@ -3,16 +3,16 @@
   "safe_name": "Nelson_Thomas",
   "gender": "M",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 0.575,
+    "era_rating": 2.0,
+    "peak_rating": 0.561,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.413,
+    "active_rating": -0.311,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 9,
     "n_snapshots": 13,
     "championships": 0,
     "elim_wins": 6,
-    "elim_losses": 4,
+    "elim_losses": 5,
     "daily_wins": 8
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 10,
       "elim_total": 12,
-      "rating_at_end": -0.078,
+      "rating_at_end": -0.068,
       "partner": "Nurys Mateo",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.044,
+      "rating_at_end": 0.041,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.091,
+      "rating_at_end": -0.081,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Crash Into Me",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.093,
+      "rating_at_end": -0.054,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -93,9 +93,9 @@
       "finish": "Eliminated in It's Always Sunny in South Africa",
       "finish_label": "Eliminated",
       "finish_episode": "It's Always Sunny in South Africa",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.413,
+      "elim_position": 10,
+      "elim_total": 10,
+      "rating_at_end": 0.157,
       "partner": "Shane Landrum",
       "partners_history": [],
       "team": "",
@@ -110,9 +110,9 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 8,
+      "elim_position": 9,
       "elim_total": 9,
-      "rating_at_end": 0.476,
+      "rating_at_end": 0.356,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "The Heart is a Lonely Hunter",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.402,
+      "rating_at_end": 0.443,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "The True Champions",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.461,
+      "rating_at_end": 0.488,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -162,8 +162,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Camilanator: Salvation",
       "elim_position": 2,
-      "elim_total": 6,
-      "rating_at_end": 0.575,
+      "elim_total": 7,
+      "rating_at_end": 0.561,
       "partner": "Amanda Garcia",
       "partners_history": [],
       "team": "",
@@ -172,49 +172,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.575
+      "rating": 0.561
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.461
+      "rating": 0.488
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.402
+      "rating": 0.443
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.476
+      "rating": 0.356
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": 0.413
+      "rating": 0.157
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": -0.093
+      "rating": -0.054
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": -0.091
+      "rating": -0.081
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.044
+      "rating": 0.041
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.078
+      "rating": -0.068
     }
   ]
 }

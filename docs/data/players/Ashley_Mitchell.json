@@ -3,17 +3,17 @@
   "safe_name": "Ashley_Mitchell",
   "gender": "F",
   "career": {
-    "era_rating": 3.7,
-    "peak_rating": 0.784,
+    "era_rating": 3.9,
+    "peak_rating": 0.873,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.115,
+    "active_rating": 0.127,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 11,
     "n_snapshots": 13,
     "championships": 2,
-    "elim_wins": 4,
+    "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 10
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.115,
+      "rating_at_end": 0.127,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 1,
       "elim_total": 7,
-      "rating_at_end": 0.092,
+      "rating_at_end": 0.09,
       "partner": "",
       "partners_history": [
         "CT Tamburello",
@@ -81,7 +81,7 @@
       "finish_episode": "Karma Chameleon",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": 0.508,
+      "rating_at_end": 0.511,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -98,7 +98,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.682,
+      "rating_at_end": 0.67,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -115,7 +115,7 @@
       "finish_episode": "Hellraiser",
       "elim_position": 2,
       "elim_total": 10,
-      "rating_at_end": 0.54,
+      "rating_at_end": 0.675,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -132,7 +132,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.784,
+      "rating_at_end": 0.873,
       "partner": "Hunter Barfield",
       "partners_history": [],
       "team": "",
@@ -149,7 +149,7 @@
       "finish_episode": "",
       "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": 0.252,
+      "rating_at_end": 0.25,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -166,7 +166,7 @@
       "finish_episode": "Thirty Rotten Scoundrels",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.295,
+      "rating_at_end": 0.281,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -183,7 +183,7 @@
       "finish_episode": "The True Champions",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.435,
+      "rating_at_end": 0.425,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -199,8 +199,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Rivals: Civil War",
       "elim_position": 4,
-      "elim_total": 6,
-      "rating_at_end": -0.463,
+      "elim_total": 7,
+      "rating_at_end": -0.464,
       "partner": "Cory Wharton",
       "partners_history": [],
       "team": "",
@@ -209,59 +209,59 @@
   ],
   "timeline": [
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.463
+      "rating": -0.464
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.435
+      "rating": 0.425
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.295
+      "rating": 0.281
     },
     {
-      "ranking_id": 662,
+      "ranking_id": 675,
       "season_id": "s31_vendettas",
-      "rating": 0.252
+      "rating": 0.25
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": 0.784
-    },
-    {
-      "ranking_id": 743,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.54
-    },
-    {
-      "ranking_id": 759,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.682
+      "rating": 0.873
     },
     {
       "ranking_id": 784,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.675
+    },
+    {
+      "ranking_id": 800,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.67
+    },
+    {
+      "ranking_id": 825,
       "season_id": "s35_total_madness",
-      "rating": 0.508
+      "rating": 0.511
     },
     {
-      "ranking_id": 803,
+      "ranking_id": 844,
       "season_id": "s36_double_agents",
-      "rating": 0.092
+      "rating": 0.09
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.036
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.115
+      "rating": 0.127
     }
   ]
 }

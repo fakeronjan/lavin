@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 1.4,
-    "peak_rating": 0.862,
+    "peak_rating": 0.833,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.548,
+    "active_rating": 0.546,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 10,
     "championships": 0,
-    "elim_wins": 4,
+    "elim_wins": 3,
     "elim_losses": 4,
-    "daily_wins": 4
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Justice for Leka",
       "elim_position": 4,
       "elim_total": 9,
-      "rating_at_end": 0.548,
+      "rating_at_end": 0.546,
       "partner": "",
       "partners_history": [
         "Tay Wilcoxson",
@@ -49,7 +49,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.862,
+      "rating_at_end": 0.833,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -100,7 +100,7 @@
       "finish_episode": "Czech Yourself Before You Wreck Yourself",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": -0.255,
+      "rating_at_end": -0.304,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -109,29 +109,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": -0.255
+      "rating": -0.304
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.46
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.471
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.862
+      "rating": 0.833
     },
     {
-      "ranking_id": 962,
+      "ranking_id": 1016,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.548
+      "rating": 0.546
     }
   ]
 }

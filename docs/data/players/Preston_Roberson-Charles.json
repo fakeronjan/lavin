@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.183,
+    "peak_rating": -0.201,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.587,
+    "active_rating": -0.642,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Strike a Pose, There's Something to It",
       "finish_label": "Eliminated",
       "finish_episode": "Strike a Pose, There's Something to It",
-      "elim_position": 3,
+      "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": -0.183,
+      "rating_at_end": -0.201,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.385
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.243
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.183
+      "rating": -0.201
     }
   ]
 }

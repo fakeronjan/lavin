@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.039,
+    "peak_rating": -0.012,
     "peak_season_id": "s21_rivals",
-    "active_rating": -0.153,
+    "active_rating": -0.19,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 5,
     "n_snapshots": 7,
@@ -25,7 +25,7 @@
       "finish": "Eliminated in Stripes",
       "finish_label": "Eliminated",
       "finish_episode": "Stripes",
-      "elim_position": 3,
+      "elim_position": 5,
       "elim_total": 10,
       "rating_at_end": -0.284,
       "partner": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Love the Way You Lie",
       "elim_position": 4,
       "elim_total": 9,
-      "rating_at_end": -0.324,
+      "rating_at_end": -0.343,
       "partner": "Tyri Ballard-Brown",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Blood on the Dance Floor",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": 0.039,
+      "rating_at_end": -0.012,
       "partner": "Jonna Mannion",
       "partners_history": [],
       "team": "",
@@ -104,27 +104,27 @@
   ],
   "timeline": [
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.039
+      "rating": -0.012
     },
     {
-      "ranking_id": 420,
+      "ranking_id": 423,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.324
+      "rating": -0.343
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.523
     },
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.305
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
       "rating": -0.284
     }

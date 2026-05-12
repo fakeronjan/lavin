@@ -13,7 +13,7 @@
     "championships": 2,
     "elim_wins": 3,
     "elim_losses": 2,
-    "daily_wins": 5
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.935,
+      "rating_at_end": 0.925,
       "partner": "Johnny Bananas",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.813,
+      "rating_at_end": 0.767,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -61,7 +61,7 @@
       "finish_episode": "It's Personal",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.298,
+      "rating_at_end": -0.257,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -78,7 +78,7 @@
       "finish_episode": "Goodbye Tina and Tyler",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.624,
+      "rating_at_end": -0.646,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 228,
+      "ranking_id": 230,
       "season_id": "s13_the_duel",
-      "rating": -0.624
+      "rating": -0.646
     },
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.298
+      "rating": -0.257
     },
     {
-      "ranking_id": 354,
+      "ranking_id": 357,
       "season_id": "s20_cutthroat",
-      "rating": 0.813
+      "rating": 0.767
     },
     {
-      "ranking_id": 387,
+      "ranking_id": 390,
       "season_id": "s21_rivals",
-      "rating": 0.935
+      "rating": 0.925
     }
   ]
 }

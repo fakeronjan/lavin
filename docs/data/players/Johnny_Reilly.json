@@ -3,10 +3,10 @@
   "safe_name": "Johnny_Reilly",
   "gender": "M",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.807,
+    "era_rating": 1.7,
+    "peak_rating": 0.714,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 0.486,
+    "active_rating": 0.213,
     "active_season_id": "s31_vendettas",
     "n_seasons": 3,
     "n_snapshots": 7,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Where the Ratchet Things Are",
       "elim_position": 1,
-      "elim_total": 6,
-      "rating_at_end": 0.472,
+      "elim_total": 7,
+      "rating_at_end": 0.467,
       "partner": "Jessica McCain",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "That's the Way Love Goes",
       "elim_position": 7,
       "elim_total": 9,
-      "rating_at_end": 0.608,
+      "rating_at_end": 0.554,
       "partner": "Averey Tressler",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "A Walk in the Clouds",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.807,
+      "rating_at_end": 0.714,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": 0.807
+      "rating": 0.714
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.608
+      "rating": 0.554
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.472
+      "rating": 0.467
     }
   ]
 }

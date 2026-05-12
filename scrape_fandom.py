@@ -556,7 +556,11 @@ def parse_game_summary_individual(wikitext):
     last_episode = ""  # carried forward for continuation rows (gender-only first cell)
 
     for cells in _iter_table_rows(elim_table):
-        if len(cells) < 6:
+        # Minimum 4 cells: episode + game + winner_pair + loser_pair. Modern
+        # finale rows often have a colspan=N gray block that collapses the
+        # middle "nominees" columns, leaving just these 4 anchors (e.g. S28
+        # Rivals III "Don't Wine for Me Argentina").
+        if len(cells) < 4:
             continue
         first_plain = _cell_plain(cells[0])
         if first_plain.lower() in ("episode", "#", ""):
@@ -564,12 +568,19 @@ def parse_game_summary_individual(wikitext):
         if "colspan" in cells[0].lower() or "elimination chart" in cells[0].lower():
             continue
 
-        # Detect continuation row: first cell is just a gender label (Male/Female).
-        # In double-elim episodes the chart often emits two rows under one
-        # episode #, with the second row starting with `!Male` or `!Female`
-        # instead of an episode number.
+        # Detect continuation row: first cell isn't a real episode token.
+        # Episode column often has rowspan=N (especially in modern multi-elim
+        # charts like S40); continuation rows then start with a player icon,
+        # an "Era I/II" label, a gender label, etc. — never a number/range.
+        # A real episode is short and starts with a digit (or is "M"/"F"
+        # under team-format charts that prefix with gender).
         first_lower = first_plain.lower()
-        is_continuation = first_lower in ("male", "female")
+        looks_like_episode = bool(re.match(r'^\s*\d', first_plain))
+        is_continuation = (
+            not looks_like_episode
+            or first_lower in ("male", "female")
+            or _is_player_cell(cells[0])
+        )
         episode = last_episode if is_continuation else first_plain
         if not is_continuation:
             last_episode = episode

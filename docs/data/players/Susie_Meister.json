@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 1.3,
-    "peak_rating": 0.966,
+    "peak_rating": 0.952,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.931,
+    "active_rating": 0.912,
     "active_season_id": "s21_rivals",
     "n_seasons": 4,
     "n_snapshots": 11,
     "championships": 2,
     "elim_wins": 7,
     "elim_losses": 0,
-    "daily_wins": 8
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Good Thai and Good Luck",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.693,
+      "rating_at_end": 0.723,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -44,7 +44,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.042,
+      "rating_at_end": -0.083,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -61,7 +61,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.578,
+      "rating_at_end": 0.561,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.578
+      "rating": 0.561
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.042
+      "rating": -0.083
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 305,
       "season_id": "s18_the_ruins",
-      "rating": 0.693
+      "rating": 0.723
     }
   ]
 }

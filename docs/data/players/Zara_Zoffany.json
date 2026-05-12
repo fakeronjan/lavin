@@ -3,17 +3,17 @@
   "safe_name": "Zara_Zoffany",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.111,
+    "era_rating": 0.2,
+    "peak_rating": 0.333,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.111,
+    "active_rating": 0.333,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 1,
     "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
-    "daily_wins": 2
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.001,
+      "rating_at_end": 0.178,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 898,
+      "ranking_id": 951,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.001
+      "rating": 0.178
     }
   ]
 }

@@ -4,15 +4,15 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.61,
+    "peak_rating": -0.215,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": -0.61,
-    "active_season_id": "s40_battle_of_the_eras",
+    "active_rating": -0.511,
+    "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 1,
-    "n_snapshots": 3,
+    "n_snapshots": 4,
     "championships": 0,
-    "elim_wins": 0,
-    "elim_losses": 1,
+    "elim_wins": 1,
+    "elim_losses": 2,
     "daily_wins": 0
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 9,
       "elim_total": 12,
-      "rating_at_end": -0.641,
+      "rating_at_end": -0.412,
       "partner": "Kaycee Clark",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 883,
+      "ranking_id": 936,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.641
+      "rating": -0.412
     }
   ]
 }

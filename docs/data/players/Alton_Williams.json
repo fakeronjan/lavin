@@ -3,16 +3,16 @@
   "safe_name": "Alton_Williams",
   "gender": "M",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.696,
+    "era_rating": 0.8,
+    "peak_rating": 0.871,
     "peak_season_id": "s13_the_duel",
-    "active_rating": -0.603,
+    "active_rating": -0.636,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
     "n_snapshots": 15,
     "championships": 1,
     "elim_wins": 5,
-    "elim_losses": 1,
+    "elim_losses": 2,
     "daily_wins": 9
   },
   "seasons": [
@@ -44,7 +44,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.234,
+      "rating_at_end": -0.236,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -61,7 +61,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.546,
+      "rating_at_end": 0.583,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -78,7 +78,7 @@
       "finish_episode": "Gold Rush Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.192,
+      "rating_at_end": 0.174,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -89,20 +89,20 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.192
+      "rating": 0.174
     },
     {
-      "ranking_id": 147,
+      "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.546
+      "rating": 0.583
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 246,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.234
+      "rating": -0.236
     },
     {
-      "ranking_id": 465,
+      "ranking_id": 468,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.578
     }

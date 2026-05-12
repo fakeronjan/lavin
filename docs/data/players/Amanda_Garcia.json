@@ -3,16 +3,16 @@
   "safe_name": "Amanda_Garcia",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.195,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.721,
+    "era_rating": 0.2,
+    "peak_rating": 0.25,
+    "peak_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": -0.824,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
     "n_snapshots": 14,
     "championships": 0,
-    "elim_wins": 3,
-    "elim_losses": 5,
+    "elim_wins": 4,
+    "elim_losses": 6,
     "daily_wins": 7
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 1,
       "elim_total": 13,
-      "rating_at_end": -0.642,
+      "rating_at_end": -0.778,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "Night of Mistakes",
       "elim_position": 11,
       "elim_total": 11,
-      "rating_at_end": -0.071,
+      "rating_at_end": -0.083,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in This Means War",
       "finish_label": "Eliminated",
       "finish_episode": "This Means War",
-      "elim_position": 5,
+      "elim_position": 6,
       "elim_total": 10,
-      "rating_at_end": 0.074,
+      "rating_at_end": 0.037,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -76,9 +76,9 @@
       "finish": "Medically Disqualified in Wheel of Fortune",
       "finish_label": "Medical DQ",
       "finish_episode": "Wheel of Fortune",
-      "elim_position": 5,
-      "elim_total": 5,
-      "rating_at_end": -0.091,
+      "elim_position": 2,
+      "elim_total": 9,
+      "rating_at_end": -0.193,
       "partner": "Zach Nichols",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Road to Redemption",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.253,
+      "rating_at_end": -0.25,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "The Bloodbath",
       "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": -0.144,
+      "rating_at_end": -0.146,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -128,8 +128,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Camilanator: Salvation",
       "elim_position": 2,
-      "elim_total": 6,
-      "rating_at_end": 0.195,
+      "elim_total": 7,
+      "rating_at_end": 0.194,
       "partner": "Nelson Thomas",
       "partners_history": [],
       "team": "",
@@ -138,39 +138,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.195
+      "rating": 0.194
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.144
+      "rating": -0.146
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.253
+      "rating": -0.25
     },
     {
-      "ranking_id": 703,
+      "ranking_id": 744,
       "season_id": "s32_final_reckoning",
-      "rating": -0.091
+      "rating": -0.193
     },
     {
-      "ranking_id": 743,
+      "ranking_id": 784,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.074
+      "rating": 0.037
     },
     {
-      "ranking_id": 837,
+      "ranking_id": 878,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.071
+      "rating": -0.083
     },
     {
-      "ranking_id": 934,
+      "ranking_id": 988,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.642
+      "rating": -0.778
     }
   ]
 }

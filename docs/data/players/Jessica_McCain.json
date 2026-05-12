@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.223,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": 0.223,
+    "peak_rating": 0.199,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.324,
     "active_season_id": "s31_vendettas",
     "n_seasons": 4,
     "n_snapshots": 8,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Where the Ratchet Things Are",
       "elim_position": 1,
-      "elim_total": 6,
-      "rating_at_end": 0.114,
+      "elim_total": 7,
+      "rating_at_end": 0.119,
       "partner": "Johnny Reilly",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Where Is the Love?",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": -0.336,
+      "rating_at_end": -0.408,
       "partner": "Dustin Zito",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Best Friends for Never",
       "finish_label": "Eliminated",
       "finish_episode": "Best Friends for Never",
-      "elim_position": 5,
+      "elim_position": 9,
       "elim_total": 10,
-      "rating_at_end": -0.405,
+      "rating_at_end": -0.481,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 502,
+      "ranking_id": 505,
       "season_id": "s24_rivals_ii",
       "rating": -0.452
     },
     {
-      "ranking_id": 525,
+      "ranking_id": 528,
       "season_id": "s25_free_agents",
-      "rating": -0.405
+      "rating": -0.481
     },
     {
-      "ranking_id": 566,
+      "ranking_id": 569,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.336
+      "rating": -0.408
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": 0.114
+      "rating": 0.119
     }
   ]
 }

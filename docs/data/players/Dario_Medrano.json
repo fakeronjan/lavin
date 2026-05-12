@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.076,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": -0.012,
-    "active_season_id": "s32_final_reckoning",
+    "peak_rating": -0.159,
+    "peak_season_id": "s28_rivals_iii",
+    "active_rating": -0.202,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 1,
-    "elim_losses": 3,
-    "daily_wins": 3
+    "elim_losses": 4,
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in A Million More Reasons",
       "finish_label": "Eliminated",
       "finish_episode": "A Million More Reasons",
-      "elim_position": 3,
+      "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": -0.155,
+      "rating_at_end": -0.334,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in A Low Down Dirty Shane",
       "finish_label": "Eliminated",
       "finish_episode": "A Low Down Dirty Shane",
-      "elim_position": 2,
+      "elim_position": 3,
       "elim_total": 6,
-      "rating_at_end": -0.31,
+      "rating_at_end": -0.39,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Grapes. Wrath.",
       "finish_label": "Eliminated",
       "finish_episode": "Grapes. Wrath.",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.078,
+      "elim_position": 7,
+      "elim_total": 7,
+      "rating_at_end": -0.159,
       "partner": "Nicole Ramos",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "A House Divided",
       "elim_position": 2,
       "elim_total": 5,
-      "rating_at_end": -0.291,
+      "rating_at_end": -0.251,
       "partner": "Raphy Medrano",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 580,
+      "ranking_id": 583,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.291
+      "rating": -0.251
     },
     {
-      "ranking_id": 609,
+      "ranking_id": 616,
       "season_id": "s28_rivals_iii",
-      "rating": -0.078
+      "rating": -0.159
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 632,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.31
+      "rating": -0.39
     },
     {
-      "ranking_id": 642,
+      "ranking_id": 652,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.155
+      "rating": -0.334
     }
   ]
 }

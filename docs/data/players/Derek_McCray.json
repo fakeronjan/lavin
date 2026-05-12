@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.27,
+    "peak_rating": 0.189,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.27,
+    "active_rating": 0.189,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 2,
     "n_snapshots": 6,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in If These Duels Could Talk",
       "finish_label": "Eliminated",
       "finish_episode": "If These Duels Could Talk",
-      "elim_position": 5,
+      "elim_position": 8,
       "elim_total": 10,
-      "rating_at_end": -0.022,
+      "rating_at_end": -0.09,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Match-Up of the Century",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -0.447,
+      "rating_at_end": -0.457,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 259,
+      "ranking_id": 262,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.447
+      "rating": -0.457
     },
     {
-      "ranking_id": 284,
+      "ranking_id": 287,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.022
+      "rating": -0.09
     }
   ]
 }
