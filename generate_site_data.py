@@ -473,15 +473,25 @@ def main():
     # ---------------------------------------------------------
     # players/<safe_name>.json
     # ---------------------------------------------------------
-    # Clean eliminations: filter to same-gender + dedupe across the pair
-    # cross-product expansion. Raw eliminations.csv has 4 rows per pair-elim
-    # (MM, MF, FM, FF); without filtering we'd double-count.
+    # Clean eliminations for player-level W/L counts.
+    # Three problems with raw counts:
+    #  1) Same-gender filter — raw file has MM+MF+FM+FF cross-product per
+    #     pair-elim; only the same-gender rows are real.
+    #  2) Multiple opponents per elim — in team-format elims (e.g. S21
+    #     Rail Slide: CT + Adam K beat Evan AND Nehemiah), CT appears as
+    #     winner against 2 different losers IN THE SAME ELIM. He won ONE
+    #     elim, not two. Dedup by (season, episode, role).
+    #  3) Malformed-episode rows where episode is icon-syntax junk —
+    #     these are real elim outcomes; we keep them but they should not
+    #     dedupe against unrelated rows. The (season, episode, role) key
+    #     handles them naturally.
     e_w_g = eliminations["winner"].map(gmap)
     e_l_g = eliminations["loser"].map(gmap)
-    elims_clean = eliminations[(e_w_g.isin(["M","F"])) & (e_w_g == e_l_g)] \
-        .drop_duplicates(subset=["season_id", "episode", "winner", "loser"])
-    elims_by_player_w = elims_clean.groupby("winner").size()
-    elims_by_player_l = elims_clean.groupby("loser").size()
+    same_gender = eliminations[(e_w_g.isin(["M","F"])) & (e_w_g == e_l_g)]
+    wins_unique = same_gender.drop_duplicates(subset=["season_id", "episode", "winner"])
+    loss_unique = same_gender.drop_duplicates(subset=["season_id", "episode", "loser"])
+    elims_by_player_w = wins_unique.groupby("winner").size()
+    elims_by_player_l = loss_unique.groupby("loser").size()
     dailies_by_player = dailies.groupby("winner").size()
 
     # Pre-build a partner lookup: (season, pair_id) → list of players
