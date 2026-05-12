@@ -517,8 +517,21 @@ async function renderPlayer() {
   `;
   const rows = p.seasons.map(s => {
     let ctx = '';
-    if (s.partner) ctx = `with <span class="player linked" data-player="${s.partner}">${s.partner}</span>`;
-    else if (s.team) ctx = s.team;
+    const ph = s.partners_history || [];
+    if (ph.length > 1) {
+      // Mid-season partner swap — list all partners in order
+      ctx = ph.map((pp, i) => {
+        const epRange = (pp.first_episode != null && pp.last_episode != null && pp.first_episode !== pp.last_episode)
+          ? ` <span style="color:#999">(eps ${pp.first_episode}–${pp.last_episode})</span>`
+          : (pp.first_episode != null ? ` <span style="color:#999">(ep ${pp.first_episode})</span>` : '');
+        const arrow = i > 0 ? '<span style="color:#999"> → </span>' : 'with ';
+        return `${arrow}<span class="player linked" data-player="${pp.partner}">${pp.partner}</span>${epRange}`;
+      }).join('');
+    } else if (s.partner) {
+      ctx = `with <span class="player linked" data-player="${s.partner}">${s.partner}</span>`;
+    } else if (s.team) {
+      ctx = s.team;
+    }
     if (s.forced_exit) ctx += ' <span title="Shared exit — partner had the same DQ/quit. Attribution uncertain.">⚠️</span>';
     return `
     <tr>

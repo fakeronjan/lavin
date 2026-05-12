@@ -29,6 +29,7 @@
       "elim_total": 7,
       "rating_at_end": 0.123,
       "partner": "",
+      "partners_history": [],
       "team": "",
       "forced_exit": false
     },
@@ -45,6 +46,18 @@
       "elim_total": null,
       "rating_at_end": -0.17,
       "partner": "Leroy Garrett",
+      "partners_history": [
+        {
+          "partner": "Wes Bergmann",
+          "first_episode": 1,
+          "last_episode": 9
+        },
+        {
+          "partner": "Leroy Garrett",
+          "first_episode": 10,
+          "last_episode": 10
+        }
+      ],
       "team": "",
       "forced_exit": false
     },
@@ -61,6 +74,7 @@
       "elim_total": 10,
       "rating_at_end": -0.248,
       "partner": "",
+      "partners_history": [],
       "team": "",
       "forced_exit": false
     },
@@ -77,6 +91,7 @@
       "elim_total": 8,
       "rating_at_end": -0.322,
       "partner": "Jasmine Reynaud",
+      "partners_history": [],
       "team": "",
       "forced_exit": false
     },
@@ -93,6 +108,7 @@
       "elim_total": 8,
       "rating_at_end": -0.319,
       "partner": "Camila Nakagawa",
+      "partners_history": [],
       "team": "",
       "forced_exit": false
     },
@@ -109,6 +125,7 @@
       "elim_total": 8,
       "rating_at_end": -0.502,
       "partner": "",
+      "partners_history": [],
       "team": "Blue Team",
       "forced_exit": false
     },
@@ -125,6 +142,7 @@
       "elim_total": 8,
       "rating_at_end": -0.478,
       "partner": "Ryan Kehoe",
+      "partners_history": [],
       "team": "",
       "forced_exit": false
     }
