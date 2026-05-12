@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.138,
+    "peak_rating": -0.145,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.797,
+    "active_rating": -0.774,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 99,
+    "n_snapshots": 100,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Sergeant Says",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.416,
+      "rating_at_end": -0.417,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -62,37 +62,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.371
+      "rating": -0.374
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.353
+      "rating": -0.371
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.396
+      "rating": -0.354
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.425
+      "rating": -0.398
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.412
+      "rating": -0.427
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.412
+      "rating": -0.414
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.416
+      "rating": -0.414
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": -0.417
     }
   ]
 }

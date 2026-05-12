@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.533,
+    "peak_rating": 0.537,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.018,
+    "active_rating": 0.014,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 1,
-    "n_snapshots": 81,
+    "n_snapshots": 80,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Family Matters",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.057,
+      "rating_at_end": -0.066,
       "partner": "Jenna Compono",
       "team": "",
       "forced_exit": false
@@ -35,64 +35,64 @@
   ],
   "timeline": [
     {
-      "ranking_id": 539,
+      "ranking_id": 567,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.525
+      "rating": 0.511
     },
     {
-      "ranking_id": 540,
+      "ranking_id": 568,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.533
+      "rating": 0.537
     },
     {
-      "ranking_id": 541,
+      "ranking_id": 569,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.319
+      "rating": 0.33
     },
     {
-      "ranking_id": 542,
+      "ranking_id": 570,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.319
+      "rating": 0.33
     },
     {
-      "ranking_id": 543,
+      "ranking_id": 571,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.118
+      "rating": 0.126
     },
     {
-      "ranking_id": 544,
+      "ranking_id": 572,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.123
+      "rating": 0.121
     },
     {
-      "ranking_id": 545,
+      "ranking_id": 573,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.025
+      "rating": -0.032
     },
     {
-      "ranking_id": 546,
+      "ranking_id": 574,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.025
+      "rating": -0.036
     },
     {
-      "ranking_id": 547,
+      "ranking_id": 575,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.048
+      "rating": -0.053
     },
     {
-      "ranking_id": 549,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.058
+      "rating": -0.053
     },
     {
-      "ranking_id": 551,
+      "ranking_id": 579,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.17
+      "rating": -0.205
     },
     {
-      "ranking_id": 552,
+      "ranking_id": 580,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.057
+      "rating": -0.066
     }
   ]
 }

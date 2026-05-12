@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.344,
+    "peak_rating": -0.357,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.441,
+    "active_rating": -0.427,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 1,
     "n_snapshots": 80,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Viva Mexico",
       "elim_position": 1,
-      "elim_total": 7,
-      "rating_at_end": -0.512,
+      "elim_total": 8,
+      "rating_at_end": -0.51,
       "partner": "",
       "team": "Rookies",
       "forced_exit": false
@@ -35,39 +35,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 240,
+      "ranking_id": 252,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.495
+      "rating": -0.515
     },
     {
-      "ranking_id": 241,
+      "ranking_id": 253,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.496
+      "rating": -0.518
     },
     {
-      "ranking_id": 242,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.491
-    },
-    {
-      "ranking_id": 243,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.5
-    },
-    {
-      "ranking_id": 244,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.498
-    },
-    {
-      "ranking_id": 245,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.499
-    },
-    {
-      "ranking_id": 246,
+      "ranking_id": 254,
       "season_id": "s15_the_gauntlet_iii",
       "rating": -0.512
+    },
+    {
+      "ranking_id": 255,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.522
+    },
+    {
+      "ranking_id": 256,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.519
+    },
+    {
+      "ranking_id": 257,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.519
+    },
+    {
+      "ranking_id": 258,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.51
+    },
+    {
+      "ranking_id": 259,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.51
     }
   ]
 }

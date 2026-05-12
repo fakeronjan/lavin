@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 1.018,
+    "peak_rating": 1.146,
     "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.51,
-    "active_season_id": "s22_battle_of_the_exes",
+    "active_rating": -0.519,
+    "active_season_id": "s21_rivals",
     "n_seasons": 3,
-    "n_snapshots": 183,
+    "n_snapshots": 182,
     "championships": 1,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Reversal of Fortune",
       "finish_label": "Eliminated",
       "finish_episode": "Reversal of Fortune",
-      "elim_position": 5,
-      "elim_total": 6,
-      "rating_at_end": -0.512,
+      "elim_position": 7,
+      "elim_total": 9,
+      "rating_at_end": -0.443,
       "partner": "",
       "team": "Champions",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.463,
+      "rating_at_end": 0.475,
       "partner": "",
       "team": "Rookies",
       "forced_exit": false
@@ -59,7 +59,7 @@
       "finish_episode": "Episode 12",
       "elim_position": 6,
       "elim_total": 13,
-      "rating_at_end": -0.47,
+      "rating_at_end": -0.48,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -67,109 +67,99 @@
   ],
   "timeline": [
     {
-      "ranking_id": 100,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.726
-    },
-    {
-      "ranking_id": 101,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.723
-    },
-    {
       "ranking_id": 102,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.723
+      "rating": -0.736
     },
     {
       "ranking_id": 103,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.708
+      "rating": -0.736
     },
     {
       "ranking_id": 104,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.705
+      "rating": -0.736
     },
     {
       "ranking_id": 105,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.706
+      "rating": -0.718
     },
     {
       "ranking_id": 106,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.706
+      "rating": -0.715
     },
     {
       "ranking_id": 107,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.688
+      "rating": -0.699
     },
     {
       "ranking_id": 108,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.688
+      "rating": -0.698
     },
     {
       "ranking_id": 109,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.682
+      "rating": -0.699
     },
     {
       "ranking_id": 110,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.318
+      "rating": -0.699
     },
     {
       "ranking_id": 111,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.325
+      "rating": -0.69
     },
     {
       "ranking_id": 112,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.446
+      "rating": -0.33
     },
     {
       "ranking_id": 113,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.446
+      "rating": -0.338
     },
     {
       "ranking_id": 114,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.47
+      "rating": -0.456
     },
     {
-      "ranking_id": 132,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.6
+      "ranking_id": 115,
+      "season_id": "s09_battle_of_the_sexes_2",
+      "rating": -0.456
     },
     {
-      "ranking_id": 133,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.589
+      "ranking_id": 116,
+      "season_id": "s09_battle_of_the_sexes_2",
+      "rating": -0.48
     },
     {
       "ranking_id": 134,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.559
+      "rating": -0.592
     },
     {
       "ranking_id": 135,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.56
+      "rating": -0.58
     },
     {
       "ranking_id": 136,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.6
+      "rating": -0.552
     },
     {
       "ranking_id": 137,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.602
+      "rating": -0.549
     },
     {
       "ranking_id": 138,
@@ -179,97 +169,127 @@
     {
       "ranking_id": 139,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.605
+      "rating": -0.609
     },
     {
       "ranking_id": 140,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.589
+      "rating": -0.609
     },
     {
       "ranking_id": 141,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.616
+      "rating": -0.611
     },
     {
       "ranking_id": 142,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.62
+      "rating": -0.617
     },
     {
       "ranking_id": 143,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.625
+      "rating": -0.614
     },
     {
       "ranking_id": 144,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.66
+      "rating": -0.616
     },
     {
       "ranking_id": 145,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.463
+      "rating": -0.66
     },
     {
-      "ranking_id": 272,
-      "season_id": "s18_the_ruins",
-      "rating": 0.678
+      "ranking_id": 146,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.713
     },
     {
-      "ranking_id": 273,
-      "season_id": "s18_the_ruins",
-      "rating": 0.482
+      "ranking_id": 147,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": 0.475
     },
     {
-      "ranking_id": 274,
+      "ranking_id": 287,
       "season_id": "s18_the_ruins",
-      "rating": 0.482
+      "rating": 0.699
     },
     {
-      "ranking_id": 275,
+      "ranking_id": 288,
       "season_id": "s18_the_ruins",
-      "rating": 0.482
+      "rating": 0.503
     },
     {
-      "ranking_id": 276,
+      "ranking_id": 289,
       "season_id": "s18_the_ruins",
-      "rating": -0.113
+      "rating": 0.503
     },
     {
-      "ranking_id": 277,
+      "ranking_id": 290,
       "season_id": "s18_the_ruins",
-      "rating": -0.076
+      "rating": 0.506
     },
     {
-      "ranking_id": 278,
+      "ranking_id": 291,
       "season_id": "s18_the_ruins",
-      "rating": -0.076
+      "rating": 0.41
     },
     {
-      "ranking_id": 279,
+      "ranking_id": 292,
       "season_id": "s18_the_ruins",
-      "rating": -0.076
+      "rating": 0.267
     },
     {
-      "ranking_id": 280,
+      "ranking_id": 293,
       "season_id": "s18_the_ruins",
-      "rating": -0.47
+      "rating": 0.154
     },
     {
-      "ranking_id": 281,
+      "ranking_id": 294,
       "season_id": "s18_the_ruins",
-      "rating": -0.471
+      "rating": -0.137
     },
     {
-      "ranking_id": 282,
+      "ranking_id": 295,
       "season_id": "s18_the_ruins",
-      "rating": -0.471
+      "rating": -0.094
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 296,
       "season_id": "s18_the_ruins",
-      "rating": -0.512
+      "rating": -0.094
+    },
+    {
+      "ranking_id": 297,
+      "season_id": "s18_the_ruins",
+      "rating": -0.095
+    },
+    {
+      "ranking_id": 298,
+      "season_id": "s18_the_ruins",
+      "rating": -0.463
+    },
+    {
+      "ranking_id": 299,
+      "season_id": "s18_the_ruins",
+      "rating": -0.464
+    },
+    {
+      "ranking_id": 300,
+      "season_id": "s18_the_ruins",
+      "rating": -0.464
+    },
+    {
+      "ranking_id": 301,
+      "season_id": "s18_the_ruins",
+      "rating": -0.467
+    },
+    {
+      "ranking_id": 302,
+      "season_id": "s18_the_ruins",
+      "rating": -0.443
     }
   ]
 }

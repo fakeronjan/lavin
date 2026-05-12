@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.957,
+    "peak_rating": 0.949,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.797,
+    "active_rating": -0.774,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 99,
+    "n_snapshots": 100,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Collision Course",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.687,
+      "rating_at_end": 0.685,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -62,37 +62,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.794
+      "rating": 0.624
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.871
+      "rating": 0.792
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.859
+      "rating": 0.869
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.828
+      "rating": 0.856
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.79
+      "rating": 0.825
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.79
+      "rating": 0.787
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.687
+      "rating": 0.787
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": 0.685
     }
   ]
 }

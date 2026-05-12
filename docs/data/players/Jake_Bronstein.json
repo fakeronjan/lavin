@@ -6,10 +6,10 @@
     "era_rating": 0.2,
     "peak_rating": 0.66,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.797,
+    "active_rating": -0.774,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 99,
+    "n_snapshots": 100,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Battle of the Opposite Sexes",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.238,
+      "rating_at_end": 0.236,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -62,37 +62,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.551
+      "rating": 0.624
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.491
+      "rating": 0.548
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.455
+      "rating": 0.489
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.396
+      "rating": 0.452
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.351
+      "rating": 0.393
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.351
+      "rating": 0.348
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.238
+      "rating": 0.348
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": 0.236
     }
   ]
 }

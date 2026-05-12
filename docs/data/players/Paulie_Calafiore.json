@@ -3,13 +3,13 @@
   "safe_name": "Paulie_Calafiore",
   "gender": "M",
   "career": {
-    "era_rating": 1.4,
-    "peak_rating": 1.385,
+    "era_rating": 1.2,
+    "peak_rating": 1.404,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.244,
+    "active_rating": -0.211,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
-    "n_snapshots": 172,
+    "n_snapshots": 180,
     "championships": 0,
     "elim_wins": 5,
     "elim_losses": 4,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in The Era Invitational, Part 2",
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
-      "elim_position": 13,
-      "elim_total": 14,
-      "rating_at_end": -0.317,
+      "elim_position": 15,
+      "elim_total": 15,
+      "rating_at_end": -0.303,
       "partner": "",
       "team": "Era IV",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.159,
+      "rating_at_end": 0.165,
       "partner": "",
       "team": "Team USA",
       "forced_exit": false
@@ -59,7 +59,7 @@
       "finish_episode": "The Waterboy",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.598,
+      "rating_at_end": 0.593,
       "partner": "",
       "team": "Veterans",
       "forced_exit": false
@@ -75,7 +75,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.645,
+      "rating_at_end": 0.476,
       "partner": "Natalie Negrotti",
       "team": "",
       "forced_exit": false
@@ -83,439 +83,449 @@
   ],
   "timeline": [
     {
-      "ranking_id": 633,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.118
-    },
-    {
-      "ranking_id": 635,
+      "ranking_id": 663,
       "season_id": "s32_final_reckoning",
       "rating": 1.148
     },
     {
-      "ranking_id": 637,
+      "ranking_id": 665,
       "season_id": "s32_final_reckoning",
-      "rating": 1.168
+      "rating": 1.179
     },
     {
-      "ranking_id": 640,
+      "ranking_id": 667,
       "season_id": "s32_final_reckoning",
       "rating": 1.18
     },
     {
-      "ranking_id": 641,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.136
-    },
-    {
-      "ranking_id": 643,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.054
-    },
-    {
-      "ranking_id": 645,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.053
-    },
-    {
-      "ranking_id": 646,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.062
-    },
-    {
-      "ranking_id": 647,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.075
-    },
-    {
-      "ranking_id": 648,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.077
-    },
-    {
-      "ranking_id": 649,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.086
-    },
-    {
-      "ranking_id": 650,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.085
-    },
-    {
-      "ranking_id": 652,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.14
-    },
-    {
-      "ranking_id": 653,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.142
-    },
-    {
-      "ranking_id": 657,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.154
-    },
-    {
-      "ranking_id": 658,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.159
-    },
-    {
-      "ranking_id": 661,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.233
-    },
-    {
-      "ranking_id": 663,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.337
-    },
-    {
-      "ranking_id": 664,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.385
-    },
-    {
-      "ranking_id": 665,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.384
-    },
-    {
-      "ranking_id": 668,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.373
-    },
-    {
-      "ranking_id": 669,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.645
-    },
-    {
       "ranking_id": 670,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.654
+      "season_id": "s32_final_reckoning",
+      "rating": 1.082
     },
     {
       "ranking_id": 671,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.478
+      "season_id": "s32_final_reckoning",
+      "rating": 1.104
     },
     {
       "ranking_id": 672,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.641
+      "season_id": "s32_final_reckoning",
+      "rating": 1.104
     },
     {
-      "ranking_id": 674,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.655
+      "ranking_id": 675,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.195
     },
     {
-      "ranking_id": 676,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.596
+      "ranking_id": 677,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.195
+    },
+    {
+      "ranking_id": 679,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.204
     },
     {
       "ranking_id": 680,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.642
+      "season_id": "s32_final_reckoning",
+      "rating": 1.255
     },
     {
       "ranking_id": 681,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.656
+      "season_id": "s32_final_reckoning",
+      "rating": 1.259
     },
     {
-      "ranking_id": 685,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.642
+      "ranking_id": 682,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.261
+    },
+    {
+      "ranking_id": 683,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.277
+    },
+    {
+      "ranking_id": 684,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.272
+    },
+    {
+      "ranking_id": 686,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.26
     },
     {
       "ranking_id": 687,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.59
+      "season_id": "s32_final_reckoning",
+      "rating": 1.264
     },
     {
-      "ranking_id": 689,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.55
+      "ranking_id": 691,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.359
     },
     {
-      "ranking_id": 693,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.528
+      "ranking_id": 692,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.365
     },
     {
-      "ranking_id": 696,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.574
+      "ranking_id": 695,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.364
     },
     {
       "ranking_id": 697,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.624
+      "season_id": "s32_final_reckoning",
+      "rating": 1.364
+    },
+    {
+      "ranking_id": 698,
+      "season_id": "s32_final_reckoning",
+      "rating": 1.404
     },
     {
       "ranking_id": 699,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.624
-    },
-    {
-      "ranking_id": 701,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.653
+      "season_id": "s32_final_reckoning",
+      "rating": 1.205
     },
     {
       "ranking_id": 702,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.653
+      "season_id": "s32_final_reckoning",
+      "rating": 1.232
     },
     {
       "ranking_id": 703,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.621
+      "season_id": "s32_final_reckoning",
+      "rating": 0.476
     },
     {
       "ranking_id": 704,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.659
+      "rating": 0.493
     },
     {
       "ranking_id": 705,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.665
+      "rating": 0.486
+    },
+    {
+      "ranking_id": 706,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.667
     },
     {
       "ranking_id": 708,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.648
-    },
-    {
-      "ranking_id": 709,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.598
+      "rating": 0.699
     },
     {
       "ranking_id": 710,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.612
-    },
-    {
-      "ranking_id": 711,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.625
-    },
-    {
-      "ranking_id": 712,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.601
-    },
-    {
-      "ranking_id": 713,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.595
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.646
     },
     {
       "ranking_id": 714,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.564
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.642
     },
     {
       "ranking_id": 715,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.544
-    },
-    {
-      "ranking_id": 716,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.512
-    },
-    {
-      "ranking_id": 717,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.507
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.612
     },
     {
       "ranking_id": 719,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.502
-    },
-    {
-      "ranking_id": 720,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.506
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.584
     },
     {
       "ranking_id": 721,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.526
-    },
-    {
-      "ranking_id": 722,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.412
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.577
     },
     {
       "ranking_id": 723,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.36
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.587
     },
     {
-      "ranking_id": 724,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.355
+      "ranking_id": 727,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.637
     },
     {
-      "ranking_id": 725,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.159
+      "ranking_id": 730,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.649
     },
     {
-      "ranking_id": 863,
+      "ranking_id": 731,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.636
+    },
+    {
+      "ranking_id": 733,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.601
+    },
+    {
+      "ranking_id": 735,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.604
+    },
+    {
+      "ranking_id": 736,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.604
+    },
+    {
+      "ranking_id": 737,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.607
+    },
+    {
+      "ranking_id": 738,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.666
+    },
+    {
+      "ranking_id": 739,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.672
+    },
+    {
+      "ranking_id": 742,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.684
+    },
+    {
+      "ranking_id": 743,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.593
+    },
+    {
+      "ranking_id": 744,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.572
+    },
+    {
+      "ranking_id": 745,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.518
+    },
+    {
+      "ranking_id": 746,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.528
+    },
+    {
+      "ranking_id": 747,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.528
+    },
+    {
+      "ranking_id": 748,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.504
+    },
+    {
+      "ranking_id": 749,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.51
+    },
+    {
+      "ranking_id": 750,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.508
+    },
+    {
+      "ranking_id": 751,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.504
+    },
+    {
+      "ranking_id": 753,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.357
+    },
+    {
+      "ranking_id": 754,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.362
+    },
+    {
+      "ranking_id": 755,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.384
+    },
+    {
+      "ranking_id": 756,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.381
+    },
+    {
+      "ranking_id": 757,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.362
+    },
+    {
+      "ranking_id": 758,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.356
+    },
+    {
+      "ranking_id": 759,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.165
+    },
+    {
+      "ranking_id": 906,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.871
+    },
+    {
+      "ranking_id": 907,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.828
+    },
+    {
+      "ranking_id": 908,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.83
+    },
+    {
+      "ranking_id": 909,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.821
+    },
+    {
+      "ranking_id": 910,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.772
     },
     {
-      "ranking_id": 864,
+      "ranking_id": 911,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.812
+      "rating": -0.772
     },
     {
-      "ranking_id": 865,
+      "ranking_id": 912,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.808
+      "rating": -0.701
     },
     {
-      "ranking_id": 866,
+      "ranking_id": 913,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.803
+      "rating": -0.714
     },
     {
-      "ranking_id": 867,
+      "ranking_id": 914,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.763
+      "rating": -0.557
     },
     {
-      "ranking_id": 868,
+      "ranking_id": 915,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.761
+      "rating": -0.557
     },
     {
-      "ranking_id": 869,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.7
-    },
-    {
-      "ranking_id": 870,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.683
-    },
-    {
-      "ranking_id": 871,
+      "ranking_id": 916,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.558
     },
     {
-      "ranking_id": 872,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.554
-    },
-    {
-      "ranking_id": 873,
+      "ranking_id": 917,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.555
     },
     {
-      "ranking_id": 874,
+      "ranking_id": 918,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.552
+      "rating": -0.529
     },
     {
-      "ranking_id": 875,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.54
-    },
-    {
-      "ranking_id": 876,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.552
-    },
-    {
-      "ranking_id": 877,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.552
-    },
-    {
-      "ranking_id": 878,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.552
-    },
-    {
-      "ranking_id": 879,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.545
-    },
-    {
-      "ranking_id": 880,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.545
-    },
-    {
-      "ranking_id": 881,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.531
-    },
-    {
-      "ranking_id": 882,
+      "ranking_id": 919,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.532
     },
     {
-      "ranking_id": 883,
+      "ranking_id": 920,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.494
+      "rating": -0.498
     },
     {
-      "ranking_id": 884,
+      "ranking_id": 921,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.494
+      "rating": -0.497
     },
     {
-      "ranking_id": 885,
+      "ranking_id": 922,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.493
+      "rating": -0.491
     },
     {
-      "ranking_id": 886,
+      "ranking_id": 923,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.493
+      "rating": -0.491
     },
     {
-      "ranking_id": 887,
+      "ranking_id": 924,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.48
+      "rating": -0.478
     },
     {
-      "ranking_id": 888,
+      "ranking_id": 925,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.479
     },
     {
-      "ranking_id": 889,
+      "ranking_id": 926,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.078
+      "rating": -0.486
     },
     {
-      "ranking_id": 890,
+      "ranking_id": 927,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.337
+      "rating": -0.533
     },
     {
-      "ranking_id": 891,
+      "ranking_id": 928,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.317
+      "rating": -0.511
+    },
+    {
+      "ranking_id": 929,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.507
+    },
+    {
+      "ranking_id": 930,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.51
+    },
+    {
+      "ranking_id": 931,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.51
+    },
+    {
+      "ranking_id": 932,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.028
+    },
+    {
+      "ranking_id": 933,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.303
+    },
+    {
+      "ranking_id": 934,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": -0.303
     }
   ]
 }

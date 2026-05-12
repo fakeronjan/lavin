@@ -4,15 +4,15 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.341,
-    "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.348,
+    "peak_rating": -0.282,
+    "peak_season_id": "s08_the_inferno",
+    "active_rating": -0.501,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 100,
+    "n_snapshots": 93,
     "championships": 0,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 1,
     "daily_wins": 0
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Leaky River",
       "finish_label": "Eliminated",
       "finish_episode": "Leaky River",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.623,
+      "elim_position": 5,
+      "elim_total": 8,
+      "rating_at_end": -0.404,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -62,37 +62,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.757
+      "rating": -0.425
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.76
+      "rating": -0.425
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.788
+      "rating": -0.395
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.794
+      "rating": -0.419
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.797
+      "rating": -0.382
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.71
+      "rating": -0.371
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.623
+      "rating": -0.37
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": -0.404
     }
   ]
 }

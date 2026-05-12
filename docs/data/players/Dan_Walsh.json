@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.344,
+    "peak_rating": 0.23,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.316,
+    "active_rating": -0.304,
     "active_season_id": "s23_battle_of_the_seasons_2012",
     "n_seasons": 2,
-    "n_snapshots": 146,
+    "n_snapshots": 155,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Hell Hath No Fury",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -0.188,
+      "rating_at_end": -0.288,
       "partner": "",
       "team": "Grey Team",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.154,
+      "rating_at_end": -0.198,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -51,109 +51,114 @@
   ],
   "timeline": [
     {
-      "ranking_id": 247,
+      "ranking_id": 261,
       "season_id": "s16_the_island",
-      "rating": 0.239
+      "rating": 0.212
     },
     {
-      "ranking_id": 248,
+      "ranking_id": 262,
       "season_id": "s16_the_island",
-      "rating": 0.1
+      "rating": 0.066
     },
     {
-      "ranking_id": 249,
+      "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": 0.056
+      "rating": 0.019
     },
     {
-      "ranking_id": 250,
+      "ranking_id": 264,
       "season_id": "s16_the_island",
-      "rating": -0.154
+      "rating": -0.198
     },
     {
-      "ranking_id": 317,
+      "ranking_id": 336,
       "season_id": "s20_cutthroat",
-      "rating": 0.048
+      "rating": 0.125
     },
     {
-      "ranking_id": 318,
+      "ranking_id": 337,
       "season_id": "s20_cutthroat",
-      "rating": -0.019
+      "rating": 0.044
     },
     {
-      "ranking_id": 319,
+      "ranking_id": 338,
       "season_id": "s20_cutthroat",
-      "rating": -0.074
+      "rating": -0.018
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 339,
       "season_id": "s20_cutthroat",
-      "rating": -0.057
+      "rating": -0.018
     },
     {
-      "ranking_id": 321,
+      "ranking_id": 340,
       "season_id": "s20_cutthroat",
-      "rating": -0.105
+      "rating": -0.076
     },
     {
-      "ranking_id": 322,
+      "ranking_id": 341,
       "season_id": "s20_cutthroat",
-      "rating": -0.081
+      "rating": -0.076
     },
     {
-      "ranking_id": 323,
+      "ranking_id": 342,
       "season_id": "s20_cutthroat",
-      "rating": -0.175
+      "rating": -0.221
     },
     {
-      "ranking_id": 324,
+      "ranking_id": 343,
       "season_id": "s20_cutthroat",
-      "rating": -0.175
+      "rating": -0.237
     },
     {
-      "ranking_id": 325,
+      "ranking_id": 344,
       "season_id": "s20_cutthroat",
-      "rating": -0.189
+      "rating": -0.233
     },
     {
-      "ranking_id": 326,
+      "ranking_id": 345,
       "season_id": "s20_cutthroat",
-      "rating": -0.189
+      "rating": -0.226
     },
     {
-      "ranking_id": 327,
+      "ranking_id": 346,
       "season_id": "s20_cutthroat",
-      "rating": -0.189
+      "rating": -0.248
     },
     {
-      "ranking_id": 328,
+      "ranking_id": 347,
       "season_id": "s20_cutthroat",
-      "rating": -0.195
+      "rating": -0.214
     },
     {
-      "ranking_id": 329,
+      "ranking_id": 348,
       "season_id": "s20_cutthroat",
-      "rating": -0.195
+      "rating": -0.199
     },
     {
-      "ranking_id": 330,
+      "ranking_id": 349,
       "season_id": "s20_cutthroat",
-      "rating": -0.229
+      "rating": -0.199
     },
     {
-      "ranking_id": 331,
+      "ranking_id": 350,
       "season_id": "s20_cutthroat",
-      "rating": -0.218
+      "rating": -0.185
     },
     {
-      "ranking_id": 333,
+      "ranking_id": 351,
       "season_id": "s20_cutthroat",
-      "rating": -0.194
+      "rating": -0.416
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.188
+      "rating": -0.393
+    },
+    {
+      "ranking_id": 354,
+      "season_id": "s20_cutthroat",
+      "rating": -0.288
     }
   ]
 }

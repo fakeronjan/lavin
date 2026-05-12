@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.348,
+    "peak_rating": 0.342,
     "peak_season_id": "s17_the_duel_ii",
     "active_rating": -0.683,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 2,
-    "n_snapshots": 149,
+    "n_snapshots": 144,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Stripes",
       "elim_position": 6,
       "elim_total": 8,
-      "rating_at_end": -0.227,
+      "rating_at_end": -0.198,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -42,8 +42,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Duelers on the Verge of a Nervous Breakdown",
       "elim_position": 2,
-      "elim_total": 9,
-      "rating_at_end": -0.209,
+      "elim_total": 10,
+      "rating_at_end": -0.288,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -51,154 +51,159 @@
   ],
   "timeline": [
     {
-      "ranking_id": 255,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.348
-    },
-    {
-      "ranking_id": 256,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.27
-    },
-    {
-      "ranking_id": 257,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.194
-    },
-    {
-      "ranking_id": 258,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.121
-    },
-    {
-      "ranking_id": 259,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.055
-    },
-    {
-      "ranking_id": 260,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.032
-    },
-    {
-      "ranking_id": 261,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.023
-    },
-    {
-      "ranking_id": 262,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.018
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.017
-    },
-    {
-      "ranking_id": 264,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.017
-    },
-    {
-      "ranking_id": 265,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.017
-    },
-    {
-      "ranking_id": 266,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.017
-    },
-    {
-      "ranking_id": 267,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.017
-    },
-    {
-      "ranking_id": 268,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.017
-    },
-    {
       "ranking_id": 269,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.209
+      "rating": 0.342
     },
     {
-      "ranking_id": 481,
+      "ranking_id": 270,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.265
+    },
+    {
+      "ranking_id": 271,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.189
+    },
+    {
+      "ranking_id": 272,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.116
+    },
+    {
+      "ranking_id": 273,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.034
+    },
+    {
+      "ranking_id": 274,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.211
+    },
+    {
+      "ranking_id": 275,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.211
+    },
+    {
+      "ranking_id": 276,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.203
+    },
+    {
+      "ranking_id": 277,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.188
+    },
+    {
+      "ranking_id": 278,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.161
+    },
+    {
+      "ranking_id": 279,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.161
+    },
+    {
+      "ranking_id": 280,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.161
+    },
+    {
+      "ranking_id": 281,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.161
+    },
+    {
+      "ranking_id": 282,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.158
+    },
+    {
+      "ranking_id": 283,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.158
+    },
+    {
+      "ranking_id": 284,
+      "season_id": "s17_the_duel_ii",
+      "rating": -0.288
+    },
+    {
+      "ranking_id": 509,
       "season_id": "s25_free_agents",
-      "rating": -0.7
+      "rating": -0.684
     },
     {
-      "ranking_id": 482,
+      "ranking_id": 510,
       "season_id": "s25_free_agents",
-      "rating": -0.689
+      "rating": -0.711
     },
     {
-      "ranking_id": 483,
+      "ranking_id": 511,
       "season_id": "s25_free_agents",
-      "rating": -0.605
+      "rating": -0.598
     },
     {
-      "ranking_id": 484,
+      "ranking_id": 512,
       "season_id": "s25_free_agents",
-      "rating": -0.601
+      "rating": -0.598
     },
     {
-      "ranking_id": 485,
+      "ranking_id": 513,
       "season_id": "s25_free_agents",
-      "rating": -0.601
+      "rating": -0.598
     },
     {
-      "ranking_id": 486,
+      "ranking_id": 514,
       "season_id": "s25_free_agents",
-      "rating": -0.655
+      "rating": -0.616
     },
     {
-      "ranking_id": 488,
+      "ranking_id": 516,
       "season_id": "s25_free_agents",
-      "rating": -0.649
+      "rating": -0.569
     },
     {
-      "ranking_id": 489,
+      "ranking_id": 517,
       "season_id": "s25_free_agents",
-      "rating": -0.648
+      "rating": -0.58
     },
     {
-      "ranking_id": 490,
+      "ranking_id": 518,
       "season_id": "s25_free_agents",
-      "rating": -0.379
+      "rating": -0.343
     },
     {
-      "ranking_id": 491,
+      "ranking_id": 519,
       "season_id": "s25_free_agents",
-      "rating": -0.331
+      "rating": -0.342
     },
     {
-      "ranking_id": 492,
+      "ranking_id": 520,
       "season_id": "s25_free_agents",
-      "rating": -0.299
+      "rating": -0.31
     },
     {
-      "ranking_id": 493,
+      "ranking_id": 521,
       "season_id": "s25_free_agents",
-      "rating": -0.311
+      "rating": -0.31
     },
     {
-      "ranking_id": 494,
-      "season_id": "s25_free_agents",
-      "rating": -0.306
-    },
-    {
-      "ranking_id": 496,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
       "rating": -0.305
     },
     {
-      "ranking_id": 497,
+      "ranking_id": 524,
       "season_id": "s25_free_agents",
-      "rating": -0.227
+      "rating": -0.273
+    },
+    {
+      "ranking_id": 525,
+      "season_id": "s25_free_agents",
+      "rating": -0.198
     }
   ]
 }

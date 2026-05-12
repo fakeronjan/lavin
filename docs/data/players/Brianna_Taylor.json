@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.085,
-    "peak_season_id": "s21_rivals",
-    "active_rating": -0.115,
-    "active_season_id": "s22_battle_of_the_exes",
+    "peak_rating": 0.003,
+    "peak_season_id": "s20_cutthroat",
+    "active_rating": -0.03,
+    "active_season_id": "s21_rivals",
     "n_seasons": 1,
-    "n_snapshots": 79,
+    "n_snapshots": 64,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Road to Ruins",
       "elim_position": 1,
-      "elim_total": 6,
-      "rating_at_end": -0.664,
+      "elim_total": 9,
+      "rating_at_end": -0.523,
       "partner": "",
       "team": "Challengers",
       "forced_exit": false
@@ -35,44 +35,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 276,
+      "ranking_id": 302,
       "season_id": "s18_the_ruins",
-      "rating": -0.767
-    },
-    {
-      "ranking_id": 277,
-      "season_id": "s18_the_ruins",
-      "rating": -0.77
-    },
-    {
-      "ranking_id": 278,
-      "season_id": "s18_the_ruins",
-      "rating": -0.77
-    },
-    {
-      "ranking_id": 279,
-      "season_id": "s18_the_ruins",
-      "rating": -0.77
-    },
-    {
-      "ranking_id": 280,
-      "season_id": "s18_the_ruins",
-      "rating": -0.786
-    },
-    {
-      "ranking_id": 281,
-      "season_id": "s18_the_ruins",
-      "rating": -0.787
-    },
-    {
-      "ranking_id": 282,
-      "season_id": "s18_the_ruins",
-      "rating": -0.787
-    },
-    {
-      "ranking_id": 283,
-      "season_id": "s18_the_ruins",
-      "rating": -0.664
+      "rating": -0.523
     }
   ]
 }

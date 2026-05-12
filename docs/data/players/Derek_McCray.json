@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.503,
+    "peak_rating": 0.546,
     "peak_season_id": "s21_rivals",
-    "active_rating": -0.508,
+    "active_rating": 0.205,
     "active_season_id": "s21_rivals",
     "n_seasons": 2,
     "n_snapshots": 99,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "If These Duels Could Talk",
       "elim_position": 5,
-      "elim_total": 9,
-      "rating_at_end": 0.02,
+      "elim_total": 10,
+      "rating_at_end": 0.047,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -42,8 +42,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Match-Up of the Century",
       "elim_position": 5,
-      "elim_total": 7,
-      "rating_at_end": -0.329,
+      "elim_total": 8,
+      "rating_at_end": -0.311,
       "partner": "",
       "team": "Rookies",
       "forced_exit": false
@@ -51,134 +51,144 @@
   ],
   "timeline": [
     {
-      "ranking_id": 240,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.113
-    },
-    {
-      "ranking_id": 241,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.115
-    },
-    {
-      "ranking_id": 242,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.11
-    },
-    {
-      "ranking_id": 243,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.115
-    },
-    {
-      "ranking_id": 244,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.265
-    },
-    {
-      "ranking_id": 245,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.266
-    },
-    {
-      "ranking_id": 246,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.329
-    },
-    {
-      "ranking_id": 251,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.272
-    },
-    {
       "ranking_id": 252,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.272
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.128
     },
     {
       "ranking_id": 253,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.272
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.13
     },
     {
       "ranking_id": 254,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.272
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.126
     },
     {
       "ranking_id": 255,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.388
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.131
     },
     {
       "ranking_id": 256,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.078
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.283
     },
     {
       "ranking_id": 257,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.048
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.283
     },
     {
       "ranking_id": 258,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.03
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.311
     },
     {
       "ranking_id": 259,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.031
-    },
-    {
-      "ranking_id": 260,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.021
-    },
-    {
-      "ranking_id": 261,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.019
-    },
-    {
-      "ranking_id": 262,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.031
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.039
-    },
-    {
-      "ranking_id": 264,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.039
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.311
     },
     {
       "ranking_id": 265,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.039
+      "rating": -0.291
     },
     {
       "ranking_id": 266,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.039
+      "rating": -0.291
     },
     {
       "ranking_id": 267,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.039
+      "rating": -0.291
     },
     {
       "ranking_id": 268,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.039
+      "rating": -0.291
     },
     {
       "ranking_id": 269,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.02
+      "rating": -0.408
+    },
+    {
+      "ranking_id": 270,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.07
+    },
+    {
+      "ranking_id": 271,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.038
+    },
+    {
+      "ranking_id": 272,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.022
+    },
+    {
+      "ranking_id": 273,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.0
+    },
+    {
+      "ranking_id": 274,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.007
+    },
+    {
+      "ranking_id": 275,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.007
+    },
+    {
+      "ranking_id": 276,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.004
+    },
+    {
+      "ranking_id": 277,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.031
+    },
+    {
+      "ranking_id": 278,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.065
+    },
+    {
+      "ranking_id": 279,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.065
+    },
+    {
+      "ranking_id": 280,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.065
+    },
+    {
+      "ranking_id": 281,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.065
+    },
+    {
+      "ranking_id": 282,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.068
+    },
+    {
+      "ranking_id": 283,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.068
+    },
+    {
+      "ranking_id": 284,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.047
     }
   ]
 }

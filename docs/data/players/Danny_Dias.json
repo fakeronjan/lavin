@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.105,
+    "peak_rating": 0.102,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.935,
-    "active_season_id": "s15_the_gauntlet_iii",
+    "active_rating": -0.555,
+    "active_season_id": "s14_the_inferno_3",
     "n_seasons": 1,
-    "n_snapshots": 67,
+    "n_snapshots": 63,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "The $10,000 Pyramid",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.182,
+      "rating_at_end": -0.163,
       "partner": "",
       "team": "Rookies",
       "forced_exit": false
@@ -35,24 +35,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 133,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.04
-    },
-    {
-      "ranking_id": 134,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.028
-    },
-    {
       "ranking_id": 135,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.018
+      "rating": -0.02
     },
     {
       "ranking_id": 136,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.016
+      "rating": -0.023
     },
     {
       "ranking_id": 137,
@@ -67,37 +57,47 @@
     {
       "ranking_id": 139,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.046
+      "rating": 0.035
     },
     {
       "ranking_id": 140,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.081
+      "rating": 0.046
     },
     {
       "ranking_id": 141,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.105
+      "rating": 0.081
     },
     {
       "ranking_id": 142,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.103
+      "rating": 0.071
     },
     {
       "ranking_id": 143,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.101
+      "rating": 0.102
     },
     {
       "ranking_id": 144,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.103
+      "rating": 0.101
     },
     {
       "ranking_id": 145,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.182
+      "rating": 0.101
+    },
+    {
+      "ranking_id": 146,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.038
+    },
+    {
+      "ranking_id": 147,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.163
     }
   ]
 }

@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.769,
+    "peak_rating": 0.79,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": 0.669,
+    "active_rating": 0.7,
     "active_season_id": "s12_fresh_meat",
     "n_seasons": 1,
-    "n_snapshots": 80,
+    "n_snapshots": 81,
     "championships": 1,
     "elim_wins": 1,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.531,
+      "rating_at_end": 0.534,
       "partner": "",
       "team": "Road Rules",
       "forced_exit": false
@@ -35,54 +35,59 @@
   ],
   "timeline": [
     {
-      "ranking_id": 77,
-      "season_id": "s08_the_inferno",
-      "rating": -0.82
-    },
-    {
       "ranking_id": 78,
       "season_id": "s08_the_inferno",
-      "rating": -0.849
+      "rating": -0.825
     },
     {
       "ranking_id": 79,
       "season_id": "s08_the_inferno",
-      "rating": -0.849
+      "rating": -0.854
     },
     {
       "ranking_id": 80,
       "season_id": "s08_the_inferno",
-      "rating": -0.923
+      "rating": -0.854
     },
     {
       "ranking_id": 81,
       "season_id": "s08_the_inferno",
-      "rating": -0.97
+      "rating": -0.929
     },
     {
       "ranking_id": 82,
       "season_id": "s08_the_inferno",
-      "rating": -0.96
+      "rating": -0.975
     },
     {
       "ranking_id": 83,
       "season_id": "s08_the_inferno",
-      "rating": -0.96
+      "rating": -0.965
     },
     {
       "ranking_id": 84,
       "season_id": "s08_the_inferno",
-      "rating": 0.228
+      "rating": -0.965
     },
     {
       "ranking_id": 85,
       "season_id": "s08_the_inferno",
-      "rating": 0.06
+      "rating": 0.223
     },
     {
       "ranking_id": 86,
       "season_id": "s08_the_inferno",
-      "rating": 0.531
+      "rating": 0.135
+    },
+    {
+      "ranking_id": 87,
+      "season_id": "s08_the_inferno",
+      "rating": 0.087
+    },
+    {
+      "ranking_id": 88,
+      "season_id": "s08_the_inferno",
+      "rating": 0.534
     }
   ]
 }

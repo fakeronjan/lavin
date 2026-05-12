@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.341,
+    "peak_rating": -0.338,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.348,
+    "active_rating": -0.338,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 100,
+    "n_snapshots": 101,
     "championships": 1,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Spider Mon",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.623,
+      "rating_at_end": -0.629,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -62,37 +62,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.757
+      "rating": -0.767
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.76
+      "rating": -0.767
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.788
+      "rating": -0.772
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.794
+      "rating": -0.799
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.797
+      "rating": -0.809
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.71
+      "rating": -0.812
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.623
+      "rating": -0.719
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": -0.629
     }
   ]
 }

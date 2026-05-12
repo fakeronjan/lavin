@@ -6,10 +6,10 @@
     "era_rating": 0.0,
     "peak_rating": 0.694,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.505,
+    "active_rating": -0.496,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 102,
+    "n_snapshots": 103,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Maximum Velocity",
       "finish_label": "Eliminated",
       "finish_episode": "Maximum Velocity",
-      "elim_position": 7,
-      "elim_total": 7,
-      "rating_at_end": -0.083,
+      "elim_position": 8,
+      "elim_total": 8,
+      "rating_at_end": -0.095,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -72,37 +72,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.166
+      "rating": 0.168
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.161
+      "rating": 0.168
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.114
+      "rating": 0.162
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.107
+      "rating": 0.112
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.105
+      "rating": 0.104
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.03
+      "rating": 0.102
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.083
+      "rating": -0.048
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": -0.095
     }
   ]
 }

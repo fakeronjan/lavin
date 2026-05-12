@@ -4,10 +4,10 @@
   "gender": "F",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.91,
-    "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.575,
-    "active_season_id": "s33_war_of_the_worlds",
+    "peak_rating": 0.896,
+    "peak_season_id": "s25_free_agents",
+    "active_rating": -0.579,
+    "active_season_id": "s32_final_reckoning",
     "n_seasons": 2,
     "n_snapshots": 169,
     "championships": 1,
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Achy Breaky Heart",
       "finish_label": "Eliminated",
       "finish_episode": "Achy Breaky Heart",
-      "elim_position": 3,
-      "elim_total": 6,
-      "rating_at_end": -0.572,
+      "elim_position": 4,
+      "elim_total": 7,
+      "rating_at_end": -0.583,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -51,189 +51,194 @@
   ],
   "timeline": [
     {
-      "ranking_id": 405,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.67
-    },
-    {
-      "ranking_id": 408,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.632
-    },
-    {
-      "ranking_id": 409,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.603
-    },
-    {
-      "ranking_id": 412,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.589
-    },
-    {
-      "ranking_id": 413,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.642
-    },
-    {
-      "ranking_id": 414,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.631
-    },
-    {
-      "ranking_id": 415,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.654
-    },
-    {
-      "ranking_id": 417,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.746
-    },
-    {
-      "ranking_id": 418,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.746
-    },
-    {
-      "ranking_id": 419,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.748
-    },
-    {
-      "ranking_id": 421,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.819
-    },
-    {
-      "ranking_id": 424,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.945
-    },
-    {
-      "ranking_id": 425,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.967
-    },
-    {
-      "ranking_id": 426,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.939
-    },
-    {
-      "ranking_id": 427,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.939
-    },
-    {
       "ranking_id": 429,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.976
+      "rating": -0.608
     },
     {
-      "ranking_id": 430,
+      "ranking_id": 432,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.986
-    },
-    {
-      "ranking_id": 431,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.986
+      "rating": -0.626
     },
     {
       "ranking_id": 433,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -1.011
+      "rating": -0.59
     },
     {
-      "ranking_id": 434,
+      "ranking_id": 436,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -1.015
-    },
-    {
-      "ranking_id": 435,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -1.011
+      "rating": -0.598
     },
     {
       "ranking_id": 437,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.564
+      "rating": -0.638
     },
     {
       "ranking_id": 438,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.135
+      "rating": -0.638
     },
     {
       "ranking_id": 439,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.174
+      "rating": -0.665
     },
     {
       "ranking_id": 441,
       "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.736
+    },
+    {
+      "ranking_id": 442,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.736
+    },
+    {
+      "ranking_id": 443,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.741
+    },
+    {
+      "ranking_id": 445,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.946
+    },
+    {
+      "ranking_id": 448,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.946
+    },
+    {
+      "ranking_id": 449,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.966
+    },
+    {
+      "ranking_id": 450,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.938
+    },
+    {
+      "ranking_id": 451,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.938
+    },
+    {
+      "ranking_id": 453,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.971
+    },
+    {
+      "ranking_id": 454,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.985
+    },
+    {
+      "ranking_id": 455,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.965
+    },
+    {
+      "ranking_id": 457,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.995
+    },
+    {
+      "ranking_id": 458,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.995
+    },
+    {
+      "ranking_id": 459,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -1.01
+    },
+    {
+      "ranking_id": 461,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.564
+    },
+    {
+      "ranking_id": 462,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.135
+    },
+    {
+      "ranking_id": 463,
+      "season_id": "s23_battle_of_the_seasons_2012",
+      "rating": -0.174
+    },
+    {
+      "ranking_id": 465,
+      "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.651
     },
     {
-      "ranking_id": 585,
+      "ranking_id": 613,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.198
+      "rating": -0.03
     },
     {
-      "ranking_id": 586,
+      "ranking_id": 614,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.241
+      "rating": -0.24
     },
     {
-      "ranking_id": 587,
+      "ranking_id": 615,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.249
+      "rating": -0.25
     },
     {
-      "ranking_id": 588,
+      "ranking_id": 616,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.247
+      "rating": -0.248
     },
     {
-      "ranking_id": 589,
+      "ranking_id": 617,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.247
+      "rating": -0.248
     },
     {
-      "ranking_id": 590,
+      "ranking_id": 618,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.332
+      "rating": -0.248
     },
     {
-      "ranking_id": 591,
+      "ranking_id": 619,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.355
+      "rating": -0.343
     },
     {
-      "ranking_id": 592,
+      "ranking_id": 620,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.336
+      "rating": -0.356
     },
     {
-      "ranking_id": 593,
+      "ranking_id": 621,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.33
+      "rating": -0.354
     },
     {
-      "ranking_id": 594,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.33
+      "rating": -0.348
     },
     {
-      "ranking_id": 595,
+      "ranking_id": 623,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.33
+      "rating": -0.348
     },
     {
-      "ranking_id": 596,
+      "ranking_id": 624,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.572
+      "rating": -0.333
+    },
+    {
+      "ranking_id": 625,
+      "season_id": "s29_invasion_of_the_champions",
+      "rating": -0.583
     }
   ]
 }

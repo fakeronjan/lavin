@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.287,
-    "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.356,
+    "peak_rating": -0.294,
+    "peak_season_id": "s20_cutthroat",
+    "active_rating": -0.346,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 1,
     "n_snapshots": 80,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "It's Not Fair",
       "elim_position": 4,
-      "elim_total": 7,
-      "rating_at_end": -0.459,
+      "elim_total": 8,
+      "rating_at_end": -0.462,
       "partner": "",
       "team": "Rookies",
       "forced_exit": false
@@ -35,39 +35,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 240,
+      "ranking_id": 252,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.683
+      "rating": -0.714
     },
     {
-      "ranking_id": 241,
+      "ranking_id": 253,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.685
+      "rating": -0.716
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 254,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.679
+      "rating": -0.711
     },
     {
-      "ranking_id": 243,
+      "ranking_id": 255,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.444
+      "rating": -0.463
     },
     {
-      "ranking_id": 244,
+      "ranking_id": 256,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.443
+      "rating": -0.46
     },
     {
-      "ranking_id": 245,
+      "ranking_id": 257,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.444
+      "rating": -0.461
     },
     {
-      "ranking_id": 246,
+      "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.459
+      "rating": -0.462
+    },
+    {
+      "ranking_id": 259,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": -0.462
     }
   ]
 }

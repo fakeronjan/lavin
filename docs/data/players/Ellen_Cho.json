@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.838,
+    "peak_rating": 0.84,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": 0.837,
+    "active_rating": 0.833,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 101,
+    "n_snapshots": 102,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.616,
+      "rating_at_end": 0.622,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -62,37 +62,42 @@
     {
       "ranking_id": 49,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.415
+      "rating": 0.423
     },
     {
       "ranking_id": 50,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.414
+      "rating": 0.423
     },
     {
       "ranking_id": 51,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.394
+      "rating": 0.422
     },
     {
       "ranking_id": 52,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.385
+      "rating": 0.4
     },
     {
       "ranking_id": 53,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.382
+      "rating": 0.391
     },
     {
       "ranking_id": 54,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.467
+      "rating": 0.388
     },
     {
       "ranking_id": 55,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.616
+      "rating": 0.473
+    },
+    {
+      "ranking_id": 56,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": 0.622
     }
   ]
 }

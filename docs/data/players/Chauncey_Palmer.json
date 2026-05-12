@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.52,
+    "peak_rating": 0.525,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.202,
+    "active_rating": -0.036,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
-    "n_snapshots": 82,
+    "n_snapshots": 93,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.013,
+      "rating_at_end": -0.001,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "",
       "elim_position": 11,
       "elim_total": 12,
-      "rating_at_end": 0.016,
+      "rating_at_end": 0.001,
       "partner": "Amber Borzotra",
       "team": "",
       "forced_exit": false
@@ -51,179 +51,199 @@
   ],
   "timeline": [
     {
-      "ranking_id": 809,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.718
-    },
-    {
-      "ranking_id": 812,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.668
-    },
-    {
-      "ranking_id": 813,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.481
-    },
-    {
-      "ranking_id": 816,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.535
-    },
-    {
-      "ranking_id": 817,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.606
-    },
-    {
-      "ranking_id": 818,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.651
-    },
-    {
-      "ranking_id": 819,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.641
-    },
-    {
-      "ranking_id": 821,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.718
-    },
-    {
-      "ranking_id": 822,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.667
-    },
-    {
-      "ranking_id": 823,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.692
-    },
-    {
-      "ranking_id": 825,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.144
-    },
-    {
-      "ranking_id": 826,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.148
-    },
-    {
-      "ranking_id": 827,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.52
-    },
-    {
-      "ranking_id": 829,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.432
-    },
-    {
-      "ranking_id": 832,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.443
-    },
-    {
-      "ranking_id": 833,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.385
-    },
-    {
-      "ranking_id": 834,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.378
-    },
-    {
-      "ranking_id": 835,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.463
-    },
-    {
-      "ranking_id": 836,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.463
-    },
-    {
-      "ranking_id": 837,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.413
-    },
-    {
-      "ranking_id": 838,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.493
-    },
-    {
-      "ranking_id": 841,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.158
-    },
-    {
-      "ranking_id": 842,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.188
-    },
-    {
-      "ranking_id": 845,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.187
-    },
-    {
       "ranking_id": 846,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.016
-    },
-    {
-      "ranking_id": 847,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.159
-    },
-    {
-      "ranking_id": 848,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.1
+      "rating": -0.666
     },
     {
       "ranking_id": 849,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.088
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.665
     },
     {
       "ranking_id": 850,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.063
-    },
-    {
-      "ranking_id": 851,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.085
-    },
-    {
-      "ranking_id": 852,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.055
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.521
     },
     {
       "ranking_id": 853,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.058
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.569
     },
     {
       "ranking_id": 854,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.06
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.601
     },
     {
       "ranking_id": 855,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.049
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.632
     },
     {
       "ranking_id": 856,
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.624
+    },
+    {
+      "ranking_id": 858,
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.654
+    },
+    {
+      "ranking_id": 859,
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.652
+    },
+    {
+      "ranking_id": 860,
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.675
+    },
+    {
+      "ranking_id": 862,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.153
+    },
+    {
+      "ranking_id": 863,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.16
+    },
+    {
+      "ranking_id": 864,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.525
+    },
+    {
+      "ranking_id": 866,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.442
+    },
+    {
+      "ranking_id": 869,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.435
+    },
+    {
+      "ranking_id": 870,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.376
+    },
+    {
+      "ranking_id": 871,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.376
+    },
+    {
+      "ranking_id": 872,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.461
+    },
+    {
+      "ranking_id": 873,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.461
+    },
+    {
+      "ranking_id": 874,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.294
+    },
+    {
+      "ranking_id": 875,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.361
+    },
+    {
+      "ranking_id": 878,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.167
+    },
+    {
+      "ranking_id": 879,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.183
+    },
+    {
+      "ranking_id": 882,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.206
+    },
+    {
+      "ranking_id": 883,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.001
+    },
+    {
+      "ranking_id": 884,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.013
+      "rating": -0.003
+    },
+    {
+      "ranking_id": 885,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.097
+    },
+    {
+      "ranking_id": 886,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.083
+    },
+    {
+      "ranking_id": 887,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.028
+    },
+    {
+      "ranking_id": 888,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.029
+    },
+    {
+      "ranking_id": 889,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.029
+    },
+    {
+      "ranking_id": 890,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.019
+    },
+    {
+      "ranking_id": 891,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.015
+    },
+    {
+      "ranking_id": 893,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.014
+    },
+    {
+      "ranking_id": 894,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.027
+    },
+    {
+      "ranking_id": 895,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.022
+    },
+    {
+      "ranking_id": 896,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.022
+    },
+    {
+      "ranking_id": 897,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.022
+    },
+    {
+      "ranking_id": 898,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": -0.001
     }
   ]
 }

@@ -3,13 +3,13 @@
   "safe_name": "Joss_Mooney",
   "gender": "M",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.739,
+    "era_rating": 0.9,
+    "peak_rating": 0.768,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.9,
+    "active_rating": -0.818,
     "active_season_id": "s38_ride_or_dies",
     "n_seasons": 3,
-    "n_snapshots": 143,
+    "n_snapshots": 145,
     "championships": 0,
     "elim_wins": 6,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Dee-Day",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.355,
+      "rating_at_end": 0.299,
       "partner": "",
       "team": "Team UK",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.729,
+      "rating_at_end": 0.562,
       "partner": "Sylvia Elsrode",
       "team": "",
       "forced_exit": false
@@ -59,7 +59,7 @@
       "finish_episode": "Mercenaries of Mayhem",
       "elim_position": 9,
       "elim_total": 9,
-      "rating_at_end": -0.52,
+      "rating_at_end": -0.484,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -67,249 +67,259 @@
   ],
   "timeline": [
     {
-      "ranking_id": 618,
+      "ranking_id": 647,
       "season_id": "s31_vendettas",
       "rating": -0.758
     },
     {
-      "ranking_id": 619,
+      "ranking_id": 648,
       "season_id": "s31_vendettas",
-      "rating": -0.66
+      "rating": -0.661
     },
     {
-      "ranking_id": 620,
+      "ranking_id": 649,
       "season_id": "s31_vendettas",
-      "rating": -0.671
+      "rating": -0.672
     },
     {
-      "ranking_id": 621,
+      "ranking_id": 650,
       "season_id": "s31_vendettas",
       "rating": -0.712
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 651,
       "season_id": "s31_vendettas",
       "rating": -0.725
     },
     {
-      "ranking_id": 623,
+      "ranking_id": 652,
       "season_id": "s31_vendettas",
-      "rating": -0.744
+      "rating": -0.717
     },
     {
-      "ranking_id": 624,
+      "ranking_id": 653,
       "season_id": "s31_vendettas",
       "rating": -0.74
     },
     {
-      "ranking_id": 625,
+      "ranking_id": 654,
       "season_id": "s31_vendettas",
       "rating": -0.684
     },
     {
-      "ranking_id": 626,
+      "ranking_id": 655,
       "season_id": "s31_vendettas",
       "rating": -0.609
     },
     {
-      "ranking_id": 629,
-      "season_id": "s31_vendettas",
-      "rating": -0.646
-    },
-    {
-      "ranking_id": 631,
+      "ranking_id": 658,
       "season_id": "s31_vendettas",
       "rating": -0.606
     },
     {
-      "ranking_id": 632,
-      "season_id": "s31_vendettas",
-      "rating": -0.52
-    },
-    {
-      "ranking_id": 633,
-      "season_id": "s32_final_reckoning",
-      "rating": -0.529
-    },
-    {
-      "ranking_id": 635,
-      "season_id": "s32_final_reckoning",
-      "rating": -0.494
-    },
-    {
-      "ranking_id": 637,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.206
-    },
-    {
-      "ranking_id": 640,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.218
-    },
-    {
-      "ranking_id": 641,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.189
-    },
-    {
-      "ranking_id": 643,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.112
-    },
-    {
-      "ranking_id": 645,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.055
-    },
-    {
-      "ranking_id": 646,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.052
-    },
-    {
-      "ranking_id": 647,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.061
-    },
-    {
-      "ranking_id": 648,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.045
-    },
-    {
-      "ranking_id": 649,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.036
-    },
-    {
-      "ranking_id": 650,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.032
-    },
-    {
-      "ranking_id": 652,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.079
-    },
-    {
-      "ranking_id": 653,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.059
-    },
-    {
-      "ranking_id": 657,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.415
-    },
-    {
-      "ranking_id": 658,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.565
-    },
-    {
       "ranking_id": 661,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.555
+      "season_id": "s31_vendettas",
+      "rating": -0.558
+    },
+    {
+      "ranking_id": 662,
+      "season_id": "s31_vendettas",
+      "rating": -0.484
     },
     {
       "ranking_id": 663,
       "season_id": "s32_final_reckoning",
-      "rating": 0.633
-    },
-    {
-      "ranking_id": 664,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.632
+      "rating": -0.494
     },
     {
       "ranking_id": 665,
       "season_id": "s32_final_reckoning",
-      "rating": 0.618
+      "rating": -0.452
     },
     {
-      "ranking_id": 668,
+      "ranking_id": 667,
       "season_id": "s32_final_reckoning",
+      "rating": 0.218
+    },
+    {
+      "ranking_id": 670,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.125
+    },
+    {
+      "ranking_id": 671,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.148
+    },
+    {
+      "ranking_id": 672,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.148
+    },
+    {
+      "ranking_id": 675,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.156
+    },
+    {
+      "ranking_id": 677,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.156
+    },
+    {
+      "ranking_id": 679,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.103
+    },
+    {
+      "ranking_id": 680,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.141
+    },
+    {
+      "ranking_id": 681,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.141
+    },
+    {
+      "ranking_id": 682,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.124
+    },
+    {
+      "ranking_id": 683,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.125
+    },
+    {
+      "ranking_id": 684,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.118
+    },
+    {
+      "ranking_id": 686,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.098
+    },
+    {
+      "ranking_id": 687,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.079
+    },
+    {
+      "ranking_id": 691,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.511
+    },
+    {
+      "ranking_id": 692,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.663
+    },
+    {
+      "ranking_id": 695,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.635
+    },
+    {
+      "ranking_id": 697,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.632
+    },
+    {
+      "ranking_id": 698,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.631
+    },
+    {
+      "ranking_id": 699,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.435
+    },
+    {
+      "ranking_id": 702,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.452
+    },
+    {
+      "ranking_id": 703,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.562
+    },
+    {
+      "ranking_id": 744,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.611
+    },
+    {
+      "ranking_id": 745,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.594
+    },
+    {
+      "ranking_id": 746,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.584
+    },
+    {
+      "ranking_id": 747,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.584
+    },
+    {
+      "ranking_id": 748,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.558
+    },
+    {
+      "ranking_id": 749,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.554
+    },
+    {
+      "ranking_id": 750,
+      "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.603
     },
     {
-      "ranking_id": 669,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.729
+      "ranking_id": 751,
+      "season_id": "s34_war_of_the_worlds_2",
+      "rating": 0.597
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 753,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.624
+      "rating": 0.486
     },
     {
-      "ranking_id": 711,
+      "ranking_id": 754,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.641
+      "rating": 0.523
     },
     {
-      "ranking_id": 712,
+      "ranking_id": 755,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.603
+      "rating": 0.516
     },
     {
-      "ranking_id": 713,
+      "ranking_id": 756,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.608
+      "rating": 0.506
     },
     {
-      "ranking_id": 714,
+      "ranking_id": 757,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.579
+      "rating": 0.415
     },
     {
-      "ranking_id": 715,
+      "ranking_id": 758,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.551
+      "rating": 0.412
     },
     {
-      "ranking_id": 716,
+      "ranking_id": 759,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.601
-    },
-    {
-      "ranking_id": 717,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.596
-    },
-    {
-      "ranking_id": 719,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.57
-    },
-    {
-      "ranking_id": 720,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.606
-    },
-    {
-      "ranking_id": 721,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.599
-    },
-    {
-      "ranking_id": 722,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.502
-    },
-    {
-      "ranking_id": 723,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.464
-    },
-    {
-      "ranking_id": 724,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.462
-    },
-    {
-      "ranking_id": 725,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.355
+      "rating": 0.299
     }
   ]
 }

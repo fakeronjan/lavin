@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.054,
+    "peak_rating": 0.057,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -1.336,
-    "active_season_id": "s14_the_inferno_3",
+    "active_rating": -1.303,
+    "active_season_id": "s13_the_duel",
     "n_seasons": 1,
-    "n_snapshots": 54,
+    "n_snapshots": 50,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Episode 15",
       "elim_position": 4,
       "elim_total": 4,
-      "rating_at_end": -0.028,
+      "rating_at_end": 0.023,
       "partner": "",
       "team": "Good Guys",
       "forced_exit": false
@@ -35,9 +35,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 131,
+      "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.028
+      "rating": 0.023
     }
   ]
 }

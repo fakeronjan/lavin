@@ -6,10 +6,10 @@
     "era_rating": 0.2,
     "peak_rating": 0.562,
     "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.509,
-    "active_season_id": "s15_the_gauntlet_iii",
+    "active_rating": -0.144,
+    "active_season_id": "s14_the_inferno_3",
     "n_seasons": 3,
-    "n_snapshots": 126,
+    "n_snapshots": 123,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.32,
+      "rating_at_end": -0.301,
       "partner": "",
       "team": "Veterans",
       "forced_exit": false
@@ -51,19 +51,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 74,
+      "ranking_id": 75,
       "season_id": "s08_the_inferno",
       "rating": -0.93
     },
     {
-      "ranking_id": 75,
-      "season_id": "s08_the_inferno",
-      "rating": 0.041
-    },
-    {
       "ranking_id": 76,
       "season_id": "s08_the_inferno",
-      "rating": 0.018
+      "rating": 0.041
     },
     {
       "ranking_id": 77,
@@ -73,17 +68,17 @@
     {
       "ranking_id": 78,
       "season_id": "s08_the_inferno",
-      "rating": -0.05
+      "rating": 0.018
     },
     {
       "ranking_id": 79,
       "season_id": "s08_the_inferno",
-      "rating": 0.317
+      "rating": -0.05
     },
     {
       "ranking_id": 80,
       "season_id": "s08_the_inferno",
-      "rating": 0.323
+      "rating": 0.317
     },
     {
       "ranking_id": 81,
@@ -93,17 +88,17 @@
     {
       "ranking_id": 82,
       "season_id": "s08_the_inferno",
-      "rating": 0.31
+      "rating": 0.323
     },
     {
       "ranking_id": 83,
       "season_id": "s08_the_inferno",
-      "rating": 0.437
+      "rating": 0.31
     },
     {
       "ranking_id": 84,
       "season_id": "s08_the_inferno",
-      "rating": 0.562
+      "rating": 0.437
     },
     {
       "ranking_id": 85,
@@ -113,77 +108,87 @@
     {
       "ranking_id": 86,
       "season_id": "s08_the_inferno",
+      "rating": 0.562
+    },
+    {
+      "ranking_id": 87,
+      "season_id": "s08_the_inferno",
+      "rating": 0.562
+    },
+    {
+      "ranking_id": 88,
+      "season_id": "s08_the_inferno",
       "rating": 0.186
-    },
-    {
-      "ranking_id": 132,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.189
-    },
-    {
-      "ranking_id": 133,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.144
     },
     {
       "ranking_id": 134,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.157
+      "rating": 0.199
     },
     {
       "ranking_id": 135,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.129
+      "rating": 0.168
     },
     {
       "ranking_id": 136,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.134
+      "rating": 0.174
     },
     {
       "ranking_id": 137,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.104
+      "rating": 0.135
     },
     {
       "ranking_id": 138,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.125
+      "rating": 0.156
     },
     {
       "ranking_id": 139,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.128
+      "rating": 0.123
     },
     {
       "ranking_id": 140,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.161
+      "rating": 0.149
     },
     {
       "ranking_id": 141,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.125
+      "rating": 0.161
     },
     {
       "ranking_id": 142,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.095
+      "rating": 0.15
     },
     {
       "ranking_id": 143,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.086
+      "rating": 0.116
     },
     {
       "ranking_id": 144,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.081
+      "rating": 0.086
     },
     {
       "ranking_id": 145,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.32
+      "rating": 0.086
+    },
+    {
+      "ranking_id": 146,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.029
+    },
+    {
+      "ranking_id": 147,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.301
     }
   ]
 }

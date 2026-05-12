@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.096,
-    "peak_season_id": "s36_double_agents",
-    "active_rating": -0.638,
-    "active_season_id": "s39_battle_for_a_new_champion",
+    "peak_rating": 0.097,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": -0.142,
+    "active_season_id": "s38_ride_or_dies",
     "n_seasons": 1,
-    "n_snapshots": 82,
+    "n_snapshots": 71,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Dive Another Day",
       "elim_position": 1,
-      "elim_total": 7,
-      "rating_at_end": -0.174,
+      "elim_total": 8,
+      "rating_at_end": -0.13,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -35,79 +35,89 @@
   ],
   "timeline": [
     {
-      "ranking_id": 752,
+      "ranking_id": 786,
       "season_id": "s36_double_agents",
       "rating": 0.09
     },
     {
-      "ranking_id": 753,
+      "ranking_id": 787,
       "season_id": "s36_double_agents",
       "rating": 0.096
     },
     {
-      "ranking_id": 754,
+      "ranking_id": 788,
       "season_id": "s36_double_agents",
       "rating": 0.093
     },
     {
-      "ranking_id": 755,
+      "ranking_id": 789,
       "season_id": "s36_double_agents",
       "rating": 0.089
     },
     {
-      "ranking_id": 756,
+      "ranking_id": 790,
       "season_id": "s36_double_agents",
       "rating": 0.086
     },
     {
-      "ranking_id": 757,
+      "ranking_id": 791,
       "season_id": "s36_double_agents",
-      "rating": 0.046
+      "rating": 0.08
     },
     {
-      "ranking_id": 758,
+      "ranking_id": 792,
       "season_id": "s36_double_agents",
-      "rating": 0.032
+      "rating": 0.073
     },
     {
-      "ranking_id": 759,
+      "ranking_id": 793,
       "season_id": "s36_double_agents",
-      "rating": -0.053
+      "rating": -0.01
     },
     {
-      "ranking_id": 760,
+      "ranking_id": 794,
       "season_id": "s36_double_agents",
-      "rating": -0.053
+      "rating": -0.008
     },
     {
-      "ranking_id": 761,
+      "ranking_id": 795,
       "season_id": "s36_double_agents",
-      "rating": -0.055
+      "rating": -0.011
     },
     {
-      "ranking_id": 762,
+      "ranking_id": 796,
       "season_id": "s36_double_agents",
-      "rating": -0.047
+      "rating": -0.016
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 797,
       "season_id": "s36_double_agents",
-      "rating": -0.05
+      "rating": -0.007
     },
     {
-      "ranking_id": 764,
+      "ranking_id": 798,
       "season_id": "s36_double_agents",
-      "rating": -0.045
+      "rating": -0.012
     },
     {
-      "ranking_id": 765,
+      "ranking_id": 799,
       "season_id": "s36_double_agents",
-      "rating": -0.06
+      "rating": -0.008
     },
     {
-      "ranking_id": 766,
+      "ranking_id": 800,
       "season_id": "s36_double_agents",
-      "rating": -0.174
+      "rating": -0.006
+    },
+    {
+      "ranking_id": 802,
+      "season_id": "s36_double_agents",
+      "rating": -0.007
+    },
+    {
+      "ranking_id": 803,
+      "season_id": "s36_double_agents",
+      "rating": -0.13
     }
   ]
 }

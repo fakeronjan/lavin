@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.749,
+    "peak_rating": 0.753,
     "peak_season_id": "s25_free_agents",
     "active_rating": -0.692,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 4,
-    "n_snapshots": 232,
+    "n_snapshots": 238,
     "championships": 0,
     "elim_wins": 4,
     "elim_losses": 4,
@@ -27,7 +27,7 @@
       "finish_episode": "Bad Blood",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.194,
+      "rating_at_end": 0.209,
       "partner": "Jill Tuttle",
       "team": "",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "Best Friends for Never",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": 0.009,
+      "rating_at_end": 0.038,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -57,9 +57,9 @@
       "finish": "Eliminated in Silence of the Ruins",
       "finish_label": "Eliminated",
       "finish_episode": "Silence of the Ruins",
-      "elim_position": 7,
-      "elim_total": 7,
-      "rating_at_end": 0.156,
+      "elim_position": 8,
+      "elim_total": 8,
+      "rating_at_end": 0.137,
       "partner": "",
       "team": "Challengers",
       "forced_exit": false
@@ -75,7 +75,7 @@
       "finish_episode": "Island King",
       "elim_position": 2,
       "elim_total": 2,
-      "rating_at_end": -0.642,
+      "rating_at_end": -0.742,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -83,224 +83,244 @@
   ],
   "timeline": [
     {
-      "ranking_id": 248,
+      "ranking_id": 262,
       "season_id": "s16_the_island",
-      "rating": -0.681
+      "rating": -0.81
     },
     {
-      "ranking_id": 249,
+      "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.696
+      "rating": -0.82
     },
     {
-      "ranking_id": 250,
+      "ranking_id": 264,
       "season_id": "s16_the_island",
-      "rating": -0.642
+      "rating": -0.742
     },
     {
-      "ranking_id": 270,
+      "ranking_id": 285,
       "season_id": "s18_the_ruins",
-      "rating": -0.614
+      "rating": -0.673
     },
     {
-      "ranking_id": 271,
+      "ranking_id": 286,
       "season_id": "s18_the_ruins",
-      "rating": -0.581
+      "rating": -0.611
     },
     {
-      "ranking_id": 272,
+      "ranking_id": 287,
       "season_id": "s18_the_ruins",
-      "rating": -0.581
+      "rating": -0.611
     },
     {
-      "ranking_id": 273,
+      "ranking_id": 288,
       "season_id": "s18_the_ruins",
-      "rating": -0.581
+      "rating": -0.611
     },
     {
-      "ranking_id": 274,
+      "ranking_id": 289,
       "season_id": "s18_the_ruins",
-      "rating": 0.105
+      "rating": 0.112
     },
     {
-      "ranking_id": 275,
+      "ranking_id": 290,
       "season_id": "s18_the_ruins",
-      "rating": 0.115
+      "rating": 0.132
     },
     {
-      "ranking_id": 276,
+      "ranking_id": 291,
       "season_id": "s18_the_ruins",
-      "rating": 0.245
+      "rating": 0.132
     },
     {
-      "ranking_id": 277,
+      "ranking_id": 292,
       "season_id": "s18_the_ruins",
-      "rating": 0.245
+      "rating": 0.127
     },
     {
-      "ranking_id": 278,
+      "ranking_id": 293,
       "season_id": "s18_the_ruins",
-      "rating": 0.372
+      "rating": 0.127
     },
     {
-      "ranking_id": 279,
+      "ranking_id": 294,
       "season_id": "s18_the_ruins",
-      "rating": 0.372
+      "rating": 0.261
     },
     {
-      "ranking_id": 280,
+      "ranking_id": 295,
       "season_id": "s18_the_ruins",
-      "rating": 0.375
+      "rating": 0.261
     },
     {
-      "ranking_id": 281,
+      "ranking_id": 296,
       "season_id": "s18_the_ruins",
-      "rating": 0.375
+      "rating": 0.391
     },
     {
-      "ranking_id": 282,
+      "ranking_id": 297,
       "season_id": "s18_the_ruins",
-      "rating": 0.224
+      "rating": 0.389
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 298,
       "season_id": "s18_the_ruins",
-      "rating": 0.156
+      "rating": 0.404
     },
     {
-      "ranking_id": 481,
+      "ranking_id": 299,
+      "season_id": "s18_the_ruins",
+      "rating": 0.404
+    },
+    {
+      "ranking_id": 300,
+      "season_id": "s18_the_ruins",
+      "rating": 0.261
+    },
+    {
+      "ranking_id": 301,
+      "season_id": "s18_the_ruins",
+      "rating": 0.263
+    },
+    {
+      "ranking_id": 302,
+      "season_id": "s18_the_ruins",
+      "rating": 0.137
+    },
+    {
+      "ranking_id": 509,
       "season_id": "s25_free_agents",
-      "rating": 0.738
+      "rating": 0.753
     },
     {
-      "ranking_id": 482,
+      "ranking_id": 510,
       "season_id": "s25_free_agents",
-      "rating": 0.749
+      "rating": 0.724
     },
     {
-      "ranking_id": 483,
+      "ranking_id": 511,
       "season_id": "s25_free_agents",
-      "rating": 0.682
+      "rating": 0.666
     },
     {
-      "ranking_id": 484,
+      "ranking_id": 512,
       "season_id": "s25_free_agents",
-      "rating": 0.687
+      "rating": 0.666
     },
     {
-      "ranking_id": 485,
+      "ranking_id": 513,
       "season_id": "s25_free_agents",
-      "rating": 0.687
+      "rating": 0.666
     },
     {
-      "ranking_id": 486,
+      "ranking_id": 514,
       "season_id": "s25_free_agents",
-      "rating": 0.231
+      "rating": 0.25
     },
     {
-      "ranking_id": 488,
+      "ranking_id": 516,
       "season_id": "s25_free_agents",
-      "rating": 0.235
+      "rating": 0.297
     },
     {
-      "ranking_id": 489,
+      "ranking_id": 517,
       "season_id": "s25_free_agents",
-      "rating": 0.235
+      "rating": 0.286
     },
     {
-      "ranking_id": 490,
+      "ranking_id": 518,
       "season_id": "s25_free_agents",
-      "rating": 0.248
+      "rating": 0.283
     },
     {
-      "ranking_id": 491,
+      "ranking_id": 519,
       "season_id": "s25_free_agents",
-      "rating": 0.294
+      "rating": 0.282
     },
     {
-      "ranking_id": 492,
-      "season_id": "s25_free_agents",
-      "rating": 0.292
-    },
-    {
-      "ranking_id": 493,
+      "ranking_id": 520,
       "season_id": "s25_free_agents",
       "rating": 0.28
     },
     {
-      "ranking_id": 494,
+      "ranking_id": 521,
       "season_id": "s25_free_agents",
-      "rating": 0.068
+      "rating": 0.28
     },
     {
-      "ranking_id": 496,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
       "rating": 0.069
     },
     {
-      "ranking_id": 497,
+      "ranking_id": 524,
       "season_id": "s25_free_agents",
-      "rating": 0.009
+      "rating": 0.099
     },
     {
-      "ranking_id": 539,
+      "ranking_id": 525,
+      "season_id": "s25_free_agents",
+      "rating": 0.038
+    },
+    {
+      "ranking_id": 567,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.18
+      "rating": 0.128
     },
     {
-      "ranking_id": 540,
+      "ranking_id": 568,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.38
+      "rating": 0.335
     },
     {
-      "ranking_id": 541,
+      "ranking_id": 569,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.38
+      "rating": 0.333
     },
     {
-      "ranking_id": 542,
+      "ranking_id": 570,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.309
+      "rating": 0.275
     },
     {
-      "ranking_id": 543,
+      "ranking_id": 571,
       "season_id": "s27_battle_of_the_bloodlines",
       "rating": 0.283
     },
     {
-      "ranking_id": 544,
+      "ranking_id": 572,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.243
+      "rating": 0.244
     },
     {
-      "ranking_id": 545,
+      "ranking_id": 573,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.241
+      "rating": 0.244
     },
     {
-      "ranking_id": 546,
+      "ranking_id": 574,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.215
+      "rating": 0.228
     },
     {
-      "ranking_id": 547,
+      "ranking_id": 575,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.2
+      "rating": 0.204
     },
     {
-      "ranking_id": 549,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.207
+      "rating": 0.221
     },
     {
-      "ranking_id": 551,
+      "ranking_id": 579,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.199
+      "rating": 0.229
     },
     {
-      "ranking_id": 552,
+      "ranking_id": 580,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.194
+      "rating": 0.209
     }
   ]
 }

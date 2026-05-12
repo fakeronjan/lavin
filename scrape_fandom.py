@@ -574,15 +574,12 @@ def parse_game_summary_individual(wikitext):
         if not is_continuation:
             last_episode = episode
 
-        # Skip rows where the elimination collapses to N/A (no real duel held,
-        # e.g. due to DQ or no second nominee). Symptom: a single wide cell
-        # in the elimination-outcome area containing "N/A".
-        row_text = " ".join(cells)
-        if "N/A" in row_text and "Eliminated" not in row_text:
-            # Daily winners still valid in this row; capture them but skip elim
-            elim_skipped = True
-        else:
-            elim_skipped = False
+        # Skip rows where the elimination collapses to N/A — but only if
+        # the N/A is in the ELIMINATION OUTCOME area (last cells), not a
+        # mid-row annotation about a DQ'd daily or skipped category. Check
+        # the last cells specifically.
+        last_cells_text = " ".join(cells[-3:])
+        elim_skipped = "N/A" in last_cells_text
 
         player_idx = [i for i, c in enumerate(cells) if _is_player_cell(c)]
         if len(player_idx) < 2:

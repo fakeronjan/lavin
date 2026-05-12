@@ -3,16 +3,16 @@
   "safe_name": "Angela_Babicz",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.566,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.801,
+    "era_rating": 0.1,
+    "peak_rating": 0.184,
+    "peak_season_id": "s33_war_of_the_worlds",
+    "active_rating": -0.785,
     "active_season_id": "s36_double_agents",
     "n_seasons": 1,
-    "n_snapshots": 85,
+    "n_snapshots": 87,
     "championships": 0,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 2,
     "daily_wins": 1
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Redemption House of Cards",
       "finish_label": "Eliminated",
       "finish_episode": "Redemption House of Cards",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.007,
+      "elim_position": 3,
+      "elim_total": 5,
+      "rating_at_end": 0.103,
       "partner": "Faith Stowers",
       "team": "",
       "forced_exit": false
@@ -35,104 +35,114 @@
   ],
   "timeline": [
     {
-      "ranking_id": 637,
+      "ranking_id": 667,
       "season_id": "s32_final_reckoning",
-      "rating": -0.468
+      "rating": -0.435
     },
     {
-      "ranking_id": 640,
+      "ranking_id": 670,
       "season_id": "s32_final_reckoning",
-      "rating": -0.466
+      "rating": -0.548
     },
     {
-      "ranking_id": 641,
+      "ranking_id": 671,
       "season_id": "s32_final_reckoning",
-      "rating": 0.566
+      "rating": -0.057
     },
     {
-      "ranking_id": 643,
+      "ranking_id": 672,
       "season_id": "s32_final_reckoning",
-      "rating": 0.458
+      "rating": -0.016
     },
     {
-      "ranking_id": 645,
+      "ranking_id": 675,
       "season_id": "s32_final_reckoning",
-      "rating": 0.458
+      "rating": -0.029
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 677,
       "season_id": "s32_final_reckoning",
-      "rating": 0.458
+      "rating": -0.027
     },
     {
-      "ranking_id": 647,
+      "ranking_id": 679,
       "season_id": "s32_final_reckoning",
-      "rating": 0.445
+      "rating": -0.025
     },
     {
-      "ranking_id": 648,
+      "ranking_id": 680,
       "season_id": "s32_final_reckoning",
-      "rating": 0.445
+      "rating": -0.025
     },
     {
-      "ranking_id": 649,
+      "ranking_id": 681,
       "season_id": "s32_final_reckoning",
-      "rating": 0.309
+      "rating": -0.001
     },
     {
-      "ranking_id": 650,
+      "ranking_id": 682,
       "season_id": "s32_final_reckoning",
-      "rating": 0.309
+      "rating": -0.001
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 683,
       "season_id": "s32_final_reckoning",
-      "rating": 0.293
+      "rating": 0.028
     },
     {
-      "ranking_id": 653,
+      "ranking_id": 684,
       "season_id": "s32_final_reckoning",
-      "rating": 0.244
+      "rating": 0.019
     },
     {
-      "ranking_id": 657,
+      "ranking_id": 686,
       "season_id": "s32_final_reckoning",
-      "rating": 0.206
+      "rating": 0.019
     },
     {
-      "ranking_id": 658,
+      "ranking_id": 687,
       "season_id": "s32_final_reckoning",
-      "rating": 0.206
+      "rating": 0.125
     },
     {
-      "ranking_id": 661,
+      "ranking_id": 691,
       "season_id": "s32_final_reckoning",
-      "rating": 0.247
+      "rating": 0.141
     },
     {
-      "ranking_id": 663,
+      "ranking_id": 692,
       "season_id": "s32_final_reckoning",
-      "rating": 0.265
+      "rating": 0.141
     },
     {
-      "ranking_id": 664,
+      "ranking_id": 695,
       "season_id": "s32_final_reckoning",
-      "rating": 0.265
+      "rating": 0.144
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 697,
       "season_id": "s32_final_reckoning",
-      "rating": 0.188
+      "rating": 0.131
     },
     {
-      "ranking_id": 668,
+      "ranking_id": 698,
       "season_id": "s32_final_reckoning",
-      "rating": 0.19
+      "rating": 0.131
     },
     {
-      "ranking_id": 669,
+      "ranking_id": 699,
       "season_id": "s32_final_reckoning",
-      "rating": 0.007
+      "rating": 0.101
+    },
+    {
+      "ranking_id": 702,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.135
+    },
+    {
+      "ranking_id": 703,
+      "season_id": "s32_final_reckoning",
+      "rating": 0.103
     }
   ]
 }

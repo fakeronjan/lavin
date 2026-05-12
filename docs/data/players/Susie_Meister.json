@@ -3,15 +3,15 @@
   "safe_name": "Susie_Meister",
   "gender": "F",
   "career": {
-    "era_rating": 1.4,
-    "peak_rating": 1.417,
-    "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": 1.135,
+    "era_rating": 1.2,
+    "peak_rating": 1.356,
+    "peak_season_id": "s21_rivals",
+    "active_rating": 1.22,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 4,
-    "n_snapshots": 189,
+    "n_snapshots": 203,
     "championships": 2,
-    "elim_wins": 5,
+    "elim_wins": 7,
     "elim_losses": 0,
     "daily_wins": 8
   },
@@ -27,7 +27,7 @@
       "finish_episode": "Good Thai and Good Luck",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.43,
+      "rating_at_end": 0.563,
       "partner": "",
       "team": "Champions",
       "forced_exit": false
@@ -43,7 +43,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.347,
+      "rating_at_end": -0.243,
       "partner": "",
       "team": "Good Guys",
       "forced_exit": false
@@ -59,7 +59,7 @@
       "finish_episode": "Don't Bet on It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.66,
+      "rating_at_end": 0.673,
       "partner": "",
       "team": "Rookies",
       "forced_exit": false
@@ -67,194 +67,224 @@
   ],
   "timeline": [
     {
-      "ranking_id": 136,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.756
-    },
-    {
-      "ranking_id": 137,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.747
-    },
-    {
       "ranking_id": 138,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.724
+      "rating": -0.75
     },
     {
       "ranking_id": 139,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.724
+      "rating": -0.753
     },
     {
       "ranking_id": 140,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.64
+      "rating": -0.726
     },
     {
       "ranking_id": 141,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.657
+      "rating": -0.728
     },
     {
       "ranking_id": 142,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.682
+      "rating": -0.657
     },
     {
       "ranking_id": 143,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.682
+      "rating": -0.655
     },
     {
       "ranking_id": 144,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.703
+      "rating": -0.679
     },
     {
       "ranking_id": 145,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.66
+      "rating": -0.703
     },
     {
-      "ranking_id": 219,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.761
+      "ranking_id": 146,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.717
     },
     {
-      "ranking_id": 220,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.737
-    },
-    {
-      "ranking_id": 221,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.892
-    },
-    {
-      "ranking_id": 222,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.848
-    },
-    {
-      "ranking_id": 223,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.876
-    },
-    {
-      "ranking_id": 224,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.911
-    },
-    {
-      "ranking_id": 225,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.875
-    },
-    {
-      "ranking_id": 226,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.909
-    },
-    {
-      "ranking_id": 227,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.909
-    },
-    {
-      "ranking_id": 228,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.947
+      "ranking_id": 147,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": 0.673
     },
     {
       "ranking_id": 229,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.899
+      "rating": 0.984
     },
     {
       "ranking_id": 230,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.926
+      "rating": 1.032
     },
     {
       "ranking_id": 231,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.86
+      "rating": 1.031
     },
     {
       "ranking_id": 232,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.347
+      "rating": 1.071
     },
     {
-      "ranking_id": 270,
-      "season_id": "s18_the_ruins",
-      "rating": 0.123
+      "ranking_id": 233,
+      "season_id": "s14_the_inferno_3",
+      "rating": 1.071
     },
     {
-      "ranking_id": 271,
-      "season_id": "s18_the_ruins",
-      "rating": 0.123
+      "ranking_id": 234,
+      "season_id": "s14_the_inferno_3",
+      "rating": 1.092
     },
     {
-      "ranking_id": 272,
-      "season_id": "s18_the_ruins",
-      "rating": 0.201
+      "ranking_id": 235,
+      "season_id": "s14_the_inferno_3",
+      "rating": 1.143
     },
     {
-      "ranking_id": 273,
-      "season_id": "s18_the_ruins",
-      "rating": 0.22
+      "ranking_id": 236,
+      "season_id": "s14_the_inferno_3",
+      "rating": 1.053
     },
     {
-      "ranking_id": 274,
-      "season_id": "s18_the_ruins",
-      "rating": 0.22
+      "ranking_id": 237,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.694
     },
     {
-      "ranking_id": 275,
-      "season_id": "s18_the_ruins",
-      "rating": 0.22
+      "ranking_id": 238,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.694
     },
     {
-      "ranking_id": 276,
-      "season_id": "s18_the_ruins",
-      "rating": 0.248
+      "ranking_id": 239,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.722
     },
     {
-      "ranking_id": 277,
-      "season_id": "s18_the_ruins",
-      "rating": 0.244
+      "ranking_id": 240,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.628
     },
     {
-      "ranking_id": 278,
-      "season_id": "s18_the_ruins",
-      "rating": 0.244
+      "ranking_id": 241,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.629
     },
     {
-      "ranking_id": 279,
-      "season_id": "s18_the_ruins",
-      "rating": 0.244
+      "ranking_id": 242,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.629
     },
     {
-      "ranking_id": 280,
-      "season_id": "s18_the_ruins",
-      "rating": 0.243
+      "ranking_id": 243,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.638
     },
     {
-      "ranking_id": 281,
-      "season_id": "s18_the_ruins",
-      "rating": 0.242
+      "ranking_id": 244,
+      "season_id": "s14_the_inferno_3",
+      "rating": -0.243
     },
     {
-      "ranking_id": 282,
+      "ranking_id": 285,
       "season_id": "s18_the_ruins",
-      "rating": 0.242
+      "rating": 0.17
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 286,
       "season_id": "s18_the_ruins",
-      "rating": 0.43
+      "rating": 0.17
+    },
+    {
+      "ranking_id": 287,
+      "season_id": "s18_the_ruins",
+      "rating": 0.241
+    },
+    {
+      "ranking_id": 288,
+      "season_id": "s18_the_ruins",
+      "rating": 0.259
+    },
+    {
+      "ranking_id": 289,
+      "season_id": "s18_the_ruins",
+      "rating": 0.259
+    },
+    {
+      "ranking_id": 290,
+      "season_id": "s18_the_ruins",
+      "rating": 0.261
+    },
+    {
+      "ranking_id": 291,
+      "season_id": "s18_the_ruins",
+      "rating": 0.283
+    },
+    {
+      "ranking_id": 292,
+      "season_id": "s18_the_ruins",
+      "rating": 0.335
+    },
+    {
+      "ranking_id": 293,
+      "season_id": "s18_the_ruins",
+      "rating": 0.377
+    },
+    {
+      "ranking_id": 294,
+      "season_id": "s18_the_ruins",
+      "rating": 0.341
+    },
+    {
+      "ranking_id": 295,
+      "season_id": "s18_the_ruins",
+      "rating": 0.338
+    },
+    {
+      "ranking_id": 296,
+      "season_id": "s18_the_ruins",
+      "rating": 0.338
+    },
+    {
+      "ranking_id": 297,
+      "season_id": "s18_the_ruins",
+      "rating": 0.338
+    },
+    {
+      "ranking_id": 298,
+      "season_id": "s18_the_ruins",
+      "rating": 0.344
+    },
+    {
+      "ranking_id": 299,
+      "season_id": "s18_the_ruins",
+      "rating": 0.343
+    },
+    {
+      "ranking_id": 300,
+      "season_id": "s18_the_ruins",
+      "rating": 0.343
+    },
+    {
+      "ranking_id": 301,
+      "season_id": "s18_the_ruins",
+      "rating": 0.34
+    },
+    {
+      "ranking_id": 302,
+      "season_id": "s18_the_ruins",
+      "rating": 0.563
     }
   ]
 }

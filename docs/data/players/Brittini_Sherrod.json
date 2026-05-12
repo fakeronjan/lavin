@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.863,
+    "peak_rating": 0.873,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": 0.402,
+    "active_rating": 0.391,
     "active_season_id": "s21_rivals",
     "n_seasons": 1,
-    "n_snapshots": 95,
+    "n_snapshots": 96,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.484,
+      "rating_at_end": 0.501,
       "partner": "",
       "team": "",
       "forced_exit": false
@@ -35,89 +35,94 @@
   ],
   "timeline": [
     {
-      "ranking_id": 253,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.863
-    },
-    {
-      "ranking_id": 254,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.676
-    },
-    {
-      "ranking_id": 255,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.676
-    },
-    {
-      "ranking_id": 256,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.676
-    },
-    {
-      "ranking_id": 257,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.676
-    },
-    {
-      "ranking_id": 258,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.68
-    },
-    {
-      "ranking_id": 259,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.68
-    },
-    {
-      "ranking_id": 260,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.658
-    },
-    {
-      "ranking_id": 261,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.658
-    },
-    {
-      "ranking_id": 262,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.657
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.657
-    },
-    {
-      "ranking_id": 264,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.661
-    },
-    {
-      "ranking_id": 265,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.621
-    },
-    {
-      "ranking_id": 266,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.623
-    },
-    {
       "ranking_id": 267,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.622
+      "rating": 0.873
     },
     {
       "ranking_id": 268,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.599
+      "rating": 0.69
     },
     {
       "ranking_id": 269,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.484
+      "rating": 0.69
+    },
+    {
+      "ranking_id": 270,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.664
+    },
+    {
+      "ranking_id": 271,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.664
+    },
+    {
+      "ranking_id": 272,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.664
+    },
+    {
+      "ranking_id": 273,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.664
+    },
+    {
+      "ranking_id": 274,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.674
+    },
+    {
+      "ranking_id": 275,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.657
+    },
+    {
+      "ranking_id": 276,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.657
+    },
+    {
+      "ranking_id": 277,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.657
+    },
+    {
+      "ranking_id": 278,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.657
+    },
+    {
+      "ranking_id": 279,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.661
+    },
+    {
+      "ranking_id": 280,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.625
+    },
+    {
+      "ranking_id": 281,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.626
+    },
+    {
+      "ranking_id": 282,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.624
+    },
+    {
+      "ranking_id": 283,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.621
+    },
+    {
+      "ranking_id": 284,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.501
     }
   ]
 }
