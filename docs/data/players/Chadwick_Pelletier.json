@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.351,
-    "peak_season_id": "s05_battle_of_the_seasons",
-    "active_rating": -0.418,
-    "active_season_id": "s10_the_inferno_ii",
+    "peak_rating": -0.414,
+    "peak_season_id": "s09_battle_of_the_sexes_2",
+    "active_rating": -0.414,
+    "active_season_id": "s09_battle_of_the_sexes_2",
     "n_seasons": 1,
-    "n_snapshots": 101,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Musical Inner-Tube Tango",
       "elim_position": 2,
       "elim_total": 3,
-      "rating_at_end": -1.007,
+      "rating_at_end": -0.81,
       "partner": "Piggy Thomas",
       "partners_history": [],
       "team": "",
@@ -36,64 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 7,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.351
-    },
-    {
-      "ranking_id": 9,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.562
-    },
-    {
-      "ranking_id": 13,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.47
-    },
-    {
-      "ranking_id": 16,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.47
-    },
-    {
-      "ranking_id": 17,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.414
-    },
-    {
-      "ranking_id": 21,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.414
-    },
-    {
-      "ranking_id": 24,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.673
-    },
-    {
-      "ranking_id": 34,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.89
-    },
-    {
-      "ranking_id": 35,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.89
-    },
-    {
-      "ranking_id": 37,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.89
-    },
-    {
-      "ranking_id": 40,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.979
-    },
-    {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -1.007
+      "rating": -0.81
     }
   ]
 }

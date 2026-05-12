@@ -3,13 +3,13 @@
   "safe_name": "Bettina_Buchanan",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.931,
-    "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": -0.036,
-    "active_season_id": "s40_battle_of_the_eras",
+    "era_rating": 0.2,
+    "peak_rating": 0.279,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": 0.232,
+    "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 1,
-    "n_snapshots": 87,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "500",
       "elim_position": 9,
       "elim_total": 11,
-      "rating_at_end": 0.368,
+      "rating_at_end": 0.195,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,114 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 812,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.023
-    },
-    {
-      "ranking_id": 813,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.1
-    },
-    {
-      "ranking_id": 814,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.296
-    },
-    {
-      "ranking_id": 815,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.296
-    },
-    {
-      "ranking_id": 817,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.428
-    },
-    {
-      "ranking_id": 818,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.392
-    },
-    {
-      "ranking_id": 819,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.372
-    },
-    {
-      "ranking_id": 820,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.372
-    },
-    {
-      "ranking_id": 821,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.382
-    },
-    {
-      "ranking_id": 823,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.924
-    },
-    {
-      "ranking_id": 826,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.931
-    },
-    {
-      "ranking_id": 827,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.796
-    },
-    {
-      "ranking_id": 828,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.834
-    },
-    {
-      "ranking_id": 829,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.676
-    },
-    {
-      "ranking_id": 830,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.676
-    },
-    {
-      "ranking_id": 831,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.679
-    },
-    {
-      "ranking_id": 832,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.708
-    },
-    {
-      "ranking_id": 833,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.635
-    },
-    {
-      "ranking_id": 834,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.647
-    },
-    {
-      "ranking_id": 835,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.635
-    },
-    {
-      "ranking_id": 836,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.657
-    },
-    {
       "ranking_id": 837,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.368
+      "rating": 0.195
     }
   ]
 }

@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.271,
-    "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.487,
-    "active_season_id": "s23_battle_of_the_seasons_2012",
+    "peak_rating": -0.26,
+    "peak_season_id": "s22_battle_of_the_exes",
+    "active_rating": -0.26,
+    "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 3,
-    "n_snapshots": 148,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Karma's a Bitch",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.387,
+      "rating_at_end": -0.428,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -44,7 +44,7 @@
       "finish_episode": "The Booby Trap",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.833,
+      "rating_at_end": -0.704,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -61,7 +61,7 @@
       "finish_episode": "Duel Unto Others",
       "elim_position": 7,
       "elim_total": 9,
-      "rating_at_end": -0.921,
+      "rating_at_end": -0.808,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,269 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 268,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.892
-    },
-    {
-      "ranking_id": 269,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.892
-    },
-    {
-      "ranking_id": 270,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.935
-    },
-    {
-      "ranking_id": 271,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.935
-    },
-    {
-      "ranking_id": 272,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.935
-    },
-    {
-      "ranking_id": 273,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.935
-    },
-    {
-      "ranking_id": 274,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.918
-    },
-    {
-      "ranking_id": 275,
-      "season_id": "s17_the_duel_ii",
-      "rating": -1.041
-    },
-    {
-      "ranking_id": 276,
-      "season_id": "s17_the_duel_ii",
-      "rating": -1.041
-    },
-    {
-      "ranking_id": 277,
-      "season_id": "s17_the_duel_ii",
-      "rating": -1.041
-    },
-    {
-      "ranking_id": 278,
-      "season_id": "s17_the_duel_ii",
-      "rating": -1.041
-    },
-    {
-      "ranking_id": 279,
-      "season_id": "s17_the_duel_ii",
-      "rating": -1.047
-    },
-    {
-      "ranking_id": 280,
-      "season_id": "s17_the_duel_ii",
-      "rating": -1.053
-    },
-    {
-      "ranking_id": 281,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.992
-    },
-    {
-      "ranking_id": 282,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.988
-    },
-    {
-      "ranking_id": 283,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.882
-    },
-    {
       "ranking_id": 284,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.921
-    },
-    {
-      "ranking_id": 285,
-      "season_id": "s18_the_ruins",
-      "rating": -0.921
-    },
-    {
-      "ranking_id": 286,
-      "season_id": "s18_the_ruins",
-      "rating": -0.921
-    },
-    {
-      "ranking_id": 287,
-      "season_id": "s18_the_ruins",
-      "rating": -0.868
-    },
-    {
-      "ranking_id": 288,
-      "season_id": "s18_the_ruins",
-      "rating": -0.891
-    },
-    {
-      "ranking_id": 289,
-      "season_id": "s18_the_ruins",
-      "rating": -0.891
-    },
-    {
-      "ranking_id": 290,
-      "season_id": "s18_the_ruins",
-      "rating": -0.889
-    },
-    {
-      "ranking_id": 291,
-      "season_id": "s18_the_ruins",
-      "rating": -0.882
-    },
-    {
-      "ranking_id": 292,
-      "season_id": "s18_the_ruins",
-      "rating": -0.885
-    },
-    {
-      "ranking_id": 293,
-      "season_id": "s18_the_ruins",
-      "rating": -0.881
-    },
-    {
-      "ranking_id": 294,
-      "season_id": "s18_the_ruins",
-      "rating": -0.905
-    },
-    {
-      "ranking_id": 295,
-      "season_id": "s18_the_ruins",
-      "rating": -0.89
-    },
-    {
-      "ranking_id": 296,
-      "season_id": "s18_the_ruins",
-      "rating": -0.89
-    },
-    {
-      "ranking_id": 297,
-      "season_id": "s18_the_ruins",
-      "rating": -0.891
-    },
-    {
-      "ranking_id": 298,
-      "season_id": "s18_the_ruins",
-      "rating": -0.889
-    },
-    {
-      "ranking_id": 299,
-      "season_id": "s18_the_ruins",
-      "rating": -0.891
-    },
-    {
-      "ranking_id": 300,
-      "season_id": "s18_the_ruins",
-      "rating": -0.891
-    },
-    {
-      "ranking_id": 301,
-      "season_id": "s18_the_ruins",
-      "rating": -0.894
+      "rating": -0.808
     },
     {
       "ranking_id": 302,
       "season_id": "s18_the_ruins",
-      "rating": -0.833
-    },
-    {
-      "ranking_id": 336,
-      "season_id": "s20_cutthroat",
-      "rating": -0.714
-    },
-    {
-      "ranking_id": 337,
-      "season_id": "s20_cutthroat",
-      "rating": -0.696
-    },
-    {
-      "ranking_id": 338,
-      "season_id": "s20_cutthroat",
-      "rating": -0.692
-    },
-    {
-      "ranking_id": 339,
-      "season_id": "s20_cutthroat",
-      "rating": -0.587
-    },
-    {
-      "ranking_id": 340,
-      "season_id": "s20_cutthroat",
-      "rating": -0.562
-    },
-    {
-      "ranking_id": 341,
-      "season_id": "s20_cutthroat",
-      "rating": -0.635
-    },
-    {
-      "ranking_id": 342,
-      "season_id": "s20_cutthroat",
-      "rating": -0.701
-    },
-    {
-      "ranking_id": 343,
-      "season_id": "s20_cutthroat",
-      "rating": -0.672
-    },
-    {
-      "ranking_id": 344,
-      "season_id": "s20_cutthroat",
-      "rating": -0.672
-    },
-    {
-      "ranking_id": 345,
-      "season_id": "s20_cutthroat",
-      "rating": -0.672
-    },
-    {
-      "ranking_id": 346,
-      "season_id": "s20_cutthroat",
-      "rating": -0.675
-    },
-    {
-      "ranking_id": 347,
-      "season_id": "s20_cutthroat",
-      "rating": -0.326
-    },
-    {
-      "ranking_id": 348,
-      "season_id": "s20_cutthroat",
-      "rating": -0.326
-    },
-    {
-      "ranking_id": 349,
-      "season_id": "s20_cutthroat",
-      "rating": -0.386
-    },
-    {
-      "ranking_id": 350,
-      "season_id": "s20_cutthroat",
-      "rating": -0.383
-    },
-    {
-      "ranking_id": 351,
-      "season_id": "s20_cutthroat",
-      "rating": -0.368
-    },
-    {
-      "ranking_id": 353,
-      "season_id": "s20_cutthroat",
-      "rating": -0.367
+      "rating": -0.704
     },
     {
       "ranking_id": 354,
       "season_id": "s20_cutthroat",
-      "rating": -0.387
+      "rating": -0.428
     }
   ]
 }

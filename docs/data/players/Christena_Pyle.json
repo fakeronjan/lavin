@@ -3,13 +3,13 @@
   "safe_name": "Christena_Pyle",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.841,
+    "era_rating": 0.4,
+    "peak_rating": 0.597,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": 0.639,
-    "active_season_id": "s12_fresh_meat",
+    "active_rating": 0.464,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 81,
+    "n_snapshots": 4,
     "championships": 1,
     "elim_wins": 2,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.625,
+      "rating_at_end": 0.411,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -36,59 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 78,
-      "season_id": "s08_the_inferno",
-      "rating": 0.437
-    },
-    {
-      "ranking_id": 79,
-      "season_id": "s08_the_inferno",
-      "rating": 0.597
-    },
-    {
-      "ranking_id": 80,
-      "season_id": "s08_the_inferno",
-      "rating": 0.597
-    },
-    {
-      "ranking_id": 81,
-      "season_id": "s08_the_inferno",
-      "rating": 0.519
-    },
-    {
-      "ranking_id": 82,
-      "season_id": "s08_the_inferno",
-      "rating": 0.483
-    },
-    {
-      "ranking_id": 83,
-      "season_id": "s08_the_inferno",
-      "rating": 0.458
-    },
-    {
-      "ranking_id": 84,
-      "season_id": "s08_the_inferno",
-      "rating": 0.458
-    },
-    {
-      "ranking_id": 85,
-      "season_id": "s08_the_inferno",
-      "rating": 0.371
-    },
-    {
-      "ranking_id": 86,
-      "season_id": "s08_the_inferno",
-      "rating": 0.345
-    },
-    {
-      "ranking_id": 87,
-      "season_id": "s08_the_inferno",
-      "rating": 0.312
-    },
-    {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.625
+      "rating": 0.411
     }
   ]
 }

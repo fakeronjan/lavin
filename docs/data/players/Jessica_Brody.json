@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.013,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.046,
+    "peak_rating": -0.22,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.22,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 1,
-    "n_snapshots": 68,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 1,
       "elim_total": 5,
-      "rating_at_end": -0.291,
+      "rating_at_end": -0.358,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,74 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 884,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.013
-    },
-    {
-      "ranking_id": 885,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 886,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.045
-    },
-    {
-      "ranking_id": 887,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.033
-    },
-    {
-      "ranking_id": 888,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.129
-    },
-    {
-      "ranking_id": 889,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.127
-    },
-    {
-      "ranking_id": 890,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.121
-    },
-    {
-      "ranking_id": 891,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.121
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.146
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.124
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.139
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.154
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.153
-    },
-    {
       "ranking_id": 898,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.291
+      "rating": -0.358
     }
   ]
 }

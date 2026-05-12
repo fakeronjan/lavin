@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.9,
-    "peak_rating": 1.423,
-    "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.347,
+    "peak_rating": 0.749,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": 0.689,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
-    "n_snapshots": 126,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.331,
+      "rating_at_end": 0.519,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Messy",
       "elim_position": 3,
       "elim_total": 11,
-      "rating_at_end": 0.562,
+      "rating_at_end": 0.338,
       "partner": "",
       "partners_history": [
         "Michele Fitzgerald",
@@ -57,209 +57,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 804,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.085
-    },
-    {
-      "ranking_id": 805,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.423
-    },
-    {
-      "ranking_id": 806,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.423
-    },
-    {
-      "ranking_id": 808,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.385
-    },
-    {
-      "ranking_id": 811,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.393
-    },
-    {
-      "ranking_id": 812,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.297
-    },
-    {
-      "ranking_id": 813,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.287
-    },
-    {
-      "ranking_id": 814,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.287
-    },
-    {
-      "ranking_id": 815,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.101
-    },
-    {
-      "ranking_id": 817,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.137
-    },
-    {
-      "ranking_id": 818,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.067
-    },
-    {
-      "ranking_id": 819,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 1.06
-    },
-    {
-      "ranking_id": 820,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.992
-    },
-    {
-      "ranking_id": 821,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.993
-    },
-    {
-      "ranking_id": 823,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.966
-    },
-    {
-      "ranking_id": 826,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.878
-    },
-    {
-      "ranking_id": 827,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.892
-    },
-    {
-      "ranking_id": 828,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.833
-    },
-    {
-      "ranking_id": 829,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.84
-    },
-    {
-      "ranking_id": 830,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.868
-    },
-    {
-      "ranking_id": 831,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.868
-    },
-    {
-      "ranking_id": 832,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.857
-    },
-    {
-      "ranking_id": 833,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.857
-    },
-    {
-      "ranking_id": 834,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.884
-    },
-    {
-      "ranking_id": 835,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.886
-    },
-    {
-      "ranking_id": 836,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.867
-    },
-    {
       "ranking_id": 837,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.562
-    },
-    {
-      "ranking_id": 884,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.619
-    },
-    {
-      "ranking_id": 885,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.563
-    },
-    {
-      "ranking_id": 886,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.633
-    },
-    {
-      "ranking_id": 887,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.702
-    },
-    {
-      "ranking_id": 888,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.707
-    },
-    {
-      "ranking_id": 889,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.684
-    },
-    {
-      "ranking_id": 890,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.668
-    },
-    {
-      "ranking_id": 891,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.636
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.543
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.4
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.356
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.356
+      "rating": 0.338
     },
     {
       "ranking_id": 898,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.331
+      "rating": 0.519
     }
   ]
 }

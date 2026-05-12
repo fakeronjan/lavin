@@ -3,13 +3,13 @@
   "safe_name": "Morgan_Willett",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 1.257,
+    "era_rating": 0.5,
+    "peak_rating": 0.502,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.535,
-    "active_season_id": "s36_double_agents",
+    "active_rating": 0.413,
+    "active_season_id": "s35_total_madness",
     "n_seasons": 1,
-    "n_snapshots": 66,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Casualties of War",
       "elim_position": 3,
       "elim_total": 10,
-      "rating_at_end": 0.747,
+      "rating_at_end": 0.502,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -36,99 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 706,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.908
-    },
-    {
-      "ranking_id": 708,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.033
-    },
-    {
-      "ranking_id": 710,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.05
-    },
-    {
-      "ranking_id": 714,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.229
-    },
-    {
-      "ranking_id": 715,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.17
-    },
-    {
-      "ranking_id": 719,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.235
-    },
-    {
-      "ranking_id": 721,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.248
-    },
-    {
-      "ranking_id": 723,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.257
-    },
-    {
-      "ranking_id": 727,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.226
-    },
-    {
-      "ranking_id": 730,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.2
-    },
-    {
-      "ranking_id": 731,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.202
-    },
-    {
-      "ranking_id": 733,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.149
-    },
-    {
-      "ranking_id": 735,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.142
-    },
-    {
-      "ranking_id": 736,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.144
-    },
-    {
-      "ranking_id": 737,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.116
-    },
-    {
-      "ranking_id": 738,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.04
-    },
-    {
-      "ranking_id": 739,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.042
-    },
-    {
-      "ranking_id": 742,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 1.028
-    },
-    {
       "ranking_id": 743,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.747
+      "rating": 0.502
     }
   ]
 }

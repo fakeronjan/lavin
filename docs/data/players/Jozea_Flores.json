@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 1.178,
+    "peak_rating": 0.239,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.392,
-    "active_season_id": "s35_total_madness",
+    "active_rating": -0.009,
+    "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 1,
-    "n_snapshots": 67,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 4,
@@ -27,7 +27,7 @@
       "finish_episode": "Wheel of Fortune",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": 0.243,
+      "rating_at_end": 0.239,
       "partner": "Da'Vonne Rogers",
       "partners_history": [],
       "team": "",
@@ -36,94 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 675,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.831
-    },
-    {
-      "ranking_id": 677,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.831
-    },
-    {
-      "ranking_id": 679,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.835
-    },
-    {
-      "ranking_id": 680,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.885
-    },
-    {
-      "ranking_id": 681,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.889
-    },
-    {
-      "ranking_id": 682,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.89
-    },
-    {
-      "ranking_id": 683,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.077
-    },
-    {
-      "ranking_id": 684,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.071
-    },
-    {
-      "ranking_id": 686,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.06
-    },
-    {
-      "ranking_id": 687,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.063
-    },
-    {
-      "ranking_id": 691,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.167
-    },
-    {
-      "ranking_id": 692,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.178
-    },
-    {
-      "ranking_id": 695,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.156
-    },
-    {
-      "ranking_id": 697,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.154
-    },
-    {
-      "ranking_id": 698,
-      "season_id": "s32_final_reckoning",
-      "rating": 1.154
-    },
-    {
-      "ranking_id": 699,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.993
-    },
-    {
-      "ranking_id": 702,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.32
-    },
-    {
       "ranking_id": 703,
       "season_id": "s32_final_reckoning",
-      "rating": 0.243
+      "rating": 0.239
     }
   ]
 }

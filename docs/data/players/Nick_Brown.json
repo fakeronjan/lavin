@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.166,
+    "peak_rating": -0.169,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.789,
-    "active_season_id": "s21_rivals",
+    "active_rating": -0.528,
+    "active_season_id": "s20_cutthroat",
     "n_seasons": 2,
-    "n_snapshots": 100,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "The Booby Trap",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.378,
+      "rating_at_end": -0.332,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -44,7 +44,7 @@
       "finish_episode": "Damned if You Duel...",
       "elim_position": 1,
       "elim_total": 10,
-      "rating_at_end": -0.276,
+      "rating_at_end": -0.169,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,194 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 265,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.197
-    },
-    {
-      "ranking_id": 266,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.197
-    },
-    {
-      "ranking_id": 267,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.197
-    },
-    {
-      "ranking_id": 268,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.197
-    },
-    {
-      "ranking_id": 269,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.183
-    },
-    {
-      "ranking_id": 270,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.166
-    },
-    {
-      "ranking_id": 271,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.168
-    },
-    {
-      "ranking_id": 272,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.174
-    },
-    {
-      "ranking_id": 273,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.185
-    },
-    {
-      "ranking_id": 274,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.192
-    },
-    {
-      "ranking_id": 275,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.192
-    },
-    {
-      "ranking_id": 276,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.216
-    },
-    {
-      "ranking_id": 277,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.21
-    },
-    {
-      "ranking_id": 278,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 279,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 280,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 281,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 282,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.184
-    },
-    {
-      "ranking_id": 283,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.184
-    },
-    {
       "ranking_id": 284,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.276
-    },
-    {
-      "ranking_id": 285,
-      "season_id": "s18_the_ruins",
-      "rating": -0.267
-    },
-    {
-      "ranking_id": 286,
-      "season_id": "s18_the_ruins",
-      "rating": -0.235
-    },
-    {
-      "ranking_id": 287,
-      "season_id": "s18_the_ruins",
-      "rating": -0.235
-    },
-    {
-      "ranking_id": 288,
-      "season_id": "s18_the_ruins",
-      "rating": -0.235
-    },
-    {
-      "ranking_id": 289,
-      "season_id": "s18_the_ruins",
-      "rating": -0.31
-    },
-    {
-      "ranking_id": 290,
-      "season_id": "s18_the_ruins",
-      "rating": -0.301
-    },
-    {
-      "ranking_id": 291,
-      "season_id": "s18_the_ruins",
-      "rating": -0.301
-    },
-    {
-      "ranking_id": 292,
-      "season_id": "s18_the_ruins",
-      "rating": -0.306
-    },
-    {
-      "ranking_id": 293,
-      "season_id": "s18_the_ruins",
-      "rating": -0.306
-    },
-    {
-      "ranking_id": 294,
-      "season_id": "s18_the_ruins",
-      "rating": -0.3
-    },
-    {
-      "ranking_id": 295,
-      "season_id": "s18_the_ruins",
-      "rating": -0.3
-    },
-    {
-      "ranking_id": 296,
-      "season_id": "s18_the_ruins",
-      "rating": -0.32
-    },
-    {
-      "ranking_id": 297,
-      "season_id": "s18_the_ruins",
-      "rating": -0.32
-    },
-    {
-      "ranking_id": 298,
-      "season_id": "s18_the_ruins",
-      "rating": -0.31
-    },
-    {
-      "ranking_id": 299,
-      "season_id": "s18_the_ruins",
-      "rating": -0.31
-    },
-    {
-      "ranking_id": 300,
-      "season_id": "s18_the_ruins",
-      "rating": -0.315
-    },
-    {
-      "ranking_id": 301,
-      "season_id": "s18_the_ruins",
-      "rating": -0.315
+      "rating": -0.169
     },
     {
       "ranking_id": 302,
       "season_id": "s18_the_ruins",
-      "rating": -0.378
+      "rating": -0.332
     }
   ]
 }

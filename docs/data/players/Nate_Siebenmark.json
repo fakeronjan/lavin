@@ -3,13 +3,13 @@
   "safe_name": "Nate_Siebenmark",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.719,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": 0.165,
-    "active_season_id": "s32_final_reckoning",
+    "era_rating": 0.2,
+    "peak_rating": 0.243,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.243,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 1,
-    "n_snapshots": 77,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Rivals: Civil War",
       "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": 0.253,
+      "rating_at_end": 0.239,
       "partner": "Christina LeBlanc",
       "partners_history": [],
       "team": "",
@@ -36,74 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 589,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.255
-    },
-    {
-      "ranking_id": 590,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.313
-    },
-    {
-      "ranking_id": 591,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.313
-    },
-    {
-      "ranking_id": 593,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.638
-    },
-    {
-      "ranking_id": 594,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.638
-    },
-    {
-      "ranking_id": 595,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.583
-    },
-    {
-      "ranking_id": 597,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.169
-    },
-    {
-      "ranking_id": 600,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.647
-    },
-    {
-      "ranking_id": 601,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.719
-    },
-    {
-      "ranking_id": 604,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.41
-    },
-    {
-      "ranking_id": 605,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.404
-    },
-    {
-      "ranking_id": 606,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.362
-    },
-    {
-      "ranking_id": 607,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.352
-    },
-    {
       "ranking_id": 609,
       "season_id": "s28_rivals_iii",
-      "rating": 0.253
+      "rating": 0.239
     }
   ]
 }

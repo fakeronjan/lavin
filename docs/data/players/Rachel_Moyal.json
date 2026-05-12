@@ -3,13 +3,13 @@
   "safe_name": "Rachel_Moyal",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.969,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.895,
-    "active_season_id": "s20_cutthroat",
+    "era_rating": 0.3,
+    "peak_rating": 0.736,
+    "peak_season_id": "s19_fresh_meat_ii",
+    "active_rating": 0.736,
+    "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 2,
-    "n_snapshots": 100,
+    "n_snapshots": 6,
     "championships": 1,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.48,
+      "rating_at_end": 0.271,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -44,7 +44,7 @@
       "finish_episode": "Playing The Game",
       "elim_position": 2,
       "elim_total": 4,
-      "rating_at_end": -1.004,
+      "rating_at_end": -0.903,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -53,144 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 232,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.076
-    },
-    {
-      "ranking_id": 233,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.076
-    },
-    {
-      "ranking_id": 234,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.064
-    },
-    {
-      "ranking_id": 235,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.134
-    },
-    {
-      "ranking_id": 236,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.183
-    },
-    {
-      "ranking_id": 237,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.425
-    },
-    {
-      "ranking_id": 238,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.425
-    },
-    {
-      "ranking_id": 239,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.459
-    },
-    {
-      "ranking_id": 240,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.516
-    },
-    {
-      "ranking_id": 241,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.515
-    },
-    {
-      "ranking_id": 242,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.515
-    },
-    {
-      "ranking_id": 243,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.48
-    },
-    {
       "ranking_id": 244,
       "season_id": "s14_the_inferno_3",
-      "rating": -1.004
-    },
-    {
-      "ranking_id": 245,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.959
-    },
-    {
-      "ranking_id": 246,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.956
-    },
-    {
-      "ranking_id": 247,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.922
-    },
-    {
-      "ranking_id": 248,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.938
-    },
-    {
-      "ranking_id": 249,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.5
-    },
-    {
-      "ranking_id": 250,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.485
-    },
-    {
-      "ranking_id": 251,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.478
-    },
-    {
-      "ranking_id": 252,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.477
-    },
-    {
-      "ranking_id": 253,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.477
-    },
-    {
-      "ranking_id": 254,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.477
-    },
-    {
-      "ranking_id": 255,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.477
-    },
-    {
-      "ranking_id": 256,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.48
-    },
-    {
-      "ranking_id": 257,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.48
-    },
-    {
-      "ranking_id": 258,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.48
+      "rating": -0.903
     },
     {
       "ranking_id": 259,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.48
+      "rating": 0.271
     }
   ]
 }

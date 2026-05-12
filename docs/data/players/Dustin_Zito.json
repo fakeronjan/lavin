@@ -3,13 +3,13 @@
   "safe_name": "Dustin_Zito",
   "gender": "M",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.535,
-    "peak_season_id": "s24_rivals_ii",
-    "active_rating": 0.046,
-    "active_season_id": "s29_invasion_of_the_champions",
+    "era_rating": 0.7,
+    "peak_rating": 0.376,
+    "peak_season_id": "s25_free_agents",
+    "active_rating": -0.193,
+    "active_season_id": "s28_rivals_iii",
     "n_seasons": 4,
-    "n_snapshots": 168,
+    "n_snapshots": 7,
     "championships": 0,
     "elim_wins": 6,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Where Is the Love?",
       "elim_position": 1,
       "elim_total": 9,
-      "rating_at_end": 0.229,
+      "rating_at_end": 0.051,
       "partner": "Jessica McCain",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Love in the Fast Lane",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.291,
+      "rating_at_end": 0.376,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Operation Desert Scorn",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.248,
+      "rating_at_end": 0.275,
       "partner": "Trishelle Cannatella",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -81,7 +81,7 @@
       "finish_episode": "Where Did Our Love Go?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.736,
+      "rating_at_end": -0.768,
       "partner": "Heather Marter",
       "partners_history": [],
       "team": "",
@@ -90,479 +90,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 396,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.875
-    },
-    {
-      "ranking_id": 397,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.877
-    },
-    {
-      "ranking_id": 398,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.885
-    },
-    {
-      "ranking_id": 400,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.953
-    },
-    {
-      "ranking_id": 402,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.935
-    },
-    {
-      "ranking_id": 404,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.958
-    },
-    {
-      "ranking_id": 405,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.93
-    },
-    {
-      "ranking_id": 406,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.913
-    },
-    {
-      "ranking_id": 408,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.838
-    },
-    {
-      "ranking_id": 410,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.808
-    },
-    {
-      "ranking_id": 411,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.808
-    },
-    {
-      "ranking_id": 412,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.751
-    },
-    {
-      "ranking_id": 413,
+      "ranking_id": 420,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.768
     },
     {
-      "ranking_id": 414,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.759
-    },
-    {
-      "ranking_id": 416,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.728
-    },
-    {
-      "ranking_id": 417,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.736
-    },
-    {
-      "ranking_id": 418,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.742
-    },
-    {
-      "ranking_id": 420,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.736
-    },
-    {
-      "ranking_id": 421,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.597
-    },
-    {
-      "ranking_id": 424,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.638
-    },
-    {
-      "ranking_id": 425,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.633
-    },
-    {
-      "ranking_id": 426,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.616
-    },
-    {
-      "ranking_id": 427,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.583
-    },
-    {
-      "ranking_id": 429,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.576
-    },
-    {
-      "ranking_id": 432,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.549
-    },
-    {
-      "ranking_id": 433,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.571
-    },
-    {
-      "ranking_id": 436,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.572
-    },
-    {
-      "ranking_id": 437,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.607
-    },
-    {
-      "ranking_id": 438,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.605
-    },
-    {
-      "ranking_id": 439,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.605
-    },
-    {
-      "ranking_id": 441,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.34
-    },
-    {
-      "ranking_id": 442,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.146
-    },
-    {
-      "ranking_id": 443,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.146
-    },
-    {
-      "ranking_id": 445,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.148
-    },
-    {
-      "ranking_id": 448,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.148
-    },
-    {
-      "ranking_id": 449,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.179
-    },
-    {
-      "ranking_id": 450,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.178
-    },
-    {
-      "ranking_id": 451,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.178
-    },
-    {
-      "ranking_id": 453,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.23
-    },
-    {
-      "ranking_id": 454,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.23
-    },
-    {
-      "ranking_id": 455,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.23
-    },
-    {
-      "ranking_id": 457,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.126
-    },
-    {
-      "ranking_id": 458,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 459,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.034
-    },
-    {
-      "ranking_id": 461,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.016
-    },
-    {
-      "ranking_id": 462,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.016
-    },
-    {
-      "ranking_id": 463,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.016
-    },
-    {
       "ranking_id": 465,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.248
-    },
-    {
-      "ranking_id": 503,
-      "season_id": "s25_free_agents",
-      "rating": 0.356
-    },
-    {
-      "ranking_id": 504,
-      "season_id": "s25_free_agents",
-      "rating": 0.356
-    },
-    {
-      "ranking_id": 505,
-      "season_id": "s25_free_agents",
-      "rating": 0.356
-    },
-    {
-      "ranking_id": 506,
-      "season_id": "s25_free_agents",
-      "rating": 0.377
-    },
-    {
-      "ranking_id": 507,
-      "season_id": "s25_free_agents",
-      "rating": 0.349
-    },
-    {
-      "ranking_id": 508,
-      "season_id": "s25_free_agents",
-      "rating": 0.354
-    },
-    {
-      "ranking_id": 509,
-      "season_id": "s25_free_agents",
-      "rating": 0.3
-    },
-    {
-      "ranking_id": 510,
-      "season_id": "s25_free_agents",
-      "rating": 0.287
-    },
-    {
-      "ranking_id": 511,
-      "season_id": "s25_free_agents",
-      "rating": 0.277
-    },
-    {
-      "ranking_id": 512,
-      "season_id": "s25_free_agents",
-      "rating": 0.277
-    },
-    {
-      "ranking_id": 513,
-      "season_id": "s25_free_agents",
-      "rating": 0.277
-    },
-    {
-      "ranking_id": 514,
-      "season_id": "s25_free_agents",
-      "rating": 0.357
-    },
-    {
-      "ranking_id": 516,
-      "season_id": "s25_free_agents",
-      "rating": 0.395
-    },
-    {
-      "ranking_id": 517,
-      "season_id": "s25_free_agents",
-      "rating": 0.385
-    },
-    {
-      "ranking_id": 518,
-      "season_id": "s25_free_agents",
-      "rating": 0.377
-    },
-    {
-      "ranking_id": 519,
-      "season_id": "s25_free_agents",
-      "rating": 0.383
-    },
-    {
-      "ranking_id": 520,
-      "season_id": "s25_free_agents",
-      "rating": 0.381
-    },
-    {
-      "ranking_id": 521,
-      "season_id": "s25_free_agents",
-      "rating": 0.381
-    },
-    {
-      "ranking_id": 522,
-      "season_id": "s25_free_agents",
-      "rating": 0.37
-    },
-    {
-      "ranking_id": 524,
-      "season_id": "s25_free_agents",
-      "rating": 0.384
+      "rating": 0.275
     },
     {
       "ranking_id": 525,
       "season_id": "s25_free_agents",
-      "rating": 0.291
-    },
-    {
-      "ranking_id": 526,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.308
-    },
-    {
-      "ranking_id": 529,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.303
-    },
-    {
-      "ranking_id": 530,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.258
-    },
-    {
-      "ranking_id": 533,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.23
-    },
-    {
-      "ranking_id": 534,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.212
-    },
-    {
-      "ranking_id": 537,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.227
-    },
-    {
-      "ranking_id": 538,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.22
-    },
-    {
-      "ranking_id": 539,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.24
-    },
-    {
-      "ranking_id": 540,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.24
-    },
-    {
-      "ranking_id": 542,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.241
-    },
-    {
-      "ranking_id": 545,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.268
-    },
-    {
-      "ranking_id": 546,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.268
-    },
-    {
-      "ranking_id": 547,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.26
-    },
-    {
-      "ranking_id": 548,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.24
-    },
-    {
-      "ranking_id": 550,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.239
-    },
-    {
-      "ranking_id": 551,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.27
-    },
-    {
-      "ranking_id": 552,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.27
-    },
-    {
-      "ranking_id": 554,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.283
-    },
-    {
-      "ranking_id": 555,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.366
-    },
-    {
-      "ranking_id": 556,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.365
-    },
-    {
-      "ranking_id": 558,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.338
-    },
-    {
-      "ranking_id": 559,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.325
-    },
-    {
-      "ranking_id": 560,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.332
-    },
-    {
-      "ranking_id": 562,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.339
-    },
-    {
-      "ranking_id": 565,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.333
+      "rating": 0.376
     },
     {
       "ranking_id": 566,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.229
+      "rating": 0.051
     }
   ]
 }

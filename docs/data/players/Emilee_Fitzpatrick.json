@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.117,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.117,
-    "active_season_id": "s28_rivals_iii",
+    "peak_rating": -0.285,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.285,
+    "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 2,
-    "n_snapshots": 149,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Love in the Fast Lane",
       "elim_position": 1,
       "elim_total": 10,
-      "rating_at_end": -0.408,
+      "rating_at_end": -0.416,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Czech Yourself Before You Wreck Yourself",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -1.108,
+      "rating_at_end": -0.976,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -53,159 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 343,
-      "season_id": "s20_cutthroat",
-      "rating": -1.023
-    },
-    {
-      "ranking_id": 344,
-      "season_id": "s20_cutthroat",
-      "rating": -1.023
-    },
-    {
-      "ranking_id": 345,
-      "season_id": "s20_cutthroat",
-      "rating": -1.452
-    },
-    {
-      "ranking_id": 346,
-      "season_id": "s20_cutthroat",
-      "rating": -1.45
-    },
-    {
-      "ranking_id": 347,
-      "season_id": "s20_cutthroat",
-      "rating": -1.509
-    },
-    {
-      "ranking_id": 348,
-      "season_id": "s20_cutthroat",
-      "rating": -1.509
-    },
-    {
-      "ranking_id": 349,
-      "season_id": "s20_cutthroat",
-      "rating": -0.848
-    },
-    {
-      "ranking_id": 350,
-      "season_id": "s20_cutthroat",
-      "rating": -0.844
-    },
-    {
-      "ranking_id": 351,
-      "season_id": "s20_cutthroat",
-      "rating": -1.024
-    },
-    {
-      "ranking_id": 353,
-      "season_id": "s20_cutthroat",
-      "rating": -1.025
-    },
-    {
       "ranking_id": 354,
       "season_id": "s20_cutthroat",
-      "rating": -1.108
-    },
-    {
-      "ranking_id": 504,
-      "season_id": "s25_free_agents",
-      "rating": -0.326
-    },
-    {
-      "ranking_id": 505,
-      "season_id": "s25_free_agents",
-      "rating": -0.317
-    },
-    {
-      "ranking_id": 506,
-      "season_id": "s25_free_agents",
-      "rating": -0.3
-    },
-    {
-      "ranking_id": 507,
-      "season_id": "s25_free_agents",
-      "rating": -0.301
-    },
-    {
-      "ranking_id": 508,
-      "season_id": "s25_free_agents",
-      "rating": -0.314
-    },
-    {
-      "ranking_id": 509,
-      "season_id": "s25_free_agents",
-      "rating": -0.314
-    },
-    {
-      "ranking_id": 510,
-      "season_id": "s25_free_agents",
-      "rating": -0.375
-    },
-    {
-      "ranking_id": 511,
-      "season_id": "s25_free_agents",
-      "rating": -0.354
-    },
-    {
-      "ranking_id": 512,
-      "season_id": "s25_free_agents",
-      "rating": -0.354
-    },
-    {
-      "ranking_id": 513,
-      "season_id": "s25_free_agents",
-      "rating": -0.35
-    },
-    {
-      "ranking_id": 514,
-      "season_id": "s25_free_agents",
-      "rating": -0.35
-    },
-    {
-      "ranking_id": 516,
-      "season_id": "s25_free_agents",
-      "rating": -0.333
-    },
-    {
-      "ranking_id": 517,
-      "season_id": "s25_free_agents",
-      "rating": -0.333
-    },
-    {
-      "ranking_id": 518,
-      "season_id": "s25_free_agents",
-      "rating": -0.333
-    },
-    {
-      "ranking_id": 519,
-      "season_id": "s25_free_agents",
-      "rating": -0.327
-    },
-    {
-      "ranking_id": 520,
-      "season_id": "s25_free_agents",
-      "rating": -0.327
-    },
-    {
-      "ranking_id": 521,
-      "season_id": "s25_free_agents",
-      "rating": -0.33
-    },
-    {
-      "ranking_id": 522,
-      "season_id": "s25_free_agents",
-      "rating": -0.31
-    },
-    {
-      "ranking_id": 524,
-      "season_id": "s25_free_agents",
-      "rating": -0.299
+      "rating": -0.976
     },
     {
       "ranking_id": 525,
       "season_id": "s25_free_agents",
-      "rating": -0.408
+      "rating": -0.416
     }
   ]
 }

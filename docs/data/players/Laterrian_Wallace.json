@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.149,
+    "peak_rating": -0.444,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.523,
-    "active_season_id": "s12_fresh_meat",
+    "active_rating": -0.583,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 110,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Turntable",
       "elim_position": 4,
       "elim_total": 6,
-      "rating_at_end": -0.817,
+      "rating_at_end": -0.717,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -44,7 +44,7 @@
       "finish_episode": "Dead Man's Drop",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.417,
+      "rating_at_end": -0.444,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,144 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.149
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.215
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.226
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.275
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.341
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.374
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.371
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.354
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.398
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.427
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.414
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.414
-    },
-    {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.417
-    },
-    {
-      "ranking_id": 57,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.173
-    },
-    {
-      "ranking_id": 58,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.173
-    },
-    {
-      "ranking_id": 59,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.251
-    },
-    {
-      "ranking_id": 60,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.251
-    },
-    {
-      "ranking_id": 61,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.251
-    },
-    {
-      "ranking_id": 62,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.303
-    },
-    {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.41
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.512
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.607
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.613
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.697
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.665
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.639
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.611
+      "rating": -0.444
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.817
+      "rating": -0.717
     }
   ]
 }

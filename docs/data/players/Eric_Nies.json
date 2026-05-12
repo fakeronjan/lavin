@@ -3,13 +3,13 @@
   "safe_name": "Eric_Nies",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.946,
-    "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.84,
-    "active_season_id": "s12_fresh_meat",
+    "era_rating": 0.5,
+    "peak_rating": 0.623,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": 0.623,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 126,
+    "n_snapshots": 6,
     "championships": 1,
     "elim_wins": 2,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Episode 17",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.319,
+      "rating_at_end": 0.411,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Spider Mon",
       "elim_position": 4,
       "elim_total": 4,
-      "rating_at_end": 0.121,
+      "rating_at_end": 0.04,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,209 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.149
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.215
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.226
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.275
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.341
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.624
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.548
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.489
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.187
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.16
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.127
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.127
-    },
-    {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.121
-    },
-    {
-      "ranking_id": 89,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.17
-    },
-    {
-      "ranking_id": 90,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.17
-    },
-    {
-      "ranking_id": 91,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.177
-    },
-    {
-      "ranking_id": 92,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.223
-    },
-    {
-      "ranking_id": 93,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.285
-    },
-    {
-      "ranking_id": 94,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.054
-    },
-    {
-      "ranking_id": 95,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.131
-    },
-    {
-      "ranking_id": 96,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.095
-    },
-    {
-      "ranking_id": 97,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.095
-    },
-    {
-      "ranking_id": 98,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.065
-    },
-    {
-      "ranking_id": 99,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.18
-    },
-    {
-      "ranking_id": 100,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.141
-    },
-    {
-      "ranking_id": 101,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.264
-    },
-    {
-      "ranking_id": 102,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.264
-    },
-    {
-      "ranking_id": 103,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.263
-    },
-    {
-      "ranking_id": 104,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.263
-    },
-    {
-      "ranking_id": 105,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.263
-    },
-    {
-      "ranking_id": 106,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.263
-    },
-    {
-      "ranking_id": 107,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.253
-    },
-    {
-      "ranking_id": 108,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.253
-    },
-    {
-      "ranking_id": 109,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.253
-    },
-    {
-      "ranking_id": 110,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.254
-    },
-    {
-      "ranking_id": 111,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.254
-    },
-    {
-      "ranking_id": 112,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.254
-    },
-    {
-      "ranking_id": 113,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.254
-    },
-    {
-      "ranking_id": 114,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.251
-    },
-    {
-      "ranking_id": 115,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.221
+      "rating": 0.04
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.319
+      "rating": 0.411
     }
   ]
 }

@@ -3,13 +3,13 @@
   "safe_name": "Luke_Wolfe",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.83,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.201,
-    "active_season_id": "s23_battle_of_the_seasons_2012",
+    "era_rating": 0.4,
+    "peak_rating": 0.352,
+    "peak_season_id": "s21_rivals",
+    "active_rating": 0.109,
+    "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 2,
-    "n_snapshots": 107,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 5,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.048,
+      "rating_at_end": 0.2,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -44,7 +44,7 @@
       "finish_episode": "All U Can Eat Stakes",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": 0.298,
+      "rating_at_end": 0.217,
       "partner": "Evelyn Smith",
       "partners_history": [],
       "team": "",
@@ -53,179 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.505
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.83
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.613
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.614
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.595
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.353
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.447
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.463
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.557
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.609
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.362
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.362
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.405
-    },
-    {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.298
-    },
-    {
-      "ranking_id": 336,
-      "season_id": "s20_cutthroat",
-      "rating": 0.366
-    },
-    {
-      "ranking_id": 337,
-      "season_id": "s20_cutthroat",
-      "rating": 0.34
-    },
-    {
-      "ranking_id": 338,
-      "season_id": "s20_cutthroat",
-      "rating": 0.309
-    },
-    {
-      "ranking_id": 339,
-      "season_id": "s20_cutthroat",
-      "rating": 0.309
-    },
-    {
-      "ranking_id": 340,
-      "season_id": "s20_cutthroat",
-      "rating": 0.281
-    },
-    {
-      "ranking_id": 341,
-      "season_id": "s20_cutthroat",
-      "rating": 0.281
-    },
-    {
-      "ranking_id": 342,
-      "season_id": "s20_cutthroat",
-      "rating": 0.298
-    },
-    {
-      "ranking_id": 343,
-      "season_id": "s20_cutthroat",
-      "rating": 0.29
-    },
-    {
-      "ranking_id": 344,
-      "season_id": "s20_cutthroat",
-      "rating": 0.241
-    },
-    {
-      "ranking_id": 345,
-      "season_id": "s20_cutthroat",
-      "rating": 0.249
-    },
-    {
-      "ranking_id": 346,
-      "season_id": "s20_cutthroat",
-      "rating": 0.227
-    },
-    {
-      "ranking_id": 347,
-      "season_id": "s20_cutthroat",
-      "rating": 0.261
-    },
-    {
-      "ranking_id": 348,
-      "season_id": "s20_cutthroat",
-      "rating": 0.398
-    },
-    {
-      "ranking_id": 349,
-      "season_id": "s20_cutthroat",
-      "rating": 0.415
-    },
-    {
-      "ranking_id": 350,
-      "season_id": "s20_cutthroat",
-      "rating": 0.402
-    },
-    {
-      "ranking_id": 351,
-      "season_id": "s20_cutthroat",
-      "rating": 0.414
-    },
-    {
-      "ranking_id": 353,
-      "season_id": "s20_cutthroat",
-      "rating": 0.414
+      "rating": 0.217
     },
     {
       "ranking_id": 354,
       "season_id": "s20_cutthroat",
-      "rating": 0.048
+      "rating": 0.2
     }
   ]
 }

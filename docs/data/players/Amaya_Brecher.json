@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.694,
-    "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.582,
+    "peak_rating": 0.079,
+    "peak_season_id": "s07_the_gauntlet",
+    "active_rating": -0.494,
     "active_season_id": "s10_the_inferno_ii",
     "n_seasons": 2,
-    "n_snapshots": 92,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Seven Rings of Saturn",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": 0.027,
+      "rating_at_end": -0.013,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,79 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 42,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.694
-    },
-    {
-      "ranking_id": 43,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.646
-    },
-    {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.45
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.162
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.147
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.124
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.079
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.046
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.046
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.074
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.066
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.096
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.104
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.113
-    },
-    {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.027
+      "rating": -0.013
     }
   ]
 }

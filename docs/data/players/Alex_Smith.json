@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.357,
-    "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.427,
-    "active_season_id": "s20_cutthroat",
+    "peak_rating": -0.498,
+    "peak_season_id": "s19_fresh_meat_ii",
+    "active_rating": -0.498,
+    "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 1,
-    "n_snapshots": 80,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Viva Mexico",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": -0.51,
+      "rating_at_end": -0.635,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -36,44 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 252,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.515
-    },
-    {
-      "ranking_id": 253,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.518
-    },
-    {
-      "ranking_id": 254,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.512
-    },
-    {
-      "ranking_id": 255,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.522
-    },
-    {
-      "ranking_id": 256,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.519
-    },
-    {
-      "ranking_id": 257,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.519
-    },
-    {
-      "ranking_id": 258,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.51
-    },
-    {
       "ranking_id": 259,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.51
+      "rating": -0.635
     }
   ]
 }

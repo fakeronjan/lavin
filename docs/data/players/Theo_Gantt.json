@@ -3,13 +3,13 @@
   "safe_name": "Theo_Gantt",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 1.154,
+    "era_rating": 0.3,
+    "peak_rating": 0.269,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.503,
-    "active_season_id": "s12_fresh_meat",
+    "active_rating": -0.253,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 110,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Gold Rush Part 1",
       "elim_position": 6,
       "elim_total": 6,
-      "rating_at_end": -0.012,
+      "rating_at_end": -0.189,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -44,7 +44,7 @@
       "finish_episode": "Leaky River",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.493,
+      "rating_at_end": 0.269,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,144 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.149
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.634
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 1.154
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 1.058
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.962
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.916
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.823
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.753
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.745
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.674
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.616
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.616
-    },
-    {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.493
-    },
-    {
-      "ranking_id": 57,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.729
-    },
-    {
-      "ranking_id": 58,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.729
-    },
-    {
-      "ranking_id": 59,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.633
-    },
-    {
-      "ranking_id": 60,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.633
-    },
-    {
-      "ranking_id": 61,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.633
-    },
-    {
-      "ranking_id": 62,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.564
-    },
-    {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.436
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.313
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.197
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.174
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.287
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.236
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.196
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.187
+      "rating": 0.269
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.012
+      "rating": -0.189
     }
   ]
 }

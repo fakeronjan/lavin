@@ -3,13 +3,13 @@
   "safe_name": "Michael_Ross",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.202,
-    "peak_season_id": "s21_rivals",
-    "active_rating": -0.241,
-    "active_season_id": "s24_rivals_ii",
+    "era_rating": 0.1,
+    "peak_rating": 0.257,
+    "peak_season_id": "s23_battle_of_the_seasons_2012",
+    "active_rating": 0.257,
+    "active_season_id": "s23_battle_of_the_seasons_2012",
     "n_seasons": 1,
-    "n_snapshots": 90,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.117,
+      "rating_at_end": 0.09,
       "partner": "Leroy Garrett",
       "partners_history": [],
       "team": "",
@@ -36,129 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 363,
-      "season_id": "s21_rivals",
-      "rating": -0.547
-    },
-    {
-      "ranking_id": 364,
-      "season_id": "s21_rivals",
-      "rating": -0.536
-    },
-    {
-      "ranking_id": 365,
-      "season_id": "s21_rivals",
-      "rating": -0.536
-    },
-    {
-      "ranking_id": 366,
-      "season_id": "s21_rivals",
-      "rating": -0.525
-    },
-    {
-      "ranking_id": 367,
-      "season_id": "s21_rivals",
-      "rating": -0.618
-    },
-    {
-      "ranking_id": 368,
-      "season_id": "s21_rivals",
-      "rating": -0.619
-    },
-    {
-      "ranking_id": 369,
-      "season_id": "s21_rivals",
-      "rating": -0.603
-    },
-    {
-      "ranking_id": 370,
-      "season_id": "s21_rivals",
-      "rating": -0.599
-    },
-    {
-      "ranking_id": 371,
-      "season_id": "s21_rivals",
-      "rating": -0.561
-    },
-    {
-      "ranking_id": 372,
-      "season_id": "s21_rivals",
-      "rating": -0.561
-    },
-    {
-      "ranking_id": 373,
-      "season_id": "s21_rivals",
-      "rating": -0.561
-    },
-    {
-      "ranking_id": 374,
-      "season_id": "s21_rivals",
-      "rating": -0.569
-    },
-    {
-      "ranking_id": 375,
-      "season_id": "s21_rivals",
-      "rating": -0.573
-    },
-    {
-      "ranking_id": 376,
-      "season_id": "s21_rivals",
-      "rating": -0.583
-    },
-    {
-      "ranking_id": 377,
-      "season_id": "s21_rivals",
-      "rating": -0.556
-    },
-    {
-      "ranking_id": 378,
-      "season_id": "s21_rivals",
-      "rating": -0.566
-    },
-    {
-      "ranking_id": 379,
-      "season_id": "s21_rivals",
-      "rating": -0.531
-    },
-    {
-      "ranking_id": 380,
-      "season_id": "s21_rivals",
-      "rating": -0.532
-    },
-    {
-      "ranking_id": 381,
-      "season_id": "s21_rivals",
-      "rating": -0.532
-    },
-    {
-      "ranking_id": 382,
-      "season_id": "s21_rivals",
-      "rating": -0.532
-    },
-    {
-      "ranking_id": 383,
-      "season_id": "s21_rivals",
-      "rating": 0.132
-    },
-    {
-      "ranking_id": 384,
-      "season_id": "s21_rivals",
-      "rating": 0.169
-    },
-    {
-      "ranking_id": 385,
-      "season_id": "s21_rivals",
-      "rating": 0.164
-    },
-    {
-      "ranking_id": 386,
-      "season_id": "s21_rivals",
-      "rating": 0.202
-    },
-    {
       "ranking_id": 387,
       "season_id": "s21_rivals",
-      "rating": -0.117
+      "rating": 0.09
     }
   ]
 }

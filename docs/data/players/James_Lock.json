@@ -3,13 +3,13 @@
   "safe_name": "James_Lock",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.912,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.521,
+    "era_rating": 0.5,
+    "peak_rating": 0.605,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": 0.544,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 1,
-    "n_snapshots": 67,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.611,
+      "rating_at_end": 0.549,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,69 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 885,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.912
-    },
-    {
-      "ranking_id": 886,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.812
-    },
-    {
-      "ranking_id": 887,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.66
-    },
-    {
-      "ranking_id": 888,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.663
-    },
-    {
-      "ranking_id": 889,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.835
-    },
-    {
-      "ranking_id": 890,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.768
-    },
-    {
-      "ranking_id": 891,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.665
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.626
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.626
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.692
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.693
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.693
-    },
-    {
       "ranking_id": 898,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.611
+      "rating": 0.549
     }
   ]
 }

@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.437,
-    "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.832,
-    "active_season_id": "s26_battle_of_the_exes_ii",
+    "peak_rating": 0.196,
+    "peak_season_id": "s21_rivals",
+    "active_rating": -0.37,
+    "active_season_id": "s25_free_agents",
     "n_seasons": 2,
-    "n_snapshots": 186,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 4,
@@ -27,7 +27,7 @@
       "finish_episode": "Honey, I'm Homeless",
       "elim_position": 8,
       "elim_total": 11,
-      "rating_at_end": -0.289,
+      "rating_at_end": -0.358,
       "partner": "Jasmine Reynaud",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Checkmeat!",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": 0.045,
+      "rating_at_end": -0.024,
       "partner": "Sydney Walker",
       "partners_history": [],
       "team": "",
@@ -53,224 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.523
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.524
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.321
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.323
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.303
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.021
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.021
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.029
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.016
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.006
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.037
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.072
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.072
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.07
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.07
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.112
-    },
-    {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.045
-    },
-    {
-      "ranking_id": 421,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.38
-    },
-    {
-      "ranking_id": 424,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.4
-    },
-    {
-      "ranking_id": 429,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.75
-    },
-    {
-      "ranking_id": 432,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.783
-    },
-    {
-      "ranking_id": 433,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.811
-    },
-    {
-      "ranking_id": 436,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.804
-    },
-    {
-      "ranking_id": 437,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.842
-    },
-    {
-      "ranking_id": 438,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.754
-    },
-    {
-      "ranking_id": 439,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.754
-    },
-    {
-      "ranking_id": 441,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.851
-    },
-    {
-      "ranking_id": 442,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.885
-    },
-    {
-      "ranking_id": 443,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.885
-    },
-    {
-      "ranking_id": 445,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.792
-    },
-    {
-      "ranking_id": 448,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.792
-    },
-    {
-      "ranking_id": 449,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.205
-    },
-    {
-      "ranking_id": 450,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.205
-    },
-    {
-      "ranking_id": 451,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.382
-    },
-    {
-      "ranking_id": 453,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.401
-    },
-    {
-      "ranking_id": 454,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.401
-    },
-    {
-      "ranking_id": 455,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.401
-    },
-    {
-      "ranking_id": 457,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.45
-    },
-    {
-      "ranking_id": 458,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.484
-    },
-    {
-      "ranking_id": 459,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.471
-    },
-    {
-      "ranking_id": 461,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.51
-    },
-    {
-      "ranking_id": 462,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.51
-    },
-    {
-      "ranking_id": 463,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.51
+      "rating": -0.024
     },
     {
       "ranking_id": 465,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.289
+      "rating": -0.358
     }
   ]
 }

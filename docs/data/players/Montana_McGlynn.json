@@ -3,13 +3,13 @@
   "safe_name": "Montana_McGlynn",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.777,
-    "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.402,
-    "active_season_id": "s14_the_inferno_3",
+    "era_rating": 0.0,
+    "peak_rating": -0.111,
+    "peak_season_id": "s09_battle_of_the_sexes_2",
+    "active_rating": -0.237,
+    "active_season_id": "s13_the_duel",
     "n_seasons": 3,
-    "n_snapshots": 140,
+    "n_snapshots": 7,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Walking the Line",
       "elim_position": 3,
       "elim_total": 5,
-      "rating_at_end": -0.295,
+      "rating_at_end": -0.467,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -44,7 +44,7 @@
       "finish_episode": "Masquerade",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": 0.104,
+      "rating_at_end": -0.169,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -53,144 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 58,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.777
-    },
-    {
-      "ranking_id": 59,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.511
-    },
-    {
-      "ranking_id": 60,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.408
-    },
-    {
-      "ranking_id": 61,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.33
-    },
-    {
-      "ranking_id": 62,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.348
-    },
-    {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.46
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.46
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.461
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.431
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.384
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.384
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.382
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.349
-    },
-    {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.104
-    },
-    {
-      "ranking_id": 134,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.031
-    },
-    {
-      "ranking_id": 135,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.001
-    },
-    {
-      "ranking_id": 136,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.073
-    },
-    {
-      "ranking_id": 137,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.078
-    },
-    {
-      "ranking_id": 138,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.142
-    },
-    {
-      "ranking_id": 139,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.146
-    },
-    {
-      "ranking_id": 140,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.035
-    },
-    {
-      "ranking_id": 141,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.036
-    },
-    {
-      "ranking_id": 142,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.057
-    },
-    {
-      "ranking_id": 143,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.057
-    },
-    {
-      "ranking_id": 144,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.075
-    },
-    {
-      "ranking_id": 145,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.097
-    },
-    {
-      "ranking_id": 146,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.093
+      "rating": -0.169
     },
     {
       "ranking_id": 147,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.295
+      "rating": -0.467
     }
   ]
 }

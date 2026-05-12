@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.193,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.673,
-    "active_season_id": "s33_war_of_the_worlds",
+    "peak_rating": -0.104,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.35,
+    "active_season_id": "s32_final_reckoning",
     "n_seasons": 2,
-    "n_snapshots": 109,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Shots Fired!",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.521,
+      "rating_at_end": -0.436,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "#Corneesa",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.225,
+      "rating_at_end": -0.104,
       "partner": "Tony Raines",
       "partners_history": [],
       "team": "",
@@ -53,134 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 568,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.79
-    },
-    {
-      "ranking_id": 569,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.792
-    },
-    {
-      "ranking_id": 570,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.733
-    },
-    {
-      "ranking_id": 571,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.724
-    },
-    {
-      "ranking_id": 572,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.626
-    },
-    {
-      "ranking_id": 573,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.626
-    },
-    {
-      "ranking_id": 574,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.52
-    },
-    {
-      "ranking_id": 575,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.453
-    },
-    {
-      "ranking_id": 577,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.351
-    },
-    {
-      "ranking_id": 579,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.301
-    },
-    {
       "ranking_id": 580,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.225
-    },
-    {
-      "ranking_id": 627,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.549
-    },
-    {
-      "ranking_id": 628,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.508
-    },
-    {
-      "ranking_id": 629,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.551
-    },
-    {
-      "ranking_id": 630,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.551
-    },
-    {
-      "ranking_id": 631,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.551
-    },
-    {
-      "ranking_id": 632,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.563
-    },
-    {
-      "ranking_id": 633,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.56
-    },
-    {
-      "ranking_id": 634,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.56
-    },
-    {
-      "ranking_id": 635,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.56
-    },
-    {
-      "ranking_id": 636,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.558
-    },
-    {
-      "ranking_id": 637,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.579
-    },
-    {
-      "ranking_id": 638,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.586
-    },
-    {
-      "ranking_id": 639,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.585
-    },
-    {
-      "ranking_id": 640,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.584
+      "rating": -0.104
     },
     {
       "ranking_id": 642,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.521
+      "rating": -0.436
     }
   ]
 }

@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.477,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.506,
-    "active_season_id": "s33_war_of_the_worlds",
+    "peak_rating": -0.504,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": -0.585,
+    "active_season_id": "s32_final_reckoning",
     "n_seasons": 1,
-    "n_snapshots": 68,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Skeletal Fracture",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.733,
+      "rating_at_end": -0.696,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,54 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 616,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.88
-    },
-    {
-      "ranking_id": 617,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.896
-    },
-    {
-      "ranking_id": 618,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.93
-    },
-    {
-      "ranking_id": 619,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.93
-    },
-    {
-      "ranking_id": 620,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.913
-    },
-    {
-      "ranking_id": 621,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.913
-    },
-    {
-      "ranking_id": 622,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.913
-    },
-    {
-      "ranking_id": 623,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.911
-    },
-    {
-      "ranking_id": 624,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.881
-    },
-    {
       "ranking_id": 625,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.733
+      "rating": -0.696
     }
   ]
 }

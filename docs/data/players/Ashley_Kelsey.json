@@ -3,13 +3,13 @@
   "safe_name": "Ashley_Kelsey",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.896,
+    "era_rating": 0.5,
+    "peak_rating": 0.728,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.579,
+    "active_rating": -0.384,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 2,
-    "n_snapshots": 169,
+    "n_snapshots": 7,
     "championships": 1,
     "elim_wins": 2,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Achy Breaky Heart",
       "elim_position": 4,
       "elim_total": 7,
-      "rating_at_end": -0.583,
+      "rating_at_end": -0.665,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Operation Desert Scorn",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.651,
+      "rating_at_end": 0.531,
       "partner": "Frank Fox",
       "partners_history": [],
       "team": "",
@@ -53,194 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 429,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.608
-    },
-    {
-      "ranking_id": 432,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.626
-    },
-    {
-      "ranking_id": 433,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.59
-    },
-    {
-      "ranking_id": 436,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.598
-    },
-    {
-      "ranking_id": 437,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.638
-    },
-    {
-      "ranking_id": 438,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.638
-    },
-    {
-      "ranking_id": 439,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.665
-    },
-    {
-      "ranking_id": 441,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.736
-    },
-    {
-      "ranking_id": 442,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.736
-    },
-    {
-      "ranking_id": 443,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.741
-    },
-    {
-      "ranking_id": 445,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.946
-    },
-    {
-      "ranking_id": 448,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.946
-    },
-    {
-      "ranking_id": 449,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.966
-    },
-    {
-      "ranking_id": 450,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.938
-    },
-    {
-      "ranking_id": 451,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.938
-    },
-    {
-      "ranking_id": 453,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.971
-    },
-    {
-      "ranking_id": 454,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.985
-    },
-    {
-      "ranking_id": 455,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.965
-    },
-    {
-      "ranking_id": 457,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.995
-    },
-    {
-      "ranking_id": 458,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.995
-    },
-    {
-      "ranking_id": 459,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -1.01
-    },
-    {
-      "ranking_id": 461,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.564
-    },
-    {
-      "ranking_id": 462,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.135
-    },
-    {
-      "ranking_id": 463,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.174
-    },
-    {
       "ranking_id": 465,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.651
-    },
-    {
-      "ranking_id": 613,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.03
-    },
-    {
-      "ranking_id": 614,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.24
-    },
-    {
-      "ranking_id": 615,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.25
-    },
-    {
-      "ranking_id": 616,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.248
-    },
-    {
-      "ranking_id": 617,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.248
-    },
-    {
-      "ranking_id": 618,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.248
-    },
-    {
-      "ranking_id": 619,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.343
-    },
-    {
-      "ranking_id": 620,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.356
-    },
-    {
-      "ranking_id": 621,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.354
-    },
-    {
-      "ranking_id": 622,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.348
-    },
-    {
-      "ranking_id": 623,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.348
-    },
-    {
-      "ranking_id": 624,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.333
+      "rating": 0.531
     },
     {
       "ranking_id": 625,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.583
+      "rating": -0.665
     }
   ]
 }

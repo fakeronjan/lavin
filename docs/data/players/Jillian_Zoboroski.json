@@ -3,13 +3,13 @@
   "safe_name": "Jillian_Zoboroski",
   "gender": "F",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 1.126,
-    "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": 0.466,
-    "active_season_id": "s23_battle_of_the_seasons_2012",
+    "era_rating": 1.4,
+    "peak_rating": 0.843,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": 0.544,
+    "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 3,
-    "n_snapshots": 218,
+    "n_snapshots": 11,
     "championships": 1,
     "elim_wins": 7,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.648,
+      "rating_at_end": 0.687,
       "partner": "Pete Connolly",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.832,
+      "rating_at_end": 0.752,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -61,7 +61,7 @@
       "finish_episode": "Blind Panic",
       "elim_position": 5,
       "elim_total": 5,
-      "rating_at_end": -0.225,
+      "rating_at_end": -0.483,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -70,244 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 138,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.75
-    },
-    {
-      "ranking_id": 139,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.753
-    },
-    {
-      "ranking_id": 140,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.726
-    },
-    {
-      "ranking_id": 141,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.728
-    },
-    {
-      "ranking_id": 142,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.657
-    },
-    {
-      "ranking_id": 143,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.655
-    },
-    {
-      "ranking_id": 144,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.679
-    },
-    {
-      "ranking_id": 145,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.125
-    },
-    {
-      "ranking_id": 146,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.135
-    },
-    {
       "ranking_id": 147,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.225
-    },
-    {
-      "ranking_id": 245,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.921
-    },
-    {
-      "ranking_id": 246,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 1.118
-    },
-    {
-      "ranking_id": 247,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 1.126
-    },
-    {
-      "ranking_id": 248,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 1.066
-    },
-    {
-      "ranking_id": 249,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.99
-    },
-    {
-      "ranking_id": 250,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.919
-    },
-    {
-      "ranking_id": 251,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.842
-    },
-    {
-      "ranking_id": 252,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.827
-    },
-    {
-      "ranking_id": 253,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.827
-    },
-    {
-      "ranking_id": 254,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.827
-    },
-    {
-      "ranking_id": 255,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.827
-    },
-    {
-      "ranking_id": 256,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.832
-    },
-    {
-      "ranking_id": 257,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.832
-    },
-    {
-      "ranking_id": 258,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.832
+      "rating": -0.483
     },
     {
       "ranking_id": 259,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.832
-    },
-    {
-      "ranking_id": 303,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.915
-    },
-    {
-      "ranking_id": 304,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.987
-    },
-    {
-      "ranking_id": 305,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.995
-    },
-    {
-      "ranking_id": 307,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.961
-    },
-    {
-      "ranking_id": 308,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.972
-    },
-    {
-      "ranking_id": 309,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.957
-    },
-    {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.949
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.945
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.894
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.894
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.912
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.916
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.927
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.907
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.913
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.913
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.902
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.902
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.898
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.872
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.876
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.863
+      "rating": 0.752
     },
     {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.648
+      "rating": 0.687
     }
   ]
 }

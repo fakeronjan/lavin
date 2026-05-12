@@ -3,13 +3,13 @@
   "safe_name": "Tonya_Cooley",
   "gender": "F",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.627,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.339,
-    "active_season_id": "s21_rivals",
+    "era_rating": 1.0,
+    "peak_rating": 0.36,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.003,
+    "active_season_id": "s20_cutthroat",
     "n_seasons": 8,
-    "n_snapshots": 290,
+    "n_snapshots": 15,
     "championships": 1,
     "elim_wins": 5,
     "elim_losses": 9,
@@ -27,7 +27,7 @@
       "finish_episode": "Girls Gone Wild",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.57,
+      "rating_at_end": 0.36,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -44,7 +44,7 @@
       "finish_episode": "Welcome to the Island",
       "elim_position": 1,
       "elim_total": 2,
-      "rating_at_end": 0.322,
+      "rating_at_end": 0.157,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.222,
+      "rating_at_end": 0.101,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -78,7 +78,7 @@
       "finish_episode": "Kayak Challenge",
       "elim_position": 4,
       "elim_total": 6,
-      "rating_at_end": -0.313,
+      "rating_at_end": -0.061,
       "partner": "Johnnie McBride",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.178,
+      "rating_at_end": 0.094,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -112,7 +112,7 @@
       "finish_episode": "Episode 13",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.306,
+      "rating_at_end": 0.138,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Mud Bath",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": 0.276,
+      "rating_at_end": 0.114,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -146,7 +146,7 @@
       "finish_episode": "Battle of the Opposite Sexes",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": 0.027,
+      "rating_at_end": 0.006,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -155,694 +155,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.582
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.593
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.392
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.538
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.082
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.085
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.085
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.081
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.078
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.076
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.075
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.073
-    },
-    {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 57,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.058
-    },
-    {
-      "ranking_id": 58,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.102
-    },
-    {
-      "ranking_id": 59,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.204
-    },
-    {
-      "ranking_id": 60,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.178
-    },
-    {
-      "ranking_id": 61,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.175
-    },
-    {
-      "ranking_id": 62,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.174
-    },
-    {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.158
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.158
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.157
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.149
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.19
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.19
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.188
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.22
+      "rating": 0.006
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.276
-    },
-    {
-      "ranking_id": 89,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.176
-    },
-    {
-      "ranking_id": 90,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.241
-    },
-    {
-      "ranking_id": 91,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.25
-    },
-    {
-      "ranking_id": 92,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.25
-    },
-    {
-      "ranking_id": 93,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.25
-    },
-    {
-      "ranking_id": 94,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.25
-    },
-    {
-      "ranking_id": 95,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.265
-    },
-    {
-      "ranking_id": 96,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.265
-    },
-    {
-      "ranking_id": 97,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.232
-    },
-    {
-      "ranking_id": 98,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.232
-    },
-    {
-      "ranking_id": 99,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.237
-    },
-    {
-      "ranking_id": 100,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.237
-    },
-    {
-      "ranking_id": 101,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.237
-    },
-    {
-      "ranking_id": 102,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.212
-    },
-    {
-      "ranking_id": 103,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.211
-    },
-    {
-      "ranking_id": 104,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.211
-    },
-    {
-      "ranking_id": 105,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.181
-    },
-    {
-      "ranking_id": 106,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.176
-    },
-    {
-      "ranking_id": 107,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.197
-    },
-    {
-      "ranking_id": 108,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.356
-    },
-    {
-      "ranking_id": 109,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 110,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 111,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.344
-    },
-    {
-      "ranking_id": 112,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.336
-    },
-    {
-      "ranking_id": 113,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.351
-    },
-    {
-      "ranking_id": 114,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.354
-    },
-    {
-      "ranking_id": 115,
-      "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.354
+      "rating": 0.114
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.306
-    },
-    {
-      "ranking_id": 117,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.306
-    },
-    {
-      "ranking_id": 118,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.306
-    },
-    {
-      "ranking_id": 119,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.299
-    },
-    {
-      "ranking_id": 120,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.303
-    },
-    {
-      "ranking_id": 121,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.303
-    },
-    {
-      "ranking_id": 122,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.303
-    },
-    {
-      "ranking_id": 123,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.273
-    },
-    {
-      "ranking_id": 124,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.294
-    },
-    {
-      "ranking_id": 125,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.288
-    },
-    {
-      "ranking_id": 126,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.288
-    },
-    {
-      "ranking_id": 127,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.128
-    },
-    {
-      "ranking_id": 128,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.202
-    },
-    {
-      "ranking_id": 129,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.202
-    },
-    {
-      "ranking_id": 130,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.202
-    },
-    {
-      "ranking_id": 131,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.079
-    },
-    {
-      "ranking_id": 132,
-      "season_id": "s10_the_inferno_ii",
-      "rating": 0.166
+      "rating": 0.138
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.178
-    },
-    {
-      "ranking_id": 148,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.106
-    },
-    {
-      "ranking_id": 151,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.003
-    },
-    {
-      "ranking_id": 152,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.006
-    },
-    {
-      "ranking_id": 155,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.005
-    },
-    {
-      "ranking_id": 157,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.012
-    },
-    {
-      "ranking_id": 158,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.012
-    },
-    {
-      "ranking_id": 161,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 162,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 166,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.025
-    },
-    {
-      "ranking_id": 170,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.008
-    },
-    {
-      "ranking_id": 174,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.073
-    },
-    {
-      "ranking_id": 178,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.037
-    },
-    {
-      "ranking_id": 180,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.012
-    },
-    {
-      "ranking_id": 183,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.012
-    },
-    {
-      "ranking_id": 184,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.013
-    },
-    {
-      "ranking_id": 187,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.006
-    },
-    {
-      "ranking_id": 188,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.006
-    },
-    {
-      "ranking_id": 192,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.0
-    },
-    {
-      "ranking_id": 196,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.034
-    },
-    {
-      "ranking_id": 200,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.305
-    },
-    {
-      "ranking_id": 202,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.277
-    },
-    {
-      "ranking_id": 204,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.32
-    },
-    {
-      "ranking_id": 207,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.139
-    },
-    {
-      "ranking_id": 208,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.139
-    },
-    {
-      "ranking_id": 211,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.156
+      "rating": 0.094
     },
     {
       "ranking_id": 212,
       "season_id": "s12_fresh_meat",
-      "rating": -0.313
-    },
-    {
-      "ranking_id": 229,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.189
-    },
-    {
-      "ranking_id": 230,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.173
-    },
-    {
-      "ranking_id": 231,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.174
-    },
-    {
-      "ranking_id": 232,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.051
-    },
-    {
-      "ranking_id": 233,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.051
-    },
-    {
-      "ranking_id": 234,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.057
-    },
-    {
-      "ranking_id": 235,
-      "season_id": "s14_the_inferno_3",
-      "rating": -1.03
-    },
-    {
-      "ranking_id": 236,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.561
-    },
-    {
-      "ranking_id": 237,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.549
-    },
-    {
-      "ranking_id": 238,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.549
-    },
-    {
-      "ranking_id": 239,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.544
-    },
-    {
-      "ranking_id": 240,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.597
-    },
-    {
-      "ranking_id": 241,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.598
-    },
-    {
-      "ranking_id": 242,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.598
-    },
-    {
-      "ranking_id": 243,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.553
+      "rating": -0.061
     },
     {
       "ranking_id": 244,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.222
-    },
-    {
-      "ranking_id": 260,
-      "season_id": "s16_the_island",
-      "rating": 0.285
-    },
-    {
-      "ranking_id": 261,
-      "season_id": "s16_the_island",
-      "rating": 0.251
-    },
-    {
-      "ranking_id": 262,
-      "season_id": "s16_the_island",
-      "rating": 0.251
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": 0.253
+      "rating": 0.101
     },
     {
       "ranking_id": 264,
       "season_id": "s16_the_island",
-      "rating": 0.322
-    },
-    {
-      "ranking_id": 285,
-      "season_id": "s18_the_ruins",
-      "rating": 0.54
-    },
-    {
-      "ranking_id": 286,
-      "season_id": "s18_the_ruins",
-      "rating": 0.54
-    },
-    {
-      "ranking_id": 287,
-      "season_id": "s18_the_ruins",
-      "rating": 0.568
-    },
-    {
-      "ranking_id": 288,
-      "season_id": "s18_the_ruins",
-      "rating": 0.543
-    },
-    {
-      "ranking_id": 289,
-      "season_id": "s18_the_ruins",
-      "rating": 0.543
-    },
-    {
-      "ranking_id": 290,
-      "season_id": "s18_the_ruins",
-      "rating": 0.545
-    },
-    {
-      "ranking_id": 291,
-      "season_id": "s18_the_ruins",
-      "rating": 0.524
-    },
-    {
-      "ranking_id": 292,
-      "season_id": "s18_the_ruins",
-      "rating": 0.526
-    },
-    {
-      "ranking_id": 293,
-      "season_id": "s18_the_ruins",
-      "rating": 0.52
-    },
-    {
-      "ranking_id": 294,
-      "season_id": "s18_the_ruins",
-      "rating": 0.48
-    },
-    {
-      "ranking_id": 295,
-      "season_id": "s18_the_ruins",
-      "rating": 0.475
-    },
-    {
-      "ranking_id": 296,
-      "season_id": "s18_the_ruins",
-      "rating": 0.475
-    },
-    {
-      "ranking_id": 297,
-      "season_id": "s18_the_ruins",
-      "rating": 0.474
-    },
-    {
-      "ranking_id": 298,
-      "season_id": "s18_the_ruins",
-      "rating": 0.478
-    },
-    {
-      "ranking_id": 299,
-      "season_id": "s18_the_ruins",
-      "rating": 0.477
-    },
-    {
-      "ranking_id": 300,
-      "season_id": "s18_the_ruins",
-      "rating": 0.477
-    },
-    {
-      "ranking_id": 301,
-      "season_id": "s18_the_ruins",
-      "rating": 0.475
+      "rating": 0.157
     },
     {
       "ranking_id": 302,
       "season_id": "s18_the_ruins",
-      "rating": 0.57
+      "rating": 0.36
     }
   ]
 }

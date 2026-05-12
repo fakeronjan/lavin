@@ -25,8 +25,11 @@ DOCS_DATA = DOCS / "data"
 DOCS_SEASONS = DOCS_DATA / "seasons"
 DOCS_PLAYERS = DOCS_DATA / "players"
 
-# Players need this many snapshots before getting a dedicated player page.
-PLAYER_PAGE_MIN_SNAPSHOTS = 30
+# Players need this many EOS snapshots before getting a dedicated player page.
+# Was 30 when we computed per-elim snapshots (hundreds per player). With the
+# EOS-only solver, snapshots are 1 per season the player was rated in
+# (~6-30 typical), so 30 filtered out everyone but CT and Aneesa.
+PLAYER_PAGE_MIN_SNAPSHOTS = 3
 
 
 def safe_filename(name):

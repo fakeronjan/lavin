@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.158,
+    "peak_rating": 0.055,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.103,
-    "active_season_id": "s28_rivals_iii",
+    "active_rating": -0.267,
+    "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 1,
-    "n_snapshots": 65,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Not So Trivial Pursuits",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": 0.111,
+      "rating_at_end": 0.055,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,89 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 507,
-      "season_id": "s25_free_agents",
-      "rating": 0.092
-    },
-    {
-      "ranking_id": 508,
-      "season_id": "s25_free_agents",
-      "rating": 0.097
-    },
-    {
-      "ranking_id": 509,
-      "season_id": "s25_free_agents",
-      "rating": 0.096
-    },
-    {
-      "ranking_id": 510,
-      "season_id": "s25_free_agents",
-      "rating": 0.066
-    },
-    {
-      "ranking_id": 511,
-      "season_id": "s25_free_agents",
-      "rating": 0.071
-    },
-    {
-      "ranking_id": 512,
-      "season_id": "s25_free_agents",
-      "rating": 0.071
-    },
-    {
-      "ranking_id": 513,
-      "season_id": "s25_free_agents",
-      "rating": 0.071
-    },
-    {
-      "ranking_id": 514,
-      "season_id": "s25_free_agents",
-      "rating": 0.11
-    },
-    {
-      "ranking_id": 516,
-      "season_id": "s25_free_agents",
-      "rating": 0.158
-    },
-    {
-      "ranking_id": 517,
-      "season_id": "s25_free_agents",
-      "rating": 0.146
-    },
-    {
-      "ranking_id": 518,
-      "season_id": "s25_free_agents",
-      "rating": 0.144
-    },
-    {
-      "ranking_id": 519,
-      "season_id": "s25_free_agents",
-      "rating": 0.14
-    },
-    {
-      "ranking_id": 520,
-      "season_id": "s25_free_agents",
-      "rating": 0.123
-    },
-    {
-      "ranking_id": 521,
-      "season_id": "s25_free_agents",
-      "rating": 0.123
-    },
-    {
-      "ranking_id": 522,
-      "season_id": "s25_free_agents",
-      "rating": 0.127
-    },
-    {
-      "ranking_id": 524,
-      "season_id": "s25_free_agents",
-      "rating": 0.157
-    },
-    {
       "ranking_id": 525,
       "season_id": "s25_free_agents",
-      "rating": 0.111
+      "rating": 0.055
     }
   ]
 }

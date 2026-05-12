@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 1.07,
-    "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": 1.027,
-    "active_season_id": "s12_fresh_meat",
+    "peak_rating": 0.857,
+    "peak_season_id": "s10_the_inferno_ii",
+    "active_rating": 0.815,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 91,
+    "n_snapshots": 5,
     "championships": 1,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Gold Rush Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.732,
+      "rating_at_end": 0.686,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -36,49 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.345
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.228
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.103
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.071
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.02
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.075
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.131
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": -0.142
-    },
-    {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.732
+      "rating": 0.686
     }
   ]
 }

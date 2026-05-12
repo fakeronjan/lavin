@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.027,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.171,
-    "active_season_id": "s32_final_reckoning",
+    "peak_rating": -0.046,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": -0.046,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 1,
-    "n_snapshots": 68,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Helter Shelter",
       "elim_position": 1,
       "elim_total": 6,
-      "rating_at_end": -0.297,
+      "rating_at_end": -0.206,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,79 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 611,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.067
-    },
-    {
-      "ranking_id": 612,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 613,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 614,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 615,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.202
-    },
-    {
-      "ranking_id": 616,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 617,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.207
-    },
-    {
-      "ranking_id": 618,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.208
-    },
-    {
-      "ranking_id": 619,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.208
-    },
-    {
-      "ranking_id": 620,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.213
-    },
-    {
-      "ranking_id": 621,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.213
-    },
-    {
-      "ranking_id": 622,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.213
-    },
-    {
-      "ranking_id": 623,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.214
-    },
-    {
-      "ranking_id": 624,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.175
-    },
-    {
       "ranking_id": 625,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.297
+      "rating": -0.206
     }
   ]
 }

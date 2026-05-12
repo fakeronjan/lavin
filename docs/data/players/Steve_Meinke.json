@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.545,
-    "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.523,
-    "active_season_id": "s12_fresh_meat",
+    "peak_rating": -0.115,
+    "peak_season_id": "s10_the_inferno_ii",
+    "active_rating": -0.185,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 95,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Red Barron",
       "elim_position": 3,
       "elim_total": 6,
-      "rating_at_end": -0.108,
+      "rating_at_end": -0.31,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -36,69 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 59,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.535
-    },
-    {
-      "ranking_id": 60,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.535
-    },
-    {
-      "ranking_id": 61,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.535
-    },
-    {
-      "ranking_id": 62,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.545
-    },
-    {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.4
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.28
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.295
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.292
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.272
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.263
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.271
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.272
-    },
-    {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.108
+      "rating": -0.31
     }
   ]
 }

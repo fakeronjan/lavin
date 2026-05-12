@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.323,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.702,
-    "active_season_id": "s22_battle_of_the_exes",
+    "peak_rating": -0.009,
+    "peak_season_id": "s21_rivals",
+    "active_rating": -0.009,
+    "active_season_id": "s21_rivals",
     "n_seasons": 1,
-    "n_snapshots": 81,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Road Kill",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": -0.033,
+      "rating_at_end": -0.039,
       "partner": "Danny Jamieson",
       "partners_history": [],
       "team": "",
@@ -36,89 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.539
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.543
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.323
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.11
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.129
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.17
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.168
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.159
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.149
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.15
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.141
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.141
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.156
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.14
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.128
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.113
-    },
-    {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.033
+      "rating": -0.039
     }
   ]
 }

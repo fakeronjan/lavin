@@ -3,13 +3,13 @@
   "safe_name": "Johanna_Botta",
   "gender": "F",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.797,
-    "peak_season_id": "s16_the_island",
-    "active_rating": -0.003,
-    "active_season_id": "s21_rivals",
+    "era_rating": 1.2,
+    "peak_rating": 0.45,
+    "peak_season_id": "s15_the_gauntlet_iii",
+    "active_rating": -0.08,
+    "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
-    "n_snapshots": 158,
+    "n_snapshots": 9,
     "championships": 1,
     "elim_wins": 1,
     "elim_losses": 5,
@@ -27,7 +27,7 @@
       "finish_episode": "Silence of the Ruins",
       "elim_position": 3,
       "elim_total": 9,
-      "rating_at_end": 0.566,
+      "rating_at_end": 0.388,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -44,7 +44,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.609,
+      "rating_at_end": 0.383,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.598,
+      "rating_at_end": 0.45,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -78,7 +78,7 @@
       "finish_episode": "Costume Extravaganza",
       "elim_position": 3,
       "elim_total": 6,
-      "rating_at_end": -0.478,
+      "rating_at_end": -0.287,
       "partner": "Jesse Stark",
       "partners_history": [],
       "team": "",
@@ -89,197 +89,22 @@
     {
       "ranking_id": 212,
       "season_id": "s12_fresh_meat",
-      "rating": -0.478
-    },
-    {
-      "ranking_id": 245,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.581
-    },
-    {
-      "ranking_id": 246,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.605
-    },
-    {
-      "ranking_id": 247,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.128
-    },
-    {
-      "ranking_id": 248,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.126
-    },
-    {
-      "ranking_id": 249,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.185
-    },
-    {
-      "ranking_id": 250,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.308
-    },
-    {
-      "ranking_id": 251,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.355
-    },
-    {
-      "ranking_id": 252,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.508
-    },
-    {
-      "ranking_id": 253,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.508
-    },
-    {
-      "ranking_id": 254,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.508
-    },
-    {
-      "ranking_id": 255,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.508
-    },
-    {
-      "ranking_id": 256,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.598
-    },
-    {
-      "ranking_id": 257,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.598
-    },
-    {
-      "ranking_id": 258,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.598
+      "rating": -0.287
     },
     {
       "ranking_id": 259,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.598
-    },
-    {
-      "ranking_id": 260,
-      "season_id": "s16_the_island",
-      "rating": 0.797
-    },
-    {
-      "ranking_id": 261,
-      "season_id": "s16_the_island",
-      "rating": 0.729
-    },
-    {
-      "ranking_id": 262,
-      "season_id": "s16_the_island",
-      "rating": 0.729
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": 0.656
+      "rating": 0.45
     },
     {
       "ranking_id": 264,
       "season_id": "s16_the_island",
-      "rating": 0.609
-    },
-    {
-      "ranking_id": 285,
-      "season_id": "s18_the_ruins",
-      "rating": 0.617
-    },
-    {
-      "ranking_id": 286,
-      "season_id": "s18_the_ruins",
-      "rating": 0.617
-    },
-    {
-      "ranking_id": 287,
-      "season_id": "s18_the_ruins",
-      "rating": 0.636
-    },
-    {
-      "ranking_id": 288,
-      "season_id": "s18_the_ruins",
-      "rating": 0.609
-    },
-    {
-      "ranking_id": 289,
-      "season_id": "s18_the_ruins",
-      "rating": 0.609
-    },
-    {
-      "ranking_id": 290,
-      "season_id": "s18_the_ruins",
-      "rating": 0.612
-    },
-    {
-      "ranking_id": 291,
-      "season_id": "s18_the_ruins",
-      "rating": 0.554
-    },
-    {
-      "ranking_id": 292,
-      "season_id": "s18_the_ruins",
-      "rating": 0.558
-    },
-    {
-      "ranking_id": 293,
-      "season_id": "s18_the_ruins",
-      "rating": 0.554
-    },
-    {
-      "ranking_id": 294,
-      "season_id": "s18_the_ruins",
-      "rating": 0.54
-    },
-    {
-      "ranking_id": 295,
-      "season_id": "s18_the_ruins",
-      "rating": 0.527
-    },
-    {
-      "ranking_id": 296,
-      "season_id": "s18_the_ruins",
-      "rating": 0.527
-    },
-    {
-      "ranking_id": 297,
-      "season_id": "s18_the_ruins",
-      "rating": 0.526
-    },
-    {
-      "ranking_id": 298,
-      "season_id": "s18_the_ruins",
-      "rating": 0.531
-    },
-    {
-      "ranking_id": 299,
-      "season_id": "s18_the_ruins",
-      "rating": 0.53
-    },
-    {
-      "ranking_id": 300,
-      "season_id": "s18_the_ruins",
-      "rating": 0.53
-    },
-    {
-      "ranking_id": 301,
-      "season_id": "s18_the_ruins",
-      "rating": 0.528
+      "rating": 0.383
     },
     {
       "ranking_id": 302,
       "season_id": "s18_the_ruins",
-      "rating": 0.566
+      "rating": 0.388
     }
   ]
 }

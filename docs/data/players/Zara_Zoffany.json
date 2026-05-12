@@ -3,13 +3,13 @@
   "safe_name": "Zara_Zoffany",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.482,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.373,
+    "era_rating": 0.0,
+    "peak_rating": 0.111,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.111,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 1,
-    "n_snapshots": 66,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.169,
+      "rating_at_end": -0.001,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,64 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 886,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.761
-    },
-    {
-      "ranking_id": 887,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.728
-    },
-    {
-      "ranking_id": 888,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.759
-    },
-    {
-      "ranking_id": 889,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.476
-    },
-    {
-      "ranking_id": 890,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.482
-    },
-    {
-      "ranking_id": 891,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.482
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.429
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.43
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.34
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.323
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.327
-    },
-    {
       "ranking_id": 898,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.169
+      "rating": -0.001
     }
   ]
 }

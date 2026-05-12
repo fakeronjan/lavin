@@ -3,13 +3,13 @@
   "safe_name": "Sydney_Walker",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.589,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.037,
-    "active_season_id": "s22_battle_of_the_exes",
+    "era_rating": 0.3,
+    "peak_rating": 0.31,
+    "peak_season_id": "s21_rivals",
+    "active_rating": 0.31,
+    "active_season_id": "s21_rivals",
     "n_seasons": 1,
-    "n_snapshots": 85,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Checkmeat!",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": 0.364,
+      "rating_at_end": 0.266,
       "partner": "CJ Koegel",
       "partners_history": [],
       "team": "",
@@ -36,89 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.539
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.543
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.373
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.334
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.353
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.589
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.302
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.273
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.243
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.245
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.268
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.268
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.369
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.344
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.318
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.301
-    },
-    {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.364
+      "rating": 0.266
     }
   ]
 }

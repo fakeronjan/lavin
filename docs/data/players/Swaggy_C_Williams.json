@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 1.009,
-    "peak_season_id": "s35_total_madness",
-    "active_rating": -0.732,
-    "active_season_id": "s38_ride_or_dies",
+    "peak_rating": -0.16,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.174,
+    "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 1,
-    "n_snapshots": 90,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Pictures of You",
       "elim_position": 6,
       "elim_total": 6,
-      "rating_at_end": -0.056,
+      "rating_at_end": -0.178,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,104 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 761,
-      "season_id": "s35_total_madness",
-      "rating": 1.009
-    },
-    {
-      "ranking_id": 762,
-      "season_id": "s35_total_madness",
-      "rating": 0.852
-    },
-    {
-      "ranking_id": 763,
-      "season_id": "s35_total_madness",
-      "rating": 0.574
-    },
-    {
-      "ranking_id": 764,
-      "season_id": "s35_total_madness",
-      "rating": 0.736
-    },
-    {
-      "ranking_id": 765,
-      "season_id": "s35_total_madness",
-      "rating": 0.669
-    },
-    {
-      "ranking_id": 766,
-      "season_id": "s35_total_madness",
-      "rating": 0.593
-    },
-    {
-      "ranking_id": 767,
-      "season_id": "s35_total_madness",
-      "rating": 0.494
-    },
-    {
-      "ranking_id": 768,
-      "season_id": "s35_total_madness",
-      "rating": 0.442
-    },
-    {
-      "ranking_id": 769,
-      "season_id": "s35_total_madness",
-      "rating": 0.39
-    },
-    {
-      "ranking_id": 770,
-      "season_id": "s35_total_madness",
-      "rating": -0.013
-    },
-    {
-      "ranking_id": 771,
-      "season_id": "s35_total_madness",
-      "rating": -0.01
-    },
-    {
-      "ranking_id": 772,
-      "season_id": "s35_total_madness",
-      "rating": -0.003
-    },
-    {
-      "ranking_id": 773,
-      "season_id": "s35_total_madness",
-      "rating": 0.009
-    },
-    {
-      "ranking_id": 775,
-      "season_id": "s35_total_madness",
-      "rating": -0.056
-    },
-    {
-      "ranking_id": 776,
-      "season_id": "s35_total_madness",
-      "rating": -0.019
-    },
-    {
-      "ranking_id": 778,
-      "season_id": "s35_total_madness",
-      "rating": 0.017
-    },
-    {
-      "ranking_id": 779,
-      "season_id": "s35_total_madness",
-      "rating": 0.017
-    },
-    {
-      "ranking_id": 781,
-      "season_id": "s35_total_madness",
-      "rating": 0.055
-    },
-    {
-      "ranking_id": 782,
-      "season_id": "s35_total_madness",
-      "rating": 0.052
-    },
-    {
       "ranking_id": 784,
       "season_id": "s35_total_madness",
-      "rating": -0.056
+      "rating": -0.178
     }
   ]
 }

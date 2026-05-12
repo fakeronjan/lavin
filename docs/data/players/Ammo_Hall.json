@@ -3,13 +3,13 @@
   "safe_name": "Ammo_Hall",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.707,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.337,
-    "active_season_id": "s33_war_of_the_worlds",
+    "era_rating": 0.1,
+    "peak_rating": 0.34,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.248,
+    "active_season_id": "s32_final_reckoning",
     "n_seasons": 1,
-    "n_snapshots": 60,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Ankles Aweigh",
       "elim_position": 2,
       "elim_total": 6,
-      "rating_at_end": 0.317,
+      "rating_at_end": 0.138,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,69 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 629,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.297
-    },
-    {
-      "ranking_id": 630,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.297
-    },
-    {
-      "ranking_id": 631,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.297
-    },
-    {
-      "ranking_id": 632,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.288
-    },
-    {
-      "ranking_id": 633,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.332
-    },
-    {
-      "ranking_id": 634,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.332
-    },
-    {
-      "ranking_id": 635,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": -0.332
-    },
-    {
-      "ranking_id": 636,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.262
-    },
-    {
-      "ranking_id": 637,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.259
-    },
-    {
-      "ranking_id": 638,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.254
-    },
-    {
-      "ranking_id": 639,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.243
-    },
-    {
-      "ranking_id": 640,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.26
-    },
-    {
       "ranking_id": 642,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.317
+      "rating": 0.138
     }
   ]
 }

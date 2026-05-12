@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.466,
+    "peak_rating": -0.201,
     "peak_season_id": "s05_battle_of_the_seasons",
-    "active_rating": -0.402,
-    "active_season_id": "s14_the_inferno_3",
+    "active_rating": -0.517,
+    "active_season_id": "s13_the_duel",
     "n_seasons": 3,
-    "n_snapshots": 167,
+    "n_snapshots": 9,
     "championships": 0,
     "elim_wins": 2,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Sloppy Seconds",
       "elim_position": 1,
       "elim_total": 5,
-      "rating_at_end": -0.274,
+      "rating_at_end": -0.531,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -44,7 +44,7 @@
       "finish_episode": "Breath-Hold Bungee",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.14,
+      "rating_at_end": -0.266,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Slam Dunk",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.034,
+      "rating_at_end": -0.201,
       "partner": "Adam Larson",
       "partners_history": [],
       "team": "",
@@ -70,204 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 9,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.562
-    },
-    {
-      "ranking_id": 13,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.514
-    },
-    {
-      "ranking_id": 16,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.514
-    },
-    {
-      "ranking_id": 17,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.484
-    },
-    {
-      "ranking_id": 21,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.592
-    },
-    {
-      "ranking_id": 24,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.592
-    },
-    {
-      "ranking_id": 34,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.592
-    },
-    {
-      "ranking_id": 35,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.466
-    },
-    {
-      "ranking_id": 37,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.386
-    },
-    {
-      "ranking_id": 40,
-      "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.386
-    },
-    {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.034
-    },
-    {
-      "ranking_id": 42,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.046
-    },
-    {
-      "ranking_id": 43,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.023
-    },
-    {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.19
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.205
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.069
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.03
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.068
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.056
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.056
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.06
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.003
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.002
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.002
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.042
+      "rating": -0.201
     },
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.14
-    },
-    {
-      "ranking_id": 134,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.656
-    },
-    {
-      "ranking_id": 135,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.669
-    },
-    {
-      "ranking_id": 136,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.125
-    },
-    {
-      "ranking_id": 137,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.072
-    },
-    {
-      "ranking_id": 138,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.093
-    },
-    {
-      "ranking_id": 139,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.096
-    },
-    {
-      "ranking_id": 140,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.089
-    },
-    {
-      "ranking_id": 141,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.092
-    },
-    {
-      "ranking_id": 142,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.048
-    },
-    {
-      "ranking_id": 143,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.045
-    },
-    {
-      "ranking_id": 144,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.072
-    },
-    {
-      "ranking_id": 145,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.079
-    },
-    {
-      "ranking_id": 146,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": -0.102
+      "rating": -0.266
     },
     {
       "ranking_id": 147,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.274
+      "rating": -0.531
     }
   ]
 }

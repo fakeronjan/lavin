@@ -3,13 +3,13 @@
   "safe_name": "Nicole_Zanatta",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.504,
-    "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.449,
-    "active_season_id": "s39_battle_for_a_new_champion",
+    "era_rating": 0.7,
+    "peak_rating": 0.573,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": -0.61,
+    "active_season_id": "s38_ride_or_dies",
     "n_seasons": 3,
-    "n_snapshots": 170,
+    "n_snapshots": 8,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Enemy of the State",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.283,
+      "rating_at_end": -0.386,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.23,
+      "rating_at_end": 0.45,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The True Champions",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.272,
+      "rating_at_end": 0.26,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,229 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 613,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.03
-    },
-    {
-      "ranking_id": 614,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.13
-    },
-    {
-      "ranking_id": 615,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.173
-    },
-    {
-      "ranking_id": 616,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.176
-    },
-    {
-      "ranking_id": 617,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.176
-    },
-    {
-      "ranking_id": 618,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.176
-    },
-    {
-      "ranking_id": 619,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.561
-    },
-    {
-      "ranking_id": 620,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.423
-    },
-    {
-      "ranking_id": 621,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.416
-    },
-    {
-      "ranking_id": 622,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.421
-    },
-    {
-      "ranking_id": 623,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.421
-    },
-    {
-      "ranking_id": 624,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.424
-    },
-    {
       "ranking_id": 625,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.272
-    },
-    {
-      "ranking_id": 643,
-      "season_id": "s31_vendettas",
-      "rating": -0.15
-    },
-    {
-      "ranking_id": 644,
-      "season_id": "s31_vendettas",
-      "rating": -0.112
-    },
-    {
-      "ranking_id": 645,
-      "season_id": "s31_vendettas",
-      "rating": -0.161
-    },
-    {
-      "ranking_id": 646,
-      "season_id": "s31_vendettas",
-      "rating": -0.105
-    },
-    {
-      "ranking_id": 647,
-      "season_id": "s31_vendettas",
-      "rating": -0.105
-    },
-    {
-      "ranking_id": 648,
-      "season_id": "s31_vendettas",
-      "rating": 0.045
-    },
-    {
-      "ranking_id": 649,
-      "season_id": "s31_vendettas",
-      "rating": 0.036
-    },
-    {
-      "ranking_id": 650,
-      "season_id": "s31_vendettas",
-      "rating": 0.05
-    },
-    {
-      "ranking_id": 651,
-      "season_id": "s31_vendettas",
-      "rating": 0.046
-    },
-    {
-      "ranking_id": 652,
-      "season_id": "s31_vendettas",
-      "rating": 0.034
-    },
-    {
-      "ranking_id": 653,
-      "season_id": "s31_vendettas",
-      "rating": 0.034
-    },
-    {
-      "ranking_id": 654,
-      "season_id": "s31_vendettas",
-      "rating": 0.033
-    },
-    {
-      "ranking_id": 655,
-      "season_id": "s31_vendettas",
-      "rating": 0.226
-    },
-    {
-      "ranking_id": 658,
-      "season_id": "s31_vendettas",
-      "rating": 0.199
-    },
-    {
-      "ranking_id": 661,
-      "season_id": "s31_vendettas",
-      "rating": 0.269
+      "rating": 0.26
     },
     {
       "ranking_id": 662,
       "season_id": "s31_vendettas",
-      "rating": 0.23
-    },
-    {
-      "ranking_id": 787,
-      "season_id": "s36_double_agents",
-      "rating": 0.44
-    },
-    {
-      "ranking_id": 788,
-      "season_id": "s36_double_agents",
-      "rating": 0.355
-    },
-    {
-      "ranking_id": 789,
-      "season_id": "s36_double_agents",
-      "rating": 0.266
-    },
-    {
-      "ranking_id": 790,
-      "season_id": "s36_double_agents",
-      "rating": 0.209
-    },
-    {
-      "ranking_id": 791,
-      "season_id": "s36_double_agents",
-      "rating": 0.173
-    },
-    {
-      "ranking_id": 792,
-      "season_id": "s36_double_agents",
-      "rating": 0.105
-    },
-    {
-      "ranking_id": 793,
-      "season_id": "s36_double_agents",
-      "rating": -0.067
-    },
-    {
-      "ranking_id": 794,
-      "season_id": "s36_double_agents",
-      "rating": -0.111
-    },
-    {
-      "ranking_id": 795,
-      "season_id": "s36_double_agents",
-      "rating": -0.152
-    },
-    {
-      "ranking_id": 796,
-      "season_id": "s36_double_agents",
-      "rating": -0.177
-    },
-    {
-      "ranking_id": 797,
-      "season_id": "s36_double_agents",
-      "rating": -0.198
-    },
-    {
-      "ranking_id": 798,
-      "season_id": "s36_double_agents",
-      "rating": -0.216
-    },
-    {
-      "ranking_id": 799,
-      "season_id": "s36_double_agents",
-      "rating": -0.214
-    },
-    {
-      "ranking_id": 800,
-      "season_id": "s36_double_agents",
-      "rating": -0.239
-    },
-    {
-      "ranking_id": 802,
-      "season_id": "s36_double_agents",
-      "rating": -0.239
+      "rating": 0.45
     },
     {
       "ranking_id": 803,
       "season_id": "s36_double_agents",
-      "rating": -0.283
+      "rating": -0.386
     }
   ]
 }

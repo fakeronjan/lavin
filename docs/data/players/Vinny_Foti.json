@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.677,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.23,
-    "active_season_id": "s25_free_agents",
+    "peak_rating": -0.178,
+    "peak_season_id": "s21_rivals",
+    "active_rating": -0.367,
+    "active_season_id": "s24_rivals_ii",
     "n_seasons": 3,
-    "n_snapshots": 165,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 3,
@@ -27,7 +27,7 @@
       "finish_episode": "What's Love Got to Do with It?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.501,
+      "rating_at_end": -0.498,
       "partner": "Sarah Rice",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Karma's a Bitch",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": -0.257,
+      "rating_at_end": -0.276,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -70,314 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 307,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.677
-    },
-    {
-      "ranking_id": 308,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.042
-    },
-    {
-      "ranking_id": 309,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.043
-    },
-    {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.066
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.065
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.026
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.02
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.027
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.033
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.04
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.03
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.026
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.001
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.013
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.013
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.009
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.009
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.006
-    },
-    {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
       "rating": -0.199
     },
     {
-      "ranking_id": 336,
-      "season_id": "s20_cutthroat",
-      "rating": -0.15
-    },
-    {
-      "ranking_id": 337,
-      "season_id": "s20_cutthroat",
-      "rating": -0.181
-    },
-    {
-      "ranking_id": 338,
-      "season_id": "s20_cutthroat",
-      "rating": -0.154
-    },
-    {
-      "ranking_id": 339,
-      "season_id": "s20_cutthroat",
-      "rating": -0.154
-    },
-    {
-      "ranking_id": 340,
-      "season_id": "s20_cutthroat",
-      "rating": -0.157
-    },
-    {
-      "ranking_id": 341,
-      "season_id": "s20_cutthroat",
-      "rating": -0.157
-    },
-    {
-      "ranking_id": 342,
-      "season_id": "s20_cutthroat",
-      "rating": -0.111
-    },
-    {
-      "ranking_id": 343,
-      "season_id": "s20_cutthroat",
-      "rating": -0.129
-    },
-    {
-      "ranking_id": 344,
-      "season_id": "s20_cutthroat",
-      "rating": -0.137
-    },
-    {
-      "ranking_id": 345,
-      "season_id": "s20_cutthroat",
-      "rating": -0.13
-    },
-    {
-      "ranking_id": 346,
-      "season_id": "s20_cutthroat",
-      "rating": -0.126
-    },
-    {
-      "ranking_id": 347,
-      "season_id": "s20_cutthroat",
-      "rating": -0.092
-    },
-    {
-      "ranking_id": 348,
-      "season_id": "s20_cutthroat",
-      "rating": -0.109
-    },
-    {
-      "ranking_id": 349,
-      "season_id": "s20_cutthroat",
-      "rating": -0.096
-    },
-    {
-      "ranking_id": 350,
-      "season_id": "s20_cutthroat",
-      "rating": -0.111
-    },
-    {
-      "ranking_id": 351,
-      "season_id": "s20_cutthroat",
-      "rating": -0.101
-    },
-    {
-      "ranking_id": 353,
-      "season_id": "s20_cutthroat",
-      "rating": -0.099
-    },
-    {
       "ranking_id": 354,
       "season_id": "s20_cutthroat",
-      "rating": -0.257
-    },
-    {
-      "ranking_id": 388,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.146
-    },
-    {
-      "ranking_id": 389,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.146
-    },
-    {
-      "ranking_id": 390,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.123
-    },
-    {
-      "ranking_id": 392,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.16
-    },
-    {
-      "ranking_id": 393,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.128
-    },
-    {
-      "ranking_id": 394,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.128
-    },
-    {
-      "ranking_id": 396,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.151
-    },
-    {
-      "ranking_id": 397,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.364
-    },
-    {
-      "ranking_id": 398,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.333
-    },
-    {
-      "ranking_id": 400,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.363
-    },
-    {
-      "ranking_id": 402,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.366
-    },
-    {
-      "ranking_id": 404,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.394
-    },
-    {
-      "ranking_id": 405,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.366
-    },
-    {
-      "ranking_id": 406,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.375
-    },
-    {
-      "ranking_id": 408,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.379
-    },
-    {
-      "ranking_id": 410,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.352
-    },
-    {
-      "ranking_id": 411,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.352
-    },
-    {
-      "ranking_id": 412,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.361
-    },
-    {
-      "ranking_id": 413,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.374
-    },
-    {
-      "ranking_id": 414,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.388
-    },
-    {
-      "ranking_id": 416,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.438
-    },
-    {
-      "ranking_id": 417,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.455
-    },
-    {
-      "ranking_id": 418,
-      "season_id": "s22_battle_of_the_exes",
-      "rating": -0.464
+      "rating": -0.276
     },
     {
       "ranking_id": 420,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.501
+      "rating": -0.498
     }
   ]
 }

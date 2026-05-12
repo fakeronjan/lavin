@@ -3,13 +3,13 @@
   "safe_name": "Antoine_de_Bouverie",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.787,
-    "peak_season_id": "s07_the_gauntlet",
-    "active_rating": 0.15,
-    "active_season_id": "s11_the_gauntlet_2",
+    "era_rating": 0.3,
+    "peak_rating": 0.335,
+    "peak_season_id": "s06_battle_of_the_sexes",
+    "active_rating": 0.162,
+    "active_season_id": "s10_the_inferno_ii",
     "n_seasons": 1,
-    "n_snapshots": 100,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Maximum Velocity",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.523,
+      "rating_at_end": 0.335,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,69 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.149
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.215
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.226
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.275
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.341
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.374
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.371
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.354
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.398
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.391
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.643
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.643
-    },
-    {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.523
+      "rating": 0.335
     }
   ]
 }

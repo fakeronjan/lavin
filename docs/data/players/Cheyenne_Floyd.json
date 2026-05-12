@@ -3,13 +3,13 @@
   "safe_name": "Cheyenne_Floyd",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.33,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.115,
-    "active_season_id": "s32_final_reckoning",
+    "era_rating": 0.3,
+    "peak_rating": 0.417,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": 0.359,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 1,
-    "n_snapshots": 82,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Split Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.035,
+      "rating_at_end": 0.348,
       "partner": "Devin Walker",
       "partners_history": [],
       "team": "",
@@ -36,74 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 589,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.924
-    },
-    {
-      "ranking_id": 590,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.928
-    },
-    {
-      "ranking_id": 591,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.975
-    },
-    {
-      "ranking_id": 593,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.23
-    },
-    {
-      "ranking_id": 594,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.205
-    },
-    {
-      "ranking_id": 595,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.205
-    },
-    {
-      "ranking_id": 597,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.178
-    },
-    {
-      "ranking_id": 600,
-      "season_id": "s28_rivals_iii",
-      "rating": -0.183
-    },
-    {
-      "ranking_id": 601,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.102
-    },
-    {
-      "ranking_id": 604,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.135
-    },
-    {
-      "ranking_id": 605,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.3
-    },
-    {
-      "ranking_id": 606,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.306
-    },
-    {
-      "ranking_id": 607,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.33
-    },
-    {
       "ranking_id": 609,
       "season_id": "s28_rivals_iii",
-      "rating": -0.035
+      "rating": 0.348
     }
   ]
 }

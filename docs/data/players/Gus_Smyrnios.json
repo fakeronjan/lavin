@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.35,
+    "peak_rating": -0.122,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -1.387,
-    "active_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.457,
+    "active_season_id": "s36_double_agents",
     "n_seasons": 1,
-    "n_snapshots": 82,
+    "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Liar, Liar",
       "elim_position": 5,
       "elim_total": 7,
-      "rating_at_end": -0.222,
+      "rating_at_end": -0.122,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -36,84 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 714,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.53
-    },
-    {
-      "ranking_id": 715,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.443
-    },
-    {
-      "ranking_id": 719,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.515
-    },
-    {
-      "ranking_id": 721,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.512
-    },
-    {
-      "ranking_id": 723,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.322
-    },
-    {
-      "ranking_id": 727,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.35
-    },
-    {
-      "ranking_id": 730,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.077
-    },
-    {
-      "ranking_id": 731,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.128
-    },
-    {
-      "ranking_id": 733,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 735,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.348
-    },
-    {
-      "ranking_id": 736,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.347
-    },
-    {
-      "ranking_id": 737,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.364
-    },
-    {
-      "ranking_id": 738,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.353
-    },
-    {
-      "ranking_id": 739,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.365
-    },
-    {
-      "ranking_id": 742,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": -0.352
-    },
-    {
       "ranking_id": 743,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.222
+      "rating": -0.122
     }
   ]
 }

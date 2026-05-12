@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.373,
+    "peak_rating": -0.057,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.64,
-    "active_season_id": "s24_rivals_ii",
+    "active_rating": -0.595,
+    "active_season_id": "s23_battle_of_the_seasons_2012",
     "n_seasons": 2,
-    "n_snapshots": 133,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 2,
@@ -27,7 +27,7 @@
       "finish_episode": "Ill Communication",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": -0.414,
+      "rating_at_end": -0.412,
       "partner": "Sarah Rice",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Meats 'N Potatoes",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.027,
+      "rating_at_end": -0.057,
       "partner": "Brandon Nelson",
       "partners_history": [],
       "team": "",
@@ -53,254 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 311,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.539
-    },
-    {
-      "ranking_id": 314,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": -0.543
-    },
-    {
-      "ranking_id": 315,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.373
-    },
-    {
-      "ranking_id": 316,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.334
-    },
-    {
-      "ranking_id": 317,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.353
-    },
-    {
-      "ranking_id": 319,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.32
-    },
-    {
-      "ranking_id": 322,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.317
-    },
-    {
-      "ranking_id": 323,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.213
-    },
-    {
-      "ranking_id": 324,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.182
-    },
-    {
-      "ranking_id": 325,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.183
-    },
-    {
-      "ranking_id": 327,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.123
-    },
-    {
-      "ranking_id": 328,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.123
-    },
-    {
-      "ranking_id": 329,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.164
-    },
-    {
-      "ranking_id": 331,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.057
-    },
-    {
-      "ranking_id": 332,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.03
-    },
-    {
-      "ranking_id": 333,
-      "season_id": "s19_fresh_meat_ii",
-      "rating": 0.013
-    },
-    {
       "ranking_id": 335,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.027
-    },
-    {
-      "ranking_id": 355,
-      "season_id": "s21_rivals",
-      "rating": -0.307
-    },
-    {
-      "ranking_id": 356,
-      "season_id": "s21_rivals",
-      "rating": -0.277
-    },
-    {
-      "ranking_id": 357,
-      "season_id": "s21_rivals",
-      "rating": -0.227
-    },
-    {
-      "ranking_id": 358,
-      "season_id": "s21_rivals",
-      "rating": -0.263
-    },
-    {
-      "ranking_id": 359,
-      "season_id": "s21_rivals",
-      "rating": -0.287
-    },
-    {
-      "ranking_id": 360,
-      "season_id": "s21_rivals",
-      "rating": -0.287
-    },
-    {
-      "ranking_id": 361,
-      "season_id": "s21_rivals",
-      "rating": -0.287
-    },
-    {
-      "ranking_id": 362,
-      "season_id": "s21_rivals",
-      "rating": -0.287
-    },
-    {
-      "ranking_id": 363,
-      "season_id": "s21_rivals",
-      "rating": -0.299
-    },
-    {
-      "ranking_id": 364,
-      "season_id": "s21_rivals",
-      "rating": -0.3
-    },
-    {
-      "ranking_id": 365,
-      "season_id": "s21_rivals",
-      "rating": -0.292
-    },
-    {
-      "ranking_id": 366,
-      "season_id": "s21_rivals",
-      "rating": -0.292
-    },
-    {
-      "ranking_id": 367,
-      "season_id": "s21_rivals",
-      "rating": -0.292
-    },
-    {
-      "ranking_id": 368,
-      "season_id": "s21_rivals",
-      "rating": -0.292
-    },
-    {
-      "ranking_id": 369,
-      "season_id": "s21_rivals",
-      "rating": -0.31
-    },
-    {
-      "ranking_id": 370,
-      "season_id": "s21_rivals",
-      "rating": -0.363
-    },
-    {
-      "ranking_id": 371,
-      "season_id": "s21_rivals",
-      "rating": -0.451
-    },
-    {
-      "ranking_id": 372,
-      "season_id": "s21_rivals",
-      "rating": -0.318
-    },
-    {
-      "ranking_id": 373,
-      "season_id": "s21_rivals",
-      "rating": -0.339
-    },
-    {
-      "ranking_id": 374,
-      "season_id": "s21_rivals",
-      "rating": -0.276
-    },
-    {
-      "ranking_id": 375,
-      "season_id": "s21_rivals",
-      "rating": -0.3
-    },
-    {
-      "ranking_id": 376,
-      "season_id": "s21_rivals",
-      "rating": -0.3
-    },
-    {
-      "ranking_id": 377,
-      "season_id": "s21_rivals",
-      "rating": -0.272
-    },
-    {
-      "ranking_id": 378,
-      "season_id": "s21_rivals",
-      "rating": -0.293
-    },
-    {
-      "ranking_id": 379,
-      "season_id": "s21_rivals",
-      "rating": -0.386
-    },
-    {
-      "ranking_id": 380,
-      "season_id": "s21_rivals",
-      "rating": -0.442
-    },
-    {
-      "ranking_id": 381,
-      "season_id": "s21_rivals",
-      "rating": -0.49
-    },
-    {
-      "ranking_id": 382,
-      "season_id": "s21_rivals",
-      "rating": -0.515
-    },
-    {
-      "ranking_id": 383,
-      "season_id": "s21_rivals",
-      "rating": -0.517
-    },
-    {
-      "ranking_id": 384,
-      "season_id": "s21_rivals",
-      "rating": -0.448
-    },
-    {
-      "ranking_id": 385,
-      "season_id": "s21_rivals",
-      "rating": -0.373
-    },
-    {
-      "ranking_id": 386,
-      "season_id": "s21_rivals",
-      "rating": -0.373
+      "rating": -0.057
     },
     {
       "ranking_id": 387,
       "season_id": "s21_rivals",
-      "rating": -0.414
+      "rating": -0.412
     }
   ]
 }

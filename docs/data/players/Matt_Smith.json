@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.63,
-    "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.523,
-    "active_season_id": "s12_fresh_meat",
+    "peak_rating": -0.083,
+    "peak_season_id": "s10_the_inferno_ii",
+    "active_rating": -0.143,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 1,
-    "n_snapshots": 92,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Heavyweight Hustle",
       "elim_position": 2,
       "elim_total": 6,
-      "rating_at_end": -0.015,
+      "rating_at_end": -0.275,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -36,54 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 62,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.545
-    },
-    {
-      "ranking_id": 63,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.563
-    },
-    {
-      "ranking_id": 64,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.596
-    },
-    {
-      "ranking_id": 65,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.628
-    },
-    {
-      "ranking_id": 66,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.627
-    },
-    {
-      "ranking_id": 67,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.615
-    },
-    {
-      "ranking_id": 68,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.617
-    },
-    {
-      "ranking_id": 69,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.626
-    },
-    {
-      "ranking_id": 70,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.63
-    },
-    {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.015
+      "rating": -0.275
     }
   ]
 }

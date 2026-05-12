@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.399,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.449,
-    "active_season_id": "s39_battle_for_a_new_champion",
+    "peak_rating": -0.61,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": -0.61,
+    "active_season_id": "s38_ride_or_dies",
     "n_seasons": 1,
-    "n_snapshots": 80,
+    "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Duplicity",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.718,
+      "rating_at_end": -0.739,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,84 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 787,
-      "season_id": "s36_double_agents",
-      "rating": -0.663
-    },
-    {
-      "ranking_id": 788,
-      "season_id": "s36_double_agents",
-      "rating": -0.69
-    },
-    {
-      "ranking_id": 789,
-      "season_id": "s36_double_agents",
-      "rating": -0.687
-    },
-    {
-      "ranking_id": 790,
-      "season_id": "s36_double_agents",
-      "rating": -0.702
-    },
-    {
-      "ranking_id": 791,
-      "season_id": "s36_double_agents",
-      "rating": -0.656
-    },
-    {
-      "ranking_id": 792,
-      "season_id": "s36_double_agents",
-      "rating": -0.67
-    },
-    {
-      "ranking_id": 793,
-      "season_id": "s36_double_agents",
-      "rating": -0.827
-    },
-    {
-      "ranking_id": 794,
-      "season_id": "s36_double_agents",
-      "rating": -0.851
-    },
-    {
-      "ranking_id": 795,
-      "season_id": "s36_double_agents",
-      "rating": -0.851
-    },
-    {
-      "ranking_id": 796,
-      "season_id": "s36_double_agents",
-      "rating": -0.831
-    },
-    {
-      "ranking_id": 797,
-      "season_id": "s36_double_agents",
-      "rating": -0.81
-    },
-    {
-      "ranking_id": 798,
-      "season_id": "s36_double_agents",
-      "rating": -0.789
-    },
-    {
-      "ranking_id": 799,
-      "season_id": "s36_double_agents",
-      "rating": -0.748
-    },
-    {
-      "ranking_id": 800,
-      "season_id": "s36_double_agents",
-      "rating": -0.742
-    },
-    {
-      "ranking_id": 802,
-      "season_id": "s36_double_agents",
-      "rating": -0.742
-    },
-    {
       "ranking_id": 803,
       "season_id": "s36_double_agents",
-      "rating": -0.718
+      "rating": -0.739
     }
   ]
 }

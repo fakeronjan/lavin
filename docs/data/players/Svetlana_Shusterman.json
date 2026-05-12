@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.9,
-    "peak_rating": 1.155,
+    "peak_rating": 0.938,
     "peak_season_id": "s13_the_duel",
-    "active_rating": 0.382,
-    "active_season_id": "s19_fresh_meat_ii",
+    "active_rating": 0.558,
+    "active_season_id": "s18_the_ruins",
     "n_seasons": 1,
-    "n_snapshots": 98,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 3,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "The Big Payoff",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.886,
+      "rating_at_end": 0.938,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,69 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 216,
-      "season_id": "s13_the_duel",
-      "rating": -0.749
-    },
-    {
-      "ranking_id": 217,
-      "season_id": "s13_the_duel",
-      "rating": 0.469
-    },
-    {
-      "ranking_id": 218,
-      "season_id": "s13_the_duel",
-      "rating": 0.45
-    },
-    {
-      "ranking_id": 219,
-      "season_id": "s13_the_duel",
-      "rating": 0.886
-    },
-    {
-      "ranking_id": 220,
-      "season_id": "s13_the_duel",
-      "rating": 0.809
-    },
-    {
-      "ranking_id": 221,
-      "season_id": "s13_the_duel",
-      "rating": 0.779
-    },
-    {
-      "ranking_id": 222,
-      "season_id": "s13_the_duel",
-      "rating": 0.713
-    },
-    {
-      "ranking_id": 223,
-      "season_id": "s13_the_duel",
-      "rating": 1.121
-    },
-    {
-      "ranking_id": 224,
-      "season_id": "s13_the_duel",
-      "rating": 1.141
-    },
-    {
-      "ranking_id": 225,
-      "season_id": "s13_the_duel",
-      "rating": 1.133
-    },
-    {
-      "ranking_id": 226,
-      "season_id": "s13_the_duel",
-      "rating": 1.14
-    },
-    {
-      "ranking_id": 227,
-      "season_id": "s13_the_duel",
-      "rating": 1.155
-    },
-    {
       "ranking_id": 228,
       "season_id": "s13_the_duel",
-      "rating": 0.886
+      "rating": 0.938
     }
   ]
 }
