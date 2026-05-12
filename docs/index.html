@@ -717,14 +717,24 @@ function renderGoat() {
       `;
     } else if (state.goatView === 'components') {
       // Component-breakdown view — Total + 4 isolation ERAs, sortable.
-      // Re-sort within the existing top-50-by-Total pool.
+      // Each cell also shows the player's share of THEIR OWN dimension
+      // sum (4 components only — Total isn't counted in the pie).
       const list = (state._goat.career[g] || []).slice()
         .sort((a, b) => (b[state.goatSort] ?? 0) - (a[state.goatSort] ?? 0));
       const dim = state.goatSort;
       const dimCell = (p, key) => {
         const v = p[key] ?? 0;
         const isCurrent = key === dim;
-        return `<td class="num${isCurrent ? ' sort-active' : ''}">${fmtEra(v)}</td>`;
+        // Compute % of player's dimension-sum (Total column shows no %)
+        let pct = '';
+        if (key !== 'era_rating') {
+          const sum = (p.era_daily ?? 0) + (p.era_elim ?? 0) + (p.era_within ?? 0) + (p.era_field ?? 0);
+          if (sum > 0) {
+            const p100 = Math.round((v / sum) * 100);
+            pct = `<div style="font-size:10px;color:#888">${p100}%</div>`;
+          }
+        }
+        return `<td class="num${isCurrent ? ' sort-active' : ''}">${fmtEra(v)}${pct}</td>`;
       };
       const rows = list.map(p => `
         <tr>
