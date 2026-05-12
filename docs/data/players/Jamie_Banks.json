@@ -3,7 +3,7 @@
   "safe_name": "Jamie_Banks",
   "gender": "M",
   "career": {
-    "era_rating": 4.6,
+    "era_rating": 2.3,
     "peak_rating": 1.327,
     "peak_season_id": "s27_battle_of_the_bloodlines",
     "active_rating": -0.831,
@@ -23,9 +23,14 @@
       "year": 2016,
       "label": "S28 Rivals III (2016)",
       "finish": "Eliminated in Let Sleeping Dogs Wake",
+      "finish_label": "Eliminated",
+      "finish_episode": "Let Sleeping Dogs Wake",
+      "elim_position": 3,
+      "elim_total": 6,
       "rating_at_end": 0.937,
       "partner": "KellyAnne Judd",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s27_battle_of_the_bloodlines",
@@ -34,9 +39,14 @@
       "year": 2015,
       "label": "S27 Battle of the Bloodlines (2015)",
       "finish": "Winners in Family Matters",
+      "finish_label": "Champion",
+      "finish_episode": "Family Matters",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 1.327,
       "partner": "Cara Maria Sorbello",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -184,306 +194,6 @@
       "ranking_id": 581,
       "season_id": "s28_rivals_iii",
       "rating": 0.937
-    },
-    {
-      "ranking_id": 582,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.923
-    },
-    {
-      "ranking_id": 583,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 1.067
-    },
-    {
-      "ranking_id": 584,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 1.083
-    },
-    {
-      "ranking_id": 585,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 1.083
-    },
-    {
-      "ranking_id": 586,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 1.022
-    },
-    {
-      "ranking_id": 587,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.786
-    },
-    {
-      "ranking_id": 588,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.804
-    },
-    {
-      "ranking_id": 589,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.816
-    },
-    {
-      "ranking_id": 590,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.816
-    },
-    {
-      "ranking_id": 591,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.816
-    },
-    {
-      "ranking_id": 592,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.794
-    },
-    {
-      "ranking_id": 593,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.794
-    },
-    {
-      "ranking_id": 594,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.792
-    },
-    {
-      "ranking_id": 595,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.786
-    },
-    {
-      "ranking_id": 596,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.757
-    },
-    {
-      "ranking_id": 598,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.849
-    },
-    {
-      "ranking_id": 599,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.849
-    },
-    {
-      "ranking_id": 600,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.829
-    },
-    {
-      "ranking_id": 601,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.816
-    },
-    {
-      "ranking_id": 602,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.816
-    },
-    {
-      "ranking_id": 603,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.824
-    },
-    {
-      "ranking_id": 604,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.838
-    },
-    {
-      "ranking_id": 605,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.838
-    },
-    {
-      "ranking_id": 606,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.838
-    },
-    {
-      "ranking_id": 607,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.812
-    },
-    {
-      "ranking_id": 608,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.807
-    },
-    {
-      "ranking_id": 609,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.807
-    },
-    {
-      "ranking_id": 610,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.797
-    },
-    {
-      "ranking_id": 611,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.797
-    },
-    {
-      "ranking_id": 613,
-      "season_id": "s30_xxx_dirty_30",
-      "rating": 0.769
-    },
-    {
-      "ranking_id": 614,
-      "season_id": "s31_vendettas",
-      "rating": 0.769
-    },
-    {
-      "ranking_id": 615,
-      "season_id": "s31_vendettas",
-      "rating": 0.937
-    },
-    {
-      "ranking_id": 616,
-      "season_id": "s31_vendettas",
-      "rating": 0.953
-    },
-    {
-      "ranking_id": 617,
-      "season_id": "s31_vendettas",
-      "rating": 0.968
-    },
-    {
-      "ranking_id": 618,
-      "season_id": "s31_vendettas",
-      "rating": 0.932
-    },
-    {
-      "ranking_id": 619,
-      "season_id": "s31_vendettas",
-      "rating": 0.919
-    },
-    {
-      "ranking_id": 620,
-      "season_id": "s31_vendettas",
-      "rating": 0.919
-    },
-    {
-      "ranking_id": 621,
-      "season_id": "s31_vendettas",
-      "rating": 0.95
-    },
-    {
-      "ranking_id": 622,
-      "season_id": "s31_vendettas",
-      "rating": 0.954
-    },
-    {
-      "ranking_id": 623,
-      "season_id": "s31_vendettas",
-      "rating": 0.935
-    },
-    {
-      "ranking_id": 624,
-      "season_id": "s31_vendettas",
-      "rating": 0.924
-    },
-    {
-      "ranking_id": 625,
-      "season_id": "s31_vendettas",
-      "rating": 0.917
-    },
-    {
-      "ranking_id": 626,
-      "season_id": "s31_vendettas",
-      "rating": 0.922
-    },
-    {
-      "ranking_id": 629,
-      "season_id": "s31_vendettas",
-      "rating": 0.867
-    },
-    {
-      "ranking_id": 631,
-      "season_id": "s31_vendettas",
-      "rating": 0.872
-    },
-    {
-      "ranking_id": 632,
-      "season_id": "s31_vendettas",
-      "rating": 0.849
-    },
-    {
-      "ranking_id": 633,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.817
-    },
-    {
-      "ranking_id": 635,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.829
-    },
-    {
-      "ranking_id": 637,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.835
-    },
-    {
-      "ranking_id": 640,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.765
-    },
-    {
-      "ranking_id": 641,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.73
-    },
-    {
-      "ranking_id": 643,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.253
-    },
-    {
-      "ranking_id": 645,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.274
-    },
-    {
-      "ranking_id": 646,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.292
-    },
-    {
-      "ranking_id": 647,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.364
-    },
-    {
-      "ranking_id": 648,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.366
-    },
-    {
-      "ranking_id": 649,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.354
-    },
-    {
-      "ranking_id": 650,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.365
-    },
-    {
-      "ranking_id": 652,
-      "season_id": "s32_final_reckoning",
-      "rating": -0.825
-    },
-    {
-      "ranking_id": 653,
-      "season_id": "s32_final_reckoning",
-      "rating": -0.831
     }
   ]
 }

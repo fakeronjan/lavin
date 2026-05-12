@@ -61,15 +61,26 @@ def main():
         [["player", "active_rating", "active_ranking_id", "active_season_id"]]
     )
 
-    # ERA — sum of POSITIVE end-of-season ratings across career.
-    # Reads cleaner than per-snapshot cumulative: each season contributes
-    # at most one data point (the player's rating after the season ended).
-    # Total ERA scale is intuitive: a +1.0 rating × 10 seasons = ERA 10.
+    # ERA — sum of POSITIVE end-of-season ratings across the seasons the
+    # player actually PLAYED. Critical filter: by default the WLS solver
+    # publishes a rating at every snapshot where a player's events are
+    # within the rolling window (so a player keeps "earning" ratings for
+    # ~6 seasons after their last appearance as their events age out).
+    # Without this filter we'd accumulate "ghost ERA" from seasons the
+    # player wasn't even cast in.
+    import pandas as _pd
+    apps = _pd.read_csv(DATA / "appearances.csv")
+    played = set(zip(apps["player"].astype(str), apps["season_id"].astype(str)))
+
     end_of_season = (
         ratings.sort_values("ranking_id")
         .groupby(["player", "season_id"]).tail(1)
     )
-    pos_eos = end_of_season[end_of_season["rating"] > 0]
+    # Keep only EOS rows for (player, season) the player actually played
+    mask = [(p, s) in played for p, s in zip(end_of_season["player"].astype(str),
+                                              end_of_season["season_id"].astype(str))]
+    eos_played = end_of_season[mask]
+    pos_eos = eos_played[eos_played["rating"] > 0]
     era_pos = (
         pos_eos.groupby("player")["rating"].sum()
         .rename("era_rating")

@@ -3,7 +3,7 @@
   "safe_name": "Jay_Starrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
+    "era_rating": 0.4,
     "peak_rating": 0.977,
     "peak_season_id": "s35_total_madness",
     "active_rating": -0.341,
@@ -23,9 +23,14 @@
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": 4,
+      "elim_total": 4,
       "rating_at_end": -0.082,
-      "partner": "Emanuel Neagu",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s38_ride_or_dies",
@@ -34,9 +39,14 @@
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": 8,
+      "elim_total": 12,
       "rating_at_end": -0.186,
       "partner": "Michele Fitzgerald",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s36_double_agents",
@@ -45,9 +55,14 @@
       "year": 2020,
       "label": "S36 Double Agents (2020)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.125,
-      "partner": "CT Tamburello",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s35_total_madness",
@@ -56,9 +71,14 @@
       "year": 2020,
       "label": "S35 Total Madness (2020)",
       "finish": "Medically Disqualified in Love Will Tear Us Apart",
+      "finish_label": "Medical DQ",
+      "finish_episode": "Love Will Tear Us Apart",
+      "elim_position": 3,
+      "elim_total": 6,
       "rating_at_end": 0.267,
-      "partner": "Johnny Bananas",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -236,141 +256,6 @@
       "ranking_id": 766,
       "season_id": "s36_double_agents",
       "rating": 0.125
-    },
-    {
-      "ranking_id": 767,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.03
-    },
-    {
-      "ranking_id": 768,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.03
-    },
-    {
-      "ranking_id": 769,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.03
-    },
-    {
-      "ranking_id": 771,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.018
-    },
-    {
-      "ranking_id": 774,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.018
-    },
-    {
-      "ranking_id": 775,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.038
-    },
-    {
-      "ranking_id": 776,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.059
-    },
-    {
-      "ranking_id": 777,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.046
-    },
-    {
-      "ranking_id": 778,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.054
-    },
-    {
-      "ranking_id": 780,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.084
-    },
-    {
-      "ranking_id": 781,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.043
-    },
-    {
-      "ranking_id": 782,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.044
-    },
-    {
-      "ranking_id": 783,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.041
-    },
-    {
-      "ranking_id": 784,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.041
-    },
-    {
-      "ranking_id": 786,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.032
-    },
-    {
-      "ranking_id": 789,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.019
-    },
-    {
-      "ranking_id": 790,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.019
-    },
-    {
-      "ranking_id": 791,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.064
-    },
-    {
-      "ranking_id": 792,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.064
-    },
-    {
-      "ranking_id": 793,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.049
-    },
-    {
-      "ranking_id": 794,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.048
-    },
-    {
-      "ranking_id": 795,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.057
-    },
-    {
-      "ranking_id": 796,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.057
-    },
-    {
-      "ranking_id": 797,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.026
-    },
-    {
-      "ranking_id": 798,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.024
-    },
-    {
-      "ranking_id": 799,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.037
-    },
-    {
-      "ranking_id": 800,
-      "season_id": "s37_spies_lies_allies",
-      "rating": 0.128
     },
     {
       "ranking_id": 801,
@@ -576,241 +461,6 @@
       "ranking_id": 856,
       "season_id": "s39_battle_for_a_new_champion",
       "rating": -0.082
-    },
-    {
-      "ranking_id": 857,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.07
-    },
-    {
-      "ranking_id": 858,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.072
-    },
-    {
-      "ranking_id": 859,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.072
-    },
-    {
-      "ranking_id": 860,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.101
-    },
-    {
-      "ranking_id": 861,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.051
-    },
-    {
-      "ranking_id": 862,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.051
-    },
-    {
-      "ranking_id": 863,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.005
-    },
-    {
-      "ranking_id": 864,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.037
-    },
-    {
-      "ranking_id": 865,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.035
-    },
-    {
-      "ranking_id": 866,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": 0.025
-    },
-    {
-      "ranking_id": 867,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.016
-    },
-    {
-      "ranking_id": 868,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.012
-    },
-    {
-      "ranking_id": 869,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.031
-    },
-    {
-      "ranking_id": 870,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.012
-    },
-    {
-      "ranking_id": 871,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.048
-    },
-    {
-      "ranking_id": 872,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.046
-    },
-    {
-      "ranking_id": 873,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.036
-    },
-    {
-      "ranking_id": 874,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.035
-    },
-    {
-      "ranking_id": 875,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.056
-    },
-    {
-      "ranking_id": 876,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.054
-    },
-    {
-      "ranking_id": 877,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.054
-    },
-    {
-      "ranking_id": 878,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.054
-    },
-    {
-      "ranking_id": 879,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.056
-    },
-    {
-      "ranking_id": 880,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.05
-    },
-    {
-      "ranking_id": 881,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.118
-    },
-    {
-      "ranking_id": 882,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.12
-    },
-    {
-      "ranking_id": 883,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.114
-    },
-    {
-      "ranking_id": 884,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.114
-    },
-    {
-      "ranking_id": 885,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.109
-    },
-    {
-      "ranking_id": 886,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.109
-    },
-    {
-      "ranking_id": 887,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.099
-    },
-    {
-      "ranking_id": 888,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.102
-    },
-    {
-      "ranking_id": 889,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.128
-    },
-    {
-      "ranking_id": 890,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.18
-    },
-    {
-      "ranking_id": 891,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.151
-    },
-    {
-      "ranking_id": 892,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.018
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.0
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.127
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.313
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.364
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.352
-    },
-    {
-      "ranking_id": 898,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.357
-    },
-    {
-      "ranking_id": 899,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.321
-    },
-    {
-      "ranking_id": 902,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.333
-    },
-    {
-      "ranking_id": 903,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.301
-    },
-    {
-      "ranking_id": 906,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.313
-    },
-    {
-      "ranking_id": 907,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.341
     }
   ]
 }

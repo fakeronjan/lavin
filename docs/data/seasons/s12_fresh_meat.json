@@ -12,8 +12,13 @@
         "rating": 1.054,
         "n_events": 25,
         "finish": "Runners-Up in And the Winners Are...",
+        "finish_label": "Runner-up",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Tina Barta",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 2,
@@ -21,8 +26,13 @@
         "rating": 0.769,
         "n_events": 9,
         "finish": "Eliminated in Game Over?",
+        "finish_label": "Eliminated",
+        "finish_episode": "Game Over?",
+        "elim_position": 3,
+        "elim_total": 5,
         "partner": "Katie Cooley",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 3,
@@ -30,8 +40,13 @@
         "rating": 0.739,
         "n_events": 60,
         "finish": "Winners in And the Winners Are...",
+        "finish_label": "Champion",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Aviv Melmed",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 4,
@@ -39,8 +54,13 @@
         "rating": 0.66,
         "n_events": 26,
         "finish": "Eliminated in Kenny and Tina's Triumph",
+        "finish_label": "Eliminated",
+        "finish_episode": "Kenny and Tina's Triumph",
+        "elim_position": 5,
+        "elim_total": 5,
         "partner": "Chanda Sneed",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 5,
@@ -48,8 +68,13 @@
         "rating": 0.349,
         "n_events": 17,
         "finish": "Third Place in And the Winners Are...",
+        "finish_label": "3rd",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Casey Cooper",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 6,
@@ -57,8 +82,13 @@
         "rating": 0.219,
         "n_events": 9,
         "finish": "Eliminated in Jailbirds",
+        "finish_label": "Eliminated",
+        "finish_episode": "Jailbirds",
+        "elim_position": 2,
+        "elim_total": 5,
         "partner": "Melinda Collins",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 7,
@@ -66,8 +96,13 @@
         "rating": 0.174,
         "n_events": 12,
         "finish": "Eliminated in Jump Down Under",
+        "finish_label": "Eliminated",
+        "finish_episode": "Jump Down Under",
+        "elim_position": 4,
+        "elim_total": 5,
         "partner": "Linette Gallo",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 8,
@@ -75,8 +110,13 @@
         "rating": 0.039,
         "n_events": 120,
         "finish": "Eliminated in The Death Roll",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Death Roll",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Diem Brown",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 9,
@@ -84,8 +124,13 @@
         "rating": -0.188,
         "n_events": 8,
         "finish": "Medically Disqualified in Money or Friendship?",
+        "finish_label": "Medical DQ",
+        "finish_episode": "Money or Friendship?",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Coral Smith",
-        "team": "nan"
+        "team": "",
+        "forced_exit": true
       },
       {
         "rank": 10,
@@ -93,8 +138,13 @@
         "rating": -0.56,
         "n_events": 9,
         "finish": "Eliminated in Anxieties Run High",
+        "finish_label": "Eliminated",
+        "finish_episode": "Anxieties Run High",
+        "elim_position": 1,
+        "elim_total": 5,
         "partner": "Evelyn Smith",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       }
     ],
     "F": [
@@ -104,8 +154,13 @@
         "rating": 0.769,
         "n_events": 35,
         "finish": "Winners in And the Winners Are...",
+        "finish_label": "Champion",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Darrell Taylor",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 2,
@@ -113,8 +168,13 @@
         "rating": 0.454,
         "n_events": 23,
         "finish": "Medically Disqualified in Money or Friendship?",
+        "finish_label": "Medical DQ",
+        "finish_episode": "Money or Friendship?",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Evan Starkman",
-        "team": "nan"
+        "team": "",
+        "forced_exit": true
       },
       {
         "rank": 3,
@@ -122,8 +182,13 @@
         "rating": 0.422,
         "n_events": 19,
         "finish": "Third Place in And the Winners Are...",
+        "finish_label": "3rd",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Wes Bergmann",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 4,
@@ -131,8 +196,13 @@
         "rating": 0.216,
         "n_events": 9,
         "finish": "Eliminated in Jailbirds",
+        "finish_label": "Eliminated",
+        "finish_episode": "Jailbirds",
+        "elim_position": 2,
+        "elim_total": 5,
         "partner": "Ryan Kehoe",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 5,
@@ -140,8 +210,13 @@
         "rating": 0.022,
         "n_events": 33,
         "finish": "Runners-Up in And the Winners Are...",
+        "finish_label": "Runner-up",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Kenny Santucci",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 6,
@@ -149,8 +224,13 @@
         "rating": -0.375,
         "n_events": 37,
         "finish": "Eliminated in Game Over?",
+        "finish_label": "Eliminated",
+        "finish_episode": "Game Over?",
+        "elim_position": 5,
+        "elim_total": 5,
         "partner": "Big Easy Banks",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 7,
@@ -158,8 +238,13 @@
         "rating": -0.399,
         "n_events": 21,
         "finish": "Eliminated in Kayak Challenge",
+        "finish_label": "Eliminated",
+        "finish_episode": "Kayak Challenge",
+        "elim_position": 4,
+        "elim_total": 5,
         "partner": "Johnnie McBride",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 8,
@@ -167,8 +252,13 @@
         "rating": -0.563,
         "n_events": 9,
         "finish": "Eliminated in Anxieties Run High",
+        "finish_label": "Eliminated",
+        "finish_episode": "Anxieties Run High",
+        "elim_position": 1,
+        "elim_total": 5,
         "partner": "Danny Jamieson",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 9,
@@ -176,8 +266,13 @@
         "rating": -0.563,
         "n_events": 9,
         "finish": "Eliminated in Costume Extravaganza",
+        "finish_label": "Eliminated",
+        "finish_episode": "Costume Extravaganza",
+        "elim_position": 3,
+        "elim_total": 5,
         "partner": "Jesse Stark",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 10,
@@ -185,8 +280,13 @@
         "rating": -0.605,
         "n_events": 8,
         "finish": "Eliminated in The Death Roll",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Death Roll",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "Derrick Kosinski",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       }
     ]
   }

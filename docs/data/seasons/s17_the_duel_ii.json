@@ -12,8 +12,13 @@
         "rating": 0.753,
         "n_events": 91,
         "finish": "Eliminated in Duel-ality",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel-ality",
+        "elim_position": 8,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 2,
@@ -21,8 +26,13 @@
         "rating": 0.55,
         "n_events": 131,
         "finish": "Winner in Duel or Die",
+        "finish_label": "Champion",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 3,
@@ -30,8 +40,13 @@
         "rating": 0.331,
         "n_events": 123,
         "finish": "Runner-Up in Duel or Die",
+        "finish_label": "Runner-up",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 4,
@@ -39,8 +54,13 @@
         "rating": 0.218,
         "n_events": 30,
         "finish": "Eliminated in Duel or Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 5,
@@ -48,8 +68,13 @@
         "rating": 0.141,
         "n_events": 78,
         "finish": "Eliminated in Duel or Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel or Die",
+        "elim_position": 6,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 6,
@@ -57,8 +82,13 @@
         "rating": 0.113,
         "n_events": 97,
         "finish": "Eliminated in Dueling for Dunbar",
+        "finish_label": "Eliminated",
+        "finish_episode": "Dueling for Dunbar",
+        "elim_position": 3,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 7,
@@ -66,8 +96,13 @@
         "rating": 0.075,
         "n_events": 75,
         "finish": "Disqualified in Damned if You Duel...",
+        "finish_label": "Disqualified",
+        "finish_episode": "Damned if You Duel...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 8,
@@ -75,8 +110,13 @@
         "rating": 0.02,
         "n_events": 77,
         "finish": "Eliminated in If These Duels Could Talk",
+        "finish_label": "Eliminated",
+        "finish_episode": "If These Duels Could Talk",
+        "elim_position": 5,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 9,
@@ -84,8 +124,13 @@
         "rating": -0.004,
         "n_events": 90,
         "finish": "Disqualified in Damned if You Duel...",
+        "finish_label": "Disqualified",
+        "finish_episode": "Damned if You Duel...",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 10,
@@ -93,8 +138,13 @@
         "rating": -0.098,
         "n_events": 47,
         "finish": "Eliminated in Duel What You Gotta Duel",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel What You Gotta Duel",
+        "elim_position": 7,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 11,
@@ -102,8 +152,13 @@
         "rating": -0.103,
         "n_events": 131,
         "finish": "Eliminated in Duel Unto Others",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel Unto Others",
+        "elim_position": 9,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 12,
@@ -111,8 +166,13 @@
         "rating": -0.209,
         "n_events": 22,
         "finish": "Eliminated in Duelers on the Verge of a Nervous Breakdown",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duelers on the Verge of a Nervous Breakdown",
+        "elim_position": 2,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 13,
@@ -120,8 +180,13 @@
         "rating": -0.295,
         "n_events": 28,
         "finish": "Third Place in Duel or Die",
+        "finish_label": "3rd",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 14,
@@ -129,8 +194,13 @@
         "rating": -0.304,
         "n_events": 21,
         "finish": "Eliminated in Damned if You Duel...",
+        "finish_label": "Eliminated",
+        "finish_episode": "Damned if You Duel...",
+        "elim_position": 1,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 15,
@@ -138,8 +208,13 @@
         "rating": -0.475,
         "n_events": 35,
         "finish": "Eliminated in Deja Duel",
+        "finish_label": "Eliminated",
+        "finish_episode": "Deja Duel",
+        "elim_position": 4,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       }
     ],
     "F": [
@@ -149,8 +224,13 @@
         "rating": 0.683,
         "n_events": 41,
         "finish": "Winner in Duel or Die",
+        "finish_label": "Champion",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 2,
@@ -158,8 +238,13 @@
         "rating": 0.585,
         "n_events": 52,
         "finish": "Eliminated in Duel or Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel or Die",
+        "elim_position": 9,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 3,
@@ -167,8 +252,13 @@
         "rating": 0.484,
         "n_events": 39,
         "finish": "Runner-Up in Duel or Die",
+        "finish_label": "Runner-up",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 4,
@@ -176,8 +266,13 @@
         "rating": 0.02,
         "n_events": 61,
         "finish": "Third Place in Duel or Die",
+        "finish_label": "3rd",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 5,
@@ -185,8 +280,13 @@
         "rating": -0.028,
         "n_events": 45,
         "finish": "Eliminated in Duel What You Gotta Duel",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel What You Gotta Duel",
+        "elim_position": 2,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 6,
@@ -194,8 +294,13 @@
         "rating": -0.063,
         "n_events": 97,
         "finish": "Eliminated in Duel or Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 7,
@@ -203,8 +308,13 @@
         "rating": -0.128,
         "n_events": 25,
         "finish": "Eliminated in Dueling for Dunbar",
+        "finish_label": "Eliminated",
+        "finish_episode": "Dueling for Dunbar",
+        "elim_position": 6,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 8,
@@ -212,8 +322,13 @@
         "rating": -0.215,
         "n_events": 89,
         "finish": "Eliminated in Duel Unto Others",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel Unto Others",
+        "elim_position": 1,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 9,
@@ -221,8 +336,13 @@
         "rating": -0.231,
         "n_events": 100,
         "finish": "Eliminated in Deja Duel",
+        "finish_label": "Eliminated",
+        "finish_episode": "Deja Duel",
+        "elim_position": 7,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 10,
@@ -230,8 +350,13 @@
         "rating": -0.312,
         "n_events": 60,
         "finish": "Eliminated in If These Duels Could Talk",
+        "finish_label": "Eliminated",
+        "finish_episode": "If These Duels Could Talk",
+        "elim_position": 8,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 11,
@@ -239,8 +364,13 @@
         "rating": -0.532,
         "n_events": 59,
         "finish": "Eliminated in Duel-ality",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel-ality",
+        "elim_position": 3,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 12,
@@ -248,8 +378,13 @@
         "rating": -0.932,
         "n_events": 12,
         "finish": "Eliminated in Duel Unto Others",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel Unto Others",
+        "elim_position": 4,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       },
       {
         "rank": 13,
@@ -257,8 +392,13 @@
         "rating": -1.015,
         "n_events": 12,
         "finish": "Eliminated in Duelers on the Verge of a Nervous Breakdown",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duelers on the Verge of a Nervous Breakdown",
+        "elim_position": 5,
+        "elim_total": 9,
         "partner": "",
-        "team": "nan"
+        "team": "",
+        "forced_exit": false
       }
     ]
   }

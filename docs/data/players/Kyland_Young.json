@@ -3,7 +3,7 @@
   "safe_name": "Kyland_Young",
   "gender": "M",
   "career": {
-    "era_rating": 1.6,
+    "era_rating": 1.3,
     "peak_rating": 1.217,
     "peak_season_id": "s39_battle_for_a_new_champion",
     "active_rating": 0.353,
@@ -23,9 +23,14 @@
       "year": 2024,
       "label": "S40 Battle of the Eras (2024)",
       "finish": "Fourth Place in The End of an Era, Part 2",
+      "finish_label": "4th",
+      "finish_episode": "The End of an Era, Part 2",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.445,
-      "partner": "Rachel Robinson",
-      "team": "Era IV"
+      "partner": "",
+      "team": "Era IV",
+      "forced_exit": false
     },
     {
       "season_id": "s39_battle_for_a_new_champion",
@@ -34,9 +39,14 @@
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.846,
-      "partner": "Emanuel Neagu",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -264,66 +274,6 @@
       "ranking_id": 891,
       "season_id": "s40_battle_of_the_eras",
       "rating": 0.445
-    },
-    {
-      "ranking_id": 892,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.58
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.589
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.451
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.426
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.389
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.401
-    },
-    {
-      "ranking_id": 898,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.383
-    },
-    {
-      "ranking_id": 899,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.413
-    },
-    {
-      "ranking_id": 902,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.403
-    },
-    {
-      "ranking_id": 903,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.427
-    },
-    {
-      "ranking_id": 906,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.415
-    },
-    {
-      "ranking_id": 907,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.353
     }
   ]
 }

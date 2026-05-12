@@ -3,7 +3,7 @@
   "safe_name": "Kayleigh_Morris",
   "gender": "F",
   "career": {
-    "era_rating": 1.7,
+    "era_rating": 1.2,
     "peak_rating": 0.956,
     "peak_season_id": "s32_final_reckoning",
     "active_rating": -0.807,
@@ -23,9 +23,14 @@
       "year": 2019,
       "label": "S34 War of the Worlds 2 (2019)",
       "finish": "Eliminated in Dee-Day",
+      "finish_label": "Eliminated",
+      "finish_episode": "Dee-Day",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.015,
-      "partner": "Cara Maria Sorbello",
-      "team": "Team UK"
+      "partner": "",
+      "team": "Team UK",
+      "forced_exit": false
     },
     {
       "season_id": "s32_final_reckoning",
@@ -34,9 +39,14 @@
       "year": 2018,
       "label": "S32 Final Reckoning (2018)",
       "finish": "Eliminated in It's Always Sunny in South Africa",
+      "finish_label": "Eliminated",
+      "finish_episode": "It's Always Sunny in South Africa",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.641,
       "partner": "Kam Williams",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s31_vendettas",
@@ -45,9 +55,14 @@
       "year": 2018,
       "label": "S31 Vendettas (2018)",
       "finish": "Quit in Rumor Has It",
+      "finish_label": "Quit",
+      "finish_episode": "Rumor Has It",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.575,
-      "partner": "Zach Nichols",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -212,111 +227,6 @@
       "rating": 0.641
     },
     {
-      "ranking_id": 670,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.641
-    },
-    {
-      "ranking_id": 671,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.615
-    },
-    {
-      "ranking_id": 672,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.663
-    },
-    {
-      "ranking_id": 674,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.591
-    },
-    {
-      "ranking_id": 676,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.469
-    },
-    {
-      "ranking_id": 680,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.392
-    },
-    {
-      "ranking_id": 681,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.426
-    },
-    {
-      "ranking_id": 685,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.403
-    },
-    {
-      "ranking_id": 687,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.358
-    },
-    {
-      "ranking_id": 689,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.359
-    },
-    {
-      "ranking_id": 693,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.409
-    },
-    {
-      "ranking_id": 696,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.405
-    },
-    {
-      "ranking_id": 697,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.397
-    },
-    {
-      "ranking_id": 699,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.366
-    },
-    {
-      "ranking_id": 701,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.36
-    },
-    {
-      "ranking_id": 702,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.359
-    },
-    {
-      "ranking_id": 703,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.308
-    },
-    {
-      "ranking_id": 704,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.371
-    },
-    {
-      "ranking_id": 705,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.392
-    },
-    {
-      "ranking_id": 708,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.402
-    },
-    {
-      "ranking_id": 709,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.429
-    },
-    {
       "ranking_id": 710,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.347
@@ -390,371 +300,6 @@
       "ranking_id": 725,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.015
-    },
-    {
-      "ranking_id": 726,
-      "season_id": "s35_total_madness",
-      "rating": 0.113
-    },
-    {
-      "ranking_id": 727,
-      "season_id": "s35_total_madness",
-      "rating": 0.086
-    },
-    {
-      "ranking_id": 728,
-      "season_id": "s35_total_madness",
-      "rating": 0.039
-    },
-    {
-      "ranking_id": 729,
-      "season_id": "s35_total_madness",
-      "rating": -0.03
-    },
-    {
-      "ranking_id": 730,
-      "season_id": "s35_total_madness",
-      "rating": -0.044
-    },
-    {
-      "ranking_id": 731,
-      "season_id": "s35_total_madness",
-      "rating": -0.06
-    },
-    {
-      "ranking_id": 732,
-      "season_id": "s35_total_madness",
-      "rating": -0.051
-    },
-    {
-      "ranking_id": 733,
-      "season_id": "s35_total_madness",
-      "rating": -0.624
-    },
-    {
-      "ranking_id": 734,
-      "season_id": "s35_total_madness",
-      "rating": -0.622
-    },
-    {
-      "ranking_id": 735,
-      "season_id": "s35_total_madness",
-      "rating": -0.621
-    },
-    {
-      "ranking_id": 736,
-      "season_id": "s35_total_madness",
-      "rating": -0.623
-    },
-    {
-      "ranking_id": 737,
-      "season_id": "s35_total_madness",
-      "rating": -0.639
-    },
-    {
-      "ranking_id": 738,
-      "season_id": "s35_total_madness",
-      "rating": -0.635
-    },
-    {
-      "ranking_id": 739,
-      "season_id": "s35_total_madness",
-      "rating": -0.626
-    },
-    {
-      "ranking_id": 741,
-      "season_id": "s35_total_madness",
-      "rating": -0.645
-    },
-    {
-      "ranking_id": 742,
-      "season_id": "s35_total_madness",
-      "rating": -0.645
-    },
-    {
-      "ranking_id": 744,
-      "season_id": "s35_total_madness",
-      "rating": -0.639
-    },
-    {
-      "ranking_id": 745,
-      "season_id": "s35_total_madness",
-      "rating": -0.631
-    },
-    {
-      "ranking_id": 747,
-      "season_id": "s35_total_madness",
-      "rating": -0.653
-    },
-    {
-      "ranking_id": 748,
-      "season_id": "s35_total_madness",
-      "rating": -0.657
-    },
-    {
-      "ranking_id": 750,
-      "season_id": "s35_total_madness",
-      "rating": -0.668
-    },
-    {
-      "ranking_id": 751,
-      "season_id": "s36_double_agents",
-      "rating": -0.602
-    },
-    {
-      "ranking_id": 752,
-      "season_id": "s36_double_agents",
-      "rating": -0.574
-    },
-    {
-      "ranking_id": 753,
-      "season_id": "s36_double_agents",
-      "rating": -0.623
-    },
-    {
-      "ranking_id": 754,
-      "season_id": "s36_double_agents",
-      "rating": -0.641
-    },
-    {
-      "ranking_id": 755,
-      "season_id": "s36_double_agents",
-      "rating": -0.648
-    },
-    {
-      "ranking_id": 756,
-      "season_id": "s36_double_agents",
-      "rating": -0.663
-    },
-    {
-      "ranking_id": 757,
-      "season_id": "s36_double_agents",
-      "rating": -0.669
-    },
-    {
-      "ranking_id": 758,
-      "season_id": "s36_double_agents",
-      "rating": -0.68
-    },
-    {
-      "ranking_id": 759,
-      "season_id": "s36_double_agents",
-      "rating": -0.707
-    },
-    {
-      "ranking_id": 760,
-      "season_id": "s36_double_agents",
-      "rating": -0.713
-    },
-    {
-      "ranking_id": 761,
-      "season_id": "s36_double_agents",
-      "rating": -0.691
-    },
-    {
-      "ranking_id": 762,
-      "season_id": "s36_double_agents",
-      "rating": -0.663
-    },
-    {
-      "ranking_id": 763,
-      "season_id": "s36_double_agents",
-      "rating": -0.662
-    },
-    {
-      "ranking_id": 764,
-      "season_id": "s36_double_agents",
-      "rating": -0.668
-    },
-    {
-      "ranking_id": 765,
-      "season_id": "s36_double_agents",
-      "rating": -0.661
-    },
-    {
-      "ranking_id": 766,
-      "season_id": "s36_double_agents",
-      "rating": -0.619
-    },
-    {
-      "ranking_id": 767,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.694
-    },
-    {
-      "ranking_id": 768,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.694
-    },
-    {
-      "ranking_id": 769,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.694
-    },
-    {
-      "ranking_id": 771,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.74
-    },
-    {
-      "ranking_id": 774,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.74
-    },
-    {
-      "ranking_id": 775,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.781
-    },
-    {
-      "ranking_id": 776,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.755
-    },
-    {
-      "ranking_id": 777,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.706
-    },
-    {
-      "ranking_id": 778,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.706
-    },
-    {
-      "ranking_id": 780,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.686
-    },
-    {
-      "ranking_id": 781,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.717
-    },
-    {
-      "ranking_id": 782,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.746
-    },
-    {
-      "ranking_id": 783,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.744
-    },
-    {
-      "ranking_id": 784,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.747
-    },
-    {
-      "ranking_id": 786,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.791
-    },
-    {
-      "ranking_id": 789,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.799
-    },
-    {
-      "ranking_id": 790,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.723
-    },
-    {
-      "ranking_id": 791,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.723
-    },
-    {
-      "ranking_id": 792,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.729
-    },
-    {
-      "ranking_id": 793,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.726
-    },
-    {
-      "ranking_id": 794,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.725
-    },
-    {
-      "ranking_id": 795,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.726
-    },
-    {
-      "ranking_id": 796,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.724
-    },
-    {
-      "ranking_id": 797,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.724
-    },
-    {
-      "ranking_id": 798,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.684
-    },
-    {
-      "ranking_id": 799,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.804
-    },
-    {
-      "ranking_id": 800,
-      "season_id": "s37_spies_lies_allies",
-      "rating": -0.709
-    },
-    {
-      "ranking_id": 801,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.617
-    },
-    {
-      "ranking_id": 802,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.595
-    },
-    {
-      "ranking_id": 803,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.57
-    },
-    {
-      "ranking_id": 805,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.614
-    },
-    {
-      "ranking_id": 806,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.6
-    },
-    {
-      "ranking_id": 807,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.613
-    },
-    {
-      "ranking_id": 809,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.685
-    },
-    {
-      "ranking_id": 812,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.769
-    },
-    {
-      "ranking_id": 813,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.807
     }
   ]
 }

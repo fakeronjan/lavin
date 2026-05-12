@@ -279,7 +279,8 @@
 <!-- ── PLAYER SUMMARY ─────────────────────────────────────────────────── -->
 <div id="player" class="tab">
   <div class="gender-pills" id="player-gender">
-    <button class="active" data-gender="M">Men</button>
+    <button class="active" data-gender="all">All</button>
+    <button data-gender="M">Men</button>
     <button data-gender="F">Women</button>
   </div>
   <div class="controls">
@@ -322,7 +323,7 @@ const BASE = './data';
 // State
 let state = {
   standingsGender: 'M',
-  playerGender: 'M',
+  playerGender: 'all',
   championsGender: 'M',
   goatGender: 'M',
   goatView: 'career',
@@ -351,13 +352,51 @@ function fmtEra(v) {
   return `${sign}${v.toFixed(1)}`;
 }
 
-function fmtFinish(text) {
-  if (!text) return '';
-  text = String(text);
-  if (/^Winners?\b/i.test(text))      return `<span class="finish-badge finish-champion">🥇</span>${text}`;
-  if (/^Runners?[- ]?Up/i.test(text)) return `<span class="finish-badge finish-runner">🥈</span>${text}`;
-  if (/^Third Place/i.test(text))     return `<span class="finish-badge finish-third">🥉</span>${text}`;
-  return text;
+// Render a standardized finish: medal badge for top-3 finishers + a short
+// label ("Champion" / "Runner-up" / "3rd" / "Eliminated" / etc).
+// `entry` may be a season-row dict (has finish_label, finish_episode, finish);
+// `text` (legacy) is the raw finish string.
+function fmtFinish(textOrEntry) {
+  if (!textOrEntry) return '';
+  let label = '', episode = '', raw = '', elimPos = null, elimTot = null;
+  if (typeof textOrEntry === 'string') {
+    raw = textOrEntry;
+  } else {
+    label = textOrEntry.finish_label || '';
+    episode = textOrEntry.finish_episode || '';
+    raw = textOrEntry.finish || '';
+    elimPos = textOrEntry.elim_position;
+    elimTot = textOrEntry.elim_total;
+  }
+  if (!label && raw) {
+    if (/^Winners?\b/i.test(raw))         label = 'Champion';
+    else if (/^Runners?[- ]?Up/i.test(raw)) label = 'Runner-up';
+    else if (/^Third Place/i.test(raw))   label = '3rd';
+    else if (/^Fourth Place/i.test(raw))  label = '4th';
+    else if (/^Fifth Place/i.test(raw))   label = '5th';
+    else if (/medically/i.test(raw))      label = 'Medical DQ';
+    else if (/disqualif/i.test(raw))      label = 'Disqualified';
+    else if (/^Quit/i.test(raw))          label = 'Quit';
+    else if (/withdrew|removed/i.test(raw)) label = 'Removed';
+    else if (/^Eliminated/i.test(raw))    label = 'Eliminated';
+    else label = raw;
+    if (!episode) {
+      const m = raw.match(/\bin\s+(.+?)\s*$/i);
+      if (m) episode = m[1];
+    }
+  }
+  let badge = '';
+  if (label === 'Champion')       badge = '<span class="finish-badge finish-champion">🥇</span>';
+  else if (label === 'Runner-up') badge = '<span class="finish-badge finish-runner">🥈</span>';
+  else if (label === '3rd')       badge = '<span class="finish-badge finish-third">🥉</span>';
+  // Elim position annotation (e.g. "1st of 12" for first eliminated)
+  let posHtml = '';
+  if (elimPos && elimTot) {
+    const ord = (n) => n + (['st','nd','rd'][((n+90)%100-10)%10-1] || 'th');
+    posHtml = ` <span style="font-size:11px;color:#888">(${ord(elimPos)} of ${elimTot})</span>`;
+  }
+  const epHtml = episode ? `<span style="font-size:11px;color:#888"> · ${episode}</span>` : '';
+  return `${badge}${label}${posHtml}${epHtml}`;
 }
 
 // ── Tab switching ──
@@ -405,14 +444,17 @@ async function renderStandings() {
       continue;
     }
     const rows = standings.map(s => {
-      const ctx = s.partner ? `with ${s.partner}` : s.team ? s.team : '';
+      let ctx = '';
+      if (s.partner) ctx = `with <span class="player linked" data-player="${s.partner}">${s.partner}</span>`;
+      else if (s.team) ctx = s.team;
+      if (s.forced_exit) ctx += ' <span title="Shared exit with partner — true attribution uncertain">⚠️</span>';
       const ctxHtml = ctx ? `<div style="font-size:11px;color:#888">${ctx}</div>` : '';
       return `
       <tr>
         <td class="rank-col">${s.rank}</td>
         <td><div class="player linked" data-player="${s.player}">${s.player}</div>${ctxHtml}</td>
         <td class="num">${fmtRating(s.rating)}</td>
-        <td>${fmtFinish(s.finish)}</td>
+        <td>${fmtFinish(s)}</td>
       </tr>
     `;
     }).join('');
@@ -435,11 +477,18 @@ let playersIndex = null;
 async function loadPlayer() {
   if (!playersIndex) playersIndex = await fetchJSON('players_index.json');
   const sel = document.getElementById('player-select');
-  const filtered = playersIndex.filter(p => p.gender === state.playerGender)
+  const filtered = (state.playerGender === 'all'
+      ? playersIndex
+      : playersIndex.filter(p => p.gender === state.playerGender))
+    .slice()
     .sort((a, b) => a.player.localeCompare(b.player));
+  // Mark gender beside name when showing "all" so it's visible at a glance
+  const labelFor = state.playerGender === 'all'
+    ? (p => `${p.player} · ${p.gender === 'M' ? 'M' : 'F'}`)
+    : (p => p.player);
   sel.innerHTML = '<option value="">— Select a player —</option>' +
-    filtered.map(p => `<option value="${p.safe_name}">${p.player}</option>`).join('');
-  sel.addEventListener('change', renderPlayer);
+    filtered.map(p => `<option value="${p.safe_name}">${labelFor(p)}</option>`).join('');
+  sel.addEventListener('change', renderPlayer, { once: false });
 }
 
 async function renderPlayer() {
@@ -470,11 +519,12 @@ async function renderPlayer() {
     let ctx = '';
     if (s.partner) ctx = `with <span class="player linked" data-player="${s.partner}">${s.partner}</span>`;
     else if (s.team) ctx = s.team;
+    if (s.forced_exit) ctx += ' <span title="Shared exit — partner had the same DQ/quit. Attribution uncertain.">⚠️</span>';
     return `
     <tr>
       <td><strong>${s.label}</strong></td>
       <td style="font-size:12px;color:#666">${ctx}</td>
-      <td>${fmtFinish(s.finish)}</td>
+      <td>${fmtFinish(s)}</td>
       <td class="num"><span class="${s.rating_at_end >= 0 ? 'pos' : 'neg'}">${fmtRating(s.rating_at_end)}</span></td>
     </tr>`;
   }).join('');

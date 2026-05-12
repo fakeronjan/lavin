@@ -60,9 +60,88 @@ def parse_rank_from_finish(finish):
     return None
 
 
+# Map raw finish text → standardized short label + status (for UI display)
+def standardize_finish(text):
+    """
+    Return (label, episode) where:
+      label   — "Champion" / "Runner-up" / "3rd" / "Eliminated" / "Disqualified" /
+                "Quit" / "Medical DQ" / "" depending on the raw text
+      episode — the in-season episode portion (e.g. "I Will Always Love You"),
+                or "" if not present in source.
+    """
+    if not isinstance(text, str) or not text.strip():
+        return ("", "")
+    raw = text.strip()
+    ep_m = re.search(r"\bin\s+(.+?)(?:\s*$|<)", raw, re.IGNORECASE)
+    episode = ep_m.group(1).strip() if ep_m else ""
+    low = raw.lower()
+    if re.match(r"^\s*winners?\b", low):       label = "Champion"
+    elif re.match(r"^\s*runners?[- ]?up\b", low): label = "Runner-up"
+    elif "third place" in low:                  label = "3rd"
+    elif "fourth place" in low:                 label = "4th"
+    elif "fifth place" in low:                  label = "5th"
+    elif "sixth place" in low:                  label = "6th"
+    elif "medically" in low or "medical" in low: label = "Medical DQ"
+    elif "disqualif" in low:                    label = "Disqualified"
+    elif "quit" in low:                         label = "Quit"
+    elif "withdrew" in low or "removed" in low: label = "Removed"
+    elif "eliminated" in low:                   label = "Eliminated"
+    else:                                       label = ""
+    return (label, episode)
+
+
 # ---------------------------------------------------------
 # Main
 # ---------------------------------------------------------
+def compute_elim_positions(eliminations, gender_map, appearances):
+    """
+    Return dict { (season_id, player) -> (position, total) } where position
+    is the chronological order this player was eliminated WITHIN their
+    gender, and total is the count of same-gender players who got
+    eliminated that season (i.e. didn't make the finals).
+
+    Players who reached the FINALS are excluded — their final placement
+    (Champion / Runner-up / 3rd / etc.) is the right signal for them.
+    Some seasons (Total Madness, finales w/ multi-stage purgatory) have
+    elim-chart "loser" rows during the final itself; we mustn't tag the
+    season's eventual champion as "eliminated" just because they lost a
+    finale stage.
+    """
+    final_finishers = set()
+    for _, ar in appearances.iterrows():
+        f = str(ar.get("finish") or "")
+        if re.search(r"^(Winners?|Runners?[- ]?Up|Third|Fourth|Fifth|Sixth)\b", f, re.IGNORECASE):
+            final_finishers.add((ar["season_id"], str(ar["player"])))
+
+    positions = {}
+    for sid, sg in eliminations.groupby("season_id"):
+        sg = sg.copy()
+        sg["ep_ord_n"] = (
+            sg["episode"].astype(str).str.extract(r"^(\d+)")[0]
+            .astype(float).fillna(99999)
+        )
+        sg = sg.sort_values("ep_ord_n")
+        for g in ("M", "F"):
+            ordered = []
+            seen = set()
+            for _, row in sg.iterrows():
+                loser = row.get("loser")
+                if not isinstance(loser, str) or loser in seen:
+                    continue
+                if gender_map.get(loser) != g:
+                    continue
+                # Skip players who actually made the finals — their loss
+                # was a finale-stage event, not an elimination.
+                if (sid, loser) in final_finishers:
+                    continue
+                ordered.append(loser)
+                seen.add(loser)
+            total = len(ordered)
+            for i, p in enumerate(ordered, 1):
+                positions[(sid, p)] = (i, total)
+    return positions
+
+
 def main():
     print("Loading inputs...")
     ratings = pd.read_csv(DATA / "ratings_lavin" / "ratings.csv")
@@ -75,6 +154,9 @@ def main():
     # gender map for filtering
     players_df = pd.read_csv(DATA / "players.csv")
     gmap = dict(zip(players_df["player"].astype(str), players_df["gender"].astype(str)))
+
+    # Elim positions per (season, player) — used for "1st eliminated" / "3rd of 12" labels
+    elim_pos = compute_elim_positions(eliminations, gmap, appearances)
 
     DOCS_SEASONS.mkdir(parents=True, exist_ok=True)
     DOCS_PLAYERS.mkdir(parents=True, exist_ok=True)
@@ -137,22 +219,33 @@ def main():
                 p = row["player"]
                 cast_row = cast[cast["player"] == p]
                 finish = cast_row.iloc[0]["finish"] if len(cast_row) else ""
+                finish_str = "" if pd.isna(finish) else str(finish)
                 # Partner / team (used as a small subtitle under player name)
                 partner, team = "", ""
                 if len(cast_row):
-                    pid = str(cast_row.iloc[0].get("pair_id") or "").strip()
+                    pid_raw = cast_row.iloc[0].get("pair_id")
+                    pid = "" if pd.isna(pid_raw) else str(pid_raw).strip()
                     if pid:
                         others = [x for x in cast[cast["pair_id"] == pid]["player"] if x != p]
                         partner = others[0] if others else ""
-                    team = str(cast_row.iloc[0].get("team") or "").strip()
+                    t_raw = cast_row.iloc[0].get("team")
+                    team = "" if pd.isna(t_raw) else str(t_raw).strip()
+                f_label, f_ep = standardize_finish(finish_str)
+                forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
+                ep = elim_pos.get((sid, p))
                 rows.append({
                     "rank": i,
                     "player": p,
                     "rating": round(float(row["rating"]), 3),
                     "n_events": int(row["n_events"]),
-                    "finish": "" if pd.isna(finish) else str(finish),
+                    "finish": finish_str,
+                    "finish_label": f_label,
+                    "finish_episode": f_ep,
+                    "elim_position": ep[0] if ep else None,
+                    "elim_total":    ep[1] if ep else None,
                     "partner": partner,
                     "team": team,
+                    "forced_exit": forced_exit,
                 })
             out["standings_at_end"][g] = rows
 
@@ -356,9 +449,13 @@ def main():
 
     # Pre-build a partner lookup: (season, pair_id) → list of players
     # We resolve a player's partner by finding the OTHER player with same pair_id in same season.
+    # Critical: `str(NaN) == 'nan'` so naive `or ""` fallback fails — every
+    # individual-format season ends up with NaN pair_ids all being grouped
+    # together under "nan". Use pd.isna() to handle NaN explicitly.
     pair_lookup = {}
     for _, ar in appearances.iterrows():
-        pid = str(ar.get("pair_id") or "").strip()
+        pid_raw = ar.get("pair_id")
+        pid = "" if pd.isna(pid_raw) else str(pid_raw).strip()
         if not pid:
             continue
         key = (ar["season_id"], pid)
@@ -383,27 +480,43 @@ def main():
             rating_end = float(sub_sorted.iloc[-1]["rating"])
             # Partner: other player sharing this season's pair_id
             partner = ""
-            pid = str(ar.get("pair_id") or "").strip()
+            pid_raw = ar.get("pair_id")
+            pid = "" if pd.isna(pid_raw) else str(pid_raw).strip()
             if pid:
                 others = [x for x in pair_lookup.get((sid, pid), []) if x != p]
                 partner = others[0] if others else ""
             t_raw = ar.get("team")
             team = "" if pd.isna(t_raw) else str(t_raw).strip()
+            finish_str = "" if pd.isna(ar["finish"]) else str(ar["finish"])
+            f_label, f_ep = standardize_finish(finish_str)
+            forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
+            ep = elim_pos.get((sid, p))
             seasons_data.append({
                 "season_id": sid,
                 "season_num": int(srow["season_num"]),
                 "season_name": srow["season_name"],
                 "year": int(srow["year"]),
                 "label": season_label(sid, seasons),
-                "finish": "" if pd.isna(ar["finish"]) else str(ar["finish"]),
+                "finish": finish_str,
+                "finish_label": f_label,
+                "finish_episode": f_ep,
+                "elim_position": ep[0] if ep else None,
+                "elim_total":    ep[1] if ep else None,
                 "rating_at_end": round(rating_end, 3),
                 "partner": partner,
                 "team": team,
+                "forced_exit": forced_exit,
             })
         seasons_data.sort(key=lambda x: x["season_num"], reverse=True)
 
-        # Snapshot history (rating timeline)
-        timeline = ratings[ratings["player"] == p].sort_values("ranking_id")
+        # Snapshot history (rating timeline) — filtered to seasons the
+        # player actually participated in. The solver publishes a rating
+        # at every snapshot where the player's events are still in the
+        # rolling window, which includes ~6 seasons after their last
+        # appearance. Those "ghost" ratings inflate ERA and distort the
+        # timeline chart; we trim to genuine playing seasons here.
+        played_sids = set(apps_for_p["season_id"].astype(str))
+        timeline = ratings[(ratings["player"] == p) & (ratings["season_id"].isin(played_sids))].sort_values("ranking_id")
         timeline_data = [
             {"ranking_id": int(r["ranking_id"]),
              "season_id": r["season_id"],

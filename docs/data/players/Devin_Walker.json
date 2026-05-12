@@ -3,7 +3,7 @@
   "safe_name": "Devin_Walker",
   "gender": "M",
   "career": {
-    "era_rating": 3.4,
+    "era_rating": 2.7,
     "peak_rating": 0.834,
     "peak_season_id": "s41_vets_and_new_threats",
     "active_rating": 0.661,
@@ -23,9 +23,14 @@
       "year": 2024,
       "label": "S40 Battle of the Eras (2024)",
       "finish": "Eliminated in An Era of One",
+      "finish_label": "Eliminated",
+      "finish_episode": "An Era of One",
+      "elim_position": 2,
+      "elim_total": 14,
       "rating_at_end": 0.683,
-      "partner": "Rachel Robinson",
-      "team": "Era III"
+      "partner": "",
+      "team": "Era III",
+      "forced_exit": false
     },
     {
       "season_id": "s39_battle_for_a_new_champion",
@@ -34,9 +39,14 @@
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.463,
-      "partner": "Emanuel Neagu",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s38_ride_or_dies",
@@ -45,9 +55,14 @@
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
       "finish": "Winners",
+      "finish_label": "Champion",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.441,
       "partner": "Tori Deal",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s37_spies_lies_allies",
@@ -56,9 +71,14 @@
       "year": 2021,
       "label": "S37 Spies Lies and Allies (2021)",
       "finish": "Third Place in The Decision",
+      "finish_label": "3rd",
+      "finish_episode": "The Decision",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.241,
-      "partner": "CT Tamburello",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s36_double_agents",
@@ -67,9 +87,14 @@
       "year": 2020,
       "label": "S36 Double Agents (2020)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": 5,
+      "elim_total": 7,
       "rating_at_end": 0.32,
-      "partner": "CT Tamburello",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s32_final_reckoning",
@@ -78,9 +103,14 @@
       "year": 2018,
       "label": "S32 Final Reckoning (2018)",
       "finish": "Disqualified in The Leftovers",
+      "finish_label": "Disqualified",
+      "finish_episode": "The Leftovers",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.076,
       "partner": "Cory Wharton",
-      "team": ""
+      "team": "",
+      "forced_exit": true
     },
     {
       "season_id": "s31_vendettas",
@@ -89,9 +119,14 @@
       "year": 2018,
       "label": "S31 Vendettas (2018)",
       "finish": "Eliminated in Czechmate",
+      "finish_label": "Eliminated",
+      "finish_episode": "Czechmate",
+      "elim_position": 7,
+      "elim_total": 9,
       "rating_at_end": 0.191,
-      "partner": "Zach Nichols",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s30_xxx_dirty_30",
@@ -100,9 +135,14 @@
       "year": 2017,
       "label": "S30 XXX: Dirty 30 (2017)",
       "finish": "Eliminated in Road to Redemption",
+      "finish_label": "Eliminated",
+      "finish_episode": "Road to Redemption",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": -0.045,
-      "partner": "Jordan Wiseley",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s28_rivals_iii",
@@ -111,9 +151,14 @@
       "year": 2016,
       "label": "S28 Rivals III (2016)",
       "finish": "Third Place in Split Decision",
+      "finish_label": "3rd",
+      "finish_episode": "Split Decision",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.268,
       "partner": "Cheyenne Floyd",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -186,81 +231,6 @@
       "ranking_id": 581,
       "season_id": "s28_rivals_iii",
       "rating": 0.268
-    },
-    {
-      "ranking_id": 582,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.245
-    },
-    {
-      "ranking_id": 583,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.363
-    },
-    {
-      "ranking_id": 584,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.339
-    },
-    {
-      "ranking_id": 585,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.339
-    },
-    {
-      "ranking_id": 586,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.269
-    },
-    {
-      "ranking_id": 587,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.002
-    },
-    {
-      "ranking_id": 588,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.021
-    },
-    {
-      "ranking_id": 589,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.035
-    },
-    {
-      "ranking_id": 590,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.035
-    },
-    {
-      "ranking_id": 591,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.035
-    },
-    {
-      "ranking_id": 592,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.017
-    },
-    {
-      "ranking_id": 593,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.017
-    },
-    {
-      "ranking_id": 594,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.016
-    },
-    {
-      "ranking_id": 595,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.013
-    },
-    {
-      "ranking_id": 596,
-      "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.019
     },
     {
       "ranking_id": 598,
@@ -526,291 +496,6 @@
       "ranking_id": 669,
       "season_id": "s32_final_reckoning",
       "rating": 0.076
-    },
-    {
-      "ranking_id": 670,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.086
-    },
-    {
-      "ranking_id": 671,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 672,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.152
-    },
-    {
-      "ranking_id": 674,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.168
-    },
-    {
-      "ranking_id": 676,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.104
-    },
-    {
-      "ranking_id": 680,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.132
-    },
-    {
-      "ranking_id": 681,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.086
-    },
-    {
-      "ranking_id": 685,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.106
-    },
-    {
-      "ranking_id": 687,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.046
-    },
-    {
-      "ranking_id": 689,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.011
-    },
-    {
-      "ranking_id": 693,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.007
-    },
-    {
-      "ranking_id": 696,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.07
-    },
-    {
-      "ranking_id": 697,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.145
-    },
-    {
-      "ranking_id": 699,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.145
-    },
-    {
-      "ranking_id": 701,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.159
-    },
-    {
-      "ranking_id": 702,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.159
-    },
-    {
-      "ranking_id": 703,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.123
-    },
-    {
-      "ranking_id": 704,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.139
-    },
-    {
-      "ranking_id": 705,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.123
-    },
-    {
-      "ranking_id": 708,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.037
-    },
-    {
-      "ranking_id": 709,
-      "season_id": "s33_war_of_the_worlds",
-      "rating": 0.004
-    },
-    {
-      "ranking_id": 710,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.038
-    },
-    {
-      "ranking_id": 711,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.154
-    },
-    {
-      "ranking_id": 712,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.181
-    },
-    {
-      "ranking_id": 713,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.149
-    },
-    {
-      "ranking_id": 714,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.023
-    },
-    {
-      "ranking_id": 715,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.024
-    },
-    {
-      "ranking_id": 716,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.006
-    },
-    {
-      "ranking_id": 717,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.018
-    },
-    {
-      "ranking_id": 719,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.003
-    },
-    {
-      "ranking_id": 720,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.001
-    },
-    {
-      "ranking_id": 721,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.006
-    },
-    {
-      "ranking_id": 722,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.188
-    },
-    {
-      "ranking_id": 723,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.212
-    },
-    {
-      "ranking_id": 724,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.215
-    },
-    {
-      "ranking_id": 725,
-      "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.249
-    },
-    {
-      "ranking_id": 726,
-      "season_id": "s35_total_madness",
-      "rating": -0.223
-    },
-    {
-      "ranking_id": 727,
-      "season_id": "s35_total_madness",
-      "rating": -0.176
-    },
-    {
-      "ranking_id": 728,
-      "season_id": "s35_total_madness",
-      "rating": -0.238
-    },
-    {
-      "ranking_id": 729,
-      "season_id": "s35_total_madness",
-      "rating": -0.207
-    },
-    {
-      "ranking_id": 730,
-      "season_id": "s35_total_madness",
-      "rating": -0.197
-    },
-    {
-      "ranking_id": 731,
-      "season_id": "s35_total_madness",
-      "rating": -0.166
-    },
-    {
-      "ranking_id": 732,
-      "season_id": "s35_total_madness",
-      "rating": -0.209
-    },
-    {
-      "ranking_id": 733,
-      "season_id": "s35_total_madness",
-      "rating": -0.202
-    },
-    {
-      "ranking_id": 734,
-      "season_id": "s35_total_madness",
-      "rating": -0.187
-    },
-    {
-      "ranking_id": 735,
-      "season_id": "s35_total_madness",
-      "rating": -0.078
-    },
-    {
-      "ranking_id": 736,
-      "season_id": "s35_total_madness",
-      "rating": -0.067
-    },
-    {
-      "ranking_id": 737,
-      "season_id": "s35_total_madness",
-      "rating": -0.064
-    },
-    {
-      "ranking_id": 738,
-      "season_id": "s35_total_madness",
-      "rating": -0.076
-    },
-    {
-      "ranking_id": 739,
-      "season_id": "s35_total_madness",
-      "rating": -0.007
-    },
-    {
-      "ranking_id": 741,
-      "season_id": "s35_total_madness",
-      "rating": 0.024
-    },
-    {
-      "ranking_id": 742,
-      "season_id": "s35_total_madness",
-      "rating": -0.909
-    },
-    {
-      "ranking_id": 744,
-      "season_id": "s35_total_madness",
-      "rating": -0.846
-    },
-    {
-      "ranking_id": 745,
-      "season_id": "s35_total_madness",
-      "rating": -0.846
-    },
-    {
-      "ranking_id": 747,
-      "season_id": "s35_total_madness",
-      "rating": -0.859
-    },
-    {
-      "ranking_id": 748,
-      "season_id": "s35_total_madness",
-      "rating": -0.854
-    },
-    {
-      "ranking_id": 750,
-      "season_id": "s35_total_madness",
-      "rating": -0.778
     },
     {
       "ranking_id": 751,
@@ -1406,66 +1091,6 @@
       "ranking_id": 891,
       "season_id": "s40_battle_of_the_eras",
       "rating": 0.683
-    },
-    {
-      "ranking_id": 892,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.818
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.834
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.703
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.702
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.659
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.671
-    },
-    {
-      "ranking_id": 898,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.659
-    },
-    {
-      "ranking_id": 899,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.689
-    },
-    {
-      "ranking_id": 902,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.678
-    },
-    {
-      "ranking_id": 903,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.702
-    },
-    {
-      "ranking_id": 906,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.694
-    },
-    {
-      "ranking_id": 907,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": 0.661
     }
   ]
 }

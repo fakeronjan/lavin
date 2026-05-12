@@ -3,7 +3,7 @@
   "safe_name": "Renan_Hellemans",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
+    "era_rating": 0.1,
     "peak_rating": 1.084,
     "peak_season_id": "s37_spies_lies_allies",
     "active_rating": -0.664,
@@ -23,9 +23,14 @@
       "year": 2021,
       "label": "S37 Spies Lies and Allies (2021)",
       "finish": "Eliminated in The List",
+      "finish_label": "Eliminated",
+      "finish_episode": "The List",
+      "elim_position": 1,
+      "elim_total": 11,
       "rating_at_end": 0.104,
-      "partner": "CT Tamburello",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -163,216 +168,6 @@
       "ranking_id": 800,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.104
-    },
-    {
-      "ranking_id": 801,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.044
-    },
-    {
-      "ranking_id": 802,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.185
-    },
-    {
-      "ranking_id": 803,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.185
-    },
-    {
-      "ranking_id": 805,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.226
-    },
-    {
-      "ranking_id": 806,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.223
-    },
-    {
-      "ranking_id": 807,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.233
-    },
-    {
-      "ranking_id": 809,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.135
-    },
-    {
-      "ranking_id": 812,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.156
-    },
-    {
-      "ranking_id": 813,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.136
-    },
-    {
-      "ranking_id": 816,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.024
-    },
-    {
-      "ranking_id": 817,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.011
-    },
-    {
-      "ranking_id": 818,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.036
-    },
-    {
-      "ranking_id": 819,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.045
-    },
-    {
-      "ranking_id": 821,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.079
-    },
-    {
-      "ranking_id": 822,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.06
-    },
-    {
-      "ranking_id": 823,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.075
-    },
-    {
-      "ranking_id": 825,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.052
-    },
-    {
-      "ranking_id": 826,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.054
-    },
-    {
-      "ranking_id": 827,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.04
-    },
-    {
-      "ranking_id": 829,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.05
-    },
-    {
-      "ranking_id": 832,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 833,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.033
-    },
-    {
-      "ranking_id": 834,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 835,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.029
-    },
-    {
-      "ranking_id": 836,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.029
-    },
-    {
-      "ranking_id": 837,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.036
-    },
-    {
-      "ranking_id": 838,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.031
-    },
-    {
-      "ranking_id": 841,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.02
-    },
-    {
-      "ranking_id": 842,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.023
-    },
-    {
-      "ranking_id": 845,
-      "season_id": "s38_ride_or_dies",
-      "rating": -0.031
-    },
-    {
-      "ranking_id": 846,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.141
-    },
-    {
-      "ranking_id": 847,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.097
-    },
-    {
-      "ranking_id": 848,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.17
-    },
-    {
-      "ranking_id": 849,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.151
-    },
-    {
-      "ranking_id": 850,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.133
-    },
-    {
-      "ranking_id": 851,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.116
-    },
-    {
-      "ranking_id": 852,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.121
-    },
-    {
-      "ranking_id": 853,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.102
-    },
-    {
-      "ranking_id": 854,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.102
-    },
-    {
-      "ranking_id": 855,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.119
-    },
-    {
-      "ranking_id": 856,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.008
-    },
-    {
-      "ranking_id": 857,
-      "season_id": "s40_battle_of_the_eras",
-      "rating": -0.664
     }
   ]
 }

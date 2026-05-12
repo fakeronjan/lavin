@@ -23,9 +23,14 @@
       "year": 2024,
       "label": "S40 Battle of the Eras (2024)",
       "finish": "Eliminated in An Era of One",
+      "finish_label": "Eliminated",
+      "finish_episode": "An Era of One",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": -0.523,
-      "partner": "Rachel Robinson",
-      "team": "Era IV"
+      "partner": "",
+      "team": "Era IV",
+      "forced_exit": false
     },
     {
       "season_id": "s39_battle_for_a_new_champion",
@@ -34,9 +39,14 @@
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.453,
-      "partner": "Emanuel Neagu",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s38_ride_or_dies",
@@ -45,9 +55,14 @@
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
       "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.342,
       "partner": "Kenny Clark",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s37_spies_lies_allies",
@@ -56,9 +71,14 @@
       "year": 2021,
       "label": "S37 Spies Lies and Allies (2021)",
       "finish": "Winner in The Decision",
+      "finish_label": "Champion",
+      "finish_episode": "The Decision",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.435,
-      "partner": "CT Tamburello",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s36_double_agents",
@@ -67,9 +87,14 @@
       "year": 2020,
       "label": "S36 Double Agents (2020)",
       "finish": "Fourth Place <small>in The World Is Not Enough",
+      "finish_label": "4th",
+      "finish_episode": "The World Is Not Enough",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.326,
-      "partner": "CT Tamburello",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s35_total_madness",
@@ -78,9 +103,14 @@
       "year": 2020,
       "label": "S35 Total Madness (2020)",
       "finish": "Runner-Up in It's the End of the World As We Know It",
+      "finish_label": "Runner-up",
+      "finish_episode": "It's the End of the World As We Know It",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.626,
-      "partner": "Johnny Bananas",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -768,66 +798,6 @@
       "ranking_id": 891,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.523
-    },
-    {
-      "ranking_id": 892,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.595
-    },
-    {
-      "ranking_id": 893,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.637
-    },
-    {
-      "ranking_id": 894,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.582
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.521
-    },
-    {
-      "ranking_id": 896,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.48
-    },
-    {
-      "ranking_id": 897,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.524
-    },
-    {
-      "ranking_id": 898,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.531
-    },
-    {
-      "ranking_id": 899,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.52
-    },
-    {
-      "ranking_id": 902,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.515
-    },
-    {
-      "ranking_id": 903,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.513
-    },
-    {
-      "ranking_id": 906,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.513
-    },
-    {
-      "ranking_id": 907,
-      "season_id": "s41_vets_and_new_threats",
-      "rating": -0.412
     }
   ]
 }

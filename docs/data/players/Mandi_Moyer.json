@@ -23,9 +23,14 @@
       "year": 2012,
       "label": "S22 Battle of the Exes (2012)",
       "finish": "Eliminated in What's Love Got to Do with It?",
+      "finish_label": "Eliminated",
+      "finish_episode": "What's Love Got to Do with It?",
+      "elim_position": 2,
+      "elim_total": 9,
       "rating_at_end": -0.17,
       "partner": "Wes Bergmann",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s21_rivals",
@@ -34,9 +39,14 @@
       "year": 2011,
       "label": "S21 Rivals (2011)",
       "finish": "Third Place in At the End of the World",
+      "finish_label": "3rd",
+      "finish_episode": "At the End of the World",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": -0.395,
       "partner": "Jenn Grijalva",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s20_cutthroat",
@@ -45,9 +55,14 @@
       "year": 2010,
       "label": "S20 Cutthroat (2010)",
       "finish": "Eliminated in Newbie Doobie Doo",
+      "finish_label": "Eliminated",
+      "finish_episode": "Newbie Doobie Doo",
+      "elim_position": 6,
+      "elim_total": 8,
       "rating_at_end": -0.451,
-      "partner": "Brad Fiorenza",
-      "team": "Red Team"
+      "partner": "",
+      "team": "Red Team",
+      "forced_exit": false
     },
     {
       "season_id": "s19_fresh_meat_ii",
@@ -56,9 +71,14 @@
       "year": 2010,
       "label": "S19 Fresh Meat II (2010)",
       "finish": "Eliminated in Trimming the Fat",
+      "finish_label": "Eliminated",
+      "finish_episode": "Trimming the Fat",
+      "elim_position": 6,
+      "elim_total": 8,
       "rating_at_end": -0.169,
       "partner": "Wes Bergmann",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -496,236 +516,6 @@
       "ranking_id": 396,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.17
-    },
-    {
-      "ranking_id": 397,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.029
-    },
-    {
-      "ranking_id": 400,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.04
-    },
-    {
-      "ranking_id": 401,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.047
-    },
-    {
-      "ranking_id": 402,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.056
-    },
-    {
-      "ranking_id": 403,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.054
-    },
-    {
-      "ranking_id": 405,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.043
-    },
-    {
-      "ranking_id": 408,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.08
-    },
-    {
-      "ranking_id": 409,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.016
-    },
-    {
-      "ranking_id": 412,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.073
-    },
-    {
-      "ranking_id": 413,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.062
-    },
-    {
-      "ranking_id": 414,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.069
-    },
-    {
-      "ranking_id": 415,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.09
-    },
-    {
-      "ranking_id": 417,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.089
-    },
-    {
-      "ranking_id": 418,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.089
-    },
-    {
-      "ranking_id": 419,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.087
-    },
-    {
-      "ranking_id": 421,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.042
-    },
-    {
-      "ranking_id": 424,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.096
-    },
-    {
-      "ranking_id": 425,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.128
-    },
-    {
-      "ranking_id": 426,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.114
-    },
-    {
-      "ranking_id": 427,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.112
-    },
-    {
-      "ranking_id": 429,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.097
-    },
-    {
-      "ranking_id": 430,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.095
-    },
-    {
-      "ranking_id": 431,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.095
-    },
-    {
-      "ranking_id": 433,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.06
-    },
-    {
-      "ranking_id": 434,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.059
-    },
-    {
-      "ranking_id": 435,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.027
-    },
-    {
-      "ranking_id": 437,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.009
-    },
-    {
-      "ranking_id": 438,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.048
-    },
-    {
-      "ranking_id": 439,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.052
-    },
-    {
-      "ranking_id": 441,
-      "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.111
-    },
-    {
-      "ranking_id": 442,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.071
-    },
-    {
-      "ranking_id": 443,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.071
-    },
-    {
-      "ranking_id": 444,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.071
-    },
-    {
-      "ranking_id": 445,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.072
-    },
-    {
-      "ranking_id": 446,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.066
-    },
-    {
-      "ranking_id": 447,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.06
-    },
-    {
-      "ranking_id": 448,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.08
-    },
-    {
-      "ranking_id": 449,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.081
-    },
-    {
-      "ranking_id": 450,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.076
-    },
-    {
-      "ranking_id": 451,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.076
-    },
-    {
-      "ranking_id": 452,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.076
-    },
-    {
-      "ranking_id": 453,
-      "season_id": "s24_rivals_ii",
-      "rating": 0.533
-    },
-    {
-      "ranking_id": 454,
-      "season_id": "s24_rivals_ii",
-      "rating": 0.066
-    },
-    {
-      "ranking_id": 455,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.0
-    },
-    {
-      "ranking_id": 456,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.0
-    },
-    {
-      "ranking_id": 457,
-      "season_id": "s24_rivals_ii",
-      "rating": -0.0
     }
   ]
 }

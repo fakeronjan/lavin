@@ -3,7 +3,7 @@
   "safe_name": "Mike_Mizanin",
   "gender": "M",
   "career": {
-    "era_rating": 4.7,
+    "era_rating": 1.5,
     "peak_rating": 1.005,
     "peak_season_id": "s14_the_inferno_3",
     "active_rating": 1.005,
@@ -23,9 +23,14 @@
       "year": 2005,
       "label": "S10 The Inferno II (2005)",
       "finish": "Winners in Episode 16",
+      "finish_label": "Champion",
+      "finish_episode": "Episode 16",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.174,
-      "partner": "Abram Boise",
-      "team": "Good Guys"
+      "partner": "",
+      "team": "Good Guys",
+      "forced_exit": false
     },
     {
       "season_id": "s09_battle_of_the_sexes_2",
@@ -34,9 +39,14 @@
       "year": 2004,
       "label": "S9 Battle of the Sexes 2 (2004)",
       "finish": "Eliminated in Episode 8",
+      "finish_label": "Eliminated",
+      "finish_episode": "Episode 8",
+      "elim_position": 6,
+      "elim_total": 14,
       "rating_at_end": 0.185,
-      "partner": "Dan Setzler",
-      "team": ""
+      "partner": "",
+      "team": "",
+      "forced_exit": false
     },
     {
       "season_id": "s08_the_inferno",
@@ -45,9 +55,14 @@
       "year": 2004,
       "label": "S8 The Inferno (2004)",
       "finish": "Runners-Up in Handsome Reward",
+      "finish_label": "Runner-up",
+      "finish_episode": "Handsome Reward",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.194,
-      "partner": "Coral Smith",
-      "team": "Real World"
+      "partner": "",
+      "team": "Real World",
+      "forced_exit": false
     },
     {
       "season_id": "s07_the_gauntlet",
@@ -56,9 +71,14 @@
       "year": 2004,
       "label": "S7 The Gauntlet (2004)",
       "finish": "Runners-Up in Gold Rush Part 2",
+      "finish_label": "Runner-up",
+      "finish_episode": "Gold Rush Part 2",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.177,
-      "partner": "Alton Williams",
-      "team": "Real World"
+      "partner": "",
+      "team": "Real World",
+      "forced_exit": false
     },
     {
       "season_id": "s05_battle_of_the_seasons",
@@ -67,9 +87,14 @@
       "year": 2002,
       "label": "S5 Battle of the Seasons (2002)",
       "finish": "Winners in Handsome Reward",
+      "finish_label": "Champion",
+      "finish_episode": "Handsome Reward",
+      "elim_position": null,
+      "elim_total": null,
       "rating_at_end": 0.801,
       "partner": "Coral Smith",
-      "team": ""
+      "team": "",
+      "forced_exit": false
     }
   ],
   "timeline": [
@@ -127,76 +152,6 @@
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
       "rating": 0.801
-    },
-    {
-      "ranking_id": 42,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.783
-    },
-    {
-      "ranking_id": 43,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.714
-    },
-    {
-      "ranking_id": 44,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.682
-    },
-    {
-      "ranking_id": 45,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.616
-    },
-    {
-      "ranking_id": 46,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.605
-    },
-    {
-      "ranking_id": 47,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.556
-    },
-    {
-      "ranking_id": 48,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.49
-    },
-    {
-      "ranking_id": 49,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.46
-    },
-    {
-      "ranking_id": 50,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.478
-    },
-    {
-      "ranking_id": 51,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.435
-    },
-    {
-      "ranking_id": 52,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.405
-    },
-    {
-      "ranking_id": 53,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.419
-    },
-    {
-      "ranking_id": 54,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.419
-    },
-    {
-      "ranking_id": 55,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.415
     },
     {
       "ranking_id": 56,
@@ -577,276 +532,6 @@
       "ranking_id": 131,
       "season_id": "s10_the_inferno_ii",
       "rating": 0.174
-    },
-    {
-      "ranking_id": 132,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.193
-    },
-    {
-      "ranking_id": 133,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.181
-    },
-    {
-      "ranking_id": 134,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.196
-    },
-    {
-      "ranking_id": 135,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.201
-    },
-    {
-      "ranking_id": 136,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.208
-    },
-    {
-      "ranking_id": 137,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.222
-    },
-    {
-      "ranking_id": 138,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.244
-    },
-    {
-      "ranking_id": 139,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.272
-    },
-    {
-      "ranking_id": 140,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.307
-    },
-    {
-      "ranking_id": 141,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.304
-    },
-    {
-      "ranking_id": 142,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.307
-    },
-    {
-      "ranking_id": 143,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.3
-    },
-    {
-      "ranking_id": 144,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.312
-    },
-    {
-      "ranking_id": 145,
-      "season_id": "s11_the_gauntlet_2",
-      "rating": 0.082
-    },
-    {
-      "ranking_id": 146,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.1
-    },
-    {
-      "ranking_id": 149,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.117
-    },
-    {
-      "ranking_id": 150,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.117
-    },
-    {
-      "ranking_id": 153,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.144
-    },
-    {
-      "ranking_id": 155,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.126
-    },
-    {
-      "ranking_id": 156,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.143
-    },
-    {
-      "ranking_id": 159,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.134
-    },
-    {
-      "ranking_id": 160,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.183
-    },
-    {
-      "ranking_id": 164,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.208
-    },
-    {
-      "ranking_id": 168,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.158
-    },
-    {
-      "ranking_id": 172,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.135
-    },
-    {
-      "ranking_id": 176,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.545
-    },
-    {
-      "ranking_id": 178,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.537
-    },
-    {
-      "ranking_id": 181,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.599
-    },
-    {
-      "ranking_id": 182,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.59
-    },
-    {
-      "ranking_id": 185,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.857
-    },
-    {
-      "ranking_id": 186,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.941
-    },
-    {
-      "ranking_id": 190,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.816
-    },
-    {
-      "ranking_id": 194,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.736
-    },
-    {
-      "ranking_id": 198,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.645
-    },
-    {
-      "ranking_id": 200,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.619
-    },
-    {
-      "ranking_id": 202,
-      "season_id": "s12_fresh_meat",
-      "rating": 0.707
-    },
-    {
-      "ranking_id": 203,
-      "season_id": "s13_the_duel",
-      "rating": 0.713
-    },
-    {
-      "ranking_id": 204,
-      "season_id": "s13_the_duel",
-      "rating": 0.826
-    },
-    {
-      "ranking_id": 205,
-      "season_id": "s13_the_duel",
-      "rating": 0.884
-    },
-    {
-      "ranking_id": 206,
-      "season_id": "s13_the_duel",
-      "rating": 0.851
-    },
-    {
-      "ranking_id": 207,
-      "season_id": "s13_the_duel",
-      "rating": 0.889
-    },
-    {
-      "ranking_id": 208,
-      "season_id": "s13_the_duel",
-      "rating": 0.896
-    },
-    {
-      "ranking_id": 209,
-      "season_id": "s13_the_duel",
-      "rating": 0.942
-    },
-    {
-      "ranking_id": 210,
-      "season_id": "s13_the_duel",
-      "rating": 0.918
-    },
-    {
-      "ranking_id": 211,
-      "season_id": "s13_the_duel",
-      "rating": 0.917
-    },
-    {
-      "ranking_id": 212,
-      "season_id": "s13_the_duel",
-      "rating": 0.98
-    },
-    {
-      "ranking_id": 213,
-      "season_id": "s13_the_duel",
-      "rating": 0.974
-    },
-    {
-      "ranking_id": 214,
-      "season_id": "s13_the_duel",
-      "rating": 0.955
-    },
-    {
-      "ranking_id": 215,
-      "season_id": "s13_the_duel",
-      "rating": 0.967
-    },
-    {
-      "ranking_id": 216,
-      "season_id": "s13_the_duel",
-      "rating": 0.984
-    },
-    {
-      "ranking_id": 217,
-      "season_id": "s13_the_duel",
-      "rating": 0.984
-    },
-    {
-      "ranking_id": 218,
-      "season_id": "s13_the_duel",
-      "rating": 0.997
-    },
-    {
-      "ranking_id": 219,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.971
-    },
-    {
-      "ranking_id": 220,
-      "season_id": "s14_the_inferno_3",
-      "rating": 1.005
     }
   ]
 }
