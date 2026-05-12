@@ -302,9 +302,10 @@
 <div id="goat" class="tab">
   <div class="pill-row">
     <button id="goat-view-career" class="active">Best Careers (ERA)</button>
+    <button id="goat-view-components">Component Breakdown</button>
     <button id="goat-view-seasons">Best Single Seasons</button>
   </div>
-  <div class="pill-row" id="goat-sort-row">
+  <div class="pill-row" id="goat-sort-row" style="display:none">
     <span style="font-size:11px;color:#777;align-self:center;margin-right:4px">Sort by:</span>
     <button class="active" data-sort="era_rating">Total</button>
     <button data-sort="era_daily">Daily</button>
@@ -313,7 +314,7 @@
     <button data-sort="era_field">Made Final</button>
   </div>
   <p class="data-note" id="goat-note">
-    Top 50 careers by sum of positive end-of-season ratings. Per-dimension ERAs are from isolation runs (only that event type counts) — they are NOT additive but show which dimension drives each player's value.
+    Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.
   </p>
   <div class="split-tables">
     <div class="split-pane">
@@ -337,8 +338,8 @@ let state = {
   playerGender: 'all',
   championsGender: 'M',
   goatGender: 'M',
-  goatView: 'career',
-  goatSort: 'era_rating',
+  goatView: 'career',     // 'career' | 'components' | 'seasons'
+  goatSort: 'era_rating', // only meaningful when goatView === 'components'
 };
 
 // Cached fetches
@@ -693,8 +694,30 @@ function renderGoat() {
   for (const g of ['M', 'F']) {
     const wrap = document.getElementById(`goat-table-${g}`);
     if (state.goatView === 'career') {
-      // Sort the list by the chosen dimension; preserve baseline ranks
-      // (the player's #1-#50 by Total ERA) as a permanent column.
+      // Original "Best Careers" view — Total ERA + Peak + Sn + Finals + Champs
+      const list = state._goat.career[g] || [];
+      const rows = list.map(p => `
+        <tr>
+          <td class="rank-col">${p.rank}</td>
+          <td class="player linked" data-player="${p.player}">${p.player}</td>
+          <td class="num">${fmtEra(p.era_rating)}</td>
+          <td class="num">${fmtRating(p.peak_rating)}</td>
+          <td class="num">${p.n_seasons}</td>
+          <td class="num">${p.finals_reached}</td>
+          <td class="num">${p.championships}${p.championships ? ' 🥇' : ''}</td>
+        </tr>
+      `).join('');
+      wrap.innerHTML = `
+        <table>
+          <thead><tr>
+            <th class="rank-col">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Finals</th><th>Champs</th>
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    } else if (state.goatView === 'components') {
+      // Component-breakdown view — Total + 4 isolation ERAs, sortable.
+      // Re-sort within the existing top-50-by-Total pool.
       const list = (state._goat.career[g] || []).slice()
         .sort((a, b) => (b[state.goatSort] ?? 0) - (a[state.goatSort] ?? 0));
       const dim = state.goatSort;
@@ -712,8 +735,6 @@ function renderGoat() {
           ${dimCell(p, 'era_elim')}
           ${dimCell(p, 'era_within')}
           ${dimCell(p, 'era_field')}
-          <td class="num">${p.n_seasons}</td>
-          <td class="num">${p.championships}${p.championships ? ' 🥇' : ''}</td>
         </tr>
       `).join('');
       const dimHeader = (label, key) =>
@@ -727,7 +748,6 @@ function renderGoat() {
             ${dimHeader('Elim', 'era_elim')}
             ${dimHeader('Won Final', 'era_within')}
             ${dimHeader('Made Final', 'era_field')}
-            <th class="num">Sn</th><th class="num">Champs</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
@@ -752,27 +772,29 @@ function renderGoat() {
       `;
     }
   }
-  // Update note text based on view
-  document.getElementById('goat-note').textContent = state.goatView === 'career'
-    ? 'Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.'
-    : 'Top 50 single-season ratings (end-of-season rating, filtered to that season\'s cast).';
   attachPlayerLinks();
 }
 
-document.getElementById('goat-view-career').addEventListener('click', e => {
-  state.goatView = 'career';
-  document.getElementById('goat-view-career').classList.add('active');
-  document.getElementById('goat-view-seasons').classList.remove('active');
-  document.getElementById('goat-sort-row').style.display = '';
+function setGoatView(v) {
+  state.goatView = v;
+  for (const id of ['goat-view-career', 'goat-view-components', 'goat-view-seasons']) {
+    document.getElementById(id).classList.toggle('active', id === `goat-view-${v}`);
+  }
+  // Sort pills only matter when viewing component breakdown
+  document.getElementById('goat-sort-row').style.display = (v === 'components') ? '' : 'none';
+  // Update the note
+  const notes = {
+    career:     'Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.',
+    components: 'Same Top 50 as Best Careers, but each ERA column is computed from an isolation run (only that event type counts). Columns are NOT additive — they show which dimension drives each player.',
+    seasons:    'Top 50 single-season ratings (end-of-season rating, filtered to that season\'s cast).',
+  };
+  document.getElementById('goat-note').textContent = notes[v];
   renderGoat();
-});
-document.getElementById('goat-view-seasons').addEventListener('click', e => {
-  state.goatView = 'seasons';
-  document.getElementById('goat-view-seasons').classList.add('active');
-  document.getElementById('goat-view-career').classList.remove('active');
-  document.getElementById('goat-sort-row').style.display = 'none';
-  renderGoat();
-});
+}
+
+document.getElementById('goat-view-career').addEventListener('click', () => setGoatView('career'));
+document.getElementById('goat-view-components').addEventListener('click', () => setGoatView('components'));
+document.getElementById('goat-view-seasons').addEventListener('click', () => setGoatView('seasons'));
 document.querySelectorAll('#goat-sort-row button').forEach(btn => {
   btn.addEventListener('click', () => {
     state.goatSort = btn.dataset.sort;
