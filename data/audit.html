@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>LAVIN — Player Audit Report</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+           background: #fafafa; color: #222; padding: 28px; max-width: 1200px; margin: 0 auto; }
+    h1 { margin: 0 0 8px 0; font-size: 24px; }
+    h2 { font-size: 18px; margin: 28px 0 10px 0; padding-bottom: 6px; border-bottom: 2px solid #2c3e50; }
+    .subtitle { color: #666; margin-bottom: 18px; font-size: 14px; }
+    .summary { background: #fff; border: 1px solid #ddd; padding: 14px 16px;
+                border-radius: 8px; margin-bottom: 24px; font-size: 14px; }
+    .summary strong { color: #2c3e50; }
+    .note { font-style: italic; color: #888; }
+    table { width: 100%; border-collapse: collapse; background: #fff;
+             box-shadow: 0 1px 3px rgba(0,0,0,0.07); }
+    th { background: #2c3e50; color: #fff; padding: 8px 10px; text-align: left;
+          font-size: 12px; font-weight: 600; }
+    td { padding: 6px 10px; border-bottom: 1px solid #eee; font-size: 13px;
+          font-variant-numeric: tabular-nums; }
+    td:first-child { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>LAVIN — Player Audit Report</h1>
+  <p class="subtitle">
+    Compared 356 event-relevant players against their Fandom infobox truth.
+  </p>
+  <div class="summary">
+    <p><strong>Methodology:</strong> for each player, fetch their Fandom page,
+    parse the <code>InfoboxChallenger</code> template, compare to our derived stats.</p>
+    <p><strong>Important caveat:</strong> Fandom's <code>challengewins</code> field
+    is total <em>daily challenges won</em> across a career, NOT championship count.
+    So that field is NOT shown here (it would generate false-alarm mismatches).</p>
+    <p><strong>Counts:</strong> 356 audited.
+       OK: <strong>53</strong> ·
+       Some mismatch: <strong>302</strong> ·
+       No Fandom infobox: <strong>1</strong></p>
+    <p><strong>Reading guide:</strong> Mismatches in season count are usually because
+    Fandom counts cross-series appearances (All Stars, Champs vs. Pros, UK Challenge)
+    that we don't include. Mismatches in elim count can be definitional: Fandom often
+    excludes team-format gauntlets from a player's elim record, while we count every
+    H2H matchup in the chart. Use the report to flag <em>genuinely suspicious</em>
+    cases — large unexplained gaps in either direction.</p>
+  </div>
+
+  
+        <section>
+          <h2>Players with elim-count gap ≥ 3 vs Fandom (55)</h2>
+          <table><thead><tr><th>Player</th><th>Our W</th><th>Our L</th><th>Fandom W</th><th>Fandom L</th><th>ΔW</th><th>ΔL</th><th>Our Sn</th><th>Fdm Sn</th></tr></thead><tbody><tr><td>Ruthie Alcaide</td><td>10</td><td>3</td><td>1.0</td><td>2.0</td><td>9.0</td><td>1.0</td><td>4</td><td>4.0</td></tr><tr><td>Theo von Kurnatowski</td><td>6</td><td>4</td><td>0.0</td><td>1.0</td><td>6.0</td><td>3.0</td><td>4</td><td>4.0</td></tr><tr><td>Tina Barta</td><td>7</td><td>5</td><td>4.0</td><td>2.0</td><td>3.0</td><td>3.0</td><td>6</td><td>6.0</td></tr><tr><td>Theo Campbell</td><td>4</td><td>3</td><td>9.0</td><td>2.0</td><td>-5.0</td><td>1.0</td><td>4</td><td>4.0</td></tr><tr><td>Johnny Bananas</td><td>11</td><td>13</td><td>15.0</td><td>15.0</td><td>-4.0</td><td>-2.0</td><td>23</td><td>23.0</td></tr><tr><td>Veronica Portillo</td><td>5</td><td>5</td><td>2.0</td><td>3.0</td><td>3.0</td><td>2.0</td><td>12</td><td>12.0</td></tr><tr><td>Mark Long</td><td>4</td><td>3</td><td>0.0</td><td>2.0</td><td>4.0</td><td>1.0</td><td>7</td><td>7.0</td></tr><tr><td>Abram Boise</td><td>4</td><td>6</td><td>3.0</td><td>3.0</td><td>1.0</td><td>3.0</td><td>9</td><td>9.0</td></tr><tr><td>Kam Williams</td><td>5</td><td>1</td><td>8.0</td><td>2.0</td><td>-3.0</td><td>-1.0</td><td>5</td><td>5.0</td></tr><tr><td>Jasmine Reynaud</td><td>2</td><td>8</td><td>1.0</td><td>5.0</td><td>1.0</td><td>3.0</td><td>5</td><td>5.0</td></tr><tr><td>Jordan Wiseley</td><td>12</td><td>3</td><td>10.0</td><td>5.0</td><td>2.0</td><td>-2.0</td><td>10</td><td>8.0</td></tr><tr><td>Mike Mizanin</td><td>5</td><td>1</td><td>2.0</td><td>0.0</td><td>3.0</td><td>1.0</td><td>5</td><td>5.0</td></tr><tr><td>Katie Cooley</td><td>5</td><td>10</td><td>4.0</td><td>7.0</td><td>1.0</td><td>3.0</td><td>10</td><td>10.0</td></tr><tr><td>Kaycee Clark</td><td>2</td><td>0</td><td>3.0</td><td>3.0</td><td>-1.0</td><td>-3.0</td><td>6</td><td>5.0</td></tr><tr><td>Holly Brentson</td><td>1</td><td>3</td><td></td><td></td><td>1.0</td><td>3.0</td><td>1</td><td>1.0</td></tr><tr><td>Tonya Cooley</td><td>5</td><td>5</td><td>3.0</td><td>3.0</td><td>2.0</td><td>2.0</td><td>8</td><td>8.0</td></tr><tr><td>Hunter Barfield</td><td>2</td><td>0</td><td>4.0</td><td>2.0</td><td>-2.0</td><td>-2.0</td><td>4</td><td>4.0</td></tr><tr><td>Zach Nichols</td><td>6</td><td>7</td><td>4.0</td><td>5.0</td><td>2.0</td><td>2.0</td><td>9</td><td>9.0</td></tr><tr><td>Camila Nakagawa</td><td>7</td><td>6</td><td>9.0</td><td>4.0</td><td>-2.0</td><td>2.0</td><td>10</td><td>10.0</td></tr><tr><td>Adrienne Naylor</td><td>0</td><td>0</td><td>4.0</td><td>0.0</td><td>-4.0</td><td>0.0</td><td>1</td><td>1.0</td></tr><tr><td>Aneesa Ferreira</td><td>13</td><td>12</td><td>14.0</td><td>15.0</td><td>-1.0</td><td>-3.0</td><td>18</td><td>18.0</td></tr><tr><td>Dan Renzi</td><td>1</td><td>5</td><td>1.0</td><td>1.0</td><td>0.0</td><td>4.0</td><td>3</td><td>3.0</td></tr><tr><td>Genesis Moss</td><td>0</td><td>3</td><td></td><td></td><td>0.0</td><td>3.0</td><td>2</td><td>2.0</td></tr><tr><td>Nelson Thomas</td><td>8</td><td>4</td><td>9.0</td><td>6.0</td><td>-1.0</td><td>-2.0</td><td>9</td><td>9.0</td></tr><tr><td>Nurys Mateo</td><td>0</td><td>2</td><td>3.0</td><td>2.0</td><td>-3.0</td><td>0.0</td><td>3</td><td>3.0</td></tr><tr><td>Paulie Calafiore</td><td>3</td><td>1</td><td>3.0</td><td>4.0</td><td>0.0</td><td>-3.0</td><td>4</td><td>4.0</td></tr><tr><td>Randy Barry</td><td>2</td><td>1</td><td></td><td></td><td>2.0</td><td>1.0</td><td>2</td><td>2.0</td></tr><tr><td>Robin Hibbard</td><td>3</td><td>7</td><td>1.0</td><td>6.0</td><td>2.0</td><td>1.0</td><td>9</td><td>9.0</td></tr><tr><td>Shane Landrum</td><td>4</td><td>7</td><td>3.0</td><td>5.0</td><td>1.0</td><td>2.0</td><td>7</td><td>7.0</td></tr><tr><td>Sarah Rice</td><td>4</td><td>3</td><td>6.0</td><td>2.0</td><td>-2.0</td><td>1.0</td><td>9</td><td>9.0</td></tr><tr><td>Michele Fitzgerald</td><td>7</td><td>3</td><td>5.0</td><td>2.0</td><td>2.0</td><td>1.0</td><td>4</td><td>4.0</td></tr><tr><td>CT Tamburello</td><td>8</td><td>5</td><td>7.0</td><td>7.0</td><td>1.0</td><td>-2.0</td><td>22</td><td>21.0</td></tr><tr><td>Britni Thornton</td><td>3</td><td>0</td><td>2.0</td><td>2.0</td><td>1.0</td><td>-2.0</td><td>3</td><td>3.0</td></tr><tr><td>Big T Fazakerley</td><td>1</td><td>4</td><td>3.0</td><td>5.0</td><td>-2.0</td><td>-1.0</td><td>5</td><td>5.0</td></tr><tr><td>Tony Raines</td><td>3</td><td>3</td><td>4.0</td><td>5.0</td><td>-1.0</td><td>-2.0</td><td>7</td><td>7.0</td></tr><tr><td>Wes Bergmann</td><td>13</td><td>11</td><td>14.0</td><td>9.0</td><td>-1.0</td><td>2.0</td><td>14</td><td>14.0</td></tr><tr><td>Cara Maria Sorbello</td><td>17</td><td>7</td><td>14.0</td><td>7.0</td><td>3.0</td><td>0.0</td><td>17</td><td>16.0</td></tr><tr><td>Da'Vonne Rogers</td><td>3</td><td>3</td><td>5.0</td><td>2.0</td><td>-2.0</td><td>1.0</td><td>2</td><td>2.0</td></tr><tr><td>Eric Nies</td><td>2</td><td>1</td><td></td><td></td><td>2.0</td><td>1.0</td><td>2</td><td>3.0</td></tr><tr><td>Joss Mooney</td><td>5</td><td>0</td><td>3.0</td><td>1.0</td><td>2.0</td><td>-1.0</td><td>3</td><td>3.0</td></tr><tr><td>Diem Brown</td><td>1</td><td>2</td><td>1.0</td><td>5.0</td><td>0.0</td><td>-3.0</td><td>8</td><td>8.0</td></tr><tr><td>Jenn Grijalva</td><td>4</td><td>5</td><td>5.0</td><td>3.0</td><td>-1.0</td><td>2.0</td><td>6</td><td>6.0</td></tr><tr><td>Johanna Botta</td><td>1</td><td>2</td><td>0.0</td><td>4.0</td><td>1.0</td><td>-2.0</td><td>4</td><td>4.0</td></tr><tr><td>Derrick Kosinski</td><td>10</td><td>5</td><td>11.0</td><td>7.0</td><td>-1.0</td><td>-2.0</td><td>12</td><td>12.0</td></tr><tr><td>Jonna Mannion</td><td>3</td><td>9</td><td>2.0</td><td>7.0</td><td>1.0</td><td>2.0</td><td>7</td><td>7.0</td></tr><tr><td>Derek Chavez</td><td>5</td><td>5</td><td>3.0</td><td>4.0</td><td>2.0</td><td>1.0</td><td>5</td><td>5.0</td></tr><tr><td>Adam King</td><td>3</td><td>5</td><td>2.0</td><td>3.0</td><td>1.0</td><td>2.0</td><td>6</td><td>6.0</td></tr><tr><td>Marie Roda</td><td>1</td><td>3</td><td>2.0</td><td>5.0</td><td>-1.0</td><td>-2.0</td><td>5</td><td>5.0</td></tr><tr><td>Julia Nolan</td><td>2</td><td>0</td><td>0.0</td><td>1.0</td><td>2.0</td><td>-1.0</td><td>1</td><td>1.0</td></tr><tr><td>Davis Mallory</td><td>3</td><td>4</td><td>1.0</td><td>3.0</td><td>2.0</td><td>1.0</td><td>3</td><td>3.0</td></tr><tr><td>Dan Walsh</td><td>1</td><td>1</td><td>0.0</td><td>3.0</td><td>1.0</td><td>-2.0</td><td>2</td><td>2.0</td></tr><tr><td>KellyAnne Judd</td><td>4</td><td>2</td><td>5.0</td><td>4.0</td><td>-1.0</td><td>-2.0</td><td>5</td><td>5.0</td></tr><tr><td>Kyland Young</td><td>4</td><td>0</td><td>6.0</td><td>1.0</td><td>-2.0</td><td>-1.0</td><td>2</td><td>2.0</td></tr><tr><td>Kyle Christie</td><td>4</td><td>6</td><td>7.0</td><td>6.0</td><td>-3.0</td><td>0.0</td><td>7</td><td>7.0</td></tr><tr><td>Jozea Flores</td><td>0</td><td>1</td><td>2.0</td><td>2.0</td><td>-2.0</td><td>-1.0</td><td>1</td><td>1.0</td></tr></tbody></table>
+        </section>
+        
+
+  
+        <section>
+          <h2>Players where WE have MORE seasons than Fandom (potential data leak) (11)</h2>
+          <table><thead><tr><th>Player</th><th>Our Sn</th><th>Fdm Sn</th><th>Our EW</th><th>Our EL</th></tr></thead><tbody><tr><td>CT Tamburello</td><td>22</td><td>21.0</td><td>8</td><td>5</td></tr><tr><td>Cara Maria Sorbello</td><td>17</td><td>16.0</td><td>17</td><td>7</td></tr><tr><td>Brad Fiorenza</td><td>12</td><td>11.0</td><td>5</td><td>6</td></tr><tr><td>Darrell Taylor</td><td>12</td><td>11.0</td><td>6</td><td>6</td></tr><tr><td>Ashley Mitchell</td><td>11</td><td>10.0</td><td>3</td><td>5</td></tr><tr><td>Jordan Wiseley</td><td>10</td><td>8.0</td><td>12</td><td>3</td></tr><tr><td>Devin Walker</td><td>9</td><td>8.0</td><td>6</td><td>4</td></tr><tr><td>Laurel Stucky</td><td>9</td><td>8.0</td><td>11</td><td>2</td></tr><tr><td>Tori Deal</td><td>9</td><td>8.0</td><td>6</td><td>3</td></tr><tr><td>Kaycee Clark</td><td>6</td><td>5.0</td><td>2</td><td>0</td></tr><tr><td>Frank Fox</td><td>4</td><td>3.0</td><td>2</td><td>1</td></tr></tbody></table>
+        </section>
+        
+
+  
+        <section>
+          <h2>Players with NO Fandom infobox (1)</h2>
+          <table><thead><tr><th>Player</th><th>Our Sn</th><th>EW</th><th>EL</th></tr></thead><tbody><tr><td>Mercenary</td><td>2</td><td>0</td><td>0</td></tr></tbody></table>
+        </section>
+        
+
+  <p class="note">Full data: <code>data/audit_report.csv</code></p>
+</body>
+</html>

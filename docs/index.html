@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAVIN — The Challenge Power Rankings</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f8f8f6;
+    color: #1a1a1a;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 20px 24px 16px;
+  }
+  header h1 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #ffd86b;
+  }
+  header p.subtitle {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 2px;
+    font-weight: 500;
+  }
+  header p.model-note {
+    font-size: 12px;
+    color: #aaa;
+    max-width: 720px;
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  nav {
+    display: flex;
+    border-bottom: 1px solid #d8d6d0;
+    background: #fff;
+    overflow-x: auto;
+  }
+  nav button {
+    flex: 1 0 auto;
+    padding: 12px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    color: #555;
+    cursor: pointer;
+    transition: background .15s, color .15s;
+    white-space: nowrap;
+  }
+  nav button:hover { background: #f0eee8; }
+  nav button.active {
+    color: #1a1a2e;
+    border-bottom-color: #ffd86b;
+  }
+
+  .tab { display: none; padding: 16px 20px; }
+  .tab.active { display: block; }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+  .controls select, .controls input {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 1px solid #d8d6d0;
+    border-radius: 4px;
+    background: #fff;
+  }
+  .gender-pills {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .gender-pills button {
+    padding: 5px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #f0eee8;
+    border: 1px solid #d8d6d0;
+    border-radius: 14px;
+    color: #555;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .gender-pills button.active {
+    background: #1a1a2e;
+    color: #ffd86b;
+    border-color: #1a1a2e;
+  }
+
+  .count-label { font-size: 12px; color: #777; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    font-size: 13px;
+  }
+  thead th {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  tbody td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+  tbody tr:hover { background: #fffdf3; }
+  td.rank-col { width: 40px; color: #888; font-weight: 600; text-align: center; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; }
+  td.player { font-weight: 600; }
+  td.player.linked { cursor: pointer; color: #1a4d8a; }
+  td.player.linked:hover { text-decoration: underline; }
+
+  .winner-badge {
+    display: inline-block;
+    background: #ffd86b;
+    color: #1a1a2e;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+  .ru-badge {
+    display: inline-block;
+    background: #c0c0c0;
+    color: #1a1a2e;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+  .third-badge {
+    display: inline-block;
+    background: #cd7f32;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+
+  .player-header {
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+    margin-bottom: 14px;
+  }
+  .player-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .stat {
+    padding: 8px 10px;
+    background: #f8f7f0;
+    border-radius: 4px;
+  }
+  .stat .label {
+    font-size: 10px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .stat .value {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  #player-chart {
+    background: #fff;
+    width: 100%;
+    height: 200px;
+    margin: 14px 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+  }
+
+  .loading, .empty {
+    padding: 24px;
+    text-align: center;
+    color: #999;
+    font-style: italic;
+  }
+
+  .data-note {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .neg { color: #b00; }
+  .pos { color: #0a7; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>LAVIN 🏆</h1>
+  <p class="subtitle">The Challenge Power Rankings · Alpha</p>
+  <p class="model-note">
+    Head-to-head WLS ratings derived from elimination wins, daily wins, and finals placements across S5-S41.
+    Rating ≈ expected per-event win margin vs an average competitor.
+    <strong>ERA</strong> = cumulative positive rating across career (quality × longevity).
+    <strong>PEAK</strong> = highest rating ever achieved.
+    <strong>ACTIVE</strong> = rating at most recent appearance.
+  </p>
+  <p id="last-updated" style="font-size: 11px; color: #999; margin-top: 6px;">Loading...</p>
+</header>
+
+<nav>
+  <button class="active" data-tab="standings">Standings</button>
+  <button data-tab="player">Player Summary</button>
+  <button data-tab="champions">Champions</button>
+  <button data-tab="goat">GOAT</button>
+</nav>
+
+<!-- ── STANDINGS ────────────────────────────────────────────────────────── -->
+<div id="standings" class="tab active">
+  <div class="gender-pills" id="standings-gender">
+    <button class="active" data-gender="M">Men</button>
+    <button data-gender="F">Women</button>
+  </div>
+  <div class="controls">
+    <select id="season-select"></select>
+    <span class="count-label" id="standings-count"></span>
+  </div>
+  <p class="data-note">Ratings shown at the end of the selected season. Filtered to that season's cast.</p>
+  <div id="standings-table"><p class="loading">Loading…</p></div>
+</div>
+
+<!-- ── PLAYER SUMMARY ─────────────────────────────────────────────────── -->
+<div id="player" class="tab">
+  <div class="gender-pills" id="player-gender">
+    <button class="active" data-gender="M">Men</button>
+    <button data-gender="F">Women</button>
+  </div>
+  <div class="controls">
+    <select id="player-select"><option value="">— Select a player —</option></select>
+  </div>
+  <div id="player-content"><p class="empty">Select a player above.</p></div>
+</div>
+
+<!-- ── CHAMPIONS ──────────────────────────────────────────────────────── -->
+<div id="champions" class="tab">
+  <div class="gender-pills" id="champions-gender">
+    <button class="active" data-gender="M">Men</button>
+    <button data-gender="F">Women</button>
+  </div>
+  <p class="data-note">All season winners, most recent first.</p>
+  <div id="champions-table"><p class="loading">Loading…</p></div>
+</div>
+
+<!-- ── GOAT ───────────────────────────────────────────────────────────── -->
+<div id="goat" class="tab">
+  <div class="gender-pills" id="goat-gender">
+    <button class="active" data-gender="M">Men</button>
+    <button data-gender="F">Women</button>
+  </div>
+  <div class="controls">
+    <button id="goat-view-career" class="goat-view active">Best Careers (ERA)</button>
+    <button id="goat-view-seasons" class="goat-view">Best Single Seasons</button>
+  </div>
+  <p class="data-note" id="goat-note">
+    Top 50 careers by cumulative positive rating contribution. Rewards quality × longevity.
+  </p>
+  <div id="goat-table"><p class="loading">Loading…</p></div>
+</div>
+
+<style>
+  .goat-view {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #f0eee8;
+    border: 1px solid #d8d6d0;
+    border-radius: 4px;
+    color: #555;
+    cursor: pointer;
+  }
+  .goat-view.active {
+    background: #1a1a2e;
+    color: #ffd86b;
+    border-color: #1a1a2e;
+  }
+</style>
+
+<script>
+const BASE = './data';
+
+// State
+let state = {
+  standingsGender: 'M',
+  playerGender: 'M',
+  championsGender: 'M',
+  goatGender: 'M',
+  goatView: 'career',
+};
+
+// Cached fetches
+const cache = {};
+async function fetchJSON(path) {
+  if (cache[path]) return cache[path];
+  const r = await fetch(`${BASE}/${path}`);
+  if (!r.ok) throw new Error(`Failed to load ${path}`);
+  const data = await r.json();
+  cache[path] = data;
+  return data;
+}
+
+function fmtRating(r) {
+  if (r === null || r === undefined) return '—';
+  const sign = r >= 0 ? '+' : '';
+  return `${sign}${r.toFixed(2)}`;
+}
+
+function fmtEra(v) {
+  if (v === null || v === undefined) return '—';
+  const sign = v >= 0 ? '+' : '';
+  return `${sign}${v.toFixed(1)}`;
+}
+
+function fmtFinish(text) {
+  if (!text) return '';
+  text = String(text);
+  // Decorate with badges for finalists
+  if (/^Winners?\b/i.test(text)) return `<span class="winner-badge">W</span> ${text}`;
+  if (/^Runners?[- ]?Up/i.test(text)) return `<span class="ru-badge">2nd</span> ${text}`;
+  if (/^Third Place/i.test(text)) return `<span class="third-badge">3rd</span> ${text}`;
+  return text;
+}
+
+// ── Tab switching ──
+document.querySelectorAll('nav button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+
+// ── Gender-pill helpers ──
+function bindGenderPills(containerId, stateKey, onChange) {
+  document.querySelectorAll(`#${containerId} button`).forEach(btn => {
+    btn.addEventListener('click', () => {
+      state[stateKey] = btn.dataset.gender;
+      document.querySelectorAll(`#${containerId} button`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      onChange();
+    });
+  });
+}
+
+// ════════════════════════════════════════════════════════════════
+// STANDINGS
+// ════════════════════════════════════════════════════════════════
+async function loadStandings() {
+  const seasonIdx = await fetchJSON('seasons_index.json');
+  const sel = document.getElementById('season-select');
+  sel.innerHTML = seasonIdx.map(s => `<option value="${s.season_id}">${s.label}</option>`).join('');
+  sel.addEventListener('change', renderStandings);
+  renderStandings();
+}
+
+async function renderStandings() {
+  const sid = document.getElementById('season-select').value;
+  if (!sid) return;
+  const data = await fetchJSON(`seasons/${sid}.json`);
+  const standings = data.standings_at_end[state.standingsGender] || [];
+  document.getElementById('standings-count').textContent = `${standings.length} ${state.standingsGender === 'M' ? 'men' : 'women'}`;
+  if (!standings.length) {
+    document.getElementById('standings-table').innerHTML = '<p class="empty">No ratings published for this season-gender combination.</p>';
+    return;
+  }
+  const rows = standings.map(s => `
+    <tr>
+      <td class="rank-col">#${s.rank}</td>
+      <td class="player linked" data-player="${s.player}">${s.player}</td>
+      <td class="num">${fmtRating(s.rating)}</td>
+      <td>${fmtFinish(s.finish)}</td>
+      <td class="num">${s.n_events}</td>
+    </tr>
+  `).join('');
+  document.getElementById('standings-table').innerHTML = `
+    <table>
+      <thead><tr>
+        <th class="rank-col">#</th><th>Player</th><th>Rating</th><th>Finish</th><th>Events (window)</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+  attachPlayerLinks();
+}
+
+bindGenderPills('standings-gender', 'standingsGender', renderStandings);
+
+// ════════════════════════════════════════════════════════════════
+// PLAYER SUMMARY
+// ════════════════════════════════════════════════════════════════
+let playersIndex = null;
+async function loadPlayer() {
+  if (!playersIndex) playersIndex = await fetchJSON('players_index.json');
+  const sel = document.getElementById('player-select');
+  const filtered = playersIndex.filter(p => p.gender === state.playerGender)
+    .sort((a, b) => a.player.localeCompare(b.player));
+  sel.innerHTML = '<option value="">— Select a player —</option>' +
+    filtered.map(p => `<option value="${p.safe_name}">${p.player}</option>`).join('');
+  sel.addEventListener('change', renderPlayer);
+}
+
+async function renderPlayer() {
+  const safe = document.getElementById('player-select').value;
+  if (!safe) {
+    document.getElementById('player-content').innerHTML = '<p class="empty">Select a player above.</p>';
+    return;
+  }
+  const p = await fetchJSON(`players/${safe}.json`);
+  const c = p.career;
+  let html = `
+    <div class="player-header">
+      <h2>${p.player}</h2>
+      <p style="color:#666;font-size:12px;margin-top:2px">${p.gender === 'M' ? 'Men\'s' : 'Women\'s'} bracket</p>
+      <div class="stats-row">
+        <div class="stat"><div class="label">ERA</div><div class="value">${fmtEra(c.era_rating)}</div></div>
+        <div class="stat"><div class="label">Peak Rating</div><div class="value">${fmtRating(c.peak_rating)}</div></div>
+        <div class="stat"><div class="label">Active Rating</div><div class="value">${fmtRating(c.active_rating)}</div></div>
+        <div class="stat"><div class="label">Seasons</div><div class="value">${c.n_seasons}</div></div>
+        <div class="stat"><div class="label">Championships</div><div class="value">${c.championships}</div></div>
+        <div class="stat"><div class="label">Elim Record</div><div class="value">${c.elim_wins}-${c.elim_losses}</div></div>
+        <div class="stat"><div class="label">Daily Wins</div><div class="value">${c.daily_wins}</div></div>
+      </div>
+    </div>
+    <svg id="player-chart"></svg>
+  `;
+  const rows = p.seasons.map(s => `
+    <tr>
+      <td>${s.label}</td>
+      <td>${fmtFinish(s.finish)}</td>
+      <td class="num"><span class="${s.rating_at_end >= 0 ? 'pos' : 'neg'}">${fmtRating(s.rating_at_end)}</span></td>
+    </tr>
+  `).join('');
+  html += `
+    <table>
+      <thead><tr><th>Season</th><th>Finish</th><th>Rating (end of season)</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+  document.getElementById('player-content').innerHTML = html;
+  drawTimeline(p);
+}
+
+function drawTimeline(p) {
+  const svg = document.getElementById('player-chart');
+  if (!p.timeline.length) return;
+  const W = svg.clientWidth, H = svg.clientHeight, pad = 24;
+  const minR = Math.min(...p.timeline.map(t => t.rating), -0.5);
+  const maxR = Math.max(...p.timeline.map(t => t.rating), 0.5);
+  const xs = i => pad + (W - 2*pad) * (i / (p.timeline.length - 1 || 1));
+  const ys = r => H - pad - (H - 2*pad) * ((r - minR) / (maxR - minR || 1));
+  let path = p.timeline.map((t, i) => `${i ? 'L' : 'M'} ${xs(i)} ${ys(t.rating)}`).join(' ');
+  const zero = ys(0);
+  svg.innerHTML = `
+    <line x1="${pad}" y1="${zero}" x2="${W-pad}" y2="${zero}" stroke="#ddd" stroke-dasharray="3,3"/>
+    <path d="${path}" fill="none" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="${pad}" y="${pad-6}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
+    <text x="${pad}" y="${H-pad+12}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
+  `;
+}
+
+bindGenderPills('player-gender', 'playerGender', loadPlayer);
+
+// ════════════════════════════════════════════════════════════════
+// CHAMPIONS
+// ════════════════════════════════════════════════════════════════
+async function loadChampions() {
+  const data = await fetchJSON('champions.json');
+  state._champions = data;
+  renderChampions();
+}
+
+function renderChampions() {
+  const data = state._champions;
+  if (!data) return;
+  const list = data[state.championsGender] || [];
+  const rows = list.map(c => `
+    <tr>
+      <td>${c.label}</td>
+      <td class="player linked" data-player="${c.player}">${c.player}</td>
+      <td class="num">${fmtRating(c.rating_at_end)}</td>
+    </tr>
+  `).join('');
+  document.getElementById('champions-table').innerHTML = `
+    <table>
+      <thead><tr><th>Season</th><th>Champion</th><th>Rating at end of season</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+  attachPlayerLinks();
+}
+
+bindGenderPills('champions-gender', 'championsGender', renderChampions);
+
+// ════════════════════════════════════════════════════════════════
+// GOAT
+// ════════════════════════════════════════════════════════════════
+async function loadGoat() {
+  const career = await fetchJSON('goat_players.json');
+  const seasons = await fetchJSON('goat_player_seasons.json');
+  state._goat = { career, seasons };
+  renderGoat();
+}
+
+function renderGoat() {
+  if (!state._goat) return;
+  const g = state.goatGender;
+  if (state.goatView === 'career') {
+    document.getElementById('goat-note').textContent =
+      'Top 50 careers by cumulative positive rating contribution (ERA). Rewards quality × longevity.';
+    const list = state._goat.career[g] || [];
+    const rows = list.map(p => `
+      <tr>
+        <td class="rank-col">#${p.rank}</td>
+        <td class="player linked" data-player="${p.player}">${p.player}</td>
+        <td class="num">${fmtEra(p.era_rating)}</td>
+        <td class="num">${fmtRating(p.peak_rating)}</td>
+        <td class="num">${fmtRating(p.active_rating)}</td>
+        <td class="num">${p.n_seasons}</td>
+        <td class="num">${p.championships}</td>
+      </tr>
+    `).join('');
+    document.getElementById('goat-table').innerHTML = `
+      <table>
+        <thead><tr>
+          <th class="rank-col">#</th><th>Player</th><th>ERA</th><th>Peak</th><th>Active</th><th>Seasons</th><th>Champs</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  } else {
+    document.getElementById('goat-note').textContent =
+      'Top 50 single-season ratings (end-of-season rating, filtered to that season\'s cast).';
+    const list = state._goat.seasons[g] || [];
+    const rows = list.map(p => `
+      <tr>
+        <td class="rank-col">#${p.rank}</td>
+        <td class="player linked" data-player="${p.player}">${p.player}</td>
+        <td>${p.season_label}</td>
+        <td class="num">${fmtRating(p.rating_at_end)}</td>
+        <td>${fmtFinish(p.finish)}</td>
+      </tr>
+    `).join('');
+    document.getElementById('goat-table').innerHTML = `
+      <table>
+        <thead><tr>
+          <th class="rank-col">#</th><th>Player</th><th>Season</th><th>Rating</th><th>Finish</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+  attachPlayerLinks();
+}
+
+bindGenderPills('goat-gender', 'goatGender', renderGoat);
+
+document.getElementById('goat-view-career').addEventListener('click', e => {
+  state.goatView = 'career';
+  document.getElementById('goat-view-career').classList.add('active');
+  document.getElementById('goat-view-seasons').classList.remove('active');
+  renderGoat();
+});
+document.getElementById('goat-view-seasons').addEventListener('click', e => {
+  state.goatView = 'seasons';
+  document.getElementById('goat-view-seasons').classList.add('active');
+  document.getElementById('goat-view-career').classList.remove('active');
+  renderGoat();
+});
+
+// ── Player link binding (deep-link to player tab on click) ──
+function attachPlayerLinks() {
+  document.querySelectorAll('.player.linked').forEach(td => {
+    td.addEventListener('click', async () => {
+      const name = td.dataset.player;
+      if (!playersIndex) playersIndex = await fetchJSON('players_index.json');
+      const p = playersIndex.find(x => x.player === name);
+      if (!p) return;
+      state.playerGender = p.gender;
+      document.querySelectorAll('#player-gender button').forEach(b => {
+        b.classList.toggle('active', b.dataset.gender === p.gender);
+      });
+      await loadPlayer();
+      document.getElementById('player-select').value = p.safe_name;
+      // Switch tab
+      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector('nav button[data-tab="player"]').classList.add('active');
+      document.getElementById('player').classList.add('active');
+      renderPlayer();
+    });
+  });
+}
+
+// ── Init ──
+(async () => {
+  document.getElementById('last-updated').textContent = `Last updated: ${new Date().toISOString().slice(0, 10)}`;
+  await loadStandings();
+  await loadPlayer();
+  await loadChampions();
+  await loadGoat();
+})();
+</script>
+</body>
+</html>

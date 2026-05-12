@@ -1,0 +1,473 @@
+{
+  "player": "Olivia Kaiser",
+  "safe_name": "Olivia_Kaiser",
+  "gender": "F",
+  "career": {
+    "era_rating": 47.2,
+    "peak_rating": 1.15,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": 0.635,
+    "active_season_id": "s41_vets_and_new_threats",
+    "n_seasons": 4,
+    "n_snapshots": 83,
+    "championships": 1,
+    "elim_wins": 9,
+    "elim_losses": 2,
+    "daily_wins": 7
+  },
+  "seasons": [
+    {
+      "season_id": "s38_ride_or_dies",
+      "season_num": 38,
+      "season_name": "Ride or Dies",
+      "year": 2022,
+      "label": "S38 Ride or Dies (2022)",
+      "finish": "Horacio Guti\u00e9rrez Jr. Exatl\u00f3n Estados Unidos 5 Rookie / Replacement",
+      "rating_at_end": 0.57
+    },
+    {
+      "season_id": "s39_battle_for_a_new_champion",
+      "season_num": 39,
+      "season_name": "Battle for a New Champion",
+      "year": 2023,
+      "label": "S39 Battle for a New Champion (2023)",
+      "finish": "Eliminated <small>in Feel the Bern",
+      "rating_at_end": 0.414
+    },
+    {
+      "season_id": "s40_battle_of_the_eras",
+      "season_num": 40,
+      "season_name": "Battle of the Eras",
+      "year": 2024,
+      "label": "S40 Battle of the Eras (2024)",
+      "finish": "Eliminated in Best Friends 4Era",
+      "rating_at_end": 0.347
+    },
+    {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Winner <small>''in Finale Part II",
+      "rating_at_end": 0.635
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 807,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.95
+    },
+    {
+      "ranking_id": 809,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.85
+    },
+    {
+      "ranking_id": 812,
+      "season_id": "s38_ride_or_dies",
+      "rating": 1.15
+    },
+    {
+      "ranking_id": 813,
+      "season_id": "s38_ride_or_dies",
+      "rating": 1.13
+    },
+    {
+      "ranking_id": 816,
+      "season_id": "s38_ride_or_dies",
+      "rating": 1.065
+    },
+    {
+      "ranking_id": 817,
+      "season_id": "s38_ride_or_dies",
+      "rating": 1.094
+    },
+    {
+      "ranking_id": 818,
+      "season_id": "s38_ride_or_dies",
+      "rating": 1.096
+    },
+    {
+      "ranking_id": 819,
+      "season_id": "s38_ride_or_dies",
+      "rating": 1.092
+    },
+    {
+      "ranking_id": 821,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.878
+    },
+    {
+      "ranking_id": 822,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.804
+    },
+    {
+      "ranking_id": 823,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.817
+    },
+    {
+      "ranking_id": 825,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.712
+    },
+    {
+      "ranking_id": 826,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.703
+    },
+    {
+      "ranking_id": 827,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.711
+    },
+    {
+      "ranking_id": 829,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.685
+    },
+    {
+      "ranking_id": 832,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.869
+    },
+    {
+      "ranking_id": 833,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.869
+    },
+    {
+      "ranking_id": 834,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.813
+    },
+    {
+      "ranking_id": 835,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.809
+    },
+    {
+      "ranking_id": 836,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.729
+    },
+    {
+      "ranking_id": 837,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.731
+    },
+    {
+      "ranking_id": 838,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.798
+    },
+    {
+      "ranking_id": 841,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.746
+    },
+    {
+      "ranking_id": 842,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.749
+    },
+    {
+      "ranking_id": 845,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.74
+    },
+    {
+      "ranking_id": 846,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.57
+    },
+    {
+      "ranking_id": 847,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.591
+    },
+    {
+      "ranking_id": 848,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.567
+    },
+    {
+      "ranking_id": 849,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.531
+    },
+    {
+      "ranking_id": 850,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.536
+    },
+    {
+      "ranking_id": 851,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.538
+    },
+    {
+      "ranking_id": 852,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.509
+    },
+    {
+      "ranking_id": 853,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.5
+    },
+    {
+      "ranking_id": 854,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.498
+    },
+    {
+      "ranking_id": 855,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.594
+    },
+    {
+      "ranking_id": 856,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.414
+    },
+    {
+      "ranking_id": 857,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.437
+    },
+    {
+      "ranking_id": 858,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.489
+    },
+    {
+      "ranking_id": 859,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.479
+    },
+    {
+      "ranking_id": 860,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.479
+    },
+    {
+      "ranking_id": 861,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.521
+    },
+    {
+      "ranking_id": 862,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.485
+    },
+    {
+      "ranking_id": 863,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.47
+    },
+    {
+      "ranking_id": 864,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.471
+    },
+    {
+      "ranking_id": 865,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.489
+    },
+    {
+      "ranking_id": 866,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.351
+    },
+    {
+      "ranking_id": 867,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.365
+    },
+    {
+      "ranking_id": 868,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.351
+    },
+    {
+      "ranking_id": 869,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.351
+    },
+    {
+      "ranking_id": 870,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.344
+    },
+    {
+      "ranking_id": 871,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.345
+    },
+    {
+      "ranking_id": 872,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.339
+    },
+    {
+      "ranking_id": 873,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.428
+    },
+    {
+      "ranking_id": 874,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.455
+    },
+    {
+      "ranking_id": 875,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.455
+    },
+    {
+      "ranking_id": 876,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.471
+    },
+    {
+      "ranking_id": 877,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.472
+    },
+    {
+      "ranking_id": 878,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.472
+    },
+    {
+      "ranking_id": 879,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.472
+    },
+    {
+      "ranking_id": 880,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.506
+    },
+    {
+      "ranking_id": 881,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.521
+    },
+    {
+      "ranking_id": 882,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.536
+    },
+    {
+      "ranking_id": 883,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.536
+    },
+    {
+      "ranking_id": 884,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.473
+    },
+    {
+      "ranking_id": 885,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.473
+    },
+    {
+      "ranking_id": 886,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.488
+    },
+    {
+      "ranking_id": 887,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.488
+    },
+    {
+      "ranking_id": 888,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.49
+    },
+    {
+      "ranking_id": 889,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.453
+    },
+    {
+      "ranking_id": 890,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.312
+    },
+    {
+      "ranking_id": 891,
+      "season_id": "s40_battle_of_the_eras",
+      "rating": 0.347
+    },
+    {
+      "ranking_id": 892,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.278
+    },
+    {
+      "ranking_id": 893,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.233
+    },
+    {
+      "ranking_id": 894,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.318
+    },
+    {
+      "ranking_id": 895,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.315
+    },
+    {
+      "ranking_id": 896,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.412
+    },
+    {
+      "ranking_id": 897,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.384
+    },
+    {
+      "ranking_id": 898,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.378
+    },
+    {
+      "ranking_id": 899,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.372
+    },
+    {
+      "ranking_id": 902,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.295
+    },
+    {
+      "ranking_id": 903,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.281
+    },
+    {
+      "ranking_id": 906,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.281
+    },
+    {
+      "ranking_id": 907,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.635
+    }
+  ]
+}

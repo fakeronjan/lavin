@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+Icon
+Icon?
+
+# Cached Fandom API responses — regenerable
+data/.fandom_player_cache/
+
+# Per-season raw wikitext — regenerable via scrape_fandom.py
+data/raw/*/_raw.wikitext
+
+# One-off run outputs
+data/scrape_summary.csv
+
+# Local server log
+/tmp/lavin_server.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Old codex archive — 171MB of legacy work, not tracked.
+# Kept locally for reference but excluded from this repo.
+backup - codex version/
