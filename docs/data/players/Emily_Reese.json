@@ -1,0 +1,56 @@
+{
+  "player": "Emily Reese",
+  "safe_name": "Emily_Reese",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.273,
+    "peak_season_id": "s28_rivals_iii",
+    "active_rating": -0.273,
+    "active_season_id": "s28_rivals_iii",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s27_battle_of_the_bloodlines",
+      "season_num": 27,
+      "season_name": "Battle of the Bloodlines",
+      "year": 2015,
+      "label": "S27 Battle of the Bloodlines (2015)",
+      "finish": "Eliminated in There Will Be Blood",
+      "finish_label": "Eliminated",
+      "finish_episode": "There Will Be Blood",
+      "elim_position": 2,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Jenna Compono"
+      ],
+      "rating_at_end": -0.424,
+      "rank": 10,
+      "rank_total": 14,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Christina LeBlanc",
+      "partners_history": [
+        "Christina LeBlanc"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 607,
+      "season_id": "s27_battle_of_the_bloodlines",
+      "rating": -0.424
+    }
+  ]
+}

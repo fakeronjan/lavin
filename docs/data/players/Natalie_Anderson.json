@@ -1,0 +1,55 @@
+{
+  "player": "Natalie Anderson",
+  "safe_name": "Natalie_Anderson",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.293,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.457,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 0,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s36_double_agents",
+      "season_num": 36,
+      "season_name": "Double Agents",
+      "year": 2020,
+      "label": "S36 Double Agents (2020)",
+      "finish": "Medically Disqualified in Skyfall",
+      "finish_label": "Medical DQ",
+      "finish_episode": "Skyfall",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": -0.293,
+      "rank": 13,
+      "rank_total": 15,
+      "daily_wins": 0,
+      "elim_wins": 1,
+      "elim_losses": 0,
+      "partner": "Wes Bergmann",
+      "partners_history": [
+        "Wes Bergmann",
+        "Cory Wharton"
+      ],
+      "team": "",
+      "forced_exit": true
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 860,
+      "season_id": "s36_double_agents",
+      "rating": -0.293
+    }
+  ]
+}

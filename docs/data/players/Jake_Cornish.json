@@ -1,0 +1,64 @@
+{
+  "player": "Jake Cornish",
+  "safe_name": "Jake_Cornish",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.025,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.025,
+    "active_season_id": "s41_vets_and_new_threats",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Eliminated in The Best Birthday Present",
+      "finish_label": "Eliminated",
+      "finish_episode": "The Best Birthday Present",
+      "elim_position": 10,
+      "elim_total": 12,
+      "eliminated_by": [
+        "Theo Campbell",
+        "Adrienne Naylor"
+      ],
+      "rating_at_end": -0.025,
+      "rank": 14,
+      "rank_total": 16,
+      "daily_wins": 1,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Cara Maria Sorbello",
+      "partners_history": [
+        "Cara Maria Sorbello",
+        "Aviv Melmed",
+        "Ashley Mitchell",
+        "Nany Gonz\u00e1lez",
+        "Michaela Bradshaw",
+        "Jonna Mannion",
+        "Olivia Kaiser",
+        "Aneesa Ferreira"
+      ],
+      "team": "New Threats",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 1048,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": -0.025
+    }
+  ]
+}

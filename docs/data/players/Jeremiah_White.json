@@ -1,0 +1,59 @@
+{
+  "player": "Jeremiah White",
+  "safe_name": "Jeremiah_White",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.203,
+    "peak_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.203,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s37_spies_lies_allies",
+      "season_num": 37,
+      "season_name": "Spies Lies and Allies",
+      "year": 2021,
+      "label": "S37 Spies Lies and Allies (2021)",
+      "finish": "Eliminated in The War",
+      "finish_label": "Eliminated",
+      "finish_episode": "The War",
+      "elim_position": 6,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Cory Wharton",
+        "Bettina Buchanan"
+      ],
+      "rating_at_end": -0.203,
+      "rank": 11,
+      "rank_total": 18,
+      "daily_wins": 0,
+      "elim_wins": 1,
+      "elim_losses": 1,
+      "partner": "Tacha Akide",
+      "partners_history": [
+        "Tacha Akide",
+        "Big T Fazakerley",
+        "Tori Deal"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 894,
+      "season_id": "s37_spies_lies_allies",
+      "rating": -0.203
+    }
+  ]
+}

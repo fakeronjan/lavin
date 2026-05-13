@@ -1,0 +1,57 @@
+{
+  "player": "Nate Siebenmark",
+  "safe_name": "Nate_Siebenmark",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.3,
+    "peak_rating": 0.256,
+    "peak_season_id": "s28_rivals_iii",
+    "active_rating": 0.011,
+    "active_season_id": "s29_invasion_of_the_champions",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 1,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s28_rivals_iii",
+      "season_num": 28,
+      "season_name": "Rivals III",
+      "year": 2016,
+      "label": "S28 Rivals III (2016)",
+      "finish": "Eliminated in Rivals: Civil War",
+      "finish_label": "Eliminated",
+      "finish_episode": "Rivals: Civil War",
+      "elim_position": 5,
+      "elim_total": 7,
+      "eliminated_by": [
+        "Wes Bergmann",
+        "Nany Gonz\u00e1lez"
+      ],
+      "rating_at_end": 0.256,
+      "rank": 8,
+      "rank_total": 14,
+      "daily_wins": 1,
+      "elim_wins": 1,
+      "elim_losses": 1,
+      "partner": "Christina LeBlanc",
+      "partners_history": [
+        "Christina LeBlanc"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 640,
+      "season_id": "s28_rivals_iii",
+      "rating": 0.256
+    }
+  ]
+}

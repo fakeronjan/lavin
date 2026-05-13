@@ -1,0 +1,61 @@
+{
+  "player": "Izzy Fairthorne",
+  "safe_name": "Izzy_Fairthorne",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.158,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.158,
+    "active_season_id": "s41_vets_and_new_threats",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 2
+  },
+  "seasons": [
+    {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Eliminated in At Least Someone's Getting Laid!",
+      "finish_label": "Eliminated",
+      "finish_episode": "At Least Someone's Getting Laid!",
+      "elim_position": 3,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Tay Wilcoxson"
+      ],
+      "rating_at_end": -0.158,
+      "rank": 9,
+      "rank_total": 17,
+      "daily_wins": 2,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Theo Campbell",
+      "partners_history": [
+        "Theo Campbell",
+        "Turbo \u00c7amk\u0131ran",
+        "Derek Chavez",
+        "Derrick Kosinski",
+        "Leroy Garrett",
+        "Will Gagnon"
+      ],
+      "team": "New Threats",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 1048,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": -0.158
+    }
+  ]
+}

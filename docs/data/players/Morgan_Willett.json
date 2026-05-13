@@ -1,0 +1,57 @@
+{
+  "player": "Morgan Willett",
+  "safe_name": "Morgan_Willett",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.192,
+    "peak_season_id": "s33_war_of_the_worlds",
+    "active_rating": -0.31,
+    "active_season_id": "s34_war_of_the_worlds_2",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s33_war_of_the_worlds",
+      "season_num": 33,
+      "season_name": "War of the Worlds",
+      "year": 2019,
+      "label": "S33 War of the Worlds (2019)",
+      "finish": "Eliminated in Casualties of War",
+      "finish_label": "Eliminated",
+      "finish_episode": "Casualties of War",
+      "elim_position": 3,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Zahida Allen",
+        "Zach Nichols"
+      ],
+      "rating_at_end": -0.192,
+      "rank": 12,
+      "rank_total": 17,
+      "daily_wins": 1,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Johnny Bananas",
+      "partners_history": [
+        "Johnny Bananas"
+      ],
+      "team": "Prospects",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 807,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": -0.192
+    }
+  ]
+}

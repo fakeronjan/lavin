@@ -1,0 +1,54 @@
+{
+  "player": "Victor Arroyo",
+  "safe_name": "Victor_Arroyo",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.451,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": -0.451,
+    "active_season_id": "s31_vendettas",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s31_vendettas",
+      "season_num": 31,
+      "season_name": "Vendettas",
+      "year": 2018,
+      "label": "S31 Vendettas (2018)",
+      "finish": "Eliminated in Pulling the Strings",
+      "finish_label": "Eliminated",
+      "finish_episode": "Pulling the Strings",
+      "elim_position": 3,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Brad Fiorenza"
+      ],
+      "rating_at_end": -0.451,
+      "rank": 15,
+      "rank_total": 16,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 709,
+      "season_id": "s31_vendettas",
+      "rating": -0.451
+    }
+  ]
+}

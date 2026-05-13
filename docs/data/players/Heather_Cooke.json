@@ -1,0 +1,55 @@
+{
+  "player": "Heather Cooke",
+  "safe_name": "Heather_Cooke",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.6,
+    "peak_rating": 0.724,
+    "peak_season_id": "s25_free_agents",
+    "active_rating": 0.724,
+    "active_season_id": "s25_free_agents",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 1,
+    "pre_anchor_titles": 0,
+    "elim_wins": 2,
+    "elim_losses": 0,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s24_rivals_ii",
+      "season_num": 24,
+      "season_name": "Rivals II",
+      "year": 2013,
+      "label": "S24 Rivals II (2013)",
+      "finish": "Runners-Up in The Island of Misfit Challengers",
+      "finish_label": "Runner-up",
+      "finish_episode": "The Island of Misfit Challengers",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": 0.643,
+      "rank": 3,
+      "rank_total": 17,
+      "daily_wins": 1,
+      "elim_wins": 2,
+      "elim_losses": 0,
+      "partner": "Cara Maria Sorbello",
+      "partners_history": [
+        "Naomi Defensor",
+        "Cara Maria Sorbello"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 521,
+      "season_id": "s24_rivals_ii",
+      "rating": 0.643
+    }
+  ]
+}

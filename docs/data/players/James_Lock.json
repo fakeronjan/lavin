@@ -1,0 +1,52 @@
+{
+  "player": "James Lock",
+  "safe_name": "James_Lock",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.5,
+    "peak_rating": 0.467,
+    "peak_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": 0.017,
+    "active_season_id": "s40_battle_of_the_eras",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 0,
+    "daily_wins": 2
+  },
+  "seasons": [
+    {
+      "season_id": "s39_battle_for_a_new_champion",
+      "season_num": 39,
+      "season_name": "Battle for a New Champion",
+      "year": 2023,
+      "label": "S39 Battle for a New Champion (2023)",
+      "finish": "Eliminated in Feel the Bern",
+      "finish_label": "Eliminated",
+      "finish_episode": "Feel the Bern",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": 0.467,
+      "rank": 6,
+      "rank_total": 17,
+      "daily_wins": 2,
+      "elim_wins": 1,
+      "elim_losses": 0,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 969,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.467
+    }
+  ]
+}

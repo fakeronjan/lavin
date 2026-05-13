@@ -1,0 +1,57 @@
+{
+  "player": "Johnnie McBride",
+  "safe_name": "Johnnie_McBride",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.397,
+    "peak_season_id": "s13_the_duel",
+    "active_rating": -0.397,
+    "active_season_id": "s13_the_duel",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 2,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s12_fresh_meat",
+      "season_num": 12,
+      "season_name": "Fresh Meat",
+      "year": 2006,
+      "label": "S12 Fresh Meat (2006)",
+      "finish": "Eliminated in Kayak Challenge",
+      "finish_label": "Eliminated",
+      "finish_episode": "Kayak Challenge",
+      "elim_position": 4,
+      "elim_total": 8,
+      "eliminated_by": [
+        "Wes Bergmann",
+        "Casey Cooper"
+      ],
+      "rating_at_end": -0.496,
+      "rank": 11,
+      "rank_total": 11,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 2,
+      "partner": "Tonya Cooley",
+      "partners_history": [
+        "Tonya Cooley"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 225,
+      "season_id": "s12_fresh_meat",
+      "rating": -0.496
+    }
+  ]
+}

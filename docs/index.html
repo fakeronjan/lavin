@@ -142,8 +142,8 @@
   td.rank-col, td.rank-cell, th.rank-cell { width: 40px; text-align: center; }
   td.num { font-variant-numeric: tabular-nums; text-align: right; }
   td.player { font-weight: 600; }
-  td.player.linked { cursor: pointer; color: #1a6b8a; }
-  td.player.linked:hover { text-decoration: underline; }
+  .player.linked { cursor: pointer; color: #1a6b8a; }
+  .player.linked:hover { text-decoration: underline; }
 
   /* Standings table column sizing — let the Player column flex to take
      remaining space; pin Daily/Elim narrow since they hold 1-2 digits. */
@@ -347,6 +347,10 @@
     <button data-gender="M">Men</button>
     <button data-gender="F">Women</button>
   </div>
+  <div class="gender-pills" id="player-scope" style="margin-top:6px">
+    <button class="active" data-scope="3plus">3+ seasons</button>
+    <button data-scope="all">All players</button>
+  </div>
   <div class="controls">
     <select id="player-select"><option value="">— Select a player —</option></select>
   </div>
@@ -397,6 +401,9 @@ const BASE = './data';
 let state = {
   standingsGender: 'M',
   playerGender: 'all',
+  playerScope: '3plus',   // '3plus' (default) | 'all' — filters the Player
+                          // Summary dropdown. Deep-links from other tabs to
+                          // 1-season players auto-switch scope to 'all'.
   championsGender: 'M',
   goatGender: 'M',
   goatView: 'career',     // 'career' | 'components' | 'seasons'
@@ -477,11 +484,10 @@ function renderPartnerContext(s) {
   const ph = s.partners_history || [];
   if (ph.length > 1) {
     // Sequence of partners (preserves X→Y→X back-to-original transitions)
-    ctx = 'with ' + ph.map(name =>
-      `<span class="player linked" data-player="${name}">${name}</span>`
-    ).join('<span style="color:#999"> → </span>');
+    ctx = 'with ' + ph.map(playerLink)
+      .join('<span style="color:#999"> → </span>');
   } else if (s.partner) {
-    ctx = `with <span class="player linked" data-player="${s.partner}">${s.partner}</span>`;
+    ctx = `with ${playerLink(s.partner)}`;
   } else if (s.team) {
     ctx = s.team;
   }
@@ -537,7 +543,7 @@ function fmtFinish(textOrEntry) {
   const ord = (n) => n + (['st','nd','rd'][((n+90)%100-10)%10-1] || 'th');
   const subBits = [];
   if (label === 'Eliminated' && elimBy.length) {
-    const byHtml = elimBy.map(n => `<span class="player linked" data-player="${n}">${n}</span>`).join(' & ');
+    const byHtml = elimBy.map(playerLink).join(' & ');
     subBits.push(`by ${byHtml}`);
   }
   if (elimPos && elimTot) subBits.push(`${ord(elimPos)} of ${elimTot}`);
@@ -598,7 +604,7 @@ async function renderStandings() {
       return `
       <tr>
         <td class="rank-cell">${s.rank}</td>
-        <td class="player-cell"><div class="player linked" data-player="${s.player}">${s.player}</div>${ctxHtml}</td>
+        <td class="player-cell">${playerLink(s.player)}${ctxHtml}</td>
         <td class="num stat-narrow col-hide-mobile">${s.daily_wins || 0}</td>
         <td class="num stat-narrow col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
         <td>${fmtFinish(s)}</td>
@@ -627,12 +633,28 @@ async function renderStandings() {
 // PLAYER SUMMARY
 // ════════════════════════════════════════════════════════════════
 let playersIndex = null;
+let _playerSet   = null;  // Set of indexed player names — built once playersIndex loads
+
+// Render a player name as a linked span only if the player exists in
+// players_index.json. Recent first-season cast often aren't indexed yet
+// (rating eligibility threshold) — rendering them as `.linked` produces
+// dead clicks. Unknown players render as plain inline text.
+function playerLink(name) {
+  if (!name) return '';
+  if (_playerSet && _playerSet.has(name)) {
+    return `<span class="player linked" data-player="${name}">${name}</span>`;
+  }
+  return `<span>${name}</span>`;
+}
 async function loadPlayer() {
   if (!playersIndex) playersIndex = await fetchJSON('players_index.json');
   const sel = document.getElementById('player-select');
-  const filtered = (state.playerGender === 'all'
-      ? playersIndex
-      : playersIndex.filter(p => p.gender === state.playerGender))
+  const scopeFilter = state.playerScope === '3plus'
+    ? (p => (p.n_seasons || 0) >= 3)
+    : (() => true);
+  const filtered = playersIndex
+    .filter(scopeFilter)
+    .filter(p => state.playerGender === 'all' || p.gender === state.playerGender)
     .slice()
     .sort((a, b) => a.player.localeCompare(b.player));
   // Mark gender beside name when showing "all" so it's visible at a glance
@@ -670,9 +692,14 @@ async function renderPlayer() {
   `;
   const rows = p.seasons.map(s => {
     const ctx = renderPartnerContext(s);
+    // Pre-S5 (S2-S4) team-format seasons aren't in seasons_index — don't
+    // link them. Mirrors the Champions tab pre_anchor handling.
+    const seasonCell = (s.season_num != null && s.season_num < 5)
+      ? `<td style="font-size:11px;color:#555">${s.label}</td>`
+      : `<td class="season-cell linked" data-season-id="${s.season_id}" style="font-size:11px;color:#555">${s.label}</td>`;
     return `
     <tr>
-      <td style="font-size:11px;color:#555">${s.label}</td>
+      ${seasonCell}
       <td style="font-size:12px;color:#666">${ctx || '<span style="color:#bbb">—</span>'}</td>
       <td class="num col-hide-mobile">${s.daily_wins || 0}</td>
       <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
@@ -697,6 +724,11 @@ async function renderPlayer() {
   `;
   document.getElementById('player-content').innerHTML = html;
   drawTimeline(p);
+  // Bind click handlers on partner/eliminator names + season cells. Without
+  // this call, the .linked spans rendered by renderPartnerContext stay dead
+  // until the user navigates to another tab and back.
+  attachPlayerLinks();
+  attachSeasonLinks();
 }
 
 // Fixed Y-axis range for the player timeline chart so every player's
@@ -788,6 +820,17 @@ function drawTimeline(p) {
 
 bindGenderPills('player-gender', 'playerGender', loadPlayer);
 
+// Scope pill ("3+ seasons" vs "All players") — same UI pattern as the
+// gender pills, different state key.
+document.querySelectorAll('#player-scope button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    state.playerScope = btn.dataset.scope;
+    document.querySelectorAll('#player-scope button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    loadPlayer();
+  });
+});
+
 // ════════════════════════════════════════════════════════════════
 // CHAMPIONS
 // ════════════════════════════════════════════════════════════════
@@ -827,7 +870,7 @@ function renderChampions() {
         const total = c.championship_no
           ? `<span style="color:#888;font-size:0.85em;font-weight:400"> (${c.championship_no} 🥇)</span>`
           : '';
-        return `<span class="player linked" data-player="${c.player}">${c.player}</span>${total}`;
+        return `${playerLink(c.player)}${total}`;
       }).join('<br>')
     : '<span style="color:#bbb">—</span>';
   const ruCell = arr => arr.length
@@ -835,7 +878,7 @@ function renderChampions() {
         const total = c.runner_up_no
           ? `<span style="color:#888;font-size:0.85em;font-weight:400"> (${c.runner_up_no} 🥈)</span>`
           : '';
-        return `<span class="player linked" data-player="${c.player}">${c.player}</span>${total}`;
+        return `${playerLink(c.player)}${total}`;
       }).join('<br>')
     : '<span style="color:#bbb">—</span>';
 
@@ -895,7 +938,7 @@ function renderGoat() {
       const rows = list.map(p => `
         <tr>
           <td class="rank-col">${p.rank}</td>
-          <td class="player linked" data-player="${p.player}">${p.player}</td>
+          <td>${playerLink(p.player)}</td>
           <td class="num">${fmtEra(p.era_rating)}</td>
           <td class="num">${fmtRating(p.peak_rating)}</td>
           <td class="num">${p.n_seasons}</td>
@@ -935,7 +978,7 @@ function renderGoat() {
       const rows = list.map(p => `
         <tr>
           <td class="rank-col">${p.rank}</td>
-          <td class="player linked" data-player="${p.player}">${p.player}</td>
+          <td>${playerLink(p.player)}</td>
           ${dimCell(p, 'era_rating')}
           ${dimCell(p, 'era_daily')}
           ${dimCell(p, 'era_elim')}
@@ -963,8 +1006,8 @@ function renderGoat() {
       const rows = list.map(p => `
         <tr>
           <td class="rank-col">${p.rank}</td>
-          <td class="player linked" data-player="${p.player}">${p.player}</td>
-          <td>${p.season_label}</td>
+          <td>${playerLink(p.player)}</td>
+          <td class="season-cell linked" data-season-id="${p.season_id}">${p.season_label}</td>
           <td class="num">${fmtRating(p.rating_at_end)}</td>
         </tr>
       `).join('');
@@ -979,6 +1022,7 @@ function renderGoat() {
     }
   }
   attachPlayerLinks();
+  attachSeasonLinks();
 }
 
 function setGoatView(v) {
@@ -1040,6 +1084,15 @@ function attachPlayerLinks() {
       document.querySelectorAll('#player-gender button').forEach(b => {
         b.classList.toggle('active', b.dataset.gender === p.gender);
       });
+      // If deep-linking to a 1-season player (S41 newcomer etc.), the
+      // "3+ seasons" scope would hide them from the dropdown. Auto-flip
+      // to "All players" so dropdown stays in sync with the rendered view.
+      if ((p.n_seasons || 0) < 3 && state.playerScope === '3plus') {
+        state.playerScope = 'all';
+        document.querySelectorAll('#player-scope button').forEach(b => {
+          b.classList.toggle('active', b.dataset.scope === 'all');
+        });
+      }
       await loadPlayer();
       document.getElementById('player-select').value = p.safe_name;
       // Switch tab
@@ -1055,6 +1108,10 @@ function attachPlayerLinks() {
 // ── Init ──
 (async () => {
   document.getElementById('last-updated').textContent = `Last updated: ${new Date().toISOString().slice(0, 10)}`;
+  // Load players_index first so playerLink() can gate on membership before
+  // any render. Many recent-season cast members aren't indexed.
+  if (!playersIndex) playersIndex = await fetchJSON('players_index.json');
+  _playerSet = new Set(playersIndex.map(p => p.player));
   await loadStandings();
   await loadPlayer();
   await loadChampions();

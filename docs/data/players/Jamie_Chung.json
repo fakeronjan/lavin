@@ -1,0 +1,52 @@
+{
+  "player": "Jamie Chung",
+  "safe_name": "Jamie_Chung",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.7,
+    "peak_rating": 0.977,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": 0.977,
+    "active_season_id": "s11_the_gauntlet_2",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 1,
+    "finals_reached": 1,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 0,
+    "daily_wins": 8
+  },
+  "seasons": [
+    {
+      "season_id": "s10_the_inferno_ii",
+      "season_num": 10,
+      "season_name": "The Inferno II",
+      "year": 2005,
+      "label": "S10 The Inferno II (2005)",
+      "finish": "Winners in Episode 16",
+      "finish_label": "Champion",
+      "finish_episode": "Episode 16",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": 0.655,
+      "rank": 1,
+      "rank_total": 10,
+      "daily_wins": 8,
+      "elim_wins": 0,
+      "elim_losses": 0,
+      "partner": "",
+      "partners_history": [],
+      "team": "Good Guys",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 148,
+      "season_id": "s10_the_inferno_ii",
+      "rating": 0.655
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "player": "Gabby Allen",
+  "safe_name": "Gabby_Allen",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": 0.027,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.022,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 3
+  },
+  "seasons": [
+    {
+      "season_id": "s36_double_agents",
+      "season_num": 36,
+      "season_name": "Double Agents",
+      "year": 2020,
+      "label": "S36 Double Agents (2020)",
+      "finish": "Eliminated in The Spy Who Loved Fessy",
+      "finish_label": "Eliminated",
+      "finish_episode": "The Spy Who Loved Fessy",
+      "elim_position": 5,
+      "elim_total": 7,
+      "eliminated_by": [
+        "Nany Gonz\u00e1lez"
+      ],
+      "rating_at_end": 0.027,
+      "rank": 10,
+      "rank_total": 15,
+      "daily_wins": 3,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Lio Rush",
+      "partners_history": [
+        "Lio Rush",
+        "Devin Walker",
+        "Cory Wharton"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 860,
+      "season_id": "s36_double_agents",
+      "rating": 0.027
+    }
+  ]
+}

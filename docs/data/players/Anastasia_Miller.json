@@ -1,0 +1,57 @@
+{
+  "player": "Anastasia Miller",
+  "safe_name": "Anastasia_Miller",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.335,
+    "peak_season_id": "s25_free_agents",
+    "active_rating": -0.335,
+    "active_season_id": "s25_free_agents",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s24_rivals_ii",
+      "season_num": 24,
+      "season_name": "Rivals II",
+      "year": 2013,
+      "label": "S24 Rivals II (2013)",
+      "finish": "Eliminated in New Girl",
+      "finish_label": "Eliminated",
+      "finish_episode": "New Girl",
+      "elim_position": 1,
+      "elim_total": 8,
+      "eliminated_by": [
+        "Cara Maria Sorbello",
+        "Heather Cooke"
+      ],
+      "rating_at_end": -0.341,
+      "rank": 13,
+      "rank_total": 17,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Jessica McCain",
+      "partners_history": [
+        "Jessica McCain"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 521,
+      "season_id": "s24_rivals_ii",
+      "rating": -0.341
+    }
+  ]
+}

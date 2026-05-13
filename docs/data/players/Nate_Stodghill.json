@@ -1,0 +1,57 @@
+{
+  "player": "Nate Stodghill",
+  "safe_name": "Nate_Stodghill",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.458,
+    "peak_season_id": "s22_battle_of_the_exes",
+    "active_rating": -0.458,
+    "active_season_id": "s22_battle_of_the_exes",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s22_battle_of_the_exes",
+      "season_num": 22,
+      "season_name": "Battle of the Exes",
+      "year": 2012,
+      "label": "S22 Battle of the Exes (2012)",
+      "finish": "Eliminated in Love Is a Battlefield",
+      "finish_label": "Eliminated",
+      "finish_episode": "Love Is a Battlefield",
+      "elim_position": 1,
+      "elim_total": 7,
+      "eliminated_by": [
+        "Wes Bergmann",
+        "Mandi Moyer"
+      ],
+      "rating_at_end": -0.458,
+      "rank": 11,
+      "rank_total": 12,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Priscilla Mendez",
+      "partners_history": [
+        "Priscilla Mendez"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 439,
+      "season_id": "s22_battle_of_the_exes",
+      "rating": -0.458
+    }
+  ]
+}

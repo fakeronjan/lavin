@@ -1,0 +1,54 @@
+{
+  "player": "Shavonda Billingslea",
+  "safe_name": "Shavonda_Billingslea",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": 0.133,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": 0.133,
+    "active_season_id": "s11_the_gauntlet_2",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 1,
+    "daily_wins": 8
+  },
+  "seasons": [
+    {
+      "season_id": "s10_the_inferno_ii",
+      "season_num": 10,
+      "season_name": "The Inferno II",
+      "year": 2005,
+      "label": "S10 The Inferno II (2005)",
+      "finish": "Eliminated in Episode 15",
+      "finish_label": "Eliminated",
+      "finish_episode": "Episode 15",
+      "elim_position": 4,
+      "elim_total": 4,
+      "eliminated_by": [
+        "Tonya Cooley"
+      ],
+      "rating_at_end": -0.161,
+      "rank": 6,
+      "rank_total": 10,
+      "daily_wins": 8,
+      "elim_wins": 1,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "Good Guys",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 148,
+      "season_id": "s10_the_inferno_ii",
+      "rating": -0.161
+    }
+  ]
+}

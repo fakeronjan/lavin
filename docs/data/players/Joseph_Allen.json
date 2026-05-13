@@ -1,0 +1,56 @@
+{
+  "player": "Joseph Allen",
+  "safe_name": "Joseph_Allen",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.018,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.1,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s36_double_agents",
+      "season_num": 36,
+      "season_name": "Double Agents",
+      "year": 2020,
+      "label": "S36 Double Agents (2020)",
+      "finish": "Eliminated in Dive Another Day",
+      "finish_label": "Eliminated",
+      "finish_episode": "Dive Another Day",
+      "elim_position": 1,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Kyle Christie"
+      ],
+      "rating_at_end": -0.018,
+      "rank": 9,
+      "rank_total": 15,
+      "daily_wins": 1,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Big T Fazakerley",
+      "partners_history": [
+        "Big T Fazakerley"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 860,
+      "season_id": "s36_double_agents",
+      "rating": -0.018
+    }
+  ]
+}

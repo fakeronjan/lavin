@@ -1,0 +1,57 @@
+{
+  "player": "Jozea Flores",
+  "safe_name": "Jozea_Flores",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.578,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": -0.578,
+    "active_season_id": "s32_final_reckoning",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s32_final_reckoning",
+      "season_num": 32,
+      "season_name": "Final Reckoning",
+      "year": 2018,
+      "label": "S32 Final Reckoning (2018)",
+      "finish": "Eliminated in Wheel of Fortune",
+      "finish_label": "Eliminated",
+      "finish_episode": "Wheel of Fortune",
+      "elim_position": 4,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Cory Wharton",
+        "Devin Walker"
+      ],
+      "rating_at_end": -0.578,
+      "rank": 15,
+      "rank_total": 15,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Da'Vonne Rogers",
+      "partners_history": [
+        "Da'Vonne Rogers"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 770,
+      "season_id": "s32_final_reckoning",
+      "rating": -0.578
+    }
+  ]
+}

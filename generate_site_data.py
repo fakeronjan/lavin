@@ -28,8 +28,11 @@ DOCS_PLAYERS = DOCS_DATA / "players"
 # Players need this many EOS snapshots before getting a dedicated player page.
 # Was 30 when we computed per-elim snapshots (hundreds per player). With the
 # EOS-only solver, snapshots are 1 per season the player was rated in
-# (~6-30 typical), so 30 filtered out everyone but CT and Aneesa.
-PLAYER_PAGE_MIN_SNAPSHOTS = 3
+# (~6-30 typical). Lowered to 1 so one-and-done newcomers (incl. S41 champ
+# Yeremi Hykel) get profile pages — clickable cells in Standings / Champions
+# / GOAT Best Seasons would otherwise dead-end. Page-eligibility is decoupled
+# from rating-quality filters (PEAK_MIN_SNAPSHOTS in derive_views.py).
+PLAYER_PAGE_MIN_SNAPSHOTS = 1
 
 
 def safe_filename(name):

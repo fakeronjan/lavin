@@ -1,0 +1,54 @@
+{
+  "player": "Brianna Taylor",
+  "safe_name": "Brianna_Taylor",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.254,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.52,
+    "active_season_id": "s19_fresh_meat_ii",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s18_the_ruins",
+      "season_num": 18,
+      "season_name": "The Ruins",
+      "year": 2009,
+      "label": "S18 The Ruins (2009)",
+      "finish": "Eliminated in The Road to Ruins",
+      "finish_label": "Eliminated",
+      "finish_episode": "The Road to Ruins",
+      "elim_position": 3,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Susie Meister"
+      ],
+      "rating_at_end": -0.254,
+      "rank": 12,
+      "rank_total": 14,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "Challengers",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 322,
+      "season_id": "s18_the_ruins",
+      "rating": -0.254
+    }
+  ]
+}

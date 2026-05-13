@@ -1,0 +1,64 @@
+{
+  "player": "America Lopez",
+  "safe_name": "America_Lopez",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.525,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.525,
+    "active_season_id": "s41_vets_and_new_threats",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Eliminated in They Are Like Cockroaches",
+      "finish_label": "Eliminated",
+      "finish_episode": "They Are Like Cockroaches",
+      "elim_position": 7,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Adrienne Naylor",
+        "Theo Campbell"
+      ],
+      "rating_at_end": -0.525,
+      "rank": 16,
+      "rank_total": 17,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Turbo \u00c7amk\u0131ran",
+      "partners_history": [
+        "Turbo \u00c7amk\u0131ran",
+        "CT Tamburello",
+        "Theo Campbell",
+        "Leroy Garrett",
+        "Derrick Kosinski",
+        "Derek Chavez",
+        "Gabe Wai",
+        "Leroy Garrett"
+      ],
+      "team": "New Threats",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 1048,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": -0.525
+    }
+  ]
+}

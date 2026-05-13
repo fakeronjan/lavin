@@ -1,0 +1,57 @@
+{
+  "player": "Tommy Bracco",
+  "safe_name": "Tommy_Bracco",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.504,
+    "peak_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": -0.504,
+    "active_season_id": "s39_battle_for_a_new_champion",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s38_ride_or_dies",
+      "season_num": 38,
+      "season_name": "Ride or Dies",
+      "year": 2022,
+      "label": "S38 Ride or Dies (2022)",
+      "finish": "Eliminated in O'liv'n on the Edge",
+      "finish_label": "Eliminated",
+      "finish_episode": "O'liv'n on the Edge",
+      "elim_position": 4,
+      "elim_total": 12,
+      "eliminated_by": [
+        "Kim Tr\u00e4nka",
+        "Colleen Schneider"
+      ],
+      "rating_at_end": -0.544,
+      "rank": 16,
+      "rank_total": 17,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Analyse Talavera",
+      "partners_history": [
+        "Analyse Talavera"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 948,
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.544
+    }
+  ]
+}

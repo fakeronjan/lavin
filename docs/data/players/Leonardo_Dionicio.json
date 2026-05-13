@@ -1,0 +1,55 @@
+{
+  "player": "Leonardo Dionicio",
+  "safe_name": "Leonardo_Dionicio",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.4,
+    "peak_rating": 0.397,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.397,
+    "active_season_id": "s41_vets_and_new_threats",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 3
+  },
+  "seasons": [
+    {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Eliminated in We Have to Boogie!",
+      "finish_label": "Eliminated",
+      "finish_episode": "We Have to Boogie!",
+      "elim_position": 9,
+      "elim_total": 12,
+      "eliminated_by": [
+        "Turbo \u00c7amk\u0131ran",
+        "Sydney Segal"
+      ],
+      "rating_at_end": 0.397,
+      "rank": 5,
+      "rank_total": 16,
+      "daily_wins": 3,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "New Threats",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 1048,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.397
+    }
+  ]
+}

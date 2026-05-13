@@ -1,0 +1,61 @@
+{
+  "player": "Sydney Segal",
+  "safe_name": "Sydney_Segal",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.8,
+    "peak_rating": 0.789,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.789,
+    "active_season_id": "s41_vets_and_new_threats",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 1,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 0,
+    "daily_wins": 4
+  },
+  "seasons": [
+    {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "Runner-Up in Finale Part II",
+      "finish_label": "Runner-up",
+      "finish_episode": "Finale Part II",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": 0.789,
+      "rank": 2,
+      "rank_total": 17,
+      "daily_wins": 4,
+      "elim_wins": 1,
+      "elim_losses": 0,
+      "partner": "Leroy Garrett",
+      "partners_history": [
+        "Leroy Garrett",
+        "Theo Campbell",
+        "Derek Chavez",
+        "Turbo \u00c7amk\u0131ran",
+        "CT Tamburello",
+        "Derrick Kosinski",
+        "Yeremi Hykel",
+        "Turbo \u00c7amk\u0131ran"
+      ],
+      "team": "New Threats",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 1048,
+      "season_id": "s41_vets_and_new_threats",
+      "rating": 0.789
+    }
+  ]
+}

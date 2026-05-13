@@ -1,0 +1,56 @@
+{
+  "player": "Raphy Medrano",
+  "safe_name": "Raphy_Medrano",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.2,
+    "peak_rating": 0.203,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.004,
+    "active_season_id": "s28_rivals_iii",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s27_battle_of_the_bloodlines",
+      "season_num": 27,
+      "season_name": "Battle of the Bloodlines",
+      "year": 2015,
+      "label": "S27 Battle of the Bloodlines (2015)",
+      "finish": "Eliminated in A House Divided",
+      "finish_label": "Eliminated",
+      "finish_episode": "A House Divided",
+      "elim_position": 4,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Mitch Reid"
+      ],
+      "rating_at_end": 0.203,
+      "rank": 6,
+      "rank_total": 16,
+      "daily_wins": 1,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Dario Medrano",
+      "partners_history": [
+        "Dario Medrano"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 607,
+      "season_id": "s27_battle_of_the_bloodlines",
+      "rating": 0.203
+    }
+  ]
+}

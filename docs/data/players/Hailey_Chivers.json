@@ -1,0 +1,57 @@
+{
+  "player": "Hailey Chivers",
+  "safe_name": "Hailey_Chivers",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.176,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.176,
+    "active_season_id": "s27_battle_of_the_bloodlines",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s26_battle_of_the_exes_ii",
+      "season_num": 26,
+      "season_name": "Battle of the Exes II",
+      "year": 2015,
+      "label": "S26 Battle of the Exes II (2015)",
+      "finish": "Eliminated in I Will Always Hate You",
+      "finish_label": "Eliminated",
+      "finish_episode": "I Will Always Hate You",
+      "elim_position": 2,
+      "elim_total": 8,
+      "eliminated_by": [
+        "Averey Tressler",
+        "Johnny Reilly"
+      ],
+      "rating_at_end": -0.525,
+      "rank": 10,
+      "rank_total": 13,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Thomas Buell",
+      "partners_history": [
+        "Thomas Buell"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 584,
+      "season_id": "s26_battle_of_the_exes_ii",
+      "rating": -0.525
+    }
+  ]
+}

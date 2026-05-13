@@ -1,0 +1,54 @@
+{
+  "player": "Lio Rush",
+  "safe_name": "Lio_Rush",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.431,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.437,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 0,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s36_double_agents",
+      "season_num": 36,
+      "season_name": "Double Agents",
+      "year": 2020,
+      "label": "S36 Double Agents (2020)",
+      "finish": "Quit in From Theresa with Love",
+      "finish_label": "Quit",
+      "finish_episode": "From Theresa with Love",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": -0.431,
+      "rank": 15,
+      "rank_total": 15,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 0,
+      "partner": "Gabby Allen",
+      "partners_history": [
+        "Gabby Allen"
+      ],
+      "team": "",
+      "forced_exit": true
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 860,
+      "season_id": "s36_double_agents",
+      "rating": -0.431
+    }
+  ]
+}

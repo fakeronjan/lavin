@@ -1,0 +1,52 @@
+{
+  "player": "Emmy Russ",
+  "safe_name": "Emmy_Russ",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.281,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": -0.47,
+    "active_season_id": "s39_battle_for_a_new_champion",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 0,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s38_ride_or_dies",
+      "season_num": 38,
+      "season_name": "Ride or Dies",
+      "year": 2022,
+      "label": "S38 Ride or Dies (2022)",
+      "finish": "Quit in Friend or Faux",
+      "finish_label": "Quit",
+      "finish_episode": "Friend or Faux",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": -0.281,
+      "rank": 14,
+      "rank_total": 17,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 0,
+      "partner": "Nam Vo",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": true
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 948,
+      "season_id": "s38_ride_or_dies",
+      "rating": -0.281
+    }
+  ]
+}

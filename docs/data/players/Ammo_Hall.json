@@ -1,0 +1,54 @@
+{
+  "player": "Ammo Hall",
+  "safe_name": "Ammo_Hall",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.3,
+    "peak_rating": 0.333,
+    "peak_season_id": "s30_xxx_dirty_30",
+    "active_rating": 0.157,
+    "active_season_id": "s31_vendettas",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s30_xxx_dirty_30",
+      "season_num": 30,
+      "season_name": "XXX: Dirty 30",
+      "year": 2017,
+      "label": "S30 XXX: Dirty 30 (2017)",
+      "finish": "Quit in Ankles Aweigh",
+      "finish_label": "Quit",
+      "finish_episode": "Ankles Aweigh",
+      "elim_position": 4,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Jordan Wiseley"
+      ],
+      "rating_at_end": 0.333,
+      "rank": 6,
+      "rank_total": 15,
+      "daily_wins": 0,
+      "elim_wins": 1,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 689,
+      "season_id": "s30_xxx_dirty_30",
+      "rating": 0.333
+    }
+  ]
+}

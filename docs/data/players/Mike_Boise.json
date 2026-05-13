@@ -1,0 +1,56 @@
+{
+  "player": "Mike Boise",
+  "safe_name": "Mike_Boise",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.6,
+    "peak_rating": 0.637,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": 0.401,
+    "active_season_id": "s28_rivals_iii",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 1,
+    "elim_losses": 1,
+    "daily_wins": 2
+  },
+  "seasons": [
+    {
+      "season_id": "s27_battle_of_the_bloodlines",
+      "season_num": 27,
+      "season_name": "Battle of the Bloodlines",
+      "year": 2015,
+      "label": "S27 Battle of the Bloodlines (2015)",
+      "finish": "Eliminated in Blood Versus Love",
+      "finish_label": "Eliminated",
+      "finish_episode": "Blood Versus Love",
+      "elim_position": 8,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Jamie Banks"
+      ],
+      "rating_at_end": 0.637,
+      "rank": 4,
+      "rank_total": 16,
+      "daily_wins": 2,
+      "elim_wins": 1,
+      "elim_losses": 1,
+      "partner": "Abram Boise",
+      "partners_history": [
+        "Abram Boise"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 607,
+      "season_id": "s27_battle_of_the_bloodlines",
+      "rating": 0.637
+    }
+  ]
+}

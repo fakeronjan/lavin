@@ -1,0 +1,58 @@
+{
+  "player": "Amber Martinez",
+  "safe_name": "Amber_Martinez",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.2,
+    "peak_rating": 0.168,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": 0.003,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 3
+  },
+  "seasons": [
+    {
+      "season_id": "s36_double_agents",
+      "season_num": 36,
+      "season_name": "Double Agents",
+      "year": 2020,
+      "label": "S36 Double Agents (2020)",
+      "finish": "Eliminated in A Clockwork Amber",
+      "finish_label": "Eliminated",
+      "finish_episode": "A Clockwork Amber",
+      "elim_position": 4,
+      "elim_total": 7,
+      "eliminated_by": [
+        "Amber Borzotra"
+      ],
+      "rating_at_end": 0.168,
+      "rank": 5,
+      "rank_total": 15,
+      "daily_wins": 3,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "Nelson Thomas",
+      "partners_history": [
+        "Nelson Thomas",
+        "Mechie Harris",
+        "Cory Wharton"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 860,
+      "season_id": "s36_double_agents",
+      "rating": 0.168
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "player": "Esther Agunbiade",
+  "safe_name": "Esther_Agunbiade",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.1,
+    "peak_rating": 0.088,
+    "peak_season_id": "s37_spies_lies_allies",
+    "active_rating": 0.088,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 1,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 2
+  },
+  "seasons": [
+    {
+      "season_id": "s37_spies_lies_allies",
+      "season_num": 37,
+      "season_name": "Spies Lies and Allies",
+      "year": 2021,
+      "label": "S37 Spies Lies and Allies (2021)",
+      "finish": "Eliminated in Uncle CT",
+      "finish_label": "Eliminated",
+      "finish_episode": "Uncle CT",
+      "elim_position": 5,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Emy Alupei"
+      ],
+      "rating_at_end": 0.088,
+      "rank": 8,
+      "rank_total": 18,
+      "daily_wins": 2,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 894,
+      "season_id": "s37_spies_lies_allies",
+      "rating": 0.088
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "player": "Jenn Lee",
+  "safe_name": "Jenn_Lee",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.1,
+    "peak_rating": 0.116,
+    "peak_season_id": "s35_total_madness",
+    "active_rating": 0.078,
+    "active_season_id": "s36_double_agents",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 1
+  },
+  "seasons": [
+    {
+      "season_id": "s35_total_madness",
+      "season_num": 35,
+      "season_name": "Total Madness",
+      "year": 2020,
+      "label": "S35 Total Madness (2020)",
+      "finish": "Eliminated in Sweet Dreams Are Made of Dee",
+      "finish_label": "Eliminated",
+      "finish_episode": "Sweet Dreams Are Made of Dee",
+      "elim_position": 1,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Jenny West"
+      ],
+      "rating_at_end": 0.116,
+      "rank": 8,
+      "rank_total": 14,
+      "daily_wins": 1,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 842,
+      "season_id": "s35_total_madness",
+      "rating": 0.116
+    }
+  ]
+}

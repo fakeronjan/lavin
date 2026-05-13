@@ -1,0 +1,54 @@
+{
+  "player": "Zara Zoffany",
+  "safe_name": "Zara_Zoffany",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.3,
+    "peak_rating": 0.317,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": 0.317,
+    "active_season_id": "s40_battle_of_the_eras",
+    "n_seasons": 1,
+    "n_snapshots": 2,
+    "championships": 0,
+    "finals_reached": 0,
+    "pre_anchor_titles": 0,
+    "elim_wins": 0,
+    "elim_losses": 0,
+    "daily_wins": 3
+  },
+  "seasons": [
+    {
+      "season_id": "s39_battle_for_a_new_champion",
+      "season_num": 39,
+      "season_name": "Battle for a New Champion",
+      "year": 2023,
+      "label": "S39 Battle for a New Champion (2023)",
+      "finish": "Eliminated in Welcome to Conquest",
+      "finish_label": "Eliminated",
+      "finish_episode": "Welcome to Conquest",
+      "elim_position": 9,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Kyland Young"
+      ],
+      "rating_at_end": 0.271,
+      "rank": 6,
+      "rank_total": 17,
+      "daily_wins": 3,
+      "elim_wins": 0,
+      "elim_losses": 0,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 969,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": 0.271
+    }
+  ]
+}
