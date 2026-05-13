@@ -11,6 +11,7 @@
 # plus a summary printed to stdout.
 # =========================================================
 import re
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -21,6 +22,13 @@ DATA = HERE / "data"
 RAW = DATA / "raw"
 
 OUT = DATA / "partner_changes.csv"
+
+# Shared parser helpers for table iteration
+sys.path.insert(0, str(HERE))
+from scrape_fandom import (
+    _iter_table_rows, _iter_wikitables, _cell_plain, _strip_cell_attrs,
+    _is_player_cell, _players_from_icons, get_section,
+)
 
 
 def parse_int_episode(s):
@@ -122,6 +130,118 @@ def match_short_to_full(short, cast_full_names):
     return None  # ambiguous or no match
 
 
+_NON_PARTNER_TOKENS = {
+    'rogue', 'hangnail', 'individual', 'n/a', 'solo',
+    # Team-color labels used when format shifts away from pairs mid-season
+    'sapphire', 'ruby', 'emerald', 'orange', 'purple',
+    'red', 'blue', 'green', 'yellow', 'grey', 'gray',
+    'navy', 'maroon', 'gold', 'silver',
+}
+
+
+def parse_partner_progress(wt, cast_players=None):
+    """
+    Parse a season's ===Partner Progress=== / ===Team Progress=== table —
+    the canonical per-episode partner sequence for rotating-pair seasons
+    (S36 Double Agents, S37 Spies Lies & Allies, S41 Vets & New Threats).
+
+    Returns {canonical_player_name: [partner_full_names_in_order]} with
+    consecutive duplicates collapsed. Team-color and special-status cells
+    (Rogue, Hangnail, Sapphire, etc.) are skipped — they aren't real
+    partnerships.
+    """
+    cast_players = cast_players or []
+    # First-name lookup map for canonicalization (Episode rows use short
+    # display names — "Coral", "Fessy", "Corey L." — not canonical names)
+    fn_map = {}
+    for p in cast_players:
+        fn_map.setdefault(p.split()[0], []).append(p)
+
+    def canonical(short):
+        s = short.strip().rstrip('.').strip()
+        if not s or s.lower() in _NON_PARTNER_TOKENS:
+            return None
+        if s in cast_players:
+            return s
+        tokens = s.split()
+        first = tokens[0]
+        cands = fn_map.get(first, [])
+        if not cands:
+            return None
+        if len(cands) == 1:
+            return cands[0]
+        # Disambiguate "Corey L." / "Corey W." by surname initial
+        if len(tokens) == 2 and len(tokens[1].rstrip('.')) >= 1:
+            initial = tokens[1].rstrip('.')[0].lower()
+            matches = [c for c in cands if c.split()[-1][0].lower() == initial]
+            if len(matches) == 1:
+                return matches[0]
+        return None
+
+    for heading in ('Partner Progress', 'Team Progress', 'Partners Progress'):
+        m = re.search(r'={2,}\s*' + heading + r'\s*={2,}\s*\n', wt)
+        if not m:
+            continue
+        body_start = m.end()
+        end = wt.find('\n==', body_start)
+        body = wt[body_start:end if end > 0 else len(wt)]
+        tables = list(_iter_wikitables(mwp.parse(body)))
+        if not tables:
+            continue
+        rows = _iter_table_rows(tables[0])
+        out = {}
+        for row in rows[2:]:  # skip 2 header rows
+            if len(row) < 2:
+                continue
+            display = _cell_plain(_strip_cell_attrs(row[0])).strip()
+            if not display:
+                continue
+            partner_seq = []
+            for cell in row[1:]:
+                txt = _cell_plain(_strip_cell_attrs(cell)).strip()
+                if not txt:
+                    continue
+                canon = canonical(txt)
+                if canon and (not partner_seq or partner_seq[-1] != canon):
+                    partner_seq.append(canon)
+            if partner_seq:
+                player_full = canonical(display) or display
+                out[player_full] = partner_seq
+        if out:
+            return out
+    return {}
+
+
+def _pair_cell_fraction(wt):
+    """
+    Fraction of player-icon cells in the Elimination chart that hold
+    exactly 2 players. Pair-format seasons run 0.4+ here; individual
+    seasons with transient Power Couples run <0.1.
+    """
+    sec = get_section(wt, "Game Summary")
+    if not sec:
+        return 0.0
+    elim_table = None
+    for table in _iter_wikitables(mwp.parse(sec)):
+        if "Elimination chart" in table or "elimination chart" in table.lower():
+            elim_table = table
+            break
+    if not elim_table:
+        return 0.0
+    total = pair = 0
+    for cells in _iter_table_rows(elim_table):
+        native = getattr(cells, "_native_len", len(cells))
+        for c in cells[:native]:
+            if not _is_player_cell(c):
+                continue
+            n = len(_players_from_icons(c) or [])
+            if n >= 1:
+                total += 1
+                if n == 2:
+                    pair += 1
+    return pair / total if total else 0.0
+
+
 def main():
     seasons = pd.read_csv(HERE / "seasons.csv")
     rows = []
@@ -134,22 +254,49 @@ def main():
             continue
         wt = raw_path.read_text(encoding="utf-8")
 
-        # Only audit pair-format seasons. Detect via cast pair_ids: if the
-        # contestants table has at least one populated pair_id, this is a
-        # pair-format season; otherwise it's individual (S25 Free Agents,
-        # S35 Total Madness, S40 Battle of the Eras, etc.) and 2-icon
-        # chart cells are transient Power Couples / Duo nominees, NOT
-        # season-long partnerships.
+        # Only audit pair-format seasons. Gate on pair-cell density in the
+        # elimination chart: pair-format seasons (S22/S26/S36/S37/S38/S41)
+        # have 40%+ of player cells as 2-icon pairs; individual seasons
+        # with transient Power Couples (S25) have <10%. Cast-table
+        # pair_id presence is unreliable because rotating-partner seasons
+        # (S36 Double Agents, S37 Spies Lies & Allies) don't publish a
+        # season-long pair in the cast table — partners only appear
+        # per-episode in the chart.
+        if _pair_cell_fraction(wt) < 0.20:
+            continue
+
+        # PRIMARY source for rotating-partner seasons: the ===Partner
+        # Progress=== / ===Team Progress=== table publishes each player's
+        # weekly partner sequence directly. S36/S37/S41 use this; for
+        # those seasons it's the only complete source (the elim chart's
+        # 2-icon pair-cells miss any player who never appeared in a
+        # nominee / winner pair, e.g. Kyle/Devin/Amanda S37, Nam/Lolo S36).
         cast_path = RAW / sid / "contestants.csv"
+        cast_names = []
         if cast_path.exists():
             try:
-                cast_df = pd.read_csv(cast_path)
-                has_any_pair = "pair_id" in cast_df.columns and \
-                    cast_df["pair_id"].dropna().astype(str).str.strip().replace("", pd.NA).dropna().any()
+                cast_names = [str(p) for p in pd.read_csv(cast_path)["player"].dropna()]
             except Exception:
-                has_any_pair = False
-            if not has_any_pair:
-                continue
+                pass
+        pp = parse_partner_progress(wt, cast_players=cast_names)
+        if pp:
+            for player, seq in pp.items():
+                for i, partner in enumerate(seq, 1):
+                    rows.append({
+                        "season_id": sid,
+                        "player": player,
+                        "partner_order": i,
+                        "partner": partner,
+                    })
+                if len(seq) >= 2:
+                    summary_rows.append({
+                        "season_id": sid,
+                        "player": player,
+                        "n_phases": len(seq),
+                        "n_unique_partners": len(set(seq)),
+                        "sequence": " → ".join(seq),
+                    })
+            continue  # don't fall through to chart-derived audit
 
         # Build per-player chronological partner sequence (preserves X→Y→X
         # patterns by treating each transition as a new phase). For each

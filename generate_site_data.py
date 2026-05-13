@@ -312,6 +312,11 @@ def main():
 
     DOCS_SEASONS.mkdir(parents=True, exist_ok=True)
     DOCS_PLAYERS.mkdir(parents=True, exist_ok=True)
+    # Wipe any prior player JSONs — players who fall below the eligibility
+    # threshold (PLAYER_PAGE_MIN_SNAPSHOTS) on a re-rate would otherwise
+    # leave stale files behind that disagree with the current player_index.
+    for stale in DOCS_PLAYERS.glob("*.json"):
+        stale.unlink()
 
     # ---------------------------------------------------------
     # seasons_index.json

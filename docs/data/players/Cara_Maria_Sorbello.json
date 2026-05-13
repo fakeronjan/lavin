@@ -36,10 +36,15 @@
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
-      "partner": "",
-      "partners_history": [],
+      "partner": "Jake Cornish",
+      "partners_history": [
+        "Jake Cornish",
+        "Gabe Wai",
+        "Ben Davis",
+        "Cedric Hodges"
+      ],
       "team": "Vets",
-      "forced_exit": false
+      "forced_exit": true
     },
     {
       "season_id": "s40_battle_of_the_eras",
@@ -132,8 +137,10 @@
       "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 0,
-      "partner": "",
-      "partners_history": [],
+      "partner": "Theo Campbell",
+      "partners_history": [
+        "Theo Campbell"
+      ],
       "team": "Veterans",
       "forced_exit": false
     },
