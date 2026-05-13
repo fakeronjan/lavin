@@ -246,8 +246,8 @@
       {
         "rank": 1,
         "player": "Cara Maria Sorbello",
-        "rating": 0.396,
-        "n_events": 96,
+        "rating": 0.425,
+        "n_events": 97,
         "finish": "Eliminated in Crazy in Love",
         "finish_label": "Eliminated",
         "finish_episode": "Crazy in Love",
@@ -267,8 +267,8 @@
       {
         "rank": 2,
         "player": "Emily Schromm",
-        "rating": 0.375,
-        "n_events": 94,
+        "rating": 0.4,
+        "n_events": 98,
         "finish": "Third Place in I Will Always Love You",
         "finish_label": "3rd",
         "finish_episode": "I Will Always Love You",
@@ -285,8 +285,8 @@
       {
         "rank": 3,
         "player": "Paula Meronek",
-        "rating": 0.316,
-        "n_events": 104,
+        "rating": 0.345,
+        "n_events": 106,
         "finish": "Eliminated in On the Wings of Love",
         "finish_label": "Eliminated",
         "finish_episode": "On the Wings of Love",
@@ -306,8 +306,8 @@
       {
         "rank": 4,
         "player": "Diem Brown",
-        "rating": 0.263,
-        "n_events": 30,
+        "rating": 0.303,
+        "n_events": 31,
         "finish": "Runners-Up in I Will Always Love You",
         "finish_label": "Runner-up",
         "finish_episode": "I Will Always Love You",
@@ -324,8 +324,8 @@
       {
         "rank": 5,
         "player": "Naomi Defensor",
-        "rating": 0.173,
-        "n_events": 30,
+        "rating": 0.191,
+        "n_events": 32,
         "finish": "Eliminated in Where Did Our Love Go?",
         "finish_label": "Eliminated",
         "finish_episode": "Where Did Our Love Go?",
@@ -345,8 +345,8 @@
       {
         "rank": 6,
         "player": "Camila Nakagawa",
-        "rating": 0.121,
-        "n_events": 65,
+        "rating": 0.154,
+        "n_events": 67,
         "finish": "Winners in I Will Always Love You",
         "finish_label": "Champion",
         "finish_episode": "I Will Always Love You",
@@ -363,8 +363,8 @@
       {
         "rank": 7,
         "player": "Rachel Robinson",
-        "rating": -0.101,
-        "n_events": 29,
+        "rating": -0.074,
+        "n_events": 31,
         "finish": "Eliminated in Tainted Love",
         "finish_label": "Eliminated",
         "finish_episode": "Tainted Love",
@@ -384,8 +384,8 @@
       {
         "rank": 8,
         "player": "Mandi Moyer",
-        "rating": -0.122,
-        "n_events": 75,
+        "rating": -0.096,
+        "n_events": 77,
         "finish": "Eliminated in What's Love Got to Do with It?",
         "finish_label": "Eliminated",
         "finish_episode": "What's Love Got to Do with It?",
@@ -405,7 +405,7 @@
       {
         "rank": 9,
         "player": "Sarah Rice",
-        "rating": -0.179,
+        "rating": -0.144,
         "n_events": 64,
         "finish": "Disqualified in What's Love Got to Do with It?",
         "finish_label": "Disqualified",
@@ -423,8 +423,8 @@
       {
         "rank": 10,
         "player": "Aneesa Ferreira",
-        "rating": -0.319,
-        "n_events": 39,
+        "rating": -0.291,
+        "n_events": 41,
         "finish": "Eliminated in Tainted Love",
         "finish_label": "Eliminated",
         "finish_episode": "Tainted Love",
@@ -444,8 +444,8 @@
       {
         "rank": 11,
         "player": "Jasmine Reynaud",
-        "rating": -0.343,
-        "n_events": 54,
+        "rating": -0.313,
+        "n_events": 55,
         "finish": "Eliminated in Love the Way You Lie",
         "finish_label": "Eliminated",
         "finish_episode": "Love the Way You Lie",
@@ -465,8 +465,8 @@
       {
         "rank": 12,
         "player": "Priscilla Mendez",
-        "rating": -0.363,
-        "n_events": 17,
+        "rating": -0.337,
+        "n_events": 18,
         "finish": "Eliminated in Love Is a Battlefield",
         "finish_label": "Eliminated",
         "finish_episode": "Love Is a Battlefield",
@@ -486,8 +486,8 @@
       {
         "rank": 13,
         "player": "Robin Hibbard",
-        "rating": -0.588,
-        "n_events": 35,
+        "rating": -0.556,
+        "n_events": 36,
         "finish": "Eliminated in Will You Still Love Me Tomorrow?",
         "finish_label": "Eliminated",
         "finish_episode": "Will You Still Love Me Tomorrow?",
@@ -503,6 +503,22 @@
         ],
         "team": "",
         "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Heather Marter",
+        "rating": -0.854,
+        "n_events": 21,
+        "finish": "Medically Disqualified in Where Did Our Love Go?",
+        "finish_label": "Medical DQ",
+        "finish_episode": "Where Did Our Love Go?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Dustin Zito",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
       }
     ]
   }

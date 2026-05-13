@@ -3,15 +3,15 @@
   "safe_name": "Dee_Nguyen",
   "gender": "F",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.709,
+    "era_rating": 1.8,
+    "peak_rating": 0.754,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.588,
+    "active_rating": 0.602,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
     "championships": 1,
-    "elim_wins": 2,
+    "elim_wins": 3,
     "elim_losses": 2,
     "daily_wins": 10
   },
@@ -30,7 +30,7 @@
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.542,
+      "rating_at_end": 0.591,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -48,7 +48,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.709,
+      "rating_at_end": 0.754,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -63,12 +63,12 @@
       "finish": "Eliminated in The Waterboy",
       "finish_label": "Eliminated",
       "finish_episode": "The Waterboy",
-      "elim_position": 9,
-      "elim_total": 9,
+      "elim_position": 11,
+      "elim_total": 11,
       "eliminated_by": [
         "Da'Vonne Rogers"
       ],
-      "rating_at_end": 0.383,
+      "rating_at_end": 0.485,
       "partner": "Wes Bergmann",
       "partners_history": [
         "Wes Bergmann"
@@ -81,17 +81,17 @@
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.383
+      "rating": 0.485
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.709
+      "rating": 0.754
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.542
+      "rating": 0.591
     }
   ]
 }

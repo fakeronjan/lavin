@@ -6,12 +6,12 @@
     "era_rating": 2.5,
     "peak_rating": 0.665,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.097,
+    "active_rating": 0.152,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 9,
     "n_snapshots": 15,
     "championships": 1,
-    "elim_wins": 5,
+    "elim_wins": 6,
     "elim_losses": 5,
     "daily_wins": 8
   },
@@ -28,7 +28,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.133,
+      "rating_at_end": -0.04,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -43,13 +43,13 @@
       "finish": "Eliminated in The Greatest Showman",
       "finish_label": "Eliminated",
       "finish_episode": "The Greatest Showman",
-      "elim_position": 3,
-      "elim_total": 7,
+      "elim_position": 5,
+      "elim_total": 10,
       "eliminated_by": [
         "Wes Bergmann",
         "Dee Nguyen"
       ],
-      "rating_at_end": -0.375,
+      "rating_at_end": -0.272,
       "partner": "Zahida Allen",
       "partners_history": [
         "Zahida Allen"
@@ -66,13 +66,13 @@
       "finish": "Medically Disqualified in Wheel of Fortune",
       "finish_label": "Medical DQ",
       "finish_episode": "Wheel of Fortune",
-      "elim_position": 6,
-      "elim_total": 10,
+      "elim_position": 7,
+      "elim_total": 11,
       "eliminated_by": [
         "Cory Wharton",
         "Devin Walker"
       ],
-      "rating_at_end": 0.382,
+      "rating_at_end": 0.413,
       "partner": "Amanda Garcia",
       "partners_history": [
         "Amanda Garcia"
@@ -239,17 +239,17 @@
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.382
+      "rating": 0.413
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.375
+      "rating": -0.272
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.133
+      "rating": -0.04
     }
   ]
 }

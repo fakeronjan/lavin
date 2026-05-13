@@ -3,16 +3,16 @@
   "safe_name": "Casey_Cooper",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.728,
+    "era_rating": 0.8,
+    "peak_rating": 0.619,
     "peak_season_id": "s12_fresh_meat",
     "active_rating": 0.213,
     "active_season_id": "s21_rivals",
     "n_seasons": 4,
     "n_snapshots": 10,
     "championships": 0,
-    "elim_wins": 7,
-    "elim_losses": 4,
+    "elim_wins": 8,
+    "elim_losses": 5,
     "daily_wins": 3
   },
   "seasons": [
@@ -50,7 +50,7 @@
       "eliminated_by": [
         "Evelyn Smith"
       ],
-      "rating_at_end": 0.138,
+      "rating_at_end": 0.143,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -70,7 +70,7 @@
       "eliminated_by": [
         "Robin Hibbard"
       ],
-      "rating_at_end": -0.033,
+      "rating_at_end": -0.021,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -88,7 +88,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.728,
+      "rating_at_end": 0.619,
       "partner": "Wes Bergmann",
       "partners_history": [
         "Wes Bergmann"
@@ -101,17 +101,17 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.728
+      "rating": 0.619
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": -0.033
+      "rating": -0.021
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.138
+      "rating": 0.143
     },
     {
       "ranking_id": 301,

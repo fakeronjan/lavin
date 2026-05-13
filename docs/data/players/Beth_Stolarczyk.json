@@ -3,8 +3,8 @@
   "safe_name": "Beth_Stolarczyk",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.326,
+    "era_rating": 0.4,
+    "peak_rating": 0.385,
     "peak_season_id": "s13_the_duel",
     "active_rating": -0.917,
     "active_season_id": "s19_fresh_meat_ii",
@@ -30,7 +30,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.537,
+      "rating_at_end": -0.521,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -50,7 +50,7 @@
       "eliminated_by": [
         "Svetlana Shusterman"
       ],
-      "rating_at_end": 0.326,
+      "rating_at_end": 0.385,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -68,7 +68,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.01,
+      "rating_at_end": -0.005,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -86,7 +86,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.634,
+      "rating_at_end": -0.572,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -150,22 +150,22 @@
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.634
+      "rating": -0.572
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.01
+      "rating": -0.005
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.326
+      "rating": 0.385
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.537
+      "rating": -0.521
     }
   ]
 }

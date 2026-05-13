@@ -1,0 +1,50 @@
+{
+  "player": "Linette Gallo",
+  "safe_name": "Linette_Gallo",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.3,
+    "peak_rating": 0.283,
+    "peak_season_id": "s12_fresh_meat",
+    "active_rating": -0.149,
+    "active_season_id": "s16_the_island",
+    "n_seasons": 1,
+    "n_snapshots": 5,
+    "championships": 0,
+    "elim_wins": 1,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s12_fresh_meat",
+      "season_num": 12,
+      "season_name": "Fresh Meat",
+      "year": 2006,
+      "label": "S12 Fresh Meat (2006)",
+      "finish": "Eliminated in Jump Down Under",
+      "finish_label": "Eliminated",
+      "finish_episode": "Jump Down Under",
+      "elim_position": 6,
+      "elim_total": 8,
+      "eliminated_by": [
+        "Casey Cooper",
+        "Wes Bergmann"
+      ],
+      "rating_at_end": 0.283,
+      "partner": "Shane Landrum",
+      "partners_history": [
+        "Shane Landrum"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 210,
+      "season_id": "s12_fresh_meat",
+      "rating": 0.283
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "gender": "M",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.62,
-    "peak_season_id": "s11_the_gauntlet_2",
+    "peak_rating": 0.645,
+    "peak_season_id": "s13_the_duel",
     "active_rating": 0.358,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 3,
@@ -30,7 +30,7 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.095,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -50,7 +50,7 @@
       "eliminated_by": [
         "Frank Roessler"
       ],
-      "rating_at_end": -0.307,
+      "rating_at_end": -0.279,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -84,12 +84,12 @@
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.307
+      "rating": -0.279
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.08
+      "rating": 0.095
     }
   ]
 }

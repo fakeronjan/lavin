@@ -80,24 +80,6 @@
       },
       {
         "rank": 5,
-        "player": "Marlon Williams",
-        "rating": 0.415,
-        "n_events": 48,
-        "finish": "Third Place in The Island of Misfit Challengers",
-        "finish_label": "3rd",
-        "finish_episode": "The Island of Misfit Challengers",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jordan Wiseley",
-        "partners_history": [
-          "Jordan Wiseley"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
         "player": "Jordan Wiseley",
         "rating": 0.415,
         "n_events": 48,
@@ -110,6 +92,24 @@
         "partner": "Marlon Williams",
         "partners_history": [
           "Marlon Williams"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 6,
+        "player": "Marlon Williams",
+        "rating": 0.415,
+        "n_events": 48,
+        "finish": "Third Place in The Island of Misfit Challengers",
+        "finish_label": "3rd",
+        "finish_episode": "The Island of Misfit Challengers",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Jordan Wiseley",
+        "partners_history": [
+          "Jordan Wiseley"
         ],
         "team": "",
         "forced_exit": false
@@ -329,7 +329,7 @@
       {
         "rank": 1,
         "player": "Paula Meronek",
-        "rating": 0.832,
+        "rating": 0.85,
         "n_events": 109,
         "finish": "Winners in The Island of Misfit Challengers",
         "finish_label": "Champion",
@@ -347,8 +347,8 @@
       {
         "rank": 2,
         "player": "Emily Schromm",
-        "rating": 0.824,
-        "n_events": 120,
+        "rating": 0.838,
+        "n_events": 121,
         "finish": "Winners in The Island of Misfit Challengers",
         "finish_label": "Champion",
         "finish_episode": "The Island of Misfit Challengers",
@@ -365,7 +365,7 @@
       {
         "rank": 3,
         "player": "Heather Cooke",
-        "rating": 0.587,
+        "rating": 0.605,
         "n_events": 48,
         "finish": "Runners-Up in The Island of Misfit Challengers",
         "finish_label": "Runner-up",
@@ -383,8 +383,8 @@
       {
         "rank": 4,
         "player": "Camila Nakagawa",
-        "rating": 0.501,
-        "n_events": 107,
+        "rating": 0.518,
+        "n_events": 109,
         "finish": "Third Place in Final Destination",
         "finish_label": "3rd",
         "finish_episode": "Final Destination",
@@ -401,7 +401,7 @@
       {
         "rank": 5,
         "player": "Cara Maria Sorbello",
-        "rating": 0.408,
+        "rating": 0.426,
         "n_events": 90,
         "finish": "Runners-Up in The Island of Misfit Challengers",
         "finish_label": "Runner-up",
@@ -418,25 +418,9 @@
       },
       {
         "rank": 6,
-        "player": "Trishelle Cannatella",
-        "rating": 0.262,
-        "n_events": 71,
-        "finish": "Quit in The Dark Knight Rises",
-        "finish_label": "Quit",
-        "finish_episode": "The Dark Knight Rises",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Sarah Rice",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 7,
         "player": "Diem Brown",
-        "rating": 0.259,
-        "n_events": 60,
+        "rating": 0.284,
+        "n_events": 61,
         "finish": "Eliminated in Final Destination",
         "finish_label": "Eliminated",
         "finish_episode": "Final Destination",
@@ -454,9 +438,25 @@
         "forced_exit": false
       },
       {
+        "rank": 7,
+        "player": "Trishelle Cannatella",
+        "rating": 0.28,
+        "n_events": 71,
+        "finish": "Quit in The Dark Knight Rises",
+        "finish_label": "Quit",
+        "finish_episode": "The Dark Knight Rises",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Sarah Rice",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
+      },
+      {
         "rank": 8,
         "player": "Jemmye Carroll",
-        "rating": 0.212,
+        "rating": 0.23,
         "n_events": 78,
         "finish": "Third Place in Final Destination",
         "finish_label": "3rd",
@@ -474,7 +474,7 @@
       {
         "rank": 9,
         "player": "Sarah Rice",
-        "rating": 0.121,
+        "rating": 0.141,
         "n_events": 93,
         "finish": "Quit in The Dark Knight Rises",
         "finish_label": "Quit",
@@ -490,7 +490,7 @@
       {
         "rank": 10,
         "player": "Aneesa Ferreira",
-        "rating": -0.215,
+        "rating": -0.197,
         "n_events": 49,
         "finish": "Eliminated in Final Destination",
         "finish_label": "Eliminated",
@@ -511,7 +511,7 @@
       {
         "rank": 11,
         "player": "Nany Gonz\u00e1lez",
-        "rating": -0.283,
+        "rating": -0.266,
         "n_events": 64,
         "finish": "Eliminated in Thrilla in Camila",
         "finish_label": "Eliminated",
@@ -532,7 +532,7 @@
       {
         "rank": 12,
         "player": "Theresa Jones",
-        "rating": -0.287,
+        "rating": -0.27,
         "n_events": 31,
         "finish": "Eliminated in Revenge Is a Dish Best Not Served",
         "finish_label": "Eliminated",
@@ -553,7 +553,7 @@
       {
         "rank": 13,
         "player": "Jasmine Reynaud",
-        "rating": -0.305,
+        "rating": -0.288,
         "n_events": 63,
         "finish": "Eliminated in Revenge Is a Dish Best Not Served",
         "finish_label": "Eliminated",
@@ -574,7 +574,7 @@
       {
         "rank": 14,
         "player": "Jonna Mannion",
-        "rating": -0.438,
+        "rating": -0.421,
         "n_events": 56,
         "finish": "Eliminated in Thrilla in Camila",
         "finish_label": "Eliminated",
@@ -595,7 +595,7 @@
       {
         "rank": 15,
         "player": "Anastasia Miller",
-        "rating": -0.452,
+        "rating": -0.435,
         "n_events": 14,
         "finish": "Eliminated in New Girl",
         "finish_label": "Eliminated",
@@ -616,7 +616,7 @@
       {
         "rank": 16,
         "player": "Jessica McCain",
-        "rating": -0.452,
+        "rating": -0.435,
         "n_events": 14,
         "finish": "Eliminated in New Girl",
         "finish_label": "Eliminated",
@@ -637,7 +637,7 @@
       {
         "rank": 17,
         "player": "Naomi Defensor",
-        "rating": -0.467,
+        "rating": -0.449,
         "n_events": 31,
         "finish": "Quit in Rumble in the Jungle",
         "finish_label": "Quit",

@@ -3,7 +3,7 @@
   "safe_name": "Ruthie_Alcaide",
   "gender": "F",
   "career": {
-    "era_rating": 1.5,
+    "era_rating": 1.4,
     "peak_rating": 0.9,
     "peak_season_id": "s07_the_gauntlet",
     "active_rating": -0.382,
@@ -12,7 +12,7 @@
     "n_snapshots": 12,
     "championships": 0,
     "elim_wins": 11,
-    "elim_losses": 3,
+    "elim_losses": 4,
     "daily_wins": 7
   },
   "seasons": [
@@ -30,7 +30,7 @@
       "eliminated_by": [
         "Kimberly Alexander"
       ],
-      "rating_at_end": -0.409,
+      "rating_at_end": -0.381,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -50,7 +50,7 @@
       "eliminated_by": [
         "Beth Stolarczyk"
       ],
-      "rating_at_end": 0.095,
+      "rating_at_end": -0.027,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -109,12 +109,12 @@
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.095
+      "rating": -0.027
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.409
+      "rating": -0.381
     }
   ]
 }

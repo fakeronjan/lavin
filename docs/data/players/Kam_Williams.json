@@ -3,8 +3,8 @@
   "safe_name": "Kam_Williams",
   "gender": "F",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.843,
+    "era_rating": 1.8,
+    "peak_rating": 0.856,
     "peak_season_id": "s31_vendettas",
     "active_rating": 0.786,
     "active_season_id": "s38_ride_or_dies",
@@ -28,7 +28,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.293,
+      "rating_at_end": 0.326,
       "partner": "Kyle Christie",
       "partners_history": [
         "Kyle Christie",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.037,
+      "rating_at_end": 0.004,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -64,13 +64,13 @@
       "finish": "Eliminated in American Psycho",
       "finish_label": "Eliminated",
       "finish_episode": "American Psycho",
-      "elim_position": 7,
-      "elim_total": 9,
+      "elim_position": 9,
+      "elim_total": 11,
       "eliminated_by": [
         "Natalie Duran",
         "Paulie Calafiore"
       ],
-      "rating_at_end": -0.065,
+      "rating_at_end": -0.022,
       "partner": "Ashley Cain",
       "partners_history": [
         "Ashley Cain"
@@ -113,7 +113,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.843,
+      "rating_at_end": 0.856,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -124,7 +124,7 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.843
+      "rating": 0.856
     },
     {
       "ranking_id": 726,
@@ -134,17 +134,17 @@
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.065
+      "rating": -0.022
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.037
+      "rating": 0.004
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.293
+      "rating": 0.326
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "player": "Jo Rhodes",
+  "safe_name": "Jo_Rhodes",
+  "gender": "F",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.494,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": -0.572,
+    "active_season_id": "s13_the_duel",
+    "n_seasons": 1,
+    "n_snapshots": 3,
+    "championships": 0,
+    "elim_wins": 1,
+    "elim_losses": 0,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s11_the_gauntlet_2",
+      "season_num": 11,
+      "season_name": "The Gauntlet 2",
+      "year": 2005,
+      "label": "S11 The Gauntlet 2 (2005)",
+      "finish": "Quit in Derrick Steps It Up",
+      "finish_label": "Quit",
+      "finish_episode": "Derrick Steps It Up",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": -0.494,
+      "partner": "",
+      "partners_history": [],
+      "team": "Rookies",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 149,
+      "season_id": "s11_the_gauntlet_2",
+      "rating": -0.494
+    }
+  ]
+}

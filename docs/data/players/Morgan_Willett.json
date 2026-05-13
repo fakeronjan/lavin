@@ -3,16 +3,16 @@
   "safe_name": "Morgan_Willett",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.493,
+    "era_rating": 0.0,
+    "peak_rating": -0.079,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.438,
+    "active_rating": -0.141,
     "active_season_id": "s36_double_agents",
     "n_seasons": 1,
     "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 1,
     "daily_wins": 1
   },
   "seasons": [
@@ -26,12 +26,12 @@
       "finish_label": "Eliminated",
       "finish_episode": "Casualties of War",
       "elim_position": 3,
-      "elim_total": 9,
+      "elim_total": 11,
       "eliminated_by": [
-        "Zach Nichols",
-        "Zahida Allen"
+        "Zahida Allen",
+        "Zach Nichols"
       ],
-      "rating_at_end": 0.422,
+      "rating_at_end": -0.084,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -44,7 +44,7 @@
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.422
+      "rating": -0.084
     }
   ]
 }

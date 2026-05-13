@@ -3,15 +3,15 @@
   "safe_name": "Wes_Bergmann",
   "gender": "M",
   "career": {
-    "era_rating": 5.6,
-    "peak_rating": 0.898,
+    "era_rating": 6.0,
+    "peak_rating": 0.902,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": 0.033,
+    "active_rating": 0.111,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 14,
     "n_snapshots": 25,
     "championships": 2,
-    "elim_wins": 13,
+    "elim_wins": 17,
     "elim_losses": 11,
     "daily_wins": 22
   },
@@ -30,7 +30,7 @@
       "eliminated_by": [
         "Devin Walker"
       ],
-      "rating_at_end": 0.259,
+      "rating_at_end": 0.329,
       "partner": "Natalie Anderson",
       "partners_history": [
         "Natalie Anderson"
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.327,
+      "rating_at_end": 0.406,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -72,7 +72,7 @@
       "eliminated_by": [
         "Stephen Bear"
       ],
-      "rating_at_end": 0.342,
+      "rating_at_end": 0.442,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -90,7 +90,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.55,
+      "rating_at_end": 0.638,
       "partner": "Dee Nguyen",
       "partners_history": [
         "Dee Nguyen",
@@ -286,7 +286,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.418,
+      "rating_at_end": 0.453,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -304,7 +304,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.735,
+      "rating_at_end": 0.767,
       "partner": "Casey Cooper",
       "partners_history": [
         "Casey Cooper"
@@ -317,12 +317,12 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.735
+      "rating": 0.767
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.418
+      "rating": 0.453
     },
     {
       "ranking_id": 301,
@@ -367,22 +367,22 @@
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.55
+      "rating": 0.638
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.342
+      "rating": 0.442
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.327
+      "rating": 0.406
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.259
+      "rating": 0.329
     }
   ]
 }

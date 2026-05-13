@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Kenny Santucci",
-        "rating": 1.08,
-        "n_events": 13,
+        "rating": 1.047,
+        "n_events": 15,
         "finish": "Runners-Up in And the Winners Are...",
         "finish_label": "Runner-up",
         "finish_episode": "And the Winners Are...",
@@ -27,8 +27,8 @@
       {
         "rank": 2,
         "player": "Wes Bergmann",
-        "rating": 0.735,
-        "n_events": 13,
+        "rating": 0.767,
+        "n_events": 19,
         "finish": "Third Place in And the Winners Are...",
         "finish_label": "3rd",
         "finish_episode": "And the Winners Are...",
@@ -44,30 +44,9 @@
       },
       {
         "rank": 3,
-        "player": "Big Easy Banks",
-        "rating": 0.683,
-        "n_events": 5,
-        "finish": "Eliminated in Game Over?",
-        "finish_label": "Eliminated",
-        "finish_episode": "Game Over?",
-        "elim_position": 3,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Kenny Santucci",
-          "Tina Barta"
-        ],
-        "partner": "Katie Cooley",
-        "partners_history": [
-          "Katie Cooley"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
         "player": "Darrell Taylor",
-        "rating": 0.669,
-        "n_events": 32,
+        "rating": 0.688,
+        "n_events": 34,
         "finish": "Winners in And the Winners Are...",
         "finish_label": "Champion",
         "finish_episode": "And the Winners Are...",
@@ -82,15 +61,36 @@
         "forced_exit": false
       },
       {
+        "rank": 4,
+        "player": "Big Easy Banks",
+        "rating": 0.662,
+        "n_events": 5,
+        "finish": "Eliminated in Game Over?",
+        "finish_label": "Eliminated",
+        "finish_episode": "Game Over?",
+        "elim_position": 5,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Kenny Santucci",
+          "Tina Barta"
+        ],
+        "partner": "Katie Cooley",
+        "partners_history": [
+          "Katie Cooley"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 5,
         "player": "Theo von Kurnatowski",
-        "rating": 0.521,
+        "rating": 0.517,
         "n_events": 6,
         "finish": "Eliminated in Kenny and Tina's Triumph",
         "finish_label": "Eliminated",
         "finish_episode": "Kenny and Tina's Triumph",
-        "elim_position": 5,
-        "elim_total": 6,
+        "elim_position": 7,
+        "elim_total": 8,
         "eliminated_by": [
           "Kenny Santucci",
           "Tina Barta"
@@ -105,13 +105,13 @@
       {
         "rank": 6,
         "player": "Shane Landrum",
-        "rating": 0.447,
+        "rating": 0.47,
         "n_events": 5,
         "finish": "Eliminated in Jump Down Under",
         "finish_label": "Eliminated",
         "finish_episode": "Jump Down Under",
-        "elim_position": 4,
-        "elim_total": 6,
+        "elim_position": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Wes Bergmann",
           "Casey Cooper"
@@ -126,13 +126,13 @@
       {
         "rank": 7,
         "player": "Ryan Kehoe",
-        "rating": 0.447,
+        "rating": 0.47,
         "n_events": 5,
         "finish": "Eliminated in Jailbirds",
         "finish_label": "Eliminated",
         "finish_episode": "Jailbirds",
         "elim_position": 2,
-        "elim_total": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Wes Bergmann",
           "Casey Cooper"
@@ -147,13 +147,13 @@
       {
         "rank": 8,
         "player": "Derrick Kosinski",
-        "rating": -0.033,
+        "rating": -0.017,
         "n_events": 101,
         "finish": "Eliminated in The Death Roll",
         "finish_label": "Eliminated",
         "finish_episode": "The Death Roll",
-        "elim_position": 6,
-        "elim_total": 6,
+        "elim_position": 8,
+        "elim_total": 8,
         "eliminated_by": [
           "Darrell Taylor",
           "Aviv Melmed"
@@ -168,7 +168,7 @@
       {
         "rank": 9,
         "player": "Evan Starkman",
-        "rating": -0.165,
+        "rating": -0.162,
         "n_events": 5,
         "finish": "Medically Disqualified in Money or Friendship?",
         "finish_label": "Medical DQ",
@@ -185,14 +185,56 @@
       },
       {
         "rank": 10,
+        "player": "Jesse Stark",
+        "rating": -0.212,
+        "n_events": 5,
+        "finish": "Eliminated in Costume Extravaganza",
+        "finish_label": "Eliminated",
+        "finish_episode": "Costume Extravaganza",
+        "elim_position": 3,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Wes Bergmann",
+          "Casey Cooper"
+        ],
+        "partner": "Johanna Botta",
+        "partners_history": [
+          "Johanna Botta"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
+        "player": "Johnnie McBride",
+        "rating": -0.212,
+        "n_events": 5,
+        "finish": "Eliminated in Kayak Challenge",
+        "finish_label": "Eliminated",
+        "finish_episode": "Kayak Challenge",
+        "elim_position": 4,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Wes Bergmann",
+          "Casey Cooper"
+        ],
+        "partner": "Tonya Cooley",
+        "partners_history": [
+          "Tonya Cooley"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 12,
         "player": "Danny Jamieson",
-        "rating": -0.236,
+        "rating": -0.212,
         "n_events": 5,
         "finish": "Eliminated in Anxieties Run High",
         "finish_label": "Eliminated",
         "finish_episode": "Anxieties Run High",
         "elim_position": 1,
-        "elim_total": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Wes Bergmann",
           "Casey Cooper"
@@ -208,27 +250,9 @@
     "F": [
       {
         "rank": 1,
-        "player": "Aviv Melmed",
-        "rating": 0.812,
-        "n_events": 10,
-        "finish": "Winners in And the Winners Are...",
-        "finish_label": "Champion",
-        "finish_episode": "And the Winners Are...",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Darrell Taylor",
-        "partners_history": [
-          "Darrell Taylor"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 2,
         "player": "Casey Cooper",
-        "rating": 0.728,
-        "n_events": 15,
+        "rating": 0.619,
+        "n_events": 19,
         "finish": "Third Place in And the Winners Are...",
         "finish_label": "3rd",
         "finish_episode": "And the Winners Are...",
@@ -243,10 +267,10 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
+        "rank": 2,
         "player": "Tina Barta",
-        "rating": 0.523,
-        "n_events": 16,
+        "rating": 0.615,
+        "n_events": 21,
         "finish": "Runners-Up in And the Winners Are...",
         "finish_label": "Runner-up",
         "finish_episode": "And the Winners Are...",
@@ -261,15 +285,54 @@
         "forced_exit": false
       },
       {
+        "rank": 3,
+        "player": "Aviv Melmed",
+        "rating": 0.454,
+        "n_events": 13,
+        "finish": "Winners in And the Winners Are...",
+        "finish_label": "Champion",
+        "finish_episode": "And the Winners Are...",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Darrell Taylor",
+        "partners_history": [
+          "Darrell Taylor"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 4,
+        "player": "Linette Gallo",
+        "rating": 0.283,
+        "n_events": 5,
+        "finish": "Eliminated in Jump Down Under",
+        "finish_label": "Eliminated",
+        "finish_episode": "Jump Down Under",
+        "elim_position": 6,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Casey Cooper",
+          "Wes Bergmann"
+        ],
+        "partner": "Shane Landrum",
+        "partners_history": [
+          "Shane Landrum"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
         "player": "Melinda Collins",
-        "rating": 0.398,
+        "rating": 0.283,
         "n_events": 5,
         "finish": "Eliminated in Jailbirds",
         "finish_label": "Eliminated",
         "finish_episode": "Jailbirds",
         "elim_position": 2,
-        "elim_total": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Casey Cooper",
           "Wes Bergmann"
@@ -282,15 +345,36 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 6,
+        "player": "Chanda Sneed",
+        "rating": 0.198,
+        "n_events": 6,
+        "finish": "Eliminated in Kenny and Tina's Triumph",
+        "finish_label": "Eliminated",
+        "finish_episode": "Kenny and Tina's Triumph",
+        "elim_position": 7,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Tina Barta",
+          "Kenny Santucci"
+        ],
+        "partner": "Theo von Kurnatowski",
+        "partners_history": [
+          "Theo von Kurnatowski"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
         "player": "Tonya Cooley",
-        "rating": -0.061,
-        "n_events": 14,
+        "rating": -0.032,
+        "n_events": 15,
         "finish": "Eliminated in Kayak Challenge",
         "finish_label": "Eliminated",
         "finish_episode": "Kayak Challenge",
         "elim_position": 4,
-        "elim_total": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Casey Cooper",
           "Wes Bergmann"
@@ -303,15 +387,15 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
+        "rank": 8,
         "player": "Katie Cooley",
-        "rating": -0.157,
-        "n_events": 30,
+        "rating": -0.13,
+        "n_events": 31,
         "finish": "Eliminated in Game Over?",
         "finish_label": "Eliminated",
         "finish_episode": "Game Over?",
         "elim_position": 5,
-        "elim_total": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Tina Barta",
           "Kenny Santucci"
@@ -324,57 +408,15 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
-        "player": "Diem Brown",
-        "rating": -0.261,
-        "n_events": 6,
-        "finish": "Eliminated in The Death Roll",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Death Roll",
-        "elim_position": 6,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Aviv Melmed",
-          "Darrell Taylor"
-        ],
-        "partner": "Derrick Kosinski",
-        "partners_history": [
-          "Derrick Kosinski"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
-        "player": "Johanna Botta",
-        "rating": -0.285,
-        "n_events": 5,
-        "finish": "Eliminated in Costume Extravaganza",
-        "finish_label": "Eliminated",
-        "finish_episode": "Costume Extravaganza",
-        "elim_position": 3,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Casey Cooper",
-          "Wes Bergmann"
-        ],
-        "partner": "Jesse Stark",
-        "partners_history": [
-          "Jesse Stark"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 9,
         "player": "Evelyn Smith",
-        "rating": -0.285,
+        "rating": -0.399,
         "n_events": 5,
         "finish": "Eliminated in Anxieties Run High",
         "finish_label": "Eliminated",
         "finish_episode": "Anxieties Run High",
         "elim_position": 1,
-        "elim_total": 6,
+        "elim_total": 8,
         "eliminated_by": [
           "Casey Cooper",
           "Wes Bergmann"
@@ -388,8 +430,29 @@
       },
       {
         "rank": 10,
+        "player": "Johanna Botta",
+        "rating": -0.399,
+        "n_events": 5,
+        "finish": "Eliminated in Costume Extravaganza",
+        "finish_label": "Eliminated",
+        "finish_episode": "Costume Extravaganza",
+        "elim_position": 3,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Casey Cooper",
+          "Wes Bergmann"
+        ],
+        "partner": "Jesse Stark",
+        "partners_history": [
+          "Jesse Stark"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
         "player": "Coral Smith",
-        "rating": -0.318,
+        "rating": -0.447,
         "n_events": 5,
         "finish": "Medically Disqualified in Money or Friendship?",
         "finish_label": "Medical DQ",
@@ -403,6 +466,27 @@
         ],
         "team": "",
         "forced_exit": true
+      },
+      {
+        "rank": 12,
+        "player": "Diem Brown",
+        "rating": -0.491,
+        "n_events": 6,
+        "finish": "Eliminated in The Death Roll",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Death Roll",
+        "elim_position": 8,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Aviv Melmed",
+          "Darrell Taylor"
+        ],
+        "partner": "Derrick Kosinski",
+        "partners_history": [
+          "Derrick Kosinski"
+        ],
+        "team": "",
+        "forced_exit": false
       }
     ]
   }

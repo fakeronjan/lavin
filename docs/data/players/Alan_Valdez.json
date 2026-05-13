@@ -1,0 +1,45 @@
+{
+  "player": "Alan Valdez",
+  "safe_name": "Alan_Valdez",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.419,
+    "peak_season_id": "s33_war_of_the_worlds",
+    "active_rating": -0.591,
+    "active_season_id": "s37_spies_lies_allies",
+    "n_seasons": 1,
+    "n_snapshots": 5,
+    "championships": 0,
+    "elim_wins": 0,
+    "elim_losses": 0,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s33_war_of_the_worlds",
+      "season_num": 33,
+      "season_name": "War of the Worlds",
+      "year": 2019,
+      "label": "S33 War of the Worlds (2019)",
+      "finish": "Medically Disqualified in Apocalypse Now",
+      "finish_label": "Medical DQ",
+      "finish_episode": "Apocalypse Now",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": -0.419,
+      "partner": "",
+      "partners_history": [],
+      "team": "Prospects",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 763,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": -0.419
+    }
+  ]
+}

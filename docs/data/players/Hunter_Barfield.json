@@ -3,15 +3,15 @@
   "safe_name": "Hunter_Barfield",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.808,
+    "era_rating": 1.9,
+    "peak_rating": 0.816,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.177,
+    "active_rating": 0.265,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 4,
     "n_snapshots": 9,
     "championships": 1,
-    "elim_wins": 3,
+    "elim_wins": 4,
     "elim_losses": 0,
     "daily_wins": 4
   },
@@ -28,7 +28,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.383,
+      "rating_at_end": 0.503,
       "partner": "Georgia Harrison",
       "partners_history": [
         "Georgia Harrison"
@@ -48,7 +48,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.808,
+      "rating_at_end": 0.816,
       "partner": "Ashley Mitchell",
       "partners_history": [
         "Ashley Mitchell"
@@ -107,12 +107,12 @@
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.808
+      "rating": 0.816
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.383
+      "rating": 0.503
     }
   ]
 }
