@@ -138,11 +138,46 @@
     vertical-align: top;
   }
   tbody tr:hover { background: #fffdf3; }
-  td.rank-col { width: 40px; color: #888; font-weight: 600; text-align: center; }
+  td.rank-col, td.rank-cell { width: 40px; color: #888; font-weight: 600; text-align: center; }
   td.num { font-variant-numeric: tabular-nums; text-align: right; }
   td.player { font-weight: 600; }
   td.player.linked { cursor: pointer; color: #1a6b8a; }
   td.player.linked:hover { text-decoration: underline; }
+
+  /* Rating bar (DUNCAN-aligned) — pairs the numeric rating with a small
+     positive/negative bar so columns line up across sites in the fleet. */
+  .rating-cell {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: #1a6b8a;
+  }
+  .rating-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .rating-bar-track {
+    width: 80px;
+    height: 6px;
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .rating-bar-center-line {
+    position: absolute;
+    left: 50%; top: 0;
+    width: 1px; height: 6px;
+    background: #ccc;
+  }
+  .rating-bar-fill {
+    position: absolute;
+    height: 6px;
+    border-radius: 3px;
+    top: 0;
+  }
+  .bar-pos { background: #1a6b8a; }
+  .bar-neg { background: #ff6eb4; }
 
   /* Fleet-standard finish badges */
   .finish-badge {
@@ -221,6 +256,9 @@
   td.sort-active { background: #fff7d6; font-weight: 700; }
   th.sort-active { background: #d24a8d; }
 
+  /* Season-name cell (DUNCAN-aligned: teal, bold, no wrap) */
+  .season-cell { font-weight: 700; color: #1a6b8a; white-space: nowrap; }
+
   /* Side-by-side Men/Women panels for Standings, Champions, GOAT */
   .split-tables {
     display: grid;
@@ -242,6 +280,10 @@
      No extra rules needed beyond default. */
   @media (max-width: 880px) {
     .split-tables { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .rating-bar-track { display: none; }
+    .col-hide-mobile { display: none; }
   }
 </style>
 </head>
@@ -369,6 +411,49 @@ function fmtEra(v) {
   if (v === null || v === undefined) return '—';
   const sign = v >= 0 ? '+' : '';
   return `${sign}${v.toFixed(1)}`;
+}
+
+// DUNCAN-aligned rating bar: number on the left, small +/- bar on the right.
+// Bar width is clipped to a fixed [-2, 2] range — wide enough to encode
+// LAVIN's typical rating spread, narrow enough that small differences are
+// visible. (LAVIN ratings sit in a tighter band than DUNCAN's NBA scale.)
+const RATING_BAR_MIN = -2, RATING_BAR_MAX = 2, RATING_BAR_RANGE = 4;
+function ratingBar(rating) {
+  if (rating === null || rating === undefined) {
+    return `<div class="rating-bar-wrap"><span class="rating-cell">—</span></div>`;
+  }
+  const clipped = Math.max(RATING_BAR_MIN, Math.min(RATING_BAR_MAX, rating));
+  let leftPct, widthPct;
+  if (clipped >= 0) {
+    leftPct  = 50;
+    widthPct = (clipped / RATING_BAR_RANGE) * 100;
+  } else {
+    widthPct = (-clipped / RATING_BAR_RANGE) * 100;
+    leftPct  = 50 - widthPct;
+  }
+  return `<div class="rating-bar-wrap">
+    <span class="rating-cell">${fmtRating(rating)}</span>
+    <div class="rating-bar-track">
+      <div class="rating-bar-center-line"></div>
+      <div class="rating-bar-fill ${rating >= 0 ? 'bar-pos' : 'bar-neg'}" style="left:${leftPct.toFixed(1)}%;width:${widthPct.toFixed(1)}%"></div>
+    </div>
+  </div>`;
+}
+
+// Compact "W-L" elim record. Returns "—" when no elim activity (e.g. a
+// player who only competed in dailies, was DQ'd before their first elim,
+// or appeared in seasons predating our elim chart parser's coverage).
+function fmtElim(w, l) {
+  w = w || 0; l = l || 0;
+  if (w === 0 && l === 0) return '<span style="color:#bbb">—</span>';
+  return `${w}-${l}`;
+}
+
+// "3 (out of 12)" rank cell with the total greyed out.
+function fmtRank(rank, total) {
+  if (rank == null) return '<span style="color:#bbb">—</span>';
+  if (!total) return String(rank);
+  return `${rank} <span style="color:#888;font-size:11px">(of ${total})</span>`;
 }
 
 // Render the player-partner context string for a season row.
@@ -500,17 +585,24 @@ async function renderStandings() {
       const ctxHtml = ctx ? `<div style="font-size:11px;color:#888">${ctx}</div>` : '';
       return `
       <tr>
-        <td class="rank-col">${s.rank}</td>
+        <td class="rank-cell">${s.rank}</td>
         <td><div class="player linked" data-player="${s.player}">${s.player}</div>${ctxHtml}</td>
-        <td class="num">${fmtRating(s.rating)}</td>
+        <td class="num col-hide-mobile">${s.daily_wins || 0}</td>
+        <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
         <td>${fmtFinish(s)}</td>
+        <td>${ratingBar(s.rating)}</td>
       </tr>
     `;
     }).join('');
     wrap.innerHTML = `
       <table>
         <thead><tr>
-          <th class="rank-col">Rank</th><th>Player</th><th>Rating</th><th>Finish</th>
+          <th class="rank-cell">Rank</th>
+          <th>Player</th>
+          <th class="col-hide-mobile">Daily Wins</th>
+          <th class="col-hide-mobile">Eliminations</th>
+          <th>Finish</th>
+          <th>Rating</th>
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
@@ -568,15 +660,26 @@ async function renderPlayer() {
     const ctx = renderPartnerContext(s);
     return `
     <tr>
-      <td><strong>${s.label}</strong></td>
-      <td style="font-size:12px;color:#666">${ctx}</td>
+      <td style="font-size:11px;color:#555">${s.label}</td>
+      <td style="font-size:12px;color:#666">${ctx || '<span style="color:#bbb">—</span>'}</td>
+      <td class="num col-hide-mobile">${s.daily_wins || 0}</td>
+      <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
       <td>${fmtFinish(s)}</td>
-      <td class="num"><span class="${s.rating_at_end >= 0 ? 'pos' : 'neg'}">${fmtRating(s.rating_at_end)}</span></td>
+      <td class="rank-cell">${fmtRank(s.rank, s.rank_total)}</td>
+      <td>${ratingBar(s.rating_at_end)}</td>
     </tr>`;
   }).join('');
   html += `
     <table>
-      <thead><tr><th>Season</th><th>Partner / Team</th><th>Finish</th><th>Rating (end of season)</th></tr></thead>
+      <thead><tr>
+        <th>Season</th>
+        <th>Partner / Team</th>
+        <th class="col-hide-mobile">Daily Wins</th>
+        <th class="col-hide-mobile">Eliminations</th>
+        <th>Finish</th>
+        <th class="rank-cell">Rank</th>
+        <th>Rating</th>
+      </tr></thead>
       <tbody>${rows}</tbody>
     </table>
   `;
@@ -596,7 +699,7 @@ function drawTimeline(p) {
   const xs = i => padL + innerW * (i / (p.timeline.length - 1 || 1));
   const ys = r => padT + innerH - innerH * ((r - minR) / (maxR - minR || 1));
 
-  // Find season transition indexes
+  // Season transition indexes for tick lines
   const transitions = [];
   let prevSid = null;
   p.timeline.forEach((t, i) => {
@@ -606,12 +709,12 @@ function drawTimeline(p) {
     }
   });
 
-  // Build path
-  const path = p.timeline.map((t, i) => `${i ? 'L' : 'M'} ${xs(i)} ${ys(t.rating)}`).join(' ');
+  const points = p.timeline.map((t, i) => `${xs(i).toFixed(1)},${ys(t.rating).toFixed(1)}`).join(' ');
   const zero = ys(0);
+  const zeroFrac = zero / H;
 
-  // Build season tick lines + labels (label every season; collapse if too dense)
-  const minLabelGap = 28;  // px
+  // Season tick lines + labels (collapsed if too dense)
+  const minLabelGap = 28;
   let lastLabelX = -Infinity;
   const ticks = transitions.map(t => {
     const x = xs(t.idx);
@@ -620,18 +723,26 @@ function drawTimeline(p) {
     const showLabel = x - lastLabelX >= minLabelGap;
     if (showLabel) lastLabelX = x;
     return `
-      <line x1="${x}" y1="${padT}" x2="${x}" y2="${padT + innerH}" stroke="#eee" stroke-width="1"/>
-      ${showLabel ? `<text x="${x}" y="${H - 8}" font-size="9" fill="#888" text-anchor="middle">${label}</text>` : ''}
+      <line x1="${x.toFixed(1)}" y1="${padT}" x2="${x.toFixed(1)}" y2="${padT + innerH}" stroke="#eee" stroke-width="1"/>
+      ${showLabel ? `<text x="${x.toFixed(1)}" y="${H - 8}" font-size="9" fill="#888" text-anchor="middle">${label}</text>` : ''}
     `;
   }).join('');
 
+  // DUNCAN-aligned gradient: teal above the zero line, pink below.
   svg.innerHTML = `
-    <line x1="${padL}" y1="${zero}" x2="${W - padR}" y2="${zero}" stroke="#999" stroke-dasharray="3,3"/>
+    <defs>
+      <linearGradient id="playerLineGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="${H}">
+        <stop offset="${(zeroFrac - 0.0001).toFixed(4)}" stop-color="#1a6b8a"/>
+        <stop offset="${(zeroFrac + 0.0001).toFixed(4)}" stop-color="#ff6eb4"/>
+      </linearGradient>
+    </defs>
+    <line x1="${padL}" y1="${zero.toFixed(1)}" x2="${(W - padR).toFixed(1)}" y2="${zero.toFixed(1)}"
+          stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
     ${ticks}
-    <path d="${path}" fill="none" stroke="#1a6b8a" stroke-width="2"/>
-    <text x="4" y="${padT + 4}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
-    <text x="4" y="${zero + 3}" font-size="10" fill="#999">0</text>
-    <text x="4" y="${H - padB + 2}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
+    <polyline points="${points}" fill="none" stroke="url(#playerLineGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="4" y="${(padT + 4).toFixed(1)}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
+    <text x="4" y="${(zero + 3).toFixed(1)}" font-size="10" fill="#999">0</text>
+    <text x="4" y="${(H - padB + 2).toFixed(1)}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
   `;
 }
 
@@ -679,7 +790,7 @@ function renderChampions() {
 
   const rows = seasons.map(s => `
     <tr${s.pre_anchor ? ' style="background:#fafafa"' : ''}>
-      <td><strong>${s.label}</strong>${s.pre_anchor ? ' <sup style="color:#888">†</sup>' : ''}</td>
+      <td class="season-cell">${s.label}${s.pre_anchor ? ' <sup style="color:#888">†</sup>' : ''}</td>
       <td>${winnerCell(s.M.winners)}</td>
       <td>${ruCell(s.M.runners_up)}</td>
       <td>${winnerCell(s.F.winners)}</td>

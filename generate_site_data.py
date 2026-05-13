@@ -254,6 +254,47 @@ def main():
     # Who eliminated each player in their final loss of the season
     eliminated_by_map = compute_eliminated_by(eliminations, gmap, appearances)
 
+    # Per-(season, player) daily wins and elim W-L. Same dedup rules as
+    # career totals (same-gender + per-event dedup):
+    #  - dailies.csv: each row is already 1 player-event, group as-is
+    #  - eliminations.csv: filter to same-gender; dedup by (season, episode,
+    #    role) so multi-opponent elims count once
+    e_w_g = eliminations["winner"].map(gmap)
+    e_l_g = eliminations["loser"].map(gmap)
+    same_gender_elims = eliminations[(e_w_g.isin(["M","F"])) & (e_w_g == e_l_g)]
+    elim_wins_per_season = (
+        same_gender_elims.drop_duplicates(subset=["season_id", "episode", "winner"])
+        .groupby(["season_id", "winner"]).size().to_dict()
+    )
+    elim_losses_per_season = (
+        same_gender_elims.drop_duplicates(subset=["season_id", "episode", "loser"])
+        .groupby(["season_id", "loser"]).size().to_dict()
+    )
+    daily_wins_per_season = (
+        dailies.groupby(["season_id", "winner"]).size().to_dict()
+    )
+
+    # Per-(season, player) rating-rank within same gender. Built from each
+    # season's end-of-season snapshot, filtered to that season's CAST (skip
+    # rolling-window ghosts — players whose events from a few seasons back
+    # still influence later snapshots). Matches the cast filter used for
+    # standings_at_end so player-page and standings tabs show the same
+    # "X of Y" total.
+    cast_by_season = {sid: set(g["player"].astype(str))
+                      for sid, g in appearances.groupby("season_id")}
+    season_rank_map = {}  # (sid, player) → (rank, total)
+    for sid_x, sub_x in ratings.groupby("season_id"):
+        end_rid = sub_x["ranking_id"].max()
+        end_snap = sub_x[sub_x["ranking_id"] == end_rid]
+        cast = cast_by_season.get(sid_x, set())
+        for g in ("M", "F"):
+            g_snap = (
+                end_snap[(end_snap["gender"] == g) & (end_snap["player"].isin(cast))]
+                .sort_values("rating", ascending=False)
+            )
+            for i, (_, r) in enumerate(g_snap.iterrows(), 1):
+                season_rank_map[(sid_x, r["player"])] = (i, len(g_snap))
+
     # Mid-season partner sequence (from audit_partner_changes.py).
     # Maps (season_id, player) → ordered list of partner names. Preserves
     # X→Y→X back-to-original transitions. Applied across ALL seasons where
@@ -352,9 +393,13 @@ def main():
                 ep = elim_pos.get((sid, p))
                 rows.append({
                     "rank": i,
+                    "rank_total": len(g_snap),
                     "player": p,
                     "rating": round(float(row["rating"]), 3),
                     "n_events": int(row["n_events"]),
+                    "daily_wins":  int(daily_wins_per_season.get((sid, p), 0)),
+                    "elim_wins":   int(elim_wins_per_season.get((sid, p), 0)),
+                    "elim_losses": int(elim_losses_per_season.get((sid, p), 0)),
                     "finish": finish_str,
                     "finish_label": f_label,
                     "finish_episode": f_ep,
@@ -666,6 +711,7 @@ def main():
             if not partner and partners_history:
                 partner = partners_history[0]
             forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
+            rank_tuple = season_rank_map.get((sid, p))
             seasons_data.append({
                 "season_id": sid,
                 "season_num": int(srow["season_num"]),
@@ -679,6 +725,11 @@ def main():
                 "elim_total":    ep[1] if ep else None,
                 "eliminated_by": eliminated_by_map.get((sid, p), []),
                 "rating_at_end": round(rating_end, 3),
+                "rank":       rank_tuple[0] if rank_tuple else None,
+                "rank_total": rank_tuple[1] if rank_tuple else None,
+                "daily_wins":  int(daily_wins_per_season.get((sid, p), 0)),
+                "elim_wins":   int(elim_wins_per_season.get((sid, p), 0)),
+                "elim_losses": int(elim_losses_per_season.get((sid, p), 0)),
                 "partner": partner,
                 "partners_history": partners_history,
                 "team": team,
