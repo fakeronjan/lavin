@@ -699,6 +699,11 @@ async function renderPlayer() {
   drawTimeline(p);
 }
 
+// Fixed Y-axis range for the player timeline chart so every player's
+// graph is visually comparable. -1.3..+1.3 covers the spread of
+// "Best Single Seasons" peak ratings on the GOAT tab.
+const TIMELINE_MIN = -1.3, TIMELINE_MAX = 1.3;
+
 function drawTimeline(p) {
   const svg = document.getElementById('player-chart');
   if (!p.timeline.length) { svg.innerHTML = ''; return; }
@@ -706,10 +711,33 @@ function drawTimeline(p) {
   const padL = 32, padR = 12, padT = 16, padB = 28;
   const innerW = W - padL - padR, innerH = H - padT - padB;
 
-  const minR = Math.min(...p.timeline.map(t => t.rating), -0.5);
-  const maxR = Math.max(...p.timeline.map(t => t.rating), 0.5);
+  const minR = TIMELINE_MIN, maxR = TIMELINE_MAX;
+  const ys = r => {
+    const clipped = Math.max(TIMELINE_MIN, Math.min(TIMELINE_MAX, r));
+    return padT + innerH - innerH * ((clipped - minR) / (maxR - minR));
+  };
+
+  // Single-snapshot players (one-and-done seasons) can't form a polyline;
+  // render a single dot in the center of the chart instead so the graph
+  // doesn't appear blank.
+  if (p.timeline.length === 1) {
+    const t = p.timeline[0];
+    const zero = ys(0);
+    const cx = padL + innerW / 2;
+    const cy = ys(t.rating);
+    const color = t.rating >= 0 ? '#1a6b8a' : '#ff6eb4';
+    svg.innerHTML = `
+      <line x1="${padL}" y1="${zero.toFixed(1)}" x2="${(W - padR).toFixed(1)}" y2="${zero.toFixed(1)}"
+            stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+      <circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="4" fill="${color}"/>
+      <text x="4" y="${(padT + 4).toFixed(1)}" font-size="10" fill="#999">${maxR.toFixed(1)}</text>
+      <text x="4" y="${(zero + 3).toFixed(1)}" font-size="10" fill="#999">0</text>
+      <text x="4" y="${(H - padB + 2).toFixed(1)}" font-size="10" fill="#999">${minR.toFixed(1)}</text>
+    `;
+    return;
+  }
+
   const xs = i => padL + innerW * (i / (p.timeline.length - 1 || 1));
-  const ys = r => padT + innerH - innerH * ((r - minR) / (maxR - minR || 1));
 
   // Season transition indexes for tick lines
   const transitions = [];
@@ -752,9 +780,9 @@ function drawTimeline(p) {
           stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
     ${ticks}
     <polyline points="${points}" fill="none" stroke="url(#playerLineGrad)" stroke-width="2.5" stroke-linejoin="round"/>
-    <text x="4" y="${(padT + 4).toFixed(1)}" font-size="10" fill="#999">${maxR.toFixed(2)}</text>
+    <text x="4" y="${(padT + 4).toFixed(1)}" font-size="10" fill="#999">${maxR.toFixed(1)}</text>
     <text x="4" y="${(zero + 3).toFixed(1)}" font-size="10" fill="#999">0</text>
-    <text x="4" y="${(H - padB + 2).toFixed(1)}" font-size="10" fill="#999">${minR.toFixed(2)}</text>
+    <text x="4" y="${(H - padB + 2).toFixed(1)}" font-size="10" fill="#999">${minR.toFixed(1)}</text>
   `;
 }
 
