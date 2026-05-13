@@ -645,13 +645,16 @@ function renderChampions() {
   if (!data) return;
   // Index by season → split into winners + RUs per gender
   const bySeason = {};
+  let anyPreAnchor = false;
   for (const g of ['M', 'F']) {
     for (const c of (data[g] || [])) {
       if (!bySeason[c.season_id]) bySeason[c.season_id] = {
         label: c.label, season_num: c.season_num,
+        pre_anchor: !!c.pre_anchor,
         M: { winners: [], runners_up: [] },
         F: { winners: [], runners_up: [] },
       };
+      if (c.pre_anchor) anyPreAnchor = true;
       const bucket = c.role === 'winner' ? 'winners' : 'runners_up';
       bySeason[c.season_id][g][bucket].push(c);
     }
@@ -669,14 +672,17 @@ function renderChampions() {
     : '<span style="color:#bbb">—</span>';
 
   const rows = seasons.map(s => `
-    <tr>
-      <td><strong>${s.label}</strong></td>
+    <tr${s.pre_anchor ? ' style="background:#fafafa"' : ''}>
+      <td><strong>${s.label}</strong>${s.pre_anchor ? ' <sup style="color:#888">†</sup>' : ''}</td>
       <td>${winnerCell(s.M.winners)}</td>
       <td>${ruCell(s.M.runners_up)}</td>
       <td>${winnerCell(s.F.winners)}</td>
       <td>${ruCell(s.F.runners_up)}</td>
     </tr>
   `).join('');
+  const footnote = anyPreAnchor
+    ? '<p style="font-size:11px;color:#888;margin-top:8px"><sup>†</sup> Pre-S5 team-format seasons. Titles counted toward career totals but seasons are not modeled in ratings (LAVIN starts at S5, the first pair-format season).</p>'
+    : '';
   document.getElementById('champions-table').innerHTML = `
     <table>
       <thead><tr>
@@ -686,6 +692,7 @@ function renderChampions() {
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>
+    ${footnote}
   `;
   attachPlayerLinks();
 }

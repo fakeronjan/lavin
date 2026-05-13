@@ -204,6 +204,39 @@ def main():
     players_df = pd.read_csv(DATA / "players.csv")
     gmap = dict(zip(players_df["player"].astype(str), players_df["gender"].astype(str)))
 
+    # Pre-anchor (S2-S4) champion titles. Model anchors at S5 (first
+    # pair/individual format), but we credit pre-anchor titles to player
+    # career totals so players like Mark Long (S2) and Veronica Portillo
+    # (S3) get their full historical title count surfaced. Champions tab
+    # flags these with pre_anchor=True for a footnote.
+    pre_anchor_seasons = [
+        ("s02_real_world_road_rules_challenge", 2, "Real World/Road Rules Challenge", 1998),
+        ("s03_challenge_2000",                  3, "Challenge 2000",                  2000),
+        ("s04_extreme_challenge",               4, "Extreme Challenge",               2001),
+    ]
+    pre_anchor_champs = []  # list of dicts (one per winner)
+    for sid, snum, sname, year in pre_anchor_seasons:
+        raw = DATA / "raw" / sid / "_raw.wikitext"
+        if not raw.exists():
+            continue
+        try:
+            from scrape_fandom import parse_season_winners
+            winners = parse_season_winners(raw.read_text(encoding="utf-8"))
+        except Exception:
+            winners = []
+        for p in winners:
+            g = gmap.get(p, "")
+            if g not in ("M", "F"):
+                continue
+            pre_anchor_champs.append({
+                "season_id": sid, "season_num": snum,
+                "season_name": sname, "year": year,
+                "player": p, "gender": g,
+            })
+    pre_anchor_titles_by_player = {}
+    for c in pre_anchor_champs:
+        pre_anchor_titles_by_player[c["player"]] = pre_anchor_titles_by_player.get(c["player"], 0) + 1
+
     # Elim positions per (season, player) — used for "1st eliminated" / "3rd of 12" labels
     elim_pos = compute_elim_positions(eliminations, gmap, appearances)
     # Who eliminated each player in their final loss of the season
@@ -336,6 +369,25 @@ def main():
     s5_asc = s5plus.sort_values("season_num", ascending=True)
     cum_champs = {}  # player → running championships count (inclusive at this season)
 
+    # Seed cum_champs with pre-anchor (S2-S4) titles + emit them as champion
+    # entries at the bottom of the list. Sorted by season_num ascending so
+    # earliest first; each gets pre_anchor=True for UI footnoting.
+    pre_anchor_champs.sort(key=lambda c: c["season_num"])
+    for c in pre_anchor_champs:
+        cum_champs[c["player"]] = cum_champs.get(c["player"], 0) + 1
+        champs[c["gender"]].append({
+            "season_id": c["season_id"],
+            "season_num": c["season_num"],
+            "season_name": c["season_name"],
+            "year": c["year"],
+            "label": f"S{c['season_num']} {c['season_name']} ({c['year']})",
+            "role": "winner",
+            "player": c["player"],
+            "championship_no": cum_champs[c["player"]],
+            "rating_at_end": None,
+            "pre_anchor": True,
+        })
+
     for _, r in s5_asc.iterrows():
         sid = r["season_id"]
         cast = apps_by_season.get(sid)
@@ -420,6 +472,9 @@ def main():
             champ_counts[p] = champ_counts.get(p, 0) + 1
         if _reached_finals(f):
             finals_counts[p] = finals_counts.get(p, 0) + 1
+    # Fold in pre-anchor titles so career totals reflect full history
+    for p, n in pre_anchor_titles_by_player.items():
+        champ_counts[p] = champ_counts.get(p, 0) + n
 
     # Per-dimension ERAs (from build_dimension_eras.py)
     dim_eras_path = DATA / "dimension_eras.csv"
@@ -633,8 +688,9 @@ def main():
             for _, r in timeline.iterrows()
         ]
 
-        # Championships
+        # Championships (S5+ from appearances + S2-S4 from pre-anchor map)
         champs_for_p = apps_for_p[apps_for_p["finish"].fillna("").str.contains(r"^Winner", case=False, regex=True)]
+        total_champs_p = len(champs_for_p) + pre_anchor_titles_by_player.get(p, 0)
 
         out = {
             "player": p,
@@ -648,7 +704,8 @@ def main():
                 "active_season_id": row["active_season_id"],
                 "n_seasons": int(apps_for_p["season_id"].nunique()),
                 "n_snapshots": int(row["era_n_snapshots"]),
-                "championships": int(len(champs_for_p)),
+                "championships": total_champs_p,
+                "pre_anchor_titles": int(pre_anchor_titles_by_player.get(p, 0)),
                 "elim_wins": int(elims_by_player_w.get(p, 0)),
                 "elim_losses": int(elims_by_player_l.get(p, 0)),
                 "daily_wins": int(dailies_by_player.get(p, 0)),
