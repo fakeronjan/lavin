@@ -27,6 +27,7 @@
       "finish_episode": "Well Done, Meat",
       "elim_position": null,
       "elim_total": null,
+      "eliminated_by": [],
       "rating_at_end": 0.651,
       "partner": "Pete Connolly",
       "partners_history": [],
@@ -44,6 +45,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
+      "eliminated_by": [],
       "rating_at_end": 0.751,
       "partner": "",
       "partners_history": [],
@@ -61,6 +63,9 @@
       "finish_episode": "Blind Panic",
       "elim_position": 5,
       "elim_total": 5,
+      "eliminated_by": [
+        "Kina Dean"
+      ],
       "rating_at_end": -0.521,
       "partner": "",
       "partners_history": [],

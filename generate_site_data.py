@@ -96,6 +96,52 @@ def standardize_finish(text):
 # ---------------------------------------------------------
 # Main
 # ---------------------------------------------------------
+def compute_eliminated_by(eliminations, gender_map, appearances):
+    """
+    For each (season_id, player) where they were eliminated, return the
+    ordered list of opponents who beat them in their FINAL season elim.
+
+    Individual format: 1 name.
+    Pair format: 2 names (the full winning pair — cross-product rows in
+    eliminations.csv mean both M and F winners appear as the "winner" of
+    rows where this player is the loser in the same elim episode).
+    Same-gender opponents are listed first.
+
+    Players who reached the finals (Champion/Runner-up/etc.) are excluded.
+    """
+    final_finishers = set()
+    for _, ar in appearances.iterrows():
+        f = str(ar.get("finish") or "")
+        if re.search(r"^(Winners?|Runners?[- ]?Up|Third|Fourth|Fifth|Sixth)\b", f, re.IGNORECASE):
+            final_finishers.add((ar["season_id"], str(ar["player"])))
+
+    out = {}
+    for sid, sg in eliminations.groupby("season_id"):
+        sg = sg.copy()
+        sg["ep_ord_n"] = (
+            sg["episode"].astype(str).str.extract(r"^(\d+)")[0]
+            .astype(float).fillna(99999)
+        )
+        for loser, lg in sg[sg["loser"].notna()].groupby("loser"):
+            if (sid, loser) in final_finishers:
+                continue
+            last_ord = lg["ep_ord_n"].max()
+            last_rows = lg[lg["ep_ord_n"] == last_ord]
+            winners = []
+            seen = set()
+            for _, row in last_rows.iterrows():
+                w = row.get("winner")
+                if isinstance(w, str) and w and w != loser and w not in seen:
+                    winners.append(w)
+                    seen.add(w)
+            if winners:
+                player_g = gender_map.get(loser, "")
+                same_g  = [w for w in winners if gender_map.get(w, "") == player_g]
+                other_g = [w for w in winners if gender_map.get(w, "") != player_g]
+                out[(sid, loser)] = same_g + other_g
+    return out
+
+
 def compute_elim_positions(eliminations, gender_map, appearances):
     """
     Return dict { (season_id, player) -> (position, total) } where position
@@ -160,6 +206,8 @@ def main():
 
     # Elim positions per (season, player) — used for "1st eliminated" / "3rd of 12" labels
     elim_pos = compute_elim_positions(eliminations, gmap, appearances)
+    # Who eliminated each player in their final loss of the season
+    eliminated_by_map = compute_eliminated_by(eliminations, gmap, appearances)
 
     # Mid-season partner sequence (from audit_partner_changes.py).
     # Maps (season_id, player) → ordered list of partner names. Preserves
@@ -261,6 +309,7 @@ def main():
                     "finish_episode": f_ep,
                     "elim_position": ep[0] if ep else None,
                     "elim_total":    ep[1] if ep else None,
+                    "eliminated_by": eliminated_by_map.get((sid, p), []),
                     "partner": partner,
                     "partners_history": partner_history.get((sid, p), []),
                     "team": team,
@@ -550,6 +599,7 @@ def main():
                 "finish_episode": f_ep,
                 "elim_position": ep[0] if ep else None,
                 "elim_total":    ep[1] if ep else None,
+                "eliminated_by": eliminated_by_map.get((sid, p), []),
                 "rating_at_end": round(rating_end, 3),
                 "partner": partner,
                 "partners_history": partners_history,

@@ -393,7 +393,7 @@ function renderPartnerContext(s) {
 // `text` (legacy) is the raw finish string.
 function fmtFinish(textOrEntry) {
   if (!textOrEntry) return '';
-  let label = '', episode = '', raw = '', elimPos = null, elimTot = null;
+  let label = '', episode = '', raw = '', elimPos = null, elimTot = null, elimBy = [];
   if (typeof textOrEntry === 'string') {
     raw = textOrEntry;
   } else {
@@ -402,6 +402,7 @@ function fmtFinish(textOrEntry) {
     raw = textOrEntry.finish || '';
     elimPos = textOrEntry.elim_position;
     elimTot = textOrEntry.elim_total;
+    elimBy = textOrEntry.eliminated_by || [];
   }
   if (!label && raw) {
     if (/^Winners?\b/i.test(raw))         label = 'Champion';
@@ -424,10 +425,20 @@ function fmtFinish(textOrEntry) {
   if (label === 'Champion')       badge = '<span class="finish-badge finish-champion">🥇</span>';
   else if (label === 'Runner-up') badge = '<span class="finish-badge finish-runner">🥈</span>';
   else if (label === '3rd')       badge = '<span class="finish-badge finish-third">🥉</span>';
-  // Elim position annotation (e.g. "1st of 12" for first eliminated)
+
+  // "Eliminated by X & Y | 1st of 12 | episode title"
+  // For non-eliminated finishers, fall back to "Label · episode" (no "by").
+  const ord = (n) => n + (['st','nd','rd'][((n+90)%100-10)%10-1] || 'th');
+  if (label === 'Eliminated' && elimBy.length) {
+    const byHtml = elimBy.map(n => `<span class="player linked" data-player="${n}">${n}</span>`).join(' & ');
+    const parts = [`Eliminated by ${byHtml}`];
+    if (elimPos && elimTot) parts.push(`${ord(elimPos)} of ${elimTot}`);
+    if (episode) parts.push(episode);
+    return `${badge}<span style="font-size:12px">${parts.join(' <span style="color:#888">|</span> ')}</span>`;
+  }
+  // Legacy fallback for non-eliminated rows
   let posHtml = '';
   if (elimPos && elimTot) {
-    const ord = (n) => n + (['st','nd','rd'][((n+90)%100-10)%10-1] || 'th');
     posHtml = ` <span style="font-size:11px;color:#888">(${ord(elimPos)} of ${elimTot})</span>`;
   }
   const epHtml = episode ? `<span style="font-size:11px;color:#888"> · ${episode}</span>` : '';

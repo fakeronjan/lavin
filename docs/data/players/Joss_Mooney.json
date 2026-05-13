@@ -27,6 +27,7 @@
       "finish_episode": "Dee-Day",
       "elim_position": null,
       "elim_total": null,
+      "eliminated_by": [],
       "rating_at_end": 0.359,
       "partner": "",
       "partners_history": [],
@@ -44,6 +45,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
+      "eliminated_by": [],
       "rating_at_end": 0.677,
       "partner": "Sylvia Elsrode",
       "partners_history": [],
@@ -61,6 +63,9 @@
       "finish_episode": "Mercenaries of Mayhem",
       "elim_position": 4,
       "elim_total": 9,
+      "eliminated_by": [
+        "Derrick Kosinski"
+      ],
       "rating_at_end": -0.126,
       "partner": "",
       "partners_history": [],

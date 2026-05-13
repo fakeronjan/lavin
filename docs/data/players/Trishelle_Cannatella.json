@@ -27,6 +27,7 @@
       "finish_episode": "The Dark Knight Rises",
       "elim_position": null,
       "elim_total": null,
+      "eliminated_by": [],
       "rating_at_end": 0.262,
       "partner": "Sarah Rice",
       "partners_history": [],
@@ -44,6 +45,7 @@
       "finish_episode": "Operation Desert Scorn",
       "elim_position": null,
       "elim_total": null,
+      "eliminated_by": [],
       "rating_at_end": 0.302,
       "partner": "Dustin Zito",
       "partners_history": [],
@@ -61,6 +63,9 @@
       "finish_episode": "Climbing Wall",
       "elim_position": 1,
       "elim_total": 4,
+      "eliminated_by": [
+        "Holly Shand"
+      ],
       "rating_at_end": -0.509,
       "partner": "",
       "partners_history": [],
@@ -78,6 +83,9 @@
       "finish_episode": "Inferno",
       "elim_position": 6,
       "elim_total": 8,
+      "eliminated_by": [
+        "Sarah Greyson"
+      ],
       "rating_at_end": -0.452,
       "partner": "",
       "partners_history": [],
