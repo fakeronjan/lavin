@@ -264,6 +264,8 @@
 
   /* Season-name cell (DUNCAN-aligned: teal, bold, no wrap) */
   .season-cell { font-weight: 700; color: #1a6b8a; white-space: nowrap; }
+  .season-cell.linked { cursor: pointer; }
+  .season-cell.linked:hover { text-decoration: underline; }
 
   /* Side-by-side Men/Women panels for Standings, Champions, GOAT */
   .split-tables {
@@ -772,6 +774,7 @@ function renderChampions() {
   for (const g of ['M', 'F']) {
     for (const c of (data[g] || [])) {
       if (!bySeason[c.season_id]) bySeason[c.season_id] = {
+        season_id: c.season_id,
         label: c.label, season_num: c.season_num,
         pre_anchor: !!c.pre_anchor,
         M: { winners: [], runners_up: [] },
@@ -794,9 +797,14 @@ function renderChampions() {
     ? arr.map(c => `<span class="finish-badge finish-runner">🥈</span><span class="player linked" data-player="${c.player}">${c.player}</span>`).join('<br>')
     : '<span style="color:#bbb">—</span>';
 
+  // Pre-anchor seasons (S2-S4) aren't in seasons_index.json (Standings dropdown
+  // is S5+ only), so leave those cells unlinked.
+  const seasonCell = s => s.pre_anchor
+    ? `<td class="season-cell">${s.label} <sup style="color:#888">†</sup></td>`
+    : `<td class="season-cell linked" data-season-id="${s.season_id}">${s.label}</td>`;
   const rows = seasons.map(s => `
     <tr${s.pre_anchor ? ' style="background:#fafafa"' : ''}>
-      <td class="season-cell">${s.label}${s.pre_anchor ? ' <sup style="color:#888">†</sup>' : ''}</td>
+      ${seasonCell(s)}
       <td>${winnerCell(s.M.winners)}</td>
       <td>${ruCell(s.M.runners_up)}</td>
       <td>${winnerCell(s.F.winners)}</td>
@@ -818,6 +826,7 @@ function renderChampions() {
     ${footnote}
   `;
   attachPlayerLinks();
+  attachSeasonLinks();
 }
 
 // ════════════════════════════════════════════════════════════════
@@ -954,6 +963,24 @@ document.querySelectorAll('#goat-sort-row button').forEach(btn => {
     renderGoat();
   });
 });
+
+// ── Season link binding (deep-link to Standings tab on click) ──
+function attachSeasonLinks() {
+  document.querySelectorAll('.season-cell.linked').forEach(td => {
+    td.addEventListener('click', () => {
+      const sid = td.dataset.seasonId;
+      if (!sid) return;
+      const sel = document.getElementById('season-select');
+      sel.value = sid;
+      renderStandings();
+      // Switch to Standings tab
+      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector('nav button[data-tab="standings"]').classList.add('active');
+      document.getElementById('standings').classList.add('active');
+    });
+  });
+}
 
 // ── Player link binding (deep-link to player tab on click) ──
 function attachPlayerLinks() {
