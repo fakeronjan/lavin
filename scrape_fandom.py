@@ -73,6 +73,44 @@ def _caption_gender(caption):
 _GENERIC_CAPTIONS = {"teams", "contestants", "cast", "competitors"}
 
 
+def _cell_colspan(cell):
+    """Extract colspan=N from a cell's attributes (default 1)."""
+    m = re.search(r'\bcolspan\s*=\s*"?(\d+)"?', cell, re.IGNORECASE)
+    return int(m.group(1)) if m else 1
+
+
+def _detect_pair_partner_columns(table):
+    """
+    Detect "Male partner | Female partner | Finish" column structure.
+    Returns (m_end_col, f_end_col) — logical columns < m_end are M, columns
+    < f_end are F, anything >= is Finish/other. Returns None if not such a
+    table.
+    """
+    for cells in _iter_table_rows(table):
+        # Header row: every cell starts with '!' (header marker) or contains
+        # only header-like text. We detect by content.
+        header_text = " | ".join(_cell_plain(c).lower() for c in cells)
+        if "male" not in header_text or "female" not in header_text:
+            continue
+        if not (("male partner" in header_text) or ("males" in header_text and "females" in header_text)):
+            continue
+        # Walk cells, tracking logical column position via colspan.
+        col = 0
+        m_end = None
+        f_end = None
+        for c in cells:
+            plain = _cell_plain(c).strip().lower()
+            span = _cell_colspan(c)
+            if "male" in plain and "female" not in plain and m_end is None:
+                m_end = col + span
+            elif "female" in plain and f_end is None:
+                f_end = col + span
+            col += span
+        if m_end is not None and f_end is not None and m_end < f_end:
+            return (m_end, f_end)
+    return None
+
+
 def _team_name_from_caption(caption, table_gender):
     """Return clean team name from a caption, or '' if generic / gender / empty."""
     if not caption or table_gender:
@@ -146,10 +184,14 @@ def parse_contestants(wikitext):
         caption = _table_caption(table)
         table_gender = _caption_gender(caption)
         team_name = _team_name_from_caption(caption, table_gender)
+        # Detect "Male partner | Female partner | Finish" pair-table format
+        # (used by Battle of the Exes, Rivals, etc.). When found, gender
+        # comes from which COLUMN a player's icon sits in, not from caption.
+        pair_cols = None if table_gender else _detect_pair_partner_columns(table)
 
         for cells in _iter_table_rows(table):
             row_counter += 1
-            extracted = _extract_contestants_from_row(cells, table_gender)
+            extracted = _extract_contestants_from_row(cells, table_gender, pair_cols)
             # Multi-player rows become a pair group (pair seasons).
             # Single-player rows have no pair_id.
             pair_id = f"row_{row_counter:03d}" if len(extracted) > 1 else ""
@@ -163,24 +205,38 @@ def parse_contestants(wikitext):
     return rows
 
 
-def _extract_contestants_from_row(cells, table_gender):
+def _extract_contestants_from_row(cells, table_gender, pair_cols=None):
     """
     From one table row, extract one or more contestant records.
     A row may contain 1 player (individual format) or 2+ players (pair/team
     format where partners share a row). All players in the row share the
     row's finish text.
+
+    pair_cols: optional (m_end, f_end) tuple from _detect_pair_partner_columns.
+    When set, gender is derived from each player's COLUMN position (M if in
+    cols [0, m_end), F if in cols [m_end, f_end)) instead of table_gender.
     """
     if len(cells) < 2:
         return []
 
-    # Find all player names from File-icon link= params, dedup-preserving order
+    # Find all player names from File-icon link= params, dedup-preserving order.
+    # If pair_cols is set, also record each player's gender via column position.
     seen = set()
-    players = []
+    players = []  # list of (name, gender_from_col_or_None)
+    col = 0
     for cell in cells:
+        span = _cell_colspan(cell)
+        cell_gender = ""
+        if pair_cols is not None:
+            m_end, f_end = pair_cols
+            # A cell can span multiple columns; use its START column for attribution.
+            if col < m_end:        cell_gender = "M"
+            elif col < f_end:      cell_gender = "F"
         for name in _players_from_icons(cell):
             if name not in seen:
                 seen.add(name)
-                players.append(name)
+                players.append((name, cell_gender))
+        col += span
 
     if not players:
         return []
@@ -227,11 +283,11 @@ def _extract_contestants_from_row(cells, table_gender):
     return [
         {
             "player": p,
-            "gender": table_gender or "",
+            "gender": (g or table_gender or ""),
             "finish": finish,
             "origin": origin_pool[i] if i < len(origin_pool) else "",
         }
-        for i, p in enumerate(players)
+        for i, (p, g) in enumerate(players)
     ]
 
 

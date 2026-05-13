@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Theo von Kurnatowski",
-        "rating": 0.657,
-        "n_events": 101,
+        "rating": 0.638,
+        "n_events": 109,
         "finish": "Winners in Episode 17",
         "finish_label": "Champion",
         "finish_episode": "Episode 17",
@@ -25,8 +25,8 @@
       {
         "rank": 2,
         "player": "Dan Setzler",
-        "rating": 0.556,
-        "n_events": 94,
+        "rating": 0.536,
+        "n_events": 101,
         "finish": "Winners in Episode 17",
         "finish_label": "Champion",
         "finish_episode": "Episode 17",
@@ -41,7 +41,7 @@
       {
         "rank": 3,
         "player": "Eric Nies",
-        "rating": 0.429,
+        "rating": 0.426,
         "n_events": 103,
         "finish": "Winners in Episode 17",
         "finish_label": "Champion",
@@ -74,8 +74,26 @@
       },
       {
         "rank": 5,
+        "player": "Mike Mizanin",
+        "rating": 0.224,
+        "n_events": 120,
+        "finish": "Eliminated in Episode 8",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 8",
+        "elim_position": 7,
+        "elim_total": 14,
+        "eliminated_by": [
+          "Nick Haggart"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 6,
         "player": "Brad Fiorenza",
-        "rating": 0.205,
+        "rating": 0.199,
         "n_events": 61,
         "finish": "Eliminated in Episode 15",
         "finish_label": "Eliminated",
@@ -91,27 +109,9 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Mike Mizanin",
-        "rating": 0.199,
-        "n_events": 116,
-        "finish": "Eliminated in Episode 8",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 8",
-        "elim_position": 7,
-        "elim_total": 14,
-        "eliminated_by": [
-          "Nick Haggart"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 7,
         "player": "Frank Roessler",
-        "rating": 0.186,
+        "rating": 0.177,
         "n_events": 56,
         "finish": "Eliminated in Episode 11",
         "finish_label": "Eliminated",
@@ -129,7 +129,7 @@
       {
         "rank": 8,
         "player": "Abram Boise",
-        "rating": 0.033,
+        "rating": 0.038,
         "n_events": 78,
         "finish": "Eliminated in Episode 5",
         "finish_label": "Eliminated",
@@ -147,7 +147,7 @@
       {
         "rank": 9,
         "player": "Steven Hill",
-        "rating": -0.043,
+        "rating": -0.047,
         "n_events": 30,
         "finish": "Disqualified in Episode 13",
         "finish_label": "Disqualified",
@@ -163,7 +163,7 @@
       {
         "rank": 10,
         "player": "Shane Landrum",
-        "rating": -0.074,
+        "rating": -0.072,
         "n_events": 148,
         "finish": "Eliminated in Episode 14",
         "finish_label": "Eliminated",
@@ -181,7 +181,7 @@
       {
         "rank": 11,
         "player": "Randy Barry",
-        "rating": -0.088,
+        "rating": -0.093,
         "n_events": 36,
         "finish": "Eliminated in Episode 12",
         "finish_label": "Eliminated",
@@ -199,7 +199,7 @@
       {
         "rank": 12,
         "player": "Chris Graebe",
-        "rating": -0.165,
+        "rating": -0.174,
         "n_events": 34,
         "finish": "Eliminated in Episode 9",
         "finish_label": "Eliminated",
@@ -217,7 +217,7 @@
       {
         "rank": 13,
         "player": "Derrick Kosinski",
-        "rating": -0.306,
+        "rating": -0.313,
         "n_events": 27,
         "finish": "Eliminated in Episode 6",
         "finish_label": "Eliminated",
@@ -235,7 +235,7 @@
       {
         "rank": 14,
         "player": "Nick Haggart",
-        "rating": -0.322,
+        "rating": -0.321,
         "n_events": 23,
         "finish": "Eliminated in Episode 10",
         "finish_label": "Eliminated",
@@ -253,7 +253,7 @@
       {
         "rank": 15,
         "player": "Adam King",
-        "rating": -0.332,
+        "rating": -0.34,
         "n_events": 27,
         "finish": "Eliminated in Episode 4",
         "finish_label": "Eliminated",
@@ -271,7 +271,7 @@
       {
         "rank": 16,
         "player": "Shawn Sealy",
-        "rating": -0.418,
+        "rating": -0.425,
         "n_events": 18,
         "finish": "Eliminated in Episode 7",
         "finish_label": "Eliminated",
@@ -289,7 +289,7 @@
       {
         "rank": 17,
         "player": "Ace Amerson",
-        "rating": -0.526,
+        "rating": -0.525,
         "n_events": 28,
         "finish": "Eliminated in Episode 3",
         "finish_label": "Eliminated",
@@ -307,7 +307,7 @@
       {
         "rank": 18,
         "player": "Jacquese Smith",
-        "rating": -0.563,
+        "rating": -0.57,
         "n_events": 8,
         "finish": "Eliminated in Episode 2",
         "finish_label": "Eliminated",
@@ -327,7 +327,7 @@
       {
         "rank": 1,
         "player": "Sophia Pasquis",
-        "rating": 0.782,
+        "rating": 0.826,
         "n_events": 57,
         "finish": "Runners-Up in Episode 17",
         "finish_label": "Runner-up",
@@ -343,7 +343,7 @@
       {
         "rank": 2,
         "player": "Arissa Hill",
-        "rating": 0.77,
+        "rating": 0.814,
         "n_events": 62,
         "finish": "Runners-Up in Episode 17",
         "finish_label": "Runner-up",
@@ -359,7 +359,7 @@
       {
         "rank": 3,
         "player": "Ruthie Alcaide",
-        "rating": 0.561,
+        "rating": 0.607,
         "n_events": 112,
         "finish": "Eliminated in Episode 15",
         "finish_label": "Eliminated",
@@ -377,8 +377,8 @@
       {
         "rank": 4,
         "player": "Coral Smith",
-        "rating": 0.334,
-        "n_events": 133,
+        "rating": 0.376,
+        "n_events": 136,
         "finish": "Runners-Up in Episode 17",
         "finish_label": "Runner-up",
         "finish_episode": "Episode 17",
@@ -393,7 +393,7 @@
       {
         "rank": 5,
         "player": "Katie Cooley",
-        "rating": 0.283,
+        "rating": 0.326,
         "n_events": 72,
         "finish": "Eliminated in Episode 9",
         "finish_label": "Eliminated",
@@ -411,7 +411,7 @@
       {
         "rank": 6,
         "player": "Veronica Portillo",
-        "rating": 0.243,
+        "rating": 0.287,
         "n_events": 109,
         "finish": "Eliminated in Episode 11",
         "finish_label": "Eliminated",
@@ -429,7 +429,7 @@
       {
         "rank": 7,
         "player": "Rachel Robinson",
-        "rating": 0.179,
+        "rating": 0.224,
         "n_events": 67,
         "finish": "Eliminated in Episode 8",
         "finish_label": "Eliminated",
@@ -447,7 +447,7 @@
       {
         "rank": 8,
         "player": "Tina Barta",
-        "rating": 0.163,
+        "rating": 0.207,
         "n_events": 48,
         "finish": "Eliminated in Episode 16",
         "finish_label": "Eliminated",
@@ -465,7 +465,7 @@
       {
         "rank": 9,
         "player": "Tonya Cooley",
-        "rating": 0.069,
+        "rating": 0.113,
         "n_events": 82,
         "finish": "Eliminated in Episode 13",
         "finish_label": "Eliminated",
@@ -481,7 +481,7 @@
       {
         "rank": 10,
         "player": "Cameran Eubanks",
-        "rating": -0.018,
+        "rating": 0.025,
         "n_events": 23,
         "finish": "Eliminated in Episode 3",
         "finish_label": "Eliminated",
@@ -499,7 +499,7 @@
       {
         "rank": 11,
         "player": "Robin Hibbard",
-        "rating": -0.052,
+        "rating": -0.008,
         "n_events": 27,
         "finish": "Eliminated in Episode 14",
         "finish_label": "Eliminated",
@@ -517,7 +517,7 @@
       {
         "rank": 12,
         "player": "Ibis Nieves",
-        "rating": -0.09,
+        "rating": -0.046,
         "n_events": 32,
         "finish": "Eliminated in Episode 12",
         "finish_label": "Eliminated",
@@ -535,7 +535,7 @@
       {
         "rank": 13,
         "player": "Ayanna Mackins",
-        "rating": -0.284,
+        "rating": -0.239,
         "n_events": 36,
         "finish": "Eliminated in Episode 5",
         "finish_label": "Eliminated",
@@ -553,7 +553,7 @@
       {
         "rank": 14,
         "player": "Genesis Moss",
-        "rating": -0.346,
+        "rating": -0.3,
         "n_events": 33,
         "finish": "Eliminated in Episode 2",
         "finish_label": "Eliminated",
@@ -571,7 +571,7 @@
       {
         "rank": 15,
         "player": "Aneesa Ferreira",
-        "rating": -0.366,
+        "rating": -0.321,
         "n_events": 42,
         "finish": "Eliminated in Episode 10",
         "finish_label": "Eliminated",
@@ -589,7 +589,7 @@
       {
         "rank": 16,
         "player": "Kina Dean",
-        "rating": -0.492,
+        "rating": -0.448,
         "n_events": 19,
         "finish": "Eliminated in Episode 4",
         "finish_label": "Eliminated",
@@ -605,7 +605,7 @@
       {
         "rank": 17,
         "player": "Cynthia Roberts",
-        "rating": -0.59,
+        "rating": -0.546,
         "n_events": 11,
         "finish": "Eliminated in Episode 6",
         "finish_label": "Eliminated",
@@ -623,7 +623,7 @@
       {
         "rank": 18,
         "player": "Angela Trimbur",
-        "rating": -0.651,
+        "rating": -0.607,
         "n_events": 12,
         "finish": "Eliminated in Episode 7",
         "finish_label": "Eliminated",

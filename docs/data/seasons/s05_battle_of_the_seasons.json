@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Mike Mizanin",
-        "rating": 0.823,
-        "n_events": 34,
+        "rating": 0.883,
+        "n_events": 46,
         "finish": "Winners in Handsome Reward",
         "finish_label": "Champion",
         "finish_episode": "Handsome Reward",
@@ -27,8 +27,8 @@
       {
         "rank": 2,
         "player": "Danny Roberts",
-        "rating": 0.805,
-        "n_events": 30,
+        "rating": 0.868,
+        "n_events": 41,
         "finish": "Winners in Handsome Reward",
         "finish_label": "Champion",
         "finish_episode": "Handsome Reward",
@@ -44,9 +44,27 @@
       },
       {
         "rank": 3,
+        "player": "Sean Duffy",
+        "rating": 0.846,
+        "n_events": 41,
+        "finish": "Winners in Handsome Reward",
+        "finish_label": "Champion",
+        "finish_episode": "Handsome Reward",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Elka Walker",
+        "partners_history": [
+          "Elka Walker"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 4,
         "player": "Theo von Kurnatowski",
-        "rating": 0.321,
-        "n_events": 37,
+        "rating": 0.419,
+        "n_events": 55,
         "finish": "Runners-Up in Handsome Reward",
         "finish_label": "Runner-up",
         "finish_episode": "Handsome Reward",
@@ -61,10 +79,10 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Timmy Beggy",
-        "rating": 0.275,
-        "n_events": 36,
+        "rating": 0.348,
+        "n_events": 54,
         "finish": "Runners-Up in Handsome Reward",
         "finish_label": "Runner-up",
         "finish_episode": "Handsome Reward",
@@ -79,10 +97,10 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 6,
         "player": "Dan Setzler",
-        "rating": 0.269,
-        "n_events": 33,
+        "rating": 0.344,
+        "n_events": 46,
         "finish": "Runners-Up in Handsome Reward",
         "finish_label": "Runner-up",
         "finish_episode": "Handsome Reward",
@@ -97,18 +115,18 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
+        "rank": 7,
         "player": "Stephen Williams",
-        "rating": -0.108,
-        "n_events": 20,
+        "rating": -0.02,
+        "n_events": 27,
         "finish": "Eliminated in Slam Dunk",
         "finish_label": "Eliminated",
         "finish_episode": "Slam Dunk",
-        "elim_position": 4,
-        "elim_total": 6,
+        "elim_position": 6,
+        "elim_total": 10,
         "eliminated_by": [
-          "Elka Walker",
-          "Sean Duffy"
+          "Sean Duffy",
+          "Elka Walker"
         ],
         "partner": "Lindsay Brien",
         "partners_history": [
@@ -118,18 +136,18 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 8,
         "player": "Norman Korpi",
-        "rating": -0.173,
-        "n_events": 28,
+        "rating": -0.066,
+        "n_events": 36,
         "finish": "Eliminated in Ladder of Doom",
         "finish_label": "Eliminated",
         "finish_episode": "Ladder of Doom",
-        "elim_position": 6,
-        "elim_total": 6,
+        "elim_position": 10,
+        "elim_total": 10,
         "eliminated_by": [
-          "Elka Walker",
-          "Sean Duffy"
+          "Sean Duffy",
+          "Elka Walker"
         ],
         "partner": "Becky Blasband",
         "partners_history": [
@@ -139,15 +157,15 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 9,
         "player": "Jon Brennan",
-        "rating": -0.418,
-        "n_events": 9,
+        "rating": -0.321,
+        "n_events": 10,
         "finish": "Eliminated in Hang Man",
         "finish_label": "Eliminated",
         "finish_episode": "Hang Man",
         "elim_position": 1,
-        "elim_total": 6,
+        "elim_total": 10,
         "eliminated_by": [
           "Danny Roberts",
           "Kelley Limp"
@@ -160,15 +178,36 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Adam Larson",
-        "rating": -0.586,
-        "n_events": 17,
+        "rank": 10,
+        "player": "Mike Lambert",
+        "rating": -0.344,
+        "n_events": 19,
         "finish": "Eliminated in Slam Dunk",
         "finish_label": "Eliminated",
         "finish_episode": "Slam Dunk",
-        "elim_position": 5,
-        "elim_total": 6,
+        "elim_position": 8,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Sean Duffy",
+          "Elka Walker"
+        ],
+        "partner": "Flora Alekseyeva",
+        "partners_history": [
+          "Flora Alekseyeva"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
+        "player": "Adam Larson",
+        "rating": -0.464,
+        "n_events": 19,
+        "finish": "Eliminated in Slam Dunk",
+        "finish_label": "Eliminated",
+        "finish_episode": "Slam Dunk",
+        "elim_position": 7,
+        "elim_total": 10,
         "eliminated_by": [
           "Theo von Kurnatowski",
           "Holly Brentson"
@@ -181,15 +220,57 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
+        "rank": 12,
+        "player": "Josh Florence",
+        "rating": -0.465,
+        "n_events": 22,
+        "finish": "Eliminated in Ladder of Doom",
+        "finish_label": "Eliminated",
+        "finish_episode": "Ladder of Doom",
+        "elim_position": 9,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Theo von Kurnatowski",
+          "Holly Brentson"
+        ],
+        "partner": "Holly Shand",
+        "partners_history": [
+          "Holly Shand"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
+        "player": "Chris Melling",
+        "rating": -0.467,
+        "n_events": 16,
+        "finish": "Eliminated in Slam Dunk",
+        "finish_label": "Eliminated",
+        "finish_episode": "Slam Dunk",
+        "elim_position": 5,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Theo von Kurnatowski",
+          "Holly Brentson"
+        ],
+        "partner": "Belou Den Tex",
+        "partners_history": [
+          "Belou Den Tex"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Yes Duffy",
-        "rating": -0.594,
-        "n_events": 9,
+        "rating": -0.47,
+        "n_events": 10,
         "finish": "Eliminated in Hang Man",
         "finish_label": "Eliminated",
         "finish_episode": "Hang Man",
         "elim_position": 2,
-        "elim_total": 6,
+        "elim_total": 10,
         "eliminated_by": [
           "Theo von Kurnatowski",
           "Holly Brentson"
@@ -202,15 +283,15 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 15,
         "player": "Chadwick Pelletier",
-        "rating": -0.614,
-        "n_events": 11,
+        "rating": -0.478,
+        "n_events": 13,
         "finish": "Eliminated in Musical Inner-Tube Tango",
         "finish_label": "Eliminated",
         "finish_episode": "Musical Inner-Tube Tango",
-        "elim_position": 3,
-        "elim_total": 6,
+        "elim_position": 4,
+        "elim_total": 10,
         "eliminated_by": [
           "Theo von Kurnatowski",
           "Holly Brentson"
@@ -221,14 +302,35 @@
         ],
         "team": "",
         "forced_exit": false
+      },
+      {
+        "rank": 16,
+        "player": "Mike Johnson",
+        "rating": -0.615,
+        "n_events": 13,
+        "finish": "Eliminated in Musical Inner-Tube Tango",
+        "finish_label": "Eliminated",
+        "finish_episode": "Musical Inner-Tube Tango",
+        "elim_position": 3,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Stephen Williams",
+          "Lindsay Brien"
+        ],
+        "partner": "Sharon Gitau",
+        "partners_history": [
+          "Sharon Gitau"
+        ],
+        "team": "",
+        "forced_exit": false
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Coral Smith",
-        "rating": 0.799,
-        "n_events": 42,
+        "rating": 0.883,
+        "n_events": 46,
         "finish": "Winners in Handsome Reward",
         "finish_label": "Champion",
         "finish_episode": "Handsome Reward",
@@ -245,8 +347,8 @@
       {
         "rank": 2,
         "player": "Kelley Limp",
-        "rating": 0.783,
-        "n_events": 37,
+        "rating": 0.868,
+        "n_events": 41,
         "finish": "Winners in Handsome Reward",
         "finish_label": "Champion",
         "finish_episode": "Handsome Reward",
@@ -263,8 +365,8 @@
       {
         "rank": 3,
         "player": "Elka Walker",
-        "rating": 0.751,
-        "n_events": 35,
+        "rating": 0.846,
+        "n_events": 41,
         "finish": "Winners in Handsome Reward",
         "finish_label": "Champion",
         "finish_episode": "Handsome Reward",
@@ -281,8 +383,8 @@
       {
         "rank": 4,
         "player": "Holly Brentson",
-        "rating": 0.28,
-        "n_events": 47,
+        "rating": 0.419,
+        "n_events": 55,
         "finish": "Runners-Up in Handsome Reward",
         "finish_label": "Runner-up",
         "finish_episode": "Handsome Reward",
@@ -299,8 +401,8 @@
       {
         "rank": 5,
         "player": "Emily Bailey",
-        "rating": 0.224,
-        "n_events": 47,
+        "rating": 0.348,
+        "n_events": 54,
         "finish": "Runners-Up in Handsome Reward",
         "finish_label": "Runner-up",
         "finish_episode": "Handsome Reward",
@@ -317,8 +419,8 @@
       {
         "rank": 6,
         "player": "Tara McDaniel",
-        "rating": 0.221,
-        "n_events": 40,
+        "rating": 0.344,
+        "n_events": 46,
         "finish": "Runners-Up in Handsome Reward",
         "finish_label": "Runner-up",
         "finish_episode": "Handsome Reward",
@@ -334,35 +436,14 @@
       },
       {
         "rank": 7,
-        "player": "Becky Blasband",
-        "rating": -0.18,
-        "n_events": 33,
-        "finish": "Eliminated in Ladder of Doom",
-        "finish_label": "Eliminated",
-        "finish_episode": "Ladder of Doom",
-        "elim_position": 6,
-        "elim_total": 7,
-        "eliminated_by": [
-          "Elka Walker",
-          "Sean Duffy"
-        ],
-        "partner": "Norman Korpi",
-        "partners_history": [
-          "Norman Korpi"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
         "player": "Lindsay Brien",
-        "rating": -0.236,
-        "n_events": 23,
+        "rating": -0.02,
+        "n_events": 27,
         "finish": "Eliminated in Slam Dunk",
         "finish_label": "Eliminated",
         "finish_episode": "Slam Dunk",
-        "elim_position": 3,
-        "elim_total": 7,
+        "elim_position": 6,
+        "elim_total": 10,
         "eliminated_by": [
           "Elka Walker",
           "Sean Duffy"
@@ -375,15 +456,36 @@
         "forced_exit": false
       },
       {
+        "rank": 8,
+        "player": "Becky Blasband",
+        "rating": -0.066,
+        "n_events": 36,
+        "finish": "Eliminated in Ladder of Doom",
+        "finish_label": "Eliminated",
+        "finish_episode": "Ladder of Doom",
+        "elim_position": 9,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Elka Walker",
+          "Sean Duffy"
+        ],
+        "partner": "Norman Korpi",
+        "partners_history": [
+          "Norman Korpi"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 9,
         "player": "Beth Stolarczyk",
-        "rating": -0.426,
+        "rating": -0.321,
         "n_events": 10,
         "finish": "Eliminated in Hang Man",
         "finish_label": "Eliminated",
         "finish_episode": "Hang Man",
         "elim_position": 1,
-        "elim_total": 7,
+        "elim_total": 10,
         "eliminated_by": [
           "Kelley Limp",
           "Danny Roberts"
@@ -398,13 +500,13 @@
       {
         "rank": 10,
         "player": "Flora Alekseyeva",
-        "rating": -0.456,
+        "rating": -0.344,
         "n_events": 19,
         "finish": "Eliminated in Slam Dunk",
         "finish_label": "Eliminated",
         "finish_episode": "Slam Dunk",
-        "elim_position": 5,
-        "elim_total": 7,
+        "elim_position": 8,
+        "elim_total": 10,
         "eliminated_by": [
           "Elka Walker",
           "Sean Duffy"
@@ -419,13 +521,13 @@
       {
         "rank": 11,
         "player": "Jisela Delgado",
-        "rating": -0.585,
+        "rating": -0.464,
         "n_events": 19,
         "finish": "Eliminated in Slam Dunk",
         "finish_label": "Eliminated",
         "finish_episode": "Slam Dunk",
-        "elim_position": 4,
-        "elim_total": 7,
+        "elim_position": 7,
+        "elim_total": 10,
         "eliminated_by": [
           "Holly Brentson",
           "Theo von Kurnatowski"
@@ -440,13 +542,13 @@
       {
         "rank": 12,
         "player": "Holly Shand",
-        "rating": -0.585,
+        "rating": -0.465,
         "n_events": 22,
         "finish": "Eliminated in Ladder of Doom",
         "finish_label": "Eliminated",
         "finish_episode": "Ladder of Doom",
-        "elim_position": 7,
-        "elim_total": 7,
+        "elim_position": 10,
+        "elim_total": 10,
         "eliminated_by": [
           "Holly Brentson",
           "Theo von Kurnatowski"
@@ -460,14 +562,35 @@
       },
       {
         "rank": 13,
+        "player": "Belou Den Tex",
+        "rating": -0.467,
+        "n_events": 16,
+        "finish": "Eliminated in Slam Dunk",
+        "finish_label": "Eliminated",
+        "finish_episode": "Slam Dunk",
+        "elim_position": 5,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Holly Brentson",
+          "Theo von Kurnatowski"
+        ],
+        "partner": "Chris Melling",
+        "partners_history": [
+          "Chris Melling"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Veronica Portillo",
-        "rating": -0.591,
+        "rating": -0.47,
         "n_events": 10,
         "finish": "Eliminated in Hang Man",
         "finish_label": "Eliminated",
         "finish_episode": "Hang Man",
         "elim_position": 2,
-        "elim_total": 7,
+        "elim_total": 10,
         "eliminated_by": [
           "Holly Brentson",
           "Theo von Kurnatowski"
@@ -475,6 +598,48 @@
         "partner": "Yes Duffy",
         "partners_history": [
           "Yes Duffy"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
+        "player": "Piggy Thomas",
+        "rating": -0.478,
+        "n_events": 13,
+        "finish": "Eliminated in Musical Inner-Tube Tango",
+        "finish_label": "Eliminated",
+        "finish_episode": "Musical Inner-Tube Tango",
+        "elim_position": 4,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Holly Brentson",
+          "Theo von Kurnatowski"
+        ],
+        "partner": "Chadwick Pelletier",
+        "partners_history": [
+          "Chadwick Pelletier"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 16,
+        "player": "Sharon Gitau",
+        "rating": -0.615,
+        "n_events": 13,
+        "finish": "Eliminated in Musical Inner-Tube Tango",
+        "finish_label": "Eliminated",
+        "finish_episode": "Musical Inner-Tube Tango",
+        "elim_position": 3,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Lindsay Brien",
+          "Stephen Williams"
+        ],
+        "partner": "Mike Johnson",
+        "partners_history": [
+          "Mike Johnson"
         ],
         "team": "",
         "forced_exit": false

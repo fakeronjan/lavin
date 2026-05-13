@@ -3,10 +3,10 @@
   "safe_name": "Thomas_Buell",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.071,
+    "era_rating": 0.0,
+    "peak_rating": -0.009,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.636,
+    "active_rating": -0.646,
     "active_season_id": "s31_vendettas",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -28,7 +28,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.369,
+      "rating_at_end": -0.402,
       "partner": "Simone Kelly",
       "partners_history": [
         "Simone Kelly"
@@ -46,11 +46,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Blood Brothers",
       "elim_position": 3,
-      "elim_total": 5,
+      "elim_total": 6,
       "eliminated_by": [
         "Stephen Buell"
       ],
-      "rating_at_end": -0.163,
+      "rating_at_end": -0.202,
       "partner": "Stephen Buell",
       "partners_history": [
         "Stephen Buell"
@@ -73,7 +73,7 @@
         "Johnny Reilly",
         "Averey Tressler"
       ],
-      "rating_at_end": 0.071,
+      "rating_at_end": -0.009,
       "partner": "Hailey Chivers",
       "partners_history": [
         "Hailey Chivers"
@@ -86,17 +86,17 @@
     {
       "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.071
+      "rating": -0.009
     },
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.163
+      "rating": -0.202
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": -0.369
+      "rating": -0.402
     }
   ]
 }

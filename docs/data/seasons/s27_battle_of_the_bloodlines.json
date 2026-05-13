@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Jamie Banks",
-        "rating": 1.328,
-        "n_events": 63,
+        "rating": 1.299,
+        "n_events": 68,
         "finish": "Winners in Family Matters",
         "finish_label": "Champion",
         "finish_episode": "Family Matters",
@@ -28,7 +28,7 @@
         "rank": 2,
         "player": "Mitch Reid",
         "rating": 1.008,
-        "n_events": 54,
+        "n_events": 57,
         "finish": "Runners-Up in Family Matters",
         "finish_label": "Runner-up",
         "finish_episode": "Family Matters",
@@ -45,8 +45,8 @@
       {
         "rank": 3,
         "player": "Cory Wharton",
-        "rating": 0.95,
-        "n_events": 42,
+        "rating": 0.955,
+        "n_events": 44,
         "finish": "Runners-Up in Family Matters",
         "finish_label": "Runner-up",
         "finish_episode": "Family Matters",
@@ -63,8 +63,8 @@
       {
         "rank": 4,
         "player": "Mike Boise",
-        "rating": 0.731,
-        "n_events": 41,
+        "rating": 0.733,
+        "n_events": 43,
         "finish": "Eliminated in Blood Versus Love",
         "finish_label": "Eliminated",
         "finish_episode": "Blood Versus Love",
@@ -81,8 +81,8 @@
       {
         "rank": 5,
         "player": "Stephen Buell",
-        "rating": 0.546,
-        "n_events": 31,
+        "rating": 0.54,
+        "n_events": 32,
         "finish": "Eliminated in Blood Brothers",
         "finish_label": "Eliminated",
         "finish_episode": "Blood Brothers",
@@ -99,8 +99,8 @@
       {
         "rank": 6,
         "player": "Raphy Medrano",
-        "rating": 0.526,
-        "n_events": 32,
+        "rating": 0.53,
+        "n_events": 33,
         "finish": "Eliminated in A House Divided",
         "finish_label": "Eliminated",
         "finish_episode": "A House Divided",
@@ -117,8 +117,8 @@
       {
         "rank": 7,
         "player": "Leroy Garrett",
-        "rating": 0.413,
-        "n_events": 104,
+        "rating": 0.452,
+        "n_events": 109,
         "finish": "Medically Disqualified in #Corneesa",
         "finish_label": "Medical DQ",
         "finish_episode": "#Corneesa",
@@ -132,14 +132,34 @@
       },
       {
         "rank": 8,
+        "player": "Jill Tuttle",
+        "rating": 0.381,
+        "n_events": 33,
+        "finish": "Eliminated in Bad Blood",
+        "finish_label": "Eliminated",
+        "finish_episode": "Bad Blood",
+        "elim_position": 1,
+        "elim_total": 6,
+        "eliminated_by": [
+          "Cohutta Grindstaff"
+        ],
+        "partner": "Cohutta Grindstaff",
+        "partners_history": [
+          "Cohutta Grindstaff"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
         "player": "Johnny Bananas",
-        "rating": 0.382,
-        "n_events": 98,
+        "rating": 0.377,
+        "n_events": 101,
         "finish": "Eliminated in Out for Blood",
         "finish_label": "Eliminated",
         "finish_episode": "Out for Blood",
         "elim_position": 5,
-        "elim_total": 5,
+        "elim_total": 6,
         "eliminated_by": [
           "Jamie Banks",
           "Cara Maria Sorbello"
@@ -152,30 +172,10 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Jill Tuttle",
-        "rating": 0.377,
-        "n_events": 31,
-        "finish": "Eliminated in Bad Blood",
-        "finish_label": "Eliminated",
-        "finish_episode": "Bad Blood",
-        "elim_position": 1,
-        "elim_total": 5,
-        "eliminated_by": [
-          "Cohutta Grindstaff"
-        ],
-        "partner": "Cohutta Grindstaff",
-        "partners_history": [
-          "Cohutta Grindstaff"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 10,
         "player": "Cohutta Grindstaff",
-        "rating": 0.34,
-        "n_events": 73,
+        "rating": 0.348,
+        "n_events": 75,
         "finish": "Eliminated in Bad Blood",
         "finish_label": "Eliminated",
         "finish_episode": "Bad Blood",
@@ -191,24 +191,29 @@
       },
       {
         "rank": 11,
-        "player": "Tony Raines",
-        "rating": -0.038,
-        "n_events": 19,
-        "finish": "Medically Disqualified in #Corneesa",
-        "finish_label": "Medical DQ",
-        "finish_episode": "#Corneesa",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Shane Raines",
-        "partners_history": [],
+        "player": "Vince Gliatta",
+        "rating": 0.08,
+        "n_events": 18,
+        "finish": "Eliminated in Out for Blood",
+        "finish_label": "Eliminated",
+        "finish_episode": "Out for Blood",
+        "elim_position": 6,
+        "elim_total": 6,
+        "eliminated_by": [
+          "Jamie Banks",
+          "Cara Maria Sorbello"
+        ],
+        "partner": "Johnny Bananas",
+        "partners_history": [
+          "Johnny Bananas"
+        ],
         "team": "",
-        "forced_exit": true
+        "forced_exit": false
       },
       {
         "rank": 12,
         "player": "Shane Raines",
-        "rating": -0.038,
+        "rating": -0.041,
         "n_events": 19,
         "finish": "Medically Disqualified in #Corneesa",
         "finish_label": "Medical DQ",
@@ -223,14 +228,30 @@
       },
       {
         "rank": 13,
+        "player": "Tony Raines",
+        "rating": -0.041,
+        "n_events": 19,
+        "finish": "Medically Disqualified in #Corneesa",
+        "finish_label": "Medical DQ",
+        "finish_episode": "#Corneesa",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Shane Raines",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 14,
         "player": "Abram Boise",
-        "rating": -0.139,
+        "rating": -0.14,
         "n_events": 15,
         "finish": "Eliminated in Blood Versus Love",
         "finish_label": "Eliminated",
         "finish_episode": "Blood Versus Love",
         "elim_position": 4,
-        "elim_total": 5,
+        "elim_total": 6,
         "eliminated_by": [
           "Mike Boise"
         ],
@@ -242,15 +263,15 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 15,
         "player": "Thomas Buell",
-        "rating": -0.163,
-        "n_events": 29,
+        "rating": -0.202,
+        "n_events": 31,
         "finish": "Eliminated in Blood Brothers",
         "finish_label": "Eliminated",
         "finish_episode": "Blood Brothers",
         "elim_position": 3,
-        "elim_total": 5,
+        "elim_total": 6,
         "eliminated_by": [
           "Stephen Buell"
         ],
@@ -262,7 +283,7 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
+        "rank": 16,
         "player": "Dario Medrano",
         "rating": -0.224,
         "n_events": 11,
@@ -270,7 +291,7 @@
         "finish_label": "Eliminated",
         "finish_episode": "A House Divided",
         "elim_position": 2,
-        "elim_total": 5,
+        "elim_total": 6,
         "eliminated_by": [
           "Raphy Medrano"
         ],

@@ -1,0 +1,75 @@
+{
+  "player": "Vince Gliatta",
+  "safe_name": "Vince_Gliatta",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.4,
+    "peak_rating": 0.401,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.401,
+    "active_season_id": "s31_vendettas",
+    "n_seasons": 2,
+    "n_snapshots": 5,
+    "championships": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s28_rivals_iii",
+      "season_num": 28,
+      "season_name": "Rivals III",
+      "year": 2016,
+      "label": "S28 Rivals III (2016)",
+      "finish": "Runners-Up in Split Decision",
+      "finish_label": "Runner-up",
+      "finish_episode": "Split Decision",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": 0.368,
+      "partner": "Jenna Compono",
+      "partners_history": [
+        "Jenna Compono"
+      ],
+      "team": "",
+      "forced_exit": false
+    },
+    {
+      "season_id": "s27_battle_of_the_bloodlines",
+      "season_num": 27,
+      "season_name": "Battle of the Bloodlines",
+      "year": 2015,
+      "label": "S27 Battle of the Bloodlines (2015)",
+      "finish": "Eliminated in Out for Blood",
+      "finish_label": "Eliminated",
+      "finish_episode": "Out for Blood",
+      "elim_position": 6,
+      "elim_total": 6,
+      "eliminated_by": [
+        "Jamie Banks",
+        "Cara Maria Sorbello"
+      ],
+      "rating_at_end": 0.08,
+      "partner": "Johnny Bananas",
+      "partners_history": [
+        "Johnny Bananas"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 577,
+      "season_id": "s27_battle_of_the_bloodlines",
+      "rating": 0.08
+    },
+    {
+      "ranking_id": 610,
+      "season_id": "s28_rivals_iii",
+      "rating": 0.368
+    }
+  ]
+}

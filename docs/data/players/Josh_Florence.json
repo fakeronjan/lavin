@@ -1,0 +1,50 @@
+{
+  "player": "Josh Florence",
+  "safe_name": "Josh_Florence",
+  "gender": "M",
+  "career": {
+    "era_rating": 0.0,
+    "peak_rating": -0.341,
+    "peak_season_id": "s09_battle_of_the_sexes_2",
+    "active_rating": -0.341,
+    "active_season_id": "s09_battle_of_the_sexes_2",
+    "n_seasons": 1,
+    "n_snapshots": 5,
+    "championships": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
+    "daily_wins": 0
+  },
+  "seasons": [
+    {
+      "season_id": "s05_battle_of_the_seasons",
+      "season_num": 5,
+      "season_name": "Battle of the Seasons",
+      "year": 2002,
+      "label": "S5 Battle of the Seasons (2002)",
+      "finish": "Eliminated in Ladder of Doom",
+      "finish_label": "Eliminated",
+      "finish_episode": "Ladder of Doom",
+      "elim_position": 9,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Theo von Kurnatowski",
+        "Holly Brentson"
+      ],
+      "rating_at_end": -0.465,
+      "partner": "Holly Shand",
+      "partners_history": [
+        "Holly Shand"
+      ],
+      "team": "",
+      "forced_exit": false
+    }
+  ],
+  "timeline": [
+    {
+      "ranking_id": 41,
+      "season_id": "s05_battle_of_the_seasons",
+      "rating": -0.465
+    }
+  ]
+}

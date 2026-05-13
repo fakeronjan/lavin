@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Jordan Wiseley",
-        "rating": 0.854,
+        "rating": 0.843,
         "n_events": 72,
         "finish": "",
         "finish_label": "",
@@ -25,7 +25,7 @@
       {
         "rank": 2,
         "player": "Derrick Kosinski",
-        "rating": 0.797,
+        "rating": 0.787,
         "n_events": 62,
         "finish": "",
         "finish_label": "",
@@ -41,7 +41,7 @@
       {
         "rank": 3,
         "player": "Kyle Christie",
-        "rating": 0.754,
+        "rating": 0.739,
         "n_events": 53,
         "finish": "Third Place in Vendettas Never Die",
         "finish_label": "3rd",
@@ -57,7 +57,7 @@
       {
         "rank": 4,
         "player": "Zach Nichols",
-        "rating": 0.683,
+        "rating": 0.665,
         "n_events": 49,
         "finish": "Runner-Up in Vendettas Never Die",
         "finish_label": "Runner-up",
@@ -73,8 +73,8 @@
       {
         "rank": 5,
         "player": "Nelson Thomas",
-        "rating": 0.523,
-        "n_events": 108,
+        "rating": 0.496,
+        "n_events": 111,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
         "finish_episode": "Czechmate",
@@ -90,27 +90,9 @@
       },
       {
         "rank": 6,
-        "player": "Devin Walker",
-        "rating": 0.383,
-        "n_events": 87,
-        "finish": "Eliminated in Czechmate",
-        "finish_label": "Eliminated",
-        "finish_episode": "Czechmate",
-        "elim_position": 9,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Zach Nichols"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Johnny Bananas",
-        "rating": 0.376,
-        "n_events": 138,
+        "rating": 0.411,
+        "n_events": 139,
         "finish": "Eliminated in Rumor Has It",
         "finish_label": "Eliminated",
         "finish_episode": "Rumor Has It",
@@ -125,10 +107,10 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "player": "Tony Raines",
-        "rating": 0.34,
-        "n_events": 139,
+        "rating": 0.316,
+        "n_events": 141,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -141,9 +123,27 @@
         "forced_exit": false
       },
       {
+        "rank": 8,
+        "player": "Devin Walker",
+        "rating": 0.313,
+        "n_events": 91,
+        "finish": "Eliminated in Czechmate",
+        "finish_label": "Eliminated",
+        "finish_episode": "Czechmate",
+        "elim_position": 9,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Zach Nichols"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 9,
         "player": "Brad Fiorenza",
-        "rating": 0.295,
+        "rating": 0.28,
         "n_events": 23,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
@@ -159,8 +159,8 @@
       {
         "rank": 10,
         "player": "Cory Wharton",
-        "rating": 0.248,
-        "n_events": 110,
+        "rating": 0.246,
+        "n_events": 113,
         "finish": "Eliminated in #Banatalie",
         "finish_label": "Eliminated",
         "finish_episode": "#Banatalie",
@@ -177,7 +177,7 @@
       {
         "rank": 11,
         "player": "Shane Landrum",
-        "rating": 0.123,
+        "rating": 0.112,
         "n_events": 45,
         "finish": "Eliminated in Pulling the Strings",
         "finish_label": "Eliminated",
@@ -195,7 +195,7 @@
       {
         "rank": 12,
         "player": "Joss Mooney",
-        "rating": -0.126,
+        "rating": -0.138,
         "n_events": 10,
         "finish": "Eliminated in Mercenaries of Mayhem",
         "finish_label": "Eliminated",
@@ -213,7 +213,7 @@
       {
         "rank": 13,
         "player": "Eddie Williams",
-        "rating": -0.464,
+        "rating": -0.478,
         "n_events": 14,
         "finish": "Quit before The Power of Three",
         "finish_label": "Quit",
@@ -229,8 +229,8 @@
       {
         "rank": 14,
         "player": "Leroy Garrett",
-        "rating": -0.496,
-        "n_events": 53,
+        "rating": -0.511,
+        "n_events": 54,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -245,7 +245,7 @@
       {
         "rank": 15,
         "player": "Victor Arroyo",
-        "rating": -0.545,
+        "rating": -0.559,
         "n_events": 8,
         "finish": "Eliminated in Pulling the Strings",
         "finish_label": "Eliminated",
@@ -263,7 +263,7 @@
       {
         "rank": 16,
         "player": "Frank Fox",
-        "rating": -0.546,
+        "rating": -0.56,
         "n_events": 12,
         "finish": "",
         "finish_label": "",

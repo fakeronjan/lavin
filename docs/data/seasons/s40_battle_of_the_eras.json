@@ -361,7 +361,7 @@
       {
         "rank": 1,
         "player": "Jenny West",
-        "rating": 0.796,
+        "rating": 0.815,
         "n_events": 82,
         "finish": "Winner in The End of an Era, Part 2",
         "finish_label": "Champion",
@@ -377,7 +377,7 @@
       {
         "rank": 2,
         "player": "Rachel Robinson",
-        "rating": 0.724,
+        "rating": 0.742,
         "n_events": 84,
         "finish": "Winner in The End of an Era, Part 2",
         "finish_label": "Champion",
@@ -393,8 +393,8 @@
       {
         "rank": 3,
         "player": "Nurys Mateo",
-        "rating": 0.507,
-        "n_events": 109,
+        "rating": 0.52,
+        "n_events": 111,
         "finish": "Eliminated in The Era Invitational, Part 2",
         "finish_label": "Eliminated",
         "finish_episode": "The Era Invitational, Part 2",
@@ -410,9 +410,25 @@
       },
       {
         "rank": 4,
+        "player": "Tori Deal",
+        "rating": 0.456,
+        "n_events": 126,
+        "finish": "Fourth Place in The End of an Era, Part 2",
+        "finish_label": "4th",
+        "finish_episode": "The End of an Era, Part 2",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "Era III",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
         "player": "Aneesa Ferreira",
-        "rating": 0.436,
-        "n_events": 84,
+        "rating": 0.453,
+        "n_events": 86,
         "finish": "Eliminated in My Trivia Era",
         "finish_label": "Eliminated",
         "finish_episode": "My Trivia Era",
@@ -427,26 +443,10 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
-        "player": "Tori Deal",
-        "rating": 0.433,
-        "n_events": 125,
-        "finish": "Fourth Place in The End of an Era, Part 2",
-        "finish_label": "4th",
-        "finish_episode": "The End of an Era, Part 2",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Era III",
-        "forced_exit": false
-      },
-      {
         "rank": 6,
         "player": "Michele Fitzgerald",
-        "rating": 0.214,
-        "n_events": 103,
+        "rating": 0.232,
+        "n_events": 104,
         "finish": "Third Place in The End of an Era, Part 2",
         "finish_label": "3rd",
         "finish_episode": "The End of an Era, Part 2",
@@ -461,8 +461,8 @@
       {
         "rank": 7,
         "player": "Olivia Kaiser",
-        "rating": 0.188,
-        "n_events": 127,
+        "rating": 0.205,
+        "n_events": 130,
         "finish": "Eliminated in Best Friends 4Era",
         "finish_label": "Eliminated",
         "finish_episode": "Best Friends 4Era",
@@ -479,7 +479,7 @@
       {
         "rank": 8,
         "player": "Aviv Melmed",
-        "rating": 0.061,
+        "rating": 0.08,
         "n_events": 63,
         "finish": "Eliminated in Thinking Thin Era",
         "finish_label": "Eliminated",
@@ -497,7 +497,7 @@
       {
         "rank": 9,
         "player": "Tina Barta",
-        "rating": 0.007,
+        "rating": 0.026,
         "n_events": 48,
         "finish": "Eliminated in Trust in Your Era",
         "finish_label": "Eliminated",
@@ -515,8 +515,8 @@
       {
         "rank": 10,
         "player": "Laurel Stucky",
-        "rating": -0.005,
-        "n_events": 117,
+        "rating": 0.011,
+        "n_events": 118,
         "finish": "Eliminated in The Era of the Purge",
         "finish_label": "Eliminated",
         "finish_episode": "The Era of the Purge",
@@ -531,7 +531,7 @@
       {
         "rank": 11,
         "player": "Nia Moore",
-        "rating": -0.096,
+        "rating": -0.078,
         "n_events": 54,
         "finish": "Eliminated in Payback Era",
         "finish_label": "Eliminated",
@@ -549,7 +549,7 @@
       {
         "rank": 12,
         "player": "Cara Maria Sorbello",
-        "rating": -0.197,
+        "rating": -0.179,
         "n_events": 77,
         "finish": "Eliminated in Location Change Era",
         "finish_label": "Eliminated",
@@ -567,7 +567,7 @@
       {
         "rank": 13,
         "player": "Jodi Weatherton",
-        "rating": -0.252,
+        "rating": -0.233,
         "n_events": 49,
         "finish": "Eliminated in A Fatal Era",
         "finish_label": "Eliminated",
@@ -583,7 +583,7 @@
       {
         "rank": 14,
         "player": "Katie Cooley",
-        "rating": -0.282,
+        "rating": -0.264,
         "n_events": 25,
         "finish": "Eliminated in The Era Invitational, Part 2",
         "finish_label": "Eliminated",
@@ -601,7 +601,7 @@
       {
         "rank": 15,
         "player": "Kaycee Clark",
-        "rating": -0.437,
+        "rating": -0.419,
         "n_events": 77,
         "finish": "Eliminated in An Era of One",
         "finish_label": "Eliminated",
@@ -617,7 +617,7 @@
       {
         "rank": 16,
         "player": "KellyAnne Judd",
-        "rating": -0.491,
+        "rating": -0.472,
         "n_events": 25,
         "finish": "Eliminated in The Era Invitational, Part 2",
         "finish_label": "Eliminated",
@@ -635,7 +635,7 @@
       {
         "rank": 17,
         "player": "Jonna Mannion",
-        "rating": -0.504,
+        "rating": -0.486,
         "n_events": 21,
         "finish": "Eliminated in My Real Friends Era",
         "finish_label": "Eliminated",
@@ -653,7 +653,7 @@
       {
         "rank": 18,
         "player": "Averey Tressler",
-        "rating": -0.516,
+        "rating": -0.497,
         "n_events": 25,
         "finish": "Eliminated in The Era of the Gladiator",
         "finish_label": "Eliminated",
@@ -671,7 +671,7 @@
       {
         "rank": 19,
         "player": "Emily Schromm",
-        "rating": -0.747,
+        "rating": -0.728,
         "n_events": 19,
         "finish": "Eliminated in An Era Tradition",
         "finish_label": "Eliminated",
@@ -689,7 +689,7 @@
       {
         "rank": 20,
         "player": "Amanda Garcia",
-        "rating": -0.76,
+        "rating": -0.741,
         "n_events": 13,
         "finish": "Eliminated in The Era Invitational, Part 2",
         "finish_label": "Eliminated",
