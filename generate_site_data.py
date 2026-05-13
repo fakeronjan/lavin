@@ -472,9 +472,10 @@ def main():
             champ_counts[p] = champ_counts.get(p, 0) + 1
         if _reached_finals(f):
             finals_counts[p] = finals_counts.get(p, 0) + 1
-    # Fold in pre-anchor titles so career totals reflect full history
-    for p, n in pre_anchor_titles_by_player.items():
-        champ_counts[p] = champ_counts.get(p, 0) + n
+    # NOTE: pre-S5 wins are already in appearances.csv (S2-S4 contestants
+    # have "Winners" finish text), so champ_counts already counts them.
+    # The pre_anchor_titles_by_player map is used ONLY for Champions list
+    # display (flagging pre-S5 rows for the footnote) — DON'T fold here.
 
     # Per-dimension ERAs (from build_dimension_eras.py)
     dim_eras_path = DATA / "dimension_eras.csv"
@@ -688,9 +689,9 @@ def main():
             for _, r in timeline.iterrows()
         ]
 
-        # Championships (S5+ from appearances + S2-S4 from pre-anchor map)
+        # Championships from appearances (already includes S2-S4 "Winners"
+        # finishes, so no separate pre-anchor add is needed)
         champs_for_p = apps_for_p[apps_for_p["finish"].fillna("").str.contains(r"^Winner", case=False, regex=True)]
-        total_champs_p = len(champs_for_p) + pre_anchor_titles_by_player.get(p, 0)
 
         out = {
             "player": p,
@@ -704,7 +705,8 @@ def main():
                 "active_season_id": row["active_season_id"],
                 "n_seasons": int(apps_for_p["season_id"].nunique()),
                 "n_snapshots": int(row["era_n_snapshots"]),
-                "championships": total_champs_p,
+                "championships": int(len(champs_for_p)),
+                "finals_reached": int(finals_counts.get(p, 0)),
                 "pre_anchor_titles": int(pre_anchor_titles_by_player.get(p, 0)),
                 "elim_wins": int(elims_by_player_w.get(p, 0)),
                 "elim_losses": int(elims_by_player_l.get(p, 0)),
