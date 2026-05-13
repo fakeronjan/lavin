@@ -163,7 +163,7 @@
     gap: 8px;
   }
   .rating-bar-track {
-    width: 80px;
+    width: 48px;
     height: 6px;
     background: #eee;
     border-radius: 3px;
@@ -525,23 +525,22 @@ function fmtFinish(textOrEntry) {
   else if (label === 'Runner-up') badge = '<span class="finish-badge finish-runner">🥈</span>';
   else if (label === '3rd')       badge = '<span class="finish-badge finish-third">🥉</span>';
 
-  // "Eliminated by X & Y | 1st of 12 | episode title"
-  // For non-eliminated finishers, fall back to "Label · episode" (no "by").
+  // Visual hierarchy: keep the LABEL (Eliminated / Quit / DQ / etc.) at the
+  // default cell size, and demote everything that follows (eliminator names,
+  // position, episode) to small grey — matches the "🥇 Champion · Finale
+  // Part II" pattern used by finalists.
   const ord = (n) => n + (['st','nd','rd'][((n+90)%100-10)%10-1] || 'th');
+  const subBits = [];
   if (label === 'Eliminated' && elimBy.length) {
     const byHtml = elimBy.map(n => `<span class="player linked" data-player="${n}">${n}</span>`).join(' & ');
-    const parts = [`Eliminated by ${byHtml}`];
-    if (elimPos && elimTot) parts.push(`${ord(elimPos)} of ${elimTot}`);
-    if (episode) parts.push(episode);
-    return `${badge}<span style="font-size:12px">${parts.join(' <span style="color:#888">|</span> ')}</span>`;
+    subBits.push(`by ${byHtml}`);
   }
-  // Legacy fallback for non-eliminated rows
-  let posHtml = '';
-  if (elimPos && elimTot) {
-    posHtml = ` <span style="font-size:11px;color:#888">(${ord(elimPos)} of ${elimTot})</span>`;
-  }
-  const epHtml = episode ? `<span style="font-size:11px;color:#888"> · ${episode}</span>` : '';
-  return `${badge}${label}${posHtml}${epHtml}`;
+  if (elimPos && elimTot) subBits.push(`${ord(elimPos)} of ${elimTot}`);
+  if (episode) subBits.push(episode);
+  const subHtml = subBits.length
+    ? ` <span style="font-size:11px;color:#888">${subBits.join(' · ')}</span>`
+    : '';
+  return `${badge}${label}${subHtml}`;
 }
 
 // ── Tab switching ──
