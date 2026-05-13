@@ -6,7 +6,7 @@
     "era_rating": 0.0,
     "peak_rating": -0.085,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.135,
+    "active_rating": -0.6,
     "active_season_id": "s21_rivals",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 7
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.126,
-      "rank": 8,
+      "rating_at_end": -0.462,
+      "rank": 12,
       "rank_total": 15,
-      "daily_wins": 5,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -53,10 +53,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.225,
-      "rank": 11,
+      "rating_at_end": -0.296,
+      "rank": 13,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -99,12 +99,12 @@
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.225
+      "rating": -0.296
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.126
+      "rating": -0.462
     }
   ]
 }

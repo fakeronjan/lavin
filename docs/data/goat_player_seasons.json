@@ -40,7 +40,7 @@
       "player": "Landon Lueck",
       "season_id": "s19_fresh_meat_ii",
       "season_label": "S19 Fresh Meat II (2010)",
-      "rating_at_end": 1.171,
+      "rating_at_end": 1.163,
       "finish": "Winners in Well Done, Meat",
       "n_events": 64,
       "rank": 5
@@ -145,22 +145,13 @@
       "rank": 16
     },
     {
-      "player": "Kenny Santucci",
-      "season_id": "s19_fresh_meat_ii",
-      "season_label": "S19 Fresh Meat II (2010)",
-      "rating_at_end": 1.02,
-      "finish": "Runners-Up in Well Done, Meat",
-      "n_events": 127,
-      "rank": 17
-    },
-    {
       "player": "Theo Campbell",
       "season_id": "s33_war_of_the_worlds",
       "season_label": "S33 War of the Worlds (2019)",
       "rating_at_end": 1.018,
       "finish": "Runner-Up in This Is the End",
       "n_events": 67,
-      "rank": 18
+      "rank": 17
     },
     {
       "player": "Devin Walker",
@@ -169,7 +160,7 @@
       "rating_at_end": 1.017,
       "finish": "Winners in The End of the Ride",
       "n_events": 78,
-      "rank": 19
+      "rank": 18
     },
     {
       "player": "Hunter Barfield",
@@ -178,6 +169,15 @@
       "rating_at_end": 1.016,
       "finish": "Winners in Who Wants to Be a Millionaire?",
       "n_events": 26,
+      "rank": 19
+    },
+    {
+      "player": "Kenny Santucci",
+      "season_id": "s19_fresh_meat_ii",
+      "season_label": "S19 Fresh Meat II (2010)",
+      "rating_at_end": 1.012,
+      "finish": "Runners-Up in Well Done, Meat",
+      "n_events": 128,
       "rank": 20
     },
     {
@@ -303,7 +303,7 @@
       "season_label": "S18 The Ruins (2009)",
       "rating_at_end": 0.852,
       "finish": "Winners in Good Thai and Good Luck",
-      "n_events": 113,
+      "n_events": 114,
       "rank": 34
     },
     {
@@ -379,13 +379,22 @@
       "rank": 42
     },
     {
+      "player": "Evan Starkman",
+      "season_id": "s18_the_ruins",
+      "season_label": "S18 The Ruins (2009)",
+      "rating_at_end": 0.807,
+      "finish": "Winners in Good Thai and Good Luck",
+      "n_events": 161,
+      "rank": 43
+    },
+    {
       "player": "Nelson Thomas",
       "season_id": "s29_invasion_of_the_champions",
       "season_label": "S29 Invasion of the Champions (2017)",
       "rating_at_end": 0.805,
       "finish": "Runner-Up in The True Champions",
       "n_events": 54,
-      "rank": 43
+      "rank": 44
     },
     {
       "player": "Darrell Taylor",
@@ -394,15 +403,6 @@
       "rating_at_end": 0.805,
       "finish": "Winners in Handsome Reward",
       "n_events": 158,
-      "rank": 44
-    },
-    {
-      "player": "Evan Starkman",
-      "season_id": "s18_the_ruins",
-      "season_label": "S18 The Ruins (2009)",
-      "rating_at_end": 0.802,
-      "finish": "Winners in Good Thai and Good Luck",
-      "n_events": 160,
       "rank": 45
     },
     {
@@ -465,7 +465,7 @@
       "player": "Carley Johnson",
       "season_id": "s19_fresh_meat_ii",
       "season_label": "S19 Fresh Meat II (2010)",
-      "rating_at_end": 1.13,
+      "rating_at_end": 1.151,
       "finish": "Winners in Well Done, Meat",
       "n_events": 39,
       "rank": 2
@@ -516,21 +516,21 @@
       "rank": 7
     },
     {
+      "player": "Susie Meister",
+      "season_id": "s18_the_ruins",
+      "season_label": "S18 The Ruins (2009)",
+      "rating_at_end": 1.075,
+      "finish": "Winners in Good Thai and Good Luck",
+      "n_events": 84,
+      "rank": 8
+    },
+    {
       "player": "Svetlana Shusterman",
       "season_id": "s13_the_duel",
       "season_label": "S13 The Duel (2006)",
       "rating_at_end": 1.052,
       "finish": "Runner-Up in The Big Payoff",
       "n_events": 39,
-      "rank": 8
-    },
-    {
-      "player": "Susie Meister",
-      "season_id": "s18_the_ruins",
-      "season_label": "S18 The Ruins (2009)",
-      "rating_at_end": 1.044,
-      "finish": "Winners in Good Thai and Good Luck",
-      "n_events": 80,
       "rank": 9
     },
     {
@@ -582,10 +582,19 @@
       "player": "Laurel Stucky",
       "season_id": "s19_fresh_meat_ii",
       "season_label": "S19 Fresh Meat II (2010)",
-      "rating_at_end": 0.965,
+      "rating_at_end": 0.986,
       "finish": "Runners-Up in Well Done, Meat",
       "n_events": 65,
       "rank": 15
+    },
+    {
+      "player": "Evelyn Smith",
+      "season_id": "s21_rivals",
+      "season_label": "S21 Rivals (2011)",
+      "rating_at_end": 0.974,
+      "finish": "Winners in At the End of the World",
+      "n_events": 56,
+      "rank": 16
     },
     {
       "player": "Camila Nakagawa",
@@ -594,15 +603,6 @@
       "rating_at_end": 0.964,
       "finish": "Winner in One in a Million",
       "n_events": 84,
-      "rank": 16
-    },
-    {
-      "player": "Evelyn Smith",
-      "season_id": "s21_rivals",
-      "season_label": "S21 Rivals (2011)",
-      "rating_at_end": 0.956,
-      "finish": "Winners in At the End of the World",
-      "n_events": 56,
       "rank": 17
     },
     {
@@ -615,13 +615,22 @@
       "rank": 18
     },
     {
+      "player": "Tori Hall",
+      "season_id": "s20_cutthroat",
+      "season_label": "S20 Cutthroat (2010)",
+      "rating_at_end": 0.918,
+      "finish": "Winners in Czechmate",
+      "n_events": 61,
+      "rank": 19
+    },
+    {
       "player": "Kelley Limp",
       "season_id": "s05_battle_of_the_seasons",
       "season_label": "S5 Battle of the Seasons (2002)",
       "rating_at_end": 0.917,
       "finish": "Winners in Handsome Reward",
       "n_events": 41,
-      "rank": 19
+      "rank": 20
     },
     {
       "player": "Coral Smith",
@@ -630,7 +639,7 @@
       "rating_at_end": 0.914,
       "finish": "Winners in Handsome Reward",
       "n_events": 46,
-      "rank": 20
+      "rank": 21
     },
     {
       "player": "Natalie Duran",
@@ -639,7 +648,7 @@
       "rating_at_end": 0.909,
       "finish": "Runners-Up in Give Me Liberty or Give Me Cash",
       "n_events": 70,
-      "rank": 21
+      "rank": 22
     },
     {
       "player": "Sylvia Elsrode",
@@ -648,7 +657,7 @@
       "rating_at_end": 0.908,
       "finish": "Runners-Up in Who Wants to Be a Millionaire?",
       "n_events": 31,
-      "rank": 22
+      "rank": 23
     },
     {
       "player": "Jenny West",
@@ -657,7 +666,7 @@
       "rating_at_end": 0.884,
       "finish": "Winner in It's the End of the World As We Know It",
       "n_events": 109,
-      "rank": 23
+      "rank": 24
     },
     {
       "player": "Camila Nakagawa",
@@ -666,7 +675,7 @@
       "rating_at_end": 0.882,
       "finish": "Winners in I Will Always Love You",
       "n_events": 60,
-      "rank": 24
+      "rank": 25
     },
     {
       "player": "Olivia Kaiser",
@@ -675,7 +684,7 @@
       "rating_at_end": 0.879,
       "finish": "Winner in Finale Part II",
       "n_events": 89,
-      "rank": 25
+      "rank": 26
     },
     {
       "player": "Amber Borzotra",
@@ -684,7 +693,7 @@
       "rating_at_end": 0.865,
       "finish": "Winner in The World Is Not Enough",
       "n_events": 80,
-      "rank": 26
+      "rank": 27
     },
     {
       "player": "Elka Walker",
@@ -693,7 +702,7 @@
       "rating_at_end": 0.859,
       "finish": "Winners in Handsome Reward",
       "n_events": 41,
-      "rank": 27
+      "rank": 28
     },
     {
       "player": "Kaycee Clark",
@@ -702,15 +711,6 @@
       "rating_at_end": 0.849,
       "finish": "Runner-Up in It's the End of the World As We Know It",
       "n_events": 77,
-      "rank": 28
-    },
-    {
-      "player": "Tori Hall",
-      "season_id": "s20_cutthroat",
-      "season_label": "S20 Cutthroat (2010)",
-      "rating_at_end": 0.848,
-      "finish": "Winners in Czechmate",
-      "n_events": 65,
       "rank": 29
     },
     {
@@ -777,13 +777,22 @@
       "rank": 36
     },
     {
+      "player": "Laurel Stucky",
+      "season_id": "s20_cutthroat",
+      "season_label": "S20 Cutthroat (2010)",
+      "rating_at_end": 0.801,
+      "finish": "Runners-Up in Czechmate",
+      "n_events": 133,
+      "rank": 37
+    },
+    {
       "player": "Dee Nguyen",
       "season_id": "s34_war_of_the_worlds_2",
       "season_label": "S34 War of the Worlds 2 (2019)",
       "rating_at_end": 0.8,
       "finish": "Winners in Give Me Liberty or Give Me Cash",
       "n_events": 70,
-      "rank": 37
+      "rank": 38
     },
     {
       "player": "Sarah Greyson",
@@ -792,7 +801,7 @@
       "rating_at_end": 0.798,
       "finish": "Winners in Gold Rush Part 2",
       "n_events": 70,
-      "rank": 38
+      "rank": 39
     },
     {
       "player": "Jenny West",
@@ -801,7 +810,7 @@
       "rating_at_end": 0.79,
       "finish": "Winner in The End of an Era, Part 2",
       "n_events": 97,
-      "rank": 39
+      "rank": 40
     },
     {
       "player": "Nurys Mateo",
@@ -810,7 +819,7 @@
       "rating_at_end": 0.79,
       "finish": "Runner-Up in Only One Gets the Crown",
       "n_events": 75,
-      "rank": 40
+      "rank": 41
     },
     {
       "player": "Sydney Segal",
@@ -819,7 +828,7 @@
       "rating_at_end": 0.789,
       "finish": "Runner-Up in Finale Part II",
       "n_events": 76,
-      "rank": 41
+      "rank": 42
     },
     {
       "player": "Cara Zavaleta",
@@ -828,15 +837,6 @@
       "rating_at_end": 0.775,
       "finish": "Winners in Gold Rush Part 2",
       "n_events": 68,
-      "rank": 42
-    },
-    {
-      "player": "Laurel Stucky",
-      "season_id": "s20_cutthroat",
-      "season_label": "S20 Cutthroat (2010)",
-      "rating_at_end": 0.757,
-      "finish": "Runners-Up in Czechmate",
-      "n_events": 129,
       "rank": 43
     },
     {
@@ -876,13 +876,22 @@
       "rank": 47
     },
     {
+      "player": "Paula Meronek",
+      "season_id": "s21_rivals",
+      "season_label": "S21 Rivals (2011)",
+      "rating_at_end": 0.729,
+      "finish": "Winners in At the End of the World",
+      "n_events": 107,
+      "rank": 48
+    },
+    {
       "player": "Janelle Casanave",
       "season_id": "s14_the_inferno_3",
       "season_label": "S14 The Inferno 3 (2007)",
       "rating_at_end": 0.719,
       "finish": "Winners in The Big Five",
       "n_events": 62,
-      "rank": 48
+      "rank": 49
     },
     {
       "player": "Kaycee Clark",
@@ -891,15 +900,6 @@
       "rating_at_end": 0.717,
       "finish": "Winner in The Decision",
       "n_events": 173,
-      "rank": 49
-    },
-    {
-      "player": "Ruthie Alcaide",
-      "season_id": "s06_battle_of_the_sexes",
-      "season_label": "S6 Battle of the Sexes (2003)",
-      "rating_at_end": 0.713,
-      "finish": "Runners-Up in Handsome Reward",
-      "n_events": 79,
       "rank": 50
     }
   ]

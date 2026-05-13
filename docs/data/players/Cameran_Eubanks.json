@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.131,
+    "peak_rating": -0.121,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.422,
+    "active_rating": -0.827,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 10
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.422,
-      "rank": 11,
+      "rating_at_end": -0.827,
+      "rank": 15,
       "rank_total": 16,
-      "daily_wins": 9,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -76,7 +76,7 @@
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.422
+      "rating": -0.827
     }
   ]
 }

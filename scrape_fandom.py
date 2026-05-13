@@ -121,6 +121,96 @@ def _team_name_from_caption(caption, table_gender):
     return c
 
 
+_EXIT_RE = re.compile(
+    r'\b(QUIT|MED|EJECTED|REMOVED|WITHDREW|WD|DISQUALIFIED|DQ)\b',
+    re.IGNORECASE,
+)
+
+
+def parse_episode_progress(wikitext, cast_players=None):
+    """
+    Parse the `===Episode Progress===` table to find players who exited the
+    season early (QUIT / MED-DQ / DQ / withdrew). Used to filter team-roster
+    daily expansions so e.g. S20 Shauvon (quit ep 3) doesn't get credit for
+    Grey Team's ep 4+ wins.
+
+    Episode Progress rows typically use display names ("Coral", "Shauvon"),
+    not the canonical [[wikilink]] names ("Coral Smith", "Shauvon Torres").
+    When `cast_players` is provided, we canonicalize via first-name match.
+
+    Returns: dict {canonical_player_name: exit_episode_number}.
+    """
+    m = re.search(r'==={1,}\s*Episode Progress\s*={1,}=={0,}\s*\n', wikitext)
+    if not m:
+        return {}
+    body_start = m.end()
+    end = wikitext.find('\n==', body_start)
+    body = wikitext[body_start:end if end > 0 else len(wikitext)]
+    tables = list(_iter_wikitables(mwp.parse(body)))
+    if not tables:
+        return {}
+    rows = _iter_table_rows(tables[0])
+    if len(rows) < 2:
+        return {}
+
+    # Header row 2 has episode labels; first row is usually "Contestants /
+    # Episodes". Pick the first row that doesn't say "Contestant".
+    header_ep_row = None
+    for r in rows[:3]:
+        sample = ' '.join(_cell_plain(c) for c in r[:5]).lower()
+        if 'contestant' in sample:
+            continue
+        header_ep_row = r
+        break
+    if header_ep_row is None:
+        return {}
+
+    # Map each sub-column index → episode number (handles colspan>1 episodes)
+    cell_to_ep = []
+    for cell in header_ep_row:
+        cs = _cell_colspan(cell)
+        text = _cell_plain(_strip_cell_attrs(cell)).strip()
+        em = re.match(r'(\d+)', text)
+        ep = int(em.group(1)) if em else None
+        for _ in range(cs):
+            cell_to_ep.append(ep)
+
+    # Canonical-name lookup: first-name → canonical (only used when unique)
+    fn_map = {}
+    if cast_players:
+        for p in cast_players:
+            first = p.split()[0]
+            fn_map.setdefault(first, []).append(p)
+
+    exits = {}
+    for row in rows[1:]:
+        if len(row) < 2:
+            continue
+        display = _cell_plain(_strip_cell_attrs(row[0])).strip()
+        if not display:
+            continue
+        # Walk cells (colspan-aware) and find FIRST exit status
+        col = 0
+        exit_ep = None
+        for cell in row[1:]:
+            cs = _cell_colspan(cell)
+            text = _cell_plain(_strip_cell_attrs(cell)).strip().upper()
+            if _EXIT_RE.search(text):
+                exit_ep = cell_to_ep[col] if col < len(cell_to_ep) else None
+                break
+            col += cs
+        if exit_ep is None:
+            continue
+        # Canonicalize via cast first-name match (unique only)
+        canonical = display
+        if fn_map:
+            matches = fn_map.get(display.split()[0]) or fn_map.get(display)
+            if matches and len(matches) == 1:
+                canonical = matches[0]
+        exits[canonical] = exit_ep
+    return exits
+
+
 def parse_season_winners(wikitext):
     """
     Extract authoritative list of championship-winning player names from the
@@ -637,7 +727,7 @@ def _is_player_cell(cell):
     return bool(_cell_player(cell))
 
 
-def parse_game_summary_individual(wikitext, team_rosters=None):
+def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=None):
     """
     Parse the elimination chart for individual-format seasons.
     Robust to varying column counts (Duel: 10 cols, Total Madness: 13 cols, etc.)
@@ -648,12 +738,18 @@ def parse_game_summary_individual(wikitext, team_rosters=None):
     season's cast table. When provided, daily-winner cells containing only
     a team-name text (S20 Cutthroat-style: "Red Team" / "Grey Team" with no
     player icons) are expanded into per-roster-member daily rows.
+
+    `exit_episodes` (optional) is a dict {player: exit_episode_int} from
+    Episode Progress (players who QUIT / MED-DQ / withdrew mid-season).
+    Used to filter team-roster expansions so they don't credit players who
+    had already exited before that team's win.
     """
     sec = get_section(wikitext, "Game Summary")
     if not sec:
         return [], []
     team_rosters = team_rosters or {}
     team_lower = {k.lower(): v for k, v in team_rosters.items()}
+    exit_episodes = exit_episodes or {}
 
     elim_table = None
     for table in _iter_wikitables(mwp.parse(sec)):
@@ -819,9 +915,16 @@ def parse_game_summary_individual(wikitext, team_rosters=None):
                     break
 
         if team_roster_for_row:
+            # Current episode # for exit-time comparison. Take the leading
+            # integer from strings like "1", "8/9", "10/11", "Finale".
+            ep_num_m = re.match(r'(\d+)', str(episode))
+            current_ep_num = int(ep_num_m.group(1)) if ep_num_m else None
             for p in team_roster_for_row:
                 if p in eliminated_so_far:
-                    continue  # player already exited the team before this daily
+                    continue  # already lost an elim before this row
+                exit_ep = exit_episodes.get(p)
+                if exit_ep is not None and current_ep_num is not None and current_ep_num > exit_ep:
+                    continue  # quit/MED-DQ'd before this episode
                 dailies.append({
                     "episode": episode,
                     "challenge": challenge,
@@ -903,12 +1006,21 @@ def scrape_season(season_id, page_name, out_dir):
     # "Red Team" / "Grey Team" / "Blue Team" text in the daily-winners cell
     # instead of player icons — we expand to roster via this map).
     team_rosters = {}
+    cast_players = []
     for c in contestants:
+        cast_players.append(c["player"])
         t = str(c.get("team") or "").strip()
         if t:
             team_rosters.setdefault(t, []).append(c["player"])
 
-    eliminations, dailies = parse_game_summary_individual(wt, team_rosters=team_rosters)
+    # Players who exited mid-season (QUIT / MED-DQ / withdrew) per Episode
+    # Progress table — filters out over-credits in team-roster expansions
+    # (S15 Coral, S20 Shauvon).
+    exit_episodes = parse_episode_progress(wt, cast_players=cast_players)
+
+    eliminations, dailies = parse_game_summary_individual(
+        wt, team_rosters=team_rosters, exit_episodes=exit_episodes
+    )
     df_e = pd.DataFrame(eliminations)
     if len(df_e):
         df_e.insert(0, "season_id", season_id)
