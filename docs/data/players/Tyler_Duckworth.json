@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 1.7,
-    "peak_rating": 1.133,
+    "peak_rating": 1.121,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": 1.133,
+    "active_rating": 1.121,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 4,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 2,
-    "daily_wins": 5
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.932,
+      "rating_at_end": 0.934,
       "rank": 1,
       "rank_total": 15,
       "daily_wins": 3,
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.801,
+      "rating_at_end": 0.772,
       "rank": 1,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -80,7 +80,7 @@
       "eliminated_by": [
         "Frank Roessler"
       ],
-      "rating_at_end": -0.238,
+      "rating_at_end": -0.285,
       "rank": 10,
       "rank_total": 17,
       "daily_wins": 1,
@@ -105,7 +105,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.5,
+      "rating_at_end": -0.442,
       "rank": 9,
       "rank_total": 10,
       "daily_wins": 0,
@@ -121,22 +121,22 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": -0.5
+      "rating": -0.442
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.238
+      "rating": -0.285
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.801
+      "rating": 0.772
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.932
+      "rating": 0.934
     }
   ]
 }

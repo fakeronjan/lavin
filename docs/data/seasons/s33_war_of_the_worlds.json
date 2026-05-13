@@ -10,9 +10,9 @@
         "rank": 1,
         "rank_total": 17,
         "player": "Turbo \u00c7amk\u0131ran",
-        "rating": 1.107,
-        "n_events": 68,
-        "daily_wins": 3,
+        "rating": 1.125,
+        "n_events": 31,
+        "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 0,
         "finish": "Winner in This Is the End",
@@ -33,9 +33,9 @@
         "rank": 2,
         "rank_total": 17,
         "player": "Theo Campbell",
-        "rating": 0.931,
-        "n_events": 46,
-        "daily_wins": 1,
+        "rating": 1.018,
+        "n_events": 67,
+        "daily_wins": 4,
         "elim_wins": 1,
         "elim_losses": 0,
         "finish": "Runner-Up in This Is the End",
@@ -55,9 +55,9 @@
         "rank": 3,
         "rank_total": 17,
         "player": "Wes Bergmann",
-        "rating": 0.809,
-        "n_events": 86,
-        "daily_wins": 5,
+        "rating": 0.731,
+        "n_events": 38,
+        "daily_wins": 1,
         "elim_wins": 1,
         "elim_losses": 0,
         "finish": "Third Place in This Is the End",
@@ -78,9 +78,9 @@
         "rank": 4,
         "rank_total": 17,
         "player": "Paulie Calafiore",
-        "rating": 0.692,
-        "n_events": 105,
-        "daily_wins": 6,
+        "rating": 0.646,
+        "n_events": 66,
+        "daily_wins": 3,
         "elim_wins": 2,
         "elim_losses": 0,
         "finish": "Eliminated in The Waterboy",
@@ -101,9 +101,9 @@
         "rank": 5,
         "rank_total": 17,
         "player": "Hunter Barfield",
-        "rating": 0.573,
-        "n_events": 70,
-        "daily_wins": 1,
+        "rating": 0.615,
+        "n_events": 71,
+        "daily_wins": 2,
         "elim_wins": 1,
         "elim_losses": 0,
         "finish": "Sixth Place in This Is the End",
@@ -123,9 +123,9 @@
         "rank": 6,
         "rank_total": 17,
         "player": "Kyle Christie",
-        "rating": 0.38,
-        "n_events": 58,
-        "daily_wins": 3,
+        "rating": 0.208,
+        "n_events": 33,
+        "daily_wins": 1,
         "elim_wins": 1,
         "elim_losses": 1,
         "finish": "Eliminated in Final Destination",
@@ -146,10 +146,35 @@
       {
         "rank": 7,
         "rank_total": 17,
+        "player": "Ashley Cain",
+        "rating": 0.151,
+        "n_events": 29,
+        "daily_wins": 1,
+        "elim_wins": 1,
+        "elim_losses": 1,
+        "finish": "Eliminated in American Psycho",
+        "finish_label": "Eliminated",
+        "finish_episode": "American Psycho",
+        "elim_position": 8,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Paulie Calafiore",
+          "Natalie Duran"
+        ],
+        "partner": "Kam Williams",
+        "partners_history": [
+          "Kam Williams"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 8,
+        "rank_total": 17,
         "player": "Stephen Bear",
-        "rating": 0.009,
-        "n_events": 26,
-        "daily_wins": 0,
+        "rating": 0.124,
+        "n_events": 28,
+        "daily_wins": 1,
         "elim_wins": 2,
         "elim_losses": 1,
         "finish": "Eliminated in To All the Partners I've Loved Before",
@@ -168,11 +193,11 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 9,
         "rank_total": 17,
         "player": "Zach Nichols",
-        "rating": -0.031,
-        "n_events": 18,
+        "rating": -0.052,
+        "n_events": 15,
         "daily_wins": 0,
         "elim_wins": 1,
         "elim_losses": 1,
@@ -193,86 +218,11 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "rank_total": 17,
-        "player": "Ashley Cain",
-        "rating": -0.04,
-        "n_events": 23,
-        "daily_wins": 0,
-        "elim_wins": 1,
-        "elim_losses": 1,
-        "finish": "Eliminated in American Psycho",
-        "finish_label": "Eliminated",
-        "finish_episode": "American Psycho",
-        "elim_position": 8,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Paulie Calafiore",
-          "Natalie Duran"
-        ],
-        "partner": "Kam Williams",
-        "partners_history": [
-          "Kam Williams"
-        ],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
         "rank": 10,
         "rank_total": 17,
-        "player": "Johnny Bananas",
-        "rating": -0.113,
-        "n_events": 41,
-        "daily_wins": 1,
-        "elim_wins": 0,
-        "elim_losses": 1,
-        "finish": "Eliminated in Casualties of War",
-        "finish_label": "Eliminated",
-        "finish_episode": "Casualties of War",
-        "elim_position": 3,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Zach Nichols",
-          "Zahida Allen"
-        ],
-        "partner": "Morgan Willett",
-        "partners_history": [
-          "Morgan Willett"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
-        "rank_total": 17,
-        "player": "Gus Smyrnios",
-        "rating": -0.118,
-        "n_events": 29,
-        "daily_wins": 1,
-        "elim_wins": 0,
-        "elim_losses": 1,
-        "finish": "Eliminated in Liar, Liar",
-        "finish_label": "Eliminated",
-        "finish_episode": "Liar, Liar",
-        "elim_position": 7,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Stephen Bear",
-          "Da'Vonne Rogers"
-        ],
-        "partner": "Jenna Compono",
-        "partners_history": [
-          "Jenna Compono"
-        ],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
-        "rank_total": 17,
         "player": "CT Tamburello",
-        "rating": -0.12,
-        "n_events": 30,
+        "rating": -0.092,
+        "n_events": 23,
         "daily_wins": 0,
         "elim_wins": 1,
         "elim_losses": 0,
@@ -290,10 +240,10 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 11,
         "rank_total": 17,
         "player": "Josh Martinez",
-        "rating": -0.216,
+        "rating": -0.164,
         "n_events": 22,
         "daily_wins": 1,
         "elim_wins": 0,
@@ -315,11 +265,36 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "rank_total": 17,
+        "player": "Johnny Bananas",
+        "rating": -0.167,
+        "n_events": 34,
+        "daily_wins": 1,
+        "elim_wins": 0,
+        "elim_losses": 1,
+        "finish": "Eliminated in Casualties of War",
+        "finish_label": "Eliminated",
+        "finish_episode": "Casualties of War",
+        "elim_position": 3,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Zach Nichols",
+          "Zahida Allen"
+        ],
+        "partner": "Morgan Willett",
+        "partners_history": [
+          "Morgan Willett"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "rank_total": 17,
         "player": "Alan Valdez",
-        "rating": -0.242,
-        "n_events": 26,
+        "rating": -0.222,
+        "n_events": 19,
         "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 0,
@@ -335,10 +310,10 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
+        "rank": 14,
         "rank_total": 17,
         "player": "Chase McNary",
-        "rating": -0.25,
+        "rating": -0.227,
         "n_events": 7,
         "daily_wins": 0,
         "elim_wins": 0,
@@ -360,11 +335,11 @@
         "forced_exit": false
       },
       {
-        "rank": 16,
+        "rank": 15,
         "rank_total": 17,
         "player": "Leroy Garrett",
-        "rating": -0.439,
-        "n_events": 16,
+        "rating": -0.42,
+        "n_events": 12,
         "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -385,11 +360,36 @@
         "forced_exit": false
       },
       {
+        "rank": 16,
+        "rank_total": 17,
+        "player": "Gus Smyrnios",
+        "rating": -0.448,
+        "n_events": 14,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 1,
+        "finish": "Eliminated in Liar, Liar",
+        "finish_label": "Eliminated",
+        "finish_episode": "Liar, Liar",
+        "elim_position": 7,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Stephen Bear",
+          "Da'Vonne Rogers"
+        ],
+        "partner": "Jenna Compono",
+        "partners_history": [
+          "Jenna Compono"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
         "rank": 17,
         "rank_total": 17,
         "player": "JP Andrade",
-        "rating": -0.461,
-        "n_events": 12,
+        "rating": -0.468,
+        "n_events": 10,
         "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -414,9 +414,9 @@
         "rank": 1,
         "rank_total": 17,
         "player": "Natalie Duran",
-        "rating": 1.081,
-        "n_events": 74,
-        "daily_wins": 3,
+        "rating": 1.112,
+        "n_events": 31,
+        "daily_wins": 0,
         "elim_wins": 1,
         "elim_losses": 0,
         "finish": "Fourth Place in This Is the End",
@@ -436,32 +436,10 @@
       {
         "rank": 2,
         "rank_total": 17,
-        "player": "Mattie Lynn Breaux",
-        "rating": 0.762,
-        "n_events": 60,
-        "daily_wins": 3,
-        "elim_wins": 0,
-        "elim_losses": 0,
-        "finish": "Seventh Place in Death Race",
-        "finish_label": "7th",
-        "finish_episode": "Death Race",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Kyle Christie",
-        "partners_history": [
-          "Kyle Christie"
-        ],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
-        "rank": 3,
-        "rank_total": 17,
         "player": "Cara Maria Sorbello",
-        "rating": 0.735,
-        "n_events": 64,
-        "daily_wins": 1,
+        "rating": 0.837,
+        "n_events": 77,
+        "daily_wins": 4,
         "elim_wins": 0,
         "elim_losses": 0,
         "finish": "Fifth Place in This Is the End",
@@ -478,34 +456,33 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
+        "rank": 3,
         "rank_total": 17,
-        "player": "Georgia Harrison",
-        "rating": 0.631,
-        "n_events": 51,
-        "daily_wins": 2,
-        "elim_wins": 2,
+        "player": "Mattie Lynn Breaux",
+        "rating": 0.702,
+        "n_events": 36,
+        "daily_wins": 1,
+        "elim_wins": 0,
         "elim_losses": 0,
-        "finish": "Eighth Place in Death Race",
-        "finish_label": "8th",
+        "finish": "Seventh Place in Death Race",
+        "finish_label": "7th",
         "finish_episode": "Death Race",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Hunter Barfield",
+        "partner": "Kyle Christie",
         "partners_history": [
-          "Hunter Barfield",
-          "Paulie Calafiore"
+          "Kyle Christie"
         ],
         "team": "Prospects",
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 4,
         "rank_total": 17,
         "player": "Ashley Mitchell",
-        "rating": 0.577,
-        "n_events": 28,
+        "rating": 0.621,
+        "n_events": 26,
         "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -526,36 +503,35 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
+        "rank": 5,
         "rank_total": 17,
-        "player": "Dee Nguyen",
-        "rating": 0.476,
-        "n_events": 73,
-        "daily_wins": 5,
-        "elim_wins": 1,
-        "elim_losses": 1,
-        "finish": "Eliminated in The Waterboy",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Waterboy",
-        "elim_position": 11,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Da'Vonne Rogers"
-        ],
-        "partner": "Wes Bergmann",
+        "player": "Georgia Harrison",
+        "rating": 0.613,
+        "n_events": 59,
+        "daily_wins": 3,
+        "elim_wins": 2,
+        "elim_losses": 0,
+        "finish": "Eighth Place in Death Race",
+        "finish_label": "8th",
+        "finish_episode": "Death Race",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Hunter Barfield",
         "partners_history": [
-          "Wes Bergmann"
+          "Hunter Barfield",
+          "Paulie Calafiore"
         ],
         "team": "Prospects",
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 6,
         "rank_total": 17,
         "player": "Da'Vonne Rogers",
-        "rating": 0.423,
-        "n_events": 39,
-        "daily_wins": 1,
+        "rating": 0.477,
+        "n_events": 41,
+        "daily_wins": 2,
         "elim_wins": 4,
         "elim_losses": 0,
         "finish": "Eliminated in The Waterboy",
@@ -573,35 +549,11 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "rank_total": 17,
-        "player": "Nany Gonz\u00e1lez",
-        "rating": 0.254,
-        "n_events": 54,
-        "daily_wins": 3,
-        "elim_wins": 0,
-        "elim_losses": 1,
-        "finish": "Eliminated in Lost in Translation",
-        "finish_label": "Eliminated",
-        "finish_episode": "Lost in Translation",
-        "elim_position": 10,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Georgia Harrison"
-        ],
-        "partner": "Turbo \u00c7amk\u0131ran",
-        "partners_history": [
-          "Turbo \u00c7amk\u0131ran"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
+        "rank": 7,
         "rank_total": 17,
         "player": "Natalie Negrotti",
-        "rating": 0.211,
-        "n_events": 34,
+        "rating": 0.246,
+        "n_events": 32,
         "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -621,11 +573,60 @@
         "forced_exit": false
       },
       {
+        "rank": 8,
+        "rank_total": 17,
+        "player": "Kam Williams",
+        "rating": 0.108,
+        "n_events": 34,
+        "daily_wins": 1,
+        "elim_wins": 1,
+        "elim_losses": 1,
+        "finish": "Eliminated in American Psycho",
+        "finish_label": "Eliminated",
+        "finish_episode": "American Psycho",
+        "elim_position": 9,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Natalie Duran",
+          "Paulie Calafiore"
+        ],
+        "partner": "Ashley Cain",
+        "partners_history": [
+          "Ashley Cain"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
+        "rank_total": 17,
+        "player": "Dee Nguyen",
+        "rating": 0.091,
+        "n_events": 26,
+        "daily_wins": 1,
+        "elim_wins": 1,
+        "elim_losses": 1,
+        "finish": "Eliminated in The Waterboy",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Waterboy",
+        "elim_position": 11,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Da'Vonne Rogers"
+        ],
+        "partner": "Wes Bergmann",
+        "partners_history": [
+          "Wes Bergmann"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
         "rank": 10,
         "rank_total": 17,
         "player": "Julia Nolan",
-        "rating": -0.048,
-        "n_events": 26,
+        "rating": 0.027,
+        "n_events": 19,
         "daily_wins": 0,
         "elim_wins": 1,
         "elim_losses": 0,
@@ -646,8 +647,8 @@
         "rank": 11,
         "rank_total": 17,
         "player": "Zahida Allen",
-        "rating": -0.096,
-        "n_events": 14,
+        "rating": -0.189,
+        "n_events": 11,
         "daily_wins": 0,
         "elim_wins": 1,
         "elim_losses": 1,
@@ -670,59 +671,9 @@
       {
         "rank": 12,
         "rank_total": 17,
-        "player": "Kam Williams",
-        "rating": -0.097,
-        "n_events": 28,
-        "daily_wins": 0,
-        "elim_wins": 1,
-        "elim_losses": 1,
-        "finish": "Eliminated in American Psycho",
-        "finish_label": "Eliminated",
-        "finish_episode": "American Psycho",
-        "elim_position": 9,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Natalie Duran",
-          "Paulie Calafiore"
-        ],
-        "partner": "Ashley Cain",
-        "partners_history": [
-          "Ashley Cain"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
-        "rank_total": 17,
-        "player": "Jenna Compono",
-        "rating": -0.139,
-        "n_events": 37,
-        "daily_wins": 1,
-        "elim_wins": 0,
-        "elim_losses": 1,
-        "finish": "Eliminated in Liar, Liar",
-        "finish_label": "Eliminated",
-        "finish_episode": "Liar, Liar",
-        "elim_position": 8,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Da'Vonne Rogers",
-          "Stephen Bear"
-        ],
-        "partner": "Gus Smyrnios",
-        "partners_history": [
-          "Gus Smyrnios"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "rank_total": 17,
         "player": "Morgan Willett",
-        "rating": -0.16,
-        "n_events": 23,
+        "rating": -0.192,
+        "n_events": 22,
         "daily_wins": 1,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -743,33 +694,11 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
-        "rank_total": 17,
-        "player": "Liz Nolan",
-        "rating": -0.293,
-        "n_events": 5,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 1,
-        "finish": "Eliminated in Apocalypse Now",
-        "finish_label": "Eliminated",
-        "finish_episode": "Apocalypse Now",
-        "elim_position": 1,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Da'Vonne Rogers"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
-        "rank": 16,
+        "rank": 13,
         "rank_total": 17,
         "player": "Amanda Garcia",
-        "rating": -0.305,
-        "n_events": 36,
+        "rating": -0.239,
+        "n_events": 31,
         "daily_wins": 1,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -790,11 +719,57 @@
         "forced_exit": false
       },
       {
-        "rank": 17,
+        "rank": 14,
+        "rank_total": 17,
+        "player": "Liz Nolan",
+        "rating": -0.269,
+        "n_events": 5,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 1,
+        "finish": "Eliminated in Apocalypse Now",
+        "finish_label": "Eliminated",
+        "finish_episode": "Apocalypse Now",
+        "elim_position": 1,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Da'Vonne Rogers"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
+        "rank_total": 17,
+        "player": "Nany Gonz\u00e1lez",
+        "rating": -0.321,
+        "n_events": 16,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 1,
+        "finish": "Eliminated in Lost in Translation",
+        "finish_label": "Eliminated",
+        "finish_episode": "Lost in Translation",
+        "elim_position": 10,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Georgia Harrison"
+        ],
+        "partner": "Turbo \u00c7amk\u0131ran",
+        "partners_history": [
+          "Turbo \u00c7amk\u0131ran"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 16,
         "rank_total": 17,
         "player": "Shaleen Sutherland",
-        "rating": -0.353,
-        "n_events": 15,
+        "rating": -0.337,
+        "n_events": 11,
         "daily_wins": 0,
         "elim_wins": 0,
         "elim_losses": 1,
@@ -812,6 +787,31 @@
           "Leroy Garrett"
         ],
         "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 17,
+        "rank_total": 17,
+        "player": "Jenna Compono",
+        "rating": -0.367,
+        "n_events": 20,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 1,
+        "finish": "Eliminated in Liar, Liar",
+        "finish_label": "Eliminated",
+        "finish_episode": "Liar, Liar",
+        "elim_position": 8,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Da'Vonne Rogers",
+          "Stephen Bear"
+        ],
+        "partner": "Gus Smyrnios",
+        "partners_history": [
+          "Gus Smyrnios"
+        ],
+        "team": "Veterans",
         "forced_exit": false
       }
     ]

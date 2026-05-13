@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.114,
+    "peak_rating": 0.115,
     "peak_season_id": "s31_vendettas",
     "active_rating": -0.424,
     "active_season_id": "s36_double_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.348,
+      "rating_at_end": -0.342,
       "rank": 12,
       "rank_total": 16,
       "daily_wins": 0,
@@ -56,10 +56,10 @@
         "Sylvia Elsrode",
         "Joss Mooney"
       ],
-      "rating_at_end": -0.0,
-      "rank": 6,
+      "rating_at_end": -0.025,
+      "rank": 7,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 2,
       "partner": "Kam Williams",
@@ -82,7 +82,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.114,
+      "rating_at_end": 0.115,
       "rank": 8,
       "rank_total": 18,
       "daily_wins": 1,
@@ -98,17 +98,17 @@
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.114
+      "rating": 0.115
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.0
+      "rating": -0.025
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.348
+      "rating": -0.342
     }
   ]
 }

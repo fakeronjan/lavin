@@ -3,19 +3,19 @@
   "safe_name": "Katie_Cooley",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.268,
+    "era_rating": 0.4,
+    "peak_rating": 0.236,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.418,
+    "active_rating": -0.511,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 10,
-    "n_snapshots": 15,
+    "n_snapshots": 16,
     "championships": 1,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 10,
-    "daily_wins": 11
+    "daily_wins": 21
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.418,
-      "rank": 16,
+      "rating_at_end": -0.511,
+      "rank": 18,
       "rank_total": 20,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -57,8 +57,8 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": 0.073,
-      "rank": 6,
+      "rating_at_end": -0.263,
+      "rank": 9,
       "rank_total": 15,
       "daily_wins": 3,
       "elim_wins": 1,
@@ -82,10 +82,10 @@
       "eliminated_by": [
         "Sarah Rice"
       ],
-      "rating_at_end": -0.004,
-      "rank": 10,
+      "rating_at_end": -0.414,
+      "rank": 14,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -107,10 +107,10 @@
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.368,
+      "rating_at_end": -0.569,
       "rank": 13,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -132,10 +132,10 @@
       "eliminated_by": [
         "Paula Meronek"
       ],
-      "rating_at_end": -0.456,
-      "rank": 14,
+      "rating_at_end": -0.411,
+      "rank": 12,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -158,8 +158,8 @@
         "Tina Barta",
         "Kenny Santucci"
       ],
-      "rating_at_end": 0.196,
-      "rank": 5,
+      "rating_at_end": -0.012,
+      "rank": 6,
       "rank_total": 12,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -183,10 +183,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.317,
-      "rank": 10,
+      "rating_at_end": -0.219,
+      "rank": 8,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -208,7 +208,7 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": 0.214,
+      "rating_at_end": 0.195,
       "rank": 5,
       "rank_total": 18,
       "daily_wins": 1,
@@ -231,10 +231,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.226,
-      "rank": 5,
+      "rating_at_end": 0.179,
+      "rank": 4,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 3,
       "elim_losses": 2,
       "partner": "",
@@ -256,8 +256,8 @@
       "eliminated_by": [
         "Rachel Braband"
       ],
-      "rating_at_end": 0.133,
-      "rank": 7,
+      "rating_at_end": -0.243,
+      "rank": 12,
       "rank_total": 14,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -272,52 +272,52 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.133
+      "rating": -0.243
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.226
+      "rating": 0.179
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.214
+      "rating": 0.195
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.317
+      "rating": -0.219
     },
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.196
+      "rating": -0.012
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.456
+      "rating": -0.411
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.368
+      "rating": -0.569
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.004
+      "rating": -0.414
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.073
+      "rating": -0.263
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.418
+      "rating": -0.511
     }
   ]
 }

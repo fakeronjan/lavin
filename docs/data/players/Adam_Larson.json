@@ -3,10 +3,10 @@
   "safe_name": "Adam_Larson",
   "gender": "M",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 1.001,
+    "era_rating": 0.7,
+    "peak_rating": 0.88,
     "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.131,
+    "active_rating": -0.398,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.131,
-      "rank": 8,
+      "rating_at_end": -0.398,
+      "rank": 12,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.765,
-      "rank": 2,
+      "rating_at_end": 0.687,
+      "rank": 4,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -104,12 +104,12 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.765
+      "rating": 0.687
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.131
+      "rating": -0.398
     }
   ]
 }

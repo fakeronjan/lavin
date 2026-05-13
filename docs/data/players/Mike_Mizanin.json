@@ -3,10 +3,10 @@
   "safe_name": "Mike_Mizanin",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
+    "era_rating": 1.8,
     "peak_rating": 0.956,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": 0.552,
+    "active_rating": 0.492,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 5,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 1,
-    "daily_wins": 9
+    "daily_wins": 21
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.445,
+      "rating_at_end": 0.405,
       "rank": 3,
       "rank_total": 10,
-      "daily_wins": 3,
+      "daily_wins": 8,
       "elim_wins": 3,
       "elim_losses": 0,
       "partner": "",
@@ -55,7 +55,7 @@
       "eliminated_by": [
         "Nick Haggart"
       ],
-      "rating_at_end": -0.143,
+      "rating_at_end": -0.121,
       "rank": 11,
       "rank_total": 18,
       "daily_wins": 1,
@@ -78,10 +78,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.149,
-      "rank": 6,
+      "rating_at_end": 0.173,
+      "rank": 4,
       "rank_total": 10,
-      "daily_wins": 2,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -101,10 +101,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.231,
-      "rank": 6,
+      "rating_at_end": 0.291,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -147,22 +147,22 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.231
+      "rating": 0.291
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.149
+      "rating": 0.173
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.143
+      "rating": -0.121
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.445
+      "rating": 0.405
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Veronica_Portillo",
   "gender": "F",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.599,
+    "era_rating": 1.1,
+    "peak_rating": 0.495,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.494,
+    "active_rating": -0.55,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 12,
     "n_snapshots": 17,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 5,
     "elim_losses": 9,
-    "daily_wins": 9
+    "daily_wins": 27
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Amber Borzotra",
         "Chauncey Palmer"
       ],
-      "rating_at_end": -0.154,
-      "rank": 15,
+      "rating_at_end": -0.408,
+      "rank": 16,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Darrell Taylor",
@@ -61,8 +61,8 @@
         "Brad Fiorenza",
         "Kyle Christie"
       ],
-      "rating_at_end": -0.344,
-      "rank": 14,
+      "rating_at_end": -0.326,
+      "rank": 12,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -88,7 +88,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.385,
+      "rating_at_end": -0.36,
       "rank": 16,
       "rank_total": 18,
       "daily_wins": 0,
@@ -111,7 +111,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.145,
+      "rating_at_end": -0.09,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 0,
@@ -138,10 +138,10 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.174,
-      "rank": 6,
+      "rating_at_end": 0.427,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 7,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -161,10 +161,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.036,
-      "rank": 4,
+      "rating_at_end": -0.039,
+      "rank": 5,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -186,7 +186,7 @@
       "eliminated_by": [
         "Tina Barta"
       ],
-      "rating_at_end": 0.167,
+      "rating_at_end": 0.045,
       "rank": 7,
       "rank_total": 18,
       "daily_wins": 0,
@@ -209,10 +209,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.294,
-      "rank": 3,
+      "rating_at_end": 0.166,
+      "rank": 5,
       "rank_total": 10,
-      "daily_wins": 4,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 2,
       "partner": "",
@@ -232,10 +232,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.599,
-      "rank": 4,
+      "rating_at_end": 0.495,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -311,47 +311,47 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.599
+      "rating": 0.495
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.294
+      "rating": 0.166
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.167
+      "rating": 0.045
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.036
+      "rating": -0.039
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.174
+      "rating": 0.427
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.145
+      "rating": -0.09
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.385
+      "rating": -0.36
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.344
+      "rating": -0.326
     },
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.154
+      "rating": -0.408
     }
   ]
 }

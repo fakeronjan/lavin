@@ -3,10 +3,10 @@
   "safe_name": "KellyAnne_Judd",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.498,
+    "era_rating": 0.7,
+    "peak_rating": 0.581,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.457,
+    "active_rating": -0.434,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 5,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 4,
-    "daily_wins": 5
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.457,
-      "rank": 17,
+      "rating_at_end": -0.434,
+      "rank": 16,
       "rank_total": 20,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -58,10 +58,10 @@
         "Nany Gonz\u00e1lez",
         "Wes Bergmann"
       ],
-      "rating_at_end": 0.103,
-      "rank": 6,
+      "rating_at_end": -0.011,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Jamie Banks",
@@ -85,7 +85,7 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": 0.204,
+      "rating_at_end": 0.222,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 2,
@@ -110,10 +110,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.497,
-      "rank": 3,
+      "rating_at_end": 0.52,
+      "rank": 4,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -135,10 +135,10 @@
       "eliminated_by": [
         "Johanna Botta"
       ],
-      "rating_at_end": -0.484,
-      "rank": 8,
+      "rating_at_end": -0.128,
+      "rank": 7,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Robin Hibbard",
@@ -153,27 +153,27 @@
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.484
+      "rating": -0.128
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.497
+      "rating": 0.52
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.204
+      "rating": 0.222
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.103
+      "rating": -0.011
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.457
+      "rating": -0.434
     }
   ]
 }

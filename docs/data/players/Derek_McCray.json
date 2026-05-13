@@ -3,10 +3,10 @@
   "safe_name": "Derek_McCray",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.089,
+    "era_rating": 0.0,
+    "peak_rating": -0.126,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.239,
+    "active_rating": -0.478,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": 0.089,
-      "rank": 8,
+      "rating_at_end": -0.126,
+      "rank": 12,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Ryan Kehoe"
       ],
-      "rating_at_end": -0.41,
-      "rank": 13,
+      "rating_at_end": -0.419,
+      "rank": 12,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -73,12 +73,12 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.41
+      "rating": -0.419
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.089
+      "rating": -0.126
     }
   ]
 }

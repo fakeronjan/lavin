@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 2.8,
-    "peak_rating": 0.846,
+    "peak_rating": 0.957,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.049,
+    "active_rating": -0.247,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 14,
     "n_snapshots": 17,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 9,
     "elim_losses": 7,
-    "daily_wins": 22
+    "daily_wins": 16
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Theo Campbell",
         "Adrienne Naylor"
       ],
-      "rating_at_end": -0.049,
-      "rank": 14,
+      "rating_at_end": -0.247,
+      "rank": 16,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "America Lopez",
@@ -60,10 +60,10 @@
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": -0.372,
-      "rank": 17,
+      "rating_at_end": -0.441,
+      "rank": 18,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -110,7 +110,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.301,
+      "rating_at_end": 0.321,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 3,
@@ -136,8 +136,8 @@
         "Stephen Bear",
         "Da'Vonne Rogers"
       ],
-      "rating_at_end": -0.439,
-      "rank": 16,
+      "rating_at_end": -0.42,
+      "rank": 15,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -161,7 +161,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.014,
+      "rating_at_end": 0.026,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 0,
@@ -186,7 +186,7 @@
       "eliminated_by": [
         "Hunter Barfield"
       ],
-      "rating_at_end": -0.284,
+      "rating_at_end": -0.239,
       "rank": 14,
       "rank_total": 15,
       "daily_wins": 0,
@@ -209,8 +209,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.292,
-      "rank": 13,
+      "rating_at_end": -0.161,
+      "rank": 11,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -232,7 +232,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.314,
+      "rating_at_end": 0.349,
       "rank": 5,
       "rank_total": 16,
       "daily_wins": 0,
@@ -255,10 +255,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.846,
+      "rating_at_end": 0.957,
       "rank": 2,
       "rank_total": 13,
-      "daily_wins": 4,
+      "daily_wins": 1,
       "elim_wins": 4,
       "elim_losses": 0,
       "partner": "Theresa Jones",
@@ -283,10 +283,10 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.259,
-      "rank": 7,
+      "rating_at_end": 0.187,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -337,10 +337,10 @@
         "Ty Ruff",
         "Emily Schromm"
       ],
-      "rating_at_end": 0.242,
+      "rating_at_end": 0.124,
       "rank": 5,
       "rank_total": 12,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Naomi Defensor",
@@ -362,7 +362,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.101,
+      "rating_at_end": 0.091,
       "rank": 5,
       "rank_total": 15,
       "daily_wins": 2,
@@ -381,12 +381,12 @@
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.101
+      "rating": 0.091
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.242
+      "rating": 0.124
     },
     {
       "ranking_id": 521,
@@ -396,42 +396,42 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.259
+      "rating": 0.187
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.846
+      "rating": 0.957
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.314
+      "rating": 0.349
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.292
+      "rating": -0.161
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.284
+      "rating": -0.239
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.014
+      "rating": 0.026
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.439
+      "rating": -0.42
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.301
+      "rating": 0.321
     },
     {
       "ranking_id": 860,
@@ -441,12 +441,12 @@
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.372
+      "rating": -0.441
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.049
+      "rating": -0.247
     }
   ]
 }

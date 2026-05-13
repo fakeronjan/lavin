@@ -3,13 +3,13 @@
   "safe_name": "Averey_Tressler",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.371,
+    "era_rating": 0.0,
+    "peak_rating": 0.05,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.276,
+    "active_rating": -0.074,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 3,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.276,
-      "rank": 13,
+      "rating_at_end": -0.074,
+      "rank": 9,
       "rank_total": 20,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -55,7 +55,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.608,
+      "rating_at_end": -0.356,
       "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
@@ -81,10 +81,10 @@
         "Nia Moore",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.267,
-      "rank": 4,
+      "rating_at_end": 0.01,
+      "rank": 6,
       "rank_total": 13,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "Johnny Reilly",
@@ -99,17 +99,17 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.267
+      "rating": 0.01
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.608
+      "rating": -0.356
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.276
+      "rating": -0.074
     }
   ]
 }

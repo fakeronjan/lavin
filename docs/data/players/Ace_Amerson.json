@@ -3,10 +3,10 @@
   "safe_name": "Ace_Amerson",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.051,
-    "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.056,
+    "era_rating": 0.0,
+    "peak_rating": 0.054,
+    "peak_season_id": "s16_the_island",
+    "active_rating": -0.036,
     "active_season_id": "s17_the_duel_ii",
     "n_seasons": 4,
     "n_snapshots": 8,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 3
+    "daily_wins": 9
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.051,
-      "rank": 4,
+      "rating_at_end": 0.028,
+      "rank": 6,
       "rank_total": 11,
-      "daily_wins": 1,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -55,10 +55,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.476,
-      "rank": 15,
+      "rating_at_end": -0.49,
+      "rank": 13,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -80,7 +80,7 @@
       "eliminated_by": [
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": -0.521,
+      "rating_at_end": -0.627,
       "rank": 18,
       "rank_total": 18,
       "daily_wins": 0,
@@ -105,10 +105,10 @@
       "eliminated_by": [
         "Jeremy Blossom"
       ],
-      "rating_at_end": -0.529,
-      "rank": 9,
+      "rating_at_end": -0.86,
+      "rank": 10,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -121,22 +121,22 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": -0.529
+      "rating": -0.86
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.521
+      "rating": -0.627
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.476
+      "rating": -0.49
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.051
+      "rating": 0.028
     }
   ]
 }

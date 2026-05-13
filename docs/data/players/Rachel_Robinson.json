@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.9,
-    "peak_rating": 0.926,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.905,
+    "peak_rating": 0.941,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.941,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 8,
     "n_snapshots": 14,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 4,
-    "daily_wins": 7
+    "daily_wins": 19
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.769,
+      "rating_at_end": 0.747,
       "rank": 2,
       "rank_total": 20,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 4,
       "elim_losses": 0,
       "partner": "",
@@ -56,10 +56,10 @@
         "Paula Meronek",
         "Dunbar Merrill"
       ],
-      "rating_at_end": 0.011,
-      "rank": 8,
+      "rating_at_end": -0.175,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Aneesa Ferreira",
@@ -81,10 +81,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.499,
+      "rating_at_end": 0.555,
       "rank": 2,
       "rank_total": 13,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -106,10 +106,10 @@
       "eliminated_by": [
         "Robin Hibbard"
       ],
-      "rating_at_end": -0.463,
-      "rank": 7,
+      "rating_at_end": -0.855,
+      "rank": 10,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -129,10 +129,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.078,
+      "rating_at_end": 0.001,
       "rank": 3,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 7,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -154,7 +154,7 @@
       "eliminated_by": [
         "Tonya Cooley"
       ],
-      "rating_at_end": -0.036,
+      "rating_at_end": -0.031,
       "rank": 8,
       "rank_total": 18,
       "daily_wins": 1,
@@ -177,10 +177,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.504,
-      "rank": 5,
+      "rating_at_end": 0.574,
+      "rank": 4,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -223,37 +223,37 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.504
+      "rating": 0.574
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.036
+      "rating": -0.031
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.078
+      "rating": 0.001
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.463
+      "rating": -0.855
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.499
+      "rating": 0.555
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.011
+      "rating": -0.175
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.769
+      "rating": 0.747
     }
   ]
 }

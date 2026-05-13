@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.635,
+    "peak_rating": 0.673,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.635,
+    "active_rating": 0.673,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 5
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.405,
-      "rank": 4,
+      "rating_at_end": 0.414,
+      "rank": 5,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 3,
       "elim_losses": 2,
       "partner": "",
@@ -55,7 +55,7 @@
       "eliminated_by": [
         "Berna Canbeldek"
       ],
-      "rating_at_end": -0.392,
+      "rating_at_end": -0.418,
       "rank": 14,
       "rank_total": 17,
       "daily_wins": 0,
@@ -81,8 +81,8 @@
         "Olivia Kaiser",
         "Horacio Guti\u00e9rrez Jr."
       ],
-      "rating_at_end": -0.013,
-      "rank": 9,
+      "rating_at_end": 0.065,
+      "rank": 8,
       "rank_total": 17,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -109,10 +109,10 @@
         "Amber Borzotra",
         "Hughie Maughan"
       ],
-      "rating_at_end": 0.097,
-      "rank": 7,
+      "rating_at_end": -0.335,
+      "rank": 14,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Corey Lay",
@@ -127,22 +127,22 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.097
+      "rating": -0.335
     },
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.013
+      "rating": 0.065
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.392
+      "rating": -0.418
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.405
+      "rating": 0.414
     }
   ]
 }

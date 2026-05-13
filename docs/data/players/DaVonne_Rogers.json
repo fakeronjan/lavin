@@ -3,8 +3,8 @@
   "safe_name": "DaVonne_Rogers",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.532,
+    "era_rating": 0.5,
+    "peak_rating": 0.637,
     "peak_season_id": "s34_war_of_the_worlds_2",
     "active_rating": 0.389,
     "active_season_id": "s36_double_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.423,
-      "rank": 7,
+      "rating_at_end": 0.477,
+      "rank": 6,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 4,
       "elim_losses": 0,
       "partner": "Stephen Bear",
@@ -59,10 +59,10 @@
         "Cory Wharton",
         "Devin Walker"
       ],
-      "rating_at_end": -0.201,
-      "rank": 12,
+      "rating_at_end": -0.557,
+      "rank": 18,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Jozea Flores",
@@ -77,12 +77,12 @@
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.201
+      "rating": -0.557
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.423
+      "rating": 0.477
     }
   ]
 }

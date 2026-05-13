@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 5.2,
-    "peak_rating": 1.257,
+    "peak_rating": 1.254,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.51,
+    "active_rating": -0.411,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 14,
     "n_snapshots": 23,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 17,
     "elim_losses": 11,
-    "daily_wins": 22
+    "daily_wins": 18
   },
   "seasons": [
     {
@@ -59,7 +59,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.119,
+      "rating_at_end": 0.093,
       "rank": 9,
       "rank_total": 14,
       "daily_wins": 3,
@@ -84,8 +84,8 @@
       "eliminated_by": [
         "Stephen Bear"
       ],
-      "rating_at_end": 0.48,
-      "rank": 7,
+      "rating_at_end": 0.39,
+      "rank": 8,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -107,10 +107,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.809,
+      "rating_at_end": 0.731,
       "rank": 3,
       "rank_total": 17,
-      "daily_wins": 5,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Dee Nguyen",
@@ -136,10 +136,10 @@
         "Dario Medrano",
         "Nicole Ramos"
       ],
-      "rating_at_end": 0.451,
-      "rank": 6,
+      "rating_at_end": 0.366,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "Nany Gonz\u00e1lez",
@@ -164,10 +164,10 @@
         "Leroy Garrett",
         "Nia Moore"
       ],
-      "rating_at_end": -0.082,
-      "rank": 10,
+      "rating_at_end": 0.422,
+      "rank": 5,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Theresa Jones",
@@ -217,8 +217,8 @@
         "Big Easy Banks",
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.536,
-      "rank": 12,
+      "rating_at_end": -0.495,
+      "rank": 13,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -245,10 +245,10 @@
         "Leroy Garrett",
         "Naomi Defensor"
       ],
-      "rating_at_end": 0.458,
-      "rank": 2,
+      "rating_at_end": 0.359,
+      "rank": 3,
       "rank_total": 12,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Mandi Moyer",
@@ -270,7 +270,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.486,
+      "rating_at_end": 0.469,
       "rank": 4,
       "rank_total": 15,
       "daily_wins": 2,
@@ -298,10 +298,10 @@
         "Luke Wolfe",
         "Evelyn Smith"
       ],
-      "rating_at_end": -0.208,
+      "rating_at_end": -0.243,
       "rank": 11,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Mandi Moyer",
@@ -325,10 +325,10 @@
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": -0.1,
+      "rating_at_end": -0.07,
       "rank": 9,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "",
@@ -348,7 +348,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.718,
+      "rating_at_end": 0.737,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 2,
@@ -371,7 +371,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.551,
+      "rating_at_end": 0.546,
       "rank": 2,
       "rank_total": 11,
       "daily_wins": 0,
@@ -389,37 +389,37 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.551
+      "rating": 0.546
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.718
+      "rating": 0.737
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.1
+      "rating": -0.07
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.208
+      "rating": -0.243
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.486
+      "rating": 0.469
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.458
+      "rating": 0.359
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.536
+      "rating": -0.495
     },
     {
       "ranking_id": 521,
@@ -429,27 +429,27 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.082
+      "rating": 0.422
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.451
+      "rating": 0.366
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.809
+      "rating": 0.731
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.48
+      "rating": 0.39
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.119
+      "rating": 0.093
     },
     {
       "ranking_id": 860,

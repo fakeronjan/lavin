@@ -3,10 +3,10 @@
   "safe_name": "Syrus_Yarbrough",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.039,
+    "era_rating": 0.1,
+    "peak_rating": 0.148,
     "peak_season_id": "s18_the_ruins",
-    "active_rating": -0.789,
+    "active_rating": -0.676,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 5,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 5
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": 0.039,
-      "rank": 8,
+      "rating_at_end": 0.148,
+      "rank": 7,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.511,
-      "rank": 16,
+      "rating_at_end": -0.528,
+      "rank": 14,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.048,
+      "rating_at_end": -0.159,
       "rank": 7,
       "rank_total": 10,
-      "daily_wins": 3,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -126,17 +126,17 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": -0.048
+      "rating": -0.159
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.511
+      "rating": -0.528
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.039
+      "rating": 0.148
     }
   ]
 }

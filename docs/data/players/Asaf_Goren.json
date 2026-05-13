@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.212,
+    "peak_rating": 0.201,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.21,
+    "active_rating": -0.245,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.212,
+      "rating_at_end": 0.201,
       "rank": 10,
       "rank_total": 17,
       "daily_wins": 2,
@@ -57,7 +57,7 @@
       "eliminated_by": [
         "Jay Starrett"
       ],
-      "rating_at_end": -0.547,
+      "rating_at_end": -0.54,
       "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
@@ -73,12 +73,12 @@
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.547
+      "rating": -0.54
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.212
+      "rating": 0.201
     }
   ]
 }

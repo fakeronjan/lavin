@@ -3,10 +3,10 @@
   "safe_name": "Jemmye_Carroll",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
+    "era_rating": 0.7,
     "peak_rating": 0.329,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.55,
+    "active_rating": -0.517,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 7,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 5,
-    "daily_wins": 6
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.423,
+      "rating_at_end": -0.347,
       "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
@@ -57,7 +57,7 @@
       "eliminated_by": [
         "Nicole Zanatta"
       ],
-      "rating_at_end": -0.292,
+      "rating_at_end": -0.274,
       "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
@@ -82,8 +82,8 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.019,
-      "rank": 9,
+      "rating_at_end": 0.024,
+      "rank": 8,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -108,10 +108,10 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.363,
-      "rank": 12,
+      "rating_at_end": -0.612,
+      "rank": 13,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Ryan Knight",
@@ -135,7 +135,7 @@
       "eliminated_by": [
         "LaToya Jackson"
       ],
-      "rating_at_end": 0.279,
+      "rating_at_end": 0.3,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 1,
@@ -186,7 +186,7 @@
         "Sam McGinn",
         "Zach Nichols"
       ],
-      "rating_at_end": 0.031,
+      "rating_at_end": 0.064,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 1,
@@ -204,7 +204,7 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.031
+      "rating": 0.064
     },
     {
       "ranking_id": 521,
@@ -214,27 +214,27 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.279
+      "rating": 0.3
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.363
+      "rating": -0.612
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.019
+      "rating": 0.024
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.292
+      "rating": -0.274
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.423
+      "rating": -0.347
     }
   ]
 }

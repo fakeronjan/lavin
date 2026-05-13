@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 2.5,
-    "peak_rating": 1.057,
+    "peak_rating": 1.067,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 1.057,
+    "active_rating": 1.067,
     "active_season_id": "s25_free_agents",
     "n_seasons": 10,
     "n_snapshots": 13,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 17
+    "daily_wins": 24
   },
   "seasons": [
     {
@@ -31,7 +31,7 @@
       "elim_total": null,
       "eliminated_by": [],
       "rating_at_end": 1.032,
-      "rank": 1,
+      "rank": 2,
       "rank_total": 17,
       "daily_wins": 6,
       "elim_wins": 0,
@@ -58,10 +58,10 @@
         "Emily Schromm",
         "Ty Ruff"
       ],
-      "rating_at_end": 0.545,
-      "rank": 3,
+      "rating_at_end": 0.562,
+      "rank": 4,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Dunbar Merrill",
@@ -83,7 +83,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.703,
+      "rating_at_end": 0.701,
       "rank": 2,
       "rank_total": 14,
       "daily_wins": 4,
@@ -110,10 +110,10 @@
       "eliminated_by": [
         "Emily Schromm"
       ],
-      "rating_at_end": -0.586,
-      "rank": 14,
+      "rating_at_end": -0.494,
+      "rank": 12,
       "rank_total": 15,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -136,10 +136,10 @@
         "Evelyn Smith",
         "Luke Wolfe"
       ],
-      "rating_at_end": -0.26,
-      "rank": 11,
+      "rating_at_end": -0.407,
+      "rank": 12,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Jeff Barr",
@@ -163,8 +163,8 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": 0.015,
-      "rank": 8,
+      "rating_at_end": -0.007,
+      "rank": 9,
       "rank_total": 13,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -186,10 +186,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.144,
-      "rank": 4,
+      "rating_at_end": 0.112,
+      "rank": 5,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Jenn Grijalva",
@@ -211,10 +211,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.032,
-      "rank": 7,
+      "rating_at_end": 0.016,
+      "rank": 9,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -234,10 +234,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.07,
+      "rating_at_end": 0.084,
       "rank": 5,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -259,7 +259,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.181,
+      "rating_at_end": -0.161,
       "rank": 10,
       "rank_total": 10,
       "daily_wins": 0,
@@ -275,47 +275,47 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": -0.181
+      "rating": -0.161
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.07
+      "rating": 0.084
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.032
+      "rating": 0.016
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.144
+      "rating": 0.112
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.015
+      "rating": -0.007
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.26
+      "rating": -0.407
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.586
+      "rating": -0.494
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.703
+      "rating": 0.701
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.545
+      "rating": 0.562
     },
     {
       "ranking_id": 521,

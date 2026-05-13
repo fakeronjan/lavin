@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 1.0,
-    "peak_rating": 0.693,
+    "peak_rating": 0.717,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.315,
+    "active_rating": 0.318,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 7,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.315,
+      "rating_at_end": 0.318,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 0,
@@ -60,10 +60,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.693,
+      "rating_at_end": 0.717,
       "rank": 2,
       "rank_total": 20,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -114,7 +114,7 @@
         "Frank Fox",
         "Ashley Kelsey"
       ],
-      "rating_at_end": -0.468,
+      "rating_at_end": -0.419,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 1,
@@ -141,10 +141,10 @@
       "eliminated_by": [
         "Brandon Nelson"
       ],
-      "rating_at_end": -0.245,
-      "rank": 10,
+      "rating_at_end": -0.703,
+      "rank": 15,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -157,12 +157,12 @@
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.245
+      "rating": -0.703
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.468
+      "rating": -0.419
     },
     {
       "ranking_id": 521,
@@ -172,12 +172,12 @@
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.693
+      "rating": 0.717
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.315
+      "rating": 0.318
     }
   ]
 }

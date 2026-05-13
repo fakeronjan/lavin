@@ -3,10 +3,10 @@
   "safe_name": "Chet_Cannon",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.08,
+    "era_rating": 0.2,
+    "peak_rating": 0.108,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 0.08,
+    "active_rating": 0.108,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Frank Fox"
       ],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.108,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 1,
@@ -55,7 +55,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.017,
+      "rating_at_end": 0.066,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 2,
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.661,
-      "rank": 15,
+      "rating_at_end": -0.403,
+      "rank": 11,
       "rank_total": 15,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -105,8 +105,8 @@
       "eliminated_by": [
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.515,
-      "rank": 14,
+      "rating_at_end": -0.525,
+      "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -121,22 +121,22 @@
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.515
+      "rating": -0.525
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.661
+      "rating": -0.403
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.017
+      "rating": 0.066
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.08
+      "rating": 0.108
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.8,
-    "peak_rating": 1.161,
+    "peak_rating": 1.23,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.928,
+    "active_rating": 0.965,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 1,
-    "daily_wins": 10
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.796,
+      "rating_at_end": 0.79,
       "rank": 1,
       "rank_total": 20,
-      "daily_wins": 4,
+      "daily_wins": 6,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -53,7 +53,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.9,
+      "rating_at_end": 0.884,
       "rank": 1,
       "rank_total": 14,
       "daily_wins": 5,
@@ -78,7 +78,7 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": 0.102,
+      "rating_at_end": 0.103,
       "rank": 9,
       "rank_total": 16,
       "daily_wins": 1,
@@ -94,17 +94,17 @@
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.102
+      "rating": 0.103
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.9
+      "rating": 0.884
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.796
+      "rating": 0.79
     }
   ]
 }

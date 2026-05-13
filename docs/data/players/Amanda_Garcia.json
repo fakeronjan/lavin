@@ -3,10 +3,10 @@
   "safe_name": "Amanda_Garcia",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.127,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.607,
+    "era_rating": 0.3,
+    "peak_rating": 0.157,
+    "peak_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.626,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 7
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Nia Moore"
       ],
-      "rating_at_end": -0.607,
-      "rank": 19,
+      "rating_at_end": -0.626,
+      "rank": 20,
       "rank_total": 20,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -57,8 +57,8 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": 0.032,
-      "rank": 8,
+      "rating_at_end": 0.157,
+      "rank": 7,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -83,8 +83,8 @@
         "Kam Williams",
         "Ashley Cain"
       ],
-      "rating_at_end": -0.305,
-      "rank": 16,
+      "rating_at_end": -0.239,
+      "rank": 13,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -111,10 +111,10 @@
         "Cory Wharton",
         "Devin Walker"
       ],
-      "rating_at_end": -0.138,
-      "rank": 8,
+      "rating_at_end": 0.155,
+      "rank": 6,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Zach Nichols",
@@ -136,8 +136,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.387,
-      "rank": 15,
+      "rating_at_end": -0.277,
+      "rank": 14,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -161,10 +161,10 @@
       "eliminated_by": [
         "Ashley Mitchell"
       ],
-      "rating_at_end": -0.185,
-      "rank": 12,
+      "rating_at_end": -0.095,
+      "rank": 10,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -187,10 +187,10 @@
         "KellyAnne Judd",
         "Jamie Banks"
       ],
-      "rating_at_end": 0.127,
-      "rank": 5,
+      "rating_at_end": -0.298,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Nelson Thomas",
@@ -205,37 +205,37 @@
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.127
+      "rating": -0.298
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.185
+      "rating": -0.095
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.387
+      "rating": -0.277
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.138
+      "rating": 0.155
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.305
+      "rating": -0.239
     },
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.032
+      "rating": 0.157
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.607
+      "rating": -0.626
     }
   ]
 }

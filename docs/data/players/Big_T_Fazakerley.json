@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.217,
+    "peak_rating": 0.213,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.067,
+    "active_rating": -0.018,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 5,
     "n_snapshots": 7,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": 0.217,
-      "rank": 9,
+      "rating_at_end": 0.213,
+      "rank": 8,
       "rank_total": 17,
       "daily_wins": 3,
       "elim_wins": 2,
@@ -57,8 +57,8 @@
       "eliminated_by": [
         "Emy Alupei"
       ],
-      "rating_at_end": -0.126,
-      "rank": 12,
+      "rating_at_end": -0.038,
+      "rank": 10,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -110,7 +110,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.314,
+      "rating_at_end": -0.328,
       "rank": 14,
       "rank_total": 14,
       "daily_wins": 1,
@@ -135,7 +135,7 @@
       "eliminated_by": [
         "Georgia Harrison"
       ],
-      "rating_at_end": -0.363,
+      "rating_at_end": -0.353,
       "rank": 14,
       "rank_total": 16,
       "daily_wins": 0,
@@ -151,12 +151,12 @@
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.363
+      "rating": -0.353
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.314
+      "rating": -0.328
     },
     {
       "ranking_id": 860,
@@ -166,12 +166,12 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.126
+      "rating": -0.038
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.217
+      "rating": 0.213
     }
   ]
 }

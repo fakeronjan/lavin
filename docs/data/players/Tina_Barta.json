@@ -3,10 +3,10 @@
   "safe_name": "Tina_Barta",
   "gender": "F",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 0.753,
+    "era_rating": 1.2,
+    "peak_rating": 0.63,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.0,
+    "active_rating": -0.41,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 6,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 8,
     "elim_losses": 5,
-    "daily_wins": 4
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": 0.0,
-      "rank": 8,
+      "rating_at_end": -0.41,
+      "rank": 15,
       "rank_total": 20,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -55,8 +55,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.275,
-      "rank": 7,
+      "rating_at_end": 0.242,
+      "rank": 8,
       "rank_total": 10,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -78,7 +78,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.753,
+      "rating_at_end": 0.63,
       "rank": 1,
       "rank_total": 12,
       "daily_wins": 1,
@@ -103,10 +103,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.232,
+      "rating_at_end": 0.142,
       "rank": 2,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -128,7 +128,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": 0.2,
+      "rating_at_end": 0.155,
       "rank": 6,
       "rank_total": 18,
       "daily_wins": 0,
@@ -153,10 +153,10 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.23,
-      "rank": 12,
+      "rating_at_end": -0.255,
+      "rank": 13,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -169,32 +169,32 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.23
+      "rating": -0.255
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.2
+      "rating": 0.155
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.232
+      "rating": 0.142
     },
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.753
+      "rating": 0.63
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.275
+      "rating": 0.242
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.0
+      "rating": -0.41
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "David_Burns",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.18,
-    "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.229,
+    "era_rating": 0.0,
+    "peak_rating": -0.049,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": -0.049,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 0,
-    "daily_wins": 5
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.229,
-      "rank": 10,
+      "rating_at_end": -0.049,
+      "rank": 9,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -55,8 +55,8 @@
       "eliminated_by": [
         "Katie Cooley"
       ],
-      "rating_at_end": 0.18,
-      "rank": 5,
+      "rating_at_end": -0.153,
+      "rank": 6,
       "rank_total": 10,
       "daily_wins": 5,
       "elim_wins": 0,
@@ -71,12 +71,12 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.18
+      "rating": -0.153
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.229
+      "rating": -0.049
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Abram_Boise",
   "gender": "M",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.573,
-    "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.358,
+    "era_rating": 1.9,
+    "peak_rating": 0.576,
+    "peak_season_id": "s15_the_gauntlet_iii",
+    "active_rating": -0.331,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 9,
     "n_snapshots": 15,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 7,
-    "daily_wins": 4
+    "daily_wins": 32
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Jamie Banks"
       ],
-      "rating_at_end": -0.064,
+      "rating_at_end": -0.091,
       "rank": 12,
       "rank_total": 16,
       "daily_wins": 0,
@@ -60,10 +60,10 @@
         "Ty Ruff",
         "Emily Schromm"
       ],
-      "rating_at_end": -0.275,
-      "rank": 10,
+      "rating_at_end": -0.539,
+      "rank": 12,
       "rank_total": 12,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Cara Maria Sorbello",
@@ -85,10 +85,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.094,
-      "rank": 7,
+      "rating_at_end": 0.299,
+      "rank": 5,
       "rank_total": 15,
-      "daily_wins": 0,
+      "daily_wins": 5,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -110,10 +110,10 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.149,
+      "rating_at_end": 0.252,
       "rank": 3,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Kenny Santucci",
@@ -135,10 +135,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.573,
+      "rating_at_end": 0.536,
       "rank": 1,
       "rank_total": 11,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -158,10 +158,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.022,
-      "rank": 5,
+      "rating_at_end": 0.114,
+      "rank": 4,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -183,8 +183,8 @@
       "eliminated_by": [
         "Steven Hill"
       ],
-      "rating_at_end": 0.097,
-      "rank": 7,
+      "rating_at_end": 0.239,
+      "rank": 5,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -206,10 +206,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.236,
-      "rank": 3,
+      "rating_at_end": 0.457,
+      "rank": 2,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 11,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -231,10 +231,10 @@
       "eliminated_by": [
         "Mike Mizanin"
       ],
-      "rating_at_end": -0.632,
-      "rank": 14,
+      "rating_at_end": -0.193,
+      "rank": 10,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -247,47 +247,47 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.632
+      "rating": -0.193
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.236
+      "rating": 0.457
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.097
+      "rating": 0.239
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.022
+      "rating": 0.114
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.573
+      "rating": 0.536
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.149
+      "rating": 0.252
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.094
+      "rating": 0.299
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.275
+      "rating": -0.539
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.064
+      "rating": -0.091
     }
   ]
 }

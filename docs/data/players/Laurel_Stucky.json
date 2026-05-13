@@ -3,10 +3,10 @@
   "safe_name": "Laurel_Stucky",
   "gender": "F",
   "career": {
-    "era_rating": 3.7,
-    "peak_rating": 0.975,
+    "era_rating": 4.2,
+    "peak_rating": 1.038,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.434,
+    "active_rating": -0.383,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 16,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 11,
     "elim_losses": 4,
-    "daily_wins": 14
+    "daily_wins": 25
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.169,
-      "rank": 11,
+      "rating_at_end": -0.263,
+      "rank": 13,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 0,
@@ -55,7 +55,7 @@
       "eliminated_by": [
         "Ravyn Rochelle"
       ],
-      "rating_at_end": -0.511,
+      "rating_at_end": -0.524,
       "rank": 15,
       "rank_total": 17,
       "daily_wins": 0,
@@ -81,10 +81,10 @@
         "Aneesa Ferreira",
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.068,
-      "rank": 8,
+      "rating_at_end": -0.087,
+      "rank": 10,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Jakk Maddox",
@@ -131,7 +131,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.215,
+      "rating_at_end": 0.22,
       "rank": 7,
       "rank_total": 18,
       "daily_wins": 0,
@@ -156,8 +156,8 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": 0.115,
-      "rank": 7,
+      "rating_at_end": 0.169,
+      "rank": 6,
       "rank_total": 13,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -182,10 +182,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.939,
+      "rating_at_end": 1.024,
       "rank": 1,
       "rank_total": 14,
-      "daily_wins": 3,
+      "daily_wins": 6,
       "elim_wins": 4,
       "elim_losses": 0,
       "partner": "Cohutta Grindstaff",
@@ -208,7 +208,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.592,
+      "rating_at_end": 0.63,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 1,
@@ -233,10 +233,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.643,
+      "rating_at_end": 0.757,
       "rank": 2,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -256,10 +256,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.697,
+      "rating_at_end": 0.965,
       "rank": 2,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Kenny Santucci",
@@ -274,32 +274,32 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.697
+      "rating": 0.965
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.643
+      "rating": 0.757
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.592
+      "rating": 0.63
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.939
+      "rating": 1.024
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.115
+      "rating": 0.169
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.215
+      "rating": 0.22
     },
     {
       "ranking_id": 823,
@@ -309,17 +309,17 @@
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.068
+      "rating": -0.087
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.511
+      "rating": -0.524
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.169
+      "rating": -0.263
     }
   ]
 }

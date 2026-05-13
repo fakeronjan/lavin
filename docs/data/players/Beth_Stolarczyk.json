@@ -3,10 +3,10 @@
   "safe_name": "Beth_Stolarczyk",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.345,
+    "era_rating": 0.4,
+    "peak_rating": 0.362,
     "peak_season_id": "s13_the_duel",
-    "active_rating": -0.869,
+    "active_rating": -0.863,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 7,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 4,
-    "daily_wins": 4
+    "daily_wins": 17
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.661,
-      "rank": 16,
+      "rating_at_end": -0.422,
+      "rank": 13,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -57,7 +57,7 @@
       "eliminated_by": [
         "Svetlana Shusterman"
       ],
-      "rating_at_end": 0.345,
+      "rating_at_end": 0.362,
       "rank": 4,
       "rank_total": 10,
       "daily_wins": 1,
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.119,
-      "rank": 5,
+      "rating_at_end": -0.231,
+      "rank": 9,
       "rank_total": 16,
-      "daily_wins": 3,
+      "daily_wins": 6,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -103,10 +103,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.748,
-      "rank": 10,
+      "rating_at_end": -0.286,
+      "rank": 7,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 7,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -182,22 +182,22 @@
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.748
+      "rating": -0.286
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.119
+      "rating": -0.231
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.345
+      "rating": 0.362
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.661
+      "rating": -0.422
     }
   ]
 }

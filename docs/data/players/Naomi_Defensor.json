@@ -3,10 +3,10 @@
   "safe_name": "Naomi_Defensor",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.265,
+    "era_rating": 0.0,
+    "peak_rating": -0.007,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.399,
+    "active_rating": -0.385,
     "active_season_id": "s25_free_agents",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -58,10 +58,10 @@
         "Emily Schromm",
         "Ty Ruff"
       ],
-      "rating_at_end": 0.265,
-      "rank": 5,
+      "rating_at_end": -0.007,
+      "rank": 6,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Leroy Garrett",
@@ -76,7 +76,7 @@
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.265
+      "rating": -0.007
     },
     {
       "ranking_id": 521,

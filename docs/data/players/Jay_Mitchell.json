@@ -3,10 +3,10 @@
   "safe_name": "Jay_Mitchell",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.363,
+    "era_rating": 0.6,
+    "peak_rating": 0.603,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": 0.068,
+    "active_rating": 0.114,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 0,
-    "daily_wins": 0
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.363,
-      "rank": 6,
+      "rating_at_end": 0.603,
+      "rank": 3,
       "rank_total": 13,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Jenna Compono",
@@ -48,7 +48,7 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.363
+      "rating": 0.603
     }
   ]
 }

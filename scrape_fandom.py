@@ -637,16 +637,23 @@ def _is_player_cell(cell):
     return bool(_cell_player(cell))
 
 
-def parse_game_summary_individual(wikitext):
+def parse_game_summary_individual(wikitext, team_rosters=None):
     """
     Parse the elimination chart for individual-format seasons.
     Robust to varying column counts (Duel: 10 cols, Total Madness: 13 cols, etc.)
     by anchoring on first cells (episode/challenge/gender) and last cells
     (winner/loser). Returns (eliminations, dailies).
+
+    `team_rosters` (optional) is a dict {team_name: [player_list]} from the
+    season's cast table. When provided, daily-winner cells containing only
+    a team-name text (S20 Cutthroat-style: "Red Team" / "Grey Team" with no
+    player icons) are expanded into per-roster-member daily rows.
     """
     sec = get_section(wikitext, "Game Summary")
     if not sec:
         return [], []
+    team_rosters = team_rosters or {}
+    team_lower = {k.lower(): v for k, v in team_rosters.items()}
 
     elim_table = None
     for table in _iter_wikitables(mwp.parse(sec)):
@@ -669,6 +676,10 @@ def parse_game_summary_individual(wikitext):
     eliminations = []
     dailies = []
     last_episode = ""  # carried forward for continuation rows (gender-only first cell)
+    # Track players already eliminated to filter team-roster daily expansions
+    # (S20 Grey Team won ep 1-2; Shauvon quit ep 3 yet had been credited for
+    # later Grey wins until we filtered her out here).
+    eliminated_so_far = set()
 
     for cells in _iter_table_rows(elim_table):
         # Minimum 3 cells: typically episode + game + winner + loser (4),
@@ -770,33 +781,79 @@ def parse_game_summary_individual(wikitext):
                         "winner": w,
                         "loser": l,
                     })
+            # Mark losers as eliminated from this episode forward, so
+            # team-roster daily expansions later in the chart don't credit
+            # players who already exited the show.
+            for l in loser_players:
+                if l:
+                    eliminated_so_far.add(l)
             daily_range_end = winner_i
         else:
             daily_range_end = len(cells)
 
-        # Daily winners: take the first 2 player-bearing cells after the
-        # leading episode/challenge/gender cells. Each cell may contain a
-        # single player (individual format), 2 players (pair format), or
-        # many (team format — when the chart shows whole-team rosters).
-        start_idx = 1 if is_continuation else 3
-        daily_cell_idx = [i for i in player_idx if start_idx <= i < daily_range_end]
-        roles = ["prize", "safety"]
-        for j, idx in enumerate(daily_cell_idx[:2]):
-            cell_players = _players_from_icons(cells[idx])
-            if not cell_players:
-                continue
-            # Format reflects how many distinct competitors share this cell
-            n = len(cell_players)
-            fmt = "individual" if n == 1 else ("pair" if n == 2 else "team")
-            role = roles[j] if j < len(roles) else "winner"
-            for p in cell_players:
+        # Daily winners — three chart shapes:
+        #   1) Team-format with team-NAME text at cell[2] (S20 Cutthroat:
+        #      "Red Team"/"Grey Team"/"Blue Team"; no player icons in the
+        #      Winners cell). The cells that DO have icons after position 2
+        #      are gulag/zone NOMINEES, not winners. Expand the team's
+        #      cast roster instead.
+        #   2) Pair-format with no Gender column at cell[2] (S19/S22/S26/
+        #      S28/S38/S41 etc.). cell[2] is the Winners pair; cells after
+        #      it are dome/exile/zone NOMINEES — emit only ONE row.
+        #   3) Individual gender-split charts (S35/S40 etc.). cell[2] is a
+        #      "M"/"F" gender label; cells[3] and [4] are prize/safety.
+        team_roster_for_row = None
+        cell2_is_player = len(cells) > 2 and _is_player_cell(cells[2])
+        # Scan the leading text cells (2 and 3) for a known team name. S20
+        # Cutthroat puts the team name at cell[2]; S15 Gauntlet III etc.
+        # put a Gender label at cell[2] and the team name at cell[3].
+        if not is_continuation and team_lower:
+            for cand_idx in (2, 3):
+                if cand_idx >= len(cells):
+                    break
+                if _is_player_cell(cells[cand_idx]):
+                    continue
+                text = _cell_plain(cells[cand_idx]).strip().lower()
+                if text in team_lower:
+                    team_roster_for_row = team_lower[text]
+                    break
+
+        if team_roster_for_row:
+            for p in team_roster_for_row:
+                if p in eliminated_so_far:
+                    continue  # player already exited the team before this daily
                 dailies.append({
                     "episode": episode,
                     "challenge": challenge,
-                    "format": fmt,
-                    "role": role,
+                    "format": "team",
+                    "role": "prize",
                     "winner": p,
                 })
+        else:
+            if is_continuation:
+                start_idx = 1; n_emit = 2
+            elif cell2_is_player:
+                start_idx = 2; n_emit = 1
+            else:
+                start_idx = 3; n_emit = 2
+
+            daily_cell_idx = [i for i in player_idx if start_idx <= i < daily_range_end]
+            roles = ["prize", "safety"]
+            for j, idx in enumerate(daily_cell_idx[:n_emit]):
+                cell_players = _players_from_icons(cells[idx])
+                if not cell_players:
+                    continue
+                n = len(cell_players)
+                fmt = "individual" if n == 1 else ("pair" if n == 2 else "team")
+                role = roles[j] if j < len(roles) else "winner"
+                for p in cell_players:
+                    dailies.append({
+                        "episode": episode,
+                        "challenge": challenge,
+                        "format": fmt,
+                        "role": role,
+                        "winner": p,
+                    })
 
     return eliminations, dailies
 
@@ -842,7 +899,16 @@ def scrape_season(season_id, page_name, out_dir):
     df_c.insert(0, "season_id", season_id)
     df_c.to_csv(season_dir / "contestants.csv", index=False)
 
-    eliminations, dailies = parse_game_summary_individual(wt)
+    # Build team rosters for team-format elim charts (S20 Cutthroat puts
+    # "Red Team" / "Grey Team" / "Blue Team" text in the daily-winners cell
+    # instead of player icons — we expand to roster via this map).
+    team_rosters = {}
+    for c in contestants:
+        t = str(c.get("team") or "").strip()
+        if t:
+            team_rosters.setdefault(t, []).append(c["player"])
+
+    eliminations, dailies = parse_game_summary_individual(wt, team_rosters=team_rosters)
     df_e = pd.DataFrame(eliminations)
     if len(df_e):
         df_e.insert(0, "season_id", season_id)

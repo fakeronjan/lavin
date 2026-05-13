@@ -3,10 +3,10 @@
   "safe_name": "Ashley_Cain",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": -0.04,
+    "era_rating": 0.2,
+    "peak_rating": 0.151,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.412,
+    "active_rating": -0.379,
     "active_season_id": "s35_total_madness",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 0
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Paulie Calafiore",
         "Natalie Duran"
       ],
-      "rating_at_end": -0.04,
-      "rank": 9,
+      "rating_at_end": 0.151,
+      "rank": 7,
       "rank_total": 17,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Kam Williams",
@@ -51,7 +51,7 @@
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.04
+      "rating": 0.151
     }
   ]
 }

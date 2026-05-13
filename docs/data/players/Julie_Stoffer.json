@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.299,
+    "peak_rating": -0.185,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.299,
+    "active_rating": -0.185,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 5,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 1
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.299,
-      "rank": 8,
+      "rating_at_end": -0.185,
+      "rank": 5,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -55,10 +55,10 @@
       "eliminated_by": [
         "Tonya Cooley"
       ],
-      "rating_at_end": -0.368,
-      "rank": 9,
+      "rating_at_end": -0.319,
+      "rank": 8,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -80,10 +80,10 @@
       "eliminated_by": [
         "Katie Cooley"
       ],
-      "rating_at_end": -0.536,
+      "rating_at_end": -0.439,
       "rank": 9,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -126,17 +126,17 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": -0.536
+      "rating": -0.439
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.368
+      "rating": -0.319
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.299
+      "rating": -0.185
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Johnny_Reilly",
   "gender": "M",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.714,
+    "era_rating": 1.1,
+    "peak_rating": 0.763,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 0.166,
+    "active_rating": -0.05,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 2,
-    "daily_wins": 5
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Nelson Thomas",
         "Amanda Garcia"
       ],
-      "rating_at_end": 0.417,
-      "rank": 7,
+      "rating_at_end": -0.022,
+      "rank": 10,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Jessica McCain",
@@ -61,10 +61,10 @@
         "Leroy Garrett",
         "Nia Moore"
       ],
-      "rating_at_end": 0.511,
-      "rank": 3,
+      "rating_at_end": 0.377,
+      "rank": 6,
       "rank_total": 13,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "Averey Tressler",
@@ -86,7 +86,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.714,
+      "rating_at_end": 0.763,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 0,
@@ -102,17 +102,17 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.714
+      "rating": 0.763
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.511
+      "rating": 0.377
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.417
+      "rating": -0.022
     }
   ]
 }

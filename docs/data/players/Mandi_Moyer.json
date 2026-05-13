@@ -3,10 +3,10 @@
   "safe_name": "Mandi_Moyer",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.055,
-    "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": 0.055,
+    "era_rating": 0.0,
+    "peak_rating": -0.004,
+    "peak_season_id": "s21_rivals",
+    "active_rating": -0.126,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 4,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 4
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Naomi Defensor",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.055,
-      "rank": 7,
+      "rating_at_end": -0.126,
+      "rank": 8,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Wes Bergmann",
@@ -58,7 +58,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.021,
+      "rating_at_end": -0.004,
       "rank": 6,
       "rank_total": 14,
       "daily_wins": 1,
@@ -85,8 +85,8 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.47,
-      "rank": 13,
+      "rating_at_end": -0.571,
+      "rank": 14,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -111,10 +111,10 @@
         "Evelyn Smith",
         "Luke Wolfe"
       ],
-      "rating_at_end": -0.303,
-      "rank": 12,
+      "rating_at_end": -0.434,
+      "rank": 13,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Wes Bergmann",
@@ -129,22 +129,22 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.303
+      "rating": -0.434
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.47
+      "rating": -0.571
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.021
+      "rating": -0.004
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.055
+      "rating": -0.126
     }
   ]
 }

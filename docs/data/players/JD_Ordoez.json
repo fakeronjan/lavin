@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.02,
-    "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.064,
+    "peak_rating": 0.025,
+    "peak_season_id": "s23_battle_of_the_seasons_2012",
+    "active_rating": -0.032,
     "active_season_id": "s25_free_agents",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.023,
+      "rating_at_end": 0.025,
       "rank": 5,
       "rank_total": 16,
       "daily_wins": 1,
@@ -57,7 +57,7 @@
       "eliminated_by": [
         "Brandon Nelson"
       ],
-      "rating_at_end": -0.269,
+      "rating_at_end": -0.545,
       "rank": 13,
       "rank_total": 15,
       "daily_wins": 1,
@@ -73,12 +73,12 @@
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.269
+      "rating": -0.545
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.023
+      "rating": 0.025
     }
   ]
 }

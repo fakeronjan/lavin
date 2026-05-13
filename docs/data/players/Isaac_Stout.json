@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.196,
+    "peak_rating": 0.218,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.376,
+    "active_rating": -0.332,
     "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 2,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.196,
-      "rank": 9,
+      "rating_at_end": 0.218,
+      "rank": 8,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Landon Lueck"
       ],
-      "rating_at_end": -0.268,
-      "rank": 14,
+      "rating_at_end": -0.437,
+      "rank": 13,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -73,12 +73,12 @@
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.268
+      "rating": -0.437
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.196
+      "rating": 0.218
     }
   ]
 }

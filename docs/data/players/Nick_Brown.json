@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.104,
-    "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.479,
+    "peak_rating": -0.471,
+    "peak_season_id": "s19_fresh_meat_ii",
+    "active_rating": -0.471,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.408,
-      "rank": 12,
+      "rating_at_end": -0.585,
+      "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Ryan Kehoe"
       ],
-      "rating_at_end": -0.104,
-      "rank": 12,
+      "rating_at_end": -0.615,
+      "rank": 14,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -73,12 +73,12 @@
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.104
+      "rating": -0.615
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.408
+      "rating": -0.585
     }
   ]
 }

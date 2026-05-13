@@ -3,10 +3,10 @@
   "safe_name": "Holly_Shand",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.738,
+    "era_rating": 0.5,
+    "peak_rating": 0.956,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": 0.738,
+    "active_rating": 0.956,
     "active_season_id": "s10_the_inferno_ii",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 2,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.38,
-      "rank": 1,
+      "rating_at_end": 0.519,
+      "rank": 2,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 11,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -79,7 +79,7 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.38
+      "rating": 0.519
     }
   ]
 }

@@ -3,8 +3,8 @@
   "safe_name": "Hunter_Barfield",
   "gender": "M",
   "career": {
-    "era_rating": 2.1,
-    "peak_rating": 0.897,
+    "era_rating": 2.7,
+    "peak_rating": 1.016,
     "peak_season_id": "s32_final_reckoning",
     "active_rating": 0.131,
     "active_season_id": "s36_double_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 1,
-    "daily_wins": 4
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.573,
+      "rating_at_end": 0.615,
       "rank": 5,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Georgia Harrison",
@@ -55,7 +55,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.897,
+      "rating_at_end": 1.016,
       "rank": 1,
       "rank_total": 15,
       "daily_wins": 0,
@@ -82,7 +82,7 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.618,
+      "rating_at_end": 0.666,
       "rank": 5,
       "rank_total": 15,
       "daily_wins": 2,
@@ -105,10 +105,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.041,
-      "rank": 8,
+      "rating_at_end": 0.365,
+      "rank": 5,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -121,22 +121,22 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.041
+      "rating": 0.365
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.618
+      "rating": 0.666
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 0.897
+      "rating": 1.016
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.573
+      "rating": 0.615
     }
   ]
 }

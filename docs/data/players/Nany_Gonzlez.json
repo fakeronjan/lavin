@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 2.3,
-    "peak_rating": 0.893,
+    "peak_rating": 0.951,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.02,
+    "active_rating": -0.055,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
     "n_snapshots": 16,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 10,
-    "daily_wins": 20
+    "daily_wins": 16
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Michaela Bradshaw",
         "Cedric Hodges"
       ],
-      "rating_at_end": -0.02,
+      "rating_at_end": -0.055,
       "rank": 6,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.893,
+      "rating_at_end": 0.951,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 2,
@@ -81,10 +81,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.21,
+      "rating_at_end": 0.291,
       "rank": 5,
       "rank_total": 18,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Logan Sampedro",
@@ -135,7 +135,7 @@
       "eliminated_by": [
         "Melissa Reeves"
       ],
-      "rating_at_end": -0.027,
+      "rating_at_end": -0.06,
       "rank": 11,
       "rank_total": 14,
       "daily_wins": 4,
@@ -162,7 +162,7 @@
       "eliminated_by": [
         "Ashley Mitchell"
       ],
-      "rating_at_end": 0.049,
+      "rating_at_end": -0.162,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 1,
@@ -187,10 +187,10 @@
       "eliminated_by": [
         "Georgia Harrison"
       ],
-      "rating_at_end": 0.254,
-      "rank": 8,
+      "rating_at_end": -0.321,
+      "rank": 15,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Turbo \u00c7amk\u0131ran",
@@ -215,10 +215,10 @@
         "Nicole Ramos",
         "Dario Medrano"
       ],
-      "rating_at_end": 0.077,
-      "rank": 7,
+      "rating_at_end": -0.018,
+      "rank": 6,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "Wes Bergmann",
@@ -242,8 +242,8 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": -0.099,
-      "rank": 5,
+      "rating_at_end": -0.211,
+      "rank": 8,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -270,10 +270,10 @@
         "Theresa Jones",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.103,
-      "rank": 7,
+      "rating_at_end": 0.181,
+      "rank": 5,
       "rank_total": 13,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 2,
       "partner": "Johnny Bananas",
@@ -295,10 +295,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.317,
+      "rating_at_end": 0.436,
       "rank": 3,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Theresa Jones",
@@ -352,7 +352,7 @@
         "Marie Roda",
         "Robb Schreiber"
       ],
-      "rating_at_end": 0.141,
+      "rating_at_end": 0.175,
       "rank": 8,
       "rank_total": 16,
       "daily_wins": 2,
@@ -371,7 +371,7 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.141
+      "rating": 0.175
     },
     {
       "ranking_id": 521,
@@ -381,37 +381,37 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.317
+      "rating": 0.436
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.103
+      "rating": 0.181
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.099
+      "rating": -0.211
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.077
+      "rating": -0.018
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.254
+      "rating": -0.321
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.049
+      "rating": -0.162
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.027
+      "rating": -0.06
     },
     {
       "ranking_id": 860,
@@ -421,17 +421,17 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.21
+      "rating": 0.291
     },
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.893
+      "rating": 0.951
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.02
+      "rating": -0.055
     }
   ]
 }

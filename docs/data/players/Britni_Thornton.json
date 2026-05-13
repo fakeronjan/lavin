@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.058,
+    "peak_rating": 0.066,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.538,
+    "active_rating": -0.528,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -33,7 +33,7 @@
         "Amanda Garcia",
         "Zach Nichols"
       ],
-      "rating_at_end": -0.341,
+      "rating_at_end": -0.326,
       "rank": 13,
       "rank_total": 18,
       "daily_wins": 0,
@@ -60,7 +60,7 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": 0.058,
+      "rating_at_end": 0.066,
       "rank": 9,
       "rank_total": 18,
       "daily_wins": 2,
@@ -85,8 +85,8 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": 0.011,
-      "rank": 8,
+      "rating_at_end": 0.033,
+      "rank": 7,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 2,
@@ -101,17 +101,17 @@
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.011
+      "rating": 0.033
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.058
+      "rating": 0.066
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.341
+      "rating": -0.326
     }
   ]
 }

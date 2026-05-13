@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.212,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.331,
+    "peak_rating": -0.08,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.281,
     "active_season_id": "s31_vendettas",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.262,
-      "rank": 13,
+      "rating_at_end": -0.215,
+      "rank": 12,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -53,8 +53,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.608,
-      "rank": 14,
+      "rating_at_end": -0.356,
+      "rank": 12,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -81,10 +81,10 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.331,
-      "rank": 10,
+      "rating_at_end": -0.603,
+      "rank": 12,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "John Jacobs",
@@ -99,17 +99,17 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.331
+      "rating": -0.603
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.608
+      "rating": -0.356
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.262
+      "rating": -0.215
     }
   ]
 }

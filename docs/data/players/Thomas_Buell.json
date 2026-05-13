@@ -4,18 +4,18 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.137,
+    "peak_rating": 0.133,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.747,
-    "active_season_id": "s30_xxx_dirty_30",
+    "active_rating": -0.471,
+    "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 3,
-    "n_snapshots": 5,
+    "n_snapshots": 4,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.339,
-      "rank": 14,
+      "rating_at_end": -0.211,
+      "rank": 12,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -57,7 +57,7 @@
       "eliminated_by": [
         "Mike Boise"
       ],
-      "rating_at_end": 0.137,
+      "rating_at_end": 0.133,
       "rank": 9,
       "rank_total": 16,
       "daily_wins": 0,
@@ -85,10 +85,10 @@
         "Johnny Reilly",
         "Averey Tressler"
       ],
-      "rating_at_end": -0.075,
-      "rank": 8,
+      "rating_at_end": -0.283,
+      "rank": 10,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Hailey Chivers",
@@ -103,17 +103,17 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.075
+      "rating": -0.283
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.137
+      "rating": 0.133
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.339
+      "rating": -0.211
     }
   ]
 }

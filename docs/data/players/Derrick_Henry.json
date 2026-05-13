@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.077,
+    "peak_rating": -0.181,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.077,
+    "active_rating": -0.181,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Joss Mooney",
         "Sylvia Elsrode"
       ],
-      "rating_at_end": -0.077,
-      "rank": 10,
+      "rating_at_end": -0.181,
+      "rank": 11,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Tori Deal",
@@ -60,7 +60,7 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.36,
+      "rating_at_end": -0.35,
       "rank": 15,
       "rank_total": 15,
       "daily_wins": 0,
@@ -76,12 +76,12 @@
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.36
+      "rating": -0.35
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.077
+      "rating": -0.181
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Theresa_Jones",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.791,
+    "era_rating": 0.9,
+    "peak_rating": 0.835,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": 0.026,
+    "active_rating": 0.073,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 7,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 7,
-    "daily_wins": 8
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -58,10 +58,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.426,
+      "rating_at_end": 0.635,
       "rank": 3,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Leroy Garrett",
@@ -86,10 +86,10 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.057,
+      "rating_at_end": 0.159,
       "rank": 8,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Nany Gonz\u00e1lez",
@@ -143,8 +143,8 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.398,
-      "rank": 10,
+      "rating_at_end": -0.44,
+      "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -170,10 +170,10 @@
       "eliminated_by": [
         "Tori Hall"
       ],
-      "rating_at_end": -0.306,
-      "rank": 9,
+      "rating_at_end": -0.388,
+      "rank": 10,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -196,10 +196,10 @@
         "Jenn Grijalva",
         "Noor Jehangir"
       ],
-      "rating_at_end": -0.422,
-      "rank": 13,
+      "rating_at_end": -0.336,
+      "rank": 11,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Ryan Kehoe",
@@ -214,17 +214,17 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.422
+      "rating": -0.336
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.306
+      "rating": -0.388
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.398
+      "rating": -0.44
     },
     {
       "ranking_id": 521,
@@ -234,12 +234,12 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.057
+      "rating": 0.159
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.426
+      "rating": 0.635
     },
     {
       "ranking_id": 860,

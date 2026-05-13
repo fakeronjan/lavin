@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.789,
+    "peak_rating": 0.817,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.789,
+    "active_rating": 0.817,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.594,
-      "rank": 2,
+      "rating_at_end": 0.591,
+      "rank": 3,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -56,10 +56,10 @@
         "Laurel Stucky",
         "Jakk Maddox"
       ],
-      "rating_at_end": -0.167,
-      "rank": 16,
+      "rating_at_end": -0.282,
+      "rank": 15,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Kim Tr\u00e4nka",
@@ -74,12 +74,12 @@
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.167
+      "rating": -0.282
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.594
+      "rating": 0.591
     }
   ]
 }

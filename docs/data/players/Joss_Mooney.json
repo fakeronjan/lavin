@@ -3,8 +3,8 @@
   "safe_name": "Joss_Mooney",
   "gender": "M",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.714,
+    "era_rating": 1.2,
+    "peak_rating": 0.817,
     "peak_season_id": "s32_final_reckoning",
     "active_rating": 0.014,
     "active_season_id": "s36_double_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.37,
-      "rank": 8,
+      "rating_at_end": 0.392,
+      "rank": 7,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -53,10 +53,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.714,
+      "rating_at_end": 0.817,
       "rank": 2,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "Sylvia Elsrode",
@@ -80,7 +80,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.076,
+      "rating_at_end": -0.077,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 0,
@@ -96,17 +96,17 @@
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.076
+      "rating": -0.077
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 0.714
+      "rating": 0.817
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.37
+      "rating": 0.392
     }
   ]
 }

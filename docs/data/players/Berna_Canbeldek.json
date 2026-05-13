@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.602,
+    "peak_rating": 0.628,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.602,
+    "active_rating": 0.628,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.446,
+      "rating_at_end": 0.438,
       "rank": 4,
       "rank_total": 17,
       "daily_wins": 0,
@@ -56,10 +56,10 @@
         "Priscilla Anyabu",
         "Jeremiah White"
       ],
-      "rating_at_end": -0.0,
-      "rank": 10,
+      "rating_at_end": -0.165,
+      "rank": 13,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Corey Lay",
@@ -76,12 +76,12 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.0
+      "rating": -0.165
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.446
+      "rating": 0.438
     }
   ]
 }

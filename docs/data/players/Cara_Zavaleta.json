@@ -3,10 +3,10 @@
   "safe_name": "Cara_Zavaleta",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.766,
-    "peak_season_id": "s09_battle_of_the_sexes_2",
-    "active_rating": -0.198,
+    "era_rating": 0.8,
+    "peak_rating": 0.775,
+    "peak_season_id": "s07_the_gauntlet",
+    "active_rating": -0.185,
     "active_season_id": "s17_the_duel_ii",
     "n_seasons": 3,
     "n_snapshots": 8,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 20
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.081,
+      "rating_at_end": 0.073,
       "rank": 6,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -55,10 +55,10 @@
       "eliminated_by": [
         "Kina Dean"
       ],
-      "rating_at_end": -0.601,
-      "rank": 12,
+      "rating_at_end": -0.589,
+      "rank": 14,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 6,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -78,10 +78,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.729,
-      "rank": 3,
+      "rating_at_end": 0.775,
+      "rank": 2,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 8,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -94,17 +94,17 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.729
+      "rating": 0.775
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.601
+      "rating": -0.589
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.081
+      "rating": 0.073
     }
   ]
 }

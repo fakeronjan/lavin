@@ -3,10 +3,10 @@
   "safe_name": "Nia_Moore",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.827,
+    "era_rating": 0.6,
+    "peak_rating": 0.805,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.527,
+    "active_rating": -0.398,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 2,
-    "daily_wins": 6
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.527,
-      "rank": 16,
+      "rating_at_end": -0.398,
+      "rank": 14,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -55,10 +55,10 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": -0.174,
+      "rating_at_end": -0.231,
       "rank": 12,
       "rank_total": 20,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -78,10 +78,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.542,
+      "rating_at_end": 0.645,
       "rank": 2,
       "rank_total": 13,
-      "daily_wins": 4,
+      "daily_wins": 1,
       "elim_wins": 3,
       "elim_losses": 0,
       "partner": "Leroy Garrett",
@@ -105,8 +105,8 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.528,
-      "rank": 14,
+      "rating_at_end": -0.427,
+      "rank": 12,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -121,22 +121,22 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.528
+      "rating": -0.427
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.542
+      "rating": 0.645
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.174
+      "rating": -0.231
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.527
+      "rating": -0.398
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Sarah_Rice",
   "gender": "F",
   "career": {
-    "era_rating": 3.3,
-    "peak_rating": 1.138,
+    "era_rating": 3.7,
+    "peak_rating": 1.318,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": 0.998,
+    "active_rating": 0.982,
     "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 9,
     "n_snapshots": 13,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 16
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.88,
+      "rating_at_end": 0.994,
       "rank": 1,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Johnny Bananas",
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.73,
+      "rating_at_end": 1.009,
       "rank": 1,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Jordan Wiseley",
@@ -103,7 +103,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.463,
+      "rating_at_end": 0.504,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 2,
@@ -128,10 +128,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.716,
-      "rank": 14,
+      "rating_at_end": -0.342,
+      "rank": 12,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Vinny Foti",
@@ -156,8 +156,8 @@
         "Jasmine Reynaud",
         "Jonna Mannion"
       ],
-      "rating_at_end": -0.175,
-      "rank": 9,
+      "rating_at_end": -0.088,
+      "rank": 7,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -181,10 +181,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.387,
+      "rating_at_end": 0.462,
       "rank": 4,
       "rank_total": 15,
-      "daily_wins": 0,
+      "daily_wins": 5,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -207,10 +207,10 @@
         "Laurel Stucky",
         "Kenny Santucci"
       ],
-      "rating_at_end": 0.154,
-      "rank": 6,
+      "rating_at_end": 0.138,
+      "rank": 5,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Vinny Foti",
@@ -232,10 +232,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.649,
+      "rating_at_end": 0.561,
       "rank": 2,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -248,32 +248,32 @@
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.649
+      "rating": 0.561
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.154
+      "rating": 0.138
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.387
+      "rating": 0.462
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.175
+      "rating": -0.088
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.716
+      "rating": -0.342
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.463
+      "rating": 0.504
     },
     {
       "ranking_id": 521,
@@ -283,12 +283,12 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.73
+      "rating": 1.009
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.88
+      "rating": 0.994
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.467,
+    "peak_rating": 0.413,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.221,
+    "active_rating": -0.146,
     "active_season_id": "s16_the_island",
     "n_seasons": 3,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 1,
-    "daily_wins": 4
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Svetlana Shusterman"
       ],
-      "rating_at_end": 0.275,
+      "rating_at_end": 0.294,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 1,
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.467,
-      "rank": 1,
+      "rating_at_end": 0.413,
+      "rank": 2,
       "rank_total": 16,
-      "daily_wins": 3,
+      "daily_wins": 9,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -78,7 +78,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.545,
+      "rating_at_end": -0.572,
       "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
@@ -94,17 +94,17 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.545
+      "rating": -0.572
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.467
+      "rating": 0.413
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.275
+      "rating": 0.294
     }
   ]
 }

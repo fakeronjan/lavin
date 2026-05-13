@@ -3,10 +3,10 @@
   "safe_name": "Chauncey_Palmer",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.188,
+    "era_rating": 0.0,
+    "peak_rating": -0.071,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.21,
+    "active_rating": -0.22,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "James Lock"
       ],
-      "rating_at_end": 0.032,
+      "rating_at_end": -0.072,
       "rank": 12,
       "rank_total": 17,
       "daily_wins": 1,
@@ -58,10 +58,10 @@
         "Jordan Wiseley",
         "Aneesa Ferreira"
       ],
-      "rating_at_end": 0.188,
-      "rank": 6,
+      "rating_at_end": -0.071,
+      "rank": 8,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Amber Borzotra",
@@ -76,12 +76,12 @@
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.188
+      "rating": -0.071
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.032
+      "rating": -0.072
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "CJ_Koegel",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.168,
+    "era_rating": 0.0,
+    "peak_rating": -0.026,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.865,
+    "active_rating": -0.825,
     "active_season_id": "s25_free_agents",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Zach Nichols",
         "Sam McGinn"
       ],
-      "rating_at_end": -0.429,
+      "rating_at_end": -0.381,
       "rank": 9,
       "rank_total": 16,
       "daily_wins": 1,
@@ -61,10 +61,10 @@
         "Landon Lueck",
         "Carley Johnson"
       ],
-      "rating_at_end": 0.168,
-      "rank": 6,
+      "rating_at_end": -0.026,
+      "rank": 7,
       "rank_total": 13,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Sydney Walker",
@@ -79,12 +79,12 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.168
+      "rating": -0.026
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.429
+      "rating": -0.381
     }
   ]
 }

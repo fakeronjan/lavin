@@ -3,10 +3,10 @@
   "safe_name": "Cohutta_Grindstaff",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.231,
+    "era_rating": 0.6,
+    "peak_rating": 0.344,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.24,
+    "active_rating": -0.186,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 4,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 4,
-    "daily_wins": 4
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Thomas Buell"
       ],
-      "rating_at_end": 0.18,
+      "rating_at_end": 0.16,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 2,
@@ -59,10 +59,10 @@
       "eliminated_by": [
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.231,
-      "rank": 8,
+      "rating_at_end": 0.344,
+      "rank": 7,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Laurel Stucky",
@@ -86,10 +86,10 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.062,
-      "rank": 7,
+      "rating_at_end": 0.092,
+      "rank": 8,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "",
@@ -111,10 +111,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.648,
-      "rank": 8,
+      "rating_at_end": -0.36,
+      "rank": 7,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -127,22 +127,22 @@
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.648
+      "rating": -0.36
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.062
+      "rating": 0.092
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.231
+      "rating": 0.344
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.18
+      "rating": 0.16
     }
   ]
 }

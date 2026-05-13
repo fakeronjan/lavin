@@ -1,29 +1,147 @@
 season_id,episode,challenge,format,role,winner
-s07_the_gauntlet,1,Snake Soup,individual,prize,David Broom
-s07_the_gauntlet,1,Snake Soup,individual,safety,Sarah Greyson
-s07_the_gauntlet,2,Masquerade,individual,prize,Montana McGlynn
-s07_the_gauntlet,2,Masquerade,individual,safety,Katie Cooley
-s07_the_gauntlet,3,Mud Bath,individual,prize,Tonya Cooley
-s07_the_gauntlet,3,Mud Bath,individual,safety,Steve Meinke
-s07_the_gauntlet,4,I Scream,individual,prize,Rachel Braband
-s07_the_gauntlet,4,I Scream,individual,safety,Katie Cooley
-s07_the_gauntlet,5,Holey Canoe,individual,prize,Coral Smith
-s07_the_gauntlet,5,Holey Canoe,individual,safety,Tina Barta
-s07_the_gauntlet,6,Heavyweight Hustle,individual,prize,Matt Smith
-s07_the_gauntlet,6,Heavyweight Hustle,individual,safety,Sarah Greyson
-s07_the_gauntlet,7,Sink My Ship,individual,prize,Norman Korpi
-s07_the_gauntlet,7,Sink My Ship,individual,safety,Dave Giuntoli
-s07_the_gauntlet,8,Red Barron,individual,prize,Nathan Blackburn
-s07_the_gauntlet,8,Red Barron,individual,safety,Adam Larson
-s07_the_gauntlet,9,Inferno,individual,prize,Alton Williams
-s07_the_gauntlet,9,Inferno,individual,safety,Theo von Kurnatowski
-s07_the_gauntlet,10,Rolling on a River,individual,prize,Mike Mizanin
-s07_the_gauntlet,10,Rolling on a River,individual,safety,Roni Martin
-s07_the_gauntlet,11,Turntable,individual,prize,Theo Gantt
-s07_the_gauntlet,11,Turntable,individual,safety,Veronica Portillo
-s07_the_gauntlet,12,All or Nothing,individual,prize,Alton Williams
-s07_the_gauntlet,12,All or Nothing,individual,safety,Theo von Kurnatowski
-s07_the_gauntlet,13,Vertical Sweep,individual,prize,Alton Williams
-s07_the_gauntlet,13,Vertical Sweep,individual,safety,Adam Larson
-s07_the_gauntlet,14/15,Dukes of Saturn,individual,prize,Alton Williams
-s07_the_gauntlet,14/15,Dukes of Saturn,individual,safety,Veronica Portillo
+s07_the_gauntlet,1,Snake Soup,team,prize,Alton Williams
+s07_the_gauntlet,1,Snake Soup,team,prize,Coral Smith
+s07_the_gauntlet,1,Snake Soup,team,prize,Mike Mizanin
+s07_the_gauntlet,1,Snake Soup,team,prize,Nathan Blackburn
+s07_the_gauntlet,1,Snake Soup,team,prize,Norman Korpi
+s07_the_gauntlet,1,Snake Soup,team,prize,Theo Gantt
+s07_the_gauntlet,1,Snake Soup,team,prize,Irulan Wilson
+s07_the_gauntlet,1,Snake Soup,team,prize,Rachel Braband
+s07_the_gauntlet,1,Snake Soup,team,prize,Trishelle Cannatella
+s07_the_gauntlet,1,Snake Soup,team,prize,Elka Walker
+s07_the_gauntlet,1,Snake Soup,team,prize,Matt Smith
+s07_the_gauntlet,1,Snake Soup,team,prize,Tonya Cooley
+s07_the_gauntlet,1,Snake Soup,team,prize,Montana McGlynn
+s07_the_gauntlet,2,Masquerade,team,prize,Adam Larson
+s07_the_gauntlet,2,Masquerade,team,prize,Cara Zavaleta
+s07_the_gauntlet,2,Masquerade,team,prize,Darrell Taylor
+s07_the_gauntlet,2,Masquerade,team,prize,Dave Giuntoli
+s07_the_gauntlet,2,Masquerade,team,prize,Rachel Robinson
+s07_the_gauntlet,2,Masquerade,team,prize,Roni Martin
+s07_the_gauntlet,2,Masquerade,team,prize,Sarah Greyson
+s07_the_gauntlet,2,Masquerade,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,2,Masquerade,team,prize,Veronica Portillo
+s07_the_gauntlet,2,Masquerade,team,prize,Abram Boise
+s07_the_gauntlet,2,Masquerade,team,prize,Laterrian Wallace
+s07_the_gauntlet,2,Masquerade,team,prize,Steve Meinke
+s07_the_gauntlet,2,Masquerade,team,prize,Tina Barta
+s07_the_gauntlet,2,Masquerade,team,prize,Katie Cooley
+s07_the_gauntlet,3,Mud Bath,team,prize,Adam Larson
+s07_the_gauntlet,3,Mud Bath,team,prize,Cara Zavaleta
+s07_the_gauntlet,3,Mud Bath,team,prize,Darrell Taylor
+s07_the_gauntlet,3,Mud Bath,team,prize,Dave Giuntoli
+s07_the_gauntlet,3,Mud Bath,team,prize,Rachel Robinson
+s07_the_gauntlet,3,Mud Bath,team,prize,Roni Martin
+s07_the_gauntlet,3,Mud Bath,team,prize,Sarah Greyson
+s07_the_gauntlet,3,Mud Bath,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,3,Mud Bath,team,prize,Veronica Portillo
+s07_the_gauntlet,3,Mud Bath,team,prize,Abram Boise
+s07_the_gauntlet,3,Mud Bath,team,prize,Laterrian Wallace
+s07_the_gauntlet,3,Mud Bath,team,prize,Steve Meinke
+s07_the_gauntlet,3,Mud Bath,team,prize,Tina Barta
+s07_the_gauntlet,3,Mud Bath,team,prize,Katie Cooley
+s07_the_gauntlet,4,I Scream,team,prize,Adam Larson
+s07_the_gauntlet,4,I Scream,team,prize,Cara Zavaleta
+s07_the_gauntlet,4,I Scream,team,prize,Darrell Taylor
+s07_the_gauntlet,4,I Scream,team,prize,Dave Giuntoli
+s07_the_gauntlet,4,I Scream,team,prize,Rachel Robinson
+s07_the_gauntlet,4,I Scream,team,prize,Roni Martin
+s07_the_gauntlet,4,I Scream,team,prize,Sarah Greyson
+s07_the_gauntlet,4,I Scream,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,4,I Scream,team,prize,Veronica Portillo
+s07_the_gauntlet,4,I Scream,team,prize,Abram Boise
+s07_the_gauntlet,4,I Scream,team,prize,Laterrian Wallace
+s07_the_gauntlet,4,I Scream,team,prize,Steve Meinke
+s07_the_gauntlet,4,I Scream,team,prize,Tina Barta
+s07_the_gauntlet,5,Holey Canoe,team,prize,Adam Larson
+s07_the_gauntlet,5,Holey Canoe,team,prize,Cara Zavaleta
+s07_the_gauntlet,5,Holey Canoe,team,prize,Darrell Taylor
+s07_the_gauntlet,5,Holey Canoe,team,prize,Dave Giuntoli
+s07_the_gauntlet,5,Holey Canoe,team,prize,Rachel Robinson
+s07_the_gauntlet,5,Holey Canoe,team,prize,Roni Martin
+s07_the_gauntlet,5,Holey Canoe,team,prize,Sarah Greyson
+s07_the_gauntlet,5,Holey Canoe,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,5,Holey Canoe,team,prize,Veronica Portillo
+s07_the_gauntlet,5,Holey Canoe,team,prize,Abram Boise
+s07_the_gauntlet,5,Holey Canoe,team,prize,Laterrian Wallace
+s07_the_gauntlet,5,Holey Canoe,team,prize,Steve Meinke
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Alton Williams
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Coral Smith
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Mike Mizanin
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Nathan Blackburn
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Norman Korpi
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Theo Gantt
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Irulan Wilson
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Rachel Braband
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Trishelle Cannatella
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Elka Walker
+s07_the_gauntlet,7,Sink My Ship,team,prize,Adam Larson
+s07_the_gauntlet,7,Sink My Ship,team,prize,Cara Zavaleta
+s07_the_gauntlet,7,Sink My Ship,team,prize,Darrell Taylor
+s07_the_gauntlet,7,Sink My Ship,team,prize,Dave Giuntoli
+s07_the_gauntlet,7,Sink My Ship,team,prize,Rachel Robinson
+s07_the_gauntlet,7,Sink My Ship,team,prize,Roni Martin
+s07_the_gauntlet,7,Sink My Ship,team,prize,Sarah Greyson
+s07_the_gauntlet,7,Sink My Ship,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,7,Sink My Ship,team,prize,Veronica Portillo
+s07_the_gauntlet,7,Sink My Ship,team,prize,Abram Boise
+s07_the_gauntlet,7,Sink My Ship,team,prize,Laterrian Wallace
+s07_the_gauntlet,7,Sink My Ship,team,prize,Steve Meinke
+s07_the_gauntlet,8,Red Barron,team,prize,Adam Larson
+s07_the_gauntlet,8,Red Barron,team,prize,Cara Zavaleta
+s07_the_gauntlet,8,Red Barron,team,prize,Darrell Taylor
+s07_the_gauntlet,8,Red Barron,team,prize,Dave Giuntoli
+s07_the_gauntlet,8,Red Barron,team,prize,Rachel Robinson
+s07_the_gauntlet,8,Red Barron,team,prize,Roni Martin
+s07_the_gauntlet,8,Red Barron,team,prize,Sarah Greyson
+s07_the_gauntlet,8,Red Barron,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,8,Red Barron,team,prize,Veronica Portillo
+s07_the_gauntlet,8,Red Barron,team,prize,Abram Boise
+s07_the_gauntlet,8,Red Barron,team,prize,Laterrian Wallace
+s07_the_gauntlet,9,Inferno,team,prize,Alton Williams
+s07_the_gauntlet,9,Inferno,team,prize,Coral Smith
+s07_the_gauntlet,9,Inferno,team,prize,Mike Mizanin
+s07_the_gauntlet,9,Inferno,team,prize,Nathan Blackburn
+s07_the_gauntlet,9,Inferno,team,prize,Norman Korpi
+s07_the_gauntlet,9,Inferno,team,prize,Theo Gantt
+s07_the_gauntlet,9,Inferno,team,prize,Irulan Wilson
+s07_the_gauntlet,9,Inferno,team,prize,Rachel Braband
+s07_the_gauntlet,10,Rolling on a River,team,prize,Adam Larson
+s07_the_gauntlet,10,Rolling on a River,team,prize,Cara Zavaleta
+s07_the_gauntlet,10,Rolling on a River,team,prize,Darrell Taylor
+s07_the_gauntlet,10,Rolling on a River,team,prize,Dave Giuntoli
+s07_the_gauntlet,10,Rolling on a River,team,prize,Rachel Robinson
+s07_the_gauntlet,10,Rolling on a River,team,prize,Roni Martin
+s07_the_gauntlet,10,Rolling on a River,team,prize,Sarah Greyson
+s07_the_gauntlet,10,Rolling on a River,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,10,Rolling on a River,team,prize,Veronica Portillo
+s07_the_gauntlet,10,Rolling on a River,team,prize,Abram Boise
+s07_the_gauntlet,10,Rolling on a River,team,prize,Laterrian Wallace
+s07_the_gauntlet,11,Turntable,team,prize,Adam Larson
+s07_the_gauntlet,11,Turntable,team,prize,Cara Zavaleta
+s07_the_gauntlet,11,Turntable,team,prize,Darrell Taylor
+s07_the_gauntlet,11,Turntable,team,prize,Dave Giuntoli
+s07_the_gauntlet,11,Turntable,team,prize,Rachel Robinson
+s07_the_gauntlet,11,Turntable,team,prize,Roni Martin
+s07_the_gauntlet,11,Turntable,team,prize,Sarah Greyson
+s07_the_gauntlet,11,Turntable,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,11,Turntable,team,prize,Veronica Portillo
+s07_the_gauntlet,11,Turntable,team,prize,Abram Boise
+s07_the_gauntlet,12,All or Nothing,team,prize,Alton Williams
+s07_the_gauntlet,12,All or Nothing,team,prize,Coral Smith
+s07_the_gauntlet,12,All or Nothing,team,prize,Mike Mizanin
+s07_the_gauntlet,12,All or Nothing,team,prize,Nathan Blackburn
+s07_the_gauntlet,12,All or Nothing,team,prize,Norman Korpi
+s07_the_gauntlet,12,All or Nothing,team,prize,Theo Gantt
+s07_the_gauntlet,12,All or Nothing,team,prize,Irulan Wilson
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Alton Williams
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Coral Smith
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Mike Mizanin
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Nathan Blackburn
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Norman Korpi
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Theo Gantt
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Alton Williams
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Coral Smith
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Mike Mizanin
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Nathan Blackburn
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Norman Korpi

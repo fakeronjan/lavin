@@ -3,10 +3,10 @@
   "safe_name": "Ibis_Nieves",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.321,
+    "era_rating": 0.4,
+    "peak_rating": 0.355,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.54,
+    "active_rating": -0.512,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 2
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Kimberly Alexander"
       ],
-      "rating_at_end": -0.161,
-      "rank": 11,
+      "rating_at_end": -0.138,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.321,
+      "rating_at_end": 0.355,
       "rank": 3,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -80,7 +80,7 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.321,
+      "rating_at_end": -0.351,
       "rank": 12,
       "rank_total": 18,
       "daily_wins": 1,
@@ -96,17 +96,17 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.321
+      "rating": -0.351
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.321
+      "rating": 0.355
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.161
+      "rating": -0.138
     }
   ]
 }

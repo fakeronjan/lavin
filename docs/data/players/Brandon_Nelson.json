@@ -3,10 +3,10 @@
   "safe_name": "Brandon_Nelson",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.158,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.409,
+    "era_rating": 0.0,
+    "peak_rating": -0.119,
+    "peak_season_id": "s19_fresh_meat_ii",
+    "active_rating": -0.423,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 6,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 5,
-    "daily_wins": 6
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Ryan Kehoe"
       ],
-      "rating_at_end": -0.409,
-      "rank": 18,
+      "rating_at_end": -0.423,
+      "rank": 17,
       "rank_total": 20,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -57,8 +57,8 @@
       "eliminated_by": [
         "Zach Nichols"
       ],
-      "rating_at_end": -0.466,
-      "rank": 14,
+      "rating_at_end": -0.403,
+      "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -83,8 +83,8 @@
         "Chet Cannon",
         "Sarah Rice"
       ],
-      "rating_at_end": -0.541,
-      "rank": 13,
+      "rating_at_end": -0.492,
+      "rank": 12,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -111,7 +111,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.257,
+      "rating_at_end": -0.363,
       "rank": 9,
       "rank_total": 15,
       "daily_wins": 0,
@@ -138,10 +138,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.158,
-      "rank": 6,
+      "rating_at_end": -0.131,
+      "rank": 8,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 3,
       "elim_losses": 1,
       "partner": "",
@@ -161,10 +161,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.163,
+      "rating_at_end": -0.119,
       "rank": 9,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Katelynn Cusanelli",
@@ -179,32 +179,32 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.163
+      "rating": -0.119
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.158
+      "rating": -0.131
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.257
+      "rating": -0.363
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.541
+      "rating": -0.492
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.466
+      "rating": -0.403
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.409
+      "rating": -0.423
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Jessica_McCain",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.184,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": 0.159,
+    "era_rating": 0.0,
+    "peak_rating": -0.062,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.062,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 4,
-    "daily_wins": 4
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Amanda Garcia",
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.184,
-      "rank": 4,
+      "rating_at_end": -0.234,
+      "rank": 8,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Johnny Reilly",
@@ -61,10 +61,10 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.342,
+      "rating_at_end": -0.591,
       "rank": 11,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Dustin Zito",
@@ -88,10 +88,10 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.293,
-      "rank": 12,
+      "rating_at_end": -0.409,
+      "rank": 11,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -137,17 +137,17 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.293
+      "rating": -0.409
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.342
+      "rating": -0.591
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.184
+      "rating": -0.234
     }
   ]
 }

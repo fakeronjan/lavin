@@ -3,10 +3,10 @@
   "safe_name": "Corey_Lay",
   "gender": "M",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.886,
+    "era_rating": 0.9,
+    "peak_rating": 0.875,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.755,
+    "active_rating": 0.746,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 5
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.886,
+      "rating_at_end": 0.875,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 2,
@@ -58,10 +58,10 @@
         "Hughie Maughan",
         "Amber Borzotra"
       ],
-      "rating_at_end": 0.21,
-      "rank": 7,
+      "rating_at_end": -0.552,
+      "rank": 17,
       "rank_total": 18,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Michele Fitzgerald",
@@ -78,12 +78,12 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.21
+      "rating": -0.552
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.886
+      "rating": 0.875
     }
   ]
 }

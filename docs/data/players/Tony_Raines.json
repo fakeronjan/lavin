@@ -4,18 +4,18 @@
   "gender": "M",
   "career": {
     "era_rating": 1.0,
-    "peak_rating": 0.666,
+    "peak_rating": 0.675,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.011,
+    "active_rating": -0.202,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
-    "n_snapshots": 9,
+    "n_snapshots": 8,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 6,
-    "daily_wins": 14
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": -0.011,
-      "rank": 9,
+      "rating_at_end": -0.202,
+      "rank": 15,
       "rank_total": 20,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -58,8 +58,8 @@
         "Paulie Calafiore",
         "Natalie Negrotti"
       ],
-      "rating_at_end": -0.072,
-      "rank": 9,
+      "rating_at_end": -0.018,
+      "rank": 7,
       "rank_total": 15,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -83,7 +83,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.666,
+      "rating_at_end": 0.675,
       "rank": 5,
       "rank_total": 16,
       "daily_wins": 5,
@@ -108,7 +108,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.284,
+      "rating_at_end": 0.327,
       "rank": 7,
       "rank_total": 15,
       "daily_wins": 3,
@@ -133,8 +133,8 @@
       "eliminated_by": [
         "Shane Landrum"
       ],
-      "rating_at_end": -0.033,
-      "rank": 11,
+      "rating_at_end": -0.016,
+      "rank": 10,
       "rank_total": 13,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -156,10 +156,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.084,
-      "rank": 12,
+      "rating_at_end": -0.287,
+      "rank": 14,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Camila Nakagawa",
@@ -181,8 +181,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.169,
-      "rank": 14,
+      "rating_at_end": -0.195,
+      "rank": 15,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -197,37 +197,37 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.169
+      "rating": -0.195
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.084
+      "rating": -0.287
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.033
+      "rating": -0.016
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.284
+      "rating": 0.327
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.666
+      "rating": 0.675
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.072
+      "rating": -0.018
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.011
+      "rating": -0.202
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.309,
+    "peak_rating": 0.317,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.231,
+    "active_rating": -0.152,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 2,
     "n_snapshots": 4,
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": 0.124,
-      "rank": 7,
+      "rating_at_end": 0.111,
+      "rank": 8,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": 0.309,
+      "rating_at_end": 0.317,
       "rank": 4,
       "rank_total": 13,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "",
@@ -73,12 +73,12 @@
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.309
+      "rating": 0.317
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.124
+      "rating": 0.111
     }
   ]
 }

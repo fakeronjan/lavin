@@ -3,10 +3,10 @@
   "safe_name": "Kendal_Sheppard",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.778,
+    "era_rating": 0.5,
+    "peak_rating": 0.952,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": 0.778,
+    "active_rating": 0.952,
     "active_season_id": "s10_the_inferno_ii",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 0,
-    "daily_wins": 1
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.288,
-      "rank": 4,
+      "rating_at_end": 0.472,
+      "rank": 3,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 11,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -46,7 +46,7 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.288
+      "rating": 0.472
     }
   ]
 }

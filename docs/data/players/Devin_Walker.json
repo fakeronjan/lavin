@@ -3,19 +3,19 @@
   "safe_name": "Devin_Walker",
   "gender": "M",
   "career": {
-    "era_rating": 3.4,
-    "peak_rating": 0.953,
+    "era_rating": 3.5,
+    "peak_rating": 1.017,
     "peak_season_id": "s38_ride_or_dies",
     "active_rating": -0.568,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
-    "n_snapshots": 13,
+    "n_snapshots": 12,
     "championships": 1,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 4,
-    "daily_wins": 12
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.497,
-      "rank": 19,
+      "rating_at_end": -0.197,
+      "rank": 14,
       "rank_total": 20,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -55,7 +55,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.583,
+      "rating_at_end": 0.646,
       "rank": 4,
       "rank_total": 17,
       "daily_wins": 0,
@@ -78,10 +78,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.953,
+      "rating_at_end": 1.017,
       "rank": 1,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Tori Deal",
@@ -103,8 +103,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.467,
-      "rank": 4,
+      "rating_at_end": 0.541,
+      "rank": 3,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -155,8 +155,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.048,
-      "rank": 6,
+      "rating_at_end": 0.14,
+      "rank": 4,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -182,8 +182,8 @@
       "eliminated_by": [
         "Zach Nichols"
       ],
-      "rating_at_end": 0.232,
-      "rank": 9,
+      "rating_at_end": 0.236,
+      "rank": 8,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -205,7 +205,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.098,
+      "rating_at_end": 0.124,
       "rank": 10,
       "rank_total": 15,
       "daily_wins": 1,
@@ -228,10 +228,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.676,
-      "rank": 3,
+      "rating_at_end": 0.5,
+      "rank": 4,
       "rank_total": 14,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Cheyenne Floyd",
@@ -246,22 +246,22 @@
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.676
+      "rating": 0.5
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.098
+      "rating": 0.124
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.232
+      "rating": 0.236
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.048
+      "rating": 0.14
     },
     {
       "ranking_id": 860,
@@ -271,22 +271,22 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.467
+      "rating": 0.541
     },
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.953
+      "rating": 1.017
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.583
+      "rating": 0.646
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.497
+      "rating": -0.197
     }
   ]
 }

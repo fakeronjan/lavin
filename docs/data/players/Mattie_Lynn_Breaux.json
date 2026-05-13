@@ -3,10 +3,10 @@
   "safe_name": "Mattie_Lynn_Breaux",
   "gender": "F",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.762,
+    "era_rating": 1.0,
+    "peak_rating": 0.702,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.362,
+    "active_rating": -0.294,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 5
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Dee Nguyen"
       ],
-      "rating_at_end": 0.29,
+      "rating_at_end": 0.261,
       "rank": 6,
       "rank_total": 14,
       "daily_wins": 2,
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.762,
-      "rank": 2,
+      "rating_at_end": 0.702,
+      "rank": 3,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Kyle Christie",
@@ -73,12 +73,12 @@
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.762
+      "rating": 0.702
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.29
+      "rating": 0.261
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Dee_Nguyen",
   "gender": "F",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.827,
+    "era_rating": 1.5,
+    "peak_rating": 0.8,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": -0.049,
+    "active_rating": 0.019,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 2,
-    "daily_wins": 10
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.591,
+      "rating_at_end": 0.578,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 4,
@@ -55,8 +55,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.827,
-      "rank": 2,
+      "rating_at_end": 0.8,
+      "rank": 3,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -80,10 +80,10 @@
       "eliminated_by": [
         "Da'Vonne Rogers"
       ],
-      "rating_at_end": 0.476,
-      "rank": 6,
+      "rating_at_end": 0.091,
+      "rank": 9,
       "rank_total": 17,
-      "daily_wins": 5,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Wes Bergmann",
@@ -98,17 +98,17 @@
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.476
+      "rating": 0.091
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.827
+      "rating": 0.8
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.591
+      "rating": 0.578
     }
   ]
 }

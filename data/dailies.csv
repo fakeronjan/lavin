@@ -79,63 +79,254 @@ s06_battle_of_the_sexes,16,,individual,prize,Jamie Murray
 s06_battle_of_the_sexes,17,Maximum Velocity,individual,prize,Ruthie Alcaide
 s06_battle_of_the_sexes,17,Maximum Velocity,individual,safety,Ellen Cho
 s06_battle_of_the_sexes,17,,individual,prize,Jamie Murray
-s07_the_gauntlet,1,Snake Soup,individual,prize,David Broom
-s07_the_gauntlet,1,Snake Soup,individual,safety,Sarah Greyson
-s07_the_gauntlet,2,Masquerade,individual,prize,Montana McGlynn
-s07_the_gauntlet,2,Masquerade,individual,safety,Katie Cooley
-s07_the_gauntlet,3,Mud Bath,individual,prize,Tonya Cooley
-s07_the_gauntlet,3,Mud Bath,individual,safety,Steve Meinke
-s07_the_gauntlet,4,I Scream,individual,prize,Rachel Braband
-s07_the_gauntlet,4,I Scream,individual,safety,Katie Cooley
-s07_the_gauntlet,5,Holey Canoe,individual,prize,Coral Smith
-s07_the_gauntlet,5,Holey Canoe,individual,safety,Tina Barta
-s07_the_gauntlet,6,Heavyweight Hustle,individual,prize,Matt Smith
-s07_the_gauntlet,6,Heavyweight Hustle,individual,safety,Sarah Greyson
-s07_the_gauntlet,7,Sink My Ship,individual,prize,Norman Korpi
-s07_the_gauntlet,7,Sink My Ship,individual,safety,Dave Giuntoli
-s07_the_gauntlet,8,Red Barron,individual,prize,Nathan Blackburn
-s07_the_gauntlet,8,Red Barron,individual,safety,Adam Larson
-s07_the_gauntlet,9,Inferno,individual,prize,Alton Williams
-s07_the_gauntlet,9,Inferno,individual,safety,Theo von Kurnatowski
-s07_the_gauntlet,10,Rolling on a River,individual,prize,Mike Mizanin
-s07_the_gauntlet,10,Rolling on a River,individual,safety,Roni Martin
-s07_the_gauntlet,11,Turntable,individual,prize,Theo Gantt
-s07_the_gauntlet,11,Turntable,individual,safety,Veronica Portillo
-s07_the_gauntlet,12,All or Nothing,individual,prize,Alton Williams
-s07_the_gauntlet,12,All or Nothing,individual,safety,Theo von Kurnatowski
-s07_the_gauntlet,13,Vertical Sweep,individual,prize,Alton Williams
-s07_the_gauntlet,13,Vertical Sweep,individual,safety,Adam Larson
-s07_the_gauntlet,14/15,Dukes of Saturn,individual,prize,Alton Williams
-s07_the_gauntlet,14/15,Dukes of Saturn,individual,safety,Veronica Portillo
-s08_the_inferno,1,Grope the Rope,individual,prize,Ace Amerson
-s08_the_inferno,1,Grope the Rope,individual,safety,Syrus Yarbrough
-s08_the_inferno,2,Bird Feeder,individual,prize,Syrus Yarbrough
-s08_the_inferno,2,Bird Feeder,individual,safety,Darrell Taylor
-s08_the_inferno,3,Wreck N' Roll,individual,prize,Leah Gillingwater
-s08_the_inferno,3,Wreck N' Roll,individual,safety,Trishelle Cannatella
-s08_the_inferno,4,Climbing Wall,individual,prize,CT Tamburello
-s08_the_inferno,4,Climbing Wall,individual,safety,Timmy Beggy
-s08_the_inferno,5,Disco Domino Derby,individual,prize,David Burns
-s08_the_inferno,5,Disco Domino Derby,individual,safety,Mike Mizanin
-s08_the_inferno,6,Balls Out,individual,prize,CT Tamburello
-s08_the_inferno,6,Balls Out,individual,safety,Veronica Portillo
-s08_the_inferno,7,Ultimate Saturn Road Trip,individual,prize,Coral Smith
-s08_the_inferno,7,Ultimate Saturn Road Trip,individual,safety,Mallory Snyder
-s08_the_inferno,8,Don't Yank My Chain,individual,prize,Mike Mizanin
-s08_the_inferno,8,Don't Yank My Chain,individual,safety,Veronica Portillo
-s08_the_inferno,9,Come Sail Away,individual,prize,CT Tamburello
-s08_the_inferno,9,Come Sail Away,individual,safety,David Burns
-s08_the_inferno,10,Bungee Bound,individual,prize,CT Tamburello
-s08_the_inferno,10,Bungee Bound,individual,safety,Holly Shand
-s08_the_inferno,11,Twist and Shoot,individual,prize,Julie Stoffer
-s08_the_inferno,11,Twist and Shoot,individual,safety,Leah Gillingwater
-s08_the_inferno,12,Balcony Swing,individual,prize,CT Tamburello
-s08_the_inferno,12,Balcony Swing,individual,safety,Veronica Portillo
-s08_the_inferno,13,Fallen Angels,individual,prize,David Burns
-s08_the_inferno,13,Fallen Angels,individual,safety,Syrus Yarbrough
-s08_the_inferno,14/15,Saturn Valet Ballet,individual,prize,David Burns
-s08_the_inferno,14/15,Saturn Valet Ballet,individual,safety,Kendal Sheppard
-s08_the_inferno,15/16,Window Washing,individual,prize,Coral Smith
+s07_the_gauntlet,1,Snake Soup,team,prize,Alton Williams
+s07_the_gauntlet,1,Snake Soup,team,prize,Coral Smith
+s07_the_gauntlet,1,Snake Soup,team,prize,Mike Mizanin
+s07_the_gauntlet,1,Snake Soup,team,prize,Nathan Blackburn
+s07_the_gauntlet,1,Snake Soup,team,prize,Norman Korpi
+s07_the_gauntlet,1,Snake Soup,team,prize,Theo Gantt
+s07_the_gauntlet,1,Snake Soup,team,prize,Irulan Wilson
+s07_the_gauntlet,1,Snake Soup,team,prize,Rachel Braband
+s07_the_gauntlet,1,Snake Soup,team,prize,Trishelle Cannatella
+s07_the_gauntlet,1,Snake Soup,team,prize,Elka Walker
+s07_the_gauntlet,1,Snake Soup,team,prize,Matt Smith
+s07_the_gauntlet,1,Snake Soup,team,prize,Tonya Cooley
+s07_the_gauntlet,1,Snake Soup,team,prize,Montana McGlynn
+s07_the_gauntlet,2,Masquerade,team,prize,Adam Larson
+s07_the_gauntlet,2,Masquerade,team,prize,Cara Zavaleta
+s07_the_gauntlet,2,Masquerade,team,prize,Darrell Taylor
+s07_the_gauntlet,2,Masquerade,team,prize,Dave Giuntoli
+s07_the_gauntlet,2,Masquerade,team,prize,Rachel Robinson
+s07_the_gauntlet,2,Masquerade,team,prize,Roni Martin
+s07_the_gauntlet,2,Masquerade,team,prize,Sarah Greyson
+s07_the_gauntlet,2,Masquerade,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,2,Masquerade,team,prize,Veronica Portillo
+s07_the_gauntlet,2,Masquerade,team,prize,Abram Boise
+s07_the_gauntlet,2,Masquerade,team,prize,Laterrian Wallace
+s07_the_gauntlet,2,Masquerade,team,prize,Steve Meinke
+s07_the_gauntlet,2,Masquerade,team,prize,Tina Barta
+s07_the_gauntlet,2,Masquerade,team,prize,Katie Cooley
+s07_the_gauntlet,3,Mud Bath,team,prize,Adam Larson
+s07_the_gauntlet,3,Mud Bath,team,prize,Cara Zavaleta
+s07_the_gauntlet,3,Mud Bath,team,prize,Darrell Taylor
+s07_the_gauntlet,3,Mud Bath,team,prize,Dave Giuntoli
+s07_the_gauntlet,3,Mud Bath,team,prize,Rachel Robinson
+s07_the_gauntlet,3,Mud Bath,team,prize,Roni Martin
+s07_the_gauntlet,3,Mud Bath,team,prize,Sarah Greyson
+s07_the_gauntlet,3,Mud Bath,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,3,Mud Bath,team,prize,Veronica Portillo
+s07_the_gauntlet,3,Mud Bath,team,prize,Abram Boise
+s07_the_gauntlet,3,Mud Bath,team,prize,Laterrian Wallace
+s07_the_gauntlet,3,Mud Bath,team,prize,Steve Meinke
+s07_the_gauntlet,3,Mud Bath,team,prize,Tina Barta
+s07_the_gauntlet,3,Mud Bath,team,prize,Katie Cooley
+s07_the_gauntlet,4,I Scream,team,prize,Adam Larson
+s07_the_gauntlet,4,I Scream,team,prize,Cara Zavaleta
+s07_the_gauntlet,4,I Scream,team,prize,Darrell Taylor
+s07_the_gauntlet,4,I Scream,team,prize,Dave Giuntoli
+s07_the_gauntlet,4,I Scream,team,prize,Rachel Robinson
+s07_the_gauntlet,4,I Scream,team,prize,Roni Martin
+s07_the_gauntlet,4,I Scream,team,prize,Sarah Greyson
+s07_the_gauntlet,4,I Scream,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,4,I Scream,team,prize,Veronica Portillo
+s07_the_gauntlet,4,I Scream,team,prize,Abram Boise
+s07_the_gauntlet,4,I Scream,team,prize,Laterrian Wallace
+s07_the_gauntlet,4,I Scream,team,prize,Steve Meinke
+s07_the_gauntlet,4,I Scream,team,prize,Tina Barta
+s07_the_gauntlet,5,Holey Canoe,team,prize,Adam Larson
+s07_the_gauntlet,5,Holey Canoe,team,prize,Cara Zavaleta
+s07_the_gauntlet,5,Holey Canoe,team,prize,Darrell Taylor
+s07_the_gauntlet,5,Holey Canoe,team,prize,Dave Giuntoli
+s07_the_gauntlet,5,Holey Canoe,team,prize,Rachel Robinson
+s07_the_gauntlet,5,Holey Canoe,team,prize,Roni Martin
+s07_the_gauntlet,5,Holey Canoe,team,prize,Sarah Greyson
+s07_the_gauntlet,5,Holey Canoe,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,5,Holey Canoe,team,prize,Veronica Portillo
+s07_the_gauntlet,5,Holey Canoe,team,prize,Abram Boise
+s07_the_gauntlet,5,Holey Canoe,team,prize,Laterrian Wallace
+s07_the_gauntlet,5,Holey Canoe,team,prize,Steve Meinke
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Alton Williams
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Coral Smith
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Mike Mizanin
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Nathan Blackburn
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Norman Korpi
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Theo Gantt
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Irulan Wilson
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Rachel Braband
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Trishelle Cannatella
+s07_the_gauntlet,6,Heavyweight Hustle,team,prize,Elka Walker
+s07_the_gauntlet,7,Sink My Ship,team,prize,Adam Larson
+s07_the_gauntlet,7,Sink My Ship,team,prize,Cara Zavaleta
+s07_the_gauntlet,7,Sink My Ship,team,prize,Darrell Taylor
+s07_the_gauntlet,7,Sink My Ship,team,prize,Dave Giuntoli
+s07_the_gauntlet,7,Sink My Ship,team,prize,Rachel Robinson
+s07_the_gauntlet,7,Sink My Ship,team,prize,Roni Martin
+s07_the_gauntlet,7,Sink My Ship,team,prize,Sarah Greyson
+s07_the_gauntlet,7,Sink My Ship,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,7,Sink My Ship,team,prize,Veronica Portillo
+s07_the_gauntlet,7,Sink My Ship,team,prize,Abram Boise
+s07_the_gauntlet,7,Sink My Ship,team,prize,Laterrian Wallace
+s07_the_gauntlet,7,Sink My Ship,team,prize,Steve Meinke
+s07_the_gauntlet,8,Red Barron,team,prize,Adam Larson
+s07_the_gauntlet,8,Red Barron,team,prize,Cara Zavaleta
+s07_the_gauntlet,8,Red Barron,team,prize,Darrell Taylor
+s07_the_gauntlet,8,Red Barron,team,prize,Dave Giuntoli
+s07_the_gauntlet,8,Red Barron,team,prize,Rachel Robinson
+s07_the_gauntlet,8,Red Barron,team,prize,Roni Martin
+s07_the_gauntlet,8,Red Barron,team,prize,Sarah Greyson
+s07_the_gauntlet,8,Red Barron,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,8,Red Barron,team,prize,Veronica Portillo
+s07_the_gauntlet,8,Red Barron,team,prize,Abram Boise
+s07_the_gauntlet,8,Red Barron,team,prize,Laterrian Wallace
+s07_the_gauntlet,9,Inferno,team,prize,Alton Williams
+s07_the_gauntlet,9,Inferno,team,prize,Coral Smith
+s07_the_gauntlet,9,Inferno,team,prize,Mike Mizanin
+s07_the_gauntlet,9,Inferno,team,prize,Nathan Blackburn
+s07_the_gauntlet,9,Inferno,team,prize,Norman Korpi
+s07_the_gauntlet,9,Inferno,team,prize,Theo Gantt
+s07_the_gauntlet,9,Inferno,team,prize,Irulan Wilson
+s07_the_gauntlet,9,Inferno,team,prize,Rachel Braband
+s07_the_gauntlet,10,Rolling on a River,team,prize,Adam Larson
+s07_the_gauntlet,10,Rolling on a River,team,prize,Cara Zavaleta
+s07_the_gauntlet,10,Rolling on a River,team,prize,Darrell Taylor
+s07_the_gauntlet,10,Rolling on a River,team,prize,Dave Giuntoli
+s07_the_gauntlet,10,Rolling on a River,team,prize,Rachel Robinson
+s07_the_gauntlet,10,Rolling on a River,team,prize,Roni Martin
+s07_the_gauntlet,10,Rolling on a River,team,prize,Sarah Greyson
+s07_the_gauntlet,10,Rolling on a River,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,10,Rolling on a River,team,prize,Veronica Portillo
+s07_the_gauntlet,10,Rolling on a River,team,prize,Abram Boise
+s07_the_gauntlet,10,Rolling on a River,team,prize,Laterrian Wallace
+s07_the_gauntlet,11,Turntable,team,prize,Adam Larson
+s07_the_gauntlet,11,Turntable,team,prize,Cara Zavaleta
+s07_the_gauntlet,11,Turntable,team,prize,Darrell Taylor
+s07_the_gauntlet,11,Turntable,team,prize,Dave Giuntoli
+s07_the_gauntlet,11,Turntable,team,prize,Rachel Robinson
+s07_the_gauntlet,11,Turntable,team,prize,Roni Martin
+s07_the_gauntlet,11,Turntable,team,prize,Sarah Greyson
+s07_the_gauntlet,11,Turntable,team,prize,Theo von Kurnatowski
+s07_the_gauntlet,11,Turntable,team,prize,Veronica Portillo
+s07_the_gauntlet,11,Turntable,team,prize,Abram Boise
+s07_the_gauntlet,12,All or Nothing,team,prize,Alton Williams
+s07_the_gauntlet,12,All or Nothing,team,prize,Coral Smith
+s07_the_gauntlet,12,All or Nothing,team,prize,Mike Mizanin
+s07_the_gauntlet,12,All or Nothing,team,prize,Nathan Blackburn
+s07_the_gauntlet,12,All or Nothing,team,prize,Norman Korpi
+s07_the_gauntlet,12,All or Nothing,team,prize,Theo Gantt
+s07_the_gauntlet,12,All or Nothing,team,prize,Irulan Wilson
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Alton Williams
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Coral Smith
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Mike Mizanin
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Nathan Blackburn
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Norman Korpi
+s07_the_gauntlet,13,Vertical Sweep,team,prize,Theo Gantt
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Alton Williams
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Coral Smith
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Mike Mizanin
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Nathan Blackburn
+s07_the_gauntlet,14/15,Dukes of Saturn,team,prize,Norman Korpi
+s08_the_inferno,1,Grope the Rope,team,prize,Abram Boise
+s08_the_inferno,1,Grope the Rope,team,prize,Christena Pyle
+s08_the_inferno,1,Grope the Rope,team,prize,Darrell Taylor
+s08_the_inferno,1,Grope the Rope,team,prize,Holly Shand
+s08_the_inferno,1,Grope the Rope,team,prize,Katie Cooley
+s08_the_inferno,1,Grope the Rope,team,prize,Kendal Sheppard
+s08_the_inferno,1,Grope the Rope,team,prize,Veronica Portillo
+s08_the_inferno,1,Grope the Rope,team,prize,Shane Landrum
+s08_the_inferno,1,Grope the Rope,team,prize,Jeremy Blossom
+s08_the_inferno,2,Bird Feeder,team,prize,Coral Smith
+s08_the_inferno,2,Bird Feeder,team,prize,CT Tamburello
+s08_the_inferno,2,Bird Feeder,team,prize,Mike Mizanin
+s08_the_inferno,2,Bird Feeder,team,prize,Syrus Yarbrough
+s08_the_inferno,2,Bird Feeder,team,prize,David Burns
+s08_the_inferno,2,Bird Feeder,team,prize,Leah Gillingwater
+s08_the_inferno,2,Bird Feeder,team,prize,Julie Stoffer
+s08_the_inferno,2,Bird Feeder,team,prize,Mallory Snyder
+s08_the_inferno,2,Bird Feeder,team,prize,Trishelle Cannatella
+s08_the_inferno,3,Wreck N' Roll,team,prize,Abram Boise
+s08_the_inferno,3,Wreck N' Roll,team,prize,Christena Pyle
+s08_the_inferno,3,Wreck N' Roll,team,prize,Darrell Taylor
+s08_the_inferno,3,Wreck N' Roll,team,prize,Holly Shand
+s08_the_inferno,3,Wreck N' Roll,team,prize,Kendal Sheppard
+s08_the_inferno,3,Wreck N' Roll,team,prize,Veronica Portillo
+s08_the_inferno,3,Wreck N' Roll,team,prize,Shane Landrum
+s08_the_inferno,3,Wreck N' Roll,team,prize,Jeremy Blossom
+s08_the_inferno,4,Climbing Wall,team,prize,Abram Boise
+s08_the_inferno,4,Climbing Wall,team,prize,Christena Pyle
+s08_the_inferno,4,Climbing Wall,team,prize,Darrell Taylor
+s08_the_inferno,4,Climbing Wall,team,prize,Holly Shand
+s08_the_inferno,4,Climbing Wall,team,prize,Kendal Sheppard
+s08_the_inferno,4,Climbing Wall,team,prize,Veronica Portillo
+s08_the_inferno,4,Climbing Wall,team,prize,Shane Landrum
+s08_the_inferno,4,Climbing Wall,team,prize,Jeremy Blossom
+s08_the_inferno,5,Disco Domino Derby,team,prize,Coral Smith
+s08_the_inferno,5,Disco Domino Derby,team,prize,CT Tamburello
+s08_the_inferno,5,Disco Domino Derby,team,prize,Mike Mizanin
+s08_the_inferno,5,Disco Domino Derby,team,prize,Syrus Yarbrough
+s08_the_inferno,5,Disco Domino Derby,team,prize,David Burns
+s08_the_inferno,5,Disco Domino Derby,team,prize,Leah Gillingwater
+s08_the_inferno,5,Disco Domino Derby,team,prize,Julie Stoffer
+s08_the_inferno,5,Disco Domino Derby,team,prize,Mallory Snyder
+s08_the_inferno,6,Balls Out,team,prize,Coral Smith
+s08_the_inferno,6,Balls Out,team,prize,CT Tamburello
+s08_the_inferno,6,Balls Out,team,prize,Mike Mizanin
+s08_the_inferno,6,Balls Out,team,prize,Syrus Yarbrough
+s08_the_inferno,6,Balls Out,team,prize,David Burns
+s08_the_inferno,6,Balls Out,team,prize,Leah Gillingwater
+s08_the_inferno,6,Balls Out,team,prize,Julie Stoffer
+s08_the_inferno,6,Balls Out,team,prize,Mallory Snyder
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Abram Boise
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Christena Pyle
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Darrell Taylor
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Holly Shand
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Kendal Sheppard
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Veronica Portillo
+s08_the_inferno,7,Ultimate Saturn Road Trip,team,prize,Shane Landrum
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Abram Boise
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Christena Pyle
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Darrell Taylor
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Holly Shand
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Kendal Sheppard
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Veronica Portillo
+s08_the_inferno,8,Don't Yank My Chain,team,prize,Shane Landrum
+s08_the_inferno,9,Come Sail Away,team,prize,Abram Boise
+s08_the_inferno,9,Come Sail Away,team,prize,Christena Pyle
+s08_the_inferno,9,Come Sail Away,team,prize,Darrell Taylor
+s08_the_inferno,9,Come Sail Away,team,prize,Holly Shand
+s08_the_inferno,9,Come Sail Away,team,prize,Kendal Sheppard
+s08_the_inferno,9,Come Sail Away,team,prize,Veronica Portillo
+s08_the_inferno,10,Bungee Bound,team,prize,Abram Boise
+s08_the_inferno,10,Bungee Bound,team,prize,Christena Pyle
+s08_the_inferno,10,Bungee Bound,team,prize,Darrell Taylor
+s08_the_inferno,10,Bungee Bound,team,prize,Holly Shand
+s08_the_inferno,10,Bungee Bound,team,prize,Kendal Sheppard
+s08_the_inferno,10,Bungee Bound,team,prize,Veronica Portillo
+s08_the_inferno,11,Twist and Shoot,team,prize,Abram Boise
+s08_the_inferno,11,Twist and Shoot,team,prize,Christena Pyle
+s08_the_inferno,11,Twist and Shoot,team,prize,Darrell Taylor
+s08_the_inferno,11,Twist and Shoot,team,prize,Holly Shand
+s08_the_inferno,11,Twist and Shoot,team,prize,Kendal Sheppard
+s08_the_inferno,12,Balcony Swing,team,prize,Coral Smith
+s08_the_inferno,12,Balcony Swing,team,prize,CT Tamburello
+s08_the_inferno,12,Balcony Swing,team,prize,Mike Mizanin
+s08_the_inferno,12,Balcony Swing,team,prize,Syrus Yarbrough
+s08_the_inferno,12,Balcony Swing,team,prize,David Burns
+s08_the_inferno,12,Balcony Swing,team,prize,Leah Gillingwater
+s08_the_inferno,13,Fallen Angels,team,prize,Abram Boise
+s08_the_inferno,13,Fallen Angels,team,prize,Christena Pyle
+s08_the_inferno,13,Fallen Angels,team,prize,Darrell Taylor
+s08_the_inferno,13,Fallen Angels,team,prize,Holly Shand
+s08_the_inferno,13,Fallen Angels,team,prize,Kendal Sheppard
+s08_the_inferno,14/15,Saturn Valet Ballet,team,prize,Abram Boise
+s08_the_inferno,14/15,Saturn Valet Ballet,team,prize,Christena Pyle
+s08_the_inferno,14/15,Saturn Valet Ballet,team,prize,Darrell Taylor
+s08_the_inferno,14/15,Saturn Valet Ballet,team,prize,Holly Shand
+s08_the_inferno,14/15,Saturn Valet Ballet,team,prize,Kendal Sheppard
+s08_the_inferno,15/16,Window Washing,team,prize,Abram Boise
+s08_the_inferno,15/16,Window Washing,team,prize,Christena Pyle
+s08_the_inferno,15/16,Window Washing,team,prize,Darrell Taylor
+s08_the_inferno,15/16,Window Washing,team,prize,Holly Shand
+s08_the_inferno,15/16,Window Washing,team,prize,Kendal Sheppard
 s08_the_inferno,15/16,,individual,prize,Veronica Portillo
 s08_the_inferno,15/16,,individual,safety,David Burns
 s09_battle_of_the_sexes_2,1/2,Dangle Drop,individual,prize,Abram Boise
@@ -179,55 +370,319 @@ s09_battle_of_the_sexes_2,14,Semi-Cross,individual,safety,Dan Setzler
 s09_battle_of_the_sexes_2,14,,individual,prize,Sophia Pasquis
 s09_battle_of_the_sexes_2,15,Car-Go,individual,prize,Dan Setzler
 s09_battle_of_the_sexes_2,16,Vertigo,individual,prize,Arissa Hill
-s10_the_inferno_ii,2,Juice It Up,individual,prize,Mike Mizanin
-s10_the_inferno_ii,2,Juice It Up,individual,safety,CT Tamburello
-s10_the_inferno_ii,4,Run for Your Money,individual,prize,Mike Mizanin
-s10_the_inferno_ii,4,Run for Your Money,individual,safety,Derrick Kosinski
-s10_the_inferno_ii,6,Dodge Yer Balls,individual,prize,Landon Lueck
-s10_the_inferno_ii,6,Dodge Yer Balls,individual,safety,CT Tamburello
-s10_the_inferno_ii,8,Zip Up,individual,prize,Landon Lueck
-s10_the_inferno_ii,8,Zip Up,individual,safety,CT Tamburello
-s10_the_inferno_ii,10,What a Drag,individual,prize,Mike Mizanin
-s10_the_inferno_ii,10,What a Drag,individual,safety,CT Tamburello
-s10_the_inferno_ii,12,Time to Ride,individual,prize,Landon Lueck
-s10_the_inferno_ii,12,Time to Ride,individual,safety,Derrick Kosinski
-s10_the_inferno_ii,14,Crab Grab,individual,prize,Darrell Taylor
-s10_the_inferno_ii,14,Crab Grab,individual,safety,CT Tamburello
+s10_the_inferno_ii,1,Surf Torture,team,prize,Abram Boise
+s10_the_inferno_ii,1,Surf Torture,team,prize,CT Tamburello
+s10_the_inferno_ii,1,Surf Torture,team,prize,Derrick Kosinski
+s10_the_inferno_ii,1,Surf Torture,team,prize,Rachel Robinson
+s10_the_inferno_ii,1,Surf Torture,team,prize,Tina Barta
+s10_the_inferno_ii,1,Surf Torture,team,prize,Tonya Cooley
+s10_the_inferno_ii,1,Surf Torture,team,prize,Veronica Portillo
+s10_the_inferno_ii,1,Surf Torture,team,prize,Karamo Brown
+s10_the_inferno_ii,1,Surf Torture,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,2,Juice It Up,team,prize,Abram Boise
+s10_the_inferno_ii,2,Juice It Up,team,prize,CT Tamburello
+s10_the_inferno_ii,2,Juice It Up,team,prize,Derrick Kosinski
+s10_the_inferno_ii,2,Juice It Up,team,prize,Rachel Robinson
+s10_the_inferno_ii,2,Juice It Up,team,prize,Tina Barta
+s10_the_inferno_ii,2,Juice It Up,team,prize,Tonya Cooley
+s10_the_inferno_ii,2,Juice It Up,team,prize,Veronica Portillo
+s10_the_inferno_ii,2,Juice It Up,team,prize,Karamo Brown
+s10_the_inferno_ii,2,Juice It Up,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Abram Boise
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,CT Tamburello
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Derrick Kosinski
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Rachel Robinson
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Tonya Cooley
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Veronica Portillo
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Karamo Brown
+s10_the_inferno_ii,3,X Marks the Spot,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Darrell Taylor
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Jamie Chung
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Landon Lueck
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Mike Mizanin
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Julie Stoffer
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Brad Fiorenza
+s10_the_inferno_ii,4,Run for Your Money,team,prize,Jodi Weatherton
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Darrell Taylor
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Jamie Chung
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Landon Lueck
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Mike Mizanin
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Julie Stoffer
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Brad Fiorenza
+s10_the_inferno_ii,5,Shirt Off My Back,team,prize,Jodi Weatherton
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,Abram Boise
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,CT Tamburello
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,Derrick Kosinski
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,Rachel Robinson
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,Tonya Cooley
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,Veronica Portillo
+s10_the_inferno_ii,6,Dodge Yer Balls,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,7,Fill in the Gaps,team,prize,Abram Boise
+s10_the_inferno_ii,7,Fill in the Gaps,team,prize,CT Tamburello
+s10_the_inferno_ii,7,Fill in the Gaps,team,prize,Derrick Kosinski
+s10_the_inferno_ii,7,Fill in the Gaps,team,prize,Rachel Robinson
+s10_the_inferno_ii,7,Fill in the Gaps,team,prize,Tonya Cooley
+s10_the_inferno_ii,7,Fill in the Gaps,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,8,Zip Up,team,prize,Darrell Taylor
+s10_the_inferno_ii,8,Zip Up,team,prize,Jamie Chung
+s10_the_inferno_ii,8,Zip Up,team,prize,Landon Lueck
+s10_the_inferno_ii,8,Zip Up,team,prize,Mike Mizanin
+s10_the_inferno_ii,8,Zip Up,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,8,Zip Up,team,prize,Julie Stoffer
+s10_the_inferno_ii,8,Zip Up,team,prize,Brad Fiorenza
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Darrell Taylor
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Jamie Chung
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Landon Lueck
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Mike Mizanin
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Julie Stoffer
+s10_the_inferno_ii,9,Never Ending Climb,team,prize,Brad Fiorenza
+s10_the_inferno_ii,10,What a Drag,team,prize,CT Tamburello
+s10_the_inferno_ii,10,What a Drag,team,prize,Derrick Kosinski
+s10_the_inferno_ii,10,What a Drag,team,prize,Rachel Robinson
+s10_the_inferno_ii,10,What a Drag,team,prize,Tonya Cooley
+s10_the_inferno_ii,10,What a Drag,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,11,Riddle Me This,team,prize,Darrell Taylor
+s10_the_inferno_ii,11,Riddle Me This,team,prize,Jamie Chung
+s10_the_inferno_ii,11,Riddle Me This,team,prize,Landon Lueck
+s10_the_inferno_ii,11,Riddle Me This,team,prize,Mike Mizanin
+s10_the_inferno_ii,11,Riddle Me This,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,11,Riddle Me This,team,prize,Julie Stoffer
+s10_the_inferno_ii,12,Time to Ride,team,prize,CT Tamburello
+s10_the_inferno_ii,12,Time to Ride,team,prize,Derrick Kosinski
+s10_the_inferno_ii,12,Time to Ride,team,prize,Rachel Robinson
+s10_the_inferno_ii,12,Time to Ride,team,prize,Beth Stolarczyk
+s10_the_inferno_ii,13,If Memory Serves,team,prize,Darrell Taylor
+s10_the_inferno_ii,13,If Memory Serves,team,prize,Jamie Chung
+s10_the_inferno_ii,13,If Memory Serves,team,prize,Landon Lueck
+s10_the_inferno_ii,13,If Memory Serves,team,prize,Mike Mizanin
+s10_the_inferno_ii,13,If Memory Serves,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,14,Crab Grab,team,prize,Darrell Taylor
+s10_the_inferno_ii,14,Crab Grab,team,prize,Jamie Chung
+s10_the_inferno_ii,14,Crab Grab,team,prize,Landon Lueck
+s10_the_inferno_ii,14,Crab Grab,team,prize,Mike Mizanin
+s10_the_inferno_ii,14,Crab Grab,team,prize,Shavonda Billingslea
+s10_the_inferno_ii,15,Heart Rate Bungee,team,prize,Darrell Taylor
+s10_the_inferno_ii,15,Heart Rate Bungee,team,prize,Jamie Chung
+s10_the_inferno_ii,15,Heart Rate Bungee,team,prize,Landon Lueck
+s10_the_inferno_ii,15,Heart Rate Bungee,team,prize,Mike Mizanin
+s10_the_inferno_ii,15,Heart Rate Bungee,team,prize,Shavonda Billingslea
 s10_the_inferno_ii,15,,individual,prize,CT Tamburello
-s11_the_gauntlet_2,2,Chock Full o' Coconuts,individual,prize,Adam Larson
-s11_the_gauntlet_2,2,Chock Full o' Coconuts,individual,safety,Derrick Kosinski
-s11_the_gauntlet_2,3,Team Builders,individual,prize,Kina Dean
-s11_the_gauntlet_2,3,Team Builders,individual,safety,Cameran Eubanks
-s11_the_gauntlet_2,4,Moving Pyramid,individual,prize,Alton Williams
-s11_the_gauntlet_2,4,Moving Pyramid,individual,safety,Danny Dias
-s11_the_gauntlet_2,5,Spongeworthy,individual,prize,Ruthie Alcaide
-s11_the_gauntlet_2,5,Spongeworthy,individual,safety,Jisela Delgado
-s11_the_gauntlet_2,6,Body Painters,individual,prize,Alton Williams
-s11_the_gauntlet_2,6,Body Painters,individual,safety,Adam King
-s11_the_gauntlet_2,7,Rickshaw Races,individual,prize,Ruthie Alcaide
-s11_the_gauntlet_2,7,Rickshaw Races,individual,safety,Beth Stolarczyk
-s11_the_gauntlet_2,8,Team Strength,individual,prize,Derrick Kosinski
-s11_the_gauntlet_2,8,Team Strength,individual,safety,Ace Amerson
-s11_the_gauntlet_2,9,Balancing Act,individual,prize,Beth Stolarczyk
-s11_the_gauntlet_2,9,Balancing Act,individual,safety,Montana McGlynn
-s11_the_gauntlet_2,10,Buck-A-Neer,individual,prize,Derrick Kosinski
-s11_the_gauntlet_2,10,Buck-A-Neer,individual,safety,Syrus Yarbrough
-s11_the_gauntlet_2,11,Pull Me,individual,prize,Kina Dean
-s11_the_gauntlet_2,11,Pull Me,individual,safety,Cara Zavaleta
-s11_the_gauntlet_2,12,Spare Tires,individual,prize,Alton Williams
-s11_the_gauntlet_2,12,Spare Tires,individual,safety,Jeremy Blossom
-s11_the_gauntlet_2,13,Easy Does It,individual,prize,Beth Stolarczyk
-s11_the_gauntlet_2,13,Easy Does It,individual,safety,Aneesa Ferreira
-s11_the_gauntlet_2,14,The Pit,individual,prize,Derrick Kosinski
-s11_the_gauntlet_2,14,The Pit,individual,safety,Brad Fiorenza
-s11_the_gauntlet_2,15,Blind Trust,individual,prize,Kina Dean
-s11_the_gauntlet_2,15,Blind Trust,individual,safety,Jillian Zoboroski
-s11_the_gauntlet_2,16/17,Piece by Piece,individual,prize,Derrick Kosinski
-s11_the_gauntlet_2,16/17,Piece by Piece,individual,safety,Timmy Beggy
-s12_fresh_meat,14,Target Training,pair,prize,Tina Barta
-s12_fresh_meat,14,Target Training,pair,prize,Kenny Santucci
-s12_fresh_meat,15,What a Croc,pair,prize,Darrell Taylor
-s12_fresh_meat,15,What a Croc,pair,prize,Aviv Melmed
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Ibis Nieves
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Jamie Murray
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Kina Dean
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Landon Lueck
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,MJ Garrett
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Randy Barry
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Susie Meister
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Jeremy Blossom
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Cara Zavaleta
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Adam King
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Danny Dias
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,2,Chock Full o' Coconuts,team,prize,Jo Rhodes
+s11_the_gauntlet_2,3,Team Builders,team,prize,Aneesa Ferreira
+s11_the_gauntlet_2,3,Team Builders,team,prize,David Burns
+s11_the_gauntlet_2,3,Team Builders,team,prize,Julie Stoffer
+s11_the_gauntlet_2,3,Team Builders,team,prize,Katie Cooley
+s11_the_gauntlet_2,3,Team Builders,team,prize,Mark Long
+s11_the_gauntlet_2,3,Team Builders,team,prize,Robin Hibbard
+s11_the_gauntlet_2,3,Team Builders,team,prize,Timmy Beggy
+s11_the_gauntlet_2,3,Team Builders,team,prize,Derrick Kosinski
+s11_the_gauntlet_2,3,Team Builders,team,prize,Brad Fiorenza
+s11_the_gauntlet_2,3,Team Builders,team,prize,Beth Stolarczyk
+s11_the_gauntlet_2,3,Team Builders,team,prize,Syrus Yarbrough
+s11_the_gauntlet_2,3,Team Builders,team,prize,Montana McGlynn
+s11_the_gauntlet_2,3,Team Builders,team,prize,Ace Amerson
+s11_the_gauntlet_2,3,Team Builders,team,prize,Jisela Delgado
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Aneesa Ferreira
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,David Burns
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Julie Stoffer
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Katie Cooley
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Mark Long
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Robin Hibbard
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Timmy Beggy
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Derrick Kosinski
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Brad Fiorenza
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Beth Stolarczyk
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Syrus Yarbrough
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Montana McGlynn
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Ace Amerson
+s11_the_gauntlet_2,4,Moving Pyramid,team,prize,Jisela Delgado
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Ibis Nieves
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Jamie Murray
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Kina Dean
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Landon Lueck
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,MJ Garrett
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Randy Barry
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Susie Meister
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Jeremy Blossom
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Cara Zavaleta
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Adam King
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,5,Spongeworthy,team,prize,Jo Rhodes
+s11_the_gauntlet_2,6,Body Painters,team,prize,Aneesa Ferreira
+s11_the_gauntlet_2,6,Body Painters,team,prize,David Burns
+s11_the_gauntlet_2,6,Body Painters,team,prize,Julie Stoffer
+s11_the_gauntlet_2,6,Body Painters,team,prize,Katie Cooley
+s11_the_gauntlet_2,6,Body Painters,team,prize,Mark Long
+s11_the_gauntlet_2,6,Body Painters,team,prize,Robin Hibbard
+s11_the_gauntlet_2,6,Body Painters,team,prize,Timmy Beggy
+s11_the_gauntlet_2,6,Body Painters,team,prize,Derrick Kosinski
+s11_the_gauntlet_2,6,Body Painters,team,prize,Brad Fiorenza
+s11_the_gauntlet_2,6,Body Painters,team,prize,Beth Stolarczyk
+s11_the_gauntlet_2,6,Body Painters,team,prize,Syrus Yarbrough
+s11_the_gauntlet_2,6,Body Painters,team,prize,Montana McGlynn
+s11_the_gauntlet_2,6,Body Painters,team,prize,Ace Amerson
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Ibis Nieves
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Jamie Murray
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Kina Dean
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Landon Lueck
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,MJ Garrett
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Randy Barry
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Susie Meister
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Jeremy Blossom
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Cara Zavaleta
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,7,Rickshaw Races,team,prize,Jo Rhodes
+s11_the_gauntlet_2,8,Team Strength,team,prize,Ibis Nieves
+s11_the_gauntlet_2,8,Team Strength,team,prize,Jamie Murray
+s11_the_gauntlet_2,8,Team Strength,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,8,Team Strength,team,prize,Kina Dean
+s11_the_gauntlet_2,8,Team Strength,team,prize,Landon Lueck
+s11_the_gauntlet_2,8,Team Strength,team,prize,MJ Garrett
+s11_the_gauntlet_2,8,Team Strength,team,prize,Randy Barry
+s11_the_gauntlet_2,8,Team Strength,team,prize,Susie Meister
+s11_the_gauntlet_2,8,Team Strength,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,8,Team Strength,team,prize,Jeremy Blossom
+s11_the_gauntlet_2,8,Team Strength,team,prize,Cara Zavaleta
+s11_the_gauntlet_2,8,Team Strength,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,8,Team Strength,team,prize,Jo Rhodes
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Ibis Nieves
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Jamie Murray
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Kina Dean
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Landon Lueck
+s11_the_gauntlet_2,9,Balancing Act,team,prize,MJ Garrett
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Randy Barry
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Susie Meister
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Jeremy Blossom
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Cara Zavaleta
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,9,Balancing Act,team,prize,Jo Rhodes
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Ibis Nieves
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Jamie Murray
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Kina Dean
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Landon Lueck
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,MJ Garrett
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Randy Barry
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Susie Meister
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Jeremy Blossom
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Cara Zavaleta
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,10,Buck-A-Neer,team,prize,Jo Rhodes
+s11_the_gauntlet_2,11,Pull Me,team,prize,Aneesa Ferreira
+s11_the_gauntlet_2,11,Pull Me,team,prize,David Burns
+s11_the_gauntlet_2,11,Pull Me,team,prize,Julie Stoffer
+s11_the_gauntlet_2,11,Pull Me,team,prize,Katie Cooley
+s11_the_gauntlet_2,11,Pull Me,team,prize,Mark Long
+s11_the_gauntlet_2,11,Pull Me,team,prize,Robin Hibbard
+s11_the_gauntlet_2,11,Pull Me,team,prize,Timmy Beggy
+s11_the_gauntlet_2,11,Pull Me,team,prize,Derrick Kosinski
+s11_the_gauntlet_2,11,Pull Me,team,prize,Brad Fiorenza
+s11_the_gauntlet_2,11,Pull Me,team,prize,Beth Stolarczyk
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Aneesa Ferreira
+s11_the_gauntlet_2,12,Spare Tires,team,prize,David Burns
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Julie Stoffer
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Katie Cooley
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Mark Long
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Robin Hibbard
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Timmy Beggy
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Derrick Kosinski
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Brad Fiorenza
+s11_the_gauntlet_2,12,Spare Tires,team,prize,Beth Stolarczyk
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Ibis Nieves
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Jamie Murray
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Kina Dean
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Landon Lueck
+s11_the_gauntlet_2,13,Easy Does It,team,prize,MJ Garrett
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Randy Barry
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Susie Meister
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,13,Easy Does It,team,prize,Jo Rhodes
+s11_the_gauntlet_2,14,The Pit,team,prize,Ibis Nieves
+s11_the_gauntlet_2,14,The Pit,team,prize,Jamie Murray
+s11_the_gauntlet_2,14,The Pit,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,14,The Pit,team,prize,Kina Dean
+s11_the_gauntlet_2,14,The Pit,team,prize,Landon Lueck
+s11_the_gauntlet_2,14,The Pit,team,prize,MJ Garrett
+s11_the_gauntlet_2,14,The Pit,team,prize,Randy Barry
+s11_the_gauntlet_2,14,The Pit,team,prize,Susie Meister
+s11_the_gauntlet_2,14,The Pit,team,prize,Jillian Zoboroski
+s11_the_gauntlet_2,14,The Pit,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,14,The Pit,team,prize,Jo Rhodes
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Aneesa Ferreira
+s11_the_gauntlet_2,15,Blind Trust,team,prize,David Burns
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Julie Stoffer
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Katie Cooley
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Mark Long
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Robin Hibbard
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Timmy Beggy
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Derrick Kosinski
+s11_the_gauntlet_2,15,Blind Trust,team,prize,Beth Stolarczyk
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Ibis Nieves
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Jamie Murray
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Jodi Weatherton
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Kina Dean
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Landon Lueck
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,MJ Garrett
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Randy Barry
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Susie Meister
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Cameran Eubanks
+s11_the_gauntlet_2,16/17,Piece by Piece,team,prize,Jo Rhodes
+s12_fresh_meat,1,Stuck on Me,pair,prize,Coral Smith
+s12_fresh_meat,1,Stuck on Me,pair,prize,Evan Starkman
+s12_fresh_meat,2,Bushwhacked,pair,prize,Coral Smith
+s12_fresh_meat,2,Bushwhacked,pair,prize,Evan Starkman
+s12_fresh_meat,3,Hang On,pair,prize,Coral Smith
+s12_fresh_meat,3,Hang On,pair,prize,Evan Starkman
+s12_fresh_meat,4,Jail Break,pair,prize,Theo von Kurnatowski
+s12_fresh_meat,4,Jail Break,pair,prize,Chanda Sneed
+s12_fresh_meat,5,Climber's Paradise,pair,prize,Coral Smith
+s12_fresh_meat,5,Climber's Paradise,pair,prize,Evan Starkman
+s12_fresh_meat,6,Rollin' in Oats,pair,prize,Coral Smith
+s12_fresh_meat,6,Rollin' in Oats,pair,prize,Evan Starkman
+s12_fresh_meat,7,Crossed Paths,pair,prize,Theo von Kurnatowski
+s12_fresh_meat,7,Crossed Paths,pair,prize,Chanda Sneed
+s12_fresh_meat,8,Incredible Deflating Kayak,pair,prize,Shane Landrum
+s12_fresh_meat,8,Incredible Deflating Kayak,pair,prize,Linette Gallo
+s12_fresh_meat,9,Swimming with Sharks,pair,prize,Shane Landrum
+s12_fresh_meat,9,Swimming with Sharks,pair,prize,Linette Gallo
+s12_fresh_meat,10,Human Ox Pull,pair,prize,Darrell Taylor
+s12_fresh_meat,10,Human Ox Pull,pair,prize,Aviv Melmed
+s12_fresh_meat,11,Batten Down the Hatches,pair,prize,Derrick Kosinski
+s12_fresh_meat,11,Batten Down the Hatches,pair,prize,Diem Brown
+s12_fresh_meat,12,Jump Down Under,pair,prize,Derrick Kosinski
+s12_fresh_meat,12,Jump Down Under,pair,prize,Diem Brown
+s12_fresh_meat,13,Deep Blue,pair,prize,Derrick Kosinski
+s12_fresh_meat,13,Deep Blue,pair,prize,Diem Brown
+s12_fresh_meat,14,Target Training,pair,prize,Darrell Taylor
+s12_fresh_meat,14,Target Training,pair,prize,Aviv Melmed
+s12_fresh_meat,15,What a Croc,pair,prize,Tina Barta
+s12_fresh_meat,15,What a Croc,pair,prize,Kenny Santucci
 s13_the_duel,1/2,Reaching Out,individual,prize,Robin Hibbard
 s13_the_duel,1/2,Reaching Out,individual,safety,Big Easy Banks
 s13_the_duel,2/3,Ring Toss,individual,prize,Kenny Santucci
@@ -262,202 +717,454 @@ s13_the_duel,15,Paddle Me,pair,safety,CT Tamburello
 s13_the_duel,15,,individual,prize,Jodi Weatherton
 s13_the_duel,15,,pair,safety,Aneesa Ferreira
 s13_the_duel,15,,pair,safety,Svetlana Shusterman
-s14_the_inferno_3,2/3,Ladder Race,individual,prize,Alton Williams
-s14_the_inferno_3,2/3,Ladder Race,individual,safety,Abram Boise
-s14_the_inferno_3,4,Wrap and Roll,individual,prize,Susie Meister
-s14_the_inferno_3,4,Wrap and Roll,individual,safety,Rachel Moyal
-s14_the_inferno_3,6,Reversible Climbing Wall,individual,prize,Johnny Bananas
-s14_the_inferno_3,6,Reversible Climbing Wall,individual,safety,Abram Boise
-s14_the_inferno_3,8,Steady as You Go,individual,prize,Susie Meister
-s14_the_inferno_3,8,Steady as You Go,individual,safety,Tonya Cooley
-s14_the_inferno_3,10,Dog Day Afternoon,individual,prize,Ace Amerson
-s14_the_inferno_3,10,Dog Day Afternoon,individual,safety,Kenny Santucci
-s14_the_inferno_3,12,Giraffic Park,individual,prize,Paula Meronek
-s14_the_inferno_3,12,Giraffic Park,individual,safety,Janelle Casanave
-s14_the_inferno_3,14,Hook Me,individual,prize,Johnny Bananas
-s14_the_inferno_3,14,Hook Me,individual,safety,Kenny Santucci
-s14_the_inferno_3,15,Nothin' but Net,individual,prize,Susie Meister
-s14_the_inferno_3,15,Nothin' but Net,individual,safety,Evelyn Smith
+s14_the_inferno_3,1,Unbraided,team,prize,Derrick Kosinski
+s14_the_inferno_3,1,Unbraided,team,prize,Evelyn Smith
+s14_the_inferno_3,1,Unbraided,team,prize,Janelle Casanave
+s14_the_inferno_3,1,Unbraided,team,prize,Kenny Santucci
+s14_the_inferno_3,1,Unbraided,team,prize,Tonya Cooley
+s14_the_inferno_3,1,Unbraided,team,prize,Aneesa Ferreira
+s14_the_inferno_3,1,Unbraided,team,prize,Jenn Grijalva
+s14_the_inferno_3,1,Unbraided,team,prize,Danny Jamieson
+s14_the_inferno_3,1,Unbraided,team,prize,Tyri Ballard-Brown
+s14_the_inferno_3,1,Unbraided,team,prize,CT Tamburello
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Derrick Kosinski
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Evelyn Smith
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Janelle Casanave
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Kenny Santucci
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Tonya Cooley
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Aneesa Ferreira
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Jenn Grijalva
+s14_the_inferno_3,2/3,Ladder Race,team,prize,Danny Jamieson
+s14_the_inferno_3,2/3,Ladder Race,team,prize,CT Tamburello
+s14_the_inferno_3,3,Battering Ram,team,prize,Ace Amerson
+s14_the_inferno_3,3,Battering Ram,team,prize,Alton Williams
+s14_the_inferno_3,3,Battering Ram,team,prize,Cara Zavaleta
+s14_the_inferno_3,3,Battering Ram,team,prize,Johnny Bananas
+s14_the_inferno_3,3,Battering Ram,team,prize,Paula Meronek
+s14_the_inferno_3,3,Battering Ram,team,prize,Susie Meister
+s14_the_inferno_3,3,Battering Ram,team,prize,Davis Mallory
+s14_the_inferno_3,3,Battering Ram,team,prize,Timmy Beggy
+s14_the_inferno_3,3,Battering Ram,team,prize,Colie
+s14_the_inferno_3,3,Battering Ram,team,prize,Rachel Moyal
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Ace Amerson
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Alton Williams
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Cara Zavaleta
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Johnny Bananas
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Paula Meronek
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Susie Meister
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Davis Mallory
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Timmy Beggy
+s14_the_inferno_3,4,Wrap and Roll,team,prize,Colie
+s14_the_inferno_3,5,Rope Burn,team,prize,Ace Amerson
+s14_the_inferno_3,5,Rope Burn,team,prize,Alton Williams
+s14_the_inferno_3,5,Rope Burn,team,prize,Cara Zavaleta
+s14_the_inferno_3,5,Rope Burn,team,prize,Johnny Bananas
+s14_the_inferno_3,5,Rope Burn,team,prize,Paula Meronek
+s14_the_inferno_3,5,Rope Burn,team,prize,Susie Meister
+s14_the_inferno_3,5,Rope Burn,team,prize,Davis Mallory
+s14_the_inferno_3,5,Rope Burn,team,prize,Timmy Beggy
+s14_the_inferno_3,5,Rope Burn,team,prize,Colie
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,Derrick Kosinski
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,Evelyn Smith
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,Janelle Casanave
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,Kenny Santucci
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,Tonya Cooley
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,Aneesa Ferreira
+s14_the_inferno_3,6,Reversible Climbing Wall,team,prize,CT Tamburello
+s14_the_inferno_3,7,Grape Smash,team,prize,Derrick Kosinski
+s14_the_inferno_3,7,Grape Smash,team,prize,Evelyn Smith
+s14_the_inferno_3,7,Grape Smash,team,prize,Janelle Casanave
+s14_the_inferno_3,7,Grape Smash,team,prize,Kenny Santucci
+s14_the_inferno_3,7,Grape Smash,team,prize,Tonya Cooley
+s14_the_inferno_3,7,Grape Smash,team,prize,Aneesa Ferreira
+s14_the_inferno_3,7,Grape Smash,team,prize,CT Tamburello
+s14_the_inferno_3,8,Steady as You Go,team,prize,Ace Amerson
+s14_the_inferno_3,8,Steady as You Go,team,prize,Alton Williams
+s14_the_inferno_3,8,Steady as You Go,team,prize,Cara Zavaleta
+s14_the_inferno_3,8,Steady as You Go,team,prize,Johnny Bananas
+s14_the_inferno_3,8,Steady as You Go,team,prize,Paula Meronek
+s14_the_inferno_3,8,Steady as You Go,team,prize,Susie Meister
+s14_the_inferno_3,8,Steady as You Go,team,prize,Davis Mallory
+s14_the_inferno_3,8,Steady as You Go,team,prize,Timmy Beggy
+s14_the_inferno_3,9,Leaps and Bounds,team,prize,Derrick Kosinski
+s14_the_inferno_3,9,Leaps and Bounds,team,prize,Evelyn Smith
+s14_the_inferno_3,9,Leaps and Bounds,team,prize,Janelle Casanave
+s14_the_inferno_3,9,Leaps and Bounds,team,prize,Tonya Cooley
+s14_the_inferno_3,9,Leaps and Bounds,team,prize,Aneesa Ferreira
+s14_the_inferno_3,9,Leaps and Bounds,team,prize,CT Tamburello
+s14_the_inferno_3,10,Dog Day Afternoon,team,prize,Derrick Kosinski
+s14_the_inferno_3,10,Dog Day Afternoon,team,prize,Evelyn Smith
+s14_the_inferno_3,10,Dog Day Afternoon,team,prize,Janelle Casanave
+s14_the_inferno_3,10,Dog Day Afternoon,team,prize,Tonya Cooley
+s14_the_inferno_3,10,Dog Day Afternoon,team,prize,Aneesa Ferreira
+s14_the_inferno_3,10,Dog Day Afternoon,team,prize,CT Tamburello
+s14_the_inferno_3,11,Hand Car,team,prize,Ace Amerson
+s14_the_inferno_3,11,Hand Car,team,prize,Alton Williams
+s14_the_inferno_3,11,Hand Car,team,prize,Cara Zavaleta
+s14_the_inferno_3,11,Hand Car,team,prize,Johnny Bananas
+s14_the_inferno_3,11,Hand Car,team,prize,Paula Meronek
+s14_the_inferno_3,11,Hand Car,team,prize,Susie Meister
+s14_the_inferno_3,11,Hand Car,team,prize,Davis Mallory
+s14_the_inferno_3,12,Giraffic Park,team,prize,Ace Amerson
+s14_the_inferno_3,12,Giraffic Park,team,prize,Alton Williams
+s14_the_inferno_3,12,Giraffic Park,team,prize,Cara Zavaleta
+s14_the_inferno_3,12,Giraffic Park,team,prize,Johnny Bananas
+s14_the_inferno_3,12,Giraffic Park,team,prize,Paula Meronek
+s14_the_inferno_3,12,Giraffic Park,team,prize,Susie Meister
+s14_the_inferno_3,12,Giraffic Park,team,prize,Davis Mallory
+s14_the_inferno_3,13,Captain's Chair,team,prize,Evelyn Smith
+s14_the_inferno_3,13,Captain's Chair,team,prize,Janelle Casanave
+s14_the_inferno_3,13,Captain's Chair,team,prize,Tonya Cooley
+s14_the_inferno_3,13,Captain's Chair,team,prize,Aneesa Ferreira
+s14_the_inferno_3,13,Captain's Chair,team,prize,CT Tamburello
+s14_the_inferno_3,14,Hook Me,team,prize,Evelyn Smith
+s14_the_inferno_3,14,Hook Me,team,prize,Janelle Casanave
+s14_the_inferno_3,14,Hook Me,team,prize,Tonya Cooley
+s14_the_inferno_3,14,Hook Me,team,prize,CT Tamburello
+s14_the_inferno_3,15,Nothin' but Net,team,prize,Evelyn Smith
+s14_the_inferno_3,15,Nothin' but Net,team,prize,Janelle Casanave
+s14_the_inferno_3,15,Nothin' but Net,team,prize,Tonya Cooley
+s14_the_inferno_3,15,Nothin' but Net,team,prize,CT Tamburello
 s15_the_gauntlet_iii,1,,individual,prize,Ryan Kehoe
 s15_the_gauntlet_iii,1,,individual,safety,Nehemiah Clark
-s15_the_gauntlet_iii,2,Screw You,individual,prize,Brooke LaBarbera
-s15_the_gauntlet_iii,2,Screw You,individual,safety,Jillian Zoboroski
+s15_the_gauntlet_iii,2,Screw You,team,prize,Adam King
+s15_the_gauntlet_iii,2,Screw You,team,prize,Brad Fiorenza
+s15_the_gauntlet_iii,2,Screw You,team,prize,CT Tamburello
+s15_the_gauntlet_iii,2,Screw You,team,prize,Diem Brown
+s15_the_gauntlet_iii,2,Screw You,team,prize,Big Easy Banks
+s15_the_gauntlet_iii,2,Screw You,team,prize,Evan Starkman
+s15_the_gauntlet_iii,2,Screw You,team,prize,Evelyn Smith
+s15_the_gauntlet_iii,2,Screw You,team,prize,Kenny Santucci
+s15_the_gauntlet_iii,2,Screw You,team,prize,Paula Meronek
+s15_the_gauntlet_iii,2,Screw You,team,prize,Robin Hibbard
+s15_the_gauntlet_iii,2,Screw You,team,prize,Danny Jamieson
+s15_the_gauntlet_iii,2,Screw You,team,prize,Katie Cooley
+s15_the_gauntlet_iii,2,Screw You,team,prize,Casey Cooper
+s15_the_gauntlet_iii,2,Screw You,team,prize,Coral Smith
+s15_the_gauntlet_iii,2,Screw You,team,prize,Beth Stolarczyk
+s15_the_gauntlet_iii,2,Screw You,team,prize,Johnny Bananas
 s15_the_gauntlet_iii,2,,individual,prize,Tyri Ballard-Brown
 s15_the_gauntlet_iii,2,,individual,safety,Tyler Duckworth
-s15_the_gauntlet_iii,3,Wring Out,individual,prize,Tori Hall
-s15_the_gauntlet_iii,3,Wring Out,individual,safety,Jillian Zoboroski
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Adam King
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Brad Fiorenza
+s15_the_gauntlet_iii,3,Wring Out,team,prize,CT Tamburello
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Diem Brown
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Big Easy Banks
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Evan Starkman
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Evelyn Smith
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Kenny Santucci
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Paula Meronek
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Robin Hibbard
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Danny Jamieson
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Katie Cooley
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Casey Cooper
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Coral Smith
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Beth Stolarczyk
+s15_the_gauntlet_iii,3,Wring Out,team,prize,Johnny Bananas
 s15_the_gauntlet_iii,3,,individual,prize,Adam King
 s15_the_gauntlet_iii,3,,individual,safety,Evan Starkman
-s15_the_gauntlet_iii,4,Push It,individual,prize,Johanna Botta
-s15_the_gauntlet_iii,4,Push It,individual,safety,Janelle Casanave
+s15_the_gauntlet_iii,4,Push It,team,prize,Adam King
+s15_the_gauntlet_iii,4,Push It,team,prize,Brad Fiorenza
+s15_the_gauntlet_iii,4,Push It,team,prize,CT Tamburello
+s15_the_gauntlet_iii,4,Push It,team,prize,Diem Brown
+s15_the_gauntlet_iii,4,Push It,team,prize,Big Easy Banks
+s15_the_gauntlet_iii,4,Push It,team,prize,Evan Starkman
+s15_the_gauntlet_iii,4,Push It,team,prize,Evelyn Smith
+s15_the_gauntlet_iii,4,Push It,team,prize,Kenny Santucci
+s15_the_gauntlet_iii,4,Push It,team,prize,Paula Meronek
+s15_the_gauntlet_iii,4,Push It,team,prize,Robin Hibbard
+s15_the_gauntlet_iii,4,Push It,team,prize,Danny Jamieson
+s15_the_gauntlet_iii,4,Push It,team,prize,Katie Cooley
+s15_the_gauntlet_iii,4,Push It,team,prize,Casey Cooper
+s15_the_gauntlet_iii,4,Push It,team,prize,Coral Smith
+s15_the_gauntlet_iii,4,Push It,team,prize,Beth Stolarczyk
 s15_the_gauntlet_iii,4,,individual,prize,Ryan Kehoe
 s15_the_gauntlet_iii,4,,individual,safety,Frank Roessler
-s15_the_gauntlet_iii,5,Assembly Required,individual,prize,Casey Cooper
-s15_the_gauntlet_iii,5,Assembly Required,individual,safety,Coral Smith
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Frank Roessler
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Jillian Zoboroski
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Johanna Botta
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Nehemiah Clark
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Rachel Moyal
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Tori Hall
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Ryan Kehoe
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,MJ Garrett
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Melinda Collins
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Derek McCray
+s15_the_gauntlet_iii,5,Assembly Required,team,prize,Tyri Ballard-Brown
 s15_the_gauntlet_iii,5,,individual,prize,MJ Garrett
 s15_the_gauntlet_iii,5,,individual,safety,Derek McCray
-s15_the_gauntlet_iii,6,Pole Push,individual,prize,Rachel Moyal
-s15_the_gauntlet_iii,6,Pole Push,individual,safety,Melinda Collins
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Adam King
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Brad Fiorenza
+s15_the_gauntlet_iii,6,Pole Push,team,prize,CT Tamburello
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Diem Brown
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Big Easy Banks
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Evan Starkman
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Evelyn Smith
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Kenny Santucci
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Paula Meronek
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Robin Hibbard
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Danny Jamieson
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Katie Cooley
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Casey Cooper
+s15_the_gauntlet_iii,6,Pole Push,team,prize,Coral Smith
 s15_the_gauntlet_iii,6,,individual,prize,Ryan Kehoe
 s15_the_gauntlet_iii,6,,individual,safety,Frank Roessler
-s15_the_gauntlet_iii,7,Over the Edge,individual,prize,Katie Cooley
-s15_the_gauntlet_iii,7,Over the Edge,individual,safety,Evelyn Smith
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Frank Roessler
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Jillian Zoboroski
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Johanna Botta
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Nehemiah Clark
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Rachel Moyal
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Tori Hall
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Ryan Kehoe
+s15_the_gauntlet_iii,7,Over the Edge,team,prize,Tyri Ballard-Brown
 s15_the_gauntlet_iii,7,,individual,prize,Frank Roessler
-s15_the_gauntlet_iii,8/9,Chill Out,individual,prize,Diem Brown
-s15_the_gauntlet_iii,8/9,Chill Out,individual,safety,Paula Meronek
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Frank Roessler
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Jillian Zoboroski
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Johanna Botta
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Nehemiah Clark
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Rachel Moyal
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Tori Hall
+s15_the_gauntlet_iii,8/9,Chill Out,team,prize,Tyri Ballard-Brown
 s15_the_gauntlet_iii,8/9,,individual,prize,Big Easy Banks
 s15_the_gauntlet_iii,8/9,,individual,safety,Adam King
-s16_the_island,1,Leaning Tower,individual,prize,Kenny Santucci
-s16_the_island,1,Leaning Tower,individual,safety,Tonya Cooley
-s16_the_island,2,Ring Wrestle,individual,prize,Derrick Kosinski
-s16_the_island,2,Ring Wrestle,individual,safety,Johnny Bananas
-s16_the_island,3,The Rack,individual,prize,Rachel Robinson
-s16_the_island,3,The Rack,individual,safety,Robin Hibbard
-s16_the_island,4,Ball Buster,individual,prize,Jenn Grijalva
-s16_the_island,4,Ball Buster,individual,safety,Paula Meronek
-s16_the_island,5,Bridge It,individual,prize,Evelyn Smith
-s16_the_island,5,Bridge It,individual,safety,Tyri Ballard-Brown
-s16_the_island,6,Rat in a Cage,individual,prize,Derrick Kosinski
-s16_the_island,6,Rat in a Cage,individual,safety,Johnny Bananas
-s16_the_island,7,Timber,individual,prize,Johanna Botta
-s16_the_island,7,Timber,individual,safety,Ryan Kehoe
-s16_the_island,8,Water Bound,individual,prize,Evelyn Smith
-s16_the_island,8,Water Bound,individual,safety,Evelyn Smith
+s16_the_island,1,Leaning Tower,individual,prize,Abram Boise
+s16_the_island,2,Ring Wrestle,individual,prize,Abram Boise
+s16_the_island,3,The Rack,individual,prize,KellyAnne Judd
+s16_the_island,4,Ball Buster,individual,prize,Ashli Robson
+s16_the_island,5,Bridge It,individual,prize,Dan Walsh
+s16_the_island,6,Rat in a Cage,individual,prize,Cohutta Grindstaff
+s16_the_island,7,Timber,individual,prize,Colie
+s16_the_island,8,Water Bound,individual,prize,Dan Walsh
 s16_the_island,8,,individual,prize,KellyAnne Judd
-s17_the_duel_ii,1/2,Last Man Standing,individual,prize,Ryan Kehoe
-s17_the_duel_ii,1/2,Last Man Standing,individual,safety,Nick Brown
+s17_the_duel_ii,1/2,Last Man Standing,individual,prize,Evan Starkman
 s17_the_duel_ii,1/2,,individual,prize,Shauvon Torres
 s17_the_duel_ii,1/2,,individual,safety,Aneesa Ferreira
-s17_the_duel_ii,2,Freezing as Puck,individual,prize,Robin Hibbard
-s17_the_duel_ii,2,Freezing as Puck,individual,safety,Kimberly Alexander
+s17_the_duel_ii,2,Freezing as Puck,individual,prize,Rachel Robinson
 s17_the_duel_ii,2,,individual,prize,MJ Garrett
 s17_the_duel_ii,2,,individual,safety,Ryan Kehoe
-s17_the_duel_ii,3,All Shook Up,individual,prize,Brooke LaBarbera
-s17_the_duel_ii,3,All Shook Up,individual,safety,Brittini Sherrod
+s17_the_duel_ii,3,All Shook Up,individual,prize,Ruthie Alcaide
 s17_the_duel_ii,3,,individual,prize,Davis Mallory
 s17_the_duel_ii,3,,individual,safety,Evan Starkman
-s17_the_duel_ii,4,Luging My Mind,individual,prize,Jenn Grijalva
-s17_the_duel_ii,4,Luging My Mind,individual,safety,Katie Cooley
+s17_the_duel_ii,4,Luging My Mind,individual,prize,Brittini Sherrod
 s17_the_duel_ii,4,,individual,prize,Nehemiah Clark
 s17_the_duel_ii,4,,individual,safety,Evan Starkman
-s17_the_duel_ii,5,Don't Let Go,individual,prize,Isaac Stout
-s17_the_duel_ii,5,Don't Let Go,individual,safety,Landon Lueck
+s17_the_duel_ii,5,Don't Let Go,individual,prize,Mark Long
 s17_the_duel_ii,5,,individual,prize,Ruthie Alcaide
 s17_the_duel_ii,5,,individual,safety,Kimberly Alexander
-s17_the_duel_ii,6,Dangle Duo,individual,prize,Derek McCray
-s17_the_duel_ii,6,Dangle Duo,individual,safety,Big Easy Banks
+s17_the_duel_ii,6,Dangle Duo,individual,prize,Landon Lueck
 s17_the_duel_ii,6,,individual,prize,Kimberly Alexander
 s17_the_duel_ii,6,,individual,safety,Jenn Grijalva
-s17_the_duel_ii,7,Burnt,individual,prize,Dunbar Merrill
-s17_the_duel_ii,7,Burnt,individual,safety,MJ Garrett
+s17_the_duel_ii,7,Burnt,individual,prize,Landon Lueck
 s17_the_duel_ii,7,,individual,prize,Paula Meronek
 s17_the_duel_ii,7,,individual,safety,Aneesa Ferreira
-s17_the_duel_ii,8,Upside Downer,individual,prize,Derek McCray
-s17_the_duel_ii,8,Upside Downer,individual,safety,Evan Starkman
+s17_the_duel_ii,8,Upside Downer,individual,prize,Landon Lueck
 s17_the_duel_ii,8,,individual,prize,Jenn Grijalva
 s17_the_duel_ii,8,,individual,safety,Diem Brown
-s17_the_duel_ii,9/10,Spelling Air,individual,prize,MJ Garrett
-s17_the_duel_ii,9/10,Spelling Air,individual,safety,Brad Fiorenza
+s17_the_duel_ii,9/10,Spelling Air,individual,prize,Evan Starkman
 s17_the_duel_ii,9/10,,individual,prize,Aneesa Ferreira
 s17_the_duel_ii,9/10,,individual,safety,Tori Hall
-s17_the_duel_ii,10,,individual,prize,Brad Fiorenza
+s17_the_duel_ii,10,,individual,prize,Landon Lueck
 s17_the_duel_ii,10,,individual,prize,Brittini Sherrod
-s18_the_ruins,1,Chain Gang,individual,prize,Darrell Taylor
-s18_the_ruins,1,Chain Gang,individual,safety,Kenny Santucci
+s18_the_ruins,1,Chain Gang,team,prize,Derrick Kosinski
+s18_the_ruins,1,Chain Gang,team,prize,Evan Starkman
+s18_the_ruins,1,Chain Gang,team,prize,Johnny Bananas
+s18_the_ruins,1,Chain Gang,team,prize,Kenny Santucci
+s18_the_ruins,1,Chain Gang,team,prize,Susie Meister
+s18_the_ruins,1,Chain Gang,team,prize,Darrell Taylor
+s18_the_ruins,1,Chain Gang,team,prize,Johanna Botta
+s18_the_ruins,1,Chain Gang,team,prize,Veronica Portillo
+s18_the_ruins,1,Chain Gang,team,prize,Syrus Yarbrough
+s18_the_ruins,1,Chain Gang,team,prize,Ibis Nieves
+s18_the_ruins,1,Chain Gang,team,prize,Wes Bergmann
+s18_the_ruins,1,Chain Gang,team,prize,Katie Cooley
+s18_the_ruins,1,Chain Gang,team,prize,Tonya Cooley
+s18_the_ruins,1,Chain Gang,team,prize,Evelyn Smith
 s18_the_ruins,1,,individual,prize,Susie Meister
 s18_the_ruins,1,,individual,safety,Tonya Cooley
-s18_the_ruins,2,Swing on By,individual,prize,Derrick Kosinski
-s18_the_ruins,2,Swing on By,individual,safety,Johnny Bananas
+s18_the_ruins,2,Swing on By,team,prize,Derrick Kosinski
+s18_the_ruins,2,Swing on By,team,prize,Evan Starkman
+s18_the_ruins,2,Swing on By,team,prize,Johnny Bananas
+s18_the_ruins,2,Swing on By,team,prize,Kenny Santucci
+s18_the_ruins,2,Swing on By,team,prize,Susie Meister
+s18_the_ruins,2,Swing on By,team,prize,Darrell Taylor
+s18_the_ruins,2,Swing on By,team,prize,Johanna Botta
+s18_the_ruins,2,Swing on By,team,prize,Veronica Portillo
+s18_the_ruins,2,Swing on By,team,prize,Syrus Yarbrough
+s18_the_ruins,2,Swing on By,team,prize,Ibis Nieves
+s18_the_ruins,2,Swing on By,team,prize,Wes Bergmann
+s18_the_ruins,2,Swing on By,team,prize,Katie Cooley
+s18_the_ruins,2,Swing on By,team,prize,Tonya Cooley
+s18_the_ruins,2,Swing on By,team,prize,Evelyn Smith
 s18_the_ruins,2,,individual,prize,Katie Cooley
 s18_the_ruins,2,,individual,safety,Susie Meister
-s18_the_ruins,3,Repo Race,individual,prize,Ibis Nieves
-s18_the_ruins,3,Repo Race,individual,safety,Susie Meister
+s18_the_ruins,3,Repo Race,team,prize,KellyAnne Judd
+s18_the_ruins,3,Repo Race,team,prize,Sarah Rice
+s18_the_ruins,3,Repo Race,team,prize,Casey Cooper
+s18_the_ruins,3,Repo Race,team,prize,Dunbar Merrill
+s18_the_ruins,3,Repo Race,team,prize,Kimberly Alexander
+s18_the_ruins,3,Repo Race,team,prize,Brad Fiorenza
+s18_the_ruins,3,Repo Race,team,prize,Cohutta Grindstaff
+s18_the_ruins,3,Repo Race,team,prize,Danny Jamieson
+s18_the_ruins,3,Repo Race,team,prize,Adam King
+s18_the_ruins,3,Repo Race,team,prize,Shauvon Torres
 s18_the_ruins,3,,individual,prize,Kenny Santucci
 s18_the_ruins,3,,individual,safety,Syrus Yarbrough
-s18_the_ruins,4,Burning Bridge,individual,prize,Katie Cooley
-s18_the_ruins,4,Burning Bridge,individual,safety,Susie Meister
+s18_the_ruins,4,Burning Bridge,team,prize,Derrick Kosinski
+s18_the_ruins,4,Burning Bridge,team,prize,Evan Starkman
+s18_the_ruins,4,Burning Bridge,team,prize,Johnny Bananas
+s18_the_ruins,4,Burning Bridge,team,prize,Kenny Santucci
+s18_the_ruins,4,Burning Bridge,team,prize,Susie Meister
+s18_the_ruins,4,Burning Bridge,team,prize,Darrell Taylor
+s18_the_ruins,4,Burning Bridge,team,prize,Johanna Botta
+s18_the_ruins,4,Burning Bridge,team,prize,Veronica Portillo
+s18_the_ruins,4,Burning Bridge,team,prize,Syrus Yarbrough
+s18_the_ruins,4,Burning Bridge,team,prize,Ibis Nieves
+s18_the_ruins,4,Burning Bridge,team,prize,Wes Bergmann
+s18_the_ruins,4,Burning Bridge,team,prize,Tonya Cooley
 s18_the_ruins,4,,individual,prize,Derrick Kosinski
 s18_the_ruins,4,,individual,safety,Johnny Bananas
-s18_the_ruins,5,Block Party,individual,prize,Evan Starkman
-s18_the_ruins,5,Block Party,individual,safety,Kenny Santucci
+s18_the_ruins,5,Block Party,team,prize,Derrick Kosinski
+s18_the_ruins,5,Block Party,team,prize,Evan Starkman
+s18_the_ruins,5,Block Party,team,prize,Johnny Bananas
+s18_the_ruins,5,Block Party,team,prize,Kenny Santucci
+s18_the_ruins,5,Block Party,team,prize,Susie Meister
+s18_the_ruins,5,Block Party,team,prize,Darrell Taylor
+s18_the_ruins,5,Block Party,team,prize,Johanna Botta
+s18_the_ruins,5,Block Party,team,prize,Veronica Portillo
+s18_the_ruins,5,Block Party,team,prize,Syrus Yarbrough
+s18_the_ruins,5,Block Party,team,prize,Ibis Nieves
+s18_the_ruins,5,Block Party,team,prize,Tonya Cooley
 s18_the_ruins,5,,individual,prize,Johanna Botta
 s18_the_ruins,5,,individual,safety,Veronica Portillo
-s18_the_ruins,6,Fruits of Your Labor,individual,prize,Derrick Kosinski
-s18_the_ruins,6,Fruits of Your Labor,individual,safety,Johnny Bananas
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Derrick Kosinski
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Evan Starkman
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Johnny Bananas
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Kenny Santucci
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Susie Meister
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Darrell Taylor
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Johanna Botta
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Veronica Portillo
+s18_the_ruins,6,Fruits of Your Labor,team,prize,Tonya Cooley
 s18_the_ruins,6,,individual,prize,Susie Meister
 s18_the_ruins,6,,individual,safety,Veronica Portillo
-s18_the_ruins,7,Rotary Club,individual,prize,Johanna Botta
-s18_the_ruins,7,Rotary Club,individual,safety,Susie Meister
+s18_the_ruins,7,Rotary Club,team,prize,Derrick Kosinski
+s18_the_ruins,7,Rotary Club,team,prize,Evan Starkman
+s18_the_ruins,7,Rotary Club,team,prize,Johnny Bananas
+s18_the_ruins,7,Rotary Club,team,prize,Kenny Santucci
+s18_the_ruins,7,Rotary Club,team,prize,Susie Meister
+s18_the_ruins,7,Rotary Club,team,prize,Darrell Taylor
+s18_the_ruins,7,Rotary Club,team,prize,Tonya Cooley
 s18_the_ruins,7,,individual,prize,Evan Starkman
 s18_the_ruins,7,,individual,safety,Kenny Santucci
-s18_the_ruins,8/9,On the Fence,individual,prize,Susie Meister
-s18_the_ruins,8/9,On the Fence,individual,safety,Casey Cooper
+s18_the_ruins,8/9,On the Fence,team,prize,Derrick Kosinski
+s18_the_ruins,8/9,On the Fence,team,prize,Evan Starkman
+s18_the_ruins,8/9,On the Fence,team,prize,Johnny Bananas
+s18_the_ruins,8/9,On the Fence,team,prize,Kenny Santucci
+s18_the_ruins,8/9,On the Fence,team,prize,Susie Meister
+s18_the_ruins,8/9,On the Fence,team,prize,Darrell Taylor
+s18_the_ruins,8/9,On the Fence,team,prize,Tonya Cooley
 s18_the_ruins,8/9,,individual,prize,Johnny Bananas
 s18_the_ruins,8/9,,individual,safety,Kenny Santucci
-s18_the_ruins,9,Wall Walker,individual,prize,Susie Meister
-s18_the_ruins,9,Wall Walker,individual,safety,Casey Cooper
-s19_fresh_meat_ii,1,Dirty Mouth,pair,prize,Darrell Taylor
-s19_fresh_meat_ii,1,Dirty Mouth,pair,prize,Cara Maria Sorbello
-s19_fresh_meat_ii,1,Dirty Mouth,pair,safety,Jillian Zoboroski
-s19_fresh_meat_ii,1,Dirty Mouth,pair,safety,Pete Connolly
-s19_fresh_meat_ii,2,I'll Be There for You,pair,prize,Kenny Santucci
-s19_fresh_meat_ii,2,I'll Be There for You,pair,prize,Laurel Stucky
-s19_fresh_meat_ii,2,I'll Be There for You,pair,safety,Sarah Rice
-s19_fresh_meat_ii,2,I'll Be There for You,pair,safety,Vinny Foti
-s19_fresh_meat_ii,3,Water Logged,pair,prize,Evelyn Smith
-s19_fresh_meat_ii,3,Water Logged,pair,prize,Luke Wolfe
-s19_fresh_meat_ii,3,Water Logged,pair,safety,Paula Meronek
-s19_fresh_meat_ii,3,Water Logged,pair,safety,Jeff Barr
-s19_fresh_meat_ii,4,King of the Wall,pair,prize,CJ Koegel
-s19_fresh_meat_ii,4,King of the Wall,pair,prize,Sydney Walker
-s19_fresh_meat_ii,4,King of the Wall,pair,safety,Katelynn Cusanelli
-s19_fresh_meat_ii,4,King of the Wall,pair,safety,Brandon Nelson
-s19_fresh_meat_ii,5,Drop Out,pair,prize,Danny Jamieson
-s19_fresh_meat_ii,5,Drop Out,pair,prize,Sandy Kang
-s19_fresh_meat_ii,5,Drop Out,pair,safety,Jillian Zoboroski
-s19_fresh_meat_ii,5,Drop Out,pair,safety,Pete Connolly
-s19_fresh_meat_ii,6,Turn Style,pair,prize,Landon Lueck
-s19_fresh_meat_ii,6,Turn Style,pair,prize,Carley Johnson
-s19_fresh_meat_ii,6,Turn Style,pair,safety,CJ Koegel
-s19_fresh_meat_ii,6,Turn Style,pair,safety,Sydney Walker
-s19_fresh_meat_ii,7,Airheads,pair,prize,Wes Bergmann
-s19_fresh_meat_ii,7,Airheads,pair,prize,Mandi Moyer
-s19_fresh_meat_ii,7,Airheads,pair,safety,Evelyn Smith
-s19_fresh_meat_ii,7,Airheads,pair,safety,Luke Wolfe
-s19_fresh_meat_ii,8/9,Wrecking Ball,pair,prize,Evelyn Smith
-s19_fresh_meat_ii,8/9,Wrecking Ball,pair,prize,Luke Wolfe
-s19_fresh_meat_ii,8/9,Wrecking Ball,pair,safety,Landon Lueck
-s19_fresh_meat_ii,8/9,Wrecking Ball,pair,safety,Carley Johnson
-s19_fresh_meat_ii,9/10,Obstacle,team,prize,Jenn Grijalva
-s19_fresh_meat_ii,9/10,Obstacle,team,prize,Noor Jehangir
-s19_fresh_meat_ii,9/10,Obstacle,team,prize,Ryan Kehoe
-s19_fresh_meat_ii,9/10,Obstacle,team,prize,Theresa Jones
-s20_cutthroat,1,Gas Problems,individual,prize,Brandon Nelson
-s20_cutthroat,1,Gas Problems,individual,safety,Derek Chavez
+s18_the_ruins,9,Wall Walker,team,prize,Derrick Kosinski
+s18_the_ruins,9,Wall Walker,team,prize,Evan Starkman
+s18_the_ruins,9,Wall Walker,team,prize,Johnny Bananas
+s18_the_ruins,9,Wall Walker,team,prize,Kenny Santucci
+s18_the_ruins,9,Wall Walker,team,prize,Susie Meister
+s18_the_ruins,9,Wall Walker,team,prize,Darrell Taylor
+s18_the_ruins,9,Wall Walker,team,prize,Tonya Cooley
+s19_fresh_meat_ii,1,Dirty Mouth,pair,prize,Kenny Santucci
+s19_fresh_meat_ii,1,Dirty Mouth,pair,prize,Laurel Stucky
+s19_fresh_meat_ii,2,I'll Be There for You,pair,prize,Landon Lueck
+s19_fresh_meat_ii,2,I'll Be There for You,pair,prize,Carley Johnson
+s19_fresh_meat_ii,3,Water Logged,pair,prize,Kenny Santucci
+s19_fresh_meat_ii,3,Water Logged,pair,prize,Laurel Stucky
+s19_fresh_meat_ii,4,King of the Wall,pair,prize,Kenny Santucci
+s19_fresh_meat_ii,4,King of the Wall,pair,prize,Laurel Stucky
+s19_fresh_meat_ii,5,Drop Out,pair,prize,Kenny Santucci
+s19_fresh_meat_ii,5,Drop Out,pair,prize,Laurel Stucky
+s19_fresh_meat_ii,6,Turn Style,pair,prize,Jillian Zoboroski
+s19_fresh_meat_ii,6,Turn Style,pair,prize,Pete Connolly
+s19_fresh_meat_ii,7,Airheads,pair,prize,Landon Lueck
+s19_fresh_meat_ii,7,Airheads,pair,prize,Carley Johnson
+s19_fresh_meat_ii,8/9,Wrecking Ball,pair,prize,Jenn Grijalva
+s19_fresh_meat_ii,8/9,Wrecking Ball,pair,prize,Noor Jehangir
+s19_fresh_meat_ii,9/10,Obstacle,pair,prize,Kenny Santucci
+s19_fresh_meat_ii,9/10,Obstacle,pair,prize,Laurel Stucky
+s20_cutthroat,1,Gas Problems,team,prize,Abram Boise
+s20_cutthroat,1,Gas Problems,team,prize,Cara Maria Sorbello
+s20_cutthroat,1,Gas Problems,team,prize,Laurel Stucky
+s20_cutthroat,1,Gas Problems,team,prize,Luke Wolfe
+s20_cutthroat,1,Gas Problems,team,prize,Sarah Rice
+s20_cutthroat,1,Gas Problems,team,prize,Dan Walsh
+s20_cutthroat,1,Gas Problems,team,prize,Ayiiia Elizarrarás
+s20_cutthroat,1,Gas Problems,team,prize,Shauvon Torres
+s20_cutthroat,1,Gas Problems,team,prize,Vinny Foti
+s20_cutthroat,1,Gas Problems,team,prize,JD Ordoñez
 s20_cutthroat,1,,individual,prize,Emilee Fitzpatrick
-s20_cutthroat,2,Brain Buster,individual,prize,Brandon Nelson
-s20_cutthroat,2,Brain Buster,individual,safety,JD Ordoñez
+s20_cutthroat,2,Brain Buster,team,prize,Emily Schromm
+s20_cutthroat,2,Brain Buster,team,prize,Jenn Grijalva
+s20_cutthroat,2,Brain Buster,team,prize,Derrick Kosinski
+s20_cutthroat,2,Brain Buster,team,prize,Johnny Bananas
+s20_cutthroat,2,Brain Buster,team,prize,Theresa Jones
+s20_cutthroat,2,Brain Buster,team,prize,Katie Cooley
+s20_cutthroat,2,Brain Buster,team,prize,Ty Ruff
+s20_cutthroat,2,Brain Buster,team,prize,Big Easy Banks
 s20_cutthroat,2,,individual,prize,Cara Maria Sorbello
-s20_cutthroat,3,Bed Head,individual,prize,Vinny Foti
-s20_cutthroat,3,Bed Head,individual,safety,Big Easy Banks
+s20_cutthroat,3,Bed Head,team,prize,Brad Fiorenza
+s20_cutthroat,3,Bed Head,team,prize,Dunbar Merrill
+s20_cutthroat,3,Bed Head,team,prize,Tori Hall
+s20_cutthroat,3,Bed Head,team,prize,Tyler Duckworth
+s20_cutthroat,3,Bed Head,team,prize,Paula Meronek
+s20_cutthroat,3,Bed Head,team,prize,Camila Nakagawa
+s20_cutthroat,3,Bed Head,team,prize,Brandon Nelson
+s20_cutthroat,3,Bed Head,team,prize,Melinda Collins
+s20_cutthroat,3,Bed Head,team,prize,Chet Cannon
 s20_cutthroat,3,,individual,prize,Katie Cooley
-s20_cutthroat,4,Bottleneck Stampede,individual,prize,Ayiiia Elizarrarás
-s20_cutthroat,4,Bottleneck Stampede,individual,safety,Katie Cooley
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Brad Fiorenza
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Dunbar Merrill
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Tori Hall
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Tyler Duckworth
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Paula Meronek
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Camila Nakagawa
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Brandon Nelson
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Melinda Collins
+s20_cutthroat,4,Bottleneck Stampede,team,prize,Chet Cannon
 s20_cutthroat,4,,individual,prize,Big Easy Banks
-s20_cutthroat,5,Surf's Up,individual,prize,Brandon Nelson
-s20_cutthroat,5,Surf's Up,individual,safety,Ty Ruff
+s20_cutthroat,5,Surf's Up,team,prize,Abram Boise
+s20_cutthroat,5,Surf's Up,team,prize,Cara Maria Sorbello
+s20_cutthroat,5,Surf's Up,team,prize,Laurel Stucky
+s20_cutthroat,5,Surf's Up,team,prize,Luke Wolfe
+s20_cutthroat,5,Surf's Up,team,prize,Sarah Rice
+s20_cutthroat,5,Surf's Up,team,prize,Dan Walsh
+s20_cutthroat,5,Surf's Up,team,prize,Shauvon Torres
 s20_cutthroat,5,,individual,prize,Katie Cooley
-s20_cutthroat,6,Sky Hook,individual,prize,Melinda Collins
-s20_cutthroat,6,Sky Hook,individual,safety,Emily Schromm
+s20_cutthroat,6,Sky Hook,team,prize,Abram Boise
+s20_cutthroat,6,Sky Hook,team,prize,Cara Maria Sorbello
+s20_cutthroat,6,Sky Hook,team,prize,Laurel Stucky
+s20_cutthroat,6,Sky Hook,team,prize,Luke Wolfe
+s20_cutthroat,6,Sky Hook,team,prize,Sarah Rice
+s20_cutthroat,6,Sky Hook,team,prize,Dan Walsh
+s20_cutthroat,6,Sky Hook,team,prize,Shauvon Torres
 s20_cutthroat,6,,individual,prize,Derrick Kosinski
-s20_cutthroat,7,Gimme a Hand,individual,prize,Dunbar Merrill
-s20_cutthroat,7,Gimme a Hand,individual,safety,Dan Walsh
+s20_cutthroat,7,Gimme a Hand,team,prize,Emily Schromm
+s20_cutthroat,7,Gimme a Hand,team,prize,Jenn Grijalva
+s20_cutthroat,7,Gimme a Hand,team,prize,Derrick Kosinski
+s20_cutthroat,7,Gimme a Hand,team,prize,Johnny Bananas
+s20_cutthroat,7,Gimme a Hand,team,prize,Theresa Jones
 s20_cutthroat,7,,individual,prize,Laurel Stucky
-s20_cutthroat,8/9,High Ball,individual,prize,Tori Hall
-s20_cutthroat,8/9,High Ball,individual,safety,Theresa Jones
+s20_cutthroat,8/9,High Ball,team,prize,Abram Boise
+s20_cutthroat,8/9,High Ball,team,prize,Cara Maria Sorbello
+s20_cutthroat,8/9,High Ball,team,prize,Laurel Stucky
+s20_cutthroat,8/9,High Ball,team,prize,Luke Wolfe
+s20_cutthroat,8/9,High Ball,team,prize,Sarah Rice
+s20_cutthroat,8/9,High Ball,team,prize,Shauvon Torres
 s20_cutthroat,8/9,,individual,prize,Johnny Bananas
-s20_cutthroat,9/10,Riot Act,individual,prize,Tyler Duckworth
-s20_cutthroat,9/10,Riot Act,individual,safety,Derrick Kosinski
+s20_cutthroat,9/10,Riot Act,team,prize,Abram Boise
+s20_cutthroat,9/10,Riot Act,team,prize,Cara Maria Sorbello
+s20_cutthroat,9/10,Riot Act,team,prize,Laurel Stucky
+s20_cutthroat,9/10,Riot Act,team,prize,Luke Wolfe
+s20_cutthroat,9/10,Riot Act,team,prize,Sarah Rice
+s20_cutthroat,9/10,Riot Act,team,prize,Shauvon Torres
 s20_cutthroat,9/10,,individual,prize,Emily Schromm
 s21_rivals,1,High Dive,pair,prize,Adam Royer
 s21_rivals,1,High Dive,pair,prize,Leroy Garrett
@@ -491,38 +1198,22 @@ s21_rivals,8/9,Bombs Away,pair,prize,Evelyn Smith
 s21_rivals,8/9,Bombs Away,pair,prize,Paula Meronek
 s21_rivals,8/9,Bombs Away,pair,safety,Leroy Garrett
 s21_rivals,8/9,Bombs Away,pair,safety,Michael Ross
-s22_battle_of_the_exes,1,Give Me Some Honey,pair,prize,Nate Stodghill
-s22_battle_of_the_exes,1,Give Me Some Honey,pair,prize,Priscilla Mendez
-s22_battle_of_the_exes,1,Give Me Some Honey,pair,safety,Mandi Moyer
-s22_battle_of_the_exes,1,Give Me Some Honey,pair,safety,Wes Bergmann
-s22_battle_of_the_exes,2,Hook Up,pair,prize,Leroy Garrett
-s22_battle_of_the_exes,2,Hook Up,pair,prize,Naomi Defensor
-s22_battle_of_the_exes,2,Hook Up,pair,safety,Mandi Moyer
-s22_battle_of_the_exes,2,Hook Up,pair,safety,Wes Bergmann
-s22_battle_of_the_exes,3,Mental Connection,pair,prize,Leroy Garrett
-s22_battle_of_the_exes,3,Mental Connection,pair,prize,Naomi Defensor
-s22_battle_of_the_exes,3,Mental Connection,pair,safety,Emily Schromm
-s22_battle_of_the_exes,3,Mental Connection,pair,safety,Ty Ruff
-s22_battle_of_the_exes,4,Rolling in the Deep,pair,prize,Jasmine Reynaud
-s22_battle_of_the_exes,4,Rolling in the Deep,pair,prize,Tyri Ballard-Brown
-s22_battle_of_the_exes,4,Rolling in the Deep,pair,safety,Aneesa Ferreira
-s22_battle_of_the_exes,4,Rolling in the Deep,pair,safety,Rachel Robinson
-s22_battle_of_the_exes,5,Don't Rock the Boat,pair,prize,Abram Boise
-s22_battle_of_the_exes,5,Don't Rock the Boat,pair,prize,Cara Maria Sorbello
-s22_battle_of_the_exes,5,Don't Rock the Boat,pair,safety,Emily Schromm
-s22_battle_of_the_exes,5,Don't Rock the Boat,pair,safety,Ty Ruff
-s22_battle_of_the_exes,6,Lube Me Up,pair,prize,Dunbar Merrill
-s22_battle_of_the_exes,6,Lube Me Up,pair,prize,Paula Meronek
-s22_battle_of_the_exes,6,Lube Me Up,pair,safety,Aneesa Ferreira
-s22_battle_of_the_exes,6,Lube Me Up,pair,safety,Rachel Robinson
-s22_battle_of_the_exes,7/8,Race to the Altar,pair,prize,Emily Schromm
-s22_battle_of_the_exes,7/8,Race to the Altar,pair,prize,Ty Ruff
-s22_battle_of_the_exes,7/8,Race to the Altar,pair,safety,Dunbar Merrill
-s22_battle_of_the_exes,7/8,Race to the Altar,pair,safety,Paula Meronek
-s22_battle_of_the_exes,8/9,Feel the Burn,pair,prize,Camila Nakagawa
-s22_battle_of_the_exes,8/9,Feel the Burn,pair,prize,Johnny Bananas
-s22_battle_of_the_exes,8/9,Feel the Burn,pair,safety,Mark Long
-s22_battle_of_the_exes,8/9,Feel the Burn,pair,safety,Robin Hibbard
+s22_battle_of_the_exes,1,Give Me Some Honey,pair,prize,Camila Nakagawa
+s22_battle_of_the_exes,1,Give Me Some Honey,pair,prize,Johnny Bananas
+s22_battle_of_the_exes,2,Hook Up,pair,prize,Sarah Rice
+s22_battle_of_the_exes,2,Hook Up,pair,prize,Vinny Foti
+s22_battle_of_the_exes,3,Mental Connection,pair,prize,Dunbar Merrill
+s22_battle_of_the_exes,3,Mental Connection,pair,prize,Paula Meronek
+s22_battle_of_the_exes,4,Rolling in the Deep,pair,prize,Camila Nakagawa
+s22_battle_of_the_exes,4,Rolling in the Deep,pair,prize,Johnny Bananas
+s22_battle_of_the_exes,5,Don't Rock the Boat,pair,prize,Mark Long
+s22_battle_of_the_exes,5,Don't Rock the Boat,pair,prize,Robin Hibbard
+s22_battle_of_the_exes,6,Lube Me Up,pair,prize,Camila Nakagawa
+s22_battle_of_the_exes,6,Lube Me Up,pair,prize,Johnny Bananas
+s22_battle_of_the_exes,7/8,Race to the Altar,pair,prize,CT Tamburello
+s22_battle_of_the_exes,7/8,Race to the Altar,pair,prize,Diem Brown
+s22_battle_of_the_exes,8/9,Feel the Burn,pair,prize,CT Tamburello
+s22_battle_of_the_exes,8/9,Feel the Burn,pair,prize,Diem Brown
 s23_battle_of_the_seasons_2012,1,Don't Cross Me,pair,prize,Cara Maria Sorbello
 s23_battle_of_the_seasons_2012,1,Don't Cross Me,pair,prize,Big Easy Banks
 s23_battle_of_the_seasons_2012,1,Don't Cross Me,pair,safety,Lacey Buehler
@@ -610,8 +1301,8 @@ s24_rivals_ii,10/11,Color Correction,pair,safety,Diem Brown
 s25_free_agents,1,Out on a Ledge,individual,prize,Chet Cannon
 s25_free_agents,1,Out on a Ledge,individual,safety,Frank Fox
 s25_free_agents,1,,individual,prize,Jemmye Carroll
-s25_free_agents,2,Auto Body Rally,individual,prize,Jonna Mannion
-s25_free_agents,2,Auto Body Rally,individual,safety,Emilee Fitzpatrick
+s25_free_agents,2,Auto Body Rally,pair,prize,Cohutta Grindstaff
+s25_free_agents,2,Auto Body Rally,pair,prize,Laurel Stucky
 s25_free_agents,2,,individual,prize,Frank Fox
 s25_free_agents,3,,individual,prize,Cara Maria Sorbello
 s25_free_agents,4,Bounce Out,individual,prize,LaToya Jackson
@@ -620,64 +1311,44 @@ s25_free_agents,4,,individual,prize,Zach Nichols
 s25_free_agents,5,Piggy Back,individual,prize,Laurel Stucky
 s25_free_agents,5,Piggy Back,individual,safety,Jasmine Reynaud
 s25_free_agents,5,,individual,prize,Isaac Stout
-s25_free_agents,6,Smarty Pants,individual,prize,Brandon Swift
-s25_free_agents,6,Smarty Pants,individual,safety,Jordan Wiseley
+s25_free_agents,6,Smarty Pants,individual,prize,Zach Nichols
 s25_free_agents,6,,individual,prize,Theresa Jones
 s25_free_agents,6,,individual,safety,Camila Nakagawa
-s25_free_agents,7,Sausage Party,individual,prize,Aneesa Ferreira
-s25_free_agents,7,Sausage Party,individual,safety,Jonna Mannion
+s25_free_agents,7,Sausage Party,individual,prize,Laurel Stucky
 s25_free_agents,7,,individual,prize,Johnny Bananas
 s25_free_agents,7,,individual,safety,Jordan Wiseley
 s25_free_agents,8,Hold That Pose,individual,prize,Preston Roberson-Charles
 s25_free_agents,8,Hold That Pose,individual,safety,Cohutta Grindstaff
 s25_free_agents,8,,individual,prize,Laurel Stucky
-s25_free_agents,9,Dug Out,individual,prize,Jessica McCain
-s25_free_agents,9,Dug Out,individual,safety,Cara Maria Sorbello
+s25_free_agents,9,Dug Out,pair,prize,Nany González
+s25_free_agents,9,Dug Out,pair,prize,Theresa Jones
 s25_free_agents,9,,individual,prize,Cohutta Grindstaff
 s25_free_agents,9,,individual,safety,Leroy Garrett
-s25_free_agents,10/11,Crossover,individual,prize,CT Tamburello
-s25_free_agents,10/11,Crossover,individual,safety,Leroy Garrett
+s25_free_agents,10/11,Crossover,pair,prize,Johnny Bananas
+s25_free_agents,10/11,Crossover,pair,prize,Nany González
 s25_free_agents,10/11,,individual,prize,Laurel Stucky
-s26_battle_of_the_exes_ii,1,I Got You Babe,pair,prize,Adam Kuhn
-s26_battle_of_the_exes_ii,1,I Got You Babe,pair,prize,Brittany Baldi
-s26_battle_of_the_exes_ii,1,I Got You Babe,pair,safety,Dustin Zito
-s26_battle_of_the_exes_ii,1,I Got You Babe,pair,safety,Jessica McCain
-s26_battle_of_the_exes_ii,2,Rounding the Bases,pair,prize,Averey Tressler
-s26_battle_of_the_exes_ii,2,Rounding the Bases,pair,prize,Johnny Reilly
-s26_battle_of_the_exes_ii,2,Rounding the Bases,pair,safety,Hailey Chivers
-s26_battle_of_the_exes_ii,2,Rounding the Bases,pair,safety,Thomas Buell
-s26_battle_of_the_exes_ii,3,"On Again, Off Again",pair,prize,John Jacobs
-s26_battle_of_the_exes_ii,3,"On Again, Off Again",pair,prize,Simone Kelly
-s26_battle_of_the_exes_ii,3,"On Again, Off Again",pair,safety,Adam Kuhn
-s26_battle_of_the_exes_ii,3,"On Again, Off Again",pair,safety,Brittany Baldi
-s26_battle_of_the_exes_ii,4,The Brush Off,pair,prize,Jemmye Carroll
-s26_battle_of_the_exes_ii,4,The Brush Off,pair,prize,Ryan Knight
-s26_battle_of_the_exes_ii,4,The Brush Off,pair,safety,Adam Kuhn
-s26_battle_of_the_exes_ii,4,The Brush Off,pair,safety,Brittany Baldi
-s26_battle_of_the_exes_ii,5,Open Arms,pair,prize,Leroy Garrett
-s26_battle_of_the_exes_ii,5,Open Arms,pair,prize,Nia Moore
-s26_battle_of_the_exes_ii,5,Open Arms,pair,safety,Johnny Bananas
-s26_battle_of_the_exes_ii,5,Open Arms,pair,safety,Nany González
-s26_battle_of_the_exes_ii,6/7,Don't Forget About Me,pair,prize,Adam Kuhn
-s26_battle_of_the_exes_ii,6/7,Don't Forget About Me,pair,prize,Brittany Baldi
-s26_battle_of_the_exes_ii,6/7,Don't Forget About Me,pair,safety,Averey Tressler
-s26_battle_of_the_exes_ii,6/7,Don't Forget About Me,pair,safety,Johnny Reilly
-s26_battle_of_the_exes_ii,7,Are You the One?,pair,prize,Averey Tressler
-s26_battle_of_the_exes_ii,7,Are You the One?,pair,prize,Johnny Reilly
-s26_battle_of_the_exes_ii,7,Are You the One?,pair,safety,Leroy Garrett
-s26_battle_of_the_exes_ii,7,Are You the One?,pair,safety,Nia Moore
-s26_battle_of_the_exes_ii,8,Speed Dating,pair,prize,Jordan Wiseley
-s26_battle_of_the_exes_ii,8,Speed Dating,pair,prize,Sarah Rice
-s26_battle_of_the_exes_ii,8,Speed Dating,pair,safety,Jonna Mannion
-s26_battle_of_the_exes_ii,8,Speed Dating,pair,safety,Zach Nichols
-s26_battle_of_the_exes_ii,9/10,Wrecking Ball,pair,prize,Theresa Jones
-s26_battle_of_the_exes_ii,9/10,Wrecking Ball,pair,prize,Wes Bergmann
-s26_battle_of_the_exes_ii,9/10,Wrecking Ball,pair,safety,Leroy Garrett
-s26_battle_of_the_exes_ii,9/10,Wrecking Ball,pair,safety,Nia Moore
-s26_battle_of_the_exes_ii,10/11,Don't Let Me Down,pair,prize,Leroy Garrett
-s26_battle_of_the_exes_ii,10/11,Don't Let Me Down,pair,prize,Nia Moore
-s26_battle_of_the_exes_ii,10/11,Don't Let Me Down,pair,safety,Johnny Bananas
-s26_battle_of_the_exes_ii,10/11,Don't Let Me Down,pair,safety,Nany González
+s25_free_agents,11,,pair,prize,Laurel Stucky
+s25_free_agents,11,,pair,prize,Theresa Jones
+s26_battle_of_the_exes_ii,1,I Got You Babe,pair,prize,Theresa Jones
+s26_battle_of_the_exes_ii,1,I Got You Babe,pair,prize,Wes Bergmann
+s26_battle_of_the_exes_ii,2,Rounding the Bases,pair,prize,Johnny Bananas
+s26_battle_of_the_exes_ii,2,Rounding the Bases,pair,prize,Nany González
+s26_battle_of_the_exes_ii,3,"On Again, Off Again",pair,prize,Jordan Wiseley
+s26_battle_of_the_exes_ii,3,"On Again, Off Again",pair,prize,Sarah Rice
+s26_battle_of_the_exes_ii,4,The Brush Off,pair,prize,Jonna Mannion
+s26_battle_of_the_exes_ii,4,The Brush Off,pair,prize,Zach Nichols
+s26_battle_of_the_exes_ii,5,Open Arms,pair,prize,Theresa Jones
+s26_battle_of_the_exes_ii,5,Open Arms,pair,prize,Wes Bergmann
+s26_battle_of_the_exes_ii,6/7,Don't Forget About Me,pair,prize,Theresa Jones
+s26_battle_of_the_exes_ii,6/7,Don't Forget About Me,pair,prize,Wes Bergmann
+s26_battle_of_the_exes_ii,7,Are You the One?,pair,prize,Jay Mitchell
+s26_battle_of_the_exes_ii,7,Are You the One?,pair,prize,Jenna Compono
+s26_battle_of_the_exes_ii,8,Speed Dating,pair,prize,Leroy Garrett
+s26_battle_of_the_exes_ii,8,Speed Dating,pair,prize,Nia Moore
+s26_battle_of_the_exes_ii,9/10,Wrecking Ball,pair,prize,Jordan Wiseley
+s26_battle_of_the_exes_ii,9/10,Wrecking Ball,pair,prize,Sarah Rice
+s26_battle_of_the_exes_ii,10/11,Don't Let Me Down,pair,prize,Jordan Wiseley
+s26_battle_of_the_exes_ii,10/11,Don't Let Me Down,pair,prize,Sarah Rice
 s27_battle_of_the_bloodlines,1,Water Battle,pair,prize,Cohutta Grindstaff
 s27_battle_of_the_bloodlines,1,Water Battle,pair,prize,Jill Tuttle
 s27_battle_of_the_bloodlines,1,Water Battle,pair,safety,Jenna Compono
@@ -706,48 +1377,29 @@ s27_battle_of_the_bloodlines,11,Truck Crossing,pair,prize,Cory Wharton
 s27_battle_of_the_bloodlines,11,Truck Crossing,pair,prize,Mitch Reid
 s27_battle_of_the_bloodlines,11,Truck Crossing,pair,safety,Aneesa Ferreira
 s27_battle_of_the_bloodlines,11,Truck Crossing,pair,safety,Rianna Polin
-s28_rivals_iii,1/2,Give Me Some Slack,pair,prize,Jessica McCain
-s28_rivals_iii,1/2,Give Me Some Slack,pair,prize,Johnny Reilly
-s28_rivals_iii,1/2,Give Me Some Slack,pair,safety,Brandon Tindel
-s28_rivals_iii,1/2,Give Me Some Slack,pair,safety,Briana LaCuesta
-s28_rivals_iii,4/5,Out On a Limb,pair,prize,Jessica McCain
-s28_rivals_iii,4/5,Out On a Limb,pair,prize,Johnny Reilly
-s28_rivals_iii,4/5,Out On a Limb,pair,safety,Amanda Garcia
-s28_rivals_iii,4/5,Out On a Limb,pair,safety,Nelson Thomas
-s28_rivals_iii,6,Laps of Judgement,pair,prize,Camila Nakagawa
-s28_rivals_iii,6,Laps of Judgement,pair,prize,Tony Raines
-s28_rivals_iii,6,Laps of Judgement,pair,safety,Nany González
-s28_rivals_iii,6,Laps of Judgement,pair,safety,Wes Bergmann
-s28_rivals_iii,7,Road to Nowhere,pair,prize,Jamie Banks
-s28_rivals_iii,7,Road to Nowhere,pair,prize,KellyAnne Judd
-s28_rivals_iii,7,Road to Nowhere,pair,safety,Amanda Garcia
-s28_rivals_iii,7,Road to Nowhere,pair,safety,Nelson Thomas
-s28_rivals_iii,8/9,Up All Night,pair,prize,Nany González
-s28_rivals_iii,8/9,Up All Night,pair,prize,Wes Bergmann
-s28_rivals_iii,8/9,Up All Night,pair,safety,Cheyenne Floyd
-s28_rivals_iii,8/9,Up All Night,pair,safety,Devin Walker
-s28_rivals_iii,10/11,Take It to the Grave,pair,prize,Christina LeBlanc
-s28_rivals_iii,10/11,Take It to the Grave,pair,prize,Nate Siebenmark
-s28_rivals_iii,10/11,Take It to the Grave,pair,safety,Ashley Mitchell
-s28_rivals_iii,10/11,Take It to the Grave,pair,safety,Cory Wharton
-s28_rivals_iii,11,Catch & Release,pair,prize,Christina LeBlanc
-s28_rivals_iii,11,Catch & Release,pair,prize,Nate Siebenmark
-s28_rivals_iii,11,Catch & Release,pair,safety,Cheyenne Floyd
-s28_rivals_iii,11,Catch & Release,pair,safety,Devin Walker
-s28_rivals_iii,12,Bridging The Gap,pair,prize,Dario Medrano
-s28_rivals_iii,12,Bridging The Gap,pair,prize,Nicole Ramos
-s28_rivals_iii,12,Bridging The Gap,pair,safety,Cheyenne Floyd
-s28_rivals_iii,12,Bridging The Gap,pair,safety,Devin Walker
-s29_invasion_of_the_champions,1/2,The Over Under,individual,prize,Marie Roda
-s29_invasion_of_the_champions,1/2,The Over Under,individual,safety,Kailah Casillas-Bird
+s28_rivals_iii,1/2,Give Me Some Slack,pair,prize,Jenna Compono
+s28_rivals_iii,1/2,Give Me Some Slack,pair,prize,Vince Gliatta
+s28_rivals_iii,4/5,Out On a Limb,pair,prize,Ashley Mitchell
+s28_rivals_iii,4/5,Out On a Limb,pair,prize,Cory Wharton
+s28_rivals_iii,6,Laps of Judgement,pair,prize,Johnny Bananas
+s28_rivals_iii,6,Laps of Judgement,pair,prize,Sarah Rice
+s28_rivals_iii,7,Road to Nowhere,pair,prize,Christina LeBlanc
+s28_rivals_iii,7,Road to Nowhere,pair,prize,Nate Siebenmark
+s28_rivals_iii,8/9,Up All Night,pair,prize,Johnny Bananas
+s28_rivals_iii,8/9,Up All Night,pair,prize,Sarah Rice
+s28_rivals_iii,10/11,Take It to the Grave,pair,prize,Dario Medrano
+s28_rivals_iii,10/11,Take It to the Grave,pair,prize,Nicole Ramos
+s28_rivals_iii,11,Catch & Release,pair,prize,Johnny Bananas
+s28_rivals_iii,11,Catch & Release,pair,prize,Sarah Rice
+s28_rivals_iii,12,Bridging The Gap,pair,prize,Johnny Bananas
+s28_rivals_iii,12,Bridging The Gap,pair,prize,Sarah Rice
+s29_invasion_of_the_champions,1/2,The Over Under,individual,prize,Nicole Zanatta
 s29_invasion_of_the_champions,1/2,,individual,prize,Bruno Bettencourt
 s29_invasion_of_the_champions,1/2,,individual,safety,Tony Raines
-s29_invasion_of_the_champions,3,Shell Shocked,individual,prize,Theo King-Bradley
-s29_invasion_of_the_champions,3,Shell Shocked,individual,safety,Cory Wharton
+s29_invasion_of_the_champions,3,Shell Shocked,individual,prize,Hunter Barfield
 s29_invasion_of_the_champions,3,,individual,prize,Jenna Compono
 s29_invasion_of_the_champions,3,,individual,safety,Anika Rashaun
-s29_invasion_of_the_champions,4,Caged and Confused,individual,prize,Sylvia Elsrode
-s29_invasion_of_the_champions,4,Caged and Confused,individual,safety,LaToya Jackson
+s29_invasion_of_the_champions,4,Caged and Confused,individual,prize,Amanda Garcia
 s29_invasion_of_the_champions,4,,individual,prize,Anthony Bartolotte
 s29_invasion_of_the_champions,4,,individual,safety,Nelson Thomas
 s29_invasion_of_the_champions,5/6,Knockout,individual,prize,Sylvia Elsrode
@@ -775,24 +1427,22 @@ s30_xxx_dirty_30,1,,individual,prize,Jemmye Carroll
 s30_xxx_dirty_30,1,,individual,safety,Simone Kelly
 s30_xxx_dirty_30,1,,individual,prize,Tony Raines
 s30_xxx_dirty_30,1,,individual,safety,Devin Walker
-s30_xxx_dirty_30,2/3,Cool Under Fire,individual,prize,Johnny Bananas
-s30_xxx_dirty_30,2/3,Cool Under Fire,individual,safety,Cory Wharton
+s30_xxx_dirty_30,2/3,Cool Under Fire,individual,prize,Derrick Kosinski
 s30_xxx_dirty_30,2/3,,individual,prize,Camila Nakagawa
 s30_xxx_dirty_30,2/3,,individual,safety,Briana LaCuesta
 s30_xxx_dirty_30,3/4,Battle Royale,individual,prize,Kailah Casillas-Bird
 s30_xxx_dirty_30,3/4,Battle Royale,individual,safety,Jemmye Carroll
 s30_xxx_dirty_30,3/4,,individual,prize,Nelson Thomas
 s30_xxx_dirty_30,3/4,,individual,safety,Tony Raines
-s30_xxx_dirty_30,6/7,Pirates' Treasure,individual,prize,Jordan Wiseley
-s30_xxx_dirty_30,6/7,Pirates' Treasure,individual,safety,Derrick Kosinski
+s30_xxx_dirty_30,6/7,Pirates' Treasure,pair,prize,Cara Maria Sorbello
+s30_xxx_dirty_30,6/7,Pirates' Treasure,pair,prize,CT Tamburello
 s30_xxx_dirty_30,6/7,,individual,prize,Marie Roda
 s30_xxx_dirty_30,6/7,,individual,safety,Aneesa Ferreira
 s30_xxx_dirty_30,7/8,Ups and Downs,individual,prize,Aneesa Ferreira
 s30_xxx_dirty_30,7/8,Ups and Downs,individual,safety,Nicole Ramos
 s30_xxx_dirty_30,7/8,,individual,prize,Jordan Wiseley
 s30_xxx_dirty_30,7/8,,individual,safety,Hunter Barfield
-s30_xxx_dirty_30,8/9,Talk Thirty to Me,individual,prize,Nicole Ramos
-s30_xxx_dirty_30,8/9,Talk Thirty to Me,individual,safety,Jenna Compono
+s30_xxx_dirty_30,8/9,Talk Thirty to Me,individual,prize,Camila Nakagawa
 s30_xxx_dirty_30,8/9,,individual,prize,Nelson Thomas
 s30_xxx_dirty_30,8/9,,individual,safety,Jordan Wiseley
 s30_xxx_dirty_30,11/12,Saved by the Bell,individual,prize,Dario Medrano
@@ -833,73 +1483,43 @@ s31_vendettas,13,Outside the Box,individual,prize,Kailah Casillas-Bird
 s31_vendettas,13,Outside the Box,individual,safety,Tony Raines
 s31_vendettas,13,,individual,prize,Brad Fiorenza
 s31_vendettas,13,,individual,safety,Kyle Christie
-s32_final_reckoning,2/3,Wreck Yourself,pair,prize,Natalie Negrotti
-s32_final_reckoning,2/3,Wreck Yourself,pair,prize,Paulie Calafiore
-s32_final_reckoning,2/3,Wreck Yourself,pair,safety,Kam Williams
-s32_final_reckoning,2/3,Wreck Yourself,pair,safety,Kayleigh Morris
-s32_final_reckoning,6/7,Off the Rails,pair,prize,Derrick Henry
-s32_final_reckoning,6/7,Off the Rails,pair,prize,Tori Deal
-s32_final_reckoning,6/7,Off the Rails,pair,safety,Joss Mooney
-s32_final_reckoning,6/7,Off the Rails,pair,safety,Sylvia Elsrode
-s32_final_reckoning,7/8,Dig Deep,pair,prize,Angela Babicz
-s32_final_reckoning,7/8,Dig Deep,pair,prize,Faith Stowers
-s32_final_reckoning,8/9,Don't Push Me Around,pair,prize,Da'Vonne Rogers
-s32_final_reckoning,8/9,Don't Push Me Around,pair,prize,Jozea Flores
-s32_final_reckoning,8/9,Don't Push Me Around,pair,safety,Kam Williams
-s32_final_reckoning,8/9,Don't Push Me Around,pair,safety,Kayleigh Morris
-s32_final_reckoning,11/12,Sky Bridge,pair,prize,Nelson Thomas
-s32_final_reckoning,11/12,Sky Bridge,pair,prize,Shane Landrum
-s32_final_reckoning,11/12,Sky Bridge,pair,safety,Brad Fiorenza
-s32_final_reckoning,11/12,Sky Bridge,pair,safety,Kyle Christie
+s32_final_reckoning,2/3,Wreck Yourself,pair,prize,Brad Fiorenza
+s32_final_reckoning,2/3,Wreck Yourself,pair,prize,Kyle Christie
+s32_final_reckoning,6/7,Off the Rails,pair,prize,Amanda Garcia
+s32_final_reckoning,6/7,Off the Rails,pair,prize,Zach Nichols
+s32_final_reckoning,7/8,Dig Deep,pair,prize,Kam Williams
+s32_final_reckoning,7/8,Dig Deep,pair,prize,Kayleigh Morris
+s32_final_reckoning,8/9,Don't Push Me Around,pair,prize,Amanda Garcia
+s32_final_reckoning,8/9,Don't Push Me Around,pair,prize,Zach Nichols
+s32_final_reckoning,11/12,Sky Bridge,pair,prize,Johnny Bananas
+s32_final_reckoning,11/12,Sky Bridge,pair,prize,Tony Raines
 s32_final_reckoning,12/13,Caged In,pair,prize,Amanda Garcia
 s32_final_reckoning,12/13,Caged In,pair,prize,Zach Nichols
-s32_final_reckoning,12/13,Caged In,pair,safety,Da'Vonne Rogers
-s32_final_reckoning,12/13,Caged In,pair,safety,Jozea Flores
-s32_final_reckoning,14/15,What Goes Up Must Come Down,pair,prize,Cara Maria Sorbello
-s32_final_reckoning,14/15,What Goes Up Must Come Down,pair,prize,Marie Roda
-s32_final_reckoning,14/15,What Goes Up Must Come Down,pair,safety,Nelson Thomas
-s32_final_reckoning,14/15,What Goes Up Must Come Down,pair,safety,Shane Landrum
-s32_final_reckoning,16/17,Hit List,pair,prize,Johnny Bananas
-s32_final_reckoning,16/17,Hit List,pair,prize,Tony Raines
-s32_final_reckoning,16/17,Hit List,pair,safety,Joss Mooney
-s32_final_reckoning,16/17,Hit List,pair,safety,Sylvia Elsrode
-s32_final_reckoning,19,Painfully Wrong,pair,prize,Johnny Bananas
-s32_final_reckoning,19,Painfully Wrong,pair,prize,Tony Raines
-s32_final_reckoning,19,Painfully Wrong,pair,safety,Natalie Negrotti
-s32_final_reckoning,19,Painfully Wrong,pair,safety,Paulie Calafiore
+s32_final_reckoning,14/15,What Goes Up Must Come Down,pair,prize,Johnny Bananas
+s32_final_reckoning,14/15,What Goes Up Must Come Down,pair,prize,Tony Raines
+s32_final_reckoning,16/17,Hit List,pair,prize,Natalie Negrotti
+s32_final_reckoning,16/17,Hit List,pair,prize,Paulie Calafiore
+s32_final_reckoning,19,Painfully Wrong,pair,prize,Joss Mooney
+s32_final_reckoning,19,Painfully Wrong,pair,prize,Sylvia Elsrode
 s33_war_of_the_worlds,2,Arms-a-geddon Tired,pair,prize,Amanda Garcia
 s33_war_of_the_worlds,2,Arms-a-geddon Tired,pair,prize,Josh Martinez
 s33_war_of_the_worlds,2,Arms-a-geddon Tired,pair,safety,Johnny Bananas
 s33_war_of_the_worlds,2,Arms-a-geddon Tired,pair,safety,Morgan Willett
-s33_war_of_the_worlds,3,Search and Destroy,pair,prize,Paulie Calafiore
-s33_war_of_the_worlds,3,Search and Destroy,pair,prize,Natalie Duran
-s33_war_of_the_worlds,3,Search and Destroy,pair,safety,Wes Bergmann
-s33_war_of_the_worlds,3,Search and Destroy,pair,safety,Dee Nguyen
-s33_war_of_the_worlds,4*,Fallout,pair,prize,Nany González
-s33_war_of_the_worlds,4*,Fallout,pair,prize,Turbo Çamkıran
-s33_war_of_the_worlds,4*,Fallout,pair,safety,Paulie Calafiore
-s33_war_of_the_worlds,4*,Fallout,pair,safety,Natalie Duran
+s33_war_of_the_worlds,3,Search and Destroy,pair,prize,Kam Williams
+s33_war_of_the_worlds,3,Search and Destroy,pair,prize,Ashley Cain
+s33_war_of_the_worlds,4*,Fallout,pair,prize,Hunter Barfield
+s33_war_of_the_worlds,4*,Fallout,pair,prize,Georgia Harrison
 s33_war_of_the_worlds,4*,,individual,prize,Kyle Christie
-s33_war_of_the_worlds,5,Tired Out,pair,prize,Nany González
-s33_war_of_the_worlds,5,Tired Out,pair,prize,Turbo Çamkıran
-s33_war_of_the_worlds,5,Tired Out,pair,safety,Paulie Calafiore
-s33_war_of_the_worlds,5,Tired Out,pair,safety,Natalie Duran
-s33_war_of_the_worlds,6,Doom Buggy,pair,prize,Kyle Christie
-s33_war_of_the_worlds,6,Doom Buggy,pair,prize,Mattie Lynn Breaux
-s33_war_of_the_worlds,6,Doom Buggy,pair,safety,Wes Bergmann
-s33_war_of_the_worlds,6,Doom Buggy,pair,safety,Dee Nguyen
-s33_war_of_the_worlds,7,Eye in the Sky,pair,prize,Jenna Compono
-s33_war_of_the_worlds,7,Eye in the Sky,pair,prize,Gus Smyrnios
-s33_war_of_the_worlds,7,Eye in the Sky,pair,safety,Wes Bergmann
-s33_war_of_the_worlds,7,Eye in the Sky,pair,safety,Dee Nguyen
-s33_war_of_the_worlds,8,Brain Freeze,pair,prize,Nany González
-s33_war_of_the_worlds,8,Brain Freeze,pair,prize,Turbo Çamkıran
-s33_war_of_the_worlds,8,Brain Freeze,pair,safety,Wes Bergmann
-s33_war_of_the_worlds,8,Brain Freeze,pair,safety,Dee Nguyen
-s33_war_of_the_worlds,9,Road Warrior,pair,prize,Hunter Barfield
-s33_war_of_the_worlds,9,Road Warrior,pair,prize,Georgia Harrison
-s33_war_of_the_worlds,9,Road Warrior,pair,safety,Kyle Christie
-s33_war_of_the_worlds,9,Road Warrior,pair,safety,Mattie Lynn Breaux
+s33_war_of_the_worlds,5,Tired Out,pair,prize,Cara Maria Sorbello
+s33_war_of_the_worlds,5,Tired Out,pair,prize,Theo Campbell
+s33_war_of_the_worlds,6,Doom Buggy,pair,prize,Hunter Barfield
+s33_war_of_the_worlds,6,Doom Buggy,pair,prize,Georgia Harrison
+s33_war_of_the_worlds,7,Eye in the Sky,pair,prize,Da'Vonne Rogers
+s33_war_of_the_worlds,7,Eye in the Sky,pair,prize,Stephen Bear
+s33_war_of_the_worlds,8,Brain Freeze,pair,prize,Cara Maria Sorbello
+s33_war_of_the_worlds,8,Brain Freeze,pair,prize,Theo Campbell
+s33_war_of_the_worlds,9,Road Warrior,pair,prize,Cara Maria Sorbello
+s33_war_of_the_worlds,9,Road Warrior,pair,prize,Theo Campbell
 s33_war_of_the_worlds,10,Fandemonium,individual,prize,Paulie Calafiore
 s33_war_of_the_worlds,10,Fandemonium,individual,safety,Theo Campbell
 s33_war_of_the_worlds,11/12,Highway to Hell,individual,prize,Dee Nguyen
@@ -1070,36 +1690,22 @@ s36_double_agents,17,Escape the Volcano,pair,prize,Cory Wharton
 s36_double_agents,17,Escape the Volcano,pair,prize,Kam Williams
 s36_double_agents,17,Escape the Volcano,pair,safety,Amber Borzotra
 s36_double_agents,17,Escape the Volcano,pair,safety,Faysal Shafaat
-s37_spies_lies_allies,1,Compromised,pair,prize,Michaela Bradshaw
-s37_spies_lies_allies,1,Compromised,pair,prize,Renan Hellemans
-s37_spies_lies_allies,1,Compromised,pair,safety,Corey Lay
-s37_spies_lies_allies,1,Compromised,pair,safety,Michele Fitzgerald
-s37_spies_lies_allies,2,Heli Heist,pair,prize,Kelz Dyke
-s37_spies_lies_allies,2,Heli Heist,pair,prize,Tracy Candela
-s37_spies_lies_allies,2,Heli Heist,pair,safety,Ed Eason
-s37_spies_lies_allies,2,Heli Heist,pair,safety,Emy Alupei
-s37_spies_lies_allies,3,Sea Cave Recon,pair,prize,Jeremiah White
-s37_spies_lies_allies,3,Sea Cave Recon,pair,prize,Tacha Akide
-s37_spies_lies_allies,3,Sea Cave Recon,pair,safety,Berna Canbeldek
-s37_spies_lies_allies,3,Sea Cave Recon,pair,safety,Corey Lay
-s37_spies_lies_allies,4,Undercover Comms,pair,prize,Corey Lay
-s37_spies_lies_allies,4,Undercover Comms,pair,prize,Michele Fitzgerald
-s37_spies_lies_allies,4,Undercover Comms,pair,safety,Amber Borzotra
-s37_spies_lies_allies,4,Undercover Comms,pair,safety,Hughie Maughan
-s37_spies_lies_allies,5,Mindfield,pair,prize,Aneesa Ferreira
-s37_spies_lies_allies,5,Mindfield,pair,prize,Logan Sampedro
-s37_spies_lies_allies,5,Mindfield,individual,safety,Gabo Szabó
-s37_spies_lies_allies,6/7,Turning Agents,pair,prize,Esther Agunbiade
-s37_spies_lies_allies,6/7,Turning Agents,pair,prize,Faysal Shafaat
-s37_spies_lies_allies,6/7,Turning Agents,individual,safety,Emy Alupei
-s37_spies_lies_allies,8,Dive Bomb,pair,prize,Berna Canbeldek
-s37_spies_lies_allies,8,Dive Bomb,pair,prize,Hughie Maughan
-s37_spies_lies_allies,8,Dive Bomb,pair,safety,Jeremiah White
-s37_spies_lies_allies,8,Dive Bomb,pair,safety,Priscilla Anyabu
-s37_spies_lies_allies,9,Bombshell Battle,pair,prize,Bettina Buchanan
-s37_spies_lies_allies,9,Bombshell Battle,pair,prize,Cory Wharton
-s37_spies_lies_allies,9,Bombshell Battle,pair,safety,Amber Borzotra
-s37_spies_lies_allies,9,Bombshell Battle,pair,safety,Jeremiah White
+s37_spies_lies_allies,1,Compromised,pair,prize,Aneesa Ferreira
+s37_spies_lies_allies,1,Compromised,pair,prize,Logan Sampedro
+s37_spies_lies_allies,2,Heli Heist,pair,prize,Esther Agunbiade
+s37_spies_lies_allies,2,Heli Heist,pair,prize,Faysal Shafaat
+s37_spies_lies_allies,3,Sea Cave Recon,pair,prize,Ed Eason
+s37_spies_lies_allies,3,Sea Cave Recon,pair,prize,Tori Deal
+s37_spies_lies_allies,4,Undercover Comms,pair,prize,Esther Agunbiade
+s37_spies_lies_allies,4,Undercover Comms,pair,prize,Faysal Shafaat
+s37_spies_lies_allies,5,Mindfield,pair,prize,Berna Canbeldek
+s37_spies_lies_allies,5,Mindfield,pair,prize,CT Tamburello
+s37_spies_lies_allies,6/7,Turning Agents,pair,prize,Emanuel Neagu
+s37_spies_lies_allies,6/7,Turning Agents,pair,prize,Kaycee Clark
+s37_spies_lies_allies,8,Dive Bomb,pair,prize,CT Tamburello
+s37_spies_lies_allies,8,Dive Bomb,pair,prize,Emy Alupei
+s37_spies_lies_allies,9,Bombshell Battle,pair,prize,Logan Sampedro
+s37_spies_lies_allies,9,Bombshell Battle,pair,prize,Nany González
 s37_spies_lies_allies,10,Diamond Dash,individual,prize,Priscilla Anyabu
 s37_spies_lies_allies,10,Diamond Dash,individual,safety,Ashley Mitchell
 s37_spies_lies_allies,11,Satellite Sabotage,individual,prize,Ed Eason
@@ -1120,38 +1726,22 @@ s37_spies_lies_allies,18,,individual,prize,Amanda Garcia
 s37_spies_lies_allies,18,,individual,safety,Tori Deal
 s37_spies_lies_allies,18,,individual,prize,Emanuel Neagu
 s37_spies_lies_allies,18,,individual,safety,Devin Walker
-s38_ride_or_dies,1,Bolas for Blood,pair,prize,Kailah Casillas-Bird
-s38_ride_or_dies,1,Bolas for Blood,pair,prize,Sam Bird
-s38_ride_or_dies,1,Bolas for Blood,pair,safety,Colleen Schneider
-s38_ride_or_dies,1,Bolas for Blood,pair,safety,Kim Tränka
-s38_ride_or_dies,2,Balancing Act,pair,prize,Tamara Alfaro
-s38_ride_or_dies,2,Balancing Act,pair,prize,Turbo Çamkıran
-s38_ride_or_dies,2,Balancing Act,pair,safety,Jay Starrett
-s38_ride_or_dies,2,Balancing Act,pair,safety,Michele Fitzgerald
-s38_ride_or_dies,3,Build Me Up,pair,prize,Johnny Middlebrooks
-s38_ride_or_dies,3,Build Me Up,pair,prize,Ravyn Rochelle
-s38_ride_or_dies,3,Build Me Up,pair,safety,Analyse Talavera
-s38_ride_or_dies,3,Build Me Up,pair,safety,Tommy Bracco
-s38_ride_or_dies,4,Hold On for Me,pair,prize,Analyse Talavera
-s38_ride_or_dies,4,Hold On for Me,pair,prize,Tommy Bracco
-s38_ride_or_dies,4,Hold On for Me,pair,safety,Horacio Gutiérrez Jr.
-s38_ride_or_dies,4,Hold On for Me,pair,safety,Olivia Kaiser
-s38_ride_or_dies,5,Royal Relay,pair,prize,Jakk Maddox
-s38_ride_or_dies,5,Royal Relay,pair,prize,Laurel Stucky
-s38_ride_or_dies,5,Royal Relay,pair,safety,Darrell Taylor
-s38_ride_or_dies,5,Royal Relay,pair,safety,Veronica Portillo
-s38_ride_or_dies,6,Down the Line,pair,prize,Aneesa Ferreira
-s38_ride_or_dies,6,Down the Line,pair,prize,Jordan Wiseley
-s38_ride_or_dies,6,Down the Line,pair,safety,Johnny Bananas
-s38_ride_or_dies,6,Down the Line,pair,safety,Nany González
-s38_ride_or_dies,7,Peaking Blinders,pair,prize,Amber Borzotra
-s38_ride_or_dies,7,Peaking Blinders,pair,prize,Chauncey Palmer
-s38_ride_or_dies,7,Peaking Blinders,pair,safety,Johnny Bananas
-s38_ride_or_dies,7,Peaking Blinders,pair,safety,Nany González
-s38_ride_or_dies,8,Double Trouble,pair,prize,Jay Starrett
-s38_ride_or_dies,8,Double Trouble,pair,prize,Michele Fitzgerald
-s38_ride_or_dies,8,Double Trouble,pair,safety,Nelson Thomas
-s38_ride_or_dies,8,Double Trouble,pair,safety,Nurys Mateo
+s38_ride_or_dies,1,Bolas for Blood,pair,prize,Johnny Middlebrooks
+s38_ride_or_dies,1,Bolas for Blood,pair,prize,Ravyn Rochelle
+s38_ride_or_dies,2,Balancing Act,pair,prize,Johnny Bananas
+s38_ride_or_dies,2,Balancing Act,pair,prize,Nany González
+s38_ride_or_dies,3,Build Me Up,pair,prize,Faysal Shafaat
+s38_ride_or_dies,3,Build Me Up,pair,prize,Moriah Jade
+s38_ride_or_dies,4,Hold On for Me,pair,prize,Nelson Thomas
+s38_ride_or_dies,4,Hold On for Me,pair,prize,Nurys Mateo
+s38_ride_or_dies,5,Royal Relay,pair,prize,Jay Starrett
+s38_ride_or_dies,5,Royal Relay,pair,prize,Michele Fitzgerald
+s38_ride_or_dies,6,Down the Line,pair,prize,Jay Starrett
+s38_ride_or_dies,6,Down the Line,pair,prize,Michele Fitzgerald
+s38_ride_or_dies,7,Peaking Blinders,pair,prize,Nelson Thomas
+s38_ride_or_dies,7,Peaking Blinders,pair,prize,Nurys Mateo
+s38_ride_or_dies,8,Double Trouble,pair,prize,Aneesa Ferreira
+s38_ride_or_dies,8,Double Trouble,pair,prize,Jordan Wiseley
 s38_ride_or_dies,10,Last Life,individual,prize,Horacio Gutiérrez Jr.
 s38_ride_or_dies,10,Last Life,individual,safety,Devin Walker
 s38_ride_or_dies,11,Spin Class,individual,prize,Nurys Mateo
@@ -1162,14 +1752,10 @@ s38_ride_or_dies,13,Blind Faith,individual,prize,Moriah Jade
 s38_ride_or_dies,13,Blind Faith,individual,safety,Amber Borzotra
 s38_ride_or_dies,14,Takes Two to Tango,individual,prize,Horacio Gutiérrez Jr.
 s38_ride_or_dies,14,Takes Two to Tango,individual,safety,Devin Walker
-s38_ride_or_dies,15,Runaway Ride,pair,prize,Amber Borzotra
-s38_ride_or_dies,15,Runaway Ride,pair,prize,Chauncey Palmer
-s38_ride_or_dies,15,Runaway Ride,pair,safety,Horacio Gutiérrez Jr.
-s38_ride_or_dies,15,Runaway Ride,pair,safety,Olivia Kaiser
-s38_ride_or_dies,16,Frozen Senseless,pair,prize,Faysal Shafaat
-s38_ride_or_dies,16,Frozen Senseless,pair,prize,Moriah Jade
-s38_ride_or_dies,16,Frozen Senseless,pair,safety,Horacio Gutiérrez Jr.
-s38_ride_or_dies,16,Frozen Senseless,pair,safety,Olivia Kaiser
+s38_ride_or_dies,15,Runaway Ride,pair,prize,Johnny Bananas
+s38_ride_or_dies,15,Runaway Ride,pair,prize,Nany González
+s38_ride_or_dies,16,Frozen Senseless,pair,prize,Devin Walker
+s38_ride_or_dies,16,Frozen Senseless,pair,prize,Tori Deal
 s39_battle_for_a_new_champion,1,Hole Control,individual,prize,Jessica Brody
 s39_battle_for_a_new_champion,1,Hole Control,individual,safety,Big T Fazakerley
 s39_battle_for_a_new_champion,2,Ball Control,individual,prize,Chauncey Palmer
@@ -1207,8 +1793,15 @@ s39_battle_for_a_new_champion,16,,individual,prize,Kyland Young
 s39_battle_for_a_new_champion,16,,individual,safety,Nurys Mateo
 s39_battle_for_a_new_champion,17,,individual,prize,Nurys Mateo
 s39_battle_for_a_new_champion,17,,individual,safety,Olivia Kaiser
-s40_battle_of_the_eras,1/2,Light It Up,individual,prize,Tori Deal
-s40_battle_of_the_eras,1/2,Light It Up,individual,safety,Nia Moore
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Jordan Wiseley
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Tori Deal
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Cory Wharton
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Nia Moore
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Devin Walker
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Averey Tressler
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Jonna Mannion
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Tony Raines
+s40_battle_of_the_eras,1/2,Light It Up,team,prize,Leroy Garrett
 s40_battle_of_the_eras,1/2,,individual,prize,Leroy Garrett
 s40_battle_of_the_eras,1/2,,individual,safety,Tony Raines
 s40_battle_of_the_eras,1/2,,individual,prize,CT Tamburello
@@ -1223,32 +1816,61 @@ s40_battle_of_the_eras,1/2,,individual,prize,Laurel Stucky
 s40_battle_of_the_eras,1/2,,individual,safety,KellyAnne Judd
 s40_battle_of_the_eras,1/2,,individual,prize,Ryan Kehoe
 s40_battle_of_the_eras,1/2,,individual,safety,Brandon Nelson
-s40_battle_of_the_eras,3,Gladieater,individual,prize,Tony Raines
-s40_battle_of_the_eras,3,Gladieater,individual,safety,Darrell Taylor
+s40_battle_of_the_eras,3,Gladieater,team,prize,Jordan Wiseley
+s40_battle_of_the_eras,3,Gladieater,team,prize,Tori Deal
+s40_battle_of_the_eras,3,Gladieater,team,prize,Cory Wharton
+s40_battle_of_the_eras,3,Gladieater,team,prize,Nia Moore
+s40_battle_of_the_eras,3,Gladieater,team,prize,Devin Walker
+s40_battle_of_the_eras,3,Gladieater,team,prize,Averey Tressler
+s40_battle_of_the_eras,3,Gladieater,team,prize,Jonna Mannion
 s40_battle_of_the_eras,3,,individual,prize,Jodi Weatherton
 s40_battle_of_the_eras,3,,individual,safety,Aviv Melmed
-s40_battle_of_the_eras,4,Cradled Cranium,individual,prize,Laurel Stucky
-s40_battle_of_the_eras,4,Cradled Cranium,individual,safety,Aneesa Ferreira
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Derek Chavez
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Johnny Bananas
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Cara Maria Sorbello
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Aviv Melmed
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Nehemiah Clark
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Laurel Stucky
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Ryan Kehoe
+s40_battle_of_the_eras,4,Cradled Cranium,team,prize,Emily Schromm
 s40_battle_of_the_eras,4,,individual,prize,Derrick Kosinski
 s40_battle_of_the_eras,4,,individual,safety,Jordan Wiseley
-s40_battle_of_the_eras,5,Fast Pass,individual,prize,Olivia Kaiser
-s40_battle_of_the_eras,5,Fast Pass,individual,safety,Tina Barta
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Jenny West
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Michele Fitzgerald
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Kyland Young
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Josh Martinez
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Olivia Kaiser
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Theo Campbell
+s40_battle_of_the_eras,5,Fast Pass,team,prize,Kaycee Clark
 s40_battle_of_the_eras,5,,individual,prize,CT Tamburello
 s40_battle_of_the_eras,5,,individual,safety,Nehemiah Clark
-s40_battle_of_the_eras,6,Cloud Catcher,individual,prize,Josh Martinez
-s40_battle_of_the_eras,6,Cloud Catcher,individual,safety,Brad Fiorenza
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Jenny West
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Michele Fitzgerald
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Kyland Young
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Josh Martinez
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Olivia Kaiser
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Theo Campbell
+s40_battle_of_the_eras,6,Cloud Catcher,team,prize,Kaycee Clark
 s40_battle_of_the_eras,6,,individual,prize,Rachel Robinson
 s40_battle_of_the_eras,6,,individual,safety,Laurel Stucky
-s40_battle_of_the_eras,7,Leap of Faith,individual,prize,Nia Moore
-s40_battle_of_the_eras,7,Leap of Faith,individual,safety,Tina Barta
+s40_battle_of_the_eras,7,Leap of Faith,team,prize,Jordan Wiseley
+s40_battle_of_the_eras,7,Leap of Faith,team,prize,Tori Deal
+s40_battle_of_the_eras,7,Leap of Faith,team,prize,Cory Wharton
+s40_battle_of_the_eras,7,Leap of Faith,team,prize,Nia Moore
+s40_battle_of_the_eras,7,Leap of Faith,team,prize,Devin Walker
+s40_battle_of_the_eras,7,Leap of Faith,team,prize,Averey Tressler
 s40_battle_of_the_eras,7,,individual,prize,Darrell Taylor
 s40_battle_of_the_eras,7,,individual,safety,Nehemiah Clark
-s40_battle_of_the_eras,8,Battle for Honor,individual,prize,Jenny West
-s40_battle_of_the_eras,8,Battle for Honor,individual,safety,Rachel Robinson
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Jenny West
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Michele Fitzgerald
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Kyland Young
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Josh Martinez
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Olivia Kaiser
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Theo Campbell
+s40_battle_of_the_eras,8,Battle for Honor,team,prize,Kaycee Clark
 s40_battle_of_the_eras,8,,individual,prize,Derrick Kosinski
 s40_battle_of_the_eras,8,,individual,safety,Derek Chavez
-s40_battle_of_the_eras,9,Bottoms Out,individual,prize,Rachel Robinson
-s40_battle_of_the_eras,9,Bottoms Out,individual,safety,Ryan Kehoe
+s40_battle_of_the_eras,9,Bottoms Out,team,prize,Rachel Robinson
 s40_battle_of_the_eras,9,,individual,prize,Tori Deal
 s40_battle_of_the_eras,9,,individual,safety,Kaycee Clark
 s40_battle_of_the_eras,10,Fire Away,individual,prize,Jordan Wiseley
@@ -1297,35 +1919,19 @@ s41_vets_and_new_threats,7,Drive Me Crazy,pair,safety,Theo Campbell
 s41_vets_and_new_threats,8,Cyclone,pair,prize,Sydney Segal
 s41_vets_and_new_threats,8,Cyclone,pair,prize,Yeremi Hykel
 s41_vets_and_new_threats,8,Cyclone,individual,safety,Theo Campbell
-s41_vets_and_new_threats,10,Fast Thinking,pair,prize,CT Tamburello
-s41_vets_and_new_threats,10,Fast Thinking,pair,prize,Tay Wilcoxson
-s41_vets_and_new_threats,10,Fast Thinking,pair,safety,Theo Campbell
-s41_vets_and_new_threats,10,Fast Thinking,pair,safety,Adrienne Naylor
-s41_vets_and_new_threats,11,Band Together,pair,prize,Jonna Mannion
-s41_vets_and_new_threats,11,Band Together,pair,prize,Gabe Wai
-s41_vets_and_new_threats,11,Band Together,pair,safety,Nany González
-s41_vets_and_new_threats,11,Band Together,pair,safety,Justin Hinsley
-s41_vets_and_new_threats,12,Running Man,pair,prize,Derrick Kosinski
-s41_vets_and_new_threats,12,Running Man,pair,prize,Dee Valladares
-s41_vets_and_new_threats,12,Running Man,pair,safety,Theo Campbell
-s41_vets_and_new_threats,12,Running Man,pair,safety,Adrienne Naylor
-s41_vets_and_new_threats,13,Haystack Heist,pair,prize,Leroy Garrett
-s41_vets_and_new_threats,13,Haystack Heist,pair,prize,America Lopez
-s41_vets_and_new_threats,13,Haystack Heist,pair,safety,Theo Campbell
-s41_vets_and_new_threats,13,Haystack Heist,pair,safety,Adrienne Naylor
-s41_vets_and_new_threats,14,Rune Race,pair,prize,Ashley Mitchell
-s41_vets_and_new_threats,14,Rune Race,pair,prize,Leonardo Dionicio
-s41_vets_and_new_threats,14,Rune Race,pair,safety,Turbo Çamkıran
-s41_vets_and_new_threats,14,Rune Race,pair,safety,Sydney Segal
-s41_vets_and_new_threats,15,Dirty Drifter,pair,prize,Theo Campbell
-s41_vets_and_new_threats,15,Dirty Drifter,pair,prize,Adrienne Naylor
-s41_vets_and_new_threats,15,Dirty Drifter,pair,safety,Aneesa Ferreira
-s41_vets_and_new_threats,15,Dirty Drifter,pair,safety,Jake Cornish
-s41_vets_and_new_threats,16,Dark Mine,pair,prize,Aviv Melmed
-s41_vets_and_new_threats,16,Dark Mine,pair,prize,Yeremi Hykel
-s41_vets_and_new_threats,16,Dark Mine,pair,safety,Olivia Kaiser
-s41_vets_and_new_threats,16,Dark Mine,pair,safety,Will Gagnon
-s41_vets_and_new_threats,17,Global Exchange,pair,prize,Michaela Bradshaw
-s41_vets_and_new_threats,17,Global Exchange,pair,prize,Cedric Hodges
-s41_vets_and_new_threats,17,Global Exchange,pair,safety,Nany González
-s41_vets_and_new_threats,17,Global Exchange,pair,safety,Justin Hinsley
+s41_vets_and_new_threats,10,Fast Thinking,pair,prize,Michaela Bradshaw
+s41_vets_and_new_threats,10,Fast Thinking,pair,prize,Cedric Hodges
+s41_vets_and_new_threats,11,Band Together,pair,prize,Derrick Kosinski
+s41_vets_and_new_threats,11,Band Together,pair,prize,Dee Valladares
+s41_vets_and_new_threats,12,Running Man,pair,prize,Aviv Melmed
+s41_vets_and_new_threats,12,Running Man,pair,prize,Yeremi Hykel
+s41_vets_and_new_threats,13,Haystack Heist,pair,prize,Nany González
+s41_vets_and_new_threats,13,Haystack Heist,pair,prize,Justin Hinsley
+s41_vets_and_new_threats,14,Rune Race,pair,prize,Michaela Bradshaw
+s41_vets_and_new_threats,14,Rune Race,pair,prize,Cedric Hodges
+s41_vets_and_new_threats,15,Dirty Drifter,pair,prize,Olivia Kaiser
+s41_vets_and_new_threats,15,Dirty Drifter,pair,prize,Will Gagnon
+s41_vets_and_new_threats,16,Dark Mine,pair,prize,Turbo Çamkıran
+s41_vets_and_new_threats,16,Dark Mine,pair,prize,Sydney Segal
+s41_vets_and_new_threats,17,Global Exchange,pair,prize,Turbo Çamkıran
+s41_vets_and_new_threats,17,Global Exchange,pair,prize,Sydney Segal

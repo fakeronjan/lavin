@@ -3,10 +3,10 @@
   "safe_name": "Theo_von_Kurnatowski",
   "gender": "M",
   "career": {
-    "era_rating": 2.0,
-    "peak_rating": 1.003,
+    "era_rating": 1.8,
+    "peak_rating": 0.88,
     "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.437,
+    "active_rating": -0.445,
     "active_season_id": "s15_the_gauntlet_iii",
     "n_seasons": 4,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 10,
     "elim_losses": 1,
-    "daily_wins": 5
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Kenny Santucci",
         "Tina Barta"
       ],
-      "rating_at_end": 0.193,
+      "rating_at_end": 0.069,
       "rank": 5,
       "rank_total": 11,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Chanda Sneed",
@@ -58,7 +58,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.665,
+      "rating_at_end": 0.672,
       "rank": 3,
       "rank_total": 18,
       "daily_wins": 0,
@@ -81,10 +81,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.754,
+      "rating_at_end": 0.69,
       "rank": 3,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -127,17 +127,17 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.754
+      "rating": 0.69
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.665
+      "rating": 0.672
     },
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.193
+      "rating": 0.069
     }
   ]
 }

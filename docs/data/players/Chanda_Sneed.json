@@ -3,10 +3,10 @@
   "safe_name": "Chanda_Sneed",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.219,
+    "era_rating": 0.1,
+    "peak_rating": 0.09,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.528,
+    "active_rating": -0.471,
     "active_season_id": "s15_the_gauntlet_iii",
     "n_seasons": 1,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 0
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Tina Barta",
         "Kenny Santucci"
       ],
-      "rating_at_end": 0.219,
-      "rank": 4,
+      "rating_at_end": 0.09,
+      "rank": 5,
       "rank_total": 12,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Theo von Kurnatowski",
@@ -51,7 +51,7 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.219
+      "rating": 0.09
     }
   ]
 }

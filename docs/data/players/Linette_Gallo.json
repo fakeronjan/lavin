@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.157,
+    "peak_rating": 0.2,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.437,
+    "active_rating": -0.461,
     "active_season_id": "s14_the_inferno_3",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 0
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Casey Cooper",
         "Wes Bergmann"
       ],
-      "rating_at_end": 0.157,
-      "rank": 6,
+      "rating_at_end": 0.2,
+      "rank": 4,
       "rank_total": 12,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Shane Landrum",
@@ -51,7 +51,7 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.157
+      "rating": 0.2
     }
   ]
 }

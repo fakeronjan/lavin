@@ -3,10 +3,10 @@
   "safe_name": "MJ_Garrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.49,
+    "era_rating": 0.6,
+    "peak_rating": 0.553,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.186,
+    "active_rating": -0.552,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": 0.215,
-      "rank": 5,
+      "rating_at_end": -0.02,
+      "rank": 9,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "",
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Frank Roessler"
       ],
-      "rating_at_end": -0.268,
-      "rank": 11,
+      "rating_at_end": -0.538,
+      "rank": 14,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.49,
-      "rank": 4,
+      "rating_at_end": 0.553,
+      "rank": 2,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -96,17 +96,17 @@
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.49
+      "rating": 0.553
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.268
+      "rating": -0.538
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.215
+      "rating": -0.02
     }
   ]
 }

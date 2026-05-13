@@ -3,10 +3,10 @@
   "safe_name": "Mark_Long",
   "gender": "M",
   "career": {
-    "era_rating": 1.2,
+    "era_rating": 1.4,
     "peak_rating": 0.739,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.347,
+    "active_rating": -0.357,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 11,
     "elim_losses": 3,
-    "daily_wins": 4
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.347,
-      "rank": 14,
+      "rating_at_end": -0.357,
+      "rank": 16,
       "rank_total": 20,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -58,8 +58,8 @@
         "Johnny Bananas",
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.176,
-      "rank": 8,
+      "rating_at_end": 0.0,
+      "rank": 6,
       "rank_total": 12,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -83,10 +83,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.34,
+      "rating_at_end": 0.466,
       "rank": 4,
       "rank_total": 15,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -106,10 +106,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.169,
-      "rank": 9,
+      "rating_at_end": -0.015,
+      "rank": 7,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -131,8 +131,8 @@
       "eliminated_by": [
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": 0.117,
-      "rank": 6,
+      "rating_at_end": 0.153,
+      "rank": 7,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -175,27 +175,27 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.117
+      "rating": 0.153
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.169
+      "rating": -0.015
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.34
+      "rating": 0.466
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.176
+      "rating": 0.0
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.347
+      "rating": -0.357
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Jordan_Wiseley",
   "gender": "M",
   "career": {
-    "era_rating": 7.1,
-    "peak_rating": 1.166,
+    "era_rating": 7.3,
+    "peak_rating": 1.174,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.884,
+    "active_rating": 0.871,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 15,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 14,
     "elim_losses": 5,
-    "daily_wins": 17
+    "daily_wins": 20
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.936,
+      "rating_at_end": 0.974,
       "rank": 1,
       "rank_total": 20,
-      "daily_wins": 3,
+      "daily_wins": 6,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -53,7 +53,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.232,
+      "rating_at_end": 0.242,
       "rank": 9,
       "rank_total": 17,
       "daily_wins": 0,
@@ -76,7 +76,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.501,
+      "rating_at_end": 0.471,
       "rank": 4,
       "rank_total": 17,
       "daily_wins": 1,
@@ -103,7 +103,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": 0.624,
+      "rating_at_end": 0.635,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 3,
@@ -128,7 +128,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.166,
+      "rating_at_end": 1.174,
       "rank": 1,
       "rank_total": 16,
       "daily_wins": 2,
@@ -151,7 +151,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.711,
+      "rating_at_end": 0.706,
       "rank": 3,
       "rank_total": 16,
       "daily_wins": 0,
@@ -174,10 +174,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.068,
+      "rating_at_end": 1.095,
       "rank": 1,
       "rank_total": 15,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -197,10 +197,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.884,
+      "rating_at_end": 1.125,
       "rank": 1,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Sarah Rice",
@@ -224,10 +224,10 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.477,
-      "rank": 5,
+      "rating_at_end": 0.4,
+      "rank": 6,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -270,47 +270,47 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.477
+      "rating": 0.4
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.884
+      "rating": 1.125
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 1.068
+      "rating": 1.095
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.711
+      "rating": 0.706
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 1.166
+      "rating": 1.174
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.624
+      "rating": 0.635
     },
     {
       "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.501
+      "rating": 0.471
     },
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.232
+      "rating": 0.242
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.936
+      "rating": 0.974
     }
   ]
 }

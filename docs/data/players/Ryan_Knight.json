@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.095,
-    "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.67,
+    "peak_rating": -0.191,
+    "peak_season_id": "s24_rivals_ii",
+    "active_rating": -0.83,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Adam Kuhn",
         "Brittany Baldi"
       ],
-      "rating_at_end": -0.095,
-      "rank": 11,
+      "rating_at_end": -0.42,
+      "rank": 13,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Jemmye Carroll",
@@ -89,7 +89,7 @@
         "Zach Nichols",
         "Sam McGinn"
       ],
-      "rating_at_end": -0.429,
+      "rating_at_end": -0.38,
       "rank": 8,
       "rank_total": 16,
       "daily_wins": 1,
@@ -107,7 +107,7 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.429
+      "rating": -0.38
     },
     {
       "ranking_id": 521,
@@ -117,7 +117,7 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.095
+      "rating": -0.42
     }
   ]
 }

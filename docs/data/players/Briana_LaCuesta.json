@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.177,
+    "peak_rating": -0.08,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.249,
+    "active_rating": -0.247,
     "active_season_id": "s31_vendettas",
     "n_seasons": 2,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Britni Thornton"
       ],
-      "rating_at_end": -0.282,
-      "rank": 14,
+      "rating_at_end": -0.261,
+      "rank": 13,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.288,
-      "rank": 11,
+      "rating_at_end": -0.365,
+      "rank": 14,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "Brandon Tindel",
@@ -73,12 +73,12 @@
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.288
+      "rating": -0.365
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.282
+      "rating": -0.261
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Big_Easy_Banks",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.326,
+    "era_rating": 0.2,
+    "peak_rating": 0.261,
     "peak_season_id": "s16_the_island",
-    "active_rating": -0.865,
+    "active_rating": -0.825,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 8
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "JD Ordo\u00f1ez",
         "Devyn Simone"
       ],
-      "rating_at_end": -0.179,
+      "rating_at_end": -0.131,
       "rank": 6,
       "rank_total": 16,
       "daily_wins": 3,
@@ -61,8 +61,8 @@
       "eliminated_by": [
         "Luke Wolfe"
       ],
-      "rating_at_end": 0.076,
-      "rank": 8,
+      "rating_at_end": -0.148,
+      "rank": 9,
       "rank_total": 15,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -86,10 +86,10 @@
       "eliminated_by": [
         "Derek McCray"
       ],
-      "rating_at_end": 0.077,
-      "rank": 9,
+      "rating_at_end": -0.062,
+      "rank": 10,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -109,10 +109,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.207,
+      "rating_at_end": 0.18,
       "rank": 7,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 5,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -134,8 +134,8 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": 0.019,
-      "rank": 6,
+      "rating_at_end": -0.0,
+      "rank": 7,
       "rank_total": 10,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -160,8 +160,8 @@
         "Kenny Santucci",
         "Tina Barta"
       ],
-      "rating_at_end": 0.216,
-      "rank": 4,
+      "rating_at_end": 0.008,
+      "rank": 6,
       "rank_total": 11,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -178,32 +178,32 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.216
+      "rating": 0.008
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.019
+      "rating": -0.0
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.207
+      "rating": 0.18
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.077
+      "rating": -0.062
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.076
+      "rating": -0.148
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.179
+      "rating": -0.131
     }
   ]
 }

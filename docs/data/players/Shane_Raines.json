@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.056,
+    "peak_rating": 0.107,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.259,
+    "active_rating": -0.235,
     "active_season_id": "s31_vendettas",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.056,
+      "rating_at_end": 0.107,
       "rank": 12,
       "rank_total": 15,
       "daily_wins": 0,
@@ -53,8 +53,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.169,
-      "rank": 15,
+      "rating_at_end": -0.195,
+      "rank": 14,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -69,12 +69,12 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.169
+      "rating": -0.195
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.056
+      "rating": 0.107
     }
   ]
 }

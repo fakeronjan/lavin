@@ -3,10 +3,10 @@
   "safe_name": "Ashley_Mitchell",
   "gender": "F",
   "career": {
-    "era_rating": 3.5,
-    "peak_rating": 1.047,
+    "era_rating": 3.6,
+    "peak_rating": 1.082,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.054,
+    "active_rating": -0.195,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 11,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 7,
-    "daily_wins": 11
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Sydney Segal",
         "Turbo \u00c7amk\u0131ran"
       ],
-      "rating_at_end": -0.054,
-      "rank": 7,
+      "rating_at_end": -0.195,
+      "rank": 11,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -56,8 +56,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.086,
-      "rank": 11,
+      "rating_at_end": -0.003,
+      "rank": 9,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -109,7 +109,7 @@
       "eliminated_by": [
         "Dee Nguyen"
       ],
-      "rating_at_end": 0.199,
+      "rating_at_end": 0.19,
       "rank": 7,
       "rank_total": 14,
       "daily_wins": 1,
@@ -132,7 +132,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.543,
+      "rating_at_end": 0.517,
       "rank": 5,
       "rank_total": 16,
       "daily_wins": 3,
@@ -158,8 +158,8 @@
         "Georgia Harrison",
         "Hunter Barfield"
       ],
-      "rating_at_end": 0.577,
-      "rank": 5,
+      "rating_at_end": 0.621,
+      "rank": 4,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -183,7 +183,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.047,
+      "rating_at_end": 1.082,
       "rank": 1,
       "rank_total": 18,
       "daily_wins": 0,
@@ -210,7 +210,7 @@
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": -0.023,
+      "rating_at_end": -0.004,
       "rank": 10,
       "rank_total": 18,
       "daily_wins": 0,
@@ -233,8 +233,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.37,
-      "rank": 5,
+      "rating_at_end": 0.42,
+      "rank": 4,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -256,7 +256,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.71,
+      "rating_at_end": 0.733,
       "rank": 1,
       "rank_total": 13,
       "daily_wins": 1,
@@ -282,8 +282,8 @@
         "Christina LeBlanc",
         "Nate Siebenmark"
       ],
-      "rating_at_end": -0.376,
-      "rank": 12,
+      "rating_at_end": -0.345,
+      "rank": 11,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -300,42 +300,42 @@
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.376
+      "rating": -0.345
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.71
+      "rating": 0.733
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.37
+      "rating": 0.42
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.023
+      "rating": -0.004
     },
     {
       "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 1.047
+      "rating": 1.082
     },
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.577
+      "rating": 0.621
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.543
+      "rating": 0.517
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.199
+      "rating": 0.19
     },
     {
       "ranking_id": 860,
@@ -345,12 +345,12 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.086
+      "rating": -0.003
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.054
+      "rating": -0.195
     }
   ]
 }

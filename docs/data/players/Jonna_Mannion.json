@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.07,
+    "peak_rating": 0.087,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.166,
+    "active_rating": -0.323,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 7,
-    "daily_wins": 7
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Aviv Melmed",
         "Yeremi Hykel"
       ],
-      "rating_at_end": -0.166,
-      "rank": 12,
+      "rating_at_end": -0.323,
+      "rank": 13,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.46,
-      "rank": 18,
+      "rating_at_end": -0.283,
+      "rank": 14,
       "rank_total": 20,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -84,8 +84,8 @@
         "Sarah Rice",
         "Jordan Wiseley"
       ],
-      "rating_at_end": -0.285,
-      "rank": 8,
+      "rating_at_end": -0.1,
+      "rank": 7,
       "rank_total": 13,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -111,10 +111,10 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.142,
-      "rank": 10,
+      "rating_at_end": -0.441,
+      "rank": 13,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -165,7 +165,7 @@
         "Ashley Kelsey",
         "Frank Fox"
       ],
-      "rating_at_end": -0.004,
+      "rating_at_end": 0.03,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 1,
@@ -193,8 +193,8 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.139,
-      "rank": 7,
+      "rating_at_end": -0.104,
+      "rank": 8,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -211,12 +211,12 @@
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.139
+      "rating": -0.104
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.004
+      "rating": 0.03
     },
     {
       "ranking_id": 521,
@@ -226,22 +226,22 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.142
+      "rating": -0.441
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.285
+      "rating": -0.1
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.46
+      "rating": -0.283
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.166
+      "rating": -0.323
     }
   ]
 }

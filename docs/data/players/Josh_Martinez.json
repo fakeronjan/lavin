@@ -3,8 +3,8 @@
   "safe_name": "Josh_Martinez",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.145,
+    "era_rating": 0.2,
+    "peak_rating": 0.162,
     "peak_season_id": "s34_war_of_the_worlds_2",
     "active_rating": -0.75,
     "active_season_id": "s41_vets_and_new_threats",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 7,
-    "daily_wins": 9
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.353,
-      "rank": 16,
+      "rating_at_end": -0.196,
+      "rank": 13,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -57,8 +57,8 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.236,
-      "rank": 15,
+      "rating_at_end": -0.094,
+      "rank": 10,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -109,7 +109,7 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.059,
+      "rating_at_end": -0.051,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 4,
@@ -134,8 +134,8 @@
       "eliminated_by": [
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.145,
-      "rank": 12,
+      "rating_at_end": 0.162,
+      "rank": 11,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -160,8 +160,8 @@
         "Ashley Cain",
         "Kam Williams"
       ],
-      "rating_at_end": -0.216,
-      "rank": 13,
+      "rating_at_end": -0.164,
+      "rank": 11,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -178,17 +178,17 @@
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.216
+      "rating": -0.164
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.145
+      "rating": 0.162
     },
     {
       "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.059
+      "rating": -0.051
     },
     {
       "ranking_id": 860,
@@ -198,12 +198,12 @@
     {
       "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.236
+      "rating": -0.094
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.353
+      "rating": -0.196
     }
   ]
 }

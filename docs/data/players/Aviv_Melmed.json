@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.949,
+    "peak_rating": 0.925,
     "peak_season_id": "s16_the_island",
-    "active_rating": -0.086,
+    "active_rating": -0.042,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 4,
-    "daily_wins": 5
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -33,8 +33,8 @@
         "Michaela Bradshaw",
         "Cedric Hodges"
       ],
-      "rating_at_end": -0.086,
-      "rank": 8,
+      "rating_at_end": -0.042,
+      "rank": 5,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -62,10 +62,10 @@
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.007,
-      "rank": 7,
+      "rating_at_end": 0.025,
+      "rank": 6,
       "rank_total": 20,
-      "daily_wins": 3,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 2,
       "partner": "",
@@ -85,10 +85,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.462,
+      "rating_at_end": 0.449,
       "rank": 3,
       "rank_total": 12,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "Darrell Taylor",
@@ -103,17 +103,17 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.462
+      "rating": 0.449
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.007
+      "rating": 0.025
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.086
+      "rating": -0.042
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.6,
-    "peak_rating": 1.255,
+    "peak_rating": 1.271,
     "peak_season_id": "s13_the_duel",
-    "active_rating": -0.341,
+    "active_rating": -0.49,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 8
+    "daily_wins": 19
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Averey Tressler"
       ],
-      "rating_at_end": -0.341,
-      "rank": 15,
+      "rating_at_end": -0.49,
+      "rank": 17,
       "rank_total": 20,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -55,7 +55,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.255,
+      "rating_at_end": 1.271,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 7,
@@ -78,10 +78,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.304,
+      "rating_at_end": 0.286,
       "rank": 4,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -103,10 +103,10 @@
       "eliminated_by": [
         "Veronica Portillo"
       ],
-      "rating_at_end": -0.345,
-      "rank": 7,
+      "rating_at_end": -0.456,
+      "rank": 10,
       "rank_total": 10,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -119,22 +119,22 @@
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.345
+      "rating": -0.456
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.304
+      "rating": 0.286
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 1.255
+      "rating": 1.271
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.341
+      "rating": -0.49
     }
   ]
 }

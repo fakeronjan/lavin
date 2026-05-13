@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.8,
-    "peak_rating": 1.057,
+    "peak_rating": 1.067,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.662,
+    "active_rating": -0.587,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 1,
-    "daily_wins": 11
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Tina Barta"
       ],
-      "rating_at_end": -0.662,
-      "rank": 20,
+      "rating_at_end": -0.587,
+      "rank": 19,
       "rank_total": 20,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -56,7 +56,7 @@
       "elim_total": null,
       "eliminated_by": [],
       "rating_at_end": 1.032,
-      "rank": 2,
+      "rank": 1,
       "rank_total": 17,
       "daily_wins": 6,
       "elim_wins": 0,
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.598,
-      "rank": 2,
+      "rating_at_end": 0.633,
+      "rank": 3,
       "rank_total": 14,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 3,
       "elim_losses": 0,
       "partner": "Ty Ruff",
@@ -105,10 +105,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.177,
-      "rank": 5,
+      "rating_at_end": 0.102,
+      "rank": 6,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 2,
       "elim_losses": 0,
       "partner": "",
@@ -121,12 +121,12 @@
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.177
+      "rating": 0.102
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.598
+      "rating": 0.633
     },
     {
       "ranking_id": 521,
@@ -136,7 +136,7 @@
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.662
+      "rating": -0.587
     }
   ]
 }

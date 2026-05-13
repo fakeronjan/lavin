@@ -3,10 +3,10 @@
   "safe_name": "Ryan_Kehoe",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.138,
-    "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.493,
+    "era_rating": 0.0,
+    "peak_rating": -0.048,
+    "peak_season_id": "s15_the_gauntlet_iii",
+    "active_rating": -0.574,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 9
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": -0.052,
+      "rating_at_end": -0.191,
       "rank": 11,
       "rank_total": 20,
       "daily_wins": 2,
@@ -58,10 +58,10 @@
         "Noor Jehangir",
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.358,
-      "rank": 13,
+      "rating_at_end": -0.272,
+      "rank": 12,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Theresa Jones",
@@ -85,10 +85,10 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": 0.138,
-      "rank": 6,
+      "rating_at_end": -0.062,
+      "rank": 11,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -108,10 +108,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.024,
-      "rank": 5,
+      "rating_at_end": -0.113,
+      "rank": 6,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -133,10 +133,10 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": 0.096,
-      "rank": 8,
+      "rating_at_end": -0.048,
+      "rank": 9,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -159,8 +159,8 @@
         "Wes Bergmann",
         "Casey Cooper"
       ],
-      "rating_at_end": -0.169,
-      "rank": 7,
+      "rating_at_end": -0.224,
+      "rank": 9,
       "rank_total": 11,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -177,32 +177,32 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": -0.169
+      "rating": -0.224
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.096
+      "rating": -0.048
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.024
+      "rating": -0.113
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.138
+      "rating": -0.062
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.358
+      "rating": -0.272
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.052
+      "rating": -0.191
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.428,
+    "peak_rating": 0.354,
     "peak_season_id": "s16_the_island",
-    "active_rating": -0.031,
+    "active_rating": -0.023,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 4,
-    "daily_wins": 6
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Johnny Bananas",
         "Tyler Duckworth"
       ],
-      "rating_at_end": -0.066,
+      "rating_at_end": -0.07,
       "rank": 8,
       "rank_total": 15,
       "daily_wins": 2,
@@ -60,10 +60,10 @@
       "eliminated_by": [
         "Syrus Yarbrough"
       ],
-      "rating_at_end": -0.299,
-      "rank": 11,
+      "rating_at_end": -0.198,
+      "rank": 10,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -83,8 +83,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.09,
-      "rank": 7,
+      "rating_at_end": 0.16,
+      "rank": 6,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -106,10 +106,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.319,
-      "rank": 3,
+      "rating_at_end": 0.279,
+      "rank": 5,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -131,10 +131,10 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.381,
-      "rank": 12,
+      "rating_at_end": -0.549,
+      "rank": 15,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -156,7 +156,7 @@
       "eliminated_by": [
         "Shawn Sealy"
       ],
-      "rating_at_end": -0.325,
+      "rating_at_end": -0.291,
       "rank": 14,
       "rank_total": 18,
       "daily_wins": 1,
@@ -172,32 +172,32 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.325
+      "rating": -0.291
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.381
+      "rating": -0.549
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.319
+      "rating": 0.279
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.09
+      "rating": 0.16
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.299
+      "rating": -0.198
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.066
+      "rating": -0.07
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Davis_Mallory",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": -0.0,
-    "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.383,
+    "era_rating": 0.1,
+    "peak_rating": 0.137,
+    "peak_season_id": "s16_the_island",
+    "active_rating": -0.41,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 3,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 3,
-    "daily_wins": 1
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.527,
+      "rating_at_end": -0.537,
       "rank": 13,
       "rank_total": 15,
       "daily_wins": 0,
@@ -60,8 +60,8 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": -0.011,
-      "rank": 10,
+      "rating_at_end": 0.049,
+      "rank": 7,
       "rank_total": 15,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -85,10 +85,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.0,
+      "rating_at_end": 0.08,
       "rank": 5,
       "rank_total": 11,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 4,
       "elim_losses": 1,
       "partner": "",
@@ -101,17 +101,17 @@
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.0
+      "rating": 0.08
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.011
+      "rating": 0.049
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.527
+      "rating": -0.537
     }
   ]
 }

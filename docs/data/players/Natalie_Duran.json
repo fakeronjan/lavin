@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 2.0,
-    "peak_rating": 1.081,
+    "peak_rating": 1.112,
     "peak_season_id": "s33_war_of_the_worlds",
     "active_rating": 0.737,
     "active_season_id": "s36_double_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 0,
-    "daily_wins": 4
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.908,
+      "rating_at_end": 0.909,
       "rank": 1,
       "rank_total": 16,
       "daily_wins": 1,
@@ -53,10 +53,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.081,
+      "rating_at_end": 1.112,
       "rank": 1,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "Paulie Calafiore",
@@ -72,12 +72,12 @@
     {
       "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 1.081
+      "rating": 1.112
     },
     {
       "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.908
+      "rating": 0.909
     }
   ]
 }

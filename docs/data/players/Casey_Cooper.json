@@ -3,10 +3,10 @@
   "safe_name": "Casey_Cooper",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.554,
+    "era_rating": 0.6,
+    "peak_rating": 0.547,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.182,
+    "active_rating": -0.181,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 8,
     "elim_losses": 5,
-    "daily_wins": 3
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": 0.091,
-      "rank": 8,
+      "rating_at_end": -0.273,
+      "rank": 12,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Evelyn Smith"
       ],
-      "rating_at_end": -0.313,
-      "rank": 13,
+      "rating_at_end": -0.255,
+      "rank": 11,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -82,7 +82,7 @@
       "eliminated_by": [
         "Robin Hibbard"
       ],
-      "rating_at_end": 0.065,
+      "rating_at_end": 0.092,
       "rank": 9,
       "rank_total": 10,
       "daily_wins": 0,
@@ -105,7 +105,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.554,
+      "rating_at_end": 0.547,
       "rank": 2,
       "rank_total": 12,
       "daily_wins": 0,
@@ -123,22 +123,22 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": 0.554
+      "rating": 0.547
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.065
+      "rating": 0.092
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.313
+      "rating": -0.255
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.091
+      "rating": -0.273
     }
   ]
 }

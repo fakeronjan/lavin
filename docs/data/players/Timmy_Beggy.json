@@ -3,10 +3,10 @@
   "safe_name": "Timmy_Beggy",
   "gender": "M",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.891,
+    "era_rating": 0.8,
+    "peak_rating": 0.781,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.845,
+    "active_rating": -0.685,
     "active_season_id": "s17_the_duel_ii",
     "n_seasons": 4,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 5
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Abram Boise"
       ],
-      "rating_at_end": -0.696,
+      "rating_at_end": -0.472,
       "rank": 9,
       "rank_total": 11,
-      "daily_wins": 0,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -55,10 +55,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.007,
-      "rank": 7,
+      "rating_at_end": 0.037,
+      "rank": 6,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -78,10 +78,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.547,
-      "rank": 2,
+      "rating_at_end": 0.448,
+      "rank": 3,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 2,
       "partner": "",
@@ -124,17 +124,17 @@
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.547
+      "rating": 0.448
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.007
+      "rating": 0.037
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.696
+      "rating": -0.472
     }
   ]
 }

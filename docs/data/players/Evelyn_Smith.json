@@ -3,10 +3,10 @@
   "safe_name": "Evelyn_Smith",
   "gender": "F",
   "career": {
-    "era_rating": 3.0,
-    "peak_rating": 0.964,
-    "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": 0.964,
+    "era_rating": 2.7,
+    "peak_rating": 0.956,
+    "peak_season_id": "s21_rivals",
+    "active_rating": 0.944,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 7,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 4,
-    "daily_wins": 12
+    "daily_wins": 19
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.93,
+      "rating_at_end": 0.956,
       "rank": 1,
       "rank_total": 14,
       "daily_wins": 4,
@@ -58,10 +58,10 @@
         "Carley Johnson",
         "Landon Lueck"
       ],
-      "rating_at_end": 0.22,
-      "rank": 4,
+      "rating_at_end": 0.06,
+      "rank": 6,
       "rank_total": 13,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "partner": "Luke Wolfe",
@@ -85,10 +85,10 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.251,
-      "rank": 5,
+      "rating_at_end": 0.225,
+      "rank": 7,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -108,10 +108,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.57,
-      "rank": 1,
+      "rating_at_end": 0.533,
+      "rank": 2,
       "rank_total": 10,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -134,7 +134,7 @@
       "rating_at_end": 0.308,
       "rank": 5,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -154,10 +154,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.748,
+      "rating_at_end": 0.642,
       "rank": 2,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -180,8 +180,8 @@
         "Casey Cooper",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.416,
-      "rank": 9,
+      "rating_at_end": -0.457,
+      "rank": 10,
       "rank_total": 12,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -198,12 +198,12 @@
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": -0.416
+      "rating": -0.457
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.748
+      "rating": 0.642
     },
     {
       "ranking_id": 274,
@@ -213,22 +213,22 @@
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.57
+      "rating": 0.533
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.251
+      "rating": 0.225
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.22
+      "rating": 0.06
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.93
+      "rating": 0.956
     }
   ]
 }

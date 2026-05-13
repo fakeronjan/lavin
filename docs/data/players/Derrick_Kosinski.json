@@ -3,10 +3,10 @@
   "safe_name": "Derrick_Kosinski",
   "gender": "M",
   "career": {
-    "era_rating": 3.8,
-    "peak_rating": 0.981,
+    "era_rating": 3.4,
+    "peak_rating": 1.011,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.049,
+    "active_rating": -0.0,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
     "n_snapshots": 17,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 13,
     "elim_losses": 8,
-    "daily_wins": 21
+    "daily_wins": 41
   },
   "seasons": [
     {
@@ -33,8 +33,8 @@
         "Theo Campbell",
         "Adrienne Naylor"
       ],
-      "rating_at_end": -0.049,
-      "rank": 15,
+      "rating_at_end": -0.0,
+      "rank": 13,
       "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -61,7 +61,7 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": 0.102,
+      "rating_at_end": -0.04,
       "rank": 7,
       "rank_total": 20,
       "daily_wins": 2,
@@ -84,7 +84,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.696,
+      "rating_at_end": 0.703,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 0,
@@ -107,7 +107,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.981,
+      "rating_at_end": 1.011,
       "rank": 2,
       "rank_total": 15,
       "daily_wins": 2,
@@ -132,10 +132,10 @@
       "eliminated_by": [
         "Tyler Duckworth"
       ],
-      "rating_at_end": 0.187,
-      "rank": 5,
+      "rating_at_end": 0.119,
+      "rank": 6,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -155,10 +155,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.831,
-      "rank": 2,
+      "rating_at_end": 0.767,
+      "rank": 3,
       "rank_total": 14,
-      "daily_wins": 3,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -178,10 +178,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.519,
+      "rating_at_end": 0.489,
       "rank": 1,
       "rank_total": 10,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
       "partner": "",
@@ -201,10 +201,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.336,
+      "rating_at_end": 0.301,
       "rank": 3,
       "rank_total": 11,
-      "daily_wins": 0,
+      "daily_wins": 6,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -226,8 +226,8 @@
       "eliminated_by": [
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.083,
-      "rank": 7,
+      "rating_at_end": 0.06,
+      "rank": 6,
       "rank_total": 10,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -252,10 +252,10 @@
         "Darrell Taylor",
         "Aviv Melmed"
       ],
-      "rating_at_end": -0.463,
-      "rank": 11,
+      "rating_at_end": -0.043,
+      "rank": 7,
       "rank_total": 11,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "Diem Brown",
@@ -279,10 +279,10 @@
       "eliminated_by": [
         "Timmy Beggy"
       ],
-      "rating_at_end": 0.108,
-      "rank": 6,
+      "rating_at_end": -0.017,
+      "rank": 8,
       "rank_total": 16,
-      "daily_wins": 5,
+      "daily_wins": 6,
       "elim_wins": 4,
       "elim_losses": 1,
       "partner": "",
@@ -302,10 +302,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.068,
+      "rating_at_end": -0.019,
       "rank": 6,
       "rank_total": 10,
-      "daily_wins": 2,
+      "daily_wins": 7,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -327,7 +327,7 @@
       "eliminated_by": [
         "Randy Barry"
       ],
-      "rating_at_end": -0.28,
+      "rating_at_end": -0.245,
       "rank": 13,
       "rank_total": 18,
       "daily_wins": 1,
@@ -343,67 +343,67 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.28
+      "rating": -0.245
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.068
+      "rating": -0.019
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.108
+      "rating": -0.017
     },
     {
       "ranking_id": 225,
       "season_id": "s12_fresh_meat",
-      "rating": -0.463
+      "rating": -0.043
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": -0.083
+      "rating": 0.06
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.336
+      "rating": 0.301
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.519
+      "rating": 0.489
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.831
+      "rating": 0.767
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.187
+      "rating": 0.119
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.981
+      "rating": 1.011
     },
     {
       "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.696
+      "rating": 0.703
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.102
+      "rating": -0.04
     },
     {
       "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.049
+      "rating": -0.0
     }
   ]
 }

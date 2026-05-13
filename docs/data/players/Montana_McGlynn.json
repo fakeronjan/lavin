@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.176,
+    "peak_rating": -0.504,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.705,
+    "active_rating": -0.765,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 2
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Beth Stolarczyk"
       ],
-      "rating_at_end": -0.705,
+      "rating_at_end": -0.765,
       "rank": 15,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "partner": "",
@@ -57,8 +57,8 @@
       "eliminated_by": [
         "Katie Cooley"
       ],
-      "rating_at_end": -0.176,
-      "rank": 11,
+      "rating_at_end": -0.504,
+      "rank": 14,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -73,12 +73,12 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.176
+      "rating": -0.504
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.705
+      "rating": -0.765
     }
   ]
 }

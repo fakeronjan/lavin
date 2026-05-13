@@ -3,10 +3,10 @@
   "safe_name": "Landon_Lueck",
   "gender": "M",
   "career": {
-    "era_rating": 2.3,
-    "peak_rating": 1.129,
-    "peak_season_id": "s21_rivals",
-    "active_rating": 1.129,
+    "era_rating": 2.8,
+    "peak_rating": 1.181,
+    "peak_season_id": "s20_cutthroat",
+    "active_rating": 1.118,
     "active_season_id": "s21_rivals",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 1,
-    "daily_wins": 6
+    "daily_wins": 23
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.011,
+      "rating_at_end": 1.171,
       "rank": 1,
       "rank_total": 13,
       "daily_wins": 2,
@@ -57,10 +57,10 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": -0.045,
-      "rank": 11,
+      "rating_at_end": 0.462,
+      "rank": 5,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 1,
       "partner": "",
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.58,
-      "rank": 2,
+      "rating_at_end": 0.552,
+      "rank": 3,
       "rank_total": 16,
-      "daily_wins": 0,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 0,
       "partner": "",
@@ -103,10 +103,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.666,
+      "rating_at_end": 0.584,
       "rank": 2,
       "rank_total": 10,
-      "daily_wins": 3,
+      "daily_wins": 8,
       "elim_wins": 3,
       "elim_losses": 0,
       "partner": "",
@@ -119,22 +119,22 @@
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.666
+      "rating": 0.584
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.58
+      "rating": 0.552
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.045
+      "rating": 0.462
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 1.011
+      "rating": 1.171
     }
   ]
 }
