@@ -170,16 +170,34 @@ def parse_contestants(wikitext):
     if not sec:
         return []
 
+    # S39 Battle for a New Champion put a "===Champions===" sub-heading
+    # under Contestants for 10 mercenary vets who couldn't win the title.
+    # Their tables have no Finish column. Detect that boundary so we can
+    # tag those players "Champion Mercenary" instead of leaving blank.
+    champion_section_start = -1
+    m = re.search(r"^=+\s*Champions?\s*=+\s*$", sec, re.MULTILINE)
+    if m:
+        champion_section_start = m.start()
+
     code = mwp.parse(sec)
     rows = []
     seen_players_this_section = set()
     row_counter = 0  # monotonic, used to build pair_id
+    table_search_start = 0
 
     for table in _iter_wikitables(code):
         # Skip wrapper tables: they contain nested {| ... |} blocks
         inner_body = table[2:-2]
         if "{|" in inner_body and "|}" in inner_body:
             continue
+
+        # Locate this table in the source section text (for subsection lookup).
+        idx = sec.find(table, table_search_start)
+        if idx >= 0:
+            table_search_start = idx + len(table)
+        in_champions_subsection = (
+            champion_section_start >= 0 and idx >= champion_section_start
+        )
 
         caption = _table_caption(table)
         table_gender = _caption_gender(caption)
@@ -201,6 +219,8 @@ def parse_contestants(wikitext):
                 seen_players_this_section.add(row["player"])
                 row["team"] = team_name
                 row["pair_id"] = pair_id
+                if in_champions_subsection and not row.get("finish"):
+                    row["finish"] = "Champion Mercenary"
                 rows.append(row)
     return rows
 
@@ -251,6 +271,13 @@ def _extract_contestants_from_row(cells, table_gender, pair_cols=None):
         for tag in c.filter_tags(matches=lambda t: str(t.tag).lower() == "ref"):
             c.remove(tag)
         plain = " ".join(c.strip_code().split())
+        # Strip residual HTML tags and wikicode markers (e.g. unclosed
+        # <small> in S36/S38/S39/S41 finish cells where the closing
+        # </small> is missing — strip_code leaves "<small>''" between
+        # "Eliminated" and "in", breaking the substring match).
+        plain = re.sub(r"<[^>]+>", " ", plain)
+        plain = re.sub(r"''+", " ", plain)
+        plain = " ".join(plain.split())
         if not plain:
             continue
         pl = plain.lower()
@@ -261,8 +288,8 @@ def _extract_contestants_from_row(cells, table_gender, pair_cols=None):
         if not finish and (
             re.search(r"\bwinners?\b", pl)
             or re.search(r"\brunners?[- ]?up\b", pl)
-            or "third place" in pl or "fourth place" in pl
-            or "fifth place" in pl or "sixth place" in pl
+            or re.search(r"\b(third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth)\s+place\b", pl)
+            or re.search(r"\bbottom\s+(two|three|four|five|six|seven|eight|\d+)\b", pl)
             or "eliminated in" in pl
             or "disqualif" in pl
             or pl.startswith("quit")
@@ -644,16 +671,20 @@ def parse_game_summary_individual(wikitext):
     last_episode = ""  # carried forward for continuation rows (gender-only first cell)
 
     for cells in _iter_table_rows(elim_table):
-        # Minimum 4 cells: episode + game + winner_pair + loser_pair. Modern
-        # finale rows often have a colspan=N gray block that collapses the
-        # middle "nominees" columns, leaving just these 4 anchors (e.g. S28
-        # Rivals III "Don't Wine for Me Argentina").
-        if len(cells) < 4:
+        # Minimum 3 cells: typically episode + game + winner + loser (4),
+        # but some continuation rows (S29 X-It "Bloodbath", S27 finale stage
+        # multi-elim rows) compress to {pair-context, winner, loser} = 3.
+        # Below 3 is never enough for a binary H2H.
+        if len(cells) < 3:
             continue
         first_plain = _cell_plain(cells[0])
-        if first_plain.lower() in ("episode", "#", ""):
+        # Skip the chart header row ("Episode" / "#" / "Elimination chart")
+        # but NOT continuation rows whose first cell is empty (style-only)
+        # or has colspan attributes — those are legitimate sub-rows in
+        # multi-row episodes (S29 X-It ep 11/12, S27 Final-stage events).
+        if first_plain.lower() in ("episode", "#"):
             continue
-        if "colspan" in cells[0].lower() or "elimination chart" in cells[0].lower():
+        if "elimination chart" in cells[0].lower():
             continue
 
         # Detect continuation row: first cell isn't a real episode token.
@@ -673,18 +704,20 @@ def parse_game_summary_individual(wikitext):
         if not is_continuation:
             last_episode = episode
 
-        # Skip rows where the elimination collapses to N/A — but only if
-        # the N/A is in the ELIMINATION OUTCOME area (last cells), not a
-        # mid-row annotation about a DQ'd daily or skipped category. Check
-        # the last cells specifically.
-        last_cells_text = " ".join(cells[-3:])
-        elim_skipped = "N/A" in last_cells_text
-
         # For positional winner/loser detection, look only at cells from
         # THIS physical row (exclude rowspan-appended content bled in from
         # prior rows above — e.g. S30 Dirty 30 "The Reel World" had Jenna
         # Compono's icon bleeding into the men's elim row).
         native_len = getattr(cells, "_native_len", len(cells))
+
+        # Skip rows where the elimination collapses to N/A. Check only the
+        # FINAL cell of the native row — that's the "Eliminated" column. A
+        # mid-row N/A (e.g. S18 ep 8/9 row 18 where "Voted In" was N/A but
+        # Bananas-vs-Dunbar still happened) doesn't mean elim was skipped.
+        # Rowspan-bled cells from prior rows above are also excluded by
+        # native_len slicing.
+        last_cell = cells[native_len - 1] if native_len > 0 else ""
+        elim_skipped = ("N/A" in last_cell and not _is_player_cell(last_cell))
         player_idx = [i for i, c in enumerate(cells[:native_len]) if _is_player_cell(c)]
         if len(player_idx) < 2:
             continue
@@ -702,6 +735,19 @@ def parse_game_summary_individual(wikitext):
         if not elim_skipped:
             loser_i = player_idx[-1]
             winner_i = player_idx[-2]
+            # Bloodline-pair format detection (S27 Battle of the Bloodlines):
+            # the LAST player cell is the eliminated bloodline PAIR, but
+            # the immediately-preceding player cell is just the SOLO loser
+            # (one half of that pair). The actual winner is one step back.
+            # Pattern: last cell has 2+ players AND second-to-last has 1
+            # player AND that player is inside the last cell's pair.
+            if len(player_idx) >= 3:
+                last_players = _players_from_icons(cells[loser_i]) or []
+                penult_players = _players_from_icons(cells[winner_i]) or []
+                if (len(last_players) >= 2
+                    and len(penult_players) == 1
+                    and penult_players[0] in last_players):
+                    winner_i = player_idx[-3]
             # In pair-format seasons, the winner and loser cells each contain
             # BOTH partners (an MM and an FF player). Emit ALL cross-cell
             # combinations as candidate elim rows; the same-gender filter in

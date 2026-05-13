@@ -3,18 +3,18 @@
   "safe_name": "Cohutta_Grindstaff",
   "gender": "M",
   "career": {
-    "era_rating": 1.2,
-    "peak_rating": 0.841,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.205,
-    "active_season_id": "s29_invasion_of_the_champions",
+    "era_rating": 0.5,
+    "peak_rating": 0.231,
+    "peak_season_id": "s25_free_agents",
+    "active_rating": -0.24,
+    "active_season_id": "s28_rivals_iii",
     "n_seasons": 4,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 4,
-    "elim_losses": 3,
+    "elim_wins": 3,
+    "elim_losses": 4,
     "daily_wins": 4
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Bad Blood",
       "finish_label": "Eliminated",
       "finish_episode": "Bad Blood",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.841,
+      "elim_position": 1,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Thomas Buell"
+      ],
+      "rating_at_end": 0.18,
       "partner": "Jill Tuttle",
       "partners_history": [
         "Jill Tuttle"
@@ -48,11 +50,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Best Friends for Never",
       "elim_position": 8,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.267,
+      "rating_at_end": 0.231,
       "partner": "Laurel Stucky",
       "partners_history": [
         "Laurel Stucky"
@@ -74,7 +76,7 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.054,
+      "rating_at_end": 0.062,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -89,12 +91,12 @@
       "finish": "Eliminated in Island King",
       "finish_label": "Eliminated",
       "finish_episode": "Island King",
-      "elim_position": 2,
-      "elim_total": 2,
+      "elim_position": 3,
+      "elim_total": 3,
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.669,
+      "rating_at_end": -0.648,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -103,24 +105,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.669
+      "rating": -0.648
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.054
+      "rating": 0.062
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.267
+      "rating": 0.231
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.841
+      "rating": 0.18
     }
   ]
 }

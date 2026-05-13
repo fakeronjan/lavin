@@ -3,19 +3,19 @@
   "safe_name": "Ashley_Mitchell",
   "gender": "F",
   "career": {
-    "era_rating": 3.7,
+    "era_rating": 3.5,
     "peak_rating": 1.047,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.016,
+    "active_rating": -0.054,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 11,
     "n_snapshots": 12,
     "championships": 2,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
-    "elim_wins": 4,
-    "elim_losses": 6,
-    "daily_wins": 10
+    "elim_wins": 5,
+    "elim_losses": 7,
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -24,13 +24,16 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.016,
+      "finish": "Eliminated in We Have to Boogie!",
+      "finish_label": "Eliminated",
+      "finish_episode": "We Have to Boogie!",
+      "elim_position": 8,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Sydney Segal",
+        "Turbo \u00c7amk\u0131ran"
+      ],
+      "rating_at_end": -0.054,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -60,15 +63,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in From Theresa with Love",
+      "finish_label": "Eliminated",
+      "finish_episode": "From Theresa with Love",
       "elim_position": 1,
       "elim_total": 7,
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": 0.025,
+      "rating_at_end": 0.058,
       "partner": "CT Tamburello",
       "partners_history": [
         "CT Tamburello",
@@ -91,7 +94,7 @@
       "eliminated_by": [
         "Dee Nguyen"
       ],
-      "rating_at_end": 0.209,
+      "rating_at_end": 0.199,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -103,13 +106,13 @@
       "season_name": "War of the Worlds 2",
       "year": 2019,
       "label": "S34 War of the Worlds 2 (2019)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Give Me Liberty or Give Me Cash",
+      "finish_label": "Eliminated",
+      "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.585,
+      "rating_at_end": 0.543,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -130,7 +133,7 @@
         "Georgia Harrison",
         "Hunter Barfield"
       ],
-      "rating_at_end": 0.689,
+      "rating_at_end": 0.577,
       "partner": "Chase McNary",
       "partners_history": [
         "Chase McNary"
@@ -168,11 +171,11 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 6,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": 0.132,
+      "rating_at_end": -0.023,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -190,7 +193,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.364,
+      "rating_at_end": 0.37,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -208,7 +211,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.61,
+      "rating_at_end": 0.71,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -229,7 +232,7 @@
         "Christina LeBlanc",
         "Nate Siebenmark"
       ],
-      "rating_at_end": -0.395,
+      "rating_at_end": -0.376,
       "partner": "Cory Wharton",
       "partners_history": [
         "Cory Wharton"
@@ -240,59 +243,59 @@
   ],
   "timeline": [
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.395
+      "rating": -0.376
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.61
+      "rating": 0.71
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.364
+      "rating": 0.37
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.132
+      "rating": -0.023
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": 1.047
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.689
+      "rating": 0.577
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.585
+      "rating": 0.543
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.209
+      "rating": 0.199
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.025
+      "rating": 0.058
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": -0.086
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.016
+      "rating": -0.054
     }
   ]
 }

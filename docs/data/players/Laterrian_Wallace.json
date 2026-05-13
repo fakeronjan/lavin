@@ -4,8 +4,8 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.501,
-    "peak_season_id": "s06_battle_of_the_sexes",
+    "peak_rating": -0.473,
+    "peak_season_id": "s08_the_inferno",
     "active_rating": -0.678,
     "active_season_id": "s09_battle_of_the_sexes_2",
     "n_seasons": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
-    "elim_losses": 1,
+    "elim_losses": 2,
     "daily_wins": 0
   },
   "seasons": [
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.665,
+      "rating_at_end": -0.624,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -47,10 +47,12 @@
       "finish": "Eliminated in Dead Man's Drop",
       "finish_label": "Eliminated",
       "finish_episode": "Dead Man's Drop",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.501,
+      "elim_position": 1,
+      "elim_total": 13,
+      "eliminated_by": [
+        "Theo Gantt"
+      ],
+      "rating_at_end": -0.53,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,14 +61,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.501
+      "rating": -0.53
     },
     {
-      "ranking_id": 71,
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.665
+      "rating": -0.624
     }
   ]
 }

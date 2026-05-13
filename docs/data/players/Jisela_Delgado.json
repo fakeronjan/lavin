@@ -4,8 +4,8 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.445,
-    "peak_season_id": "s06_battle_of_the_sexes",
+    "peak_rating": -0.21,
+    "peak_season_id": "s08_the_inferno",
     "active_rating": -0.72,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
-    "elim_losses": 2,
+    "elim_losses": 3,
     "daily_wins": 1
   },
   "seasons": [
@@ -47,10 +47,12 @@
       "finish": "Eliminated in Breath-Hold Bungee",
       "finish_label": "Eliminated",
       "finish_episode": "Breath-Hold Bungee",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.445,
+      "elim_position": 4,
+      "elim_total": 14,
+      "eliminated_by": [
+        "Veronica Portillo"
+      ],
+      "rating_at_end": -0.537,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,12 +89,12 @@
       "rating": -0.449
     },
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.445
+      "rating": -0.537
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.72
     }

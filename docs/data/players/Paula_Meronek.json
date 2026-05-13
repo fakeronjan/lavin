@@ -3,10 +3,10 @@
   "safe_name": "Paula_Meronek",
   "gender": "F",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 1.052,
+    "era_rating": 2.5,
+    "peak_rating": 1.057,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 1.052,
+    "active_rating": 1.057,
     "active_season_id": "s25_free_agents",
     "n_seasons": 10,
     "n_snapshots": 13,
@@ -73,7 +73,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.709,
+      "rating_at_end": 0.703,
       "partner": "Evelyn Smith",
       "partners_history": [
         "Evelyn Smith"
@@ -95,7 +95,7 @@
       "eliminated_by": [
         "Emily Schromm"
       ],
-      "rating_at_end": -0.596,
+      "rating_at_end": -0.586,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -116,7 +116,7 @@
         "Evelyn Smith",
         "Luke Wolfe"
       ],
-      "rating_at_end": -0.258,
+      "rating_at_end": -0.26,
       "partner": "Jeff Barr",
       "partners_history": [
         "Jeff Barr"
@@ -134,11 +134,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Deja Duel",
       "elim_position": 7,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.015,
+      "rating_at_end": 0.015,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -156,7 +156,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.123,
+      "rating_at_end": 0.144,
       "partner": "Jenn Grijalva",
       "partners_history": [
         "Jenn Grijalva"
@@ -176,7 +176,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.024,
+      "rating_at_end": 0.032,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -194,7 +194,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.014,
+      "rating_at_end": 0.07,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -223,52 +223,52 @@
   ],
   "timeline": [
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": -0.181
     },
     {
-      "ranking_id": 242,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.014
-    },
-    {
       "ranking_id": 258,
-      "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.024
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.07
     },
     {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": 0.123
+      "ranking_id": 274,
+      "season_id": "s15_the_gauntlet_iii",
+      "rating": 0.032
     },
     {
       "ranking_id": 283,
+      "season_id": "s16_the_island",
+      "rating": 0.144
+    },
+    {
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.015
+      "rating": 0.015
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.258
+      "rating": -0.26
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.596
+      "rating": -0.586
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.709
+      "rating": 0.703
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.545
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 1.032
     }

@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Johnny Bananas",
-        "rating": 0.993,
-        "n_events": 87,
+        "rating": 1.027,
+        "n_events": 86,
         "finish": "Winner in A Walk in the Clouds",
         "finish_label": "Champion",
         "finish_episode": "A Walk in the Clouds",
@@ -28,14 +28,16 @@
       {
         "rank": 2,
         "player": "CT Tamburello",
-        "rating": 0.897,
+        "rating": 0.811,
         "n_events": 72,
         "finish": "Eliminated in The $350,000 Pyramid",
         "finish_label": "Eliminated",
         "finish_episode": "The $350,000 Pyramid",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 10,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Johnny Bananas"
+        ],
         "partner": "Zach Nichols",
         "partners_history": [
           "Zach Nichols",
@@ -47,8 +49,8 @@
       {
         "rank": 3,
         "player": "Johnny Reilly",
-        "rating": 0.756,
-        "n_events": 29,
+        "rating": 0.714,
+        "n_events": 28,
         "finish": "Runner-Up in A Walk in the Clouds",
         "finish_label": "Runner-up",
         "finish_episode": "A Walk in the Clouds",
@@ -62,27 +64,9 @@
       },
       {
         "rank": 4,
-        "player": "Jordan Wiseley",
-        "rating": 0.474,
-        "n_events": 79,
-        "finish": "Eliminated in Pride Before the Wall",
-        "finish_label": "Eliminated",
-        "finish_episode": "Pride Before the Wall",
-        "elim_position": 6,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Johnny Bananas"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
         "player": "Frank Fox",
-        "rating": 0.449,
-        "n_events": 80,
+        "rating": 0.599,
+        "n_events": 105,
         "finish": "Medically Disqualified in You Be Illin'",
         "finish_label": "Medical DQ",
         "finish_episode": "You Be Illin'",
@@ -95,26 +79,28 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Frank Sweeney",
-        "rating": 0.424,
-        "n_events": 45,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "rank": 5,
+        "player": "Jordan Wiseley",
+        "rating": 0.477,
+        "n_events": 77,
+        "finish": "Eliminated in Pride Before the Wall",
+        "finish_label": "Eliminated",
+        "finish_episode": "Pride Before the Wall",
+        "elim_position": 6,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Johnny Bananas"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 6,
         "player": "Zach Nichols",
-        "rating": 0.406,
-        "n_events": 95,
+        "rating": 0.368,
+        "n_events": 93,
         "finish": "Third Place in A Walk in the Clouds",
         "finish_label": "3rd",
         "finish_episode": "A Walk in the Clouds",
@@ -129,15 +115,15 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "player": "Leroy Garrett",
-        "rating": 0.288,
-        "n_events": 61,
+        "rating": 0.259,
+        "n_events": 59,
         "finish": "Eliminated in The $350,000 Pyramid",
         "finish_label": "Eliminated",
         "finish_episode": "The $350,000 Pyramid",
         "elim_position": 9,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "CT Tamburello"
         ],
@@ -147,15 +133,15 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "player": "Cohutta Grindstaff",
-        "rating": 0.267,
-        "n_events": 31,
+        "rating": 0.231,
+        "n_events": 29,
         "finish": "Eliminated in Best Friends for Never",
         "finish_label": "Eliminated",
         "finish_episode": "Best Friends for Never",
         "elim_position": 8,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Leroy Garrett"
         ],
@@ -167,15 +153,15 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
+        "rank": 9,
         "player": "Isaac Stout",
-        "rating": 0.207,
-        "n_events": 19,
+        "rating": 0.196,
+        "n_events": 18,
         "finish": "Eliminated in Stripes",
         "finish_label": "Eliminated",
         "finish_episode": "Stripes",
         "elim_position": 4,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Johnny Bananas"
         ],
@@ -185,17 +171,17 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Chet Cannon",
-        "rating": 0.045,
-        "n_events": 33,
+        "rating": 0.08,
+        "n_events": 32,
         "finish": "Quit in Live Free or Die",
         "finish_label": "Quit",
         "finish_episode": "Live Free or Die",
         "elim_position": 1,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
-          "Frank Sweeney"
+          "Frank Fox"
         ],
         "partner": "",
         "partners_history": [],
@@ -203,15 +189,15 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
+        "rank": 11,
         "player": "Brandon Swift",
-        "rating": 0.018,
-        "n_events": 20,
+        "rating": -0.004,
+        "n_events": 19,
         "finish": "Eliminated in Not So Trivial Pursuits",
         "finish_label": "Eliminated",
         "finish_episode": "Not So Trivial Pursuits",
         "elim_position": 5,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Jordan Wiseley"
         ],
@@ -221,15 +207,15 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 12,
         "player": "Preston Roberson-Charles",
-        "rating": -0.172,
-        "n_events": 55,
+        "rating": -0.179,
+        "n_events": 54,
         "finish": "Eliminated in Strike a Pose, There's Something to It",
         "finish_label": "Eliminated",
         "finish_episode": "Strike a Pose, There's Something to It",
         "elim_position": 7,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Cohutta Grindstaff"
         ],
@@ -239,17 +225,17 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 13,
         "player": "Dustin Zito",
-        "rating": -0.33,
+        "rating": -0.307,
         "n_events": 22,
         "finish": "Eliminated in Love in the Fast Lane",
         "finish_label": "Eliminated",
         "finish_episode": "Love in the Fast Lane",
         "elim_position": 2,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
-          "Frank Sweeney"
+          "Frank Fox"
         ],
         "partner": "",
         "partners_history": [],
@@ -257,15 +243,15 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
+        "rank": 14,
         "player": "Brandon Nelson",
-        "rating": -0.46,
+        "rating": -0.466,
         "n_events": 13,
         "finish": "Eliminated in Inadequate",
         "finish_label": "Eliminated",
         "finish_episode": "Inadequate",
         "elim_position": 3,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Zach Nichols"
         ],
@@ -279,7 +265,7 @@
       {
         "rank": 1,
         "player": "Laurel Stucky",
-        "rating": 0.926,
+        "rating": 0.939,
         "n_events": 49,
         "finish": "Winner in A Walk in the Clouds",
         "finish_label": "Champion",
@@ -298,7 +284,7 @@
       {
         "rank": 2,
         "player": "Cara Maria Sorbello",
-        "rating": 0.529,
+        "rating": 0.537,
         "n_events": 99,
         "finish": "Eliminated in The $350,000 Pyramid",
         "finish_label": "Eliminated",
@@ -316,7 +302,7 @@
       {
         "rank": 3,
         "player": "Nany Gonz\u00e1lez",
-        "rating": 0.296,
+        "rating": 0.317,
         "n_events": 58,
         "finish": "Runner-Up in A Walk in the Clouds",
         "finish_label": "Runner-up",
@@ -335,7 +321,7 @@
       {
         "rank": 4,
         "player": "Jemmye Carroll",
-        "rating": 0.273,
+        "rating": 0.279,
         "n_events": 72,
         "finish": "Eliminated in Live Free or Die",
         "finish_label": "Eliminated",
@@ -353,7 +339,7 @@
       {
         "rank": 5,
         "player": "Devyn Simone",
-        "rating": 0.229,
+        "rating": 0.246,
         "n_events": 43,
         "finish": "Third Place in A Walk in the Clouds",
         "finish_label": "3rd",
@@ -369,7 +355,7 @@
       {
         "rank": 6,
         "player": "Camila Nakagawa",
-        "rating": 0.183,
+        "rating": 0.188,
         "n_events": 76,
         "finish": "Eliminated in Not So Trivial Pursuits",
         "finish_label": "Eliminated",
@@ -387,7 +373,7 @@
       {
         "rank": 7,
         "player": "LaToya Jackson",
-        "rating": 0.154,
+        "rating": 0.161,
         "n_events": 20,
         "finish": "Eliminated in Inadequate",
         "finish_label": "Eliminated",
@@ -405,7 +391,7 @@
       {
         "rank": 8,
         "player": "Theresa Jones",
-        "rating": -0.066,
+        "rating": -0.057,
         "n_events": 59,
         "finish": "Eliminated in The $350,000 Pyramid",
         "finish_label": "Eliminated",
@@ -426,7 +412,7 @@
       {
         "rank": 9,
         "player": "Aneesa Ferreira",
-        "rating": -0.068,
+        "rating": -0.06,
         "n_events": 70,
         "finish": "Eliminated in Strike a Pose, There's Something to It",
         "finish_label": "Eliminated",
@@ -444,7 +430,7 @@
       {
         "rank": 10,
         "player": "Jonna Mannion",
-        "rating": -0.153,
+        "rating": -0.142,
         "n_events": 63,
         "finish": "Eliminated in Pride Before the Wall",
         "finish_label": "Eliminated",
@@ -462,7 +448,7 @@
       {
         "rank": 11,
         "player": "Jasmine Reynaud",
-        "rating": -0.189,
+        "rating": -0.177,
         "n_events": 56,
         "finish": "Eliminated in Stripes",
         "finish_label": "Eliminated",
@@ -480,7 +466,7 @@
       {
         "rank": 12,
         "player": "Jessica McCain",
-        "rating": -0.303,
+        "rating": -0.293,
         "n_events": 37,
         "finish": "Eliminated in Best Friends for Never",
         "finish_label": "Eliminated",
@@ -498,7 +484,7 @@
       {
         "rank": 13,
         "player": "Emilee Fitzpatrick",
-        "rating": -0.313,
+        "rating": -0.301,
         "n_events": 18,
         "finish": "Eliminated in Love in the Fast Lane",
         "finish_label": "Eliminated",
@@ -516,7 +502,7 @@
       {
         "rank": 14,
         "player": "Nia Moore",
-        "rating": -0.541,
+        "rating": -0.528,
         "n_events": 8,
         "finish": "Eliminated in You Be Illin'",
         "finish_label": "Eliminated",

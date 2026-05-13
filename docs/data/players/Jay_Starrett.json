@@ -3,10 +3,10 @@
   "safe_name": "Jay_Starrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.181,
-    "peak_season_id": "s36_double_agents",
-    "active_rating": -0.123,
+    "era_rating": 0.8,
+    "peak_rating": 0.471,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": 0.471,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -24,13 +24,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Seventh Place in The Beginning of the End",
+      "finish_label": "7th",
+      "finish_episode": "The Beginning of the End",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.126,
+      "rating_at_end": 0.465,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Born to Ride or Die",
+      "finish_label": "Eliminated",
+      "finish_episode": "Born to Ride or Die",
       "elim_position": 8,
       "elim_total": 12,
       "eliminated_by": [
@@ -65,15 +65,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Die Another Jay",
+      "finish_label": "Eliminated",
+      "finish_episode": "Die Another Jay",
       "elim_position": 4,
       "elim_total": 9,
       "eliminated_by": [
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.181,
+      "rating_at_end": 0.187,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -91,11 +91,11 @@
       "finish_label": "Medical DQ",
       "finish_episode": "Love Will Tear Us Apart",
       "elim_position": 3,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Rogan O'Connor"
       ],
-      "rating_at_end": 0.169,
+      "rating_at_end": 0.167,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -104,24 +104,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.169
+      "rating": 0.167
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.181
+      "rating": 0.187
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.057
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.126
+      "rating": 0.465
     }
   ]
 }

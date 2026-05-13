@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.643,
+    "peak_rating": 0.602,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.643,
+    "active_rating": 0.602,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -24,13 +24,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Fifth Place <small>in Only One Gets the Crown",
+      "finish": "Fifth Place in Only One Gets the Crown",
       "finish_label": "5th",
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.44,
+      "rating_at_end": 0.446,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -64,14 +64,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": -0.0
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.44
+      "rating": 0.446
     }
   ]
 }

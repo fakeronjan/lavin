@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 1.6,
-    "peak_rating": 0.861,
+    "peak_rating": 0.811,
     "peak_season_id": "s31_vendettas",
     "active_rating": 0.564,
     "active_season_id": "s37_spies_lies_allies",
@@ -24,13 +24,13 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Runner-Up <small>in The World Is Not Enough",
+      "finish": "Runner-Up in The World Is Not Enough",
       "finish_label": "Runner-up",
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.543,
+      "rating_at_end": 0.584,
       "partner": "Kyle Christie",
       "partners_history": [
         "Kyle Christie",
@@ -45,13 +45,13 @@
       "season_name": "War of the Worlds 2",
       "year": 2019,
       "label": "S34 War of the Worlds 2 (2019)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Give Me Liberty or Give Me Cash",
+      "finish_label": "Eliminated",
+      "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.171,
+      "rating_at_end": 0.158,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -72,7 +72,7 @@
         "Natalie Duran",
         "Paulie Calafiore"
       ],
-      "rating_at_end": -0.122,
+      "rating_at_end": -0.097,
       "partner": "Ashley Cain",
       "partners_history": [
         "Ashley Cain"
@@ -110,13 +110,13 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Vendettas Never Die",
+      "finish_label": "Eliminated",
+      "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.861,
+      "rating_at_end": 0.811,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -125,29 +125,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.861
+      "rating": 0.811
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.023
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.122
+      "rating": -0.097
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.171
+      "rating": 0.158
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.543
+      "rating": 0.584
     }
   ]
 }

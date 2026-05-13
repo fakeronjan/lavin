@@ -3,19 +3,19 @@
   "safe_name": "Tony_Raines",
   "gender": "M",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.7,
+    "era_rating": 1.0,
+    "peak_rating": 0.666,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.498,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.011,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 3,
-    "elim_losses": 5,
-    "daily_wins": 12
+    "elim_wins": 4,
+    "elim_losses": 6,
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.191,
+      "rating_at_end": -0.011,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -67,13 +67,13 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Vendettas Never Die",
+      "finish_label": "Eliminated",
+      "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.7,
+      "rating_at_end": 0.666,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -88,12 +88,12 @@
       "finish": "Eliminated in The Sinister Six",
       "finish_label": "Eliminated",
       "finish_episode": "The Sinister Six",
-      "elim_position": 2,
-      "elim_total": 7,
+      "elim_position": 3,
+      "elim_total": 9,
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.131,
+      "rating_at_end": 0.284,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -108,10 +108,12 @@
       "finish": "Eliminated in The Mile-High Club",
       "finish_label": "Eliminated",
       "finish_episode": "The Mile-High Club",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.302,
+      "elim_position": 4,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Shane Landrum"
+      ],
+      "rating_at_end": -0.033,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +131,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.181,
+      "rating_at_end": -0.084,
       "partner": "Camila Nakagawa",
       "partners_history": [
         "Camila Nakagawa"
@@ -149,7 +151,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.128,
+      "rating_at_end": -0.169,
       "partner": "Shane Raines",
       "partners_history": [],
       "team": "",
@@ -158,39 +160,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.128
+      "rating": -0.169
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.181
+      "rating": -0.084
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.302
+      "rating": -0.033
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.131
+      "rating": 0.284
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.7
+      "rating": 0.666
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.072
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.191
+      "rating": -0.011
     }
   ]
 }

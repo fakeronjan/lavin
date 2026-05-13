@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.4,
+    "peak_rating": 0.429,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.4,
+    "active_rating": 0.429,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 0,
+    "elim_wins": 2,
     "elim_losses": 1,
     "daily_wins": 6
   },
@@ -24,15 +24,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 4,
-      "elim_total": 7,
+      "finish": "Eliminated in Welcome to Conquest",
+      "finish_label": "Eliminated",
+      "finish_episode": "Welcome to Conquest",
+      "elim_position": 8,
+      "elim_total": 11,
       "eliminated_by": [
         "Ed Eason"
       ],
-      "rating_at_end": 0.35,
+      "rating_at_end": 0.411,
       "partner": "Corey Lay",
       "partners_history": [
         "Corey Lay"
@@ -66,14 +66,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.101
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.35
+      "rating": 0.411
     }
   ]
 }

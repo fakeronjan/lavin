@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.76,
+    "peak_rating": 0.789,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.76,
+    "active_rating": 0.789,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -24,13 +24,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Third Place <small>in Only One Gets the Crown",
+      "finish": "Third Place in Only One Gets the Crown",
       "finish_label": "3rd",
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.554,
+      "rating_at_end": 0.594,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -62,14 +62,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.167
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.554
+      "rating": 0.594
     }
   ]
 }

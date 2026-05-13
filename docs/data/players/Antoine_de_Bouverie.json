@@ -3,10 +3,10 @@
   "safe_name": "Antoine_de_Bouverie",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.282,
+    "era_rating": 0.0,
+    "peak_rating": -0.111,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.06,
+    "active_rating": -0.392,
     "active_season_id": "s08_the_inferno",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 1,
     "daily_wins": 2
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Maximum Velocity",
       "finish_label": "Eliminated",
       "finish_episode": "Maximum Velocity",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.282,
+      "elim_position": 13,
+      "elim_total": 13,
+      "eliminated_by": [
+        "Mark Long"
+      ],
+      "rating_at_end": -0.111,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -39,9 +41,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.282
+      "rating": -0.111
     }
   ]
 }

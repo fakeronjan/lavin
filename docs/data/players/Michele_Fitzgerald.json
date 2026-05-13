@@ -3,10 +3,10 @@
   "safe_name": "Michele_Fitzgerald",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.619,
+    "era_rating": 0.5,
+    "peak_rating": 0.635,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.619,
+    "active_rating": 0.635,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.506,
+      "rating_at_end": 0.405,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -42,15 +42,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 6,
-      "elim_total": 7,
+      "finish": "Eliminated in Feel the Bern",
+      "finish_label": "Eliminated",
+      "finish_episode": "Feel the Bern",
+      "elim_position": 10,
+      "elim_total": 11,
       "eliminated_by": [
         "Berna Canbeldek"
       ],
-      "rating_at_end": -0.396,
+      "rating_at_end": -0.392,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -62,9 +62,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Born to Ride or Die",
+      "finish_label": "Eliminated",
+      "finish_episode": "Born to Ride or Die",
       "elim_position": 8,
       "elim_total": 12,
       "eliminated_by": [
@@ -105,24 +105,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.097
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.013
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.396
+      "rating": -0.392
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.506
+      "rating": 0.405
     }
   ]
 }

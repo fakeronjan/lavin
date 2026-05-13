@@ -3,19 +3,19 @@
   "safe_name": "Brad_Fiorenza",
   "gender": "M",
   "career": {
-    "era_rating": 3.3,
-    "peak_rating": 0.79,
+    "era_rating": 3.2,
+    "peak_rating": 0.783,
     "peak_season_id": "s21_rivals",
-    "active_rating": -0.46,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.29,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
-    "n_snapshots": 17,
+    "n_snapshots": 16,
     "championships": 1,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
     "elim_wins": 7,
-    "elim_losses": 6,
-    "daily_wins": 12
+    "elim_losses": 7,
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.11,
+      "rating_at_end": -0.29,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -44,15 +44,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
-      "elim_position": 4,
-      "elim_total": 7,
+      "elim_position": 6,
+      "elim_total": 9,
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.265,
+      "rating_at_end": -0.306,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -90,10 +90,12 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.49,
+      "elim_position": 10,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Leroy Garrett"
+      ],
+      "rating_at_end": 0.296,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -111,7 +113,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.629,
+      "rating_at_end": 0.625,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -129,7 +131,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.437,
+      "rating_at_end": 0.422,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -147,7 +149,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.595,
+      "rating_at_end": 0.665,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -165,7 +167,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.307,
+      "rating_at_end": 0.303,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -254,64 +256,64 @@
   ],
   "timeline": [
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": 0.262
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.253
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.45
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.581
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.307
+      "rating": 0.303
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.595
+      "rating": 0.665
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.437
+      "rating": 0.422
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.629
+      "rating": 0.625
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.49
+      "rating": 0.296
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.348
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.265
+      "rating": -0.306
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.11
+      "rating": -0.29
     }
   ]
 }

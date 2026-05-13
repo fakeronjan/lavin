@@ -3,18 +3,18 @@
   "safe_name": "Veronica_Portillo",
   "gender": "F",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 0.605,
+    "era_rating": 1.3,
+    "peak_rating": 0.599,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.416,
+    "active_rating": -0.494,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 12,
     "n_snapshots": 17,
     "championships": 3,
     "finals_reached": 4,
     "pre_anchor_titles": 1,
-    "elim_wins": 4,
-    "elim_losses": 8,
+    "elim_wins": 5,
+    "elim_losses": 9,
     "daily_wins": 9
   },
   "seasons": [
@@ -24,9 +24,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Deep Web",
+      "finish_label": "Eliminated",
+      "finish_episode": "Deep Web",
       "elim_position": 7,
       "elim_total": 12,
       "eliminated_by": [
@@ -73,12 +73,12 @@
       "finish": "Medically Disqualified in Mercenaries of Mayhem",
       "finish_label": "Medical DQ",
       "finish_episode": "Mercenaries of Mayhem",
-      "elim_position": 4,
-      "elim_total": 8,
+      "elim_position": 3,
+      "elim_total": 9,
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.361,
+      "rating_at_end": -0.385,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -118,7 +118,7 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.173,
+      "rating_at_end": 0.174,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -174,7 +174,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.496,
+      "rating_at_end": 0.294,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -192,7 +192,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.605,
+      "rating_at_end": 0.599,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -207,10 +207,12 @@
       "finish": "Eliminated in Stairway to Heaven",
       "finish_label": "Eliminated",
       "finish_episode": "Stairway to Heaven",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.124,
+      "elim_position": 10,
+      "elim_total": 14,
+      "eliminated_by": [
+        "Ruthie Alcaide"
+      ],
+      "rating_at_end": -0.074,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -247,52 +249,52 @@
       "rating": -0.426
     },
     {
-      "ranking_id": 56,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.124
-    },
-    {
       "ranking_id": 71,
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": -0.074
+    },
+    {
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.605
+      "rating": 0.599
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.496
+      "rating": 0.294
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": 0.167
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": 0.036
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.173
+      "rating": 0.174
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
       "rating": -0.145
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.361
+      "rating": -0.385
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.344
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.154
     }

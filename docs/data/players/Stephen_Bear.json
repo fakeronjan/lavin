@@ -6,7 +6,7 @@
     "era_rating": 0.0,
     "peak_rating": 0.009,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.495,
+    "active_rating": -0.488,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 3,
-    "elim_losses": 2,
+    "elim_losses": 3,
     "daily_wins": 1
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Live and Let Die",
       "finish_label": "Eliminated",
       "finish_episode": "Live and Let Die",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.316,
+      "elim_position": 5,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Nelson Thomas"
+      ],
+      "rating_at_end": -0.393,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -81,19 +83,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": 0.009
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": -0.006
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.316
+      "rating": -0.393
     }
   ]
 }

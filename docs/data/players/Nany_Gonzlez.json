@@ -3,19 +3,19 @@
   "safe_name": "Nany_Gonzlez",
   "gender": "F",
   "career": {
-    "era_rating": 2.4,
+    "era_rating": 2.3,
     "peak_rating": 0.893,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.578,
+    "active_rating": -0.02,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
-    "n_snapshots": 17,
+    "n_snapshots": 16,
     "championships": 0,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
-    "elim_wins": 7,
-    "elim_losses": 8,
-    "daily_wins": 17
+    "elim_wins": 6,
+    "elim_losses": 10,
+    "daily_wins": 20
   },
   "seasons": [
     {
@@ -24,13 +24,16 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.578,
+      "finish": "Eliminated in Ten Toes Down",
+      "finish_label": "Eliminated",
+      "finish_episode": "Ten Toes Down",
+      "elim_position": 11,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Michaela Bradshaw",
+        "Cedric Hodges"
+      ],
+      "rating_at_end": -0.02,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -42,7 +45,7 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Runners-Up <small>in The End of the Ride",
+      "finish": "Runners-Up in The End of the Ride",
       "finish_label": "Runner-up",
       "finish_episode": "The End of the Ride",
       "elim_position": null,
@@ -82,13 +85,13 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Third Place <small>in The World Is Not Enough",
+      "finish": "Third Place in The World Is Not Enough",
       "finish_label": "3rd",
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.202,
+      "rating_at_end": 0.25,
       "partner": "Kyle Christie",
       "partners_history": [
         "Kyle Christie",
@@ -112,7 +115,7 @@
       "eliminated_by": [
         "Melissa Reeves"
       ],
-      "rating_at_end": -0.042,
+      "rating_at_end": -0.027,
       "partner": "Jordan Wiseley",
       "partners_history": [
         "Jordan Wiseley"
@@ -134,7 +137,7 @@
       "eliminated_by": [
         "Ashley Mitchell"
       ],
-      "rating_at_end": 0.054,
+      "rating_at_end": 0.049,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -154,7 +157,7 @@
       "eliminated_by": [
         "Georgia Harrison"
       ],
-      "rating_at_end": 0.317,
+      "rating_at_end": 0.254,
       "partner": "Turbo \u00c7amk\u0131ran",
       "partners_history": [
         "Turbo \u00c7amk\u0131ran"
@@ -177,7 +180,7 @@
         "Nicole Ramos",
         "Dario Medrano"
       ],
-      "rating_at_end": 0.119,
+      "rating_at_end": 0.077,
       "partner": "Wes Bergmann",
       "partners_history": [
         "Wes Bergmann"
@@ -194,10 +197,12 @@
       "finish": "Eliminated in Dirty Little Secret",
       "finish_label": "Eliminated",
       "finish_episode": "Dirty Little Secret",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.093,
+      "elim_position": 5,
+      "elim_total": 10,
+      "eliminated_by": [
+        "KellyAnne Judd"
+      ],
+      "rating_at_end": -0.099,
       "partner": "Nicole Ramos",
       "partners_history": [
         "Nicole Ramos"
@@ -220,7 +225,7 @@
         "Theresa Jones",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.093,
+      "rating_at_end": 0.103,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -240,7 +245,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.296,
+      "rating_at_end": 0.317,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones",
@@ -299,69 +304,69 @@
   ],
   "timeline": [
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.141
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.408
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.296
-    },
-    {
-      "ranking_id": 563,
-      "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.093
-    },
-    {
-      "ranking_id": 577,
-      "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.093
-    },
-    {
-      "ranking_id": 610,
-      "season_id": "s28_rivals_iii",
-      "rating": 0.119
-    },
-    {
-      "ranking_id": 763,
-      "season_id": "s33_war_of_the_worlds",
       "rating": 0.317
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 584,
+      "season_id": "s26_battle_of_the_exes_ii",
+      "rating": 0.103
+    },
+    {
+      "ranking_id": 607,
+      "season_id": "s27_battle_of_the_bloodlines",
+      "rating": -0.099
+    },
+    {
+      "ranking_id": 640,
+      "season_id": "s28_rivals_iii",
+      "rating": 0.077
+    },
+    {
+      "ranking_id": 807,
+      "season_id": "s33_war_of_the_worlds",
+      "rating": 0.254
+    },
+    {
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.054
+      "rating": 0.049
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.042
+      "rating": -0.027
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.202
+      "rating": 0.25
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.21
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.893
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.578
+      "rating": -0.02
     }
   ]
 }

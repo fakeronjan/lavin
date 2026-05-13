@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.154,
+    "peak_rating": 0.158,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.61,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.409,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 6,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Ryan Kehoe"
       ],
-      "rating_at_end": -0.219,
+      "rating_at_end": -0.409,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -48,11 +48,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Inadequate",
       "elim_position": 3,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Zach Nichols"
       ],
-      "rating_at_end": -0.46,
+      "rating_at_end": -0.466,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -96,7 +96,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.267,
+      "rating_at_end": -0.257,
       "partner": "Ty Ruff",
       "partners_history": [
         "Ty Ruff"
@@ -118,7 +118,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.154,
+      "rating_at_end": 0.158,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -136,7 +136,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.175,
+      "rating_at_end": -0.163,
       "partner": "Katelynn Cusanelli",
       "partners_history": [
         "Katelynn Cusanelli"
@@ -147,34 +147,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.175
+      "rating": -0.163
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.154
+      "rating": 0.158
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.267
+      "rating": -0.257
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.541
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.46
+      "rating": -0.466
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.219
+      "rating": -0.409
     }
   ]
 }

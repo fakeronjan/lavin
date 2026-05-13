@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.233,
+    "peak_rating": -0.158,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.257,
+    "active_rating": -0.182,
     "active_season_id": "s08_the_inferno",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 1,
     "pre_anchor_titles": 1,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 1,
     "daily_wins": 0
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Spider Mon",
       "finish_label": "Eliminated",
       "finish_episode": "Spider Mon",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.441,
+      "elim_position": 12,
+      "elim_total": 14,
+      "eliminated_by": [
+        "Ruthie Alcaide"
+      ],
+      "rating_at_end": -0.457,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -39,9 +41,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.441
+      "rating": -0.457
     }
   ]
 }

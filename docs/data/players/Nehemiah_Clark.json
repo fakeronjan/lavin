@@ -3,10 +3,10 @@
   "safe_name": "Nehemiah_Clark",
   "gender": "M",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.913,
+    "era_rating": 1.6,
+    "peak_rating": 0.94,
     "peak_season_id": "s16_the_island",
-    "active_rating": -0.207,
+    "active_rating": -0.58,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 10,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.31,
+      "rating_at_end": 0.111,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -51,7 +51,7 @@
         "Adam King",
         "CT Tamburello"
       ],
-      "rating_at_end": -0.753,
+      "rating_at_end": -0.752,
       "partner": "Evan Starkman",
       "partners_history": [
         "Evan Starkman"
@@ -73,7 +73,7 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": 0.691,
+      "rating_at_end": 0.723,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -91,7 +91,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.806,
+      "rating_at_end": 0.809,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -120,29 +120,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": -0.11
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.806
+      "rating": 0.809
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.691
+      "rating": 0.723
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.753
+      "rating": -0.752
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.31
+      "rating": 0.111
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.501,
+    "peak_rating": -0.588,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.855,
+    "active_rating": -0.67,
     "active_season_id": "s08_the_inferno",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 1,
     "daily_wins": 0
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Tree House",
       "finish_label": "Eliminated",
       "finish_episode": "Tree House",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.501,
+      "elim_position": 2,
+      "elim_total": 13,
+      "eliminated_by": [
+        "Puck Rainey"
+      ],
+      "rating_at_end": -0.588,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -39,9 +41,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.501
+      "rating": -0.588
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Coral_Smith",
   "gender": "F",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.926,
+    "era_rating": 1.5,
+    "peak_rating": 1.015,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.462,
+    "active_rating": -0.555,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 6,
     "n_snapshots": 14,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.253,
+      "rating_at_end": -0.244,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -86,7 +86,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.031,
+      "rating_at_end": -0.278,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -104,7 +104,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.315,
+      "rating_at_end": 0.224,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -138,29 +138,29 @@
       "rating": 0.914
     },
     {
-      "ranking_id": 71,
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.315
+      "rating": 0.224
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.031
+      "rating": -0.278
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": 0.339
     },
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": -0.411
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.253
+      "rating": -0.244
     }
   ]
 }

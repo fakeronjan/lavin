@@ -3,10 +3,10 @@
   "safe_name": "Chauncey_Palmer",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
+    "era_rating": 0.2,
     "peak_rating": 0.188,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.026,
+    "active_rating": -0.21,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
-    "elim_losses": 1,
+    "elim_losses": 2,
     "daily_wins": 4
   },
   "seasons": [
@@ -24,13 +24,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.096,
+      "finish": "Eliminated in Two Lungs, One Heart, Can't Lose",
+      "finish_label": "Eliminated",
+      "finish_episode": "Two Lungs, One Heart, Can't Lose",
+      "elim_position": 1,
+      "elim_total": 9,
+      "eliminated_by": [
+        "James Lock"
+      ],
+      "rating_at_end": 0.032,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +44,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Knot a Problem",
+      "finish_label": "Eliminated",
+      "finish_episode": "Knot a Problem",
       "elim_position": 11,
       "elim_total": 12,
       "eliminated_by": [
@@ -62,14 +64,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.188
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.096
+      "rating": 0.032
     }
   ]
 }

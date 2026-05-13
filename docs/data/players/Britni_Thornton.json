@@ -3,10 +3,10 @@
   "safe_name": "Britni_Thornton",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.166,
+    "era_rating": 0.1,
+    "peak_rating": 0.058,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.512,
+    "active_rating": -0.538,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
-    "elim_losses": 2,
+    "elim_losses": 3,
     "daily_wins": 2
   },
   "seasons": [
@@ -51,11 +51,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "It's Britni, Bitch",
       "elim_position": 7,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": 0.166,
+      "rating_at_end": 0.058,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,10 +70,12 @@
       "finish": "Eliminated in A Million More Reasons",
       "finish_label": "Eliminated",
       "finish_episode": "A Million More Reasons",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.129,
+      "elim_position": 9,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Camila Nakagawa"
+      ],
+      "rating_at_end": 0.011,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -82,17 +84,17 @@
   ],
   "timeline": [
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.129
+      "rating": 0.011
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.166
+      "rating": 0.058
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.341
     }

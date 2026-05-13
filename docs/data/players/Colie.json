@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.753,
-    "peak_season_id": "s16_the_island",
-    "active_rating": -0.819,
+    "peak_rating": -0.72,
+    "peak_season_id": "s17_the_duel_ii",
+    "active_rating": -0.815,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -27,12 +27,12 @@
       "finish": "Eliminated in Down to the Wire",
       "finish_label": "Eliminated",
       "finish_episode": "Down to the Wire",
-      "elim_position": 2,
-      "elim_total": 2,
+      "elim_position": 4,
+      "elim_total": 5,
       "eliminated_by": [
         "Johanna Botta"
       ],
-      "rating_at_end": -0.753,
+      "rating_at_end": -0.722,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.903,
+      "rating_at_end": -0.778,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -61,14 +61,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.903
+      "rating": -0.778
     },
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.753
+      "rating": -0.722
     }
   ]
 }

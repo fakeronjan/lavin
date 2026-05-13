@@ -3,13 +3,13 @@
   "safe_name": "Wes_Bergmann",
   "gender": "M",
   "career": {
-    "era_rating": 5.0,
-    "peak_rating": 1.305,
-    "peak_season_id": "s17_the_duel_ii",
+    "era_rating": 5.2,
+    "peak_rating": 1.257,
+    "peak_season_id": "s25_free_agents",
     "active_rating": -0.51,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 14,
-    "n_snapshots": 24,
+    "n_snapshots": 23,
     "championships": 2,
     "finals_reached": 5,
     "pre_anchor_titles": 0,
@@ -24,15 +24,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Enemy of the State",
+      "finish_label": "Eliminated",
+      "finish_episode": "Enemy of the State",
       "elim_position": 2,
       "elim_total": 9,
       "eliminated_by": [
         "Devin Walker"
       ],
-      "rating_at_end": -0.082,
+      "rating_at_end": -0.106,
       "partner": "Natalie Anderson",
       "partners_history": [
         "Natalie Anderson"
@@ -49,12 +49,12 @@
       "finish": "Eliminated in The Final Countdown",
       "finish_label": "Eliminated",
       "finish_episode": "The Final Countdown",
-      "elim_position": 5,
-      "elim_total": 8,
+      "elim_position": 6,
+      "elim_total": 9,
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.15,
+      "rating_at_end": 0.119,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -116,7 +116,7 @@
         "Dario Medrano",
         "Nicole Ramos"
       ],
-      "rating_at_end": 0.29,
+      "rating_at_end": 0.451,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez"
@@ -139,7 +139,7 @@
         "Leroy Garrett",
         "Nia Moore"
       ],
-      "rating_at_end": -0.06,
+      "rating_at_end": -0.082,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -248,7 +248,7 @@
         "Luke Wolfe",
         "Evelyn Smith"
       ],
-      "rating_at_end": -0.219,
+      "rating_at_end": -0.208,
       "partner": "Mandi Moyer",
       "partners_history": [
         "Mandi Moyer"
@@ -270,7 +270,7 @@
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": -0.105,
+      "rating_at_end": -0.1,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -317,74 +317,74 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": 0.551
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.718
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.105
+      "rating": -0.1
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.219
+      "rating": -0.208
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
       "rating": 0.486
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.458
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.536
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 1.091
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.06
+      "rating": -0.082
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.29
+      "rating": 0.451
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": 0.809
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.48
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.15
+      "rating": 0.119
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.082
+      "rating": -0.106
     }
   ]
 }

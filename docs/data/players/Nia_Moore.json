@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.791,
+    "peak_rating": 0.827,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.435,
+    "active_rating": -0.527,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.435,
+      "rating_at_end": -0.527,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -45,12 +45,12 @@
       "finish": "Eliminated in Payback Era",
       "finish_label": "Eliminated",
       "finish_episode": "Payback Era",
-      "elim_position": 10,
-      "elim_total": 13,
+      "elim_position": 12,
+      "elim_total": 15,
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": -0.026,
+      "rating_at_end": -0.174,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -68,7 +68,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.528,
+      "rating_at_end": 0.542,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Leroy Garrett"
@@ -90,7 +90,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.541,
+      "rating_at_end": -0.528,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -99,24 +99,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.541
+      "rating": -0.528
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.528
+      "rating": 0.542
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.026
+      "rating": -0.174
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.435
+      "rating": -0.527
     }
   ]
 }

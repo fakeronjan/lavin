@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 1.5,
-    "peak_rating": 0.718,
+    "peak_rating": 0.729,
     "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": -0.187,
+    "active_rating": -0.19,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
     "n_snapshots": 8,
     "championships": 1,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 1,
+    "elim_wins": 2,
     "elim_losses": 3,
     "daily_wins": 4
   },
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Sarah Rice"
       ],
-      "rating_at_end": 0.269,
+      "rating_at_end": 0.287,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -50,7 +50,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.509,
+      "rating_at_end": 0.515,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -68,7 +68,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.718,
+      "rating_at_end": 0.729,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -100,24 +100,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": -0.425
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.718
+      "rating": 0.729
     },
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.509
+      "rating": 0.515
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.269
+      "rating": 0.287
     }
   ]
 }

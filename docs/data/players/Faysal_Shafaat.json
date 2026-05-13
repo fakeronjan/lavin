@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 1.5,
-    "peak_rating": 0.498,
-    "peak_season_id": "s35_total_madness",
-    "active_rating": -0.263,
-    "active_season_id": "s40_battle_of_the_eras",
+    "peak_rating": 0.499,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": 0.132,
+    "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
@@ -24,9 +24,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Friends or Froze",
+      "finish_label": "Eliminated",
+      "finish_episode": "Friends or Froze",
       "elim_position": 12,
       "elim_total": 12,
       "eliminated_by": [
@@ -53,7 +53,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.164,
+      "rating_at_end": 0.163,
       "partner": "Esther Agunbiade",
       "partners_history": [
         "Esther Agunbiade"
@@ -67,13 +67,13 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Fourth Place <small>in The World Is Not Enough",
+      "finish": "Fourth Place in The World Is Not Enough",
       "finish_label": "4th",
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.486,
+      "rating_at_end": 0.499,
       "partner": "Aneesa Ferreira",
       "partners_history": [
         "Aneesa Ferreira",
@@ -94,7 +94,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.498,
+      "rating_at_end": 0.494,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -103,22 +103,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.498
+      "rating": 0.494
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.486
+      "rating": 0.499
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.164
+      "rating": 0.163
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.314
     }

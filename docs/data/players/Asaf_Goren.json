@@ -3,10 +3,10 @@
   "safe_name": "Asaf_Goren",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.322,
+    "era_rating": 0.2,
+    "peak_rating": 0.212,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.139,
+    "active_rating": -0.21,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -24,15 +24,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 5,
-      "elim_total": 7,
+      "finish": "Eliminated in Don't Let TJ Decide",
+      "finish_label": "Eliminated",
+      "finish_episode": "Don't Let TJ Decide",
+      "elim_position": 7,
+      "elim_total": 9,
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.322,
+      "rating_at_end": 0.212,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -48,11 +48,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Mad World",
       "elim_position": 1,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Jay Starrett"
       ],
-      "rating_at_end": -0.548,
+      "rating_at_end": -0.547,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,14 +61,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.548
+      "rating": -0.547
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.322
+      "rating": 0.212
     }
   ]
 }

@@ -3,18 +3,18 @@
   "safe_name": "Darrell_Taylor",
   "gender": "M",
   "career": {
-    "era_rating": 4.4,
-    "peak_rating": 1.066,
-    "peak_season_id": "s16_the_island",
-    "active_rating": -0.275,
-    "active_season_id": "s41_vets_and_new_threats",
+    "era_rating": 4.1,
+    "peak_rating": 0.983,
+    "peak_season_id": "s15_the_gauntlet_iii",
+    "active_rating": 0.045,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
-    "n_snapshots": 22,
+    "n_snapshots": 21,
     "championships": 4,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
     "elim_wins": 8,
-    "elim_losses": 6,
+    "elim_losses": 8,
     "daily_wins": 13
   },
   "seasons": [
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": 0.224,
+      "rating_at_end": 0.045,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -44,13 +44,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.37,
+      "elim_position": 5,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Kyland Young"
+      ],
+      "rating_at_end": -0.384,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -62,9 +64,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Deep Web",
+      "finish_label": "Eliminated",
+      "finish_episode": "Deep Web",
       "elim_position": 7,
       "elim_total": 12,
       "eliminated_by": [
@@ -85,15 +87,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in The Best of Enemies",
+      "finish_label": "Eliminated",
+      "finish_episode": "The Best of Enemies",
       "elim_position": 8,
       "elim_total": 9,
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": 0.235,
+      "rating_at_end": 0.246,
       "partner": "Amber Borzotra",
       "partners_history": [
         "Amber Borzotra"
@@ -110,10 +112,12 @@
       "finish": "Eliminated in Road to Redemption",
       "finish_label": "Eliminated",
       "finish_episode": "Road to Redemption",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.233,
+      "elim_position": 1,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Shane Raines"
+      ],
+      "rating_at_end": 0.09,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -128,12 +132,12 @@
       "finish": "Eliminated in A River of Endless Light",
       "finish_label": "Eliminated",
       "finish_episode": "A River of Endless Light",
-      "elim_position": 5,
-      "elim_total": 5,
+      "elim_position": 9,
+      "elim_total": 9,
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.666,
+      "rating_at_end": 0.599,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas",
@@ -157,7 +161,7 @@
         "Pete Connolly",
         "Jillian Zoboroski"
       ],
-      "rating_at_end": 0.06,
+      "rating_at_end": 0.07,
       "partner": "Cara Maria Sorbello",
       "partners_history": [
         "Cara Maria Sorbello"
@@ -177,7 +181,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.349,
+      "rating_at_end": 0.359,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -233,7 +237,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.731,
+      "rating_at_end": 0.782,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -251,7 +255,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.703,
+      "rating_at_end": 0.741,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -260,64 +264,64 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.703
+      "rating": 0.741
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.731
+      "rating": 0.782
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": 0.681
     },
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": 0.471
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.349
+      "rating": 0.359
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.06
+      "rating": 0.07
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.666
+      "rating": 0.599
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.233
+      "rating": 0.09
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.235
+      "rating": 0.246
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.263
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.37
+      "rating": -0.384
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.224
+      "rating": 0.045
     }
   ]
 }

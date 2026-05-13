@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.7,
-    "peak_rating": 0.817,
+    "peak_rating": 0.865,
     "peak_season_id": "s36_double_agents",
-    "active_rating": 0.257,
+    "active_rating": 0.227,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -24,9 +24,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Knot a Problem",
+      "finish_label": "Eliminated",
+      "finish_episode": "Knot a Problem",
       "elim_position": 12,
       "elim_total": 12,
       "eliminated_by": [
@@ -71,13 +71,13 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Winner <small>in The World Is Not Enough",
+      "finish": "Winner in The World Is Not Enough",
       "finish_label": "Champion",
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.817,
+      "rating_at_end": 0.865,
       "partner": "Darrell Taylor",
       "partners_history": [
         "Darrell Taylor",
@@ -91,17 +91,17 @@
   ],
   "timeline": [
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.817
+      "rating": 0.865
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.481
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.363
     }

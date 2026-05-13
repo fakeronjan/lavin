@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.478,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": 0.478,
-    "active_season_id": "s27_battle_of_the_bloodlines",
+    "peak_rating": 0.453,
+    "peak_season_id": "s23_battle_of_the_seasons_2012",
+    "active_rating": 0.259,
+    "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 4,
     "championships": 0,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.229,
+      "rating_at_end": 0.246,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,14 +59,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.453
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.229
+      "rating": 0.246
     }
   ]
 }

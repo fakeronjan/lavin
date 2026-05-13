@@ -3,19 +3,19 @@
   "safe_name": "Tori_Deal",
   "gender": "F",
   "career": {
-    "era_rating": 3.8,
+    "era_rating": 4.0,
     "peak_rating": 1.022,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.489,
+    "active_rating": 0.469,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 12,
     "championships": 1,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
-    "elim_wins": 7,
+    "elim_wins": 10,
     "elim_losses": 5,
-    "daily_wins": 7
+    "daily_wins": 9
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.512,
+      "rating_at_end": 0.401,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -42,13 +42,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.534,
+      "rating_at_end": 0.561,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,7 +60,7 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Winners <small>in The End of the Ride",
+      "finish": "Winners in The End of the Ride",
       "finish_label": "Champion",
       "finish_episode": "The End of the Ride",
       "elim_position": null,
@@ -100,15 +100,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Skyfall",
+      "finish_label": "Eliminated",
+      "finish_episode": "Skyfall",
       "elim_position": 2,
       "elim_total": 7,
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.204,
+      "rating_at_end": -0.158,
       "partner": "Devin Walker",
       "partners_history": [
         "Devin Walker"
@@ -130,7 +130,7 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": 0.016,
+      "rating_at_end": 0.046,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -142,13 +142,13 @@
       "season_name": "War of the Worlds 2",
       "year": 2019,
       "label": "S34 War of the Worlds 2 (2019)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Give Me Liberty or Give Me Cash",
+      "finish_label": "Eliminated",
+      "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.511,
+      "rating_at_end": 0.551,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -186,12 +186,12 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 3,
-      "elim_total": 8,
+      "elim_position": 4,
+      "elim_total": 9,
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": 0.278,
+      "rating_at_end": 0.327,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -209,7 +209,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.351,
+      "rating_at_end": 0.472,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -218,54 +218,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.351
+      "rating": 0.472
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.278
+      "rating": 0.327
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.19
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.511
+      "rating": 0.551
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.016
+      "rating": 0.046
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.204
+      "rating": -0.158
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.569
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 1.022
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.534
+      "rating": 0.561
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.512
+      "rating": 0.401
     }
   ]
 }

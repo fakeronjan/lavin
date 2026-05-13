@@ -4,8 +4,8 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.029,
-    "peak_season_id": "s16_the_island",
+    "peak_rating": -0.0,
+    "peak_season_id": "s14_the_inferno_3",
     "active_rating": -0.383,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 3,
@@ -33,7 +33,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.528,
+      "rating_at_end": -0.527,
       "partner": "Tyri Ballard-Brown",
       "partners_history": [
         "Tyri Ballard-Brown"
@@ -55,7 +55,7 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": -0.039,
+      "rating_at_end": -0.011,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -75,7 +75,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.003,
+      "rating_at_end": -0.0,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -84,19 +84,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.003
+      "rating": -0.0
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.039
+      "rating": -0.011
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.528
+      "rating": -0.527
     }
   ]
 }

@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.001,
+    "peak_rating": -0.1,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.443,
     "active_season_id": "s11_the_gauntlet_2",
@@ -47,12 +47,12 @@
       "finish": "Eliminated in People Mover",
       "finish_label": "Eliminated",
       "finish_episode": "People Mover",
-      "elim_position": 2,
-      "elim_total": 4,
+      "elim_position": 5,
+      "elim_total": 13,
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": -0.001,
+      "rating_at_end": -0.1,
       "partner": "Jamie Murray",
       "partners_history": [
         "Jamie Murray"
@@ -63,12 +63,12 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.001
+      "rating": -0.1
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.418
     }

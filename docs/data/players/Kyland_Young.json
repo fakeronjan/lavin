@@ -3,17 +3,17 @@
   "safe_name": "Kyland_Young",
   "gender": "M",
   "career": {
-    "era_rating": 1.4,
-    "peak_rating": 0.723,
+    "era_rating": 1.1,
+    "peak_rating": 0.681,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.336,
+    "active_rating": 0.309,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 6,
+    "elim_wins": 7,
     "elim_losses": 1,
     "daily_wins": 6
   },
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.653,
+      "rating_at_end": 0.446,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -42,15 +42,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 7,
-      "elim_total": 7,
+      "finish": "Eliminated in Family Knows Best",
+      "finish_label": "Eliminated",
+      "finish_episode": "Family Knows Best",
+      "elim_position": 9,
+      "elim_total": 9,
       "eliminated_by": [
         "Horacio Guti\u00e9rrez Jr."
       ],
-      "rating_at_end": 0.723,
+      "rating_at_end": 0.681,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,14 +59,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.723
+      "rating": 0.681
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.653
+      "rating": 0.446
     }
   ]
 }

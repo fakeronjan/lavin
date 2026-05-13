@@ -4,18 +4,18 @@
   "gender": "F",
   "career": {
     "era_rating": 0.8,
-    "peak_rating": 0.521,
-    "peak_season_id": "s18_the_ruins",
-    "active_rating": -0.312,
-    "active_season_id": "s41_vets_and_new_threats",
+    "peak_rating": 0.498,
+    "peak_season_id": "s20_cutthroat",
+    "active_rating": -0.457,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 5,
-    "n_snapshots": 11,
+    "n_snapshots": 9,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
-    "elim_losses": 2,
-    "daily_wins": 4
+    "elim_losses": 4,
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -28,11 +28,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 4,
-      "elim_total": 13,
+      "elim_total": 15,
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.343,
+      "rating_at_end": -0.457,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -53,7 +53,7 @@
         "Nany Gonz\u00e1lez",
         "Wes Bergmann"
       ],
-      "rating_at_end": 0.066,
+      "rating_at_end": 0.103,
       "partner": "Jamie Banks",
       "partners_history": [
         "Jamie Banks"
@@ -70,10 +70,12 @@
       "finish": "Eliminated in Blood Is Thicker Than Mud",
       "finish_label": "Eliminated",
       "finish_episode": "Blood Is Thicker Than Mud",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.18,
+      "elim_position": 7,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Jenna Compono"
+      ],
+      "rating_at_end": 0.204,
       "partner": "Anthony Cuomo",
       "partners_history": [
         "Anthony Cuomo"
@@ -93,7 +95,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.521,
+      "rating_at_end": 0.497,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -108,10 +110,12 @@
       "finish": "Eliminated in Sailing to Victory",
       "finish_label": "Eliminated",
       "finish_episode": "Sailing to Victory",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.808,
+      "elim_position": 5,
+      "elim_total": 5,
+      "eliminated_by": [
+        "Johanna Botta"
+      ],
+      "rating_at_end": -0.484,
       "partner": "Robin Hibbard",
       "partners_history": [
         "Robin Hibbard"
@@ -122,29 +126,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.808
+      "rating": -0.484
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.521
+      "rating": 0.497
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.18
+      "rating": 0.204
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.066
+      "rating": 0.103
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.343
+      "rating": -0.457
     }
   ]
 }

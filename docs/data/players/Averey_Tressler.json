@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.432,
+    "peak_rating": 0.371,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.275,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.276,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 2,
+    "elim_wins": 3,
     "elim_losses": 2,
     "daily_wins": 3
   },
@@ -27,12 +27,12 @@
       "finish": "Eliminated in The Era of the Gladiator",
       "finish_label": "Eliminated",
       "finish_episode": "The Era of the Gladiator",
-      "elim_position": 9,
-      "elim_total": 13,
+      "elim_position": 10,
+      "elim_total": 15,
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.346,
+      "rating_at_end": -0.276,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -50,7 +50,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.607,
+      "rating_at_end": -0.608,
       "partner": "Leroy Garrett",
       "partners_history": [],
       "team": "",
@@ -71,7 +71,7 @@
         "Nia Moore",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.257,
+      "rating_at_end": 0.267,
       "partner": "Johnny Reilly",
       "partners_history": [
         "Johnny Reilly"
@@ -82,19 +82,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.257
+      "rating": 0.267
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.607
+      "rating": -0.608
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.346
+      "rating": -0.276
     }
   ]
 }

@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Derrick Kosinski",
-        "rating": 0.505,
-        "n_events": 70,
+        "rating": 0.519,
+        "n_events": 67,
         "finish": "Winners in Sailing to Victory",
         "finish_label": "Champion",
         "finish_episode": "Sailing to Victory",
@@ -25,8 +25,8 @@
       {
         "rank": 2,
         "player": "Kenny Santucci",
-        "rating": 0.436,
-        "n_events": 99,
+        "rating": 0.438,
+        "n_events": 98,
         "finish": "Winners in Sailing to Victory",
         "finish_label": "Champion",
         "finish_episode": "Sailing to Victory",
@@ -43,14 +43,16 @@
       {
         "rank": 3,
         "player": "Abram Boise",
-        "rating": 0.26,
-        "n_events": 39,
+        "rating": 0.149,
+        "n_events": 36,
         "finish": "Eliminated in Calling It Quits",
         "finish_label": "Quit",
         "finish_episode": "Calling It Quits",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 1,
+        "elim_total": 3,
+        "eliminated_by": [
+          "Johnny Bananas"
+        ],
         "partner": "Kenny Santucci",
         "partners_history": [
           "Kenny Santucci"
@@ -61,7 +63,7 @@
       {
         "rank": 4,
         "player": "Johnny Bananas",
-        "rating": 0.052,
+        "rating": 0.142,
         "n_events": 74,
         "finish": "Winners in Sailing to Victory",
         "finish_label": "Champion",
@@ -77,8 +79,8 @@
       {
         "rank": 5,
         "player": "Ryan Kehoe",
-        "rating": 0.023,
-        "n_events": 85,
+        "rating": 0.024,
+        "n_events": 84,
         "finish": "Runner-Up in Sailing to Victory",
         "finish_label": "Runner-up",
         "finish_episode": "Sailing to Victory",
@@ -93,7 +95,7 @@
       {
         "rank": 6,
         "player": "Dan Walsh",
-        "rating": -0.333,
+        "rating": -0.322,
         "n_events": 12,
         "finish": "Eliminated in Sailing to Victory",
         "finish_label": "Eliminated",
@@ -109,13 +111,13 @@
       {
         "rank": 7,
         "player": "Tyri Ballard-Brown",
-        "rating": -0.484,
-        "n_events": 63,
+        "rating": -0.485,
+        "n_events": 62,
         "finish": "Eliminated in Ev vs. the Island",
         "finish_label": "Eliminated",
         "finish_episode": "Ev vs. the Island",
-        "elim_position": 1,
-        "elim_total": 2,
+        "elim_position": 2,
+        "elim_total": 3,
         "eliminated_by": [
           "Dan Walsh"
         ],
@@ -127,13 +129,13 @@
       {
         "rank": 8,
         "player": "Cohutta Grindstaff",
-        "rating": -0.669,
+        "rating": -0.648,
         "n_events": 11,
         "finish": "Eliminated in Island King",
         "finish_label": "Eliminated",
         "finish_episode": "Island King",
-        "elim_position": 2,
-        "elim_total": 2,
+        "elim_position": 3,
+        "elim_total": 3,
         "eliminated_by": [
           "Derrick Kosinski"
         ],
@@ -145,7 +147,7 @@
       {
         "rank": 9,
         "player": "Dunbar Merrill",
-        "rating": -0.778,
+        "rating": -0.753,
         "n_events": 11,
         "finish": "Eliminated in Sailing to Victory",
         "finish_label": "Eliminated",
@@ -161,7 +163,7 @@
       {
         "rank": 10,
         "player": "Dave Malinosky",
-        "rating": -0.778,
+        "rating": -0.753,
         "n_events": 11,
         "finish": "Quit in Calling It Quits",
         "finish_label": "Quit",
@@ -179,8 +181,8 @@
       {
         "rank": 1,
         "player": "Evelyn Smith",
-        "rating": 0.519,
-        "n_events": 101,
+        "rating": 0.57,
+        "n_events": 88,
         "finish": "Winner in Sailing to Victory",
         "finish_label": "Champion",
         "finish_episode": "Sailing to Victory",
@@ -195,7 +197,7 @@
       {
         "rank": 2,
         "player": "Johanna Botta",
-        "rating": 0.509,
+        "rating": 0.515,
         "n_events": 62,
         "finish": "Eliminated in Sailing to Victory",
         "finish_label": "Eliminated",
@@ -211,13 +213,13 @@
       {
         "rank": 3,
         "player": "Tonya Cooley",
-        "rating": 0.332,
-        "n_events": 44,
+        "rating": 0.464,
+        "n_events": 37,
         "finish": "Eliminated in Welcome to the Island",
         "finish_label": "Eliminated",
         "finish_episode": "Welcome to the Island",
         "elim_position": 1,
-        "elim_total": 2,
+        "elim_total": 5,
         "eliminated_by": [
           "Kenny Santucci"
         ],
@@ -229,8 +231,8 @@
       {
         "rank": 4,
         "player": "Paula Meronek",
-        "rating": 0.123,
-        "n_events": 88,
+        "rating": 0.144,
+        "n_events": 86,
         "finish": "Runners-Up in Sailing to Victory",
         "finish_label": "Runner-up",
         "finish_episode": "Sailing to Victory",
@@ -247,8 +249,8 @@
       {
         "rank": 5,
         "player": "Robin Hibbard",
-        "rating": 0.051,
-        "n_events": 72,
+        "rating": 0.094,
+        "n_events": 73,
         "finish": "Runners-Up in Sailing to Victory",
         "finish_label": "Runner-up",
         "finish_episode": "Sailing to Victory",
@@ -265,7 +267,7 @@
       {
         "rank": 6,
         "player": "Jenn Grijalva",
-        "rating": -0.059,
+        "rating": -0.016,
         "n_events": 36,
         "finish": "Runners-Up in Sailing to Victory",
         "finish_label": "Runner-up",
@@ -283,14 +285,16 @@
       {
         "rank": 7,
         "player": "Rachel Robinson",
-        "rating": -0.327,
-        "n_events": 21,
+        "rating": -0.463,
+        "n_events": 15,
         "finish": "Eliminated in Girl Fight",
         "finish_label": "Eliminated",
         "finish_episode": "Girl Fight",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 2,
+        "elim_total": 5,
+        "eliminated_by": [
+          "Robin Hibbard"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -298,14 +302,34 @@
       },
       {
         "rank": 8,
+        "player": "KellyAnne Judd",
+        "rating": -0.484,
+        "n_events": 17,
+        "finish": "Eliminated in Sailing to Victory",
+        "finish_label": "Eliminated",
+        "finish_episode": "Sailing to Victory",
+        "elim_position": 5,
+        "elim_total": 5,
+        "eliminated_by": [
+          "Johanna Botta"
+        ],
+        "partner": "Robin Hibbard",
+        "partners_history": [
+          "Robin Hibbard"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
         "player": "Colie",
-        "rating": -0.753,
-        "n_events": 25,
+        "rating": -0.722,
+        "n_events": 23,
         "finish": "Eliminated in Down to the Wire",
         "finish_label": "Eliminated",
         "finish_episode": "Down to the Wire",
-        "elim_position": 2,
-        "elim_total": 2,
+        "elim_position": 4,
+        "elim_total": 5,
         "eliminated_by": [
           "Johanna Botta"
         ],
@@ -315,36 +339,20 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
+        "rank": 10,
         "player": "Ashli Robson",
-        "rating": -0.808,
-        "n_events": 13,
+        "rating": -0.904,
+        "n_events": 10,
         "finish": "Eliminated in Are You a Quitter?",
         "finish_label": "Quit",
         "finish_episode": "Are You a Quitter?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 3,
+        "elim_total": 5,
+        "eliminated_by": [
+          "Jenn Grijalva"
+        ],
         "partner": "",
         "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
-        "player": "KellyAnne Judd",
-        "rating": -0.808,
-        "n_events": 13,
-        "finish": "Eliminated in Sailing to Victory",
-        "finish_label": "Eliminated",
-        "finish_episode": "Sailing to Victory",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Robin Hibbard",
-        "partners_history": [
-          "Robin Hibbard"
-        ],
         "team": "",
         "forced_exit": false
       }

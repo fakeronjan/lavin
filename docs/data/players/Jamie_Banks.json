@@ -3,17 +3,17 @@
   "safe_name": "Jamie_Banks",
   "gender": "M",
   "career": {
-    "era_rating": 2.2,
-    "peak_rating": 1.42,
+    "era_rating": 2.0,
+    "peak_rating": 1.148,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.771,
-    "active_season_id": "s30_xxx_dirty_30",
+    "active_rating": 0.385,
+    "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 2,
-    "n_snapshots": 4,
+    "n_snapshots": 3,
     "championships": 1,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 2,
+    "elim_wins": 3,
     "elim_losses": 1,
     "daily_wins": 4
   },
@@ -33,7 +33,7 @@
         "Wes Bergmann",
         "Nany Gonz\u00e1lez"
       ],
-      "rating_at_end": 0.746,
+      "rating_at_end": 0.811,
       "partner": "KellyAnne Judd",
       "partners_history": [
         "KellyAnne Judd"
@@ -53,7 +53,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.42,
+      "rating_at_end": 1.148,
       "partner": "Cara Maria Sorbello",
       "partners_history": [
         "Cara Maria Sorbello"
@@ -64,14 +64,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 1.42
+      "rating": 1.148
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.746
+      "rating": 0.811
     }
   ]
 }

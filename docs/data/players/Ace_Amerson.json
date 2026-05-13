@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.052,
+    "peak_rating": 0.051,
     "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.15,
-    "active_season_id": "s18_the_ruins",
+    "active_rating": -0.056,
+    "active_season_id": "s17_the_duel_ii",
     "n_seasons": 4,
-    "n_snapshots": 9,
+    "n_snapshots": 8,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.052,
+      "rating_at_end": 0.051,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -90,7 +90,7 @@
       "eliminated_by": [
         "Jeremy Blossom"
       ],
-      "rating_at_end": -0.556,
+      "rating_at_end": -0.529,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -99,24 +99,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": -0.556
+      "rating": -0.529
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": -0.521
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.476
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.052
+      "rating": 0.051
     }
   ]
 }

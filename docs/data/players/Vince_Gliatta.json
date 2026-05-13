@@ -3,13 +3,13 @@
   "safe_name": "Vince_Gliatta",
   "gender": "M",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.576,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": 0.576,
-    "active_season_id": "s31_vendettas",
+    "era_rating": 0.7,
+    "peak_rating": 0.672,
+    "peak_season_id": "s28_rivals_iii",
+    "active_rating": 0.458,
+    "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 4,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.565,
+      "rating_at_end": 0.672,
       "partner": "Jenna Compono",
       "partners_history": [
         "Jenna Compono"
@@ -47,13 +47,13 @@
       "finish": "Eliminated in Out for Blood",
       "finish_label": "Eliminated",
       "finish_episode": "Out for Blood",
-      "elim_position": 6,
-      "elim_total": 6,
+      "elim_position": 10,
+      "elim_total": 10,
       "eliminated_by": [
         "Jamie Banks",
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": 0.236,
+      "rating_at_end": -0.055,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -64,14 +64,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.236
+      "rating": -0.055
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.565
+      "rating": 0.672
     }
   ]
 }

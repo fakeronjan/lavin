@@ -3,18 +3,18 @@
   "safe_name": "Leroy_Garrett",
   "gender": "M",
   "career": {
-    "era_rating": 3.1,
-    "peak_rating": 0.866,
+    "era_rating": 2.8,
+    "peak_rating": 0.846,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.08,
+    "active_rating": -0.049,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 14,
     "n_snapshots": 17,
     "championships": 0,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
-    "elim_wins": 8,
-    "elim_losses": 6,
+    "elim_wins": 9,
+    "elim_losses": 7,
     "daily_wins": 22
   },
   "seasons": [
@@ -27,10 +27,13 @@
       "finish": "Eliminated in They Are Like Cockroaches",
       "finish_label": "Eliminated",
       "finish_episode": "They Are Like Cockroaches",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.08,
+      "elim_position": 8,
+      "elim_total": 12,
+      "eliminated_by": [
+        "Theo Campbell",
+        "Adrienne Naylor"
+      ],
+      "rating_at_end": -0.049,
       "partner": "America Lopez",
       "partners_history": [
         "America Lopez"
@@ -52,7 +55,7 @@
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": -0.185,
+      "rating_at_end": -0.372,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -70,7 +73,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.628,
+      "rating_at_end": 0.643,
       "partner": "Kaycee Clark",
       "partners_history": [
         "Kaycee Clark",
@@ -86,9 +89,9 @@
       "season_name": "War of the Worlds 2",
       "year": 2019,
       "label": "S34 War of the Worlds 2 (2019)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Give Me Liberty or Give Me Cash",
+      "finish_label": "Eliminated",
+      "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
@@ -127,13 +130,13 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Vendettas Never Die",
+      "finish_label": "Eliminated",
+      "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.302,
+      "rating_at_end": 0.014,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -148,12 +151,12 @@
       "finish": "Eliminated in A Million More Reasons",
       "finish_label": "Eliminated",
       "finish_episode": "A Million More Reasons",
-      "elim_position": 6,
-      "elim_total": 7,
+      "elim_position": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Hunter Barfield"
       ],
-      "rating_at_end": -0.316,
+      "rating_at_end": -0.284,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -171,7 +174,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.044,
+      "rating_at_end": -0.292,
       "partner": "Averey Tressler",
       "partners_history": [],
       "team": "",
@@ -189,7 +192,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.55,
+      "rating_at_end": 0.314,
       "partner": "Candice Fowler",
       "partners_history": [],
       "team": "",
@@ -207,7 +210,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.866,
+      "rating_at_end": 0.846,
       "partner": "Theresa Jones",
       "partners_history": [
         "Nia Moore",
@@ -226,11 +229,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "The $350,000 Pyramid",
       "elim_position": 9,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.288,
+      "rating_at_end": 0.259,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -306,74 +309,74 @@
   ],
   "timeline": [
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
       "rating": 0.101
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.242
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 0.085
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.288
+      "rating": 0.259
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.866
+      "rating": 0.846
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.55
+      "rating": 0.314
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.044
+      "rating": -0.292
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.316
+      "rating": -0.284
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.302
+      "rating": 0.014
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.439
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.301
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.628
+      "rating": 0.643
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.185
+      "rating": -0.372
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.08
+      "rating": -0.049
     }
   ]
 }

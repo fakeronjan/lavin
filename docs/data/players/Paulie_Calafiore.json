@@ -6,7 +6,7 @@
     "era_rating": 2.0,
     "peak_rating": 0.702,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.465,
+    "active_rating": -0.636,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": -0.465,
+      "rating_at_end": -0.636,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -100,24 +100,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": 0.702
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": 0.692
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.596
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.465
+      "rating": -0.636
     }
   ]
 }

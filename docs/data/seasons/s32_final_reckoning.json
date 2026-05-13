@@ -364,24 +364,6 @@
       },
       {
         "rank": 4,
-        "player": "Marie Roda",
-        "rating": 0.342,
-        "n_events": 34,
-        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
-        "finish_label": "4th",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Cara Maria Sorbello",
-        "partners_history": [
-          "Cara Maria Sorbello"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
         "player": "Cara Maria Sorbello",
         "rating": 0.342,
         "n_events": 34,
@@ -394,6 +376,24 @@
         "partner": "Marie Roda",
         "partners_history": [
           "Marie Roda"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
+        "player": "Marie Roda",
+        "rating": 0.342,
+        "n_events": 34,
+        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
+        "finish_label": "4th",
+        "finish_episode": "Who Wants to Be a Millionaire?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Cara Maria Sorbello",
+        "partners_history": [
+          "Cara Maria Sorbello"
         ],
         "team": "",
         "forced_exit": false
@@ -591,42 +591,6 @@
       },
       {
         "rank": 15,
-        "player": "Melissa Reeves",
-        "rating": -0.423,
-        "n_events": 21,
-        "finish": "Disqualified in Six Feet Under",
-        "finish_label": "Disqualified",
-        "finish_episode": "Six Feet Under",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Kam Williams",
-        "partners_history": [
-          "Kam Williams"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 16,
-        "player": "Kailah Casillas-Bird",
-        "rating": -0.423,
-        "n_events": 21,
-        "finish": "Disqualified in Six Feet Under",
-        "finish_label": "Disqualified",
-        "finish_episode": "Six Feet Under",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Kayleigh Morris",
-        "partners_history": [
-          "Kayleigh Morris"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 17,
         "player": "Jemmye Carroll",
         "rating": -0.423,
         "n_events": 21,
@@ -644,7 +608,25 @@
         "forced_exit": false
       },
       {
-        "rank": 18,
+        "rank": 16,
+        "player": "Melissa Reeves",
+        "rating": -0.423,
+        "n_events": 21,
+        "finish": "Disqualified in Six Feet Under",
+        "finish_label": "Disqualified",
+        "finish_episode": "Six Feet Under",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Kam Williams",
+        "partners_history": [
+          "Kam Williams"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 17,
         "player": "Jenna Compono",
         "rating": -0.423,
         "n_events": 21,
@@ -660,6 +642,24 @@
         ],
         "team": "",
         "forced_exit": false
+      },
+      {
+        "rank": 18,
+        "player": "Kailah Casillas-Bird",
+        "rating": -0.423,
+        "n_events": 21,
+        "finish": "Disqualified in Six Feet Under",
+        "finish_label": "Disqualified",
+        "finish_episode": "Six Feet Under",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Kayleigh Morris",
+        "partners_history": [
+          "Kayleigh Morris"
+        ],
+        "team": "",
+        "forced_exit": true
       }
     ]
   }

@@ -3,10 +3,10 @@
   "safe_name": "Cory_Wharton",
   "gender": "M",
   "career": {
-    "era_rating": 4.3,
-    "peak_rating": 1.11,
+    "era_rating": 3.8,
+    "peak_rating": 0.804,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.086,
+    "active_rating": -0.185,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 13,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Derek Chavez"
       ],
-      "rating_at_end": 0.328,
+      "rating_at_end": 0.147,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Logan Sampedro"
       ],
-      "rating_at_end": 0.469,
+      "rating_at_end": 0.468,
       "partner": "Bettina Buchanan",
       "partners_history": [
         "Bettina Buchanan"
@@ -72,7 +72,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.766,
+      "rating_at_end": 0.772,
       "partner": "Ashley Mitchell",
       "partners_history": [
         "Ashley Mitchell",
@@ -97,7 +97,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.646,
+      "rating_at_end": 0.639,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -133,11 +133,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "#Banatalie",
       "elim_position": 2,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.069,
+      "rating_at_end": -0.123,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -152,12 +152,12 @@
       "finish": "Eliminated in Guess Who's Coming to Dinner",
       "finish_label": "Eliminated",
       "finish_episode": "Guess Who's Coming to Dinner",
-      "elim_position": 4,
-      "elim_total": 7,
+      "elim_position": 5,
+      "elim_total": 9,
       "eliminated_by": [
         "Hunter Barfield"
       ],
-      "rating_at_end": 0.276,
+      "rating_at_end": 0.287,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -175,7 +175,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.417,
+      "rating_at_end": 0.399,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -196,7 +196,7 @@
         "Nate Siebenmark",
         "Christina LeBlanc"
       ],
-      "rating_at_end": 0.251,
+      "rating_at_end": 0.286,
       "partner": "Ashley Mitchell",
       "partners_history": [
         "Ashley Mitchell"
@@ -216,7 +216,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.11,
+      "rating_at_end": 0.804,
       "partner": "Mitch Reid",
       "partners_history": [
         "Mitch Reid"
@@ -227,54 +227,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 1.11
+      "rating": 0.804
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.251
+      "rating": 0.286
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.417
+      "rating": 0.399
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.276
+      "rating": 0.287
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.069
+      "rating": -0.123
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.064
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.646
+      "rating": 0.639
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.766
+      "rating": 0.772
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.469
+      "rating": 0.468
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.328
+      "rating": 0.147
     }
   ]
 }

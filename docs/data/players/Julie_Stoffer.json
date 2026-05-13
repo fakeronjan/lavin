@@ -4,8 +4,8 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.233,
-    "peak_season_id": "s07_the_gauntlet",
+    "peak_rating": -0.299,
+    "peak_season_id": "s11_the_gauntlet_2",
     "active_rating": -0.299,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 5,
@@ -14,7 +14,7 @@
     "finals_reached": 2,
     "pre_anchor_titles": 1,
     "elim_wins": 1,
-    "elim_losses": 2,
+    "elim_losses": 3,
     "daily_wins": 1
   },
   "seasons": [
@@ -70,7 +70,7 @@
       "eliminated_by": [
         "Katie Cooley"
       ],
-      "rating_at_end": -0.339,
+      "rating_at_end": -0.536,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -85,10 +85,12 @@
       "finish": "Eliminated in Sergeant Says",
       "finish_label": "Eliminated",
       "finish_episode": "Sergeant Says",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.441,
+      "elim_position": 1,
+      "elim_total": 14,
+      "eliminated_by": [
+        "Melissa Howard"
+      ],
+      "rating_at_end": -0.7,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -97,22 +99,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.441
+      "rating": -0.7
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": -0.339
+      "rating": -0.536
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.368
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.299
     }

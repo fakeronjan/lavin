@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.18,
+    "peak_rating": 0.097,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": 0.098,
+    "active_rating": -0.107,
     "active_season_id": "s08_the_inferno",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -27,12 +27,12 @@
       "finish": "Eliminated in Seven Rings of Saturn",
       "finish_label": "Eliminated",
       "finish_episode": "Seven Rings of Saturn",
-      "elim_position": 3,
-      "elim_total": 8,
+      "elim_position": 5,
+      "elim_total": 14,
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.009,
+      "rating_at_end": -0.184,
       "partner": "Melissa Howard",
       "partners_history": [
         "Melissa Howard"
@@ -43,9 +43,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.009
+      "rating": -0.184
     }
   ]
 }

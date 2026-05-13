@@ -3,10 +3,10 @@
   "safe_name": "Olivia_Kaiser",
   "gender": "F",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.749,
+    "era_rating": 1.5,
+    "peak_rating": 0.81,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.749,
+    "active_rating": 0.81,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 4,
@@ -24,13 +24,13 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "Winner <small>''in Finale Part II",
+      "finish": "Winner in Finale Part II",
       "finish_label": "Champion",
       "finish_episode": "Finale Part II",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.749,
+      "rating_at_end": 0.81,
       "partner": "Yeremi Hykel",
       "partners_history": [
         "Yeremi Hykel"
@@ -47,12 +47,12 @@
       "finish": "Eliminated in Best Friends 4Era",
       "finish_label": "Eliminated",
       "finish_episode": "Best Friends 4Era",
-      "elim_position": 11,
-      "elim_total": 13,
+      "elim_position": 13,
+      "elim_total": 15,
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": 0.073,
+      "rating_at_end": -0.099,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -64,15 +64,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 7,
-      "elim_total": 7,
+      "finish": "Eliminated in Feel the Bern",
+      "finish_label": "Eliminated",
+      "finish_episode": "Feel the Bern",
+      "elim_position": 11,
+      "elim_total": 11,
       "eliminated_by": [
         "James Lock"
       ],
-      "rating_at_end": 0.206,
+      "rating_at_end": 0.183,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -84,7 +84,7 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Fourth Place <small>in Riders on the Storm",
+      "finish": "Fourth Place in Riders on the Storm",
       "finish_label": "4th",
       "finish_episode": "Riders on the Storm",
       "elim_position": null,
@@ -101,24 +101,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.538
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.206
+      "rating": 0.183
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.073
+      "rating": -0.099
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.749
+      "rating": 0.81
     }
   ]
 }

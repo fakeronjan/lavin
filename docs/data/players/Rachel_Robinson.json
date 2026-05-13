@@ -3,10 +3,10 @@
   "safe_name": "Rachel_Robinson",
   "gender": "F",
   "career": {
-    "era_rating": 2.0,
-    "peak_rating": 0.917,
-    "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.917,
+    "era_rating": 1.9,
+    "peak_rating": 0.926,
+    "peak_season_id": "s19_fresh_meat_ii",
+    "active_rating": 0.905,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 8,
     "n_snapshots": 14,
@@ -14,7 +14,7 @@
     "finals_reached": 4,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
-    "elim_losses": 2,
+    "elim_losses": 4,
     "daily_wins": 7
   },
   "seasons": [
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.895,
+      "rating_at_end": 0.769,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -71,7 +71,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.475,
+      "rating_at_end": 0.499,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -86,10 +86,12 @@
       "finish": "Eliminated in Girl Fight",
       "finish_label": "Eliminated",
       "finish_episode": "Girl Fight",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.327,
+      "elim_position": 2,
+      "elim_total": 5,
+      "eliminated_by": [
+        "Robin Hibbard"
+      ],
+      "rating_at_end": -0.463,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -145,7 +147,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.547,
+      "rating_at_end": 0.504,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -160,10 +162,12 @@
       "finish": "Eliminated in Freeze Your Butt Off",
       "finish_label": "Eliminated",
       "finish_episode": "Freeze Your Butt Off",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.441,
+      "elim_position": 6,
+      "elim_total": 14,
+      "eliminated_by": [
+        "Ruthie Alcaide"
+      ],
+      "rating_at_end": -0.41,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -172,44 +176,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
-      "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.441
-    },
-    {
       "ranking_id": 71,
-      "season_id": "s07_the_gauntlet",
-      "rating": 0.547
+      "season_id": "s06_battle_of_the_sexes",
+      "rating": -0.41
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 86,
+      "season_id": "s07_the_gauntlet",
+      "rating": 0.504
+    },
+    {
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": -0.036
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": 0.078
     },
     {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": -0.327
-    },
-    {
       "ranking_id": 283,
-      "season_id": "s17_the_duel_ii",
-      "rating": 0.475
+      "season_id": "s16_the_island",
+      "rating": -0.463
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 304,
+      "season_id": "s17_the_duel_ii",
+      "rating": 0.499
+    },
+    {
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.011
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.895
+      "rating": 0.769
     }
   ]
 }

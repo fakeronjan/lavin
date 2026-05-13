@@ -3,10 +3,10 @@
   "safe_name": "Derrick_Kosinski",
   "gender": "M",
   "career": {
-    "era_rating": 4.1,
-    "peak_rating": 0.999,
+    "era_rating": 3.8,
+    "peak_rating": 0.981,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.153,
+    "active_rating": -0.049,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
     "n_snapshots": 17,
@@ -28,12 +28,12 @@
       "finish_label": "Eliminated",
       "finish_episode": "Punch You in Your Face",
       "elim_position": 7,
-      "elim_total": 9,
+      "elim_total": 12,
       "eliminated_by": [
         "Theo Campbell",
         "Adrienne Naylor"
       ],
-      "rating_at_end": -0.153,
+      "rating_at_end": -0.049,
       "partner": "Blue Kim",
       "partners_history": [
         "Blue Kim",
@@ -56,7 +56,7 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": 0.303,
+      "rating_at_end": 0.102,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -74,7 +74,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.82,
+      "rating_at_end": 0.696,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -92,7 +92,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.999,
+      "rating_at_end": 0.981,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "eliminated_by": [
         "Tyler Duckworth"
       ],
-      "rating_at_end": 0.182,
+      "rating_at_end": 0.187,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -130,7 +130,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.837,
+      "rating_at_end": 0.831,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -148,7 +148,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.505,
+      "rating_at_end": 0.519,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -166,7 +166,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.329,
+      "rating_at_end": 0.336,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -276,69 +276,69 @@
   ],
   "timeline": [
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": -0.28
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.068
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": 0.108
     },
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": -0.463
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": -0.083
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.329
+      "rating": 0.336
     },
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.505
+      "rating": 0.519
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.837
+      "rating": 0.831
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.182
+      "rating": 0.187
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.999
+      "rating": 0.981
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.82
+      "rating": 0.696
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.303
+      "rating": 0.102
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.153
+      "rating": -0.049
     }
   ]
 }

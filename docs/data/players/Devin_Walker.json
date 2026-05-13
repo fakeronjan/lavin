@@ -3,10 +3,10 @@
   "safe_name": "Devin_Walker",
   "gender": "M",
   "career": {
-    "era_rating": 3.3,
+    "era_rating": 3.4,
     "peak_rating": 0.953,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.662,
+    "active_rating": -0.568,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
     "n_snapshots": 13,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 4,
-    "daily_wins": 11
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": 0.008,
+      "rating_at_end": -0.497,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,13 +44,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.644,
+      "rating_at_end": 0.583,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -62,7 +62,7 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Winners <small>in The End of the Ride",
+      "finish": "Winners in The End of the Ride",
       "finish_label": "Champion",
       "finish_episode": "The End of the Ride",
       "elim_position": null,
@@ -88,7 +88,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.468,
+      "rating_at_end": 0.467,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -100,15 +100,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Tinker, Tailer, Bunny, Spy",
+      "finish_label": "Eliminated",
+      "finish_episode": "Tinker, Tailer, Bunny, Spy",
       "elim_position": 6,
       "elim_total": 9,
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.335,
+      "rating_at_end": 0.345,
       "partner": "Nicole Zanatta",
       "partners_history": [
         "Nicole Zanatta",
@@ -147,12 +147,12 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 9,
-      "elim_total": 9,
+      "elim_position": 8,
+      "elim_total": 10,
       "eliminated_by": [
         "Zach Nichols"
       ],
-      "rating_at_end": 0.277,
+      "rating_at_end": 0.232,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -170,7 +170,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.081,
+      "rating_at_end": 0.098,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -188,7 +188,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.567,
+      "rating_at_end": 0.676,
       "partner": "Cheyenne Floyd",
       "partners_history": [
         "Cheyenne Floyd"
@@ -199,49 +199,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.567
+      "rating": 0.676
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.081
+      "rating": 0.098
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.277
+      "rating": 0.232
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.048
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.335
+      "rating": 0.345
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.468
+      "rating": 0.467
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.953
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.644
+      "rating": 0.583
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.008
+      "rating": -0.497
     }
   ]
 }

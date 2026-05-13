@@ -6,10 +6,10 @@
     "era_rating": 0.3,
     "peak_rating": 0.345,
     "peak_season_id": "s13_the_duel",
-    "active_rating": -0.89,
+    "active_rating": -0.869,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 7,
-    "n_snapshots": 12,
+    "n_snapshots": 11,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.654,
+      "rating_at_end": -0.661,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -103,12 +103,12 @@
       "finish": "Eliminated in Dead Man's Drop",
       "finish_label": "Eliminated",
       "finish_episode": "Dead Man's Drop",
-      "elim_position": 1,
-      "elim_total": 8,
+      "elim_position": 2,
+      "elim_total": 14,
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.329,
+      "rating_at_end": -0.36,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -145,29 +145,29 @@
       "rating": -0.341
     },
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.329
+      "rating": -0.36
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.748
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.119
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.345
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.654
+      "rating": -0.661
     }
   ]
 }

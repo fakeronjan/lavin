@@ -3,19 +3,19 @@
   "safe_name": "Jordan_Wiseley",
   "gender": "M",
   "career": {
-    "era_rating": 7.4,
+    "era_rating": 7.1,
     "peak_rating": 1.166,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.855,
+    "active_rating": 0.884,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
-    "n_snapshots": 16,
+    "n_snapshots": 15,
     "championships": 4,
     "finals_reached": 6,
     "pre_anchor_titles": 0,
     "elim_wins": 14,
     "elim_losses": 5,
-    "daily_wins": 15
+    "daily_wins": 17
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.077,
+      "rating_at_end": 0.936,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -42,13 +42,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.271,
+      "rating_at_end": 0.232,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,7 +60,7 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Third Place <small>in The End of the Ride",
+      "finish": "Third Place in The End of the Ride",
       "finish_label": "3rd",
       "finish_episode": "The End of the Ride",
       "elim_position": null,
@@ -84,11 +84,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Live and Let Die",
       "elim_position": 4,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": 0.617,
+      "rating_at_end": 0.624,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez"
@@ -126,7 +126,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.831,
+      "rating_at_end": 0.711,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -144,7 +144,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.074,
+      "rating_at_end": 1.068,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -162,7 +162,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.904,
+      "rating_at_end": 0.884,
       "partner": "Sarah Rice",
       "partners_history": [
         "Sarah Rice"
@@ -180,11 +180,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Pride Before the Wall",
       "elim_position": 6,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.474,
+      "rating_at_end": 0.477,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -213,54 +213,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 0.487
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.474
+      "rating": 0.477
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.904
+      "rating": 0.884
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 1.074
+      "rating": 1.068
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.831
+      "rating": 0.711
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 1.166
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.617
+      "rating": 0.624
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.501
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.271
+      "rating": 0.232
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 1.077
+      "rating": 0.936
     }
   ]
 }

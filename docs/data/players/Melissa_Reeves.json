@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.428,
-    "peak_season_id": "s35_total_madness",
-    "active_rating": 0.272,
+    "peak_rating": 0.48,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": 0.096,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 9,
@@ -14,7 +14,7 @@
     "finals_reached": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
-    "elim_losses": 1,
+    "elim_losses": 2,
     "daily_wins": 6
   },
   "seasons": [
@@ -24,13 +24,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.281,
+      "finish": "Eliminated in A Banana Split",
+      "finish_label": "Eliminated",
+      "finish_episode": "A Banana Split",
+      "elim_position": 5,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Tori Deal"
+      ],
+      "rating_at_end": 0.23,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -48,7 +50,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.428,
+      "rating_at_end": 0.467,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -84,11 +86,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Guilty by Association",
       "elim_position": 2,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Sylvia Elsrode"
       ],
-      "rating_at_end": -0.327,
+      "rating_at_end": -0.421,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -97,24 +99,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.327
+      "rating": -0.421
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.423
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.428
+      "rating": 0.467
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.281
+      "rating": 0.23
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.808,
-    "peak_season_id": "s16_the_island",
-    "active_rating": -0.859,
+    "peak_rating": -0.809,
+    "peak_season_id": "s17_the_duel_ii",
+    "active_rating": -0.854,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
-    "elim_losses": 0,
+    "elim_losses": 1,
     "daily_wins": 0
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Are You a Quitter?",
       "finish_label": "Quit",
       "finish_episode": "Are You a Quitter?",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.808,
+      "elim_position": 3,
+      "elim_total": 5,
+      "eliminated_by": [
+        "Jenn Grijalva"
+      ],
+      "rating_at_end": -0.904,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -39,9 +41,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.808
+      "rating": -0.904
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Ryan_Kehoe",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.148,
-    "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": -0.367,
+    "era_rating": 0.3,
+    "peak_rating": 0.138,
+    "peak_season_id": "s17_the_duel_ii",
+    "active_rating": -0.493,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.148,
+      "rating_at_end": -0.052,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -53,7 +53,7 @@
         "Noor Jehangir",
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.369,
+      "rating_at_end": -0.358,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -75,7 +75,7 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": 0.09,
+      "rating_at_end": 0.138,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -93,7 +93,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.023,
+      "rating_at_end": 0.024,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -113,7 +113,7 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": 0.095,
+      "rating_at_end": 0.096,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -145,34 +145,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": -0.169
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.095
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": 0.023
+      "rating": 0.096
     },
     {
       "ranking_id": 283,
+      "season_id": "s16_the_island",
+      "rating": 0.024
+    },
+    {
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.09
+      "rating": 0.138
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.369
+      "rating": -0.358
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.148
+      "rating": -0.052
     }
   ]
 }

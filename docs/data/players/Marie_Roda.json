@@ -6,7 +6,7 @@
     "era_rating": 0.6,
     "peak_rating": 0.342,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.212,
+    "active_rating": 0.176,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 5,
     "n_snapshots": 9,
@@ -14,8 +14,8 @@
     "finals_reached": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
-    "elim_losses": 3,
-    "daily_wins": 5
+    "elim_losses": 4,
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -48,11 +48,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Baskets of Deplorables",
       "elim_position": 5,
-      "elim_total": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Kailah Casillas-Bird"
       ],
-      "rating_at_end": -0.055,
+      "rating_at_end": -0.024,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -67,10 +67,12 @@
       "finish": "Eliminated in Guess Who's Coming to Dinner",
       "finish_label": "Eliminated",
       "finish_episode": "Guess Who's Coming to Dinner",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.402,
+      "elim_position": 6,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Tori Deal"
+      ],
+      "rating_at_end": -0.198,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -86,11 +88,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Skeletal Fracture",
       "elim_position": 1,
-      "elim_total": 6,
+      "elim_total": 9,
       "eliminated_by": [
         "Kailah Casillas-Bird"
       ],
-      "rating_at_end": -0.175,
+      "rating_at_end": -0.167,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -122,27 +124,27 @@
   ],
   "timeline": [
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.306
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.175
+      "rating": -0.167
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.402
+      "rating": -0.198
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.055
+      "rating": -0.024
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": 0.342
     }

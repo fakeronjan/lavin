@@ -3,10 +3,10 @@
   "safe_name": "Dario_Medrano",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.054,
+    "era_rating": 0.2,
+    "peak_rating": 0.218,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.124,
+    "active_rating": -0.151,
     "active_season_id": "s31_vendettas",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -27,12 +27,12 @@
       "finish": "Eliminated in A Million More Reasons",
       "finish_label": "Eliminated",
       "finish_episode": "A Million More Reasons",
-      "elim_position": 5,
-      "elim_total": 7,
+      "elim_position": 7,
+      "elim_total": 9,
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": -0.179,
+      "rating_at_end": -0.162,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -47,12 +47,12 @@
       "finish": "Eliminated in A Low Down Dirty Shane",
       "finish_label": "Eliminated",
       "finish_episode": "A Low Down Dirty Shane",
-      "elim_position": 3,
-      "elim_total": 5,
+      "elim_position": 6,
+      "elim_total": 9,
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": -0.157,
+      "rating_at_end": -0.168,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -73,7 +73,7 @@
         "Johnny Bananas",
         "Sarah Rice"
       ],
-      "rating_at_end": 0.054,
+      "rating_at_end": 0.218,
       "partner": "Nicole Ramos",
       "partners_history": [
         "Nicole Ramos"
@@ -90,12 +90,12 @@
       "finish": "Eliminated in A House Divided",
       "finish_label": "Eliminated",
       "finish_episode": "A House Divided",
-      "elim_position": 2,
-      "elim_total": 6,
+      "elim_position": 3,
+      "elim_total": 10,
       "eliminated_by": [
-        "Raphy Medrano"
+        "Mitch Reid"
       ],
-      "rating_at_end": -0.05,
+      "rating_at_end": -0.144,
       "partner": "Raphy Medrano",
       "partners_history": [
         "Raphy Medrano"
@@ -106,24 +106,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.05
+      "rating": -0.144
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.054
+      "rating": 0.218
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.157
+      "rating": -0.168
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.179
+      "rating": -0.162
     }
   ]
 }

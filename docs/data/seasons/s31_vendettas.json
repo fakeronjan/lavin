@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Zach Nichols",
-        "rating": 0.987,
-        "n_events": 49,
+        "rating": 0.973,
+        "n_events": 35,
         "finish": "Runner-Up in Vendettas Never Die",
         "finish_label": "Runner-up",
         "finish_episode": "Vendettas Never Die",
@@ -25,8 +25,8 @@
       {
         "rank": 2,
         "player": "Kyle Christie",
-        "rating": 0.866,
-        "n_events": 53,
+        "rating": 0.831,
+        "n_events": 60,
         "finish": "Third Place in Vendettas Never Die",
         "finish_label": "3rd",
         "finish_episode": "Vendettas Never Die",
@@ -41,8 +41,8 @@
       {
         "rank": 3,
         "player": "Jordan Wiseley",
-        "rating": 0.831,
-        "n_events": 72,
+        "rating": 0.711,
+        "n_events": 81,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -57,8 +57,8 @@
       {
         "rank": 4,
         "player": "Derrick Kosinski",
-        "rating": 0.82,
-        "n_events": 62,
+        "rating": 0.696,
+        "n_events": 65,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -73,11 +73,11 @@
       {
         "rank": 5,
         "player": "Tony Raines",
-        "rating": 0.7,
-        "n_events": 108,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
+        "rating": 0.666,
+        "n_events": 106,
+        "finish": "Bottom Four in Vendettas Never Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Vendettas Never Die",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
@@ -89,31 +89,15 @@
       {
         "rank": 6,
         "player": "Brad Fiorenza",
-        "rating": 0.49,
-        "n_events": 23,
+        "rating": 0.296,
+        "n_events": 34,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
         "finish_episode": "Czechmate",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
-        "player": "Johnny Bananas",
-        "rating": 0.362,
-        "n_events": 120,
-        "finish": "Eliminated in Rumor Has It",
-        "finish_label": "Eliminated",
-        "finish_episode": "Rumor Has It",
-        "elim_position": 6,
-        "elim_total": 9,
+        "elim_position": 10,
+        "elim_total": 10,
         "eliminated_by": [
-          "Devin Walker"
+          "Leroy Garrett"
         ],
         "partner": "",
         "partners_history": [],
@@ -121,15 +105,15 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "player": "Nelson Thomas",
-        "rating": 0.348,
-        "n_events": 80,
+        "rating": 0.275,
+        "n_events": 85,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
         "finish_episode": "Czechmate",
-        "elim_position": 8,
-        "elim_total": 9,
+        "elim_position": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Tony Raines"
         ],
@@ -139,15 +123,33 @@
         "forced_exit": false
       },
       {
+        "rank": 8,
+        "player": "Johnny Bananas",
+        "rating": 0.256,
+        "n_events": 98,
+        "finish": "Eliminated in Rumor Has It",
+        "finish_label": "Eliminated",
+        "finish_episode": "Rumor Has It",
+        "elim_position": 6,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Devin Walker"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 9,
         "player": "Devin Walker",
-        "rating": 0.277,
-        "n_events": 58,
+        "rating": 0.232,
+        "n_events": 62,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
         "finish_episode": "Czechmate",
-        "elim_position": 9,
-        "elim_total": 9,
+        "elim_position": 8,
+        "elim_total": 10,
         "eliminated_by": [
           "Zach Nichols"
         ],
@@ -158,17 +160,15 @@
       },
       {
         "rank": 10,
-        "player": "Cory Wharton",
-        "rating": 0.069,
-        "n_events": 70,
-        "finish": "Eliminated in #Banatalie",
+        "player": "Leroy Garrett",
+        "rating": 0.014,
+        "n_events": 37,
+        "finish": "Bottom Four in Vendettas Never Die",
         "finish_label": "Eliminated",
-        "finish_episode": "#Banatalie",
-        "elim_position": 2,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Nelson Thomas"
-        ],
+        "finish_episode": "Vendettas Never Die",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -177,13 +177,13 @@
       {
         "rank": 11,
         "player": "Joss Mooney",
-        "rating": -0.008,
+        "rating": -0.076,
         "n_events": 10,
         "finish": "Eliminated in Mercenaries of Mayhem",
         "finish_label": "Eliminated",
         "finish_episode": "Mercenaries of Mayhem",
-        "elim_position": 4,
-        "elim_total": 9,
+        "elim_position": 5,
+        "elim_total": 10,
         "eliminated_by": [
           "Derrick Kosinski"
         ],
@@ -194,16 +194,16 @@
       },
       {
         "rank": 12,
-        "player": "Shane Landrum",
-        "rating": -0.11,
-        "n_events": 45,
-        "finish": "Eliminated in Pulling the Strings",
+        "player": "Cory Wharton",
+        "rating": -0.123,
+        "n_events": 50,
+        "finish": "Eliminated in #Banatalie",
         "finish_label": "Eliminated",
-        "finish_episode": "Pulling the Strings",
-        "elim_position": 5,
-        "elim_total": 9,
+        "finish_episode": "#Banatalie",
+        "elim_position": 2,
+        "elim_total": 10,
         "eliminated_by": [
-          "Jordan Wiseley"
+          "Nelson Thomas"
         ],
         "partner": "",
         "partners_history": [],
@@ -213,8 +213,8 @@
       {
         "rank": 13,
         "player": "Eddie Williams",
-        "rating": -0.252,
-        "n_events": 14,
+        "rating": -0.314,
+        "n_events": 16,
         "finish": "Quit before The Power of Three",
         "finish_label": "Quit",
         "finish_episode": "",
@@ -228,15 +228,17 @@
       },
       {
         "rank": 14,
-        "player": "Leroy Garrett",
-        "rating": -0.302,
-        "n_events": 33,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "player": "Shane Landrum",
+        "rating": -0.327,
+        "n_events": 18,
+        "finish": "Eliminated in Pulling the Strings",
+        "finish_label": "Eliminated",
+        "finish_episode": "Pulling the Strings",
+        "elim_position": 4,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jordan Wiseley"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -245,13 +247,13 @@
       {
         "rank": 15,
         "player": "Victor Arroyo",
-        "rating": -0.34,
+        "rating": -0.447,
         "n_events": 8,
         "finish": "Eliminated in Pulling the Strings",
         "finish_label": "Eliminated",
         "finish_episode": "Pulling the Strings",
         "elim_position": 3,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Brad Fiorenza"
         ],
@@ -263,13 +265,13 @@
       {
         "rank": 16,
         "player": "Frank Fox",
-        "rating": -0.351,
+        "rating": -0.457,
         "n_events": 12,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
         "elim_position": 7,
-        "elim_total": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Brad Fiorenza"
         ],
@@ -282,25 +284,9 @@
     "F": [
       {
         "rank": 1,
-        "player": "Kam Williams",
-        "rating": 0.861,
-        "n_events": 31,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 2,
         "player": "Cara Maria Sorbello",
-        "rating": 0.83,
-        "n_events": 96,
+        "rating": 0.818,
+        "n_events": 84,
         "finish": "Winner in Vendettas Never Die",
         "finish_label": "Champion",
         "finish_episode": "Vendettas Never Die",
@@ -313,10 +299,26 @@
         "forced_exit": false
       },
       {
+        "rank": 2,
+        "player": "Kam Williams",
+        "rating": 0.811,
+        "n_events": 31,
+        "finish": "Bottom Four in Vendettas Never Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Vendettas Never Die",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 3,
         "player": "Kailah Casillas-Bird",
-        "rating": 0.749,
-        "n_events": 96,
+        "rating": 0.737,
+        "n_events": 68,
         "finish": "Fourth Place in Vendettas Never Die",
         "finish_label": "4th",
         "finish_episode": "Vendettas Never Die",
@@ -331,13 +333,13 @@
       {
         "rank": 4,
         "player": "Natalie Negrotti",
-        "rating": 0.513,
+        "rating": 0.469,
         "n_events": 51,
         "finish": "Eliminated in Help Me, Rhonda",
         "finish_label": "Eliminated",
         "finish_episode": "Help Me, Rhonda",
         "elim_position": 8,
-        "elim_total": 8,
+        "elim_total": 9,
         "eliminated_by": [
           "Kam Williams"
         ],
@@ -348,12 +350,12 @@
       },
       {
         "rank": 5,
-        "player": "Laurel Stucky",
-        "rating": 0.374,
-        "n_events": 43,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
+        "player": "Nicole Zanatta",
+        "rating": 0.339,
+        "n_events": 46,
+        "finish": "Bottom Four in Vendettas Never Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Vendettas Never Die",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
@@ -365,13 +367,13 @@
       {
         "rank": 6,
         "player": "Tori Deal",
-        "rating": 0.278,
-        "n_events": 34,
+        "rating": 0.327,
+        "n_events": 41,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
-        "elim_position": 3,
-        "elim_total": 8,
+        "elim_position": 4,
+        "elim_total": 9,
         "eliminated_by": [
           "Kam Williams"
         ],
@@ -382,9 +384,9 @@
       },
       {
         "rank": 7,
-        "player": "Nicole Zanatta",
-        "rating": 0.235,
-        "n_events": 50,
+        "player": "Laurel Stucky",
+        "rating": 0.215,
+        "n_events": 30,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -398,26 +400,8 @@
       },
       {
         "rank": 8,
-        "player": "Britni Thornton",
-        "rating": 0.166,
-        "n_events": 56,
-        "finish": "Eliminated in It's Britni, Bitch",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Britni, Bitch",
-        "elim_position": 7,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Laurel Stucky"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
         "player": "Kayleigh Morris",
-        "rating": 0.153,
+        "rating": 0.114,
         "n_events": 26,
         "finish": "Quit in Rumor Has It",
         "finish_label": "Quit",
@@ -431,10 +415,80 @@
         "forced_exit": false
       },
       {
+        "rank": 9,
+        "player": "Britni Thornton",
+        "rating": 0.058,
+        "n_events": 63,
+        "finish": "Eliminated in It's Britni, Bitch",
+        "finish_label": "Eliminated",
+        "finish_episode": "It's Britni, Bitch",
+        "elim_position": 7,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Laurel Stucky"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 10,
+        "player": "Ashley Mitchell",
+        "rating": -0.023,
+        "n_events": 55,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 6,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Kam Williams"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
+        "player": "Marie Roda",
+        "rating": -0.024,
+        "n_events": 47,
+        "finish": "Eliminated in Baskets of Deplorables",
+        "finish_label": "Eliminated",
+        "finish_episode": "Baskets of Deplorables",
+        "elim_position": 5,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Kailah Casillas-Bird"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 12,
+        "player": "Aneesa Ferreira",
+        "rating": -0.037,
+        "n_events": 46,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "player": "Sylvia Elsrode",
-        "rating": 0.15,
-        "n_events": 57,
+        "rating": -0.066,
+        "n_events": 27,
         "finish": "Medically Disqualified in Pulling the Strings",
         "finish_label": "Medical DQ",
         "finish_episode": "Pulling the Strings",
@@ -447,28 +501,10 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
-        "player": "Ashley Mitchell",
-        "rating": 0.132,
-        "n_events": 56,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 6,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Kam Williams"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
+        "rank": 14,
         "player": "Nicole Ramos",
-        "rating": -0.017,
-        "n_events": 47,
+        "rating": -0.099,
+        "n_events": 43,
         "finish": "Eliminated in When Worlds Collide",
         "finish_label": "Eliminated",
         "finish_episode": "When Worlds Collide",
@@ -481,50 +517,18 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
-        "player": "Marie Roda",
-        "rating": -0.055,
-        "n_events": 57,
-        "finish": "Eliminated in Baskets of Deplorables",
-        "finish_label": "Eliminated",
-        "finish_episode": "Baskets of Deplorables",
-        "elim_position": 5,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Kailah Casillas-Bird"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "player": "Aneesa Ferreira",
-        "rating": -0.068,
-        "n_events": 39,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 15,
         "player": "Jemmye Carroll",
-        "rating": -0.207,
-        "n_events": 39,
+        "rating": -0.292,
+        "n_events": 56,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
         "finish_episode": "Czechmate",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 9,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Nicole Zanatta"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -532,32 +536,14 @@
       },
       {
         "rank": 16,
-        "player": "Melissa Reeves",
-        "rating": -0.327,
-        "n_events": 7,
-        "finish": "Eliminated in Guilty by Association",
-        "finish_label": "Eliminated",
-        "finish_episode": "Guilty by Association",
-        "elim_position": 2,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Sylvia Elsrode"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 17,
         "player": "Veronica Portillo",
-        "rating": -0.361,
-        "n_events": 25,
+        "rating": -0.385,
+        "n_events": 31,
         "finish": "Medically Disqualified in Mercenaries of Mayhem",
         "finish_label": "Medical DQ",
         "finish_episode": "Mercenaries of Mayhem",
-        "elim_position": 4,
-        "elim_total": 8,
+        "elim_position": 3,
+        "elim_total": 9,
         "eliminated_by": [
           "Aneesa Ferreira"
         ],
@@ -567,15 +553,33 @@
         "forced_exit": false
       },
       {
+        "rank": 17,
+        "player": "Melissa Reeves",
+        "rating": -0.421,
+        "n_events": 7,
+        "finish": "Eliminated in Guilty by Association",
+        "finish_label": "Eliminated",
+        "finish_episode": "Guilty by Association",
+        "elim_position": 2,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Sylvia Elsrode"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 18,
         "player": "Alicia Wright",
-        "rating": -0.806,
+        "rating": -0.857,
         "n_events": 5,
         "finish": "Eliminated in Pizzagate",
         "finish_label": "Eliminated",
         "finish_episode": "Pizzagate",
         "elim_position": 1,
-        "elim_total": 8,
+        "elim_total": 9,
         "eliminated_by": [
           "Melissa Reeves"
         ],

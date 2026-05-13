@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "CT Tamburello",
-        "rating": 1.146,
-        "n_events": 42,
+        "rating": 1.135,
+        "n_events": 35,
         "finish": "Winner in The True Champions",
         "finish_label": "Champion",
         "finish_episode": "The True Champions",
@@ -27,8 +27,8 @@
       {
         "rank": 2,
         "player": "Nelson Thomas",
-        "rating": 0.675,
-        "n_events": 69,
+        "rating": 0.759,
+        "n_events": 80,
         "finish": "Runner-Up in The True Champions",
         "finish_label": "Runner-up",
         "finish_episode": "The True Champions",
@@ -43,13 +43,13 @@
       {
         "rank": 3,
         "player": "Darrell Taylor",
-        "rating": 0.666,
-        "n_events": 40,
+        "rating": 0.599,
+        "n_events": 33,
         "finish": "Eliminated in A River of Endless Light",
         "finish_label": "Eliminated",
         "finish_episode": "A River of Endless Light",
-        "elim_position": 5,
-        "elim_total": 5,
+        "elim_position": 9,
+        "elim_total": 9,
         "eliminated_by": [
           "CT Tamburello"
         ],
@@ -64,13 +64,13 @@
       {
         "rank": 4,
         "player": "Johnny Bananas",
-        "rating": 0.542,
-        "n_events": 72,
+        "rating": 0.521,
+        "n_events": 58,
         "finish": "Eliminated in Go Your Own Way",
         "finish_label": "Eliminated",
         "finish_episode": "Go Your Own Way",
-        "elim_position": 4,
-        "elim_total": 5,
+        "elim_position": 7,
+        "elim_total": 9,
         "eliminated_by": [
           "Darrell Taylor"
         ],
@@ -84,8 +84,8 @@
       {
         "rank": 5,
         "player": "Cory Wharton",
-        "rating": 0.417,
-        "n_events": 105,
+        "rating": 0.399,
+        "n_events": 88,
         "finish": "Third Place in The True Champions",
         "finish_label": "3rd",
         "finish_episode": "The True Champions",
@@ -100,14 +100,16 @@
       {
         "rank": 6,
         "player": "Shane Landrum",
-        "rating": 0.391,
-        "n_events": 36,
+        "rating": 0.152,
+        "n_events": 27,
         "finish": "Eliminated in Caged",
         "finish_label": "Eliminated",
         "finish_episode": "Caged",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 8,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Nelson Thomas"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -115,8 +117,26 @@
       },
       {
         "rank": 7,
+        "player": "Anthony Bartolotte",
+        "rating": 0.072,
+        "n_events": 19,
+        "finish": "Eliminated in Four Tickets to Paradise",
+        "finish_label": "Eliminated",
+        "finish_episode": "Four Tickets to Paradise",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Nelson Thomas"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 8,
         "player": "Hunter Barfield",
-        "rating": 0.144,
+        "rating": 0.041,
         "n_events": 25,
         "finish": "Eliminated in The Bloodbath",
         "finish_label": "Eliminated",
@@ -130,33 +150,15 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "player": "Zach Nichols",
-        "rating": 0.059,
-        "n_events": 23,
-        "finish": "Eliminated in Achy Breaky Heart",
-        "finish_label": "Eliminated",
-        "finish_episode": "Achy Breaky Heart",
-        "elim_position": 2,
-        "elim_total": 5,
-        "eliminated_by": [
-          "Darrell Taylor"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 9,
         "player": "Theo King-Bradley",
-        "rating": 0.052,
-        "n_events": 17,
+        "rating": -0.003,
+        "n_events": 18,
         "finish": "Quit in Helter Shelter",
         "finish_label": "Quit",
         "finish_episode": "Helter Shelter",
-        "elim_position": 1,
-        "elim_total": 5,
+        "elim_position": 2,
+        "elim_total": 9,
         "eliminated_by": [
           "Cory Wharton"
         ],
@@ -167,16 +169,16 @@
       },
       {
         "rank": 10,
-        "player": "Dario Medrano",
-        "rating": -0.157,
-        "n_events": 50,
-        "finish": "Eliminated in A Low Down Dirty Shane",
+        "player": "Zach Nichols",
+        "rating": -0.026,
+        "n_events": 20,
+        "finish": "Eliminated in Achy Breaky Heart",
         "finish_label": "Eliminated",
-        "finish_episode": "A Low Down Dirty Shane",
-        "elim_position": 3,
-        "elim_total": 5,
+        "finish_episode": "Achy Breaky Heart",
+        "elim_position": 5,
+        "elim_total": 9,
         "eliminated_by": [
-          "Nelson Thomas"
+          "Darrell Taylor"
         ],
         "partner": "",
         "partners_history": [],
@@ -186,14 +188,16 @@
       {
         "rank": 11,
         "player": "Tony Raines",
-        "rating": -0.302,
-        "n_events": 66,
+        "rating": -0.033,
+        "n_events": 62,
         "finish": "Eliminated in The Mile-High Club",
         "finish_label": "Eliminated",
         "finish_episode": "The Mile-High Club",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 4,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Shane Landrum"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -201,15 +205,17 @@
       },
       {
         "rank": 12,
-        "player": "Anthony Bartolotte",
-        "rating": -0.35,
-        "n_events": 16,
-        "finish": "Eliminated in Four Tickets to Paradise",
+        "player": "Bruno Bettencourt",
+        "rating": -0.103,
+        "n_events": 17,
+        "finish": "Eliminated in Skeletal Fracture",
         "finish_label": "Eliminated",
-        "finish_episode": "Four Tickets to Paradise",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "finish_episode": "Skeletal Fracture",
+        "elim_position": 1,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Tony Raines"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -217,15 +223,17 @@
       },
       {
         "rank": 13,
-        "player": "Bruno Bettencourt",
-        "rating": -0.35,
-        "n_events": 16,
-        "finish": "Eliminated in Skeletal Fracture",
+        "player": "Dario Medrano",
+        "rating": -0.168,
+        "n_events": 45,
+        "finish": "Eliminated in A Low Down Dirty Shane",
         "finish_label": "Eliminated",
-        "finish_episode": "Skeletal Fracture",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "finish_episode": "A Low Down Dirty Shane",
+        "elim_position": 6,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Nelson Thomas"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -236,8 +244,8 @@
       {
         "rank": 1,
         "player": "Ashley Mitchell",
-        "rating": 0.61,
-        "n_events": 48,
+        "rating": 0.71,
+        "n_events": 54,
         "finish": "Winner in The True Champions",
         "finish_label": "Champion",
         "finish_episode": "The True Champions",
@@ -252,8 +260,8 @@
       {
         "rank": 2,
         "player": "Jenna Compono",
-        "rating": 0.564,
-        "n_events": 118,
+        "rating": 0.613,
+        "n_events": 82,
         "finish": "Eliminated in The Bloodbath",
         "finish_label": "Eliminated",
         "finish_episode": "The Bloodbath",
@@ -267,45 +275,8 @@
       },
       {
         "rank": 3,
-        "player": "Sylvia Elsrode",
-        "rating": 0.454,
-        "n_events": 42,
-        "finish": "Eliminated in A Low Down Dirty Shane",
-        "finish_label": "Eliminated",
-        "finish_episode": "A Low Down Dirty Shane",
-        "elim_position": 5,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Jenna Compono"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
-        "player": "Laurel Stucky",
-        "rating": 0.396,
-        "n_events": 28,
-        "finish": "Eliminated in Caged",
-        "finish_label": "Eliminated",
-        "finish_episode": "Caged",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Cara Maria Sorbello",
-        "partners_history": [
-          "Cara Maria Sorbello",
-          "Camila Nakagawa"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
         "player": "Camila Nakagawa",
-        "rating": 0.377,
+        "rating": 0.487,
         "n_events": 64,
         "finish": "Runner-Up in The True Champions",
         "finish_label": "Runner-up",
@@ -321,30 +292,28 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.251,
-        "n_events": 73,
-        "finish": "Eliminated in Go Your Own Way",
+        "rank": 4,
+        "player": "Sylvia Elsrode",
+        "rating": 0.431,
+        "n_events": 41,
+        "finish": "Eliminated in A Low Down Dirty Shane",
         "finish_label": "Eliminated",
-        "finish_episode": "Go Your Own Way",
+        "finish_episode": "A Low Down Dirty Shane",
         "elim_position": 6,
-        "elim_total": 6,
+        "elim_total": 9,
         "eliminated_by": [
-          "Laurel Stucky"
+          "Jenna Compono"
         ],
-        "partner": "Laurel Stucky",
-        "partners_history": [
-          "Laurel Stucky"
-        ],
+        "partner": "",
+        "partners_history": [],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 5,
         "player": "Nicole Zanatta",
-        "rating": 0.237,
-        "n_events": 24,
+        "rating": 0.296,
+        "n_events": 29,
         "finish": "Third Place in The True Champions",
         "finish_label": "3rd",
         "finish_episode": "The True Champions",
@@ -357,15 +326,15 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 6,
         "player": "Kailah Casillas-Bird",
-        "rating": 0.229,
-        "n_events": 31,
+        "rating": 0.194,
+        "n_events": 32,
         "finish": "Eliminated in The Mile-High Club",
         "finish_label": "Eliminated",
         "finish_episode": "The Mile-High Club",
-        "elim_position": 3,
-        "elim_total": 6,
+        "elim_position": 4,
+        "elim_total": 9,
         "eliminated_by": [
           "Sylvia Elsrode"
         ],
@@ -375,17 +344,58 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "LaToya Jackson",
-        "rating": -0.137,
-        "n_events": 18,
-        "finish": "Eliminated in Four Tickets to Paradise",
+        "rank": 7,
+        "player": "Laurel Stucky",
+        "rating": 0.115,
+        "n_events": 32,
+        "finish": "Eliminated in Caged",
         "finish_label": "Eliminated",
-        "finish_episode": "Four Tickets to Paradise",
-        "elim_position": 2,
-        "elim_total": 6,
+        "finish_episode": "Caged",
+        "elim_position": 9,
+        "elim_total": 9,
         "eliminated_by": [
-          "Sylvia Elsrode"
+          "Camila Nakagawa"
+        ],
+        "partner": "Cara Maria Sorbello",
+        "partners_history": [
+          "Cara Maria Sorbello",
+          "Camila Nakagawa"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 8,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.092,
+        "n_events": 51,
+        "finish": "Eliminated in Go Your Own Way",
+        "finish_label": "Eliminated",
+        "finish_episode": "Go Your Own Way",
+        "elim_position": 7,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Laurel Stucky"
+        ],
+        "partner": "Laurel Stucky",
+        "partners_history": [
+          "Laurel Stucky"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
+        "player": "Anika Rashaun",
+        "rating": -0.071,
+        "n_events": 18,
+        "finish": "Eliminated in Helter Shelter",
+        "finish_label": "Eliminated",
+        "finish_episode": "Helter Shelter",
+        "elim_position": 2,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Jenna Compono"
         ],
         "partner": "",
         "partners_history": [],
@@ -394,14 +404,32 @@
       },
       {
         "rank": 10,
+        "player": "LaToya Jackson",
+        "rating": -0.153,
+        "n_events": 19,
+        "finish": "Eliminated in Four Tickets to Paradise",
+        "finish_label": "Eliminated",
+        "finish_episode": "Four Tickets to Paradise",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Sylvia Elsrode"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
         "player": "Marie Roda",
-        "rating": -0.175,
+        "rating": -0.167,
         "n_events": 17,
         "finish": "Eliminated in Skeletal Fracture",
         "finish_label": "Eliminated",
         "finish_episode": "Skeletal Fracture",
         "elim_position": 1,
-        "elim_total": 6,
+        "elim_total": 9,
         "eliminated_by": [
           "Kailah Casillas-Bird"
         ],
@@ -411,32 +439,18 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 12,
         "player": "Amanda Garcia",
-        "rating": -0.192,
-        "n_events": 49,
+        "rating": -0.185,
+        "n_events": 55,
         "finish": "Eliminated in The Bloodbath",
         "finish_label": "Eliminated",
         "finish_episode": "The Bloodbath",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
-        "player": "Anika Rashaun",
-        "rating": -0.645,
-        "n_events": 15,
-        "finish": "Eliminated in Helter Shelter",
-        "finish_label": "Eliminated",
-        "finish_episode": "Helter Shelter",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 8,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Ashley Mitchell"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -445,13 +459,13 @@
       {
         "rank": 13,
         "player": "Ashley Kelsey",
-        "rating": -0.693,
-        "n_events": 12,
+        "rating": -0.729,
+        "n_events": 14,
         "finish": "Eliminated in Achy Breaky Heart",
         "finish_label": "Eliminated",
         "finish_episode": "Achy Breaky Heart",
-        "elim_position": 4,
-        "elim_total": 6,
+        "elim_position": 5,
+        "elim_total": 9,
         "eliminated_by": [
           "Cara Maria Sorbello"
         ],

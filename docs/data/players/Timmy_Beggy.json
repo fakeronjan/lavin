@@ -3,13 +3,13 @@
   "safe_name": "Timmy_Beggy",
   "gender": "M",
   "career": {
-    "era_rating": 0.8,
+    "era_rating": 0.9,
     "peak_rating": 0.891,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.69,
-    "active_season_id": "s18_the_ruins",
+    "active_rating": -0.845,
+    "active_season_id": "s17_the_duel_ii",
     "n_seasons": 4,
-    "n_snapshots": 12,
+    "n_snapshots": 11,
     "championships": 1,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Abram Boise"
       ],
-      "rating_at_end": -0.698,
+      "rating_at_end": -0.696,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -68,7 +68,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.492,
+      "rating_at_end": 0.547,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -102,19 +102,19 @@
       "rating": 0.315
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.492
+      "rating": 0.547
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.007
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.698
+      "rating": -0.696
     }
   ]
 }

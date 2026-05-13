@@ -3,13 +3,13 @@
   "safe_name": "Jessica_McCain",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.179,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": 0.179,
+    "era_rating": 0.2,
+    "peak_rating": 0.184,
+    "peak_season_id": "s28_rivals_iii",
+    "active_rating": 0.159,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -33,7 +33,7 @@
         "Amanda Garcia",
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.14,
+      "rating_at_end": 0.184,
       "partner": "Johnny Reilly",
       "partners_history": [
         "Johnny Reilly"
@@ -56,7 +56,7 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.346,
+      "rating_at_end": -0.342,
       "partner": "Dustin Zito",
       "partners_history": [
         "Dustin Zito"
@@ -78,7 +78,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.303,
+      "rating_at_end": -0.293,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -110,24 +110,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.342
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.303
+      "rating": -0.293
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.346
+      "rating": -0.342
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.14
+      "rating": 0.184
     }
   ]
 }

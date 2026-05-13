@@ -3,17 +3,17 @@
   "safe_name": "Mitch_Reid",
   "gender": "M",
   "career": {
-    "era_rating": 1.2,
-    "peak_rating": 1.154,
+    "era_rating": 0.9,
+    "peak_rating": 0.882,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": 0.575,
+    "active_rating": 0.418,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 1,
     "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 0,
+    "elim_wins": 1,
     "elim_losses": 0,
     "daily_wins": 3
   },
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.154,
+      "rating_at_end": 0.882,
       "partner": "Cory Wharton",
       "partners_history": [
         "Cory Wharton"
@@ -41,9 +41,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 1.154
+      "rating": 0.882
     }
   ]
 }

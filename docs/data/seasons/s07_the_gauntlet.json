@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Dave Giuntoli",
-        "rating": 0.743,
+        "rating": 0.781,
         "n_events": 36,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
@@ -24,9 +24,9 @@
       },
       {
         "rank": 2,
-        "player": "Darrell Taylor",
-        "rating": 0.703,
-        "n_events": 26,
+        "player": "Adam Larson",
+        "rating": 0.765,
+        "n_events": 50,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
         "finish_episode": "Gold Rush Part 2",
@@ -41,8 +41,8 @@
       {
         "rank": 3,
         "player": "Theo von Kurnatowski",
-        "rating": 0.675,
-        "n_events": 78,
+        "rating": 0.754,
+        "n_events": 65,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
         "finish_episode": "Gold Rush Part 2",
@@ -56,9 +56,9 @@
       },
       {
         "rank": 4,
-        "player": "Adam Larson",
-        "rating": 0.64,
-        "n_events": 56,
+        "player": "Darrell Taylor",
+        "rating": 0.741,
+        "n_events": 26,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
         "finish_episode": "Gold Rush Part 2",
@@ -72,9 +72,9 @@
       },
       {
         "rank": 5,
-        "player": "Mike Mizanin",
-        "rating": 0.309,
-        "n_events": 76,
+        "player": "Alton Williams",
+        "rating": 0.336,
+        "n_events": 58,
         "finish": "Runners-Up in Gold Rush Part 2",
         "finish_label": "Runner-up",
         "finish_episode": "Gold Rush Part 2",
@@ -88,9 +88,9 @@
       },
       {
         "rank": 6,
-        "player": "Alton Williams",
-        "rating": 0.281,
-        "n_events": 58,
+        "player": "Mike Mizanin",
+        "rating": 0.231,
+        "n_events": 52,
         "finish": "Runners-Up in Gold Rush Part 2",
         "finish_label": "Runner-up",
         "finish_episode": "Gold Rush Part 2",
@@ -105,7 +105,7 @@
       {
         "rank": 7,
         "player": "Nathan Blackburn",
-        "rating": -0.021,
+        "rating": 0.038,
         "n_events": 36,
         "finish": "Runners-Up in Gold Rush Part 2",
         "finish_label": "Runner-up",
@@ -121,8 +121,8 @@
       {
         "rank": 8,
         "player": "Norman Korpi",
-        "rating": -0.067,
-        "n_events": 52,
+        "rating": 0.015,
+        "n_events": 46,
         "finish": "Runners-Up in Gold Rush Part 2",
         "finish_label": "Runner-up",
         "finish_episode": "Gold Rush Part 2",
@@ -136,26 +136,8 @@
       },
       {
         "rank": 9,
-        "player": "Theo Gantt",
-        "rating": -0.22,
-        "n_events": 70,
-        "finish": "Eliminated in Gold Rush Part 1",
-        "finish_label": "Eliminated",
-        "finish_episode": "Gold Rush Part 1",
-        "elim_position": 6,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Cara Zavaleta"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Real World",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
         "player": "Matt Smith",
-        "rating": -0.239,
+        "rating": -0.19,
         "n_events": 22,
         "finish": "Eliminated in Heavyweight Hustle",
         "finish_label": "Eliminated",
@@ -171,9 +153,27 @@
         "forced_exit": false
       },
       {
+        "rank": 10,
+        "player": "Theo Gantt",
+        "rating": -0.195,
+        "n_events": 63,
+        "finish": "Eliminated in Gold Rush Part 1",
+        "finish_label": "Eliminated",
+        "finish_episode": "Gold Rush Part 1",
+        "elim_position": 6,
+        "elim_total": 6,
+        "eliminated_by": [
+          "Cara Zavaleta"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Real World",
+        "forced_exit": false
+      },
+      {
         "rank": 11,
         "player": "Steve Meinke",
-        "rating": -0.287,
+        "rating": -0.236,
         "n_events": 26,
         "finish": "Eliminated in Red Barron",
         "finish_label": "Eliminated",
@@ -191,8 +191,8 @@
       {
         "rank": 12,
         "player": "David Broom",
-        "rating": -0.31,
-        "n_events": 30,
+        "rating": -0.247,
+        "n_events": 31,
         "finish": "Eliminated in Howdy Telluride",
         "finish_label": "Eliminated",
         "finish_episode": "Howdy Telluride",
@@ -208,8 +208,26 @@
       },
       {
         "rank": 13,
+        "player": "Laterrian Wallace",
+        "rating": -0.624,
+        "n_events": 26,
+        "finish": "Eliminated in Turntable",
+        "finish_label": "Eliminated",
+        "finish_episode": "Turntable",
+        "elim_position": 4,
+        "elim_total": 6,
+        "eliminated_by": [
+          "Alton Williams"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Road Rules",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Abram Boise",
-        "rating": -0.654,
+        "rating": -0.632,
         "n_events": 22,
         "finish": "Eliminated in All or Nothing",
         "finish_label": "Eliminated",
@@ -223,31 +241,13 @@
         "partners_history": [],
         "team": "Road Rules",
         "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "player": "Laterrian Wallace",
-        "rating": -0.665,
-        "n_events": 43,
-        "finish": "Eliminated in Turntable",
-        "finish_label": "Eliminated",
-        "finish_episode": "Turntable",
-        "elim_position": 4,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Alton Williams"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Road Rules",
-        "forced_exit": false
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Sarah Greyson",
-        "rating": 0.879,
+        "rating": 0.804,
         "n_events": 44,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
@@ -263,7 +263,7 @@
       {
         "rank": 2,
         "player": "Roni Martin",
-        "rating": 0.862,
+        "rating": 0.784,
         "n_events": 27,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
@@ -279,7 +279,7 @@
       {
         "rank": 3,
         "player": "Cara Zavaleta",
-        "rating": 0.824,
+        "rating": 0.729,
         "n_events": 22,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
@@ -295,8 +295,8 @@
       {
         "rank": 4,
         "player": "Veronica Portillo",
-        "rating": 0.605,
-        "n_events": 54,
+        "rating": 0.599,
+        "n_events": 59,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
         "finish_episode": "Gold Rush Part 2",
@@ -311,8 +311,8 @@
       {
         "rank": 5,
         "player": "Rachel Robinson",
-        "rating": 0.547,
-        "n_events": 38,
+        "rating": 0.504,
+        "n_events": 36,
         "finish": "Winners in Gold Rush Part 2",
         "finish_label": "Champion",
         "finish_episode": "Gold Rush Part 2",
@@ -327,8 +327,8 @@
       {
         "rank": 6,
         "player": "Coral Smith",
-        "rating": 0.315,
-        "n_events": 75,
+        "rating": 0.224,
+        "n_events": 51,
         "finish": "Runners-Up in Gold Rush Part 2",
         "finish_label": "Runner-up",
         "finish_episode": "Gold Rush Part 2",
@@ -343,7 +343,7 @@
       {
         "rank": 7,
         "player": "Katie Cooley",
-        "rating": 0.203,
+        "rating": 0.133,
         "n_events": 36,
         "finish": "Eliminated in I Scream",
         "finish_label": "Eliminated",
@@ -361,7 +361,7 @@
       {
         "rank": 8,
         "player": "Tonya Cooley",
-        "rating": 0.202,
+        "rating": 0.133,
         "n_events": 61,
         "finish": "Eliminated in Mud Bath",
         "finish_label": "Eliminated",
@@ -379,7 +379,7 @@
       {
         "rank": 9,
         "player": "Rachel Braband",
-        "rating": 0.167,
+        "rating": 0.096,
         "n_events": 28,
         "finish": "Eliminated in Rolling on the River",
         "finish_label": "Eliminated",
@@ -397,8 +397,8 @@
       {
         "rank": 10,
         "player": "Elka Walker",
-        "rating": 0.127,
-        "n_events": 41,
+        "rating": -0.044,
+        "n_events": 33,
         "finish": "Eliminated in Sink My Ship",
         "finish_label": "Eliminated",
         "finish_episode": "Sink My Ship",
@@ -415,7 +415,7 @@
       {
         "rank": 11,
         "player": "Montana McGlynn",
-        "rating": -0.108,
+        "rating": -0.176,
         "n_events": 22,
         "finish": "Eliminated in Masquerade",
         "finish_label": "Eliminated",
@@ -433,7 +433,7 @@
       {
         "rank": 12,
         "player": "Tina Barta",
-        "rating": -0.156,
+        "rating": -0.23,
         "n_events": 24,
         "finish": "Eliminated in Holey Canoe",
         "finish_label": "Eliminated",
@@ -451,7 +451,7 @@
       {
         "rank": 13,
         "player": "Irulan Wilson",
-        "rating": -0.327,
+        "rating": -0.395,
         "n_events": 18,
         "finish": "Eliminated in Vertical Limit",
         "finish_label": "Eliminated",
@@ -469,7 +469,7 @@
       {
         "rank": 14,
         "player": "Trishelle Cannatella",
-        "rating": -0.334,
+        "rating": -0.403,
         "n_events": 16,
         "finish": "Eliminated in Inferno",
         "finish_label": "Eliminated",

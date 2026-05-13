@@ -3,17 +3,17 @@
   "safe_name": "Thomas_Buell",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": -0.053,
-    "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.783,
+    "era_rating": 0.1,
+    "peak_rating": 0.137,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.747,
     "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 3,
     "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 0,
+    "elim_wins": 1,
     "elim_losses": 2,
     "daily_wins": 1
   },
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.572,
+      "rating_at_end": -0.339,
       "partner": "Simone Kelly",
       "partners_history": [
         "Simone Kelly"
@@ -47,12 +47,12 @@
       "finish": "Eliminated in Blood Brothers",
       "finish_label": "Eliminated",
       "finish_episode": "Blood Brothers",
-      "elim_position": 3,
-      "elim_total": 6,
+      "elim_position": 6,
+      "elim_total": 10,
       "eliminated_by": [
-        "Stephen Buell"
+        "Mike Boise"
       ],
-      "rating_at_end": -0.186,
+      "rating_at_end": 0.137,
       "partner": "Stephen Buell",
       "partners_history": [
         "Stephen Buell"
@@ -75,7 +75,7 @@
         "Johnny Reilly",
         "Averey Tressler"
       ],
-      "rating_at_end": -0.053,
+      "rating_at_end": -0.075,
       "partner": "Hailey Chivers",
       "partners_history": [
         "Hailey Chivers"
@@ -86,19 +86,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.053
+      "rating": -0.075
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.186
+      "rating": 0.137
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.572
+      "rating": -0.339
     }
   ]
 }

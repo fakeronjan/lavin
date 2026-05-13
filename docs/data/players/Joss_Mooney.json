@@ -6,7 +6,7 @@
     "era_rating": 1.1,
     "peak_rating": 0.714,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.029,
+    "active_rating": 0.014,
     "active_season_id": "s36_double_agents",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -65,12 +65,12 @@
       "finish": "Eliminated in Mercenaries of Mayhem",
       "finish_label": "Eliminated",
       "finish_episode": "Mercenaries of Mayhem",
-      "elim_position": 4,
-      "elim_total": 9,
+      "elim_position": 5,
+      "elim_total": 10,
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.008,
+      "rating_at_end": -0.076,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -79,17 +79,17 @@
   ],
   "timeline": [
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.008
+      "rating": -0.076
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": 0.714
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.37
     }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.848,
+    "peak_rating": 0.841,
     "peak_season_id": "s21_rivals",
-    "active_rating": -0.373,
+    "active_rating": -0.322,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -76,7 +76,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.67,
+      "rating_at_end": 0.663,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -96,7 +96,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": -0.297,
+      "rating_at_end": -0.294,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -116,7 +116,7 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": -0.438,
+      "rating_at_end": -0.369,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -134,7 +134,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.778,
+      "rating_at_end": -0.753,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -143,32 +143,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": -0.778
-    },
-    {
       "ranking_id": 283,
+      "season_id": "s16_the_island",
+      "rating": -0.753
+    },
+    {
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.438
+      "rating": -0.369
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.297
+      "rating": -0.294
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.67
+      "rating": 0.663
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.11
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.549
     }

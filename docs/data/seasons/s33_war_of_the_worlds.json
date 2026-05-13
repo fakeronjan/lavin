@@ -345,7 +345,7 @@
       {
         "rank": 1,
         "player": "Natalie Duran",
-        "rating": 0.959,
+        "rating": 1.081,
         "n_events": 74,
         "finish": "Fourth Place in This Is the End",
         "finish_label": "4th",
@@ -363,12 +363,48 @@
       },
       {
         "rank": 2,
+        "player": "Mattie Lynn Breaux",
+        "rating": 0.762,
+        "n_events": 60,
+        "finish": "Seventh Place in Death Race",
+        "finish_label": "7th",
+        "finish_episode": "Death Race",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Kyle Christie",
+        "partners_history": [
+          "Kyle Christie"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 3,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.735,
+        "n_events": 64,
+        "finish": "Fifth Place in This Is the End",
+        "finish_label": "5th",
+        "finish_episode": "This Is the End",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Theo Campbell",
+        "partners_history": [
+          "Theo Campbell"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 4,
         "player": "Georgia Harrison",
-        "rating": 0.712,
-        "n_events": 37,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
+        "rating": 0.631,
+        "n_events": 51,
+        "finish": "Eighth Place in Death Race",
+        "finish_label": "8th",
+        "finish_episode": "Death Race",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
@@ -381,10 +417,10 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
+        "rank": 5,
         "player": "Ashley Mitchell",
-        "rating": 0.689,
-        "n_events": 26,
+        "rating": 0.577,
+        "n_events": 28,
         "finish": "Eliminated in Hellraiser",
         "finish_label": "Eliminated",
         "finish_episode": "Hellraiser",
@@ -402,28 +438,10 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.587,
-        "n_events": 64,
-        "finish": "Fifth Place in This Is the End",
-        "finish_label": "5th",
-        "finish_episode": "This Is the End",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Theo Campbell",
-        "partners_history": [
-          "Theo Campbell"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
+        "rank": 6,
         "player": "Dee Nguyen",
-        "rating": 0.532,
-        "n_events": 71,
+        "rating": 0.476,
+        "n_events": 73,
         "finish": "Eliminated in The Waterboy",
         "finish_label": "Eliminated",
         "finish_episode": "The Waterboy",
@@ -440,28 +458,10 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Mattie Lynn Breaux",
-        "rating": 0.53,
-        "n_events": 46,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Kyle Christie",
-        "partners_history": [
-          "Kyle Christie"
-        ],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
         "rank": 7,
         "player": "Da'Vonne Rogers",
-        "rating": 0.476,
-        "n_events": 37,
+        "rating": 0.423,
+        "n_events": 39,
         "finish": "Eliminated in The Waterboy",
         "finish_label": "Eliminated",
         "finish_episode": "The Waterboy",
@@ -479,8 +479,8 @@
       {
         "rank": 8,
         "player": "Nany Gonz\u00e1lez",
-        "rating": 0.317,
-        "n_events": 52,
+        "rating": 0.254,
+        "n_events": 54,
         "finish": "Eliminated in Lost in Translation",
         "finish_label": "Eliminated",
         "finish_episode": "Lost in Translation",
@@ -499,8 +499,8 @@
       {
         "rank": 9,
         "player": "Natalie Negrotti",
-        "rating": 0.267,
-        "n_events": 32,
+        "rating": 0.211,
+        "n_events": 34,
         "finish": "Eliminated in It's Complicated",
         "finish_label": "Eliminated",
         "finish_episode": "It's Complicated",
@@ -519,8 +519,8 @@
       {
         "rank": 10,
         "player": "Julia Nolan",
-        "rating": -0.018,
-        "n_events": 24,
+        "rating": -0.048,
+        "n_events": 26,
         "finish": "Eliminated in It's Complicated",
         "finish_label": "Eliminated",
         "finish_episode": "It's Complicated",
@@ -537,8 +537,8 @@
       {
         "rank": 11,
         "player": "Zahida Allen",
-        "rating": -0.058,
-        "n_events": 12,
+        "rating": -0.096,
+        "n_events": 14,
         "finish": "Eliminated in The Greatest Showman",
         "finish_label": "Eliminated",
         "finish_episode": "The Greatest Showman",
@@ -558,8 +558,8 @@
       {
         "rank": 12,
         "player": "Kam Williams",
-        "rating": -0.122,
-        "n_events": 26,
+        "rating": -0.097,
+        "n_events": 28,
         "finish": "Eliminated in American Psycho",
         "finish_label": "Eliminated",
         "finish_episode": "American Psycho",
@@ -579,8 +579,8 @@
       {
         "rank": 13,
         "player": "Jenna Compono",
-        "rating": -0.124,
-        "n_events": 35,
+        "rating": -0.139,
+        "n_events": 37,
         "finish": "Eliminated in Liar, Liar",
         "finish_label": "Eliminated",
         "finish_episode": "Liar, Liar",
@@ -600,8 +600,8 @@
       {
         "rank": 14,
         "player": "Morgan Willett",
-        "rating": -0.148,
-        "n_events": 21,
+        "rating": -0.16,
+        "n_events": 23,
         "finish": "Eliminated in Casualties of War",
         "finish_label": "Eliminated",
         "finish_episode": "Casualties of War",
@@ -620,9 +620,27 @@
       },
       {
         "rank": 15,
+        "player": "Liz Nolan",
+        "rating": -0.293,
+        "n_events": 5,
+        "finish": "Eliminated in Apocalypse Now",
+        "finish_label": "Eliminated",
+        "finish_episode": "Apocalypse Now",
+        "elim_position": 1,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Da'Vonne Rogers"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 16,
         "player": "Amanda Garcia",
-        "rating": -0.344,
-        "n_events": 34,
+        "rating": -0.305,
+        "n_events": 36,
         "finish": "Eliminated in This Means War",
         "finish_label": "Eliminated",
         "finish_episode": "This Means War",
@@ -640,10 +658,10 @@
         "forced_exit": false
       },
       {
-        "rank": 16,
+        "rank": 17,
         "player": "Shaleen Sutherland",
-        "rating": -0.409,
-        "n_events": 13,
+        "rating": -0.353,
+        "n_events": 15,
         "finish": "Eliminated in In Love and War",
         "finish_label": "Eliminated",
         "finish_episode": "In Love and War",

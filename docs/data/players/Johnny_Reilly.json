@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 1.6,
-    "peak_rating": 0.756,
+    "peak_rating": 0.714,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 0.223,
+    "active_rating": 0.166,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -33,7 +33,7 @@
         "Nelson Thomas",
         "Amanda Garcia"
       ],
-      "rating_at_end": 0.264,
+      "rating_at_end": 0.417,
       "partner": "Jessica McCain",
       "partners_history": [
         "Jessica McCain"
@@ -56,7 +56,7 @@
         "Leroy Garrett",
         "Nia Moore"
       ],
-      "rating_at_end": 0.534,
+      "rating_at_end": 0.511,
       "partner": "Averey Tressler",
       "partners_history": [
         "Averey Tressler"
@@ -76,7 +76,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.756,
+      "rating_at_end": 0.714,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -85,19 +85,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.756
+      "rating": 0.714
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.534
+      "rating": 0.511
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.264
+      "rating": 0.417
     }
   ]
 }

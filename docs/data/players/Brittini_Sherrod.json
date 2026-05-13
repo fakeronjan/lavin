@@ -4,18 +4,18 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.668,
+    "peak_rating": 0.637,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.668,
+    "active_rating": 0.637,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 1,
     "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 1,
+    "elim_wins": 2,
     "elim_losses": 0,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.557,
+      "rating_at_end": 0.613,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -39,9 +39,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.557
+      "rating": 0.613
     }
   ]
 }

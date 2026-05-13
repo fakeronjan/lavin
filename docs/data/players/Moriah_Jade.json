@@ -6,7 +6,7 @@
     "era_rating": 0.7,
     "peak_rating": 0.433,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.272,
+    "active_rating": 0.283,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -24,13 +24,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Sixth Place <small>in Only One Gets the Crown",
+      "finish": "Sixth Place in Only One Gets the Crown",
       "finish_label": "6th",
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.217,
+      "rating_at_end": 0.22,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Friends or Froze",
+      "finish_label": "Eliminated",
+      "finish_episode": "Friends or Froze",
       "elim_position": 10,
       "elim_total": 12,
       "eliminated_by": [
@@ -62,14 +62,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.433
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.217
+      "rating": 0.22
     }
   ]
 }

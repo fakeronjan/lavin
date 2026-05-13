@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Jordan Wiseley",
-        "rating": 1.074,
-        "n_events": 57,
+        "rating": 1.068,
+        "n_events": 64,
         "finish": "Winner in One in a Million",
         "finish_label": "Champion",
         "finish_episode": "One in a Million",
@@ -25,8 +25,8 @@
       {
         "rank": 2,
         "player": "Derrick Kosinski",
-        "rating": 0.999,
-        "n_events": 47,
+        "rating": 0.981,
+        "n_events": 48,
         "finish": "Runner-Up in One in a Million",
         "finish_label": "Runner-up",
         "finish_episode": "One in a Million",
@@ -41,8 +41,8 @@
       {
         "rank": 3,
         "player": "CT Tamburello",
-        "rating": 0.772,
-        "n_events": 56,
+        "rating": 0.778,
+        "n_events": 54,
         "finish": "Third Place in One in a Million",
         "finish_label": "3rd",
         "finish_episode": "One in a Million",
@@ -58,25 +58,9 @@
       },
       {
         "rank": 4,
-        "player": "Hunter Barfield",
-        "rating": 0.678,
-        "n_events": 61,
-        "finish": "Eliminated in The Sinister Six",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Sinister Six",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
         "player": "Nelson Thomas",
-        "rating": 0.563,
-        "n_events": 68,
+        "rating": 0.738,
+        "n_events": 89,
         "finish": "Disqualified in The Heart is a Lonely Hunter",
         "finish_label": "Disqualified",
         "finish_episode": "The Heart is a Lonely Hunter",
@@ -91,17 +75,17 @@
         "forced_exit": true
       },
       {
-        "rank": 6,
-        "player": "Johnny Bananas",
-        "rating": 0.365,
-        "n_events": 80,
-        "finish": "Eliminated in A Million More Reasons",
+        "rank": 5,
+        "player": "Hunter Barfield",
+        "rating": 0.618,
+        "n_events": 59,
+        "finish": "Eliminated in The Sinister Six",
         "finish_label": "Eliminated",
-        "finish_episode": "A Million More Reasons",
-        "elim_position": 7,
-        "elim_total": 7,
+        "finish_episode": "The Sinister Six",
+        "elim_position": 6,
+        "elim_total": 9,
         "eliminated_by": [
-          "Derrick Kosinski"
+          "Nelson Thomas"
         ],
         "partner": "",
         "partners_history": [],
@@ -109,15 +93,15 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 6,
         "player": "Cory Wharton",
-        "rating": 0.276,
-        "n_events": 79,
+        "rating": 0.287,
+        "n_events": 69,
         "finish": "Eliminated in Guess Who's Coming to Dinner",
         "finish_label": "Eliminated",
         "finish_episode": "Guess Who's Coming to Dinner",
-        "elim_position": 4,
-        "elim_total": 7,
+        "elim_position": 5,
+        "elim_total": 9,
         "eliminated_by": [
           "Hunter Barfield"
         ],
@@ -127,15 +111,33 @@
         "forced_exit": false
       },
       {
+        "rank": 7,
+        "player": "Tony Raines",
+        "rating": 0.284,
+        "n_events": 69,
+        "finish": "Eliminated in The Sinister Six",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Sinister Six",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Derrick Kosinski"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 8,
         "player": "Ammo Hall",
-        "rating": 0.268,
-        "n_events": 11,
+        "rating": 0.269,
+        "n_events": 13,
         "finish": "Quit in Ankles Aweigh",
         "finish_label": "Quit",
         "finish_episode": "Ankles Aweigh",
-        "elim_position": 3,
-        "elim_total": 7,
+        "elim_position": 4,
+        "elim_total": 9,
         "eliminated_by": [
           "Jordan Wiseley"
         ],
@@ -146,30 +148,14 @@
       },
       {
         "rank": 9,
-        "player": "Darrell Taylor",
-        "rating": 0.233,
-        "n_events": 57,
-        "finish": "Eliminated in Road to Redemption",
+        "player": "Johnny Bananas",
+        "rating": 0.25,
+        "n_events": 75,
+        "finish": "Eliminated in A Million More Reasons",
         "finish_label": "Eliminated",
-        "finish_episode": "Road to Redemption",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
-        "player": "Tony Raines",
-        "rating": 0.131,
-        "n_events": 56,
-        "finish": "Eliminated in The Sinister Six",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Sinister Six",
-        "elim_position": 2,
-        "elim_total": 7,
+        "finish_episode": "A Million More Reasons",
+        "elim_position": 9,
+        "elim_total": 9,
         "eliminated_by": [
           "Derrick Kosinski"
         ],
@@ -179,10 +165,10 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Devin Walker",
-        "rating": 0.081,
-        "n_events": 58,
+        "rating": 0.098,
+        "n_events": 55,
         "finish": "Eliminated in Road to Redemption",
         "finish_label": "Eliminated",
         "finish_episode": "Road to Redemption",
@@ -195,17 +181,17 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
-        "player": "Dario Medrano",
-        "rating": -0.179,
-        "n_events": 53,
-        "finish": "Eliminated in A Million More Reasons",
+        "rank": 11,
+        "player": "Darrell Taylor",
+        "rating": 0.09,
+        "n_events": 39,
+        "finish": "Eliminated in Road to Redemption",
         "finish_label": "Eliminated",
-        "finish_episode": "A Million More Reasons",
-        "elim_position": 5,
-        "elim_total": 7,
+        "finish_episode": "Road to Redemption",
+        "elim_position": 1,
+        "elim_total": 9,
         "eliminated_by": [
-          "Tony Raines"
+          "Shane Raines"
         ],
         "partner": "",
         "partners_history": [],
@@ -213,10 +199,10 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 12,
         "player": "Shane Raines",
-        "rating": -0.228,
-        "n_events": 17,
+        "rating": 0.056,
+        "n_events": 22,
         "finish": "Disqualified in Shots Fired!",
         "finish_label": "Disqualified",
         "finish_episode": "Shots Fired!",
@@ -229,15 +215,33 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
-        "player": "Leroy Garrett",
-        "rating": -0.316,
-        "n_events": 27,
+        "rank": 13,
+        "player": "Dario Medrano",
+        "rating": -0.162,
+        "n_events": 52,
         "finish": "Eliminated in A Million More Reasons",
         "finish_label": "Eliminated",
         "finish_episode": "A Million More Reasons",
-        "elim_position": 6,
-        "elim_total": 7,
+        "elim_position": 7,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Tony Raines"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Leroy Garrett",
+        "rating": -0.284,
+        "n_events": 25,
+        "finish": "Eliminated in A Million More Reasons",
+        "finish_label": "Eliminated",
+        "finish_episode": "A Million More Reasons",
+        "elim_position": 8,
+        "elim_total": 9,
         "eliminated_by": [
           "Hunter Barfield"
         ],
@@ -249,13 +253,13 @@
       {
         "rank": 15,
         "player": "Derrick Henry",
-        "rating": -0.355,
-        "n_events": 6,
+        "rating": -0.36,
+        "n_events": 8,
         "finish": "Eliminated in Road to Redemption",
         "finish_label": "Eliminated",
         "finish_episode": "Road to Redemption",
-        "elim_position": 1,
-        "elim_total": 7,
+        "elim_position": 2,
+        "elim_total": 9,
         "eliminated_by": [
           "Cory Wharton"
         ],
@@ -269,8 +273,8 @@
       {
         "rank": 1,
         "player": "Camila Nakagawa",
-        "rating": 0.802,
-        "n_events": 72,
+        "rating": 0.939,
+        "n_events": 79,
         "finish": "Winner in One in a Million",
         "finish_label": "Champion",
         "finish_episode": "One in a Million",
@@ -284,9 +288,25 @@
       },
       {
         "rank": 2,
+        "player": "Tori Deal",
+        "rating": 0.472,
+        "n_events": 32,
+        "finish": "Third Place in One in a Million",
+        "finish_label": "3rd",
+        "finish_episode": "One in a Million",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 3,
         "player": "Cara Maria Sorbello",
-        "rating": 0.44,
-        "n_events": 56,
+        "rating": 0.47,
+        "n_events": 62,
         "finish": "Runner-Up in One in a Million",
         "finish_label": "Runner-up",
         "finish_episode": "One in a Million",
@@ -301,15 +321,15 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Kailah Casillas-Bird",
-        "rating": 0.38,
-        "n_events": 47,
+        "rating": 0.392,
+        "n_events": 49,
         "finish": "Eliminated in The Sinister Six",
         "finish_label": "Eliminated",
         "finish_episode": "The Sinister Six",
         "elim_position": 1,
-        "elim_total": 6,
+        "elim_total": 9,
         "eliminated_by": [
           "Johnny Bananas"
         ],
@@ -319,10 +339,10 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Ashley Mitchell",
-        "rating": 0.364,
-        "n_events": 55,
+        "rating": 0.37,
+        "n_events": 54,
         "finish": "Quit in Thirty Rotten Scoundrels",
         "finish_label": "Quit",
         "finish_episode": "Thirty Rotten Scoundrels",
@@ -335,33 +355,17 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
-        "player": "Tori Deal",
-        "rating": 0.351,
-        "n_events": 25,
-        "finish": "Third Place in One in a Million",
-        "finish_label": "3rd",
-        "finish_episode": "One in a Million",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 6,
         "player": "Jenna Compono",
-        "rating": 0.317,
-        "n_events": 71,
+        "rating": 0.22,
+        "n_events": 79,
         "finish": "Eliminated in The Sinister Six",
         "finish_label": "Eliminated",
         "finish_episode": "The Sinister Six",
-        "elim_position": 4,
-        "elim_total": 6,
+        "elim_position": 5,
+        "elim_total": 9,
         "eliminated_by": [
-          "Kailah Casillas-Bird"
+          "Camila Nakagawa"
         ],
         "partner": "",
         "partners_history": [],
@@ -371,13 +375,13 @@
       {
         "rank": 7,
         "player": "Nicole Ramos",
-        "rating": 0.147,
-        "n_events": 48,
+        "rating": 0.083,
+        "n_events": 42,
         "finish": "Eliminated in Guess Who's Coming to Dinner",
         "finish_label": "Eliminated",
         "finish_episode": "Guess Who's Coming to Dinner",
-        "elim_position": 5,
-        "elim_total": 6,
+        "elim_position": 7,
+        "elim_total": 9,
         "eliminated_by": [
           "Britni Thornton"
         ],
@@ -389,14 +393,16 @@
       {
         "rank": 8,
         "player": "Britni Thornton",
-        "rating": 0.129,
-        "n_events": 17,
+        "rating": 0.011,
+        "n_events": 24,
         "finish": "Eliminated in A Million More Reasons",
         "finish_label": "Eliminated",
         "finish_episode": "A Million More Reasons",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 9,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Camila Nakagawa"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",
@@ -404,9 +410,45 @@
       },
       {
         "rank": 9,
+        "player": "Jemmye Carroll",
+        "rating": -0.019,
+        "n_events": 42,
+        "finish": "Eliminated in A Million More Reasons",
+        "finish_label": "Eliminated",
+        "finish_episode": "A Million More Reasons",
+        "elim_position": 8,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Camila Nakagawa"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 10,
+        "player": "Aneesa Ferreira",
+        "rating": -0.055,
+        "n_events": 31,
+        "finish": "Eliminated in A Million More Reasons",
+        "finish_label": "Eliminated",
+        "finish_episode": "A Million More Reasons",
+        "elim_position": 2,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Veronica Portillo"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
         "player": "Veronica Portillo",
         "rating": -0.145,
-        "n_events": 16,
+        "n_events": 22,
         "finish": "Eliminated in A Million More Reasons",
         "finish_label": "Eliminated",
         "finish_episode": "A Million More Reasons",
@@ -421,53 +463,17 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Jemmye Carroll",
-        "rating": -0.196,
-        "n_events": 25,
-        "finish": "Eliminated in A Million More Reasons",
-        "finish_label": "Eliminated",
-        "finish_episode": "A Million More Reasons",
-        "elim_position": 6,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Camila Nakagawa"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
-        "player": "Aneesa Ferreira",
-        "rating": -0.218,
-        "n_events": 24,
-        "finish": "Eliminated in A Million More Reasons",
-        "finish_label": "Eliminated",
-        "finish_episode": "A Million More Reasons",
-        "elim_position": 2,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Veronica Portillo"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 12,
-        "player": "Briana LaCuesta",
-        "rating": -0.287,
-        "n_events": 27,
-        "finish": "Eliminated in Road to Redemption",
+        "player": "Marie Roda",
+        "rating": -0.198,
+        "n_events": 36,
+        "finish": "Eliminated in Guess Who's Coming to Dinner",
         "finish_label": "Eliminated",
-        "finish_episode": "Road to Redemption",
-        "elim_position": 3,
-        "elim_total": 6,
+        "finish_episode": "Guess Who's Coming to Dinner",
+        "elim_position": 6,
+        "elim_total": 9,
         "eliminated_by": [
-          "Britni Thornton"
+          "Tori Deal"
         ],
         "partner": "",
         "partners_history": [],
@@ -476,41 +482,9 @@
       },
       {
         "rank": 13,
-        "player": "Marie Roda",
-        "rating": -0.402,
-        "n_events": 32,
-        "finish": "Eliminated in Guess Who's Coming to Dinner",
-        "finish_label": "Eliminated",
-        "finish_episode": "Guess Who's Coming to Dinner",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "player": "LaToya Jackson",
-        "rating": -0.405,
-        "n_events": 33,
-        "finish": "Eliminated in Road to Redemption",
-        "finish_label": "Eliminated",
-        "finish_episode": "Road to Redemption",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
         "player": "Simone Kelly",
-        "rating": -0.586,
-        "n_events": 26,
+        "rating": -0.262,
+        "n_events": 40,
         "finish": "Disqualified in Shots Fired!",
         "finish_label": "Disqualified",
         "finish_episode": "Shots Fired!",
@@ -523,16 +497,52 @@
         "forced_exit": false
       },
       {
-        "rank": 16,
+        "rank": 14,
+        "player": "Briana LaCuesta",
+        "rating": -0.282,
+        "n_events": 22,
+        "finish": "Eliminated in Road to Redemption",
+        "finish_label": "Eliminated",
+        "finish_episode": "Road to Redemption",
+        "elim_position": 4,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Britni Thornton"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
         "player": "Amanda Garcia",
-        "rating": -0.599,
-        "n_events": 34,
+        "rating": -0.387,
+        "n_events": 46,
         "finish": "Eliminated in Road to Redemption",
         "finish_label": "Eliminated",
         "finish_episode": "Road to Redemption",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 16,
+        "player": "LaToya Jackson",
+        "rating": -0.556,
+        "n_events": 25,
+        "finish": "Eliminated in Road to Redemption",
+        "finish_label": "Eliminated",
+        "finish_episode": "Road to Redemption",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Amanda Garcia"
+        ],
         "partner": "",
         "partners_history": [],
         "team": "",

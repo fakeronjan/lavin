@@ -3,9 +3,9 @@
   "safe_name": "Nicole_Zanatta",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.243,
-    "peak_season_id": "s30_xxx_dirty_30",
+    "era_rating": 0.6,
+    "peak_rating": 0.339,
+    "peak_season_id": "s31_vendettas",
     "active_rating": -0.467,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
@@ -13,9 +13,9 @@
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 0,
+    "elim_wins": 1,
     "elim_losses": 0,
-    "daily_wins": 2
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -24,13 +24,13 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Medically Disqualified <small>in Enemy of the State",
+      "finish": "Medically Disqualified in Enemy of the State",
       "finish_label": "Medical DQ",
       "finish_episode": "Enemy of the State",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.337,
+      "rating_at_end": -0.289,
       "partner": "Devin Walker",
       "partners_history": [
         "Devin Walker"
@@ -44,13 +44,13 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Bottom Four in Vendettas Never Die",
+      "finish_label": "Eliminated",
+      "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.235,
+      "rating_at_end": 0.339,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -68,7 +68,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.237,
+      "rating_at_end": 0.296,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -77,19 +77,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.237
+      "rating": 0.296
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.235
+      "rating": 0.339
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.337
+      "rating": -0.289
     }
   ]
 }

@@ -3,19 +3,19 @@
   "safe_name": "Aneesa_Ferreira",
   "gender": "F",
   "career": {
-    "era_rating": 2.0,
+    "era_rating": 1.9,
     "peak_rating": 0.665,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.162,
+    "active_rating": -0.265,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 19,
     "n_snapshots": 31,
     "championships": 0,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
-    "elim_wins": 16,
-    "elim_losses": 13,
-    "daily_wins": 26
+    "elim_wins": 15,
+    "elim_losses": 17,
+    "daily_wins": 27
   },
   "seasons": [
     {
@@ -24,13 +24,16 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.162,
+      "finish": "Eliminated in The Best Birthday Present",
+      "finish_label": "Eliminated",
+      "finish_episode": "The Best Birthday Present",
+      "elim_position": 9,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Adrienne Naylor",
+        "Theo Campbell"
+      ],
+      "rating_at_end": -0.265,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -45,12 +48,12 @@
       "finish": "Eliminated in My Trivia Era",
       "finish_label": "Eliminated",
       "finish_episode": "My Trivia Era",
-      "elim_position": 5,
-      "elim_total": 13,
+      "elim_position": 6,
+      "elim_total": 15,
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.267,
+      "rating_at_end": 0.049,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -62,7 +65,7 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Third Place <small>in The End of the Ride",
+      "finish": "Third Place in The End of the Ride",
       "finish_label": "3rd",
       "finish_episode": "The End of the Ride",
       "elim_position": null,
@@ -102,15 +105,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Never Say Never Again",
+      "finish_label": "Eliminated",
+      "finish_episode": "Never Say Never Again",
       "elim_position": 6,
       "elim_total": 7,
       "eliminated_by": [
         "Big T Fazakerley"
       ],
-      "rating_at_end": 0.056,
+      "rating_at_end": 0.107,
       "partner": "Faysal Shafaat",
       "partners_history": [
         "Faysal Shafaat",
@@ -134,7 +137,7 @@
       "eliminated_by": [
         "Bayleigh Dayton"
       ],
-      "rating_at_end": 0.01,
+      "rating_at_end": 0.042,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -152,7 +155,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.068,
+      "rating_at_end": -0.037,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -168,11 +171,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "A Million More Reasons",
       "elim_position": 2,
-      "elim_total": 6,
+      "elim_total": 9,
       "eliminated_by": [
         "Veronica Portillo"
       ],
-      "rating_at_end": -0.218,
+      "rating_at_end": -0.055,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -187,10 +190,12 @@
       "finish": "Eliminated in Tear Down This Wall",
       "finish_label": "Eliminated",
       "finish_episode": "Tear Down This Wall",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.071,
+      "elim_position": 9,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Cara Maria Sorbello"
+      ],
+      "rating_at_end": -0.204,
       "partner": "Rianna Polin",
       "partners_history": [
         "Rianna Polin"
@@ -212,7 +217,7 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.068,
+      "rating_at_end": -0.06,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -279,7 +284,7 @@
         "Evelyn Smith",
         "Paula Meronek"
       ],
-      "rating_at_end": -0.421,
+      "rating_at_end": -0.426,
       "partner": "Robin Hibbard",
       "partners_history": [
         "Robin Hibbard"
@@ -299,7 +304,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.373,
+      "rating_at_end": 0.433,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -319,7 +324,7 @@
       "eliminated_by": [
         "Paula Meronek"
       ],
-      "rating_at_end": -0.026,
+      "rating_at_end": -0.167,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -394,10 +399,12 @@
       "finish": "Eliminated in People Mover",
       "finish_label": "Eliminated",
       "finish_episode": "People Mover",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.441,
+      "elim_position": 7,
+      "elim_total": 14,
+      "eliminated_by": [
+        "Ruthie Alcaide"
+      ],
+      "rating_at_end": -0.256,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -406,99 +413,99 @@
   ],
   "timeline": [
     {
-      "ranking_id": 56,
+      "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.441
+      "rating": -0.256
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": -0.322
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.205
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.579
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.026
+      "rating": -0.167
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.373
+      "rating": 0.433
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.421
+      "rating": -0.426
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.11
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.163
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.068
+      "rating": -0.06
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.071
+      "rating": -0.204
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.218
+      "rating": -0.055
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.068
+      "rating": -0.037
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.01
+      "rating": 0.042
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.056
+      "rating": 0.107
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": -0.199
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.665
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.267
+      "rating": 0.049
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.162
+      "rating": -0.265
     }
   ]
 }

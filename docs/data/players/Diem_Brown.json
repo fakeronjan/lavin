@@ -6,15 +6,15 @@
     "era_rating": 0.8,
     "peak_rating": 0.544,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.342,
-    "active_season_id": "s28_rivals_iii",
+    "active_rating": -0.376,
+    "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 8,
-    "n_snapshots": 15,
+    "n_snapshots": 14,
     "championships": 0,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
-    "elim_losses": 4,
+    "elim_losses": 5,
     "daily_wins": 7
   },
   "seasons": [
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.675,
+      "rating_at_end": -0.665,
       "partner": "CT Tamburello",
       "partners_history": [],
       "team": "",
@@ -93,7 +93,7 @@
       "eliminated_by": [
         "Tonya Cooley"
       ],
-      "rating_at_end": -0.139,
+      "rating_at_end": -0.184,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -108,10 +108,12 @@
       "finish": "Eliminated in Duel or Die",
       "finish_label": "Eliminated",
       "finish_episode": "Duel or Die",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.035,
+      "elim_position": 10,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Brittini Sherrod"
+      ],
+      "rating_at_end": -0.024,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +131,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.019,
+      "rating_at_end": 0.018,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -181,44 +183,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": -0.468
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.203
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.019
+      "rating": 0.018
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.035
+      "rating": -0.024
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.139
+      "rating": -0.184
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.544
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.166
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.675
+      "rating": -0.665
     }
   ]
 }

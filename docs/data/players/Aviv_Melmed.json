@@ -3,10 +3,10 @@
   "safe_name": "Aviv_Melmed",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
+    "era_rating": 0.5,
     "peak_rating": 0.949,
     "peak_season_id": "s16_the_island",
-    "active_rating": -0.015,
+    "active_rating": -0.086,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 7,
@@ -24,16 +24,16 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 7,
-      "elim_total": 8,
+      "finish": "Eliminated in Am I Being Bamboozled?",
+      "finish_label": "Eliminated",
+      "finish_episode": "Am I Being Bamboozled?",
+      "elim_position": 10,
+      "elim_total": 11,
       "eliminated_by": [
         "Michaela Bradshaw",
         "Cedric Hodges"
       ],
-      "rating_at_end": -0.015,
+      "rating_at_end": -0.086,
       "partner": "Derek Chavez",
       "partners_history": [
         "Derek Chavez",
@@ -52,12 +52,12 @@
       "finish": "Eliminated in Thinking Thin Era",
       "finish_label": "Eliminated",
       "finish_episode": "Thinking Thin Era",
-      "elim_position": 12,
-      "elim_total": 13,
+      "elim_position": 14,
+      "elim_total": 15,
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.155,
+      "rating_at_end": 0.007,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -86,19 +86,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": 0.462
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.155
+      "rating": 0.007
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.015
+      "rating": -0.086
     }
   ]
 }

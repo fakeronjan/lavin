@@ -3,7 +3,7 @@
   "safe_name": "Robin_Hibbard",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
+    "era_rating": 0.5,
     "peak_rating": 0.323,
     "peak_season_id": "s13_the_duel",
     "active_rating": -0.375,
@@ -13,7 +13,7 @@
     "championships": 0,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
-    "elim_wins": 3,
+    "elim_wins": 4,
     "elim_losses": 6,
     "daily_wins": 5
   },
@@ -56,7 +56,7 @@
         "Evelyn Smith",
         "Paula Meronek"
       ],
-      "rating_at_end": -0.419,
+      "rating_at_end": -0.423,
       "partner": "Aneesa Ferreira",
       "partners_history": [
         "Aneesa Ferreira"
@@ -74,11 +74,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Duel Unto Others",
       "elim_position": 2,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Kimberly Alexander"
       ],
-      "rating_at_end": -0.063,
+      "rating_at_end": 0.066,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -96,7 +96,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.051,
+      "rating_at_end": 0.094,
       "partner": "KellyAnne Judd",
       "partners_history": [
         "KellyAnne Judd"
@@ -116,7 +116,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.091,
+      "rating_at_end": -0.09,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -203,47 +203,47 @@
   ],
   "timeline": [
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": -0.094
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.156
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.242
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.323
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.091
-    },
-    {
-      "ranking_id": 263,
-      "season_id": "s16_the_island",
-      "rating": 0.051
+      "rating": -0.09
     },
     {
       "ranking_id": 283,
+      "season_id": "s16_the_island",
+      "rating": 0.094
+    },
+    {
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.063
+      "rating": 0.066
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.419
+      "rating": -0.423
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.305
     }

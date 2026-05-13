@@ -3,10 +3,10 @@
   "safe_name": "MJ_Garrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
+    "era_rating": 0.7,
     "peak_rating": 0.49,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.091,
+    "active_rating": -0.186,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": 0.142,
+      "rating_at_end": 0.215,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Frank Roessler"
       ],
-      "rating_at_end": -0.267,
+      "rating_at_end": -0.268,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -79,19 +79,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": 0.49
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.267
+      "rating": -0.268
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.142
+      "rating": 0.215
     }
   ]
 }

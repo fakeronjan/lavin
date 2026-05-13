@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Jamie Banks",
-        "rating": 1.42,
-        "n_events": 68,
+        "rating": 1.148,
+        "n_events": 63,
         "finish": "Winners in Family Matters",
         "finish_label": "Champion",
         "finish_episode": "Family Matters",
@@ -27,8 +27,8 @@
       {
         "rank": 2,
         "player": "Mitch Reid",
-        "rating": 1.154,
-        "n_events": 57,
+        "rating": 0.882,
+        "n_events": 50,
         "finish": "Runners-Up in Family Matters",
         "finish_label": "Runner-up",
         "finish_episode": "Family Matters",
@@ -45,8 +45,8 @@
       {
         "rank": 3,
         "player": "Cory Wharton",
-        "rating": 1.11,
-        "n_events": 44,
+        "rating": 0.804,
+        "n_events": 36,
         "finish": "Runners-Up in Family Matters",
         "finish_label": "Runner-up",
         "finish_episode": "Family Matters",
@@ -63,14 +63,16 @@
       {
         "rank": 4,
         "player": "Mike Boise",
-        "rating": 0.87,
-        "n_events": 43,
+        "rating": 0.66,
+        "n_events": 35,
         "finish": "Eliminated in Blood Versus Love",
         "finish_label": "Eliminated",
         "finish_episode": "Blood Versus Love",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 8,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jamie Banks"
+        ],
         "partner": "Abram Boise",
         "partners_history": [
           "Abram Boise"
@@ -80,83 +82,9 @@
       },
       {
         "rank": 5,
-        "player": "Cohutta Grindstaff",
-        "rating": 0.841,
-        "n_events": 48,
-        "finish": "Eliminated in Bad Blood",
-        "finish_label": "Eliminated",
-        "finish_episode": "Bad Blood",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jill Tuttle",
-        "partners_history": [
-          "Jill Tuttle"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
-        "player": "Raphy Medrano",
-        "rating": 0.66,
-        "n_events": 33,
-        "finish": "Eliminated in A House Divided",
-        "finish_label": "Eliminated",
-        "finish_episode": "A House Divided",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Dario Medrano",
-        "partners_history": [
-          "Dario Medrano"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
-        "player": "Stephen Buell",
-        "rating": 0.639,
-        "n_events": 32,
-        "finish": "Eliminated in Blood Brothers",
-        "finish_label": "Eliminated",
-        "finish_episode": "Blood Brothers",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Thomas Buell",
-        "partners_history": [
-          "Thomas Buell"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
-        "player": "Jill Tuttle",
-        "rating": 0.585,
-        "n_events": 33,
-        "finish": "Eliminated in Bad Blood",
-        "finish_label": "Eliminated",
-        "finish_episode": "Bad Blood",
-        "elim_position": 1,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Cohutta Grindstaff"
-        ],
-        "partner": "Cohutta Grindstaff",
-        "partners_history": [
-          "Cohutta Grindstaff"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
         "player": "Leroy Garrett",
-        "rating": 0.55,
-        "n_events": 84,
+        "rating": 0.314,
+        "n_events": 70,
         "finish": "Medically Disqualified in #Corneesa",
         "finish_label": "Medical DQ",
         "finish_episode": "#Corneesa",
@@ -169,15 +97,115 @@
         "forced_exit": true
       },
       {
+        "rank": 6,
+        "player": "Raphy Medrano",
+        "rating": 0.228,
+        "n_events": 23,
+        "finish": "Eliminated in A House Divided",
+        "finish_label": "Eliminated",
+        "finish_episode": "A House Divided",
+        "elim_position": 4,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Mitch Reid"
+        ],
+        "partner": "Dario Medrano",
+        "partners_history": [
+          "Dario Medrano"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
+        "player": "Cohutta Grindstaff",
+        "rating": 0.18,
+        "n_events": 33,
+        "finish": "Eliminated in Bad Blood",
+        "finish_label": "Eliminated",
+        "finish_episode": "Bad Blood",
+        "elim_position": 1,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Thomas Buell"
+        ],
+        "partner": "Jill Tuttle",
+        "partners_history": [
+          "Jill Tuttle"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 8,
+        "player": "Jill Tuttle",
+        "rating": 0.173,
+        "n_events": 33,
+        "finish": "Eliminated in Bad Blood",
+        "finish_label": "Eliminated",
+        "finish_episode": "Bad Blood",
+        "elim_position": 2,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Thomas Buell"
+        ],
+        "partner": "Cohutta Grindstaff",
+        "partners_history": [
+          "Cohutta Grindstaff"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
+        "player": "Thomas Buell",
+        "rating": 0.137,
+        "n_events": 31,
+        "finish": "Eliminated in Blood Brothers",
+        "finish_label": "Eliminated",
+        "finish_episode": "Blood Brothers",
+        "elim_position": 6,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Mike Boise"
+        ],
+        "partner": "Stephen Buell",
+        "partners_history": [
+          "Stephen Buell"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 10,
+        "player": "Stephen Buell",
+        "rating": 0.135,
+        "n_events": 23,
+        "finish": "Eliminated in Blood Brothers",
+        "finish_label": "Eliminated",
+        "finish_episode": "Blood Brothers",
+        "elim_position": 5,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Mike Boise"
+        ],
+        "partner": "Thomas Buell",
+        "partners_history": [
+          "Thomas Buell"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
         "player": "Vince Gliatta",
-        "rating": 0.236,
+        "rating": -0.055,
         "n_events": 18,
         "finish": "Eliminated in Out for Blood",
         "finish_label": "Eliminated",
         "finish_episode": "Out for Blood",
-        "elim_position": 6,
-        "elim_total": 6,
+        "elim_position": 10,
+        "elim_total": 10,
         "eliminated_by": [
           "Jamie Banks",
           "Cara Maria Sorbello"
@@ -190,25 +218,49 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
-        "player": "Shane Raines",
-        "rating": 0.128,
-        "n_events": 19,
-        "finish": "Medically Disqualified in #Corneesa",
-        "finish_label": "Medical DQ",
-        "finish_episode": "#Corneesa",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Tony Raines",
-        "partners_history": [],
+        "rank": 12,
+        "player": "Abram Boise",
+        "rating": -0.064,
+        "n_events": 15,
+        "finish": "Eliminated in Blood Versus Love",
+        "finish_label": "Eliminated",
+        "finish_episode": "Blood Versus Love",
+        "elim_position": 7,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jamie Banks"
+        ],
+        "partner": "Mike Boise",
+        "partners_history": [
+          "Mike Boise"
+        ],
         "team": "",
-        "forced_exit": true
+        "forced_exit": false
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "player": "Dario Medrano",
+        "rating": -0.144,
+        "n_events": 11,
+        "finish": "Eliminated in A House Divided",
+        "finish_label": "Eliminated",
+        "finish_episode": "A House Divided",
+        "elim_position": 3,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Mitch Reid"
+        ],
+        "partner": "Raphy Medrano",
+        "partners_history": [
+          "Raphy Medrano"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Tony Raines",
-        "rating": 0.128,
+        "rating": -0.169,
         "n_events": 19,
         "finish": "Medically Disqualified in #Corneesa",
         "finish_label": "Medical DQ",
@@ -222,15 +274,31 @@
         "forced_exit": true
       },
       {
-        "rank": 13,
+        "rank": 15,
+        "player": "Shane Raines",
+        "rating": -0.169,
+        "n_events": 19,
+        "finish": "Medically Disqualified in #Corneesa",
+        "finish_label": "Medical DQ",
+        "finish_episode": "#Corneesa",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Tony Raines",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 16,
         "player": "Johnny Bananas",
-        "rating": 0.106,
-        "n_events": 60,
+        "rating": -0.175,
+        "n_events": 42,
         "finish": "Eliminated in Out for Blood",
         "finish_label": "Eliminated",
         "finish_episode": "Out for Blood",
-        "elim_position": 5,
-        "elim_total": 6,
+        "elim_position": 9,
+        "elim_total": 10,
         "eliminated_by": [
           "Jamie Banks",
           "Cara Maria Sorbello"
@@ -241,74 +309,14 @@
         ],
         "team": "",
         "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "player": "Abram Boise",
-        "rating": 0.022,
-        "n_events": 15,
-        "finish": "Eliminated in Blood Versus Love",
-        "finish_label": "Eliminated",
-        "finish_episode": "Blood Versus Love",
-        "elim_position": 4,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Mike Boise"
-        ],
-        "partner": "Mike Boise",
-        "partners_history": [
-          "Mike Boise"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
-        "player": "Dario Medrano",
-        "rating": -0.05,
-        "n_events": 11,
-        "finish": "Eliminated in A House Divided",
-        "finish_label": "Eliminated",
-        "finish_episode": "A House Divided",
-        "elim_position": 2,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Raphy Medrano"
-        ],
-        "partner": "Raphy Medrano",
-        "partners_history": [
-          "Raphy Medrano"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 16,
-        "player": "Thomas Buell",
-        "rating": -0.186,
-        "n_events": 31,
-        "finish": "Eliminated in Blood Brothers",
-        "finish_label": "Eliminated",
-        "finish_episode": "Blood Brothers",
-        "elim_position": 3,
-        "elim_total": 6,
-        "eliminated_by": [
-          "Stephen Buell"
-        ],
-        "partner": "Stephen Buell",
-        "partners_history": [
-          "Stephen Buell"
-        ],
-        "team": "",
-        "forced_exit": false
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Cara Maria Sorbello",
-        "rating": 0.754,
-        "n_events": 49,
+        "rating": 0.792,
+        "n_events": 41,
         "finish": "Winners in Family Matters",
         "finish_label": "Champion",
         "finish_episode": "Family Matters",
@@ -325,7 +333,7 @@
       {
         "rank": 2,
         "player": "Jenna Compono",
-        "rating": 0.41,
+        "rating": 0.504,
         "n_events": 86,
         "finish": "Third Place in Family Matters",
         "finish_label": "3rd",
@@ -343,7 +351,7 @@
       {
         "rank": 3,
         "player": "Brianna Julig",
-        "rating": 0.311,
+        "rating": 0.324,
         "n_events": 34,
         "finish": "Third Place in Family Matters",
         "finish_label": "3rd",
@@ -361,14 +369,16 @@
       {
         "rank": 4,
         "player": "KellyAnne Judd",
-        "rating": 0.18,
-        "n_events": 35,
+        "rating": 0.204,
+        "n_events": 29,
         "finish": "Eliminated in Blood Is Thicker Than Mud",
         "finish_label": "Eliminated",
         "finish_episode": "Blood Is Thicker Than Mud",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 7,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jenna Compono"
+        ],
         "partner": "Anthony Cuomo",
         "partners_history": [
           "Anthony Cuomo"
@@ -379,14 +389,16 @@
       {
         "rank": 5,
         "player": "Nany Gonz\u00e1lez",
-        "rating": 0.093,
-        "n_events": 66,
+        "rating": -0.099,
+        "n_events": 43,
         "finish": "Eliminated in Dirty Little Secret",
         "finish_label": "Eliminated",
         "finish_episode": "Dirty Little Secret",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 5,
+        "elim_total": 10,
+        "eliminated_by": [
+          "KellyAnne Judd"
+        ],
         "partner": "Nicole Ramos",
         "partners_history": [
           "Nicole Ramos"
@@ -396,33 +408,17 @@
       },
       {
         "rank": 6,
-        "player": "Aneesa Ferreira",
-        "rating": 0.071,
-        "n_events": 25,
-        "finish": "Eliminated in Tear Down This Wall",
-        "finish_label": "Eliminated",
-        "finish_episode": "Tear Down This Wall",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Rianna Polin",
-        "partners_history": [
-          "Rianna Polin"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Larissa Nakagawa",
-        "rating": -0.037,
-        "n_events": 27,
+        "rating": -0.138,
+        "n_events": 19,
         "finish": "Eliminated in #Corneesa",
         "finish_label": "Eliminated",
         "finish_episode": "#Corneesa",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "elim_position": 4,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jenna Compono"
+        ],
         "partner": "Camila Nakagawa",
         "partners_history": [
           "Camila Nakagawa"
@@ -431,35 +427,37 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "player": "Christina LeBlanc",
-        "rating": -0.378,
-        "n_events": 16,
-        "finish": "Eliminated in There Will Be Blood",
+        "rank": 7,
+        "player": "Aneesa Ferreira",
+        "rating": -0.204,
+        "n_events": 18,
+        "finish": "Eliminated in Tear Down This Wall",
         "finish_label": "Eliminated",
-        "finish_episode": "There Will Be Blood",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Emily Reese",
+        "finish_episode": "Tear Down This Wall",
+        "elim_position": 9,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Cara Maria Sorbello"
+        ],
+        "partner": "Rianna Polin",
         "partners_history": [
-          "Emily Reese"
+          "Rianna Polin"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "player": "Rianna Polin",
-        "rating": -0.414,
-        "n_events": 22,
+        "rating": -0.204,
+        "n_events": 18,
         "finish": "Eliminated in Tear Down This Wall",
         "finish_label": "Eliminated",
         "finish_episode": "Tear Down This Wall",
-        "elim_position": 5,
-        "elim_total": 5,
+        "elim_position": 10,
+        "elim_total": 10,
         "eliminated_by": [
-          "Aneesa Ferreira"
+          "Cara Maria Sorbello"
         ],
         "partner": "Aneesa Ferreira",
         "partners_history": [
@@ -469,9 +467,89 @@
         "forced_exit": false
       },
       {
+        "rank": 9,
+        "player": "Christina LeBlanc",
+        "rating": -0.479,
+        "n_events": 6,
+        "finish": "Eliminated in There Will Be Blood",
+        "finish_label": "Eliminated",
+        "finish_episode": "There Will Be Blood",
+        "elim_position": 1,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jenna Compono"
+        ],
+        "partner": "Emily Reese",
+        "partners_history": [
+          "Emily Reese"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 10,
+        "player": "Emily Reese",
+        "rating": -0.479,
+        "n_events": 6,
+        "finish": "Eliminated in There Will Be Blood",
+        "finish_label": "Eliminated",
+        "finish_episode": "There Will Be Blood",
+        "elim_position": 2,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jenna Compono"
+        ],
+        "partner": "Christina LeBlanc",
+        "partners_history": [
+          "Christina LeBlanc"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
+        "player": "Camila Nakagawa",
+        "rating": -0.491,
+        "n_events": 9,
+        "finish": "Eliminated in #Corneesa",
+        "finish_label": "Eliminated",
+        "finish_episode": "#Corneesa",
+        "elim_position": 3,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jenna Compono"
+        ],
+        "partner": "Larissa Nakagawa",
+        "partners_history": [
+          "Larissa Nakagawa"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 12,
+        "player": "Anthony Cuomo",
+        "rating": -0.527,
+        "n_events": 13,
+        "finish": "Eliminated in Blood Is Thicker Than Mud",
+        "finish_label": "Eliminated",
+        "finish_episode": "Blood Is Thicker Than Mud",
+        "elim_position": 8,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Jenna Compono"
+        ],
+        "partner": "KellyAnne Judd",
+        "partners_history": [
+          "KellyAnne Judd"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "player": "Candice Fowler",
-        "rating": -0.608,
+        "rating": -0.592,
         "n_events": 15,
         "finish": "Medically Disqualified in #Corneesa",
         "finish_label": "Medical DQ",
@@ -485,81 +563,21 @@
         "forced_exit": true
       },
       {
-        "rank": 11,
-        "player": "Anthony Cuomo",
-        "rating": -0.671,
-        "n_events": 13,
-        "finish": "Eliminated in Blood Is Thicker Than Mud",
-        "finish_label": "Eliminated",
-        "finish_episode": "Blood Is Thicker Than Mud",
-        "elim_position": 4,
-        "elim_total": 5,
-        "eliminated_by": [
-          "KellyAnne Judd"
-        ],
-        "partner": "KellyAnne Judd",
-        "partners_history": [
-          "KellyAnne Judd"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
+        "rank": 14,
         "player": "Nicole Ramos",
-        "rating": -0.701,
+        "rating": -0.634,
         "n_events": 11,
         "finish": "Eliminated in Dirty Little Secret",
         "finish_label": "Eliminated",
         "finish_episode": "Dirty Little Secret",
-        "elim_position": 3,
-        "elim_total": 5,
+        "elim_position": 6,
+        "elim_total": 10,
         "eliminated_by": [
-          "Nany Gonz\u00e1lez"
+          "KellyAnne Judd"
         ],
         "partner": "Nany Gonz\u00e1lez",
         "partners_history": [
           "Nany Gonz\u00e1lez"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
-        "player": "Camila Nakagawa",
-        "rating": -0.727,
-        "n_events": 12,
-        "finish": "Eliminated in #Corneesa",
-        "finish_label": "Eliminated",
-        "finish_episode": "#Corneesa",
-        "elim_position": 2,
-        "elim_total": 5,
-        "eliminated_by": [
-          "Larissa Nakagawa"
-        ],
-        "partner": "Larissa Nakagawa",
-        "partners_history": [
-          "Larissa Nakagawa"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "player": "Emily Reese",
-        "rating": -0.894,
-        "n_events": 6,
-        "finish": "Eliminated in There Will Be Blood",
-        "finish_label": "Eliminated",
-        "finish_episode": "There Will Be Blood",
-        "elim_position": 1,
-        "elim_total": 5,
-        "eliminated_by": [
-          "Christina LeBlanc"
-        ],
-        "partner": "Christina LeBlanc",
-        "partners_history": [
-          "Christina LeBlanc"
         ],
         "team": "",
         "forced_exit": false

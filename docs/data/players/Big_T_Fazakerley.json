@@ -3,17 +3,17 @@
   "safe_name": "Big_T_Fazakerley",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.166,
+    "era_rating": 0.3,
+    "peak_rating": 0.217,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.104,
+    "active_rating": -0.067,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 5,
     "n_snapshots": 7,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 2,
+    "elim_wins": 3,
     "elim_losses": 5,
     "daily_wins": 10
   },
@@ -24,15 +24,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 2,
-      "elim_total": 7,
+      "finish": "Eliminated in Struggling to Hold It Together",
+      "finish_label": "Eliminated",
+      "finish_episode": "Struggling to Hold It Together",
+      "elim_position": 4,
+      "elim_total": 11,
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": 0.166,
+      "rating_at_end": 0.217,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -72,7 +72,7 @@
       "eliminated_by": [
         "Amber Borzotra"
       ],
-      "rating_at_end": 0.072,
+      "rating_at_end": 0.126,
       "partner": "Joseph Allen",
       "partners_history": [
         "Joseph Allen",
@@ -95,7 +95,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.359,
+      "rating_at_end": -0.314,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -115,7 +115,7 @@
       "eliminated_by": [
         "Georgia Harrison"
       ],
-      "rating_at_end": -0.422,
+      "rating_at_end": -0.363,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -124,29 +124,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.422
+      "rating": -0.363
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.359
+      "rating": -0.314
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.072
+      "rating": 0.126
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": -0.126
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.166
+      "rating": 0.217
     }
   ]
 }

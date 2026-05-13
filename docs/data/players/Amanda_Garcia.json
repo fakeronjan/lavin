@@ -3,19 +3,19 @@
   "safe_name": "Amanda_Garcia",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.098,
+    "era_rating": 0.2,
+    "peak_rating": 0.127,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.495,
+    "active_rating": -0.607,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
     "n_snapshots": 11,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 3,
-    "elim_losses": 4,
-    "daily_wins": 6
+    "elim_wins": 4,
+    "elim_losses": 5,
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -28,11 +28,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 1,
-      "elim_total": 13,
+      "elim_total": 15,
       "eliminated_by": [
         "Nia Moore"
       ],
-      "rating_at_end": -0.495,
+      "rating_at_end": -0.607,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -73,7 +73,7 @@
         "Kam Williams",
         "Ashley Cain"
       ],
-      "rating_at_end": -0.344,
+      "rating_at_end": -0.305,
       "partner": "Josh Martinez",
       "partners_history": [
         "Josh Martinez"
@@ -116,7 +116,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.599,
+      "rating_at_end": -0.387,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -131,10 +131,12 @@
       "finish": "Eliminated in The Bloodbath",
       "finish_label": "Eliminated",
       "finish_episode": "The Bloodbath",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.192,
+      "elim_position": 8,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Ashley Mitchell"
+      ],
+      "rating_at_end": -0.185,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -155,7 +157,7 @@
         "KellyAnne Judd",
         "Jamie Banks"
       ],
-      "rating_at_end": 0.098,
+      "rating_at_end": 0.127,
       "partner": "Nelson Thomas",
       "partners_history": [
         "Nelson Thomas"
@@ -166,39 +168,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.098
+      "rating": 0.127
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.192
+      "rating": -0.185
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.599
+      "rating": -0.387
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.138
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.344
+      "rating": -0.305
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.032
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.495
+      "rating": -0.607
     }
   ]
 }

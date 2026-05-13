@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 1.4,
-    "peak_rating": 0.751,
+    "peak_rating": 0.794,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.265,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.52,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 3,
-    "n_snapshots": 4,
+    "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -28,11 +28,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 3,
-      "elim_total": 13,
+      "elim_total": 15,
       "eliminated_by": [
         "Olivia Kaiser"
       ],
-      "rating_at_end": 0.572,
+      "rating_at_end": 0.52,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,13 +44,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Runner-Up <small>in Only One Gets the Crown",
+      "finish": "Runner-Up in Only One Gets the Crown",
       "finish_label": "Runner-up",
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.751,
+      "rating_at_end": 0.794,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -62,9 +62,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Frenemy of the State",
+      "finish_label": "Eliminated",
+      "finish_episode": "Frenemy of the State",
       "elim_position": 9,
       "elim_total": 12,
       "eliminated_by": [
@@ -81,19 +81,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.087
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.751
+      "rating": 0.794
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.572
+      "rating": 0.52
     }
   ]
 }

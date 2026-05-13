@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.313,
+    "peak_rating": -0.301,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.53,
-    "active_season_id": "s26_battle_of_the_exes_ii",
+    "active_rating": -0.301,
+    "active_season_id": "s25_free_agents",
     "n_seasons": 2,
-    "n_snapshots": 4,
+    "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Jonna Mannion"
       ],
-      "rating_at_end": -0.313,
+      "rating_at_end": -0.301,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.384,
+      "rating_at_end": -0.366,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -61,14 +61,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.384
+      "rating": -0.366
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.313
+      "rating": -0.301
     }
   ]
 }

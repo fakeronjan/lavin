@@ -4,17 +4,17 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.194,
+    "peak_rating": 0.31,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": 0.047,
-    "active_season_id": "s30_xxx_dirty_30",
+    "active_rating": 0.31,
+    "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 2,
-    "n_snapshots": 4,
+    "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 2,
-    "elim_losses": 1,
+    "elim_wins": 1,
+    "elim_losses": 2,
     "daily_wins": 2
   },
   "seasons": [
@@ -33,7 +33,7 @@
         "Nany Gonz\u00e1lez",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.057,
+      "rating_at_end": -0.045,
       "partner": "Nate Siebenmark",
       "partners_history": [
         "Nate Siebenmark"
@@ -50,10 +50,12 @@
       "finish": "Eliminated in There Will Be Blood",
       "finish_label": "Eliminated",
       "finish_episode": "There Will Be Blood",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.378,
+      "elim_position": 1,
+      "elim_total": 10,
+      "eliminated_by": [
+        "Jenna Compono"
+      ],
+      "rating_at_end": -0.479,
       "partner": "Emily Reese",
       "partners_history": [
         "Emily Reese"
@@ -64,14 +66,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.378
+      "rating": -0.479
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.057
+      "rating": -0.045
     }
   ]
 }

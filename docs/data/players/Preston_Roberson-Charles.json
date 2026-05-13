@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.172,
+    "peak_rating": -0.179,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.358,
+    "active_rating": -0.396,
     "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -28,11 +28,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Strike a Pose, There's Something to It",
       "elim_position": 7,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": -0.172,
+      "rating_at_end": -0.179,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,19 +87,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.547
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.18
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.172
+      "rating": -0.179
     }
   ]
 }

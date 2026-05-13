@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.253,
+    "peak_rating": 0.309,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.257,
+    "active_rating": -0.231,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 2,
     "n_snapshots": 4,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": 0.125,
+      "rating_at_end": 0.124,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -48,11 +48,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Dueling for Dunbar",
       "elim_position": 6,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": 0.253,
+      "rating_at_end": 0.309,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,14 +61,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.253
+      "rating": 0.309
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.125
+      "rating": 0.124
     }
   ]
 }

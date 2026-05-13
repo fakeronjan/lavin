@@ -3,17 +3,17 @@
   "safe_name": "Turbo_amkran",
   "gender": "M",
   "career": {
-    "era_rating": 2.8,
+    "era_rating": 2.9,
     "peak_rating": 1.107,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.893,
+    "active_rating": 0.988,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 6,
     "championships": 1,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
-    "elim_wins": 0,
+    "elim_wins": 1,
     "elim_losses": 1,
     "daily_wins": 8
   },
@@ -24,13 +24,13 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "Runner-Up <small>''in Finale Part II",
+      "finish": "Runner-Up in Finale Part II",
       "finish_label": "Runner-up",
       "finish_episode": "Finale Part II",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.893,
+      "rating_at_end": 0.988,
       "partner": "Leka Sodade",
       "partners_history": [
         "Leka Sodade",
@@ -105,24 +105,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": 1.107
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.765
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.174
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.893
+      "rating": 0.988
     }
   ]
 }

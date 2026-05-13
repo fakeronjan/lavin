@@ -3,13 +3,13 @@
   "safe_name": "Alton_Williams",
   "gender": "M",
   "career": {
-    "era_rating": 0.9,
+    "era_rating": 1.0,
     "peak_rating": 0.656,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": -0.906,
+    "active_rating": -0.865,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
-    "n_snapshots": 12,
+    "n_snapshots": 11,
     "championships": 1,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
@@ -53,7 +53,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.136,
+      "rating_at_end": -0.135,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -89,7 +89,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.281,
+      "rating_at_end": 0.336,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -98,22 +98,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.281
+      "rating": 0.336
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": 0.656
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.136
+      "rating": -0.135
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.629
     }

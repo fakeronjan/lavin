@@ -3,10 +3,10 @@
   "safe_name": "Kaycee_Clark",
   "gender": "F",
   "career": {
-    "era_rating": 2.0,
-    "peak_rating": 0.828,
+    "era_rating": 2.1,
+    "peak_rating": 0.869,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.44,
+    "active_rating": -0.216,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 7,
@@ -14,8 +14,8 @@
     "finals_reached": 3,
     "pre_anchor_titles": 0,
     "elim_wins": 3,
-    "elim_losses": 1,
-    "daily_wins": 10
+    "elim_losses": 2,
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -27,10 +27,12 @@
       "finish": "Eliminated in An Era of One",
       "finish_label": "Eliminated",
       "finish_episode": "An Era of One",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.401,
+      "elim_position": 11,
+      "elim_total": 15,
+      "eliminated_by": [
+        "Tori Deal"
+      ],
+      "rating_at_end": -0.276,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -42,13 +44,13 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.273,
+      "rating_at_end": -0.248,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,9 +62,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Knot a Problem",
+      "finish_label": "Eliminated",
+      "finish_episode": "Knot a Problem",
       "elim_position": 11,
       "elim_total": 12,
       "eliminated_by": [
@@ -104,13 +106,13 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Fourth Place <small>in The World Is Not Enough",
+      "finish": "Fourth Place in The World Is Not Enough",
       "finish_label": "4th",
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.523,
+      "rating_at_end": 0.574,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Leroy Garrett"
@@ -130,7 +132,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.828,
+      "rating_at_end": 0.869,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -139,34 +141,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.828
+      "rating": 0.869
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.523
+      "rating": 0.574
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.652
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": -0.02
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.273
+      "rating": -0.248
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.401
+      "rating": -0.276
     }
   ]
 }

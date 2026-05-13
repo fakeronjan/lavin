@@ -3,19 +3,19 @@
   "safe_name": "Camila_Nakagawa",
   "gender": "F",
   "career": {
-    "era_rating": 2.8,
-    "peak_rating": 0.94,
+    "era_rating": 3.0,
+    "peak_rating": 0.99,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.94,
+    "active_rating": 0.99,
     "active_season_id": "s31_vendettas",
     "n_seasons": 10,
     "n_snapshots": 12,
     "championships": 2,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
-    "elim_wins": 7,
+    "elim_wins": 10,
     "elim_losses": 5,
-    "daily_wins": 8
+    "daily_wins": 9
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.802,
+      "rating_at_end": 0.939,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -48,7 +48,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.377,
+      "rating_at_end": 0.487,
       "partner": "Laurel Stucky",
       "partners_history": [
         "Laurel Stucky"
@@ -68,7 +68,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.309,
+      "rating_at_end": -0.238,
       "partner": "Tony Raines",
       "partners_history": [
         "Tony Raines"
@@ -85,12 +85,12 @@
       "finish": "Eliminated in #Corneesa",
       "finish_label": "Eliminated",
       "finish_episode": "#Corneesa",
-      "elim_position": 2,
-      "elim_total": 5,
+      "elim_position": 3,
+      "elim_total": 10,
       "eliminated_by": [
-        "Larissa Nakagawa"
+        "Jenna Compono"
       ],
-      "rating_at_end": -0.727,
+      "rating_at_end": -0.491,
       "partner": "Larissa Nakagawa",
       "partners_history": [
         "Larissa Nakagawa"
@@ -112,7 +112,7 @@
       "eliminated_by": [
         "Theresa Jones"
       ],
-      "rating_at_end": 0.183,
+      "rating_at_end": 0.188,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -196,7 +196,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.42,
+      "rating_at_end": -0.405,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -218,7 +218,7 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.16,
+      "rating_at_end": -0.103,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -227,54 +227,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.16
+      "rating": -0.103
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.42
+      "rating": -0.405
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.688
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.379
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 0.324
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.183
+      "rating": 0.188
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.727
+      "rating": -0.491
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.309
+      "rating": -0.238
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.377
+      "rating": 0.487
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.802
+      "rating": 0.939
     }
   ]
 }

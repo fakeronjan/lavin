@@ -3,10 +3,10 @@
   "safe_name": "Katie_Cooley",
   "gender": "F",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.47,
-    "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.278,
+    "era_rating": 0.8,
+    "peak_rating": 0.268,
+    "peak_season_id": "s10_the_inferno_ii",
+    "active_rating": -0.418,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 10,
     "n_snapshots": 15,
@@ -14,8 +14,8 @@
     "finals_reached": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 6,
-    "elim_losses": 11,
-    "daily_wins": 10
+    "elim_losses": 10,
+    "daily_wins": 11
   },
   "seasons": [
     {
@@ -28,11 +28,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 2,
-      "elim_total": 13,
+      "elim_total": 15,
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.278,
+      "rating_at_end": -0.418,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -47,12 +47,12 @@
       "finish": "Eliminated in Couching Tyger, Hidden Danimal",
       "finish_label": "Eliminated",
       "finish_episode": "Couching Tyger, Hidden Danimal",
-      "elim_position": 3,
+      "elim_position": 4,
       "elim_total": 8,
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.221,
+      "rating_at_end": 0.073,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -72,7 +72,7 @@
       "eliminated_by": [
         "Sarah Rice"
       ],
-      "rating_at_end": -0.041,
+      "rating_at_end": -0.004,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -88,11 +88,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Duel-ality",
       "elim_position": 4,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.423,
+      "rating_at_end": -0.368,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "eliminated_by": [
         "Paula Meronek"
       ],
-      "rating_at_end": -0.466,
+      "rating_at_end": -0.456,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -191,7 +191,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.47,
+      "rating_at_end": 0.226,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -211,7 +211,7 @@
       "eliminated_by": [
         "Rachel Braband"
       ],
-      "rating_at_end": 0.203,
+      "rating_at_end": 0.133,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -220,54 +220,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.203
+      "rating": 0.133
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.47
+      "rating": 0.226
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": 0.214
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": -0.317
     },
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": 0.196
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.466
+      "rating": -0.456
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.423
+      "rating": -0.368
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.041
+      "rating": -0.004
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.221
+      "rating": 0.073
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.278
+      "rating": -0.418
     }
   ]
 }

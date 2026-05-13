@@ -3,7 +3,7 @@
   "safe_name": "Evelyn_Smith",
   "gender": "F",
   "career": {
-    "era_rating": 2.9,
+    "era_rating": 3.0,
     "peak_rating": 0.964,
     "peak_season_id": "s22_battle_of_the_exes",
     "active_rating": 0.964,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.936,
+      "rating_at_end": 0.93,
       "partner": "Paula Meronek",
       "partners_history": [
         "Paula Meronek"
@@ -53,7 +53,7 @@
         "Carley Johnson",
         "Landon Lueck"
       ],
-      "rating_at_end": 0.219,
+      "rating_at_end": 0.22,
       "partner": "Luke Wolfe",
       "partners_history": [
         "Luke Wolfe"
@@ -75,7 +75,7 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.267,
+      "rating_at_end": 0.251,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -93,7 +93,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.519,
+      "rating_at_end": 0.57,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -111,7 +111,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.284,
+      "rating_at_end": 0.308,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -129,7 +129,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.628,
+      "rating_at_end": 0.748,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -161,39 +161,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": -0.416
     },
     {
-      "ranking_id": 242,
-      "season_id": "s14_the_inferno_3",
-      "rating": 0.628
-    },
-    {
       "ranking_id": 258,
+      "season_id": "s14_the_inferno_3",
+      "rating": 0.748
+    },
+    {
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.284
+      "rating": 0.308
     },
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.519
+      "rating": 0.57
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.267
+      "rating": 0.251
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.219
+      "rating": 0.22
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.936
+      "rating": 0.93
     }
   ]
 }

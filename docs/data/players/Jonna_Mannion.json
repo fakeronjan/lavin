@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.004,
-    "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.162,
+    "peak_rating": 0.07,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.166,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -28,12 +28,12 @@
       "finish_label": "Eliminated",
       "finish_episode": "A King of Kamikaze",
       "elim_position": 5,
-      "elim_total": 8,
+      "elim_total": 11,
       "eliminated_by": [
         "Aviv Melmed",
         "Yeremi Hykel"
       ],
-      "rating_at_end": -0.162,
+      "rating_at_end": -0.166,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -48,12 +48,12 @@
       "finish": "Eliminated in My Real Friends Era",
       "finish_label": "Eliminated",
       "finish_episode": "My Real Friends Era",
-      "elim_position": 7,
-      "elim_total": 13,
+      "elim_position": 8,
+      "elim_total": 15,
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.338,
+      "rating_at_end": -0.46,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -96,7 +96,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.153,
+      "rating_at_end": -0.142,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -163,7 +163,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.137,
+      "rating_at_end": -0.139,
       "partner": "Jasmine Reynaud",
       "partners_history": [
         "Jasmine Reynaud"
@@ -174,39 +174,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.137
+      "rating": -0.139
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.004
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.353
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.153
+      "rating": -0.142
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
       "rating": -0.285
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.338
+      "rating": -0.46
     },
     {
-      "ranking_id": 983,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.162
+      "rating": -0.166
     }
   ]
 }

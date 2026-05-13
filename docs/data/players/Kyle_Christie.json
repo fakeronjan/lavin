@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 3.0,
-    "peak_rating": 0.866,
+    "peak_rating": 0.831,
     "peak_season_id": "s31_vendettas",
     "active_rating": 0.819,
     "active_season_id": "s38_ride_or_dies",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 4,
-    "daily_wins": 14
+    "daily_wins": 15
   },
   "seasons": [
     {
@@ -42,7 +42,7 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "Medically Disqualified <small>in True Lies",
+      "finish": "Medically Disqualified in True Lies",
       "finish_label": "Medical DQ",
       "finish_episode": "True Lies",
       "elim_position": 9,
@@ -50,7 +50,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": 0.443,
+      "rating_at_end": 0.451,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -75,7 +75,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.523,
+      "rating_at_end": 0.52,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -158,7 +158,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.866,
+      "rating_at_end": 0.831,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -167,37 +167,37 @@
   ],
   "timeline": [
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.866
+      "rating": 0.831
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.344
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": 0.38
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.181
     },
     {
-      "ranking_id": 797,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.523
+      "rating": 0.52
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.443
+      "rating": 0.451
     },
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.632
     }

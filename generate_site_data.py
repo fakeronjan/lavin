@@ -57,6 +57,9 @@ def parse_rank_from_finish(finish):
     for kw, rank in [
         ("winner", 1), ("runner", 2), ("third place", 3),
         ("fourth place", 4), ("fifth place", 5), ("sixth place", 6),
+        ("seventh place", 7), ("eighth place", 8), ("ninth place", 9),
+        ("tenth place", 10), ("eleventh place", 11), ("twelfth place", 12),
+        ("thirteenth place", 13), ("fourteenth place", 14), ("fifteenth place", 15),
     ]:
         if kw in finish:
             return rank
@@ -84,6 +87,15 @@ def standardize_finish(text):
     elif "fourth place" in low:                 label = "4th"
     elif "fifth place" in low:                  label = "5th"
     elif "sixth place" in low:                  label = "6th"
+    elif "seventh place" in low:                label = "7th"
+    elif "eighth place" in low:                 label = "8th"
+    elif "ninth place" in low:                  label = "9th"
+    elif "tenth place" in low:                  label = "10th"
+    elif "eleventh place" in low:               label = "11th"
+    elif "twelfth place" in low:                label = "12th"
+    elif re.search(r"\bbottom\s+(two|three|four|five|six|seven|eight|\d+)\b", low):
+        label = "Eliminated"  # "Bottom Four" = group-eliminated in same event
+    elif "champion mercenary" in low:            label = "Mercenary"
     elif "medically" in low or "medical" in low: label = "Medical DQ"
     elif "disqualif" in low:                    label = "Disqualified"
     elif "quit" in low:                         label = "Quit"

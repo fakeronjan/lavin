@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 1.8,
-    "peak_rating": 1.052,
+    "peak_rating": 1.057,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.391,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.662,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
-    "n_snapshots": 8,
+    "n_snapshots": 7,
     "championships": 1,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
@@ -27,12 +27,12 @@
       "finish": "Eliminated in An Era Tradition",
       "finish_label": "Eliminated",
       "finish_episode": "An Era Tradition",
-      "elim_position": 6,
-      "elim_total": 13,
+      "elim_position": 7,
+      "elim_total": 15,
       "eliminated_by": [
         "Tina Barta"
       ],
-      "rating_at_end": -0.546,
+      "rating_at_end": -0.662,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -90,7 +90,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.178,
+      "rating_at_end": 0.177,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -99,24 +99,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.178
+      "rating": 0.177
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.598
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 1.032
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.546
+      "rating": -0.662
     }
   ]
 }

@@ -6,7 +6,7 @@
     "era_rating": 0.7,
     "peak_rating": 0.554,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.215,
+    "active_rating": 0.182,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
     "n_snapshots": 9,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": 0.04,
+      "rating_at_end": 0.091,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Evelyn Smith"
       ],
-      "rating_at_end": -0.315,
+      "rating_at_end": -0.313,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -101,24 +101,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 210,
+      "ranking_id": 225,
       "season_id": "s12_fresh_meat",
       "rating": 0.554
     },
     {
-      "ranking_id": 226,
+      "ranking_id": 241,
       "season_id": "s13_the_duel",
       "rating": 0.065
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.315
+      "rating": -0.313
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.04
+      "rating": 0.091
     }
   ]
 }

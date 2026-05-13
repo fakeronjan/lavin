@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.154,
+    "peak_rating": 0.161,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.432,
+    "active_rating": -0.62,
     "active_season_id": "s31_vendettas",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -14,7 +14,7 @@
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
-    "elim_losses": 2,
+    "elim_losses": 3,
     "daily_wins": 2
   },
   "seasons": [
@@ -27,10 +27,12 @@
       "finish": "Eliminated in Road to Redemption",
       "finish_label": "Eliminated",
       "finish_episode": "Road to Redemption",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.405,
+      "elim_position": 3,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Amanda Garcia"
+      ],
+      "rating_at_end": -0.556,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -45,12 +47,12 @@
       "finish": "Eliminated in Four Tickets to Paradise",
       "finish_label": "Eliminated",
       "finish_episode": "Four Tickets to Paradise",
-      "elim_position": 2,
-      "elim_total": 6,
+      "elim_position": 3,
+      "elim_total": 9,
       "eliminated_by": [
         "Sylvia Elsrode"
       ],
-      "rating_at_end": -0.137,
+      "rating_at_end": -0.153,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,7 +72,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": 0.154,
+      "rating_at_end": 0.161,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -79,19 +81,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.154
+      "rating": 0.161
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.137
+      "rating": -0.153
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.405
+      "rating": -0.556
     }
   ]
 }

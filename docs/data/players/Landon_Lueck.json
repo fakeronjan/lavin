@@ -3,10 +3,10 @@
   "safe_name": "Landon_Lueck",
   "gender": "M",
   "career": {
-    "era_rating": 2.2,
-    "peak_rating": 1.131,
+    "era_rating": 2.3,
+    "peak_rating": 1.129,
     "peak_season_id": "s21_rivals",
-    "active_rating": 1.131,
+    "active_rating": 1.129,
     "active_season_id": "s21_rivals",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.995,
+      "rating_at_end": 1.011,
       "partner": "Carley Johnson",
       "partners_history": [
         "Carley Johnson"
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": -0.11,
+      "rating_at_end": -0.045,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -97,24 +97,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": 0.666
     },
     {
-      "ranking_id": 149,
+      "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
       "rating": 0.58
     },
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.11
+      "rating": -0.045
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.995
+      "rating": 1.011
     }
   ]
 }

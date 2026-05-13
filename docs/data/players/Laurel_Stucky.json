@@ -3,18 +3,18 @@
   "safe_name": "Laurel_Stucky",
   "gender": "F",
   "career": {
-    "era_rating": 4.1,
-    "peak_rating": 1.238,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.182,
+    "era_rating": 3.7,
+    "peak_rating": 0.975,
+    "peak_season_id": "s26_battle_of_the_exes_ii",
+    "active_rating": -0.434,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
-    "n_snapshots": 17,
+    "n_snapshots": 16,
     "championships": 1,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
     "elim_wins": 11,
-    "elim_losses": 2,
+    "elim_losses": 4,
     "daily_wins": 14
   },
   "seasons": [
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.048,
+      "rating_at_end": -0.169,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -42,13 +42,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
+      "finish": "Champion Mercenary",
+      "finish_label": "Mercenary",
       "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.417,
+      "elim_position": 6,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Ravyn Rochelle"
+      ],
+      "rating_at_end": -0.511,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,9 +62,9 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Come Michele or High Water",
+      "finish_label": "Eliminated",
+      "finish_episode": "Come Michele or High Water",
       "elim_position": 6,
       "elim_total": 12,
       "eliminated_by": [
@@ -91,7 +93,7 @@
       "eliminated_by": [
         "Natalie Duran"
       ],
-      "rating_at_end": 0.361,
+      "rating_at_end": 0.401,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -109,7 +111,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.374,
+      "rating_at_end": 0.215,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -124,10 +126,12 @@
       "finish": "Eliminated in Caged",
       "finish_label": "Eliminated",
       "finish_episode": "Caged",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.396,
+      "elim_position": 9,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Camila Nakagawa"
+      ],
+      "rating_at_end": 0.115,
       "partner": "Cara Maria Sorbello",
       "partners_history": [
         "Cara Maria Sorbello",
@@ -148,7 +152,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.926,
+      "rating_at_end": 0.939,
       "partner": "Cohutta Grindstaff",
       "partners_history": [
         "Cohutta Grindstaff",
@@ -169,7 +173,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.593,
+      "rating_at_end": 0.592,
       "partner": "Cara Maria Sorbello",
       "partners_history": [
         "Cara Maria Sorbello"
@@ -189,7 +193,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.639,
+      "rating_at_end": 0.643,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -207,7 +211,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.696,
+      "rating_at_end": 0.697,
       "partner": "Kenny Santucci",
       "partners_history": [
         "Kenny Santucci"
@@ -218,54 +222,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.696
+      "rating": 0.697
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.639
+      "rating": 0.643
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.593
+      "rating": 0.592
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.926
+      "rating": 0.939
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.396
+      "rating": 0.115
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.374
+      "rating": 0.215
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.361
+      "rating": 0.401
     },
     {
-      "ranking_id": 903,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
       "rating": 0.068
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.417
+      "rating": -0.511
     },
     {
-      "ranking_id": 955,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.048
+      "rating": -0.169
     }
   ]
 }

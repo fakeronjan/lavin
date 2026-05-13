@@ -3,18 +3,18 @@
   "safe_name": "Abram_Boise",
   "gender": "M",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.569,
+    "era_rating": 1.1,
+    "peak_rating": 0.573,
     "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.646,
-    "active_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.358,
+    "active_season_id": "s28_rivals_iii",
     "n_seasons": 9,
-    "n_snapshots": 16,
+    "n_snapshots": 15,
     "championships": 2,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
-    "elim_losses": 6,
+    "elim_losses": 7,
     "daily_wins": 4
   },
   "seasons": [
@@ -27,12 +27,12 @@
       "finish": "Eliminated in Blood Versus Love",
       "finish_label": "Eliminated",
       "finish_episode": "Blood Versus Love",
-      "elim_position": 4,
-      "elim_total": 6,
+      "elim_position": 7,
+      "elim_total": 10,
       "eliminated_by": [
-        "Mike Boise"
+        "Jamie Banks"
       ],
-      "rating_at_end": 0.022,
+      "rating_at_end": -0.064,
       "partner": "Mike Boise",
       "partners_history": [
         "Mike Boise"
@@ -90,10 +90,12 @@
       "finish": "Eliminated in Calling It Quits",
       "finish_label": "Quit",
       "finish_episode": "Calling It Quits",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.26,
+      "elim_position": 1,
+      "elim_total": 3,
+      "eliminated_by": [
+        "Johnny Bananas"
+      ],
+      "rating_at_end": 0.149,
       "partner": "Kenny Santucci",
       "partners_history": [
         "Kenny Santucci"
@@ -113,7 +115,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.569,
+      "rating_at_end": 0.573,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -169,7 +171,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.208,
+      "rating_at_end": 0.236,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -189,7 +191,7 @@
       "eliminated_by": [
         "Mike Mizanin"
       ],
-      "rating_at_end": -0.654,
+      "rating_at_end": -0.632,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -198,49 +200,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.654
+      "rating": -0.632
     },
     {
-      "ranking_id": 88,
+      "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.208
+      "rating": 0.236
     },
     {
-      "ranking_id": 116,
+      "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
       "rating": 0.097
     },
     {
-      "ranking_id": 133,
+      "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
       "rating": -0.022
     },
     {
-      "ranking_id": 242,
+      "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.569
+      "rating": 0.573
     },
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.26
+      "rating": 0.149
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
       "rating": 0.094
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.275
     },
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.022
+      "rating": -0.064
     }
   ]
 }

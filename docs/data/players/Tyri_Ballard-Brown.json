@@ -6,7 +6,7 @@
     "era_rating": 0.0,
     "peak_rating": -0.19,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.398,
+    "active_rating": -0.349,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 9,
@@ -79,7 +79,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.528,
+      "rating_at_end": -0.527,
       "partner": "Davis Mallory",
       "partners_history": [
         "Davis Mallory"
@@ -96,12 +96,12 @@
       "finish": "Eliminated in Ev vs. the Island",
       "finish_label": "Eliminated",
       "finish_episode": "Ev vs. the Island",
-      "elim_position": 1,
-      "elim_total": 2,
+      "elim_position": 2,
+      "elim_total": 3,
       "eliminated_by": [
         "Dan Walsh"
       ],
-      "rating_at_end": -0.484,
+      "rating_at_end": -0.485,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -119,7 +119,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.531,
+      "rating_at_end": -0.53,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -139,7 +139,7 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.899,
+      "rating_at_end": -0.895,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -148,32 +148,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 242,
-      "season_id": "s14_the_inferno_3",
-      "rating": -0.899
-    },
-    {
       "ranking_id": 258,
+      "season_id": "s14_the_inferno_3",
+      "rating": -0.895
+    },
+    {
+      "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.531
+      "rating": -0.53
     },
     {
-      "ranking_id": 263,
+      "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.484
+      "rating": -0.485
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.528
+      "rating": -0.527
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.19
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.558
     }

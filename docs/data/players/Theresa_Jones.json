@@ -3,13 +3,13 @@
   "safe_name": "Theresa_Jones",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.818,
-    "peak_season_id": "s29_invasion_of_the_champions",
+    "era_rating": 0.6,
+    "peak_rating": 0.791,
+    "peak_season_id": "s28_rivals_iii",
     "active_rating": 0.026,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 7,
-    "n_snapshots": 12,
+    "n_snapshots": 11,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -24,15 +24,15 @@
       "season_name": "Double Agents",
       "year": 2020,
       "label": "S36 Double Agents (2020)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
+      "finish": "Eliminated in Lady Vengeance",
+      "finish_label": "Eliminated",
+      "finish_episode": "Lady Vengeance",
       "elim_position": 3,
       "elim_total": 7,
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": 0.104,
+      "rating_at_end": 0.153,
       "partner": "Jay Starrett",
       "partners_history": [
         "Jay Starrett",
@@ -53,7 +53,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.416,
+      "rating_at_end": 0.426,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Wes Bergmann",
@@ -76,7 +76,7 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.066,
+      "rating_at_end": -0.057,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -123,7 +123,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.393,
+      "rating_at_end": -0.398,
       "partner": "Camila Nakagawa",
       "partners_history": [
         "Camila Nakagawa"
@@ -145,7 +145,7 @@
       "eliminated_by": [
         "Tori Hall"
       ],
-      "rating_at_end": -0.302,
+      "rating_at_end": -0.306,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -166,7 +166,7 @@
         "Jenn Grijalva",
         "Noor Jehangir"
       ],
-      "rating_at_end": -0.424,
+      "rating_at_end": -0.422,
       "partner": "Ryan Kehoe",
       "partners_history": [
         "Ryan Kehoe"
@@ -177,39 +177,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.424
+      "rating": -0.422
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.302
+      "rating": -0.306
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.393
+      "rating": -0.398
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.289
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.066
+      "rating": -0.057
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.416
+      "rating": 0.426
     },
     {
-      "ranking_id": 815,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.104
+      "rating": 0.153
     }
   ]
 }

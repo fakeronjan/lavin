@@ -3,19 +3,19 @@
   "safe_name": "Frank_Fox",
   "gender": "M",
   "career": {
-    "era_rating": 1.8,
+    "era_rating": 2.0,
     "peak_rating": 0.787,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.351,
+    "active_rating": -0.457,
     "active_season_id": "s31_vendettas",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 1,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
-    "elim_wins": 1,
+    "elim_wins": 3,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -28,11 +28,11 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 7,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": -0.351,
+      "rating_at_end": -0.457,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -50,7 +50,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.449,
+      "rating_at_end": 0.599,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -99,24 +99,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.581
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 0.787
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.449
+      "rating": 0.599
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.351
+      "rating": -0.457
     }
   ]
 }

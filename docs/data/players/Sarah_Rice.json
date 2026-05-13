@@ -3,13 +3,13 @@
   "safe_name": "Sarah_Rice",
   "gender": "F",
   "career": {
-    "era_rating": 3.2,
-    "peak_rating": 1.04,
+    "era_rating": 3.3,
+    "peak_rating": 1.138,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": 0.972,
-    "active_season_id": "s31_vendettas",
+    "active_rating": 0.998,
+    "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 9,
-    "n_snapshots": 14,
+    "n_snapshots": 13,
     "championships": 2,
     "finals_reached": 5,
     "pre_anchor_titles": 0,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.874,
+      "rating_at_end": 0.88,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -50,7 +50,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.722,
+      "rating_at_end": 0.73,
       "partner": "Jordan Wiseley",
       "partners_history": [
         "Jordan Wiseley"
@@ -131,7 +131,7 @@
         "Jasmine Reynaud",
         "Jonna Mannion"
       ],
-      "rating_at_end": -0.172,
+      "rating_at_end": -0.175,
       "partner": "Katelynn Cusanelli",
       "partners_history": [
         "Katelynn Cusanelli"
@@ -151,7 +151,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.389,
+      "rating_at_end": 0.387,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -172,7 +172,7 @@
         "Laurel Stucky",
         "Kenny Santucci"
       ],
-      "rating_at_end": 0.155,
+      "rating_at_end": 0.154,
       "partner": "Vinny Foti",
       "partners_history": [
         "Vinny Foti"
@@ -192,7 +192,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.634,
+      "rating_at_end": 0.649,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -201,49 +201,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.634
+      "rating": 0.649
     },
     {
-      "ranking_id": 334,
+      "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.155
+      "rating": 0.154
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.389
+      "rating": 0.387
     },
     {
-      "ranking_id": 386,
+      "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.172
+      "rating": -0.175
     },
     {
-      "ranking_id": 419,
+      "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.716
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.463
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": -0.137
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.722
+      "rating": 0.73
     },
     {
-      "ranking_id": 610,
+      "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.874
+      "rating": 0.88
     }
   ]
 }

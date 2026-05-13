@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.146,
+    "peak_rating": -0.099,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.457,
+    "active_rating": -0.695,
     "active_season_id": "s21_rivals",
     "n_seasons": 3,
     "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 1,
+    "elim_wins": 0,
     "elim_losses": 1,
     "daily_wins": 1
   },
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.334,
+      "rating_at_end": -0.638,
       "partner": "",
       "partners_history": [],
       "team": "Grey Team",
@@ -48,7 +48,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.289,
+      "rating_at_end": -0.288,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -64,11 +64,11 @@
       "finish_label": "Eliminated",
       "finish_episode": "Duel Unto Others",
       "elim_position": 1,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.146,
+      "rating_at_end": -0.099,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -77,19 +77,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 283,
+      "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.146
+      "rating": -0.099
     },
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.289
+      "rating": -0.288
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.334
+      "rating": -0.638
     }
   ]
 }

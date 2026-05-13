@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.045,
+    "peak_rating": 0.08,
     "peak_season_id": "s25_free_agents",
-    "active_rating": 0.045,
+    "active_rating": 0.08,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
     "n_snapshots": 7,
@@ -28,11 +28,11 @@
       "finish_label": "Quit",
       "finish_episode": "Live Free or Die",
       "elim_position": 1,
-      "elim_total": 9,
+      "elim_total": 10,
       "eliminated_by": [
-        "Frank Sweeney"
+        "Frank Fox"
       ],
-      "rating_at_end": 0.045,
+      "rating_at_end": 0.08,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -90,7 +90,7 @@
       "eliminated_by": [
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.523,
+      "rating_at_end": -0.515,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -99,24 +99,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 301,
+      "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.523
+      "rating": -0.515
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 373,
       "season_id": "s20_cutthroat",
       "rating": -0.661
     },
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.017
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.045
+      "rating": 0.08
     }
   ]
 }

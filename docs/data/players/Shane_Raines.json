@@ -4,16 +4,16 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.128,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.318,
+    "peak_rating": 0.056,
+    "peak_season_id": "s30_xxx_dirty_30",
+    "active_rating": -0.259,
     "active_season_id": "s31_vendettas",
     "n_seasons": 2,
     "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
-    "elim_wins": 0,
+    "elim_wins": 1,
     "elim_losses": 0,
     "daily_wins": 0
   },
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.228,
+      "rating_at_end": 0.056,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -48,7 +48,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.128,
+      "rating_at_end": -0.169,
       "partner": "Tony Raines",
       "partners_history": [],
       "team": "",
@@ -57,14 +57,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 577,
+      "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.128
+      "rating": -0.169
     },
     {
-      "ranking_id": 646,
+      "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.228
+      "rating": 0.056
     }
   ]
 }

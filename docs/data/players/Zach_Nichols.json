@@ -3,13 +3,13 @@
   "safe_name": "Zach_Nichols",
   "gender": "M",
   "career": {
-    "era_rating": 2.7,
-    "peak_rating": 0.987,
+    "era_rating": 2.6,
+    "peak_rating": 0.973,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.235,
+    "active_rating": 0.238,
     "active_season_id": "s36_double_agents",
     "n_seasons": 9,
-    "n_snapshots": 14,
+    "n_snapshots": 13,
     "championships": 1,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
@@ -94,7 +94,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.987,
+      "rating_at_end": 0.973,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -109,12 +109,12 @@
       "finish": "Eliminated in Achy Breaky Heart",
       "finish_label": "Eliminated",
       "finish_episode": "Achy Breaky Heart",
-      "elim_position": 2,
-      "elim_total": 5,
+      "elim_position": 5,
+      "elim_total": 9,
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.059,
+      "rating_at_end": -0.026,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -135,7 +135,7 @@
         "Jordan Wiseley",
         "Sarah Rice"
       ],
-      "rating_at_end": 0.105,
+      "rating_at_end": 0.072,
       "partner": "Jonna Mannion",
       "partners_history": [
         "Jonna Mannion"
@@ -155,7 +155,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.406,
+      "rating_at_end": 0.368,
       "partner": "CT Tamburello",
       "partners_history": [
         "CT Tamburello"
@@ -209,47 +209,47 @@
   ],
   "timeline": [
     {
-      "ranking_id": 464,
+      "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.589
     },
     {
-      "ranking_id": 501,
+      "ranking_id": 521,
       "season_id": "s24_rivals_ii",
       "rating": 0.225
     },
     {
-      "ranking_id": 522,
+      "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.406
+      "rating": 0.368
     },
     {
-      "ranking_id": 563,
+      "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.105
+      "rating": 0.072
     },
     {
-      "ranking_id": 622,
+      "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.059
+      "rating": -0.026
     },
     {
-      "ranking_id": 665,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.987
+      "rating": 0.973
     },
     {
-      "ranking_id": 726,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
       "rating": -0.429
     },
     {
-      "ranking_id": 763,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.031
     },
     {
-      "ranking_id": 779,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.34
     }

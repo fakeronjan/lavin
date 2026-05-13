@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.08,
+    "peak_rating": 0.079,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": -0.63,
+    "active_rating": -0.472,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -24,15 +24,15 @@
       "season_name": "Battle for a New Champion",
       "year": 2023,
       "label": "S39 Battle for a New Champion (2023)",
-      "finish": "",
-      "finish_label": "",
-      "finish_episode": "",
-      "elim_position": 6,
-      "elim_total": 7,
+      "finish": "Eliminated in Family Knows Best",
+      "finish_label": "Eliminated",
+      "finish_episode": "Family Knows Best",
+      "elim_position": 8,
+      "elim_total": 9,
       "eliminated_by": [
         "Jay Starrett"
       ],
-      "rating_at_end": -0.594,
+      "rating_at_end": -0.389,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.079,
       "partner": "Emy Alupei",
       "partners_history": [
         "Emy Alupei",
@@ -64,14 +64,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 849,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.08
+      "rating": 0.079
     },
     {
-      "ranking_id": 918,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.594
+      "rating": -0.389
     }
   ]
 }
