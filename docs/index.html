@@ -264,6 +264,10 @@
 
   /* Season-name cell (DUNCAN-aligned: teal, bold, no wrap) */
   .season-cell { font-weight: 700; color: #1a6b8a; white-space: nowrap; }
+  /* Champions tab column shading (DUNCAN-aligned gold + silver tints on
+     tbody only; header stays the standard teal+pink) */
+  tbody td.col-champ { background: #fffdf3; }
+  tbody td.col-ru    { background: #fafafa; }
   .season-cell.linked { cursor: pointer; }
   .season-cell.linked:hover { text-decoration: underline; }
 
@@ -786,14 +790,24 @@ function renderChampions() {
   }
   const seasons = Object.values(bySeason).sort((a, b) => b.season_num - a.season_num);
 
-  const winnerCell = arr => arr.length
+  // Cell renderers — DUNCAN-aligned: emoji replaces "#" prefix, count is
+  // small grey trailing the player name, champion column gets pale-gold
+  // background (.col-champ), runner-up column gets silver (.col-ru).
+  const champCell = arr => arr.length
     ? arr.map(c => {
-        const total = c.championship_no ? ` <span style="color:#888;font-size:11px">(#${c.championship_no})</span>` : '';
-        return `<span class="finish-badge finish-champion">🥇</span><span class="player linked" data-player="${c.player}">${c.player}</span>${total}`;
+        const total = c.championship_no
+          ? ` <span style="color:#888;font-size:11px">${c.championship_no} 🥇</span>`
+          : '';
+        return `<span class="player linked" data-player="${c.player}">${c.player}</span>${total}`;
       }).join('<br>')
     : '<span style="color:#bbb">—</span>';
   const ruCell = arr => arr.length
-    ? arr.map(c => `<span class="finish-badge finish-runner">🥈</span><span class="player linked" data-player="${c.player}">${c.player}</span>`).join('<br>')
+    ? arr.map(c => {
+        const total = c.runner_up_no
+          ? ` <span style="color:#888;font-size:11px">${c.runner_up_no} 🥈</span>`
+          : '';
+        return `<span class="player linked" data-player="${c.player}">${c.player}</span>${total}`;
+      }).join('<br>')
     : '<span style="color:#bbb">—</span>';
 
   // Pre-anchor seasons (S2-S4) aren't in seasons_index.json (Standings dropdown
@@ -801,13 +815,15 @@ function renderChampions() {
   const seasonCell = s => s.pre_anchor
     ? `<td class="season-cell">${s.label} <sup style="color:#888">†</sup></td>`
     : `<td class="season-cell linked" data-season-id="${s.season_id}">${s.label}</td>`;
+  // Group-by-role layout: champions (M, F) share .col-champ gold; runners-up
+  // (M, F) share .col-ru silver. Matches the DUNCAN League History pattern.
   const rows = seasons.map(s => `
     <tr${s.pre_anchor ? ' style="background:#fafafa"' : ''}>
       ${seasonCell(s)}
-      <td>${winnerCell(s.M.winners)}</td>
-      <td>${ruCell(s.M.runners_up)}</td>
-      <td>${winnerCell(s.F.winners)}</td>
-      <td>${ruCell(s.F.runners_up)}</td>
+      <td class="col-champ">${champCell(s.M.winners)}</td>
+      <td class="col-champ">${champCell(s.F.winners)}</td>
+      <td class="col-ru">${ruCell(s.M.runners_up)}</td>
+      <td class="col-ru">${ruCell(s.F.runners_up)}</td>
     </tr>
   `).join('');
   const footnote = anyPreAnchor
@@ -817,8 +833,10 @@ function renderChampions() {
     <table>
       <thead><tr>
         <th>Season</th>
-        <th>Men's Winner</th><th>Men's Runner-Up</th>
-        <th>Women's Winner</th><th>Women's Runner-Up</th>
+        <th class="col-champ">Men's Champion <span class="finish-badge finish-champion">🥇</span></th>
+        <th class="col-champ">Women's Champion <span class="finish-badge finish-champion">🥇</span></th>
+        <th class="col-ru">Men's Runner-Up <span class="finish-badge finish-runner">🥈</span></th>
+        <th class="col-ru">Women's Runner-Up <span class="finish-badge finish-runner">🥈</span></th>
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>

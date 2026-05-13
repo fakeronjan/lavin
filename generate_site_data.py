@@ -430,6 +430,7 @@ def main():
     # counts ("3rd title", "career #2", etc.).
     s5_asc = s5plus.sort_values("season_num", ascending=True)
     cum_champs = {}  # player → running championships count (inclusive at this season)
+    cum_runner_ups = {}  # player → running runner-up count
 
     # Seed cum_champs with pre-anchor (S2-S4) titles + emit them as champion
     # entries at the bottom of the list. Sorted by season_num ascending so
@@ -469,9 +470,13 @@ def main():
             rating_row = end_snap[end_snap["player"] == p]
             rating = float(rating_row.iloc[0]["rating"]) if len(rating_row) else None
             count_now = None
+            ru_count_now = None
             if role == "winner":
                 cum_champs[p] = cum_champs.get(p, 0) + 1
                 count_now = cum_champs[p]
+            else:  # runner_up
+                cum_runner_ups[p] = cum_runner_ups.get(p, 0) + 1
+                ru_count_now = cum_runner_ups[p]
             return g, {
                 "season_id": sid,
                 "season_num": int(r["season_num"]),
@@ -481,6 +486,7 @@ def main():
                 "role": role,
                 "player": p,
                 "championship_no": count_now,  # this player's nth championship (only for winners)
+                "runner_up_no": ru_count_now,   # this player's nth runner-up finish
                 "rating_at_end": round(rating, 3) if rating is not None else None,
             }
 
