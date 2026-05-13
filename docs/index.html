@@ -28,16 +28,22 @@
   }
   header p.subtitle {
     font-size: 12px;
-    color: #ccc;
+    color: rgba(255,255,255,0.75);
     margin-top: 2px;
-    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
   header p.model-note {
     font-size: 12px;
-    color: #aaa;
+    color: rgba(255,255,255,0.82);
     max-width: 720px;
     margin-top: 8px;
     line-height: 1.5;
+  }
+  header p.updated {
+    font-size: 11px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 6px;
   }
 
   nav {
@@ -251,7 +257,8 @@
     <strong>PEAK</strong> = highest rating ever achieved.
     <strong>ACTIVE</strong> = rating at most recent appearance.
   </p>
-  <p id="last-updated" style="font-size: 11px; color: #999; margin-top: 6px;">Loading...</p>
+  <p class="updated" id="last-updated">Loading...</p>
+  <p class="updated" id="last-refreshed" style="font-size:11px;color:#999;margin-top:-4px"></p>
 </header>
 
 <nav>
