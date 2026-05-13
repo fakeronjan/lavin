@@ -59,6 +59,69 @@ def extract_pairs_from_game_summary(wt):
             yield current_episode, [icons[0].strip(), icons[1].strip()]
 
 
+def extract_strikethrough_pairs(wt):
+    """
+    Yield (short_name_a, short_name_b, struck_a, struck_b) for pair labels
+    in Episode Progress that contain <s>...</s> strikethrough markers.
+
+    Strikethrough indicates a player who got reassigned OR a pair-mate who
+    quit. These cases aren't reflected in the elim chart because the affected
+    pair never made it to elim. Captures cases like:
+      ''<s>Cooke</s> & Naomi''   (Cooke moved to a new pair; Naomi quit)
+      ''Adam R. & <s>Leroy</s>'' (Adam DQ'd; Leroy got reassigned)
+    """
+    pattern = re.compile(
+        r"''(?:<s>)?([^<&'']+?)(?:</s>)?\s*&\s*(?:<s>)?([^<'']+?)(?:</s>)?''",
+        re.DOTALL,
+    )
+    for line in wt.splitlines():
+        if "<s>" not in line:
+            continue
+        m = pattern.search(line)
+        if not m:
+            continue
+        a, b = m.group(1).strip(), m.group(2).strip()
+        struck_a = f"<s>{a}</s>" in line or f"<s>{a} " in line
+        struck_b = f"<s>{b}</s>" in line or f"{b}</s>" in line or f" <s>{b}" in line
+        yield a, b, struck_a, struck_b
+
+
+def match_short_to_full(short, cast_full_names):
+    """Match a short name (e.g. 'Cooke', 'Cara Maria', 'Adam R.') to a full
+    cast name (e.g. 'Heather Cooke', 'Cara Maria Sorbello', 'Adam Royer').
+    Strategy: tokenize and match by prefix/suffix tokens. Strips trailing
+    dots and disambiguating initials ('Adam R.' → match 'Adam' first-token
+    against cast members with surnames starting 'R')."""
+    s = short.strip().rstrip(".")
+    s_lower = s.lower()
+    candidates = []
+    for full in cast_full_names:
+        full_lower = full.lower()
+        # Exact match
+        if full_lower == s_lower:
+            return full
+        # Prefix or suffix word match
+        full_tokens = full_lower.split()
+        s_tokens = s_lower.split()
+        # Multi-token prefix match: 'cara maria' → 'cara maria sorbello'
+        if len(s_tokens) > 1 and full_tokens[:len(s_tokens)] == s_tokens:
+            candidates.append(full)
+            continue
+        # Single-token: 'Cooke' → suffix; 'Naomi' → prefix
+        if len(s_tokens) == 1:
+            if s_tokens[0] == full_tokens[0] or s_tokens[0] == full_tokens[-1]:
+                candidates.append(full)
+                continue
+        # Disambiguating initial: 'Adam R.' → first-token 'Adam' + surname starting 'R'
+        if len(s_tokens) == 2 and len(s_tokens[1]) == 1:
+            if full_tokens[0] == s_tokens[0] and full_tokens[-1].startswith(s_tokens[1]):
+                candidates.append(full)
+                continue
+    if len(candidates) == 1:
+        return candidates[0]
+    return None  # ambiguous or no match
+
+
 def main():
     seasons = pd.read_csv(HERE / "seasons.csv")
     rows = []
@@ -91,6 +154,32 @@ def main():
                 phases = per_player_phases.setdefault(me, [])
                 if not phases or phases[-1] != them:
                     phases.append(them)
+
+        # Layer in pre-elim pair transitions from Episode Progress
+        # strikethrough rows (e.g. S24 ''<s>Cooke</s> & Naomi'' — Naomi quit
+        # before reaching an elim, so the elim chart never saw this pair).
+        cast_path = RAW / sid / "contestants.csv"
+        if cast_path.exists():
+            try:
+                cast = pd.read_csv(cast_path)
+                cast_names = [str(p) for p in cast["player"].dropna()]
+            except Exception:
+                cast_names = []
+            for a, b, struck_a, struck_b in extract_strikethrough_pairs(wt):
+                full_a = match_short_to_full(a, cast_names)
+                full_b = match_short_to_full(b, cast_names)
+                if not full_a or not full_b:
+                    continue
+                # The non-struck-through player had this as their ONLY pair
+                # (they quit/were DQ'd). PREPEND if not already first.
+                # The struck-through player had this as their FIRST pair
+                # before being reassigned. PREPEND too.
+                for me, them in [(full_a, full_b), (full_b, full_a)]:
+                    phases = per_player_phases.setdefault(me, [])
+                    if not phases:
+                        phases.append(them)
+                    elif phases[0] != them:
+                        phases.insert(0, them)
 
         # Emit one row per phase per player. Includes single-partner players
         # because the cast table sometimes leaves `pair_id` empty (e.g. when
