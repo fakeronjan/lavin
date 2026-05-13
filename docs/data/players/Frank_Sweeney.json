@@ -1,19 +1,19 @@
 {
-  "player": "Brandon Swift",
-  "safe_name": "Brandon_Swift",
+  "player": "Frank Sweeney",
+  "safe_name": "Frank_Sweeney",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.016,
+    "era_rating": 0.6,
+    "peak_rating": 0.626,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.313,
+    "active_rating": 0.262,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 1,
     "n_snapshots": 3,
     "championships": 0,
-    "elim_wins": 0,
-    "elim_losses": 1,
-    "daily_wins": 1
+    "elim_wins": 2,
+    "elim_losses": 0,
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -22,12 +22,12 @@
       "season_name": "Free Agents",
       "year": 2014,
       "label": "S25 Free Agents (2014)",
-      "finish": "Eliminated in Not So Trivial Pursuits",
-      "finish_label": "Eliminated",
-      "finish_episode": "Not So Trivial Pursuits",
-      "elim_position": 5,
-      "elim_total": 9,
-      "rating_at_end": 0.016,
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
+      "rating_at_end": 0.626,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -38,7 +38,7 @@
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.016
+      "rating": 0.626
     }
   ]
 }

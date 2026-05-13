@@ -3,16 +3,16 @@
   "safe_name": "Kyland_Young",
   "gender": "M",
   "career": {
-    "era_rating": 1.4,
-    "peak_rating": 0.813,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.528,
+    "era_rating": 1.2,
+    "peak_rating": 0.618,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": 0.568,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 3,
     "championships": 0,
-    "elim_wins": 5,
-    "elim_losses": 0,
+    "elim_wins": 6,
+    "elim_losses": 1,
     "daily_wins": 6
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.615,
+      "rating_at_end": 0.618,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -42,9 +42,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.813,
+      "elim_position": 7,
+      "elim_total": 7,
+      "rating_at_end": 0.608,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.813
+      "rating": 0.608
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.615
+      "rating": 0.618
     }
   ]
 }

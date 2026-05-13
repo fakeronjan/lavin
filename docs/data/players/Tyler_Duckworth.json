@@ -3,7 +3,7 @@
   "safe_name": "Tyler_Duckworth",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
+    "era_rating": 1.8,
     "peak_rating": 1.129,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
     "active_rating": 1.129,
@@ -11,9 +11,9 @@
     "n_seasons": 4,
     "n_snapshots": 11,
     "championships": 2,
-    "elim_wins": 3,
+    "elim_wins": 4,
     "elim_losses": 2,
-    "daily_wins": 6
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "At the End of the World",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.925,
+      "rating_at_end": 0.95,
       "partner": "Johnny Bananas",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Czechmate",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.767,
+      "rating_at_end": 0.81,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -61,7 +61,7 @@
       "finish_episode": "It's Personal",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.257,
+      "rating_at_end": -0.25,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -78,7 +78,7 @@
       "finish_episode": "Goodbye Tina and Tyler",
       "elim_position": 2,
       "elim_total": 8,
-      "rating_at_end": -0.646,
+      "rating_at_end": -0.687,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": -0.646
+      "rating": -0.687
     },
     {
-      "ranking_id": 262,
+      "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.257
+      "rating": -0.25
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": 0.767
+      "rating": 0.81
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": 0.925
+      "rating": 0.95
     }
   ]
 }

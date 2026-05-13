@@ -3,17 +3,17 @@
   "safe_name": "Aviv_Melmed",
   "gender": "F",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 1.016,
+    "era_rating": 0.9,
+    "peak_rating": 1.009,
     "peak_season_id": "s14_the_inferno_3",
-    "active_rating": 0.081,
+    "active_rating": 0.011,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 8,
     "championships": 1,
     "elim_wins": 2,
-    "elim_losses": 2,
-    "daily_wins": 7
+    "elim_losses": 3,
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -26,8 +26,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 7,
-      "elim_total": 7,
-      "rating_at_end": 0.081,
+      "elim_total": 8,
+      "rating_at_end": 0.011,
       "partner": "",
       "partners_history": [
         "Derek Chavez",
@@ -48,7 +48,7 @@
       "finish_episode": "Thinking Thin Era",
       "elim_position": 12,
       "elim_total": 13,
-      "rating_at_end": 0.17,
+      "rating_at_end": 0.061,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -65,7 +65,7 @@
       "finish_episode": "And the Winners Are...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.789,
+      "rating_at_end": 0.812,
       "partner": "Darrell Taylor",
       "partners_history": [],
       "team": "",
@@ -74,19 +74,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.789
+      "rating": 0.812
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.17
+      "rating": 0.061
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.081
+      "rating": 0.011
     }
   ]
 }

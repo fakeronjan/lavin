@@ -6,7 +6,7 @@
     "era_rating": 0.5,
     "peak_rating": 0.542,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.475,
+    "active_rating": -0.514,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 13,
@@ -27,7 +27,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 4,
       "elim_total": 13,
-      "rating_at_end": -0.446,
+      "rating_at_end": -0.491,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -61,7 +61,7 @@
       "finish_episode": "Blood Is Thicker Than Mud",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.086,
+      "rating_at_end": 0.084,
       "partner": "Anthony Cuomo",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.929,
+      "rating_at_end": -0.935,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -104,29 +104,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 267,
+      "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.929
+      "rating": -0.935
     },
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": 0.254
     },
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.086
+      "rating": 0.084
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
       "rating": 0.124
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.446
+      "rating": -0.491
     }
   ]
 }

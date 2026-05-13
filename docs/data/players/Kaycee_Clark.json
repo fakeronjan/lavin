@@ -3,15 +3,15 @@
   "safe_name": "Kaycee_Clark",
   "gender": "F",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 0.62,
+    "era_rating": 2.3,
+    "peak_rating": 0.707,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.405,
+    "active_rating": -0.39,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 7,
     "championships": 1,
-    "elim_wins": 4,
+    "elim_wins": 3,
     "elim_losses": 1,
     "daily_wins": 10
   },
@@ -27,7 +27,7 @@
       "finish_episode": "An Era of One",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.278,
+      "rating_at_end": -0.437,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.353,
+      "rating_at_end": 0.281,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 11,
       "elim_total": 12,
-      "rating_at_end": 0.394,
+      "rating_at_end": 0.331,
       "partner": "Kenny Clark",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.549,
+      "rating_at_end": 0.521,
       "partner": "",
       "partners_history": [
         "Emanuel Neagu",
@@ -98,7 +98,7 @@
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.459,
+      "rating_at_end": 0.491,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -115,7 +115,7 @@
       "finish_episode": "It's the End of the World As We Know It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.62,
+      "rating_at_end": 0.707,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -124,34 +124,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.62
+      "rating": 0.707
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.459
+      "rating": 0.491
     },
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.549
+      "rating": 0.521
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.394
+      "rating": 0.331
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.353
+      "rating": 0.281
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.278
+      "rating": -0.437
     }
   ]
 }

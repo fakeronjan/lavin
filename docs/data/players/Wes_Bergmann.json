@@ -3,10 +3,10 @@
   "safe_name": "Wes_Bergmann",
   "gender": "M",
   "career": {
-    "era_rating": 5.6,
-    "peak_rating": 0.901,
+    "era_rating": 5.7,
+    "peak_rating": 0.898,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.267,
+    "active_rating": 0.033,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 14,
     "n_snapshots": 25,
@@ -26,8 +26,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 2,
-      "elim_total": 8,
-      "rating_at_end": 0.098,
+      "elim_total": 9,
+      "rating_at_end": 0.259,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -43,8 +43,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Final Countdown",
       "elim_position": 5,
-      "elim_total": 6,
-      "rating_at_end": 0.296,
+      "elim_total": 8,
+      "rating_at_end": 0.327,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,8 +60,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "United We Stand, Divided We Fall",
       "elim_position": 2,
-      "elim_total": 7,
-      "rating_at_end": 0.345,
+      "elim_total": 8,
+      "rating_at_end": 0.342,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -78,7 +78,7 @@
       "finish_episode": "This Is the End",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.597,
+      "rating_at_end": 0.55,
       "partner": "",
       "partners_history": [
         "Dee Nguyen",
@@ -98,7 +98,7 @@
       "finish_episode": "Raging Bullies",
       "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": 0.114,
+      "rating_at_end": 0.134,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [],
       "team": "",
@@ -115,7 +115,7 @@
       "finish_episode": "Lovers in the Dark",
       "elim_position": 9,
       "elim_total": 9,
-      "rating_at_end": 0.648,
+      "rating_at_end": 0.65,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -166,7 +166,7 @@
       "finish_episode": "What's Love Got to Do with It?",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": 0.464,
+      "rating_at_end": 0.463,
       "partner": "Mandi Moyer",
       "partners_history": [],
       "team": "",
@@ -234,7 +234,7 @@
       "finish_episode": "The Big Payoff",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.477,
+      "rating_at_end": 0.418,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -251,7 +251,7 @@
       "finish_episode": "And the Winners Are...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.782,
+      "rating_at_end": 0.735,
       "partner": "Casey Cooper",
       "partners_history": [],
       "team": "",
@@ -260,74 +260,74 @@
   ],
   "timeline": [
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.782
+      "rating": 0.735
     },
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.477
+      "rating": 0.418
     },
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": 0.454
     },
     {
-      "ranking_id": 338,
+      "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
       "rating": -0.331
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": 0.31
     },
     {
-      "ranking_id": 423,
+      "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.464
+      "rating": 0.463
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.362
     },
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": 0.674
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.648
+      "rating": 0.65
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.114
+      "rating": 0.134
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.597
+      "rating": 0.55
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.345
+      "rating": 0.342
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.296
+      "rating": 0.327
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.098
+      "rating": 0.259
     }
   ]
 }

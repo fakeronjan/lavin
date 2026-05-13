@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.314,
+    "peak_rating": 0.264,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.134,
+    "active_rating": 0.164,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 6,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 5,
       "elim_total": 7,
-      "rating_at_end": 0.314,
+      "rating_at_end": 0.264,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -43,8 +43,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Mad World",
       "elim_position": 1,
-      "elim_total": 6,
-      "rating_at_end": -0.713,
+      "elim_total": 8,
+      "rating_at_end": -0.706,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.713
+      "rating": -0.706
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.314
+      "rating": 0.264
     }
   ]
 }

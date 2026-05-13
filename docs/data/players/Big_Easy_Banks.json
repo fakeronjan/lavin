@@ -3,10 +3,10 @@
   "safe_name": "Big_Easy_Banks",
   "gender": "M",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.724,
+    "era_rating": 1.2,
+    "peak_rating": 0.683,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.874,
+    "active_rating": -0.913,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 14,
@@ -46,8 +46,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Swat the Hell?",
       "elim_position": 4,
-      "elim_total": 8,
-      "rating_at_end": -0.094,
+      "elim_total": 9,
+      "rating_at_end": -0.09,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -64,7 +64,7 @@
       "finish_episode": "Dueling for Dunbar",
       "elim_position": 6,
       "elim_total": 10,
-      "rating_at_end": 0.099,
+      "rating_at_end": 0.098,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -98,7 +98,7 @@
       "finish_episode": "Friend or Foe?",
       "elim_position": 6,
       "elim_total": 8,
-      "rating_at_end": -0.103,
+      "rating_at_end": -0.175,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -115,7 +115,7 @@
       "finish_episode": "Game Over?",
       "elim_position": 3,
       "elim_total": 6,
-      "rating_at_end": 0.724,
+      "rating_at_end": 0.683,
       "partner": "Katie Cooley",
       "partners_history": [],
       "team": "",
@@ -124,32 +124,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.724
+      "rating": 0.683
     },
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": -0.103
+      "rating": -0.175
     },
     {
-      "ranking_id": 262,
+      "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
       "rating": 0.135
     },
     {
-      "ranking_id": 287,
+      "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.099
+      "rating": 0.098
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.094
+      "rating": -0.09
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.323
     }

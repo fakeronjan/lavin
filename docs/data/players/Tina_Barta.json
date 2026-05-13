@@ -3,17 +3,17 @@
   "safe_name": "Tina_Barta",
   "gender": "F",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.519,
+    "era_rating": 0.9,
+    "peak_rating": 0.523,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.041,
+    "active_rating": 0.009,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 14,
     "championships": 0,
     "elim_wins": 7,
     "elim_losses": 5,
-    "daily_wins": 5
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Trust in Your Era",
       "elim_position": 8,
       "elim_total": 13,
-      "rating_at_end": 0.033,
+      "rating_at_end": 0.007,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -44,7 +44,7 @@
       "finish_episode": "Goodbye Tina and Tyler",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.141,
+      "rating_at_end": 0.08,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "And the Winners Are...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.519,
+      "rating_at_end": 0.523,
       "partner": "Kenny Santucci",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.161,
+      "rating_at_end": 0.159,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -95,7 +95,7 @@
       "finish_episode": "Episode 16",
       "elim_position": 13,
       "elim_total": 13,
-      "rating_at_end": 0.151,
+      "rating_at_end": 0.163,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Holey Canoe",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": -0.258,
+      "rating_at_end": -0.233,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -123,32 +123,32 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.258
+      "rating": -0.233
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.151
+      "rating": 0.163
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.161
+      "rating": 0.159
     },
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.519
+      "rating": 0.523
     },
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.141
+      "rating": 0.08
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.033
+      "rating": 0.007
     }
   ]
 }

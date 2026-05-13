@@ -4,14 +4,14 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.023,
+    "peak_rating": -0.008,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.658,
+    "active_rating": -0.513,
     "active_season_id": "s32_final_reckoning",
     "n_seasons": 4,
     "n_snapshots": 6,
     "championships": 0,
-    "elim_wins": 1,
+    "elim_wins": 2,
     "elim_losses": 3,
     "daily_wins": 3
   },
@@ -27,7 +27,7 @@
       "finish_episode": "When Worlds Collide",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.023,
+      "rating_at_end": -0.008,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Guess Who's Coming to Dinner",
       "finish_label": "Eliminated",
       "finish_episode": "Guess Who's Coming to Dinner",
-      "elim_position": 4,
+      "elim_position": 5,
       "elim_total": 6,
-      "rating_at_end": -0.1,
+      "rating_at_end": -0.034,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Dirty Little Secret",
       "elim_position": 3,
       "elim_total": 5,
-      "rating_at_end": -0.82,
+      "rating_at_end": -0.816,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.82
+      "rating": -0.816
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
       "rating": -0.203
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.1
+      "rating": -0.034
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": -0.023
+      "rating": -0.008
     }
   ]
 }

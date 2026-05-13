@@ -3,13 +3,13 @@
   "safe_name": "Leroy_Garrett",
   "gender": "M",
   "career": {
-    "era_rating": 2.3,
-    "peak_rating": 0.518,
+    "era_rating": 2.4,
+    "peak_rating": 0.53,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.145,
+    "active_rating": -0.183,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 14,
-    "n_snapshots": 19,
+    "n_snapshots": 20,
     "championships": 0,
     "elim_wins": 8,
     "elim_losses": 6,
@@ -27,7 +27,7 @@
       "finish_episode": "They Are Like Cockroaches",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.145,
+      "rating_at_end": -0.183,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -44,7 +44,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 1,
       "elim_total": 15,
-      "rating_at_end": -0.271,
+      "rating_at_end": -0.294,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -61,7 +61,7 @@
       "finish_episode": "The World Is Not Enough",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.279,
+      "rating_at_end": 0.323,
       "partner": "",
       "partners_history": [
         "Kaycee Clark",
@@ -82,7 +82,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.083,
+      "rating_at_end": -0.08,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -97,9 +97,9 @@
       "finish": "Eliminated in In Love and War",
       "finish_label": "Eliminated",
       "finish_episode": "In Love and War",
-      "elim_position": 5,
+      "elim_position": 4,
       "elim_total": 7,
-      "rating_at_end": -0.756,
+      "rating_at_end": -0.749,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -116,7 +116,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.541,
+      "rating_at_end": -0.496,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -132,8 +132,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "A Million More Reasons",
       "elim_position": 6,
-      "elim_total": 6,
-      "rating_at_end": 0.025,
+      "elim_total": 7,
+      "rating_at_end": 0.011,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -150,7 +150,7 @@
       "finish_episode": "The Curse of the Black Skull",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.378,
+      "rating_at_end": 0.398,
       "partner": "Averey Tressler",
       "partners_history": [],
       "team": "",
@@ -167,7 +167,7 @@
       "finish_episode": "#Corneesa",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.41,
+      "rating_at_end": 0.413,
       "partner": "Candice Fowler",
       "partners_history": [],
       "team": "",
@@ -184,7 +184,7 @@
       "finish_episode": "The Greatest Love of All",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.518,
+      "rating_at_end": 0.53,
       "partner": "Theresa Jones",
       "partners_history": [
         "Nia Moore",
@@ -202,9 +202,9 @@
       "finish": "Eliminated in The $350,000 Pyramid",
       "finish_label": "Eliminated",
       "finish_episode": "The $350,000 Pyramid",
-      "elim_position": 8,
-      "elim_total": 8,
-      "rating_at_end": 0.258,
+      "elim_position": 9,
+      "elim_total": 9,
+      "rating_at_end": 0.251,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -267,74 +267,74 @@
   ],
   "timeline": [
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": 0.168
     },
     {
-      "ranking_id": 423,
+      "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.215
     },
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": 0.05
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.258
+      "rating": 0.251
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.518
+      "rating": 0.53
     },
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.41
+      "rating": 0.413
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.378
+      "rating": 0.398
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.025
+      "rating": 0.011
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": -0.541
+      "rating": -0.496
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.756
+      "rating": -0.749
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.083
+      "rating": -0.08
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.279
+      "rating": 0.323
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.271
+      "rating": -0.294
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.145
+      "rating": -0.183
     }
   ]
 }

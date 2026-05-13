@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.0,
-    "peak_rating": 0.602,
+    "peak_rating": 0.605,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.602,
+    "active_rating": 0.605,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -27,7 +27,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 3,
       "elim_total": 13,
-      "rating_at_end": 0.542,
+      "rating_at_end": 0.507,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,7 +44,7 @@
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.503,
+      "rating_at_end": 0.496,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 9,
       "elim_total": 12,
-      "rating_at_end": -0.226,
+      "rating_at_end": -0.055,
       "partner": "Nelson Thomas",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.226
+      "rating": -0.055
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.503
+      "rating": 0.496
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.542
+      "rating": 0.507
     }
   ]
 }

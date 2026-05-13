@@ -4,15 +4,15 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.253,
-    "peak_season_id": "s05_battle_of_the_seasons",
+    "peak_rating": -0.575,
+    "peak_season_id": "s09_battle_of_the_sexes_2",
     "active_rating": -0.648,
     "active_season_id": "s10_the_inferno_ii",
     "n_seasons": 3,
     "n_snapshots": 6,
     "championships": 1,
-    "elim_wins": 1,
-    "elim_losses": 0,
+    "elim_wins": 0,
+    "elim_losses": 1,
     "daily_wins": 0
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "Seven Rings of Saturn",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.469,
+      "rating_at_end": -0.603,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Hang Man",
       "finish_label": "Eliminated",
       "finish_episode": "Hang Man",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.253,
+      "elim_position": 2,
+      "elim_total": 6,
+      "rating_at_end": -0.594,
       "partner": "Veronica Portillo",
       "partners_history": [],
       "team": "",
@@ -55,12 +55,12 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.253
+      "rating": -0.594
     },
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.469
+      "rating": -0.603
     }
   ]
 }

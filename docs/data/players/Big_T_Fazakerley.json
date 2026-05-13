@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.258,
-    "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.246,
+    "peak_rating": 0.259,
+    "peak_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.259,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 8,
@@ -26,8 +26,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 2,
-      "elim_total": 5,
-      "rating_at_end": 0.106,
+      "elim_total": 7,
+      "rating_at_end": 0.065,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Riverdance",
       "elim_position": 10,
       "elim_total": 11,
-      "rating_at_end": -0.104,
+      "rating_at_end": -0.176,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in A Most Wanted Man",
       "finish_label": "Eliminated",
       "finish_episode": "A Most Wanted Man",
-      "elim_position": 5,
+      "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": -0.073,
+      "rating_at_end": -0.062,
       "partner": "",
       "partners_history": [
         "Joseph Allen",
@@ -83,7 +83,7 @@
       "finish_episode": "Backstabber",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.49,
+      "rating_at_end": -0.449,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -100,7 +100,7 @@
       "finish_episode": "God Save the Queen",
       "elim_position": 1,
       "elim_total": 7,
-      "rating_at_end": -0.523,
+      "rating_at_end": -0.505,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -109,29 +109,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.523
+      "rating": -0.505
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.49
+      "rating": -0.449
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.073
+      "rating": -0.062
     },
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.104
+      "rating": -0.176
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.106
+      "rating": 0.065
     }
   ]
 }

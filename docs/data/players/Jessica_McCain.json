@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.199,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.324,
+    "peak_rating": 0.265,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.265,
     "active_season_id": "s31_vendettas",
     "n_seasons": 4,
     "n_snapshots": 8,
@@ -44,7 +44,7 @@
       "finish_episode": "Where Is the Love?",
       "elim_position": 1,
       "elim_total": 8,
-      "rating_at_end": -0.408,
+      "rating_at_end": -0.392,
       "partner": "Dustin Zito",
       "partners_history": [],
       "team": "",
@@ -60,8 +60,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Best Friends for Never",
       "elim_position": 9,
-      "elim_total": 10,
-      "rating_at_end": -0.481,
+      "elim_total": 11,
+      "rating_at_end": -0.469,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,22 +87,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": -0.452
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.481
+      "rating": -0.469
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.408
+      "rating": -0.392
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
       "rating": 0.119
     }

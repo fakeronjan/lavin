@@ -3,15 +3,15 @@
   "safe_name": "Derrick_Kosinski",
   "gender": "M",
   "career": {
-    "era_rating": 3.0,
-    "peak_rating": 0.889,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": 0.091,
+    "era_rating": 3.8,
+    "peak_rating": 0.836,
+    "peak_season_id": "s30_xxx_dirty_30",
+    "active_rating": 0.065,
     "active_season_id": "s41_vets_and_new_threats",
-    "n_seasons": 12,
-    "n_snapshots": 18,
+    "n_seasons": 13,
+    "n_snapshots": 19,
     "championships": 3,
-    "elim_wins": 11,
+    "elim_wins": 13,
     "elim_losses": 8,
     "daily_wins": 21
   },
@@ -27,7 +27,7 @@
       "finish_episode": "Punch You in Your Face",
       "elim_position": 7,
       "elim_total": 9,
-      "rating_at_end": 0.091,
+      "rating_at_end": 0.065,
       "partner": "",
       "partners_history": [
         "Blue Kim",
@@ -47,10 +47,27 @@
       "finish_episode": "The Era of the Gladiator",
       "elim_position": 10,
       "elim_total": 15,
-      "rating_at_end": 0.356,
+      "rating_at_end": 0.327,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
+      "forced_exit": false
+    },
+    {
+      "season_id": "s31_vendettas",
+      "season_num": 31,
+      "season_name": "Vendettas",
+      "year": 2018,
+      "label": "S31 Vendettas (2018)",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
+      "rating_at_end": 0.797,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
       "forced_exit": false
     },
     {
@@ -64,7 +81,7 @@
       "finish_episode": "One in a Million",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.83,
+      "rating_at_end": 0.836,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -79,9 +96,9 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 8,
-      "elim_total": 8,
-      "rating_at_end": 0.401,
+      "elim_position": 9,
+      "elim_total": 9,
+      "rating_at_end": 0.402,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -115,7 +132,7 @@
       "finish_episode": "Sailing to Victory",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.322,
+      "rating_at_end": 0.347,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -132,7 +149,7 @@
       "finish_episode": "The Big Five",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.12,
+      "rating_at_end": 0.154,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -149,7 +166,7 @@
       "finish_episode": "Until Next Time Derrick",
       "elim_position": 5,
       "elim_total": 8,
-      "rating_at_end": 0.071,
+      "rating_at_end": 0.056,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -166,7 +183,7 @@
       "finish_episode": "The Death Roll",
       "elim_position": 6,
       "elim_total": 6,
-      "rating_at_end": -0.036,
+      "rating_at_end": -0.033,
       "partner": "Diem Brown",
       "partners_history": [],
       "team": "",
@@ -217,7 +234,7 @@
       "finish_episode": "Episode 6",
       "elim_position": 5,
       "elim_total": 14,
-      "rating_at_end": -0.345,
+      "rating_at_end": -0.306,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -228,7 +245,7 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.345
+      "rating": -0.306
     },
     {
       "ranking_id": 133,
@@ -241,49 +258,54 @@
       "rating": 0.157
     },
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": -0.036
+      "rating": -0.033
     },
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.071
+      "rating": 0.056
     },
     {
-      "ranking_id": 246,
+      "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.12
+      "rating": 0.154
     },
     {
-      "ranking_id": 267,
+      "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": 0.322
+      "rating": 0.347
     },
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": 0.62
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": 0.401
+      "rating": 0.402
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.83
+      "rating": 0.836
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 665,
+      "season_id": "s31_vendettas",
+      "rating": 0.797
+    },
+    {
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.356
+      "rating": 0.327
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.091
+      "rating": 0.065
     }
   ]
 }

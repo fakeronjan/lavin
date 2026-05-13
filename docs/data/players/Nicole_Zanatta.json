@@ -3,15 +3,15 @@
   "safe_name": "Nicole_Zanatta",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.253,
-    "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.408,
-    "active_season_id": "s37_spies_lies_allies",
+    "era_rating": 0.3,
+    "peak_rating": 0.204,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": -0.461,
+    "active_season_id": "s38_ride_or_dies",
     "n_seasons": 3,
-    "n_snapshots": 6,
+    "n_snapshots": 7,
     "championships": 0,
-    "elim_wins": 1,
+    "elim_wins": 0,
     "elim_losses": 0,
     "daily_wins": 2
   },
@@ -27,7 +27,7 @@
       "finish_episode": "Enemy of the State",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.413,
+      "rating_at_end": -0.373,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.168,
+      "rating_at_end": 0.204,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The True Champions",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.243,
+      "rating_at_end": 0.096,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.243
+      "rating": 0.096
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.168
+      "rating": 0.204
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.413
+      "rating": -0.373
     }
   ]
 }

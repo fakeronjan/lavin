@@ -3,15 +3,15 @@
   "safe_name": "Olivia_Kaiser",
   "gender": "F",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.47,
+    "era_rating": 1.4,
+    "peak_rating": 0.467,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.47,
+    "active_rating": 0.467,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 4,
     "championships": 1,
-    "elim_wins": 6,
+    "elim_wins": 5,
     "elim_losses": 1,
     "daily_wins": 9
   },
@@ -22,12 +22,12 @@
       "season_name": "Vets and New Threats",
       "year": 2025,
       "label": "S41 Vets and New Threats (2025)",
-      "finish": "Winners",
+      "finish": "Winner <small>''in Finale Part II",
       "finish_label": "Champion",
-      "finish_episode": "",
+      "finish_episode": "Finale Part II",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.47,
+      "rating_at_end": 0.467,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -44,7 +44,7 @@
       "finish_episode": "Best Friends 4Era",
       "elim_position": 11,
       "elim_total": 13,
-      "rating_at_end": 0.229,
+      "rating_at_end": 0.188,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -59,9 +59,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.321,
+      "elim_position": 7,
+      "elim_total": 7,
+      "rating_at_end": 0.259,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Riders on the Storm",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.315,
+      "rating_at_end": 0.441,
       "partner": "Horacio Guti\u00e9rrez Jr.",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.315
+      "rating": 0.441
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.321
+      "rating": 0.259
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.229
+      "rating": 0.188
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.47
+      "rating": 0.467
     }
   ]
 }

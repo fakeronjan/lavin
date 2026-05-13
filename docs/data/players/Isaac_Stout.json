@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.217,
+    "peak_rating": 0.204,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.223,
+    "active_rating": -0.214,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 2,
     "n_snapshots": 7,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Stripes",
       "elim_position": 4,
-      "elim_total": 8,
-      "rating_at_end": 0.217,
+      "elim_total": 9,
+      "rating_at_end": 0.204,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Duelers on the Verge of a Nervous Breakdown",
       "elim_position": 5,
       "elim_total": 10,
-      "rating_at_end": -0.399,
+      "rating_at_end": -0.397,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 287,
+      "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.399
+      "rating": -0.397
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.217
+      "rating": 0.204
     }
   ]
 }

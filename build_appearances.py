@@ -215,15 +215,20 @@ def main():
     pct = 100 * len(missing) / len(appearances)
     print(f"  missing gender: {len(missing)} / {len(appearances)} ({pct:.1f}%)")
 
-    # Concat all eliminations and dailies into flat files
-    all_elims = pd.concat(
-        [rec["eliminations"] for rec in all_data.values() if len(rec["eliminations"])],
-        ignore_index=True,
-    )
-    all_dailies = pd.concat(
-        [rec["dailies"] for rec in all_data.values() if len(rec["dailies"])],
-        ignore_index=True,
-    )
+    # Concat all eliminations and dailies into flat files, stamping season_id
+    elim_frames = []
+    daily_frames = []
+    for sid, rec in all_data.items():
+        if len(rec["eliminations"]):
+            e = rec["eliminations"].copy()
+            e["season_id"] = sid
+            elim_frames.append(e)
+        if len(rec["dailies"]):
+            d = rec["dailies"].copy()
+            d["season_id"] = sid
+            daily_frames.append(d)
+    all_elims = pd.concat(elim_frames, ignore_index=True) if elim_frames else pd.DataFrame()
+    all_dailies = pd.concat(daily_frames, ignore_index=True) if daily_frames else pd.DataFrame()
 
     appearances.to_csv(OUT / "appearances.csv", index=False)
     all_elims.to_csv(OUT / "eliminations.csv", index=False)

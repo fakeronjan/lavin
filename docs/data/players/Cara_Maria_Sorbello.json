@@ -3,17 +3,17 @@
   "safe_name": "Cara_Maria_Sorbello",
   "gender": "F",
   "career": {
-    "era_rating": 5.8,
-    "peak_rating": 0.698,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.188,
+    "era_rating": 6.0,
+    "peak_rating": 0.712,
+    "peak_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.276,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 17,
     "n_snapshots": 22,
     "championships": 2,
-    "elim_wins": 13,
-    "elim_losses": 6,
-    "daily_wins": 26
+    "elim_wins": 11,
+    "elim_losses": 8,
+    "daily_wins": 23
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Pride Comes Before the Fall",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.188,
+      "rating_at_end": -0.276,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -44,7 +44,7 @@
       "finish_episode": "Location Change Era",
       "elim_position": 13,
       "elim_total": 13,
-      "rating_at_end": -0.094,
+      "rating_at_end": -0.197,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -60,8 +60,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 3,
-      "elim_total": 5,
-      "rating_at_end": -0.965,
+      "elim_total": 7,
+      "rating_at_end": -0.953,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.492,
+      "rating_at_end": 0.505,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -95,7 +95,7 @@
       "finish_episode": "This Is the End",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.322,
+      "rating_at_end": 0.338,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -112,7 +112,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.535,
+      "rating_at_end": 0.624,
       "partner": "Marie Roda",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.518,
+      "rating_at_end": 0.693,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "One in a Million",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.551,
+      "rating_at_end": 0.541,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -162,8 +162,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Go Your Own Way",
       "elim_position": 6,
-      "elim_total": 7,
-      "rating_at_end": 0.524,
+      "elim_total": 6,
+      "rating_at_end": 0.486,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -180,7 +180,7 @@
       "finish_episode": "Family Matters",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.651,
+      "rating_at_end": 0.63,
       "partner": "Jamie Banks",
       "partners_history": [],
       "team": "",
@@ -195,9 +195,9 @@
       "finish": "Eliminated in The $350,000 Pyramid",
       "finish_label": "Eliminated",
       "finish_episode": "The $350,000 Pyramid",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.409,
+      "elim_position": 10,
+      "elim_total": 11,
+      "rating_at_end": 0.378,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -311,89 +311,89 @@
   ],
   "timeline": [
     {
-      "ranking_id": 338,
+      "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
       "rating": 0.054
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
       "rating": 0.228
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": 0.508
     },
     {
-      "ranking_id": 423,
+      "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.396
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.2
     },
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": 0.408
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.409
+      "rating": 0.378
     },
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.651
+      "rating": 0.63
     },
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.524
+      "rating": 0.486
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.551
+      "rating": 0.541
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.518
+      "rating": 0.693
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.535
+      "rating": 0.624
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.322
+      "rating": 0.338
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.492
+      "rating": 0.505
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.965
+      "rating": -0.953
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.094
+      "rating": -0.197
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.188
+      "rating": -0.276
     }
   ]
 }

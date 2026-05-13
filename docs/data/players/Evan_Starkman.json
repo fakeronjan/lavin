@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 1.6,
-    "peak_rating": 0.795,
+    "peak_rating": 0.793,
     "peak_season_id": "s20_cutthroat",
     "active_rating": -0.504,
     "active_season_id": "s23_battle_of_the_seasons_2012",
@@ -27,7 +27,7 @@
       "finish_episode": "Blowup",
       "elim_position": 6,
       "elim_total": 8,
-      "rating_at_end": -0.095,
+      "rating_at_end": -0.097,
       "partner": "Nehemiah Clark",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.612,
+      "rating_at_end": 0.616,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.215,
+      "rating_at_end": 0.222,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -95,7 +95,7 @@
       "finish_episode": "Fallen Alliances",
       "elim_position": 7,
       "elim_total": 8,
-      "rating_at_end": 0.147,
+      "rating_at_end": 0.096,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Money or Friendship?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.086,
+      "rating_at_end": -0.165,
       "partner": "Coral Smith",
       "partners_history": [],
       "team": "",
@@ -121,34 +121,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": -0.086
+      "rating": -0.165
     },
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.147
+      "rating": 0.096
     },
     {
-      "ranking_id": 262,
+      "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.215
+      "rating": 0.222
     },
     {
-      "ranking_id": 287,
+      "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.612
+      "rating": 0.616
     },
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": 0.65
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": -0.095
+      "rating": -0.097
     }
   ]
 }

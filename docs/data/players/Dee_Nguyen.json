@@ -3,16 +3,16 @@
   "safe_name": "Dee_Nguyen",
   "gender": "F",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 0.683,
+    "era_rating": 1.6,
+    "peak_rating": 0.709,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.626,
+    "active_rating": 0.588,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
     "championships": 1,
     "elim_wins": 2,
-    "elim_losses": 3,
+    "elim_losses": 2,
     "daily_wins": 10
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Crash Into Me",
       "finish_label": "Eliminated",
       "finish_episode": "Crash Into Me",
-      "elim_position": 4,
-      "elim_total": 8,
-      "rating_at_end": 0.503,
+      "elim_position": 9,
+      "elim_total": 9,
+      "rating_at_end": 0.542,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.683,
+      "rating_at_end": 0.709,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in The Waterboy",
       "finish_label": "Eliminated",
       "finish_episode": "The Waterboy",
-      "elim_position": 10,
-      "elim_total": 10,
-      "rating_at_end": 0.347,
+      "elim_position": 9,
+      "elim_total": 9,
+      "rating_at_end": 0.383,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.347
+      "rating": 0.383
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.683
+      "rating": 0.709
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.503
+      "rating": 0.542
     }
   ]
 }

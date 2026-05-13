@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Jamie Banks",
-        "rating": 0.843,
+        "rating": 0.862,
         "n_events": 86,
         "finish": "Eliminated in Let Sleeping Dogs Wake",
         "finish_label": "Eliminated",
@@ -24,7 +24,7 @@
       {
         "rank": 2,
         "player": "Devin Walker",
-        "rating": 0.639,
+        "rating": 0.657,
         "n_events": 42,
         "finish": "Third Place in Split Decision",
         "finish_label": "3rd",
@@ -39,7 +39,7 @@
       {
         "rank": 3,
         "player": "Nelson Thomas",
-        "rating": 0.561,
+        "rating": 0.579,
         "n_events": 31,
         "finish": "Eliminated in Camilanator: Salvation",
         "finish_label": "Eliminated",
@@ -54,8 +54,8 @@
       {
         "rank": 4,
         "player": "Johnny Reilly",
-        "rating": 0.467,
-        "n_events": 81,
+        "rating": 0.485,
+        "n_events": 82,
         "finish": "Eliminated in Where the Ratchet Things Are",
         "finish_label": "Eliminated",
         "finish_episode": "Where the Ratchet Things Are",
@@ -69,8 +69,8 @@
       {
         "rank": 5,
         "player": "Johnny Bananas",
-        "rating": 0.444,
-        "n_events": 83,
+        "rating": 0.462,
+        "n_events": 84,
         "finish": "Winners in Split Decision",
         "finish_label": "Champion",
         "finish_episode": "Split Decision",
@@ -83,23 +83,8 @@
       },
       {
         "rank": 6,
-        "player": "Cory Wharton",
-        "rating": 0.379,
-        "n_events": 64,
-        "finish": "Eliminated in Rivals: Civil War",
-        "finish_label": "Eliminated",
-        "finish_episode": "Rivals: Civil War",
-        "elim_position": 4,
-        "elim_total": 7,
-        "partner": "Ashley Mitchell",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Leroy Garrett",
-        "rating": 0.378,
+        "rating": 0.398,
         "n_events": 88,
         "finish": "Medically Disqualified in The Curse of the Black Skull",
         "finish_label": "Medical DQ",
@@ -112,9 +97,24 @@
         "forced_exit": true
       },
       {
+        "rank": 7,
+        "player": "Cory Wharton",
+        "rating": 0.398,
+        "n_events": 64,
+        "finish": "Eliminated in Rivals: Civil War",
+        "finish_label": "Eliminated",
+        "finish_episode": "Rivals: Civil War",
+        "elim_position": 4,
+        "elim_total": 7,
+        "partner": "Ashley Mitchell",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 8,
         "player": "Nate Siebenmark",
-        "rating": 0.22,
+        "rating": 0.239,
         "n_events": 31,
         "finish": "Eliminated in Rivals: Civil War",
         "finish_label": "Eliminated",
@@ -129,7 +129,7 @@
       {
         "rank": 9,
         "player": "Wes Bergmann",
-        "rating": 0.114,
+        "rating": 0.134,
         "n_events": 63,
         "finish": "Eliminated in Raging Bullies",
         "finish_label": "Eliminated",
@@ -144,7 +144,7 @@
       {
         "rank": 10,
         "player": "Brandon Tindel",
-        "rating": 0.011,
+        "rating": 0.029,
         "n_events": 29,
         "finish": "Quit in I'm Going Home",
         "finish_label": "Quit",
@@ -159,7 +159,7 @@
       {
         "rank": 11,
         "player": "Dario Medrano",
-        "rating": -0.159,
+        "rating": -0.14,
         "n_events": 36,
         "finish": "Eliminated in Grapes. Wrath.",
         "finish_label": "Eliminated",
@@ -174,7 +174,7 @@
       {
         "rank": 12,
         "player": "Tony Raines",
-        "rating": -0.165,
+        "rating": -0.147,
         "n_events": 48,
         "finish": "Disqualified in Stand by Me",
         "finish_label": "Disqualified",
@@ -189,7 +189,7 @@
       {
         "rank": 13,
         "player": "Thomas Buell",
-        "rating": -0.388,
+        "rating": -0.369,
         "n_events": 47,
         "finish": "Quit in The Naked Truth",
         "finish_label": "Quit",

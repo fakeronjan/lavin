@@ -3,16 +3,16 @@
   "safe_name": "Cohutta_Grindstaff",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.369,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": 0.359,
-    "active_season_id": "s30_xxx_dirty_30",
+    "era_rating": 0.6,
+    "peak_rating": 0.342,
+    "peak_season_id": "s30_xxx_dirty_30",
+    "active_rating": -0.588,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 4,
-    "n_snapshots": 12,
+    "n_snapshots": 13,
     "championships": 0,
     "elim_wins": 4,
-    "elim_losses": 4,
+    "elim_losses": 3,
     "daily_wins": 4
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "Bad Blood",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.275,
+      "rating_at_end": 0.34,
       "partner": "Jill Tuttle",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Best Friends for Never",
       "finish_label": "Eliminated",
       "finish_episode": "Best Friends for Never",
-      "elim_position": 2,
-      "elim_total": 8,
-      "rating_at_end": 0.206,
+      "elim_position": 8,
+      "elim_total": 9,
+      "rating_at_end": 0.251,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Island King",
       "elim_position": 2,
       "elim_total": 2,
-      "rating_at_end": -0.795,
+      "rating_at_end": -0.781,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 267,
+      "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.795
+      "rating": -0.781
     },
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": -0.122
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.206
+      "rating": 0.251
     },
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.275
+      "rating": 0.34
     }
   ]
 }

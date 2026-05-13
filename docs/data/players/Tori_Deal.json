@@ -3,17 +3,17 @@
   "safe_name": "Tori_Deal",
   "gender": "F",
   "career": {
-    "era_rating": 2.6,
-    "peak_rating": 0.648,
+    "era_rating": 2.8,
+    "peak_rating": 0.655,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.419,
+    "active_rating": 0.445,
     "active_season_id": "s41_vets_and_new_threats",
-    "n_seasons": 9,
+    "n_seasons": 10,
     "n_snapshots": 12,
     "championships": 1,
-    "elim_wins": 5,
-    "elim_losses": 3,
-    "daily_wins": 8
+    "elim_wins": 7,
+    "elim_losses": 5,
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.421,
+      "rating_at_end": 0.433,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.605,
+      "rating_at_end": 0.567,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -56,12 +56,12 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Winners",
+      "finish": "Winners <small>in The End of the Ride",
       "finish_label": "Champion",
-      "finish_episode": "",
+      "finish_episode": "The End of the Ride",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.648,
+      "rating_at_end": 0.655,
       "partner": "Devin Walker",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.275,
+      "rating_at_end": 0.238,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": -0.047,
+      "rating_at_end": -0.129,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -111,8 +111,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Should I Stay or Should I Go?",
       "elim_position": 3,
-      "elim_total": 8,
-      "rating_at_end": -0.037,
+      "elim_total": 9,
+      "rating_at_end": -0.056,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.226,
+      "rating_at_end": 0.24,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -144,10 +144,27 @@
       "finish": "Eliminated in Redemption House of Cards",
       "finish_label": "Eliminated",
       "finish_episode": "Redemption House of Cards",
-      "elim_position": 4,
+      "elim_position": 3,
       "elim_total": 9,
-      "rating_at_end": -0.008,
+      "rating_at_end": 0.214,
       "partner": "Derrick Henry",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    },
+    {
+      "season_id": "s31_vendettas",
+      "season_num": 31,
+      "season_name": "Vendettas",
+      "year": 2018,
+      "label": "S31 Vendettas (2018)",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": 3,
+      "elim_total": 8,
+      "rating_at_end": 0.211,
+      "partner": "",
       "partners_history": [],
       "team": "",
       "forced_exit": false
@@ -163,7 +180,7 @@
       "finish_episode": "One in a Million",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.415,
+      "rating_at_end": 0.288,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -172,49 +189,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.415
+      "rating": 0.288
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 665,
+      "season_id": "s31_vendettas",
+      "rating": 0.211
+    },
+    {
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": -0.008
+      "rating": 0.214
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.226
+      "rating": 0.24
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.037
+      "rating": -0.056
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.047
+      "rating": -0.129
     },
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.275
+      "rating": 0.238
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.648
+      "rating": 0.655
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.605
+      "rating": 0.567
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.421
+      "rating": 0.433
     }
   ]
 }

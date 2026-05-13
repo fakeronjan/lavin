@@ -6,7 +6,7 @@
     "era_rating": 1.5,
     "peak_rating": 0.796,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.193,
+    "active_rating": 0.221,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 13,
@@ -27,7 +27,7 @@
       "finish_episode": "The Era of the Purge",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.266,
+      "rating_at_end": 0.292,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -61,7 +61,7 @@
       "finish_episode": "Duel-ality",
       "elim_position": 4,
       "elim_total": 10,
-      "rating_at_end": 0.607,
+      "rating_at_end": 0.608,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Finale",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.628,
+      "rating_at_end": 0.629,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -95,7 +95,7 @@
       "finish_episode": "Nehemiah's Last Day",
       "elim_position": 4,
       "elim_total": 8,
-      "rating_at_end": -0.257,
+      "rating_at_end": -0.329,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -104,29 +104,29 @@
   ],
   "timeline": [
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": -0.257
+      "rating": -0.329
     },
     {
-      "ranking_id": 262,
+      "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.628
+      "rating": 0.629
     },
     {
-      "ranking_id": 287,
+      "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.607
+      "rating": 0.608
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": -0.712
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.266
+      "rating": 0.292
     }
   ]
 }

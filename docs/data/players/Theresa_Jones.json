@@ -3,10 +3,10 @@
   "safe_name": "Theresa_Jones",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.66,
+    "era_rating": 0.1,
+    "peak_rating": 0.67,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": 0.038,
+    "active_rating": 0.011,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 7,
     "n_snapshots": 14,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 3,
       "elim_total": 7,
-      "rating_at_end": 0.021,
+      "rating_at_end": 0.061,
       "partner": "",
       "partners_history": [
         "Jay Starrett",
@@ -47,7 +47,7 @@
       "finish_episode": "The Greatest Love of All",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.026,
+      "rating_at_end": -0.019,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Wes Bergmann",
@@ -65,9 +65,9 @@
       "finish": "Eliminated in The $350,000 Pyramid",
       "finish_label": "Eliminated",
       "finish_episode": "The $350,000 Pyramid",
-      "elim_position": 10,
-      "elim_total": 10,
-      "rating_at_end": -0.226,
+      "elim_position": 11,
+      "elim_total": 11,
+      "rating_at_end": -0.221,
       "partner": "",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -147,39 +147,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 338,
+      "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
       "rating": -0.36
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
       "rating": -0.532
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": -0.366
     },
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": -0.287
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.226
+      "rating": -0.221
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.026
+      "rating": -0.019
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.021
+      "rating": 0.061
     }
   ]
 }

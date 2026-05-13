@@ -4,15 +4,15 @@
   "gender": "M",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.225,
-    "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": 0.092,
+    "peak_rating": 0.196,
+    "peak_season_id": "s24_rivals_ii",
+    "active_rating": -0.194,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 4,
     "n_snapshots": 10,
     "championships": 0,
     "elim_wins": 2,
-    "elim_losses": 1,
+    "elim_losses": 2,
     "daily_wins": 3
   },
   "seasons": [
@@ -26,8 +26,8 @@
       "finish_label": "Quit",
       "finish_episode": "Live Free or Die",
       "elim_position": 1,
-      "elim_total": 8,
-      "rating_at_end": 0.133,
+      "elim_total": 9,
+      "rating_at_end": 0.07,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Where the Red Team Blows",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.791,
+      "rating_at_end": -0.799,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": -0.504
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.791
+      "rating": -0.799
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.184
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.133
+      "rating": 0.07
     }
   ]
 }

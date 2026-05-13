@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.339,
+    "peak_rating": 0.353,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": 0.339,
-    "active_season_id": "s30_xxx_dirty_30",
+    "active_rating": -0.567,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 1,
-    "n_snapshots": 4,
+    "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 1,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "#Corneesa",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.127,
+      "rating_at_end": 0.138,
       "partner": "Camila Nakagawa",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.127
+      "rating": 0.138
     }
   ]
 }

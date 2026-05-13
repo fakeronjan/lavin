@@ -3,16 +3,16 @@
   "safe_name": "Josh_Martinez",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.122,
-    "peak_season_id": "s35_total_madness",
-    "active_rating": -0.417,
+    "era_rating": 0.1,
+    "peak_rating": 0.062,
+    "peak_season_id": "s34_war_of_the_worlds_2",
+    "active_rating": -0.355,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 9,
     "championships": 0,
-    "elim_wins": 3,
-    "elim_losses": 4,
+    "elim_wins": 1,
+    "elim_losses": 6,
     "daily_wins": 9
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Swinging Era",
       "finish_label": "Eliminated",
       "finish_episode": "Swinging Era",
-      "elim_position": 14,
+      "elim_position": 15,
       "elim_total": 15,
-      "rating_at_end": -0.322,
+      "rating_at_end": -0.272,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,7 +44,7 @@
       "finish_episode": "The Cave of the Wolf",
       "elim_position": 9,
       "elim_total": 11,
-      "rating_at_end": -0.066,
+      "rating_at_end": -0.191,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.01,
+      "elim_position": 7,
+      "elim_total": 9,
+      "rating_at_end": -0.059,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -76,9 +76,9 @@
       "finish": "Eliminated in Your Time is Gonna Come",
       "finish_label": "Eliminated",
       "finish_episode": "Your Time is Gonna Come",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.122,
+      "elim_position": 7,
+      "elim_total": 8,
+      "rating_at_end": 0.013,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -93,9 +93,9 @@
       "finish": "Eliminated in Dee-Day",
       "finish_label": "Eliminated",
       "finish_episode": "Dee-Day",
-      "elim_position": 7,
-      "elim_total": 7,
-      "rating_at_end": 0.069,
+      "elim_position": 8,
+      "elim_total": 8,
+      "rating_at_end": 0.062,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -112,7 +112,7 @@
       "finish_episode": "This Means War",
       "elim_position": 1,
       "elim_total": 7,
-      "rating_at_end": 0.008,
+      "rating_at_end": -0.017,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -121,34 +121,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.008
+      "rating": -0.017
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.069
+      "rating": 0.062
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.122
+      "rating": 0.013
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.01
+      "rating": -0.059
     },
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.066
+      "rating": -0.191
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.322
+      "rating": -0.272
     }
   ]
 }

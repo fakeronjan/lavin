@@ -3,17 +3,17 @@
   "safe_name": "Joss_Mooney",
   "gender": "M",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.82,
+    "era_rating": 1.0,
+    "peak_rating": 0.677,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.019,
+    "active_rating": 0.044,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 7,
     "championships": 0,
     "elim_wins": 4,
-    "elim_losses": 0,
-    "daily_wins": 4
+    "elim_losses": 1,
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Dee-Day",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.347,
+      "rating_at_end": 0.359,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -44,7 +44,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.82,
+      "rating_at_end": 0.677,
       "partner": "Sylvia Elsrode",
       "partners_history": [],
       "team": "",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in Mercenaries of Mayhem",
       "finish_label": "Eliminated",
       "finish_episode": "Mercenaries of Mayhem",
-      "elim_position": 2,
+      "elim_position": 4,
       "elim_total": 9,
-      "rating_at_end": 0.394,
+      "rating_at_end": -0.126,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.394
+      "rating": -0.126
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.82
+      "rating": 0.677
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.347
+      "rating": 0.359
     }
   ]
 }

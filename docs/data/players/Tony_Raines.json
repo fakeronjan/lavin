@@ -3,10 +3,10 @@
   "safe_name": "Tony_Raines",
   "gender": "M",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.315,
+    "era_rating": 0.9,
+    "peak_rating": 0.349,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.173,
+    "active_rating": 0.163,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
     "n_snapshots": 11,
@@ -27,7 +27,7 @@
       "finish_episode": "A Fatal Era",
       "elim_position": 5,
       "elim_total": 15,
-      "rating_at_end": 0.194,
+      "rating_at_end": 0.192,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in The Walking Dead",
       "finish_label": "Eliminated",
       "finish_episode": "The Walking Dead",
-      "elim_position": 8,
+      "elim_position": 7,
       "elim_total": 10,
-      "rating_at_end": 0.315,
+      "rating_at_end": 0.349,
       "partner": "Johnny Bananas",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.312,
+      "rating_at_end": 0.34,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -77,8 +77,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "The Sinister Six",
       "elim_position": 2,
-      "elim_total": 6,
-      "rating_at_end": -0.115,
+      "elim_total": 7,
+      "rating_at_end": -0.133,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "The Mile-High Club",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.408,
+      "rating_at_end": -0.442,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Stand by Me",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.165,
+      "rating_at_end": -0.147,
       "partner": "Camila Nakagawa",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "#Corneesa",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.064,
+      "rating_at_end": -0.038,
       "partner": "Shane Raines",
       "partners_history": [],
       "team": "",
@@ -138,39 +138,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.064
+      "rating": -0.038
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": -0.165
+      "rating": -0.147
     },
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.408
+      "rating": -0.442
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.115
+      "rating": -0.133
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.312
+      "rating": 0.34
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.315
+      "rating": 0.349
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.194
+      "rating": 0.192
     }
   ]
 }

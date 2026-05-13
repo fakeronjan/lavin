@@ -3,15 +3,15 @@
   "safe_name": "Jordan_Wiseley",
   "gender": "M",
   "career": {
-    "era_rating": 5.7,
-    "peak_rating": 0.947,
+    "era_rating": 5.8,
+    "peak_rating": 0.936,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.599,
+    "active_rating": 0.666,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 17,
     "championships": 4,
-    "elim_wins": 12,
+    "elim_wins": 14,
     "elim_losses": 5,
     "daily_wins": 15
   },
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.56,
+      "rating_at_end": 0.624,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.2,
+      "rating_at_end": 0.192,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "The End of the Ride",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.27,
+      "rating_at_end": 0.276,
       "partner": "Aneesa Ferreira",
       "partners_history": [],
       "team": "",
@@ -77,8 +77,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Live and Let Die",
       "elim_position": 4,
-      "elim_total": 6,
-      "rating_at_end": 0.675,
+      "elim_total": 8,
+      "rating_at_end": 0.685,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.947,
+      "rating_at_end": 0.936,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -112,7 +112,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.794,
+      "rating_at_end": 0.854,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "One in a Million",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.889,
+      "rating_at_end": 0.87,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "The Greatest Love of All",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.453,
+      "rating_at_end": 0.461,
       "partner": "Sarah Rice",
       "partners_history": [],
       "team": "",
@@ -162,8 +162,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Pride Before the Wall",
       "elim_position": 6,
-      "elim_total": 8,
-      "rating_at_end": 0.462,
+      "elim_total": 9,
+      "rating_at_end": 0.446,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -189,54 +189,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": 0.415
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.462
+      "rating": 0.446
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.453
+      "rating": 0.461
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.889
+      "rating": 0.87
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.794
+      "rating": 0.854
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.947
+      "rating": 0.936
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.675
+      "rating": 0.685
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.27
+      "rating": 0.276
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.2
+      "rating": 0.192
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.56
+      "rating": 0.624
     }
   ]
 }

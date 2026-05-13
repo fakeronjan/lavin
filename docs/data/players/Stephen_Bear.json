@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.184,
-    "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": -0.553,
+    "peak_rating": -0.145,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.369,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -27,7 +27,7 @@
       "finish_episode": "Live and Let Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.222,
+      "rating_at_end": -0.187,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -43,8 +43,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Zero Dark Turbo",
       "elim_position": 4,
-      "elim_total": 7,
-      "rating_at_end": -0.184,
+      "elim_total": 8,
+      "rating_at_end": -0.183,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -59,9 +59,9 @@
       "finish": "Eliminated in To All the Partners I've Loved Before",
       "finish_label": "Eliminated",
       "finish_episode": "To All the Partners I've Loved Before",
-      "elim_position": 7,
+      "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": -0.303,
+      "rating_at_end": -0.279,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.303
+      "rating": -0.279
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.184
+      "rating": -0.183
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.222
+      "rating": -0.187
     }
   ]
 }

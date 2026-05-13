@@ -3,15 +3,15 @@
   "safe_name": "Rachel_Robinson",
   "gender": "F",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.878,
+    "era_rating": 1.8,
+    "peak_rating": 0.886,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.675,
+    "active_rating": 0.739,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 8,
     "n_snapshots": 16,
     "championships": 3,
-    "elim_wins": 3,
+    "elim_wins": 5,
     "elim_losses": 2,
     "daily_wins": 7
   },
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.654,
+      "rating_at_end": 0.724,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -61,7 +61,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.269,
+      "rating_at_end": 0.27,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Girl Fight",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.438,
+      "rating_at_end": -0.445,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Episode 16",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.246,
+      "rating_at_end": 0.242,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -112,7 +112,7 @@
       "finish_episode": "Episode 8",
       "elim_position": 6,
       "elim_total": 13,
-      "rating_at_end": 0.176,
+      "rating_at_end": 0.179,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Gold Rush Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.346,
+      "rating_at_end": 0.352,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -146,7 +146,7 @@
       "finish_episode": "Freeze Your Butt Off",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.486,
+      "rating_at_end": -0.531,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -157,42 +157,42 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.486
+      "rating": -0.531
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.346
+      "rating": 0.352
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.176
+      "rating": 0.179
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.246
+      "rating": 0.242
     },
     {
-      "ranking_id": 267,
+      "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.438
+      "rating": -0.445
     },
     {
-      "ranking_id": 287,
+      "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.269
+      "rating": 0.27
     },
     {
-      "ranking_id": 423,
+      "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
       "rating": -0.101
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.654
+      "rating": 0.724
     }
   ]
 }

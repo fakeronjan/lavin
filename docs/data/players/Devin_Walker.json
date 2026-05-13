@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 3.4,
-    "peak_rating": 0.639,
+    "peak_rating": 0.657,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": 0.298,
+    "active_rating": 0.326,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
     "n_snapshots": 14,
@@ -27,7 +27,7 @@
       "finish_episode": "An Era of One",
       "elim_position": 11,
       "elim_total": 15,
-      "rating_at_end": 0.397,
+      "rating_at_end": 0.404,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.575,
+      "rating_at_end": 0.562,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -56,12 +56,12 @@
       "season_name": "Ride or Dies",
       "year": 2022,
       "label": "S38 Ride or Dies (2022)",
-      "finish": "Winners",
+      "finish": "Winners <small>in The End of the Ride",
       "finish_label": "Champion",
-      "finish_episode": "",
+      "finish_episode": "The End of the Ride",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.573,
+      "rating_at_end": 0.553,
       "partner": "Tori Deal",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.348,
+      "rating_at_end": 0.298,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -94,8 +94,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 6,
-      "elim_total": 8,
-      "rating_at_end": 0.225,
+      "elim_total": 9,
+      "rating_at_end": 0.168,
       "partner": "",
       "partners_history": [
         "Nicole Zanatta",
@@ -116,7 +116,7 @@
       "finish_episode": "The Leftovers",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.057,
+      "rating_at_end": 0.082,
       "partner": "Cory Wharton",
       "partners_history": [],
       "team": "",
@@ -131,9 +131,9 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 8,
+      "elim_position": 9,
       "elim_total": 9,
-      "rating_at_end": 0.255,
+      "rating_at_end": 0.383,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -150,7 +150,7 @@
       "finish_episode": "Road to Redemption",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.285,
+      "rating_at_end": 0.273,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -167,7 +167,7 @@
       "finish_episode": "Split Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.639,
+      "rating_at_end": 0.657,
       "partner": "Cheyenne Floyd",
       "partners_history": [],
       "team": "",
@@ -176,49 +176,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.639
+      "rating": 0.657
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.285
+      "rating": 0.273
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.255
+      "rating": 0.383
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.057
+      "rating": 0.082
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.225
+      "rating": 0.168
     },
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.348
+      "rating": 0.298
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.573
+      "rating": 0.553
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.575
+      "rating": 0.562
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.397
+      "rating": 0.404
     }
   ]
 }

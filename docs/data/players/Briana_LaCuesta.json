@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.129,
+    "peak_rating": -0.137,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.391,
+    "active_rating": -0.178,
     "active_season_id": "s31_vendettas",
     "n_seasons": 2,
     "n_snapshots": 4,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Road to Redemption",
       "finish_label": "Eliminated",
       "finish_episode": "Road to Redemption",
-      "elim_position": 1,
+      "elim_position": 3,
       "elim_total": 6,
-      "rating_at_end": -0.207,
+      "rating_at_end": -0.176,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
       "rating": -0.219
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.207
+      "rating": -0.176
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Mark_Long",
   "gender": "M",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.736,
+    "era_rating": 1.2,
+    "peak_rating": 0.602,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.354,
+    "active_rating": -0.372,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
     "n_snapshots": 17,
@@ -27,7 +27,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 2,
       "elim_total": 15,
-      "rating_at_end": -0.198,
+      "rating_at_end": -0.225,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -44,7 +44,7 @@
       "finish_episode": "Will You Still Love Me Tomorrow?",
       "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": -0.378,
+      "rating_at_end": -0.387,
       "partner": "Robin Hibbard",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Duel or Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.181,
+      "rating_at_end": 0.182,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -95,7 +95,7 @@
       "finish_episode": "Episode 16",
       "elim_position": 14,
       "elim_total": 14,
-      "rating_at_end": 0.401,
+      "rating_at_end": 0.422,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "Handsome Reward",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.736,
+      "rating_at_end": 0.602,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -123,12 +123,12 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.736
+      "rating": 0.602
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.401
+      "rating": 0.422
     },
     {
       "ranking_id": 149,
@@ -136,19 +136,19 @@
       "rating": -0.06
     },
     {
-      "ranking_id": 287,
+      "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.181
+      "rating": 0.182
     },
     {
-      "ranking_id": 423,
+      "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.378
+      "rating": -0.387
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.198
+      "rating": -0.225
     }
   ]
 }

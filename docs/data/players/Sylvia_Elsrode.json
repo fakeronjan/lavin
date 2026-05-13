@@ -3,13 +3,13 @@
   "safe_name": "Sylvia_Elsrode",
   "gender": "F",
   "career": {
-    "era_rating": 1.4,
-    "peak_rating": 0.771,
-    "peak_season_id": "s35_total_madness",
-    "active_rating": 0.771,
-    "active_season_id": "s35_total_madness",
+    "era_rating": 1.6,
+    "peak_rating": 0.81,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": 0.785,
+    "active_season_id": "s36_double_agents",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 8,
     "championships": 0,
     "elim_wins": 5,
     "elim_losses": 1,
@@ -27,7 +27,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.737,
+      "rating_at_end": 0.81,
       "partner": "Joss Mooney",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "Pulling the Strings",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.268,
+      "rating_at_end": 0.374,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,8 +60,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "A Low Down Dirty Shane",
       "elim_position": 5,
-      "elim_total": 7,
-      "rating_at_end": 0.42,
+      "elim_total": 6,
+      "rating_at_end": 0.367,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.42
+      "rating": 0.367
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.268
+      "rating": 0.374
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.737
+      "rating": 0.81
     }
   ]
 }

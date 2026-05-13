@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 2.0,
-    "peak_rating": 0.908,
+    "peak_rating": 0.9,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.497,
+    "active_rating": -0.53,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 8,
@@ -27,7 +27,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 3,
       "elim_total": 15,
-      "rating_at_end": -0.674,
+      "rating_at_end": -0.771,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -44,7 +44,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.487,
+      "rating_at_end": 0.473,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -61,7 +61,7 @@
       "finish_episode": "The Waterboy",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.579,
+      "rating_at_end": 0.582,
       "partner": "",
       "partners_history": [
         "Natalie Duran",
@@ -81,7 +81,7 @@
       "finish_episode": "Who Wants to Be a Millionaire?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.908,
+      "rating_at_end": 0.9,
       "partner": "Natalie Negrotti",
       "partners_history": [],
       "team": "",
@@ -90,24 +90,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.908
+      "rating": 0.9
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.579
+      "rating": 0.582
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.487
+      "rating": 0.473
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.674
+      "rating": -0.771
     }
   ]
 }

@@ -307,6 +307,11 @@ def _propagate_rowspans(rows):
     content to subsequent rows so downstream extractors see the full set
     of fields. Position-faithful column reconstruction isn't required for
     our use case — we just need the finish text to be visible.
+
+    Each row is annotated with `_native_len` (int) — the number of cells
+    that came from THIS physical row, before rowspan content was appended.
+    Downstream parsers that care about positional anchors (winner/loser
+    is the last 2 cells of THIS row) should use cells[:_native_len].
     """
     pending = []  # list of [content, remaining_rows]
     out = []
@@ -314,7 +319,12 @@ def _propagate_rowspans(rows):
         # Expire any pending rowspan cells that have run out
         pending = [p for p in pending if p[1] > 0]
         # Append still-active rowspan content to this row
+        native_len = len(row)
         augmented = list(row) + [p[0] for p in pending]
+        # Attach native_len as an attribute on the list so cells[:n] gives
+        # only this row's own content (excluding rowspan-appended content
+        # from prior rows above).
+        augmented = _RowList(augmented, native_len=native_len)
         out.append(augmented)
         # Decrement remaining counts on existing pending
         for p in pending:
@@ -325,6 +335,17 @@ def _propagate_rowspans(rows):
             if rs > 1:
                 pending.append([cell, rs - 1])
     return out
+
+
+class _RowList(list):
+    """List subclass that carries `_native_len` for native-row slicing."""
+    def __new__(cls, iterable, native_len):
+        obj = super().__new__(cls)
+        return obj
+
+    def __init__(self, iterable, native_len):
+        super().__init__(iterable)
+        self._native_len = native_len
 
 
 def _iter_table_rows(table_text):
@@ -472,9 +493,13 @@ def _players_from_icons(cell):
 
 
 def _player_from_bare_link(cell):
-    """Fallback: first non-File wikilink in a cell."""
+    """Fallback: first non-File wikilink in a cell.
+    Strips <ref> tags first so footnote wikilinks (e.g. `[[Mercenary|shocking
+    twist]]` in S20 Cutthroat's "Back Up Off Me" ref) don't leak as players."""
     body = _strip_cell_attrs(cell)
     code = mwp.parse(body)
+    for tag in code.filter_tags(matches=lambda t: str(t.tag).lower() == "ref"):
+        code.remove(tag)
     for wl in code.filter_wikilinks():
         title = str(wl.title)
         if not title.startswith("File:"):
@@ -551,6 +576,13 @@ def parse_game_summary_individual(wikitext):
     if not elim_table:
         return [], []
 
+    # S16 The Island uses a "Face-off" chart format whose outcome columns
+    # [Winner | Key Stolen | Saved | Eliminated] don't map cleanly to binary
+    # H2H — the chart shows 3-4 nominees per face-off with no single named
+    # opponent. Detected for future reference, but currently parsed via the
+    # default last-2-cells logic (which is wrong but at least non-misleading).
+    is_face_off_chart = "Face-off nominees" in elim_table and "Key Stolen" in elim_table
+
     eliminations = []
     dailies = []
     last_episode = ""  # carried forward for continuation rows (gender-only first cell)
@@ -592,7 +624,12 @@ def parse_game_summary_individual(wikitext):
         last_cells_text = " ".join(cells[-3:])
         elim_skipped = "N/A" in last_cells_text
 
-        player_idx = [i for i, c in enumerate(cells) if _is_player_cell(c)]
+        # For positional winner/loser detection, look only at cells from
+        # THIS physical row (exclude rowspan-appended content bled in from
+        # prior rows above — e.g. S30 Dirty 30 "The Reel World" had Jenna
+        # Compono's icon bleeding into the men's elim row).
+        native_len = getattr(cells, "_native_len", len(cells))
+        player_idx = [i for i, c in enumerate(cells[:native_len]) if _is_player_cell(c)]
         if len(player_idx) < 2:
             continue
 

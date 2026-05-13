@@ -470,7 +470,6 @@ s20_cutthroat,Ty Ruff,M,"Disqualified in Couching Tyger, Hidden Danimal",w:c:mtv
 s20_cutthroat,Big Easy Banks,M,Eliminated in Swat the Hell?,Real World/Road Rules Challenge: Fresh Meat,Blue Team,,cast
 s20_cutthroat,Emilee Fitzpatrick,F,Eliminated in Czech Yourself Before You Wreck Yourself,w:c:mtvrealworld:The Real World: Cancun,Blue Team,,cast
 s20_cutthroat,Derek Chavez,M,Eliminated in Czech Yourself Before You Wreck Yourself,w:c:mtvrealworld:The Real World: Cancun,Blue Team,,cast
-s20_cutthroat,Mercenary,,,,,,elim_only
 s21_rivals,Johnny Bananas,M,Winners in At the End of the World,w:c:mtvrealworld:The Real World: Key West,,row_002,cast
 s21_rivals,Tyler Duckworth,M,Winners in At the End of the World,w:c:mtvrealworld:The Real World: Key West,,row_002,cast
 s21_rivals,Evelyn Smith,F,Winners in At the End of the World,Real World/Road Rules Challenge: Fresh Meat,,row_003,cast
@@ -619,6 +618,7 @@ s25_free_agents,LaToya Jackson,F,Eliminated in Inadequate,w:c:mtvrealworld:The R
 s25_free_agents,Nia Moore,F,Eliminated in You Be Illin',w:c:mtvrealworld:The Real World: Portland,,,cast
 s25_free_agents,Emilee Fitzpatrick,F,Eliminated in Love in the Fast Lane,w:c:mtvrealworld:The Real World: Cancun,,,cast
 s25_free_agents,Jemmye Carroll,F,Eliminated in Live Free or Die,w:c:mtvrealworld:The Real World: New Orleans (2010),,,cast
+s25_free_agents,Frank Sweeney,M,,,,,elim_only
 s26_battle_of_the_exes_ii,Jordan Wiseley,M,Winners in The Greatest Love of All,w:c:mtvrealworld:The Real World: Portland,,row_002,cast
 s26_battle_of_the_exes_ii,Sarah Rice,F,Winners in The Greatest Love of All,w:c:mtvrealworld:The Real World: Brooklyn,,row_002,cast
 s26_battle_of_the_exes_ii,Leroy Garrett,M,Runners-Up in The Greatest Love of All,w:c:mtvrealworld:The Real World: Las Vegas (2011),,row_003,cast
@@ -789,9 +789,12 @@ s31_vendettas,Melissa Reeves,F,Eliminated in Guilty by Association,,,,cast
 s31_vendettas,Alicia Wright,F,Eliminated in Pizzagate,,,,cast
 s31_vendettas,Nicole Ramos,F,Eliminated in When Worlds Collide,,,,cast
 s31_vendettas,Jordan Wiseley,M,,,,,elim_only
-s31_vendettas,Mercenary,,,,,,elim_only
+s31_vendettas,Aneesa Ferreira,F,,,,,elim_only
+s31_vendettas,Tori Deal,F,,,,,elim_only
+s31_vendettas,Derrick Kosinski,M,,,,,elim_only
 s31_vendettas,Frank Fox,M,,,,,elim_only
 s31_vendettas,Ashley Mitchell,F,,,,,elim_only
+s31_vendettas,Laurel Stucky,F,,,,,elim_only
 s32_final_reckoning,Ashley Mitchell,F,Winners in Who Wants to Be a Millionaire?,w:c:mtvrealworld:Real World: Ex-Plosion,,row_002,cast
 s32_final_reckoning,Hunter Barfield,M,Winners in Who Wants to Be a Millionaire?,,,row_002,cast
 s32_final_reckoning,Joss Mooney,M,Runners-Up in Who Wants to Be a Millionaire?,w:c:mtvrealworld:Real World: Skeletons,,row_003,cast
@@ -935,7 +938,7 @@ s36_double_agents,Lio Rush,M,Quit <small>in From Theresa with Love,,,,cast
 s36_double_agents,Nelson Thomas,M,,,,,cast
 s36_double_agents,Wes Bergmann,M,,w:c:mtvrealworld:The Real World: Austin,,,cast
 s36_double_agents,Joseph Allen,M,Eliminated in Dive Another Day,,,,cast
-s36_double_agents,Amber Borzotra,F,Winner in The World Is Not Enough,,,,cast
+s36_double_agents,Amber Borzotra,F,Winner <small>in The World Is Not Enough,,,,cast
 s36_double_agents,Kam Williams,F,Runner-Up <small>in The World Is Not Enough,,,,cast
 s36_double_agents,Nany González,F,Third Place <small>in The World Is Not Enough,w:c:mtvrealworld:The Real World: Las Vegas (2011),,,cast
 s36_double_agents,Kaycee Clark,F,Fourth Place <small>in The World Is Not Enough,,,,cast
@@ -986,8 +989,8 @@ s37_spies_lies_allies,Tacha Akide,F,Eliminated in Truce or Dare,,,,cast
 s37_spies_lies_allies,Tracy Candela,F,Eliminated in Bertha,,,,cast
 s37_spies_lies_allies,Lauren Coogan,F,Disqualified before Bertha,,,,cast
 s37_spies_lies_allies,Michaela Bradshaw,F,Eliminated in The List,,,,cast
-s38_ride_or_dies,Devin Walker,M,Winners,,,row_002,cast
-s38_ride_or_dies,Tori Deal,F,Winners,,,row_002,cast
+s38_ride_or_dies,Devin Walker,M,Winners <small>in The End of the Ride,,,row_002,cast
+s38_ride_or_dies,Tori Deal,F,Winners <small>in The End of the Ride,,,row_002,cast
 s38_ride_or_dies,Johnny Bananas,M,Runners-Up <small>in The End of the Ride,w:c:mtvrealworld:The Real World: Key West,,row_003,cast
 s38_ride_or_dies,Nany González,F,Runners-Up <small>in The End of the Ride,w:c:mtvrealworld:The Real World: Las Vegas (2011),,row_003,cast
 s38_ride_or_dies,Jordan Wiseley,M,Third Place <small>in The End of the Ride,w:c:mtvrealworld:The Real World: Portland,,row_004,cast
@@ -1094,7 +1097,7 @@ s40_battle_of_the_eras,Kaycee Clark,F,Eliminated in An Era of One,,Era IV,,cast
 s40_battle_of_the_eras,Horacio Gutiérrez Jr.,M,Eliminated in My Trivia Era,,Era IV,,cast
 s40_battle_of_the_eras,Nurys Mateo,F,"Eliminated in The Era Invitational, Part 2",,Era IV,,cast
 s40_battle_of_the_eras,Paulie Calafiore,M,"Eliminated in The Era Invitational, Part 2",,Era IV,,cast
-s41_vets_and_new_threats,Olivia Kaiser,F,Winners,,Vets,,cast
+s41_vets_and_new_threats,Olivia Kaiser,F,Winner <small>''in Finale Part II,,Vets,,cast
 s41_vets_and_new_threats,Turbo Çamkıran,M,Runner-Up <small>''in Finale Part II,,Vets,,cast
 s41_vets_and_new_threats,Michaela Bradshaw,F,Third Place <small>''in Finale Part II,,Vets,,cast
 s41_vets_and_new_threats,Theo Campbell,M,Fourth Place <small>''in Finale Part II,,Vets,,cast
@@ -1111,7 +1114,7 @@ s41_vets_and_new_threats,Cara Maria Sorbello,F,Quit in Pride Comes Before the Fa
 s41_vets_and_new_threats,Johnny Bananas,M,Eliminated in Wish I'd Been Practicing,w:c:mtvrealworld:The Real World: Key West,Vets,,cast
 s41_vets_and_new_threats,Nia Moore,F,Medically Disqualified in I Am The Challenge,w:c:mtvrealworld:The Real World: Portland,Vets,,cast
 s41_vets_and_new_threats,Rogan O'Connor,M,Eliminated in Welcome to The Challenge,,Vets,,cast
-s41_vets_and_new_threats,Yeremi Hykel,M,Winners,,New Threats,,cast
+s41_vets_and_new_threats,Yeremi Hykel,M,Winner <small>'' in Finale Part II,,New Threats,,cast
 s41_vets_and_new_threats,Sydney Segal,F,Runner-Up <small>''in Finale Part II,,New Threats,,cast
 s41_vets_and_new_threats,Cedric Hodges,M,Third Place <small>''in Finale Part II,,New Threats,,cast
 s41_vets_and_new_threats,Adrienne Naylor,F,Fourth Place <small>''in Finale Part II,,New Threats,,cast
@@ -1127,3 +1130,4 @@ s41_vets_and_new_threats,Izzy Fairthorne,F,Eliminated in At Least Someone's Gett
 s41_vets_and_new_threats,Leka Sodade,F,Eliminated in Is He Throwing It?,,New Threats,,cast
 s41_vets_and_new_threats,Ben Davis,M,Eliminated in Pride Comes Before the Fall,,New Threats,,cast
 s41_vets_and_new_threats,Blue Kim,F,Eliminated in We Used to Hook Up,,New Threats,,cast
+s41_vets_and_new_threats,Nany Gonzalez,F,,,,,elim_only

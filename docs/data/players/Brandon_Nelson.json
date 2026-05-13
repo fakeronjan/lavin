@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.109,
+    "peak_rating": 0.112,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.395,
+    "active_rating": -0.387,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 11,
@@ -27,7 +27,7 @@
       "finish_episode": "The Era Invitational, Part 2",
       "elim_position": 4,
       "elim_total": 15,
-      "rating_at_end": -0.303,
+      "rating_at_end": -0.306,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -43,8 +43,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Inadequate",
       "elim_position": 3,
-      "elim_total": 8,
-      "rating_at_end": -0.579,
+      "elim_total": 9,
+      "rating_at_end": -0.593,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "D-Day",
       "elim_position": 3,
       "elim_total": 8,
-      "rating_at_end": 0.014,
+      "rating_at_end": 0.016,
       "partner": "Ty Ruff",
       "partners_history": [],
       "team": "",
@@ -94,8 +94,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Where the Red Team Blows",
       "elim_position": 6,
-      "elim_total": 8,
-      "rating_at_end": 0.109,
+      "elim_total": 9,
+      "rating_at_end": 0.112,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -121,34 +121,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 338,
+      "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
       "rating": -0.312
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": 0.109
+      "rating": 0.112
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": 0.014
+      "rating": 0.016
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.34
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.579
+      "rating": -0.593
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.303
+      "rating": -0.306
     }
   ]
 }

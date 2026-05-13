@@ -3,10 +3,10 @@
   "safe_name": "Turbo_amkran",
   "gender": "M",
   "career": {
-    "era_rating": 2.2,
-    "peak_rating": 0.863,
+    "era_rating": 2.1,
+    "peak_rating": 0.835,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.753,
+    "active_rating": 0.707,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 8,
@@ -27,7 +27,7 @@
       "finish_episode": "Finale Part II",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.753,
+      "rating_at_end": 0.707,
       "partner": "",
       "partners_history": [
         "Leka Sodade",
@@ -48,7 +48,7 @@
       "finish_episode": "Friend or Faux",
       "elim_position": 2,
       "elim_total": 12,
-      "rating_at_end": -0.154,
+      "rating_at_end": -0.153,
       "partner": "Tamara Alfaro",
       "partners_history": [],
       "team": "",
@@ -65,7 +65,7 @@
       "finish_episode": "Infinity War",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.59,
+      "rating_at_end": 0.591,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -82,7 +82,7 @@
       "finish_episode": "This Is the End",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.863,
+      "rating_at_end": 0.835,
       "partner": "",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -94,24 +94,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.863
+      "rating": 0.835
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.59
+      "rating": 0.591
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.154
+      "rating": -0.153
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.753
+      "rating": 0.707
     }
   ]
 }

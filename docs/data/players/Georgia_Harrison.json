@@ -3,10 +3,10 @@
   "safe_name": "Georgia_Harrison",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.59,
+    "era_rating": 1.0,
+    "peak_rating": 0.625,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.356,
+    "active_rating": 0.289,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -27,7 +27,7 @@
       "finish_episode": "Infinity War",
       "elim_position": 5,
       "elim_total": 7,
-      "rating_at_end": 0.339,
+      "rating_at_end": 0.364,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.59,
+      "rating_at_end": 0.625,
       "partner": "",
       "partners_history": [
         "Hunter Barfield",
@@ -56,14 +56,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.59
+      "rating": 0.625
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.339
+      "rating": 0.364
     }
   ]
 }

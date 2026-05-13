@@ -4,15 +4,15 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.125,
+    "peak_rating": 0.111,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.382,
+    "active_rating": -0.315,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 7,
     "championships": 0,
     "elim_wins": 3,
-    "elim_losses": 4,
+    "elim_losses": 3,
     "daily_wins": 5
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 7,
-      "elim_total": 7,
-      "rating_at_end": -0.091,
+      "elim_position": null,
+      "elim_total": null,
+      "rating_at_end": -0.094,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": 8,
       "elim_total": 12,
-      "rating_at_end": -0.098,
+      "rating_at_end": -0.172,
       "partner": "Michele Fitzgerald",
       "partners_history": [],
       "team": "",
@@ -60,8 +60,8 @@
       "finish_label": "",
       "finish_episode": "",
       "elim_position": 4,
-      "elim_total": 8,
-      "rating_at_end": 0.045,
+      "elim_total": 9,
+      "rating_at_end": 0.071,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -77,8 +77,8 @@
       "finish_label": "Medical DQ",
       "finish_episode": "Love Will Tear Us Apart",
       "elim_position": 3,
-      "elim_total": 6,
-      "rating_at_end": 0.125,
+      "elim_total": 8,
+      "rating_at_end": 0.111,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.125
+      "rating": 0.111
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.045
+      "rating": 0.071
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.098
+      "rating": -0.172
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.091
+      "rating": -0.094
     }
   ]
 }

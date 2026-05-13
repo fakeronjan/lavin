@@ -4,15 +4,15 @@
   "gender": "F",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.441,
+    "peak_rating": 0.436,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.07,
+    "active_rating": 0.092,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 2,
     "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 0,
-    "elim_losses": 2,
+    "elim_losses": 1,
     "daily_wins": 5
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in You Ain't Right",
       "finish_label": "Eliminated",
       "finish_episode": "You Ain't Right",
-      "elim_position": 7,
-      "elim_total": 8,
-      "rating_at_end": 0.104,
+      "elim_position": 6,
+      "elim_total": 9,
+      "rating_at_end": 0.132,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 4,
-      "elim_total": 10,
-      "rating_at_end": 0.38,
+      "elim_position": null,
+      "elim_total": null,
+      "rating_at_end": 0.368,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.38
+      "rating": 0.368
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.104
+      "rating": 0.132
     }
   ]
 }

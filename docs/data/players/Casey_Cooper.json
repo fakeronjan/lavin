@@ -3,8 +3,8 @@
   "safe_name": "Casey_Cooper",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.721,
+    "era_rating": 0.9,
+    "peak_rating": 0.728,
     "peak_season_id": "s12_fresh_meat",
     "active_rating": 0.213,
     "active_season_id": "s21_rivals",
@@ -44,7 +44,7 @@
       "finish_episode": "What Goes Around",
       "elim_position": 6,
       "elim_total": 7,
-      "rating_at_end": 0.024,
+      "rating_at_end": 0.138,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -61,7 +61,7 @@
       "finish_episode": "Goodbye Casey",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": 0.023,
+      "rating_at_end": -0.033,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "And the Winners Are...",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.721,
+      "rating_at_end": 0.728,
       "partner": "Wes Bergmann",
       "partners_history": [],
       "team": "",
@@ -87,22 +87,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 214,
+      "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.721
+      "rating": 0.728
     },
     {
-      "ranking_id": 230,
+      "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.023
+      "rating": -0.033
     },
     {
-      "ranking_id": 262,
+      "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.024
+      "rating": 0.138
     },
     {
-      "ranking_id": 305,
+      "ranking_id": 301,
       "season_id": "s18_the_ruins",
       "rating": -0.331
     }

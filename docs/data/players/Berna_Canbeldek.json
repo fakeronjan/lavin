@@ -4,15 +4,15 @@
   "gender": "F",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.446,
+    "peak_rating": 0.538,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.446,
+    "active_rating": 0.538,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 2,
-    "elim_losses": 2,
+    "elim_losses": 1,
     "daily_wins": 2
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "Only One Gets the Crown",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.093,
+      "rating_at_end": 0.216,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The Threat",
       "elim_position": 6,
       "elim_total": 11,
-      "rating_at_end": 0.063,
+      "rating_at_end": 0.032,
       "partner": "",
       "partners_history": [
         "Corey Lay",
@@ -57,14 +57,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.063
+      "rating": 0.032
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.093
+      "rating": 0.216
     }
   ]
 }

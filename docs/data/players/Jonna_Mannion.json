@@ -6,7 +6,7 @@
     "era_rating": 0.0,
     "peak_rating": -0.012,
     "peak_season_id": "s21_rivals",
-    "active_rating": -0.189,
+    "active_rating": -0.196,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
     "n_snapshots": 11,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "A King of Kamikaze",
       "elim_position": 5,
-      "elim_total": 7,
-      "rating_at_end": -0.189,
+      "elim_total": 8,
+      "rating_at_end": -0.196,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -44,7 +44,7 @@
       "finish_episode": "My Real Friends Era",
       "elim_position": 7,
       "elim_total": 13,
-      "rating_at_end": -0.529,
+      "rating_at_end": -0.504,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -61,7 +61,7 @@
       "finish_episode": "You've Lost That Loving Feeling",
       "elim_position": 8,
       "elim_total": 8,
-      "rating_at_end": -0.388,
+      "rating_at_end": -0.379,
       "partner": "Zach Nichols",
       "partners_history": [],
       "team": "",
@@ -77,8 +77,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Pride Before the Wall",
       "elim_position": 7,
-      "elim_total": 10,
-      "rating_at_end": -0.319,
+      "elim_total": 11,
+      "rating_at_end": -0.309,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -138,39 +138,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": -0.012
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.57
     },
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": -0.438
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.319
+      "rating": -0.309
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.388
+      "rating": -0.379
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.529
+      "rating": -0.504
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.189
+      "rating": -0.196
     }
   ]
 }

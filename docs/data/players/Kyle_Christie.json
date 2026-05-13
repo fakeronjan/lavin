@@ -3,17 +3,17 @@
   "safe_name": "Kyle_Christie",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
+    "era_rating": 2.1,
     "peak_rating": 0.754,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.754,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.718,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 7,
     "n_snapshots": 9,
     "championships": 0,
-    "elim_wins": 5,
-    "elim_losses": 5,
-    "daily_wins": 16
+    "elim_wins": 6,
+    "elim_losses": 4,
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The Decision",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.391,
+      "rating_at_end": 0.353,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Medically Disqualified <small>in True Lies",
       "finish_label": "Medical DQ",
       "finish_episode": "True Lies",
-      "elim_position": 8,
-      "elim_total": 8,
-      "rating_at_end": 0.187,
+      "elim_position": 9,
+      "elim_total": 9,
+      "rating_at_end": 0.283,
       "partner": "",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -68,7 +68,7 @@
       "finish_episode": "It's the End of the World As We Know It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.244,
+      "rating_at_end": 0.343,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -83,9 +83,9 @@
       "finish": "Eliminated in Saving Private Esther",
       "finish_label": "Eliminated",
       "finish_episode": "Saving Private Esther",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": -0.108,
+      "elim_position": 5,
+      "elim_total": 8,
+      "rating_at_end": -0.112,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -100,9 +100,9 @@
       "finish": "Eliminated in Final Destination",
       "finish_label": "Eliminated",
       "finish_episode": "Final Destination",
-      "elim_position": 3,
+      "elim_position": 7,
       "elim_total": 7,
-      "rating_at_end": -0.135,
+      "rating_at_end": -0.036,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -117,9 +117,9 @@
       "finish": "Eliminated in It's Always Sunny in South Africa",
       "finish_label": "Eliminated",
       "finish_episode": "It's Always Sunny in South Africa",
-      "elim_position": 6,
+      "elim_position": 4,
       "elim_total": 10,
-      "rating_at_end": 0.223,
+      "rating_at_end": 0.358,
       "partner": "Brad Fiorenza",
       "partners_history": [],
       "team": "",
@@ -136,7 +136,7 @@
       "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.663,
+      "rating_at_end": 0.754,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -145,39 +145,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.663
+      "rating": 0.754
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.223
+      "rating": 0.358
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.135
+      "rating": -0.036
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.108
+      "rating": -0.112
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.244
+      "rating": 0.343
     },
     {
-      "ranking_id": 844,
+      "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.187
+      "rating": 0.283
     },
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.391
+      "rating": 0.353
     }
   ]
 }

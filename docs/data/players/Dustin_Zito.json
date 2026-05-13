@@ -3,16 +3,16 @@
   "safe_name": "Dustin_Zito",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
+    "era_rating": 0.5,
     "peak_rating": 0.355,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.189,
+    "active_rating": -0.168,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 4,
     "n_snapshots": 7,
     "championships": 0,
-    "elim_wins": 3,
-    "elim_losses": 1,
+    "elim_wins": 2,
+    "elim_losses": 2,
     "daily_wins": 3
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "Where Is the Love?",
       "elim_position": 1,
       "elim_total": 9,
-      "rating_at_end": -0.004,
+      "rating_at_end": -0.194,
       "partner": "Jessica McCain",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Love in the Fast Lane",
       "finish_label": "Eliminated",
       "finish_episode": "Love in the Fast Lane",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.327,
+      "elim_position": 2,
+      "elim_total": 9,
+      "rating_at_end": 0.257,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -81,7 +81,7 @@
       "finish_episode": "Where Did Our Love Go?",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.784,
+      "rating_at_end": -0.789,
       "partner": "Heather Marter",
       "partners_history": [],
       "team": "",
@@ -90,24 +90,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 423,
+      "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.784
+      "rating": -0.789
     },
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.275
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.327
+      "rating": 0.257
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.004
+      "rating": -0.194
     }
   ]
 }

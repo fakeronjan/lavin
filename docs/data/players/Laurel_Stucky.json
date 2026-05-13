@@ -3,17 +3,17 @@
   "safe_name": "Laurel_Stucky",
   "gender": "F",
   "career": {
-    "era_rating": 3.5,
+    "era_rating": 3.8,
     "peak_rating": 1.164,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.204,
+    "active_rating": -0.192,
     "active_season_id": "s41_vets_and_new_threats",
-    "n_seasons": 9,
-    "n_snapshots": 19,
+    "n_seasons": 10,
+    "n_snapshots": 21,
     "championships": 1,
-    "elim_wins": 9,
+    "elim_wins": 11,
     "elim_losses": 2,
-    "daily_wins": 15
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The Era of the Purge",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.231,
+      "rating_at_end": -0.005,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -44,7 +44,7 @@
       "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.224,
+      "rating_at_end": -0.229,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 6,
       "elim_total": 12,
-      "rating_at_end": -0.098,
+      "rating_at_end": -0.011,
       "partner": "Jakk Maddox",
       "partners_history": [],
       "team": "",
@@ -78,10 +78,27 @@
       "finish_episode": "Benedict Laurel",
       "elim_position": 2,
       "elim_total": 7,
-      "rating_at_end": 0.312,
+      "rating_at_end": 0.323,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
+      "forced_exit": false
+    },
+    {
+      "season_id": "s31_vendettas",
+      "season_num": 31,
+      "season_name": "Vendettas",
+      "year": 2018,
+      "label": "S31 Vendettas (2018)",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": null,
+      "elim_total": null,
+      "rating_at_end": 0.399,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
       "forced_exit": false
     },
     {
@@ -95,7 +112,7 @@
       "finish_episode": "Caged",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.41,
+      "rating_at_end": 0.355,
       "partner": "",
       "partners_history": [
         "Cara Maria Sorbello",
@@ -115,7 +132,7 @@
       "finish_episode": "A Walk in the Clouds",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.832,
+      "rating_at_end": 0.738,
       "partner": "",
       "partners_history": [
         "Cohutta Grindstaff",
@@ -178,49 +195,54 @@
   ],
   "timeline": [
     {
-      "ranking_id": 338,
+      "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
       "rating": 0.798
     },
     {
-      "ranking_id": 357,
+      "ranking_id": 353,
       "season_id": "s20_cutthroat",
       "rating": 0.507
     },
     {
-      "ranking_id": 390,
+      "ranking_id": 386,
       "season_id": "s21_rivals",
       "rating": 0.647
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.832
+      "rating": 0.738
     },
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.41
+      "rating": 0.355
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 665,
+      "season_id": "s31_vendettas",
+      "rating": 0.399
+    },
+    {
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.312
+      "rating": 0.323
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.098
+      "rating": -0.011
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.224
+      "rating": -0.229
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.231
+      "rating": -0.005
     }
   ]
 }

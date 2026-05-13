@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.064,
+    "peak_rating": -0.038,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.358,
-    "active_season_id": "s31_vendettas",
+    "active_rating": -0.56,
+    "active_season_id": "s32_final_reckoning",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 6,
     "championships": 0,
     "elim_wins": 0,
     "elim_losses": 0,
@@ -27,7 +27,7 @@
       "finish_episode": "Shots Fired!",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.469,
+      "rating_at_end": -0.488,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "#Corneesa",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.064,
+      "rating_at_end": -0.038,
       "partner": "Tony Raines",
       "partners_history": [],
       "team": "",
@@ -53,14 +53,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.064
+      "rating": -0.038
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.469
+      "rating": -0.488
     }
   ]
 }

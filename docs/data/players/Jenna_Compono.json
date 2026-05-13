@@ -3,16 +3,16 @@
   "safe_name": "Jenna_Compono",
   "gender": "F",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 0.546,
-    "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.546,
+    "era_rating": 1.3,
+    "peak_rating": 0.402,
+    "peak_season_id": "s30_xxx_dirty_30",
+    "active_rating": -0.12,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 8,
     "n_snapshots": 12,
     "championships": 0,
-    "elim_wins": 4,
-    "elim_losses": 2,
+    "elim_wins": 2,
+    "elim_losses": 3,
     "daily_wins": 8
   },
   "seasons": [
@@ -25,9 +25,9 @@
       "finish": "Eliminated in Backstabber",
       "finish_label": "Eliminated",
       "finish_episode": "Backstabber",
-      "elim_position": null,
-      "elim_total": null,
-      "rating_at_end": 0.111,
+      "elim_position": 4,
+      "elim_total": 9,
+      "rating_at_end": -0.262,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in Liar, Liar",
       "finish_label": "Eliminated",
       "finish_episode": "Liar, Liar",
-      "elim_position": 7,
-      "elim_total": 10,
-      "rating_at_end": -0.463,
+      "elim_position": 6,
+      "elim_total": 9,
+      "rating_at_end": -0.424,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -61,7 +61,7 @@
       "finish_episode": "The Affair",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.214,
+      "rating_at_end": -0.249,
       "partner": "Jemmye Carroll",
       "partners_history": [],
       "team": "",
@@ -76,7 +76,7 @@
       "finish": "Eliminated in The Sinister Six",
       "finish_label": "Eliminated",
       "finish_episode": "The Sinister Six",
-      "elim_position": 2,
+      "elim_position": 4,
       "elim_total": 6,
       "rating_at_end": 0.402,
       "partner": "",
@@ -95,7 +95,7 @@
       "finish_episode": "The Bloodbath",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.411,
+      "rating_at_end": 0.393,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "Family Matters",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.191,
+      "rating_at_end": 0.195,
       "partner": "Brianna Julig",
       "partners_history": [],
       "team": "",
@@ -146,7 +146,7 @@
       "finish_episode": "The Greatest Love of All",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.169,
+      "rating_at_end": -0.162,
       "partner": "Jay Mitchell",
       "partners_history": [],
       "team": "",
@@ -155,44 +155,44 @@
   ],
   "timeline": [
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.169
+      "rating": -0.162
     },
     {
-      "ranking_id": 583,
+      "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.191
+      "rating": 0.195
     },
     {
-      "ranking_id": 616,
+      "ranking_id": 610,
       "season_id": "s28_rivals_iii",
       "rating": 0.347
     },
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.411
+      "rating": 0.393
     },
     {
-      "ranking_id": 652,
+      "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
       "rating": 0.402
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": -0.214
+      "rating": -0.249
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.463
+      "rating": -0.424
     },
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.111
+      "rating": -0.262
     }
   ]
 }

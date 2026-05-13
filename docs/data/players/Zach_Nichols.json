@@ -3,17 +3,17 @@
   "safe_name": "Zach_Nichols",
   "gender": "M",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 0.637,
-    "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": 0.134,
+    "era_rating": 2.5,
+    "peak_rating": 0.683,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.097,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 9,
     "n_snapshots": 15,
     "championships": 1,
-    "elim_wins": 6,
-    "elim_losses": 6,
-    "daily_wins": 9
+    "elim_wins": 5,
+    "elim_losses": 5,
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Give Me Liberty or Give Me Cash",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.058,
+      "rating_at_end": -0.133,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -42,9 +42,9 @@
       "finish": "Eliminated in The Greatest Showman",
       "finish_label": "Eliminated",
       "finish_episode": "The Greatest Showman",
-      "elim_position": 4,
+      "elim_position": 3,
       "elim_total": 7,
-      "rating_at_end": -0.197,
+      "rating_at_end": -0.375,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -59,9 +59,9 @@
       "finish": "Medically Disqualified in Wheel of Fortune",
       "finish_label": "Medical DQ",
       "finish_episode": "Wheel of Fortune",
-      "elim_position": 1,
+      "elim_position": 6,
       "elim_total": 10,
-      "rating_at_end": 0.395,
+      "rating_at_end": 0.382,
       "partner": "Amanda Garcia",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Vendettas Never Die",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.564,
+      "rating_at_end": 0.683,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -94,8 +94,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Achy Breaky Heart",
       "elim_position": 2,
-      "elim_total": 6,
-      "rating_at_end": -0.196,
+      "elim_total": 5,
+      "rating_at_end": -0.224,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "finish_episode": "You've Lost That Loving Feeling",
       "elim_position": 8,
       "elim_total": 9,
-      "rating_at_end": -0.035,
+      "rating_at_end": -0.001,
       "partner": "Jonna Mannion",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "finish_episode": "A Walk in the Clouds",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.437,
+      "rating_at_end": 0.427,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -172,49 +172,49 @@
   ],
   "timeline": [
     {
-      "ranking_id": 468,
+      "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": 0.637
     },
     {
-      "ranking_id": 505,
+      "ranking_id": 501,
       "season_id": "s24_rivals_ii",
       "rating": 0.393
     },
     {
-      "ranking_id": 528,
+      "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.437
+      "rating": 0.427
     },
     {
-      "ranking_id": 569,
+      "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.035
+      "rating": -0.001
     },
     {
-      "ranking_id": 632,
+      "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.196
+      "rating": -0.224
     },
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.564
+      "rating": 0.683
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.395
+      "rating": 0.382
     },
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.197
+      "rating": -0.375
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.058
+      "rating": -0.133
     }
   ]
 }

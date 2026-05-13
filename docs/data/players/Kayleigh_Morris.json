@@ -3,15 +3,15 @@
   "safe_name": "Kayleigh_Morris",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.347,
+    "era_rating": 0.4,
+    "peak_rating": 0.279,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.481,
+    "active_rating": -0.461,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 7,
     "championships": 0,
-    "elim_wins": 3,
+    "elim_wins": 2,
     "elim_losses": 2,
     "daily_wins": 3
   },
@@ -27,7 +27,7 @@
       "finish_episode": "Dee-Day",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": -0.435,
+      "rating_at_end": -0.403,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -44,7 +44,7 @@
       "finish_episode": "It's Always Sunny in South Africa",
       "elim_position": 8,
       "elim_total": 9,
-      "rating_at_end": 0.347,
+      "rating_at_end": 0.279,
       "partner": "Kam Williams",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "Rumor Has It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.305,
+      "rating_at_end": 0.139,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,19 +70,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 675,
+      "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.305
+      "rating": 0.139
     },
     {
-      "ranking_id": 744,
+      "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.347
+      "rating": 0.279
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.435
+      "rating": -0.403
     }
   ]
 }

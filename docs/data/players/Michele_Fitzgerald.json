@@ -4,16 +4,16 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.376,
+    "peak_rating": 0.251,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.376,
+    "active_rating": 0.251,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
     "championships": 0,
     "elim_wins": 5,
-    "elim_losses": 3,
-    "daily_wins": 7
+    "elim_losses": 5,
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "The End of an Era, Part 2",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.342,
+      "rating_at_end": 0.214,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -42,9 +42,9 @@
       "finish": "",
       "finish_label": "",
       "finish_episode": "",
-      "elim_position": 5,
-      "elim_total": 5,
-      "rating_at_end": -0.335,
+      "elim_position": 6,
+      "elim_total": 7,
+      "rating_at_end": -0.339,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -61,7 +61,7 @@
       "finish_episode": "",
       "elim_position": 8,
       "elim_total": 12,
-      "rating_at_end": -0.111,
+      "rating_at_end": 0.165,
       "partner": "Jay Starrett",
       "partners_history": [],
       "team": "",
@@ -78,7 +78,7 @@
       "finish_episode": "Messy",
       "elim_position": 4,
       "elim_total": 11,
-      "rating_at_end": 0.24,
+      "rating_at_end": 0.207,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,24 +87,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.24
+      "rating": 0.207
     },
     {
-      "ranking_id": 936,
+      "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.111
+      "rating": 0.165
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.335
+      "rating": -0.339
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.342
+      "rating": 0.214
     }
   ]
 }

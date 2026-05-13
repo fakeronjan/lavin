@@ -3,17 +3,17 @@
   "safe_name": "Theo_Campbell",
   "gender": "M",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.622,
-    "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.546,
+    "era_rating": 1.5,
+    "peak_rating": 0.635,
+    "peak_season_id": "s37_spies_lies_allies",
+    "active_rating": 0.49,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 7,
     "championships": 0,
-    "elim_wins": 6,
-    "elim_losses": 2,
-    "daily_wins": 11
+    "elim_wins": 7,
+    "elim_losses": 3,
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -27,7 +27,7 @@
       "finish_episode": "Finale Part II",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.546,
+      "rating_at_end": 0.49,
       "partner": "",
       "partners_history": [
         "Izzy Fairthorne",
@@ -47,7 +47,7 @@
       "finish_episode": "The Era of the Purge",
       "elim_position": 13,
       "elim_total": 15,
-      "rating_at_end": -0.026,
+      "rating_at_end": -0.219,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -62,9 +62,9 @@
       "finish": "Eliminated in All Is Fair in Love and War",
       "finish_label": "Eliminated",
       "finish_episode": "All Is Fair in Love and War",
-      "elim_position": 6,
-      "elim_total": 7,
-      "rating_at_end": 0.414,
+      "elim_position": 7,
+      "elim_total": 8,
+      "rating_at_end": 0.44,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -81,7 +81,7 @@
       "finish_episode": "This Is the End",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.622,
+      "rating_at_end": 0.611,
       "partner": "",
       "partners_history": [],
       "team": "Prospects",
@@ -90,24 +90,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 784,
+      "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.622
+      "rating": 0.611
     },
     {
-      "ranking_id": 800,
+      "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.414
+      "rating": 0.44
     },
     {
-      "ranking_id": 988,
+      "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.026
+      "rating": -0.219
     },
     {
-      "ranking_id": 1016,
+      "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.546
+      "rating": 0.49
     }
   ]
 }

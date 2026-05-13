@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.233,
-    "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.062,
+    "peak_rating": 0.296,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": 0.102,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -27,7 +27,7 @@
       "finish_episode": "",
       "elim_position": 1,
       "elim_total": 7,
-      "rating_at_end": -0.013,
+      "rating_at_end": -0.06,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -44,7 +44,7 @@
       "finish_episode": "The Threat",
       "elim_position": 5,
       "elim_total": 11,
-      "rating_at_end": 0.233,
+      "rating_at_end": 0.154,
       "partner": "",
       "partners_history": [
         "Amber Borzotra",
@@ -56,14 +56,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 878,
+      "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.233
+      "rating": 0.154
     },
     {
-      "ranking_id": 951,
+      "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.013
+      "rating": -0.06
     }
   ]
 }

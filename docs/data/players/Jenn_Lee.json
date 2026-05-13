@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.118,
+    "peak_rating": 0.05,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.118,
+    "active_rating": 0.05,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -26,8 +26,8 @@
       "finish_label": "Eliminated",
       "finish_episode": "Sweet Dreams Are Made of Dee",
       "elim_position": 1,
-      "elim_total": 8,
-      "rating_at_end": -0.028,
+      "elim_total": 9,
+      "rating_at_end": 0.025,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.028
+      "rating": 0.025
     }
   ]
 }

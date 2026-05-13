@@ -3,16 +3,16 @@
   "safe_name": "Bayleigh_Dayton",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.565,
+    "era_rating": 0.5,
+    "peak_rating": 0.51,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.565,
+    "active_rating": 0.51,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 1,
     "n_snapshots": 3,
     "championships": 0,
     "elim_wins": 1,
-    "elim_losses": 1,
+    "elim_losses": 0,
     "daily_wins": 3
   },
   "seasons": [
@@ -27,7 +27,7 @@
       "finish_episode": "It's the End of the World As We Know It",
       "elim_position": null,
       "elim_total": null,
-      "rating_at_end": 0.395,
+      "rating_at_end": 0.495,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -36,9 +36,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 825,
+      "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.395
+      "rating": 0.495
     }
   ]
 }
