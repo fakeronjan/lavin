@@ -92,10 +92,12 @@ def main():
                 if not phases or phases[-1] != them:
                     phases.append(them)
 
-        # Emit one row per phase per player (only when >1 phase exists)
+        # Emit one row per phase per player. Includes single-partner players
+        # because the cast table sometimes leaves `pair_id` empty (e.g. when
+        # an ex didn't show up or a player was DQ'd super early — Nia/Wes
+        # S26, Adam Royer S21). The elim chart shows their actual in-show
+        # partner; that's what we want to surface.
         for player, phases in per_player_phases.items():
-            if len(phases) < 2:
-                continue
             for i, p in enumerate(phases, 1):
                 rows.append({
                     "season_id": sid,
@@ -103,13 +105,16 @@ def main():
                     "partner_order": i,
                     "partner": p,
                 })
-            summary_rows.append({
-                "season_id": sid,
-                "player": player,
-                "n_phases": len(phases),
-                "n_unique_partners": len(set(phases)),
-                "sequence": " → ".join(phases),
-            })
+            # Summary only logs players with multiple partners (the
+            # "interesting" mid-season swap cases worth eyeballing)
+            if len(phases) >= 2:
+                summary_rows.append({
+                    "season_id": sid,
+                    "player": player,
+                    "n_phases": len(phases),
+                    "n_unique_partners": len(set(phases)),
+                    "sequence": " → ".join(phases),
+                })
 
     df = pd.DataFrame(rows)
     df.to_csv(OUT, index=False)

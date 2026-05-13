@@ -296,6 +296,12 @@ def main():
                         partner = others[0] if others else ""
                     t_raw = cast_row.iloc[0].get("team")
                     team = "" if pd.isna(t_raw) else str(t_raw).strip()
+                # Fallback: if cast didn't give us a partner (DQ'd early,
+                # ex never showed up, etc.), use the first partner from
+                # the elim-chart-derived partner_history.
+                ph = partner_history.get((sid, p), [])
+                if not partner and ph:
+                    partner = ph[0]
                 f_label, f_ep = standardize_finish(finish_str)
                 forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
                 ep = elim_pos.get((sid, p))
@@ -311,7 +317,7 @@ def main():
                     "elim_total":    ep[1] if ep else None,
                     "eliminated_by": eliminated_by_map.get((sid, p), []),
                     "partner": partner,
-                    "partners_history": partner_history.get((sid, p), []),
+                    "partners_history": ph,
                     "team": team,
                     "forced_exit": forced_exit,
                 })
@@ -585,9 +591,13 @@ def main():
             team = "" if pd.isna(t_raw) else str(t_raw).strip()
             finish_str = "" if pd.isna(ar["finish"]) else str(ar["finish"])
             f_label, f_ep = standardize_finish(finish_str)
-            forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
             ep = elim_pos.get((sid, p))
             partners_history = partner_history.get((sid, p), [])
+            # Fallback: if cast gave no partner (DQ'd early, ex didn't
+            # show), use first partner from the elim-chart history.
+            if not partner and partners_history:
+                partner = partners_history[0]
+            forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
             seasons_data.append({
                 "season_id": sid,
                 "season_num": int(srow["season_num"]),
