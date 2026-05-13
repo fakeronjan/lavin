@@ -134,6 +134,23 @@ def main():
             continue
         wt = raw_path.read_text(encoding="utf-8")
 
+        # Only audit pair-format seasons. Detect via cast pair_ids: if the
+        # contestants table has at least one populated pair_id, this is a
+        # pair-format season; otherwise it's individual (S25 Free Agents,
+        # S35 Total Madness, S40 Battle of the Eras, etc.) and 2-icon
+        # chart cells are transient Power Couples / Duo nominees, NOT
+        # season-long partnerships.
+        cast_path = RAW / sid / "contestants.csv"
+        if cast_path.exists():
+            try:
+                cast_df = pd.read_csv(cast_path)
+                has_any_pair = "pair_id" in cast_df.columns and \
+                    cast_df["pair_id"].dropna().astype(str).str.strip().replace("", pd.NA).dropna().any()
+            except Exception:
+                has_any_pair = False
+            if not has_any_pair:
+                continue
+
         # Build per-player chronological partner sequence (preserves X→Y→X
         # patterns by treating each transition as a new phase). For each
         # episode, capture the player→partner mapping; then collapse
