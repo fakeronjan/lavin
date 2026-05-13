@@ -3,13 +3,13 @@
   "safe_name": "Jamie_Murray",
   "gender": "M",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.685,
+    "era_rating": 1.2,
+    "peak_rating": 0.722,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": 0.645,
-    "active_season_id": "s13_the_duel",
+    "active_rating": 0.49,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 8,
+    "n_snapshots": 4,
     "championships": 4,
     "pre_anchor_titles": 1,
     "elim_wins": 1,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.62,
+      "rating_at_end": 0.49,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.685,
+      "rating_at_end": 0.722,
       "partner": "Dan Renzi",
       "partners_history": [
         "Dan Renzi"
@@ -60,12 +60,12 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.685
+      "rating": 0.722
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.62
+      "rating": 0.49
     }
   ]
 }

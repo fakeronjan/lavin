@@ -3,13 +3,13 @@
   "safe_name": "Theresa_Jones",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.686,
-    "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": 0.027,
+    "era_rating": 0.5,
+    "peak_rating": 0.818,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": 0.026,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 7,
-    "n_snapshots": 14,
+    "n_snapshots": 12,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": 0.095,
+      "rating_at_end": 0.104,
       "partner": "Jay Starrett",
       "partners_history": [
         "Jay Starrett",
@@ -52,7 +52,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.019,
+      "rating_at_end": 0.416,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Wes Bergmann",
@@ -75,7 +75,7 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.221,
+      "rating_at_end": -0.066,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -99,7 +99,7 @@
         "Camila Nakagawa",
         "Jemmye Carroll"
       ],
-      "rating_at_end": -0.27,
+      "rating_at_end": -0.289,
       "partner": "Jasmine Reynaud",
       "partners_history": [
         "Jasmine Reynaud"
@@ -122,7 +122,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.366,
+      "rating_at_end": -0.393,
       "partner": "Camila Nakagawa",
       "partners_history": [
         "Camila Nakagawa"
@@ -144,7 +144,7 @@
       "eliminated_by": [
         "Tori Hall"
       ],
-      "rating_at_end": -0.532,
+      "rating_at_end": -0.302,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -165,7 +165,7 @@
         "Jenn Grijalva",
         "Noor Jehangir"
       ],
-      "rating_at_end": -0.36,
+      "rating_at_end": -0.424,
       "partner": "Ryan Kehoe",
       "partners_history": [
         "Ryan Kehoe"
@@ -178,37 +178,37 @@
     {
       "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.36
+      "rating": -0.424
     },
     {
       "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.532
+      "rating": -0.302
     },
     {
       "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": -0.366
+      "rating": -0.393
     },
     {
       "ranking_id": 501,
       "season_id": "s24_rivals_ii",
-      "rating": -0.27
+      "rating": -0.289
     },
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.221
+      "rating": -0.066
     },
     {
       "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.019
+      "rating": 0.416
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.095
+      "rating": 0.104
     }
   ]
 }

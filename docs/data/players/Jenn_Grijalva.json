@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.256,
-    "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.002,
-    "active_season_id": "s23_battle_of_the_seasons_2012",
+    "peak_rating": 0.23,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.032,
+    "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 6,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.102,
+      "rating_at_end": 0.05,
       "partner": "Mandi Moyer",
       "partners_history": [
         "Mandi Moyer"
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.008,
+      "rating_at_end": 0.06,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.256,
+      "rating_at_end": 0.208,
       "partner": "Noor Jehangir",
       "partners_history": [
         "Noor Jehangir"
@@ -89,7 +89,7 @@
       "eliminated_by": [
         "Diem Brown"
       ],
-      "rating_at_end": -0.006,
+      "rating_at_end": 0.116,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -107,7 +107,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.22,
+      "rating_at_end": -0.059,
       "partner": "Paula Meronek",
       "partners_history": [
         "Paula Meronek"
@@ -129,7 +129,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": -0.898,
+      "rating_at_end": -0.463,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -140,32 +140,32 @@
     {
       "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.898
+      "rating": -0.463
     },
     {
       "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.22
+      "rating": -0.059
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.006
+      "rating": 0.116
     },
     {
       "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.256
+      "rating": 0.208
     },
     {
       "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.008
+      "rating": 0.06
     },
     {
       "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": 0.102
+      "rating": 0.05
     }
   ]
 }

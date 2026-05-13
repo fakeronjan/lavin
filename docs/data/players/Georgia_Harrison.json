@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 1.1,
-    "peak_rating": 0.677,
+    "peak_rating": 0.712,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.303,
-    "active_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.006,
+    "active_season_id": "s36_double_agents",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 4,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": 0.409,
+      "rating_at_end": 0.353,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.677,
+      "rating_at_end": 0.712,
       "partner": "Hunter Barfield",
       "partners_history": [
         "Hunter Barfield",
@@ -63,12 +63,12 @@
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.677
+      "rating": 0.712
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.409
+      "rating": 0.353
     }
   ]
 }

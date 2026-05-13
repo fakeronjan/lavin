@@ -3,13 +3,13 @@
   "safe_name": "Paula_Meronek",
   "gender": "F",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 1.067,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": 1.067,
-    "active_season_id": "s27_battle_of_the_bloodlines",
+    "era_rating": 2.4,
+    "peak_rating": 1.052,
+    "peak_season_id": "s25_free_agents",
+    "active_rating": 1.052,
+    "active_season_id": "s25_free_agents",
     "n_seasons": 10,
-    "n_snapshots": 15,
+    "n_snapshots": 13,
     "championships": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.85,
+      "rating_at_end": 1.032,
       "partner": "Emily Schromm",
       "partners_history": [
         "Emily Schromm"
@@ -52,7 +52,7 @@
         "Emily Schromm",
         "Ty Ruff"
       ],
-      "rating_at_end": 0.345,
+      "rating_at_end": 0.545,
       "partner": "Dunbar Merrill",
       "partners_history": [
         "Dunbar Merrill"
@@ -72,7 +72,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.405,
+      "rating_at_end": 0.709,
       "partner": "Evelyn Smith",
       "partners_history": [
         "Evelyn Smith"
@@ -94,7 +94,7 @@
       "eliminated_by": [
         "Emily Schromm"
       ],
-      "rating_at_end": -0.552,
+      "rating_at_end": -0.596,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -115,7 +115,7 @@
         "Evelyn Smith",
         "Luke Wolfe"
       ],
-      "rating_at_end": -0.031,
+      "rating_at_end": -0.258,
       "partner": "Jeff Barr",
       "partners_history": [
         "Jeff Barr"
@@ -137,7 +137,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.053,
+      "rating_at_end": -0.015,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -155,7 +155,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.01,
+      "rating_at_end": 0.123,
       "partner": "Jenn Grijalva",
       "partners_history": [
         "Jenn Grijalva"
@@ -175,7 +175,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.109,
+      "rating_at_end": 0.024,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -193,7 +193,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.379,
+      "rating_at_end": 0.014,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -213,7 +213,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.423,
+      "rating_at_end": -0.181,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -224,52 +224,52 @@
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": -0.423
+      "rating": -0.181
     },
     {
       "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.379
+      "rating": 0.014
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.109
+      "rating": 0.024
     },
     {
       "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.01
+      "rating": 0.123
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.053
+      "rating": -0.015
     },
     {
       "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.031
+      "rating": -0.258
     },
     {
       "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.552
+      "rating": -0.596
     },
     {
       "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": 0.405
+      "rating": 0.709
     },
     {
       "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.345
+      "rating": 0.545
     },
     {
       "ranking_id": 501,
       "season_id": "s24_rivals_ii",
-      "rating": 0.85
+      "rating": 1.032
     }
   ]
 }

@@ -3,13 +3,13 @@
   "safe_name": "Melinda_Collins",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.283,
-    "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.625,
+    "era_rating": 0.0,
+    "peak_rating": -0.099,
+    "peak_season_id": "s23_battle_of_the_seasons_2012",
+    "active_rating": -0.755,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
-    "n_snapshots": 14,
+    "n_snapshots": 10,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -32,7 +32,7 @@
         "Camila Nakagawa",
         "Big Easy Banks"
       ],
-      "rating_at_end": -0.274,
+      "rating_at_end": -0.099,
       "partner": "Danny Jamieson",
       "partners_history": [
         "Danny Jamieson"
@@ -54,7 +54,7 @@
       "eliminated_by": [
         "Emily Schromm"
       ],
-      "rating_at_end": -0.514,
+      "rating_at_end": -0.366,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -74,7 +74,7 @@
       "eliminated_by": [
         "Tori Hall"
       ],
-      "rating_at_end": -0.379,
+      "rating_at_end": -0.299,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -95,7 +95,7 @@
         "Casey Cooper",
         "Wes Bergmann"
       ],
-      "rating_at_end": 0.283,
+      "rating_at_end": -0.192,
       "partner": "Ryan Kehoe",
       "partners_history": [
         "Ryan Kehoe"
@@ -108,22 +108,22 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.283
+      "rating": -0.192
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.379
+      "rating": -0.299
     },
     {
       "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.514
+      "rating": -0.366
     },
     {
       "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.274
+      "rating": -0.099
     }
   ]
 }

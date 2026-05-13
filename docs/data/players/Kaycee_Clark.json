@@ -3,10 +3,10 @@
   "safe_name": "Kaycee_Clark",
   "gender": "F",
   "career": {
-    "era_rating": 2.5,
-    "peak_rating": 0.752,
+    "era_rating": 2.0,
+    "peak_rating": 0.828,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.376,
+    "active_rating": -0.44,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 7,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.419,
+      "rating_at_end": -0.401,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.309,
+      "rating_at_end": -0.273,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -68,7 +68,7 @@
         "Aneesa Ferreira",
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.356,
+      "rating_at_end": -0.02,
       "partner": "Kenny Clark",
       "partners_history": [
         "Kenny Clark"
@@ -88,7 +88,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.536,
+      "rating_at_end": 0.652,
       "partner": "Emanuel Neagu",
       "partners_history": [
         "Emanuel Neagu",
@@ -109,7 +109,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.525,
+      "rating_at_end": 0.523,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Leroy Garrett"
@@ -129,7 +129,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.752,
+      "rating_at_end": 0.828,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -140,32 +140,32 @@
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.752
+      "rating": 0.828
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.525
+      "rating": 0.523
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.536
+      "rating": 0.652
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.356
+      "rating": -0.02
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.309
+      "rating": -0.273
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.419
+      "rating": -0.401
     }
   ]
 }

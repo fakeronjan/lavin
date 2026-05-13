@@ -3,13 +3,13 @@
   "safe_name": "Timmy_Beggy",
   "gender": "M",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.478,
+    "era_rating": 0.8,
+    "peak_rating": 0.891,
     "peak_season_id": "s10_the_inferno_ii",
-    "active_rating": -0.585,
+    "active_rating": -0.69,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 4,
-    "n_snapshots": 14,
+    "n_snapshots": 12,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Abram Boise"
       ],
-      "rating_at_end": -0.768,
+      "rating_at_end": -0.698,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.205,
+      "rating_at_end": -0.007,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.434,
+      "rating_at_end": 0.492,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.348,
+      "rating_at_end": 0.315,
       "partner": "Emily Bailey",
       "partners_history": [
         "Emily Bailey"
@@ -98,22 +98,22 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.348
+      "rating": 0.315
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.434
+      "rating": 0.492
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.205
+      "rating": -0.007
     },
     {
       "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.768
+      "rating": -0.698
     }
   ]
 }

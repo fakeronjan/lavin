@@ -3,13 +3,13 @@
   "safe_name": "Ryan_Kehoe",
   "gender": "M",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.47,
-    "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.023,
+    "era_rating": 0.4,
+    "peak_rating": 0.148,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": -0.367,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
-    "n_snapshots": 13,
+    "n_snapshots": 10,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.096,
+      "rating_at_end": 0.148,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -52,7 +52,7 @@
         "Noor Jehangir",
         "Jenn Grijalva"
       ],
-      "rating_at_end": 0.018,
+      "rating_at_end": -0.369,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -74,7 +74,7 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": 0.094,
+      "rating_at_end": 0.09,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -92,7 +92,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.002,
+      "rating_at_end": 0.023,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": 0.054,
+      "rating_at_end": 0.095,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -133,7 +133,7 @@
         "Wes Bergmann",
         "Casey Cooper"
       ],
-      "rating_at_end": 0.47,
+      "rating_at_end": -0.169,
       "partner": "Melinda Collins",
       "partners_history": [
         "Melinda Collins"
@@ -146,32 +146,32 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.47
+      "rating": -0.169
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.054
+      "rating": 0.095
     },
     {
       "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": 0.002
+      "rating": 0.023
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.094
+      "rating": 0.09
     },
     {
       "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.018
+      "rating": -0.369
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.096
+      "rating": 0.148
     }
   ]
 }

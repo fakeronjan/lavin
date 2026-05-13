@@ -42,16 +42,25 @@ CONFIGS = {
     # the WLS at every elim was producing within-season noise nobody saw.
     # Now: one rating per (player, season-end-snapshot).
     #
-    # Settings:
-    #   - 6-season window (~90 elims back from each season-end)
-    #   - No recency decay: events in the same season get equal weight
-    #     and (for now) seasons in the window all weight equally too.
+    # Settings (2026-05-12 tuning — replaced window=90/no-decay):
+    #   - 4-season window (~60 elims back from each season-end)
+    #   - Linear recency decay: events at the snapshot have weight 1.0,
+    #     events at the window edge have weight ~0. Effective per-season
+    #     weights are roughly 40/30/20/10 across the 4 seasons, which is
+    #     what the user's "1-2-3-4" weighting concept asked for — current-
+    #     season signal dominates instead of being diluted across 6 flat
+    #     seasons (the old 90/flat had this season at only ~17% of weight).
     #   - "Equal-weight" type_scales: target ~25% of total weight per
     #     dimension. final_within was 47% of total weight at the baseline
-    #     2.0 per-event; cutting to ~0.54 brings it in line. Dailies need
-    #     a slight bump and finals_field gets ~3x to be visible.
+    #     2.0 per-event; cutting to ~0.54 brings it in line.
+    #
+    # Side-by-side comparison on S19-S22 validated the change: the
+    # Bananas-eliminated-by-CT case (S20) properly drops him from #3 to
+    # #9, Dunbar's Red-Team-winner status surfaces (#6 → #2), and the
+    # top-of-top players (Bananas/CT/Wiseley/Wes; Cara Maria/Laurel/
+    # Tori/Ashley) remain stable.
     "lavin":  {
-        "window": 90, "decay": False, "eos_only": True,
+        "window": 60, "decay": True, "eos_only": True,
         "type_scales": {
             "elimination":  1.0,
             "daily":        1.24,

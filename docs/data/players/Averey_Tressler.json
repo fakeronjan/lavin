@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.3,
-    "peak_rating": 0.348,
+    "peak_rating": 0.432,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.505,
+    "active_rating": -0.275,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
-    "n_snapshots": 8,
+    "n_snapshots": 7,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.497,
+      "rating_at_end": -0.346,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.157,
+      "rating_at_end": -0.607,
       "partner": "Leroy Garrett",
       "partners_history": [],
       "team": "",
@@ -70,7 +70,7 @@
         "Nia Moore",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.157,
+      "rating_at_end": 0.257,
       "partner": "Johnny Reilly",
       "partners_history": [
         "Johnny Reilly"
@@ -83,17 +83,17 @@
     {
       "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.157
+      "rating": 0.257
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.157
+      "rating": -0.607
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.497
+      "rating": -0.346
     }
   ]
 }

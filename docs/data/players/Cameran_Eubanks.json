@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.025,
-    "peak_season_id": "s09_battle_of_the_sexes_2",
-    "active_rating": -0.167,
-    "active_season_id": "s13_the_duel",
+    "peak_rating": -0.073,
+    "peak_season_id": "s10_the_inferno_ii",
+    "active_rating": -0.594,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 3,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.334,
+      "rating_at_end": -0.594,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": 0.025,
+      "rating_at_end": -0.141,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,12 +60,12 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.025
+      "rating": -0.141
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.334
+      "rating": -0.594
     }
   ]
 }

@@ -8,9 +8,9 @@
     "M": [
       {
         "rank": 1,
-        "player": "Evan Starkman",
-        "rating": 0.65,
-        "n_events": 182,
+        "player": "Derrick Kosinski",
+        "rating": 0.837,
+        "n_events": 91,
         "finish": "Winners in Good Thai and Good Luck",
         "finish_label": "Champion",
         "finish_episode": "Good Thai and Good Luck",
@@ -24,9 +24,9 @@
       },
       {
         "rank": 2,
-        "player": "Derrick Kosinski",
-        "rating": 0.62,
-        "n_events": 117,
+        "player": "Kenny Santucci",
+        "rating": 0.821,
+        "n_events": 123,
         "finish": "Winners in Good Thai and Good Luck",
         "finish_label": "Champion",
         "finish_episode": "Good Thai and Good Luck",
@@ -40,9 +40,9 @@
       },
       {
         "rank": 3,
-        "player": "Kenny Santucci",
-        "rating": 0.57,
-        "n_events": 155,
+        "player": "Evan Starkman",
+        "rating": 0.811,
+        "n_events": 143,
         "finish": "Winners in Good Thai and Good Luck",
         "finish_label": "Champion",
         "finish_episode": "Good Thai and Good Luck",
@@ -56,17 +56,15 @@
       },
       {
         "rank": 4,
-        "player": "Wes Bergmann",
-        "rating": 0.454,
-        "n_events": 46,
-        "finish": "Eliminated in Reversal of Fortune",
-        "finish_label": "Eliminated",
-        "finish_episode": "Reversal of Fortune",
-        "elim_position": 5,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Cohutta Grindstaff"
-        ],
+        "player": "Johnny Bananas",
+        "rating": 0.747,
+        "n_events": 111,
+        "finish": "Winners in Good Thai and Good Luck",
+        "finish_label": "Champion",
+        "finish_episode": "Good Thai and Good Luck",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
         "partner": "",
         "partners_history": [],
         "team": "Champions",
@@ -75,8 +73,8 @@
       {
         "rank": 5,
         "player": "Brad Fiorenza",
-        "rating": 0.408,
-        "n_events": 122,
+        "rating": 0.437,
+        "n_events": 90,
         "finish": "Disqualified in Thai Me Up! Thai Me Down!",
         "finish_label": "Disqualified",
         "finish_episode": "Thai Me Up! Thai Me Down!",
@@ -90,24 +88,8 @@
       },
       {
         "rank": 6,
-        "player": "Johnny Bananas",
-        "rating": 0.34,
-        "n_events": 131,
-        "finish": "Winners in Good Thai and Good Luck",
-        "finish_label": "Champion",
-        "finish_episode": "Good Thai and Good Luck",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Champions",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Darrell Taylor",
-        "rating": 0.171,
+        "rating": 0.349,
         "n_events": 34,
         "finish": "Disqualified in Thai Me Up! Thai Me Down!",
         "finish_label": "Disqualified",
@@ -121,17 +103,17 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "player": "Adam King",
-        "rating": -0.034,
-        "n_events": 81,
-        "finish": "Eliminated in The Road to Ruins",
+        "rank": 7,
+        "player": "Cohutta Grindstaff",
+        "rating": 0.054,
+        "n_events": 32,
+        "finish": "Eliminated in Silence of the Ruins",
         "finish_label": "Eliminated",
-        "finish_episode": "The Road to Ruins",
-        "elim_position": 3,
+        "finish_episode": "Silence of the Ruins",
+        "elim_position": 7,
         "elim_total": 8,
         "eliminated_by": [
-          "Syrus Yarbrough"
+          "Darrell Taylor"
         ],
         "partner": "",
         "partners_history": [],
@@ -139,9 +121,9 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "player": "Syrus Yarbrough",
-        "rating": -0.039,
+        "rating": 0.053,
         "n_events": 28,
         "finish": "Eliminated in Ruining on Empty",
         "finish_label": "Eliminated",
@@ -157,17 +139,35 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Cohutta Grindstaff",
-        "rating": -0.122,
-        "n_events": 32,
-        "finish": "Eliminated in Silence of the Ruins",
+        "rank": 9,
+        "player": "Wes Bergmann",
+        "rating": -0.105,
+        "n_events": 17,
+        "finish": "Eliminated in Reversal of Fortune",
         "finish_label": "Eliminated",
-        "finish_episode": "Silence of the Ruins",
-        "elim_position": 7,
+        "finish_episode": "Reversal of Fortune",
+        "elim_position": 5,
         "elim_total": 8,
         "eliminated_by": [
-          "Darrell Taylor"
+          "Cohutta Grindstaff"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Champions",
+        "forced_exit": false
+      },
+      {
+        "rank": 10,
+        "player": "Adam King",
+        "rating": -0.193,
+        "n_events": 81,
+        "finish": "Eliminated in The Road to Ruins",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Road to Ruins",
+        "elim_position": 3,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Syrus Yarbrough"
         ],
         "partner": "",
         "partners_history": [],
@@ -176,44 +176,8 @@
       },
       {
         "rank": 11,
-        "player": "Nick Brown",
-        "rating": -0.322,
-        "n_events": 28,
-        "finish": "Eliminated in The Booby Trap",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Booby Trap",
-        "elim_position": 2,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Wes Bergmann"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Challengers",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
-        "player": "Chet Cannon",
-        "rating": -0.504,
-        "n_events": 7,
-        "finish": "Eliminated in Wes Side Story",
-        "finish_label": "Eliminated",
-        "finish_episode": "Wes Side Story",
-        "elim_position": 1,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Wes Bergmann"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Challengers",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
         "player": "Dunbar Merrill",
-        "rating": -0.515,
+        "rating": -0.297,
         "n_events": 57,
         "finish": "Eliminated in Muay So-Called Ruins",
         "finish_label": "Eliminated",
@@ -229,10 +193,28 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "player": "Nick Brown",
+        "rating": -0.398,
+        "n_events": 28,
+        "finish": "Eliminated in The Booby Trap",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Booby Trap",
+        "elim_position": 2,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Wes Bergmann"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Challengers",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "player": "Danny Jamieson",
-        "rating": -0.708,
-        "n_events": 47,
+        "rating": -0.487,
+        "n_events": 43,
         "finish": "Eliminated in Girls Gone Wild",
         "finish_label": "Eliminated",
         "finish_episode": "Girls Gone Wild",
@@ -245,14 +227,32 @@
         "partners_history": [],
         "team": "Challengers",
         "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Chet Cannon",
+        "rating": -0.523,
+        "n_events": 7,
+        "finish": "Eliminated in Wes Side Story",
+        "finish_label": "Eliminated",
+        "finish_episode": "Wes Side Story",
+        "elim_position": 1,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Wes Bergmann"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Challengers",
+        "forced_exit": false
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Susie Meister",
-        "rating": 0.723,
-        "n_events": 136,
+        "rating": 1.037,
+        "n_events": 105,
         "finish": "Winners in Good Thai and Good Luck",
         "finish_label": "Champion",
         "finish_episode": "Good Thai and Good Luck",
@@ -267,7 +267,7 @@
       {
         "rank": 2,
         "player": "Sarah Rice",
-        "rating": 0.484,
+        "rating": 0.634,
         "n_events": 32,
         "finish": "Runners-Up in Good Thai and Good Luck",
         "finish_label": "Runner-up",
@@ -282,42 +282,24 @@
       },
       {
         "rank": 3,
-        "player": "Evelyn Smith",
-        "rating": 0.419,
-        "n_events": 106,
-        "finish": "Eliminated in The Booby Trap",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Booby Trap",
-        "elim_position": 2,
-        "elim_total": 9,
-        "eliminated_by": [
-          "KellyAnne Judd"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Champions",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
-        "player": "Tonya Cooley",
-        "rating": 0.376,
-        "n_events": 75,
-        "finish": "Disqualified in Girls Gone Wild",
-        "finish_label": "Disqualified",
-        "finish_episode": "Girls Gone Wild",
+        "player": "KellyAnne Judd",
+        "rating": 0.521,
+        "n_events": 45,
+        "finish": "Runners-Up in Good Thai and Good Luck",
+        "finish_label": "Runner-up",
+        "finish_episode": "Good Thai and Good Luck",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
         "partner": "",
         "partners_history": [],
-        "team": "Champions",
+        "team": "Challengers",
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 4,
         "player": "Johanna Botta",
-        "rating": 0.34,
+        "rating": 0.269,
         "n_events": 91,
         "finish": "Eliminated in Silence of the Ruins",
         "finish_label": "Eliminated",
@@ -333,25 +315,45 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "KellyAnne Judd",
-        "rating": 0.254,
-        "n_events": 45,
-        "finish": "Runners-Up in Good Thai and Good Luck",
-        "finish_label": "Runner-up",
-        "finish_episode": "Good Thai and Good Luck",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
+        "rank": 5,
+        "player": "Evelyn Smith",
+        "rating": 0.267,
+        "n_events": 92,
+        "finish": "Eliminated in The Booby Trap",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Booby Trap",
+        "elim_position": 2,
+        "elim_total": 9,
+        "eliminated_by": [
+          "KellyAnne Judd"
+        ],
         "partner": "",
         "partners_history": [],
-        "team": "Challengers",
+        "team": "Champions",
+        "forced_exit": false
+      },
+      {
+        "rank": 6,
+        "player": "Veronica Portillo",
+        "rating": 0.173,
+        "n_events": 31,
+        "finish": "Eliminated in Ruining on Empty",
+        "finish_label": "Eliminated",
+        "finish_episode": "Ruining on Empty",
+        "elim_position": 6,
+        "elim_total": 9,
+        "eliminated_by": [
+          "KellyAnne Judd"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Champions",
         "forced_exit": false
       },
       {
         "rank": 7,
         "player": "Kimberly Alexander",
-        "rating": 0.052,
+        "rating": 0.125,
         "n_events": 62,
         "finish": "Eliminated in Muay So-Called Ruins",
         "finish_label": "Eliminated",
@@ -368,17 +370,15 @@
       },
       {
         "rank": 8,
-        "player": "Veronica Portillo",
-        "rating": -0.009,
-        "n_events": 31,
-        "finish": "Eliminated in Ruining on Empty",
-        "finish_label": "Eliminated",
-        "finish_episode": "Ruining on Empty",
-        "elim_position": 6,
-        "elim_total": 9,
-        "eliminated_by": [
-          "KellyAnne Judd"
-        ],
+        "player": "Tonya Cooley",
+        "rating": 0.068,
+        "n_events": 60,
+        "finish": "Disqualified in Girls Gone Wild",
+        "finish_label": "Disqualified",
+        "finish_episode": "Girls Gone Wild",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
         "partner": "",
         "partners_history": [],
         "team": "Champions",
@@ -386,16 +386,16 @@
       },
       {
         "rank": 9,
-        "player": "Diem Brown",
-        "rating": -0.074,
-        "n_events": 102,
-        "finish": "Eliminated in Wes Side Story",
+        "player": "Casey Cooper",
+        "rating": 0.04,
+        "n_events": 63,
+        "finish": "Eliminated in Muay So-Called Ruins",
         "finish_label": "Eliminated",
-        "finish_episode": "Wes Side Story",
-        "elim_position": 1,
+        "finish_episode": "Muay So-Called Ruins",
+        "elim_position": 9,
         "elim_total": 9,
         "eliminated_by": [
-          "Tonya Cooley"
+          "Susie Meister"
         ],
         "partner": "",
         "partners_history": [],
@@ -405,7 +405,7 @@
       {
         "rank": 10,
         "player": "Katie Cooley",
-        "rating": -0.272,
+        "rating": -0.041,
         "n_events": 84,
         "finish": "Eliminated in Girls Gone Wild",
         "finish_label": "Eliminated",
@@ -422,8 +422,26 @@
       },
       {
         "rank": 11,
+        "player": "Diem Brown",
+        "rating": -0.139,
+        "n_events": 68,
+        "finish": "Eliminated in Wes Side Story",
+        "finish_label": "Eliminated",
+        "finish_episode": "Wes Side Story",
+        "elim_position": 1,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Tonya Cooley"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Challengers",
+        "forced_exit": false
+      },
+      {
+        "rank": 12,
         "player": "Ibis Nieves",
-        "rating": -0.291,
+        "rating": -0.167,
         "n_events": 24,
         "finish": "Eliminated in Reversal of Fortune",
         "finish_label": "Eliminated",
@@ -439,43 +457,9 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
-        "player": "Casey Cooper",
-        "rating": -0.331,
-        "n_events": 71,
-        "finish": "Eliminated in Muay So-Called Ruins",
-        "finish_label": "Eliminated",
-        "finish_episode": "Muay So-Called Ruins",
-        "elim_position": 9,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Susie Meister"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Challengers",
-        "forced_exit": false
-      },
-      {
         "rank": 13,
-        "player": "Shauvon Torres",
-        "rating": -0.407,
-        "n_events": 38,
-        "finish": "Medically Disqualified in The Booby Trap",
-        "finish_label": "Medical DQ",
-        "finish_episode": "The Booby Trap",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Challengers",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
         "player": "Brianna Taylor",
-        "rating": -0.442,
+        "rating": -0.189,
         "n_events": 10,
         "finish": "Eliminated in The Road to Ruins",
         "finish_label": "Eliminated",
@@ -485,6 +469,22 @@
         "eliminated_by": [
           "Susie Meister"
         ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Challengers",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Shauvon Torres",
+        "rating": -0.289,
+        "n_events": 38,
+        "finish": "Medically Disqualified in The Booby Trap",
+        "finish_label": "Medical DQ",
+        "finish_episode": "The Booby Trap",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
         "partner": "",
         "partners_history": [],
         "team": "Challengers",

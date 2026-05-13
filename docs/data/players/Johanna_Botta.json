@@ -3,13 +3,13 @@
   "safe_name": "Johanna_Botta",
   "gender": "F",
   "career": {
-    "era_rating": 1.2,
-    "peak_rating": 0.45,
+    "era_rating": 1.5,
+    "peak_rating": 0.718,
     "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": 0.03,
+    "active_rating": -0.187,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
-    "n_snapshots": 9,
+    "n_snapshots": 8,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Sarah Rice"
       ],
-      "rating_at_end": 0.34,
+      "rating_at_end": 0.269,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.386,
+      "rating_at_end": 0.509,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.45,
+      "rating_at_end": 0.718,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -88,7 +88,7 @@
         "Casey Cooper",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.399,
+      "rating_at_end": -0.425,
       "partner": "Jesse Stark",
       "partners_history": [
         "Jesse Stark"
@@ -101,22 +101,22 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": -0.399
+      "rating": -0.425
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.45
+      "rating": 0.718
     },
     {
       "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": 0.386
+      "rating": 0.509
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": 0.34
+      "rating": 0.269
     }
   ]
 }

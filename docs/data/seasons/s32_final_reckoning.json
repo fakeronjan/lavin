@@ -8,8 +8,44 @@
     "M": [
       {
         "rank": 1,
+        "player": "Hunter Barfield",
+        "rating": 0.897,
+        "n_events": 33,
+        "finish": "Winners in Who Wants to Be a Millionaire?",
+        "finish_label": "Champion",
+        "finish_episode": "Who Wants to Be a Millionaire?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Ashley Mitchell",
+        "partners_history": [
+          "Ashley Mitchell"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 2,
+        "player": "Joss Mooney",
+        "rating": 0.714,
+        "n_events": 53,
+        "finish": "Runners-Up in Who Wants to Be a Millionaire?",
+        "finish_label": "Runner-up",
+        "finish_episode": "Who Wants to Be a Millionaire?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Sylvia Elsrode",
+        "partners_history": [
+          "Sylvia Elsrode"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 3,
         "player": "Paulie Calafiore",
-        "rating": 0.906,
+        "rating": 0.702,
         "n_events": 37,
         "finish": "Third Place in Who Wants to Be a Millionaire?",
         "finish_label": "3rd",
@@ -25,109 +61,10 @@
         "forced_exit": false
       },
       {
-        "rank": 2,
-        "player": "Hunter Barfield",
-        "rating": 0.816,
-        "n_events": 51,
-        "finish": "Winners in Who Wants to Be a Millionaire?",
-        "finish_label": "Champion",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Ashley Mitchell",
-        "partners_history": [
-          "Ashley Mitchell"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 3,
-        "player": "Joss Mooney",
-        "rating": 0.69,
-        "n_events": 63,
-        "finish": "Runners-Up in Who Wants to Be a Millionaire?",
-        "finish_label": "Runner-up",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Sylvia Elsrode",
-        "partners_history": [
-          "Sylvia Elsrode"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 4,
-        "player": "Zach Nichols",
-        "rating": 0.413,
-        "n_events": 52,
-        "finish": "Medically Disqualified in Wheel of Fortune",
-        "finish_label": "Medical DQ",
-        "finish_episode": "Wheel of Fortune",
-        "elim_position": 7,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Cory Wharton",
-          "Devin Walker"
-        ],
-        "partner": "Amanda Garcia",
-        "partners_history": [
-          "Amanda Garcia"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 5,
-        "player": "Kyle Christie",
-        "rating": 0.374,
-        "n_events": 74,
-        "finish": "Eliminated in It's Always Sunny in South Africa",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Always Sunny in South Africa",
-        "elim_position": 5,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Nelson Thomas",
-          "Shane Landrum"
-        ],
-        "partner": "Brad Fiorenza",
-        "partners_history": [
-          "Brad Fiorenza"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
-        "player": "Tony Raines",
-        "rating": 0.364,
-        "n_events": 101,
-        "finish": "Eliminated in The Walking Dead",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Walking Dead",
-        "elim_position": 8,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Paulie Calafiore",
-          "Natalie Negrotti"
-        ],
-        "partner": "Johnny Bananas",
-        "partners_history": [
-          "Johnny Bananas"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Shane Landrum",
-        "rating": 0.229,
-        "n_events": 41,
+        "rating": 0.113,
+        "n_events": 32,
         "finish": "Eliminated in It's Always Sunny in South Africa",
         "finish_label": "Eliminated",
         "finish_episode": "It's Always Sunny in South Africa",
@@ -145,10 +82,10 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 5,
         "player": "Nelson Thomas",
-        "rating": 0.138,
-        "n_events": 54,
+        "rating": 0.105,
+        "n_events": 32,
         "finish": "Eliminated in It's Always Sunny in South Africa",
         "finish_label": "Eliminated",
         "finish_episode": "It's Always Sunny in South Africa",
@@ -166,31 +103,10 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "CT Tamburello",
-        "rating": 0.104,
-        "n_events": 20,
-        "finish": "Eliminated in Redemption House of Cards",
-        "finish_label": "Eliminated",
-        "finish_episode": "Redemption House of Cards",
-        "elim_position": 2,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Brad Fiorenza",
-          "Kyle Christie"
-        ],
-        "partner": "Veronica Portillo",
-        "partners_history": [
-          "Veronica Portillo"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
+        "rank": 6,
         "player": "Devin Walker",
-        "rating": 0.1,
-        "n_events": 60,
+        "rating": -0.048,
+        "n_events": 23,
         "finish": "Disqualified in The Leftovers",
         "finish_label": "Disqualified",
         "finish_episode": "The Leftovers",
@@ -205,10 +121,28 @@
         "forced_exit": true
       },
       {
-        "rank": 11,
+        "rank": 7,
+        "player": "Cory Wharton",
+        "rating": -0.064,
+        "n_events": 23,
+        "finish": "Disqualified in The Leftovers",
+        "finish_label": "Disqualified",
+        "finish_episode": "The Leftovers",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Devin Walker",
+        "partners_history": [
+          "Devin Walker"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 8,
         "player": "Johnny Bananas",
-        "rating": 0.074,
-        "n_events": 92,
+        "rating": -0.07,
+        "n_events": 28,
         "finish": "Eliminated in The Walking Dead",
         "finish_label": "Eliminated",
         "finish_episode": "The Walking Dead",
@@ -226,10 +160,31 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
+        "rank": 9,
+        "player": "Tony Raines",
+        "rating": -0.072,
+        "n_events": 28,
+        "finish": "Eliminated in The Walking Dead",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Walking Dead",
+        "elim_position": 8,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Paulie Calafiore",
+          "Natalie Negrotti"
+        ],
+        "partner": "Johnny Bananas",
+        "partners_history": [
+          "Johnny Bananas"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 10,
         "player": "Derrick Henry",
-        "rating": 0.019,
-        "n_events": 21,
+        "rating": -0.077,
+        "n_events": 18,
         "finish": "Eliminated in Redemption House of Cards",
         "finish_label": "Eliminated",
         "finish_episode": "Redemption House of Cards",
@@ -247,30 +202,9 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
-        "player": "Brad Fiorenza",
-        "rating": -0.013,
-        "n_events": 44,
-        "finish": "Eliminated in It's Always Sunny in South Africa",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Always Sunny in South Africa",
-        "elim_position": 6,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Nelson Thomas",
-          "Shane Landrum"
-        ],
-        "partner": "Kyle Christie",
-        "partners_history": [
-          "Kyle Christie"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
+        "rank": 11,
         "player": "Jozea Flores",
-        "rating": -0.048,
+        "rating": -0.289,
         "n_events": 28,
         "finish": "Eliminated in Wheel of Fortune",
         "finish_label": "Eliminated",
@@ -289,48 +223,96 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
-        "player": "Cory Wharton",
-        "rating": -0.074,
-        "n_events": 30,
-        "finish": "Disqualified in The Leftovers",
-        "finish_label": "Disqualified",
-        "finish_episode": "The Leftovers",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Devin Walker",
-        "partners_history": [
-          "Devin Walker"
+        "rank": 12,
+        "player": "Kyle Christie",
+        "rating": -0.344,
+        "n_events": 21,
+        "finish": "Eliminated in It's Always Sunny in South Africa",
+        "finish_label": "Eliminated",
+        "finish_episode": "It's Always Sunny in South Africa",
+        "elim_position": 5,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Nelson Thomas",
+          "Shane Landrum"
         ],
-        "team": "",
-        "forced_exit": true
-      }
-    ],
-    "F": [
-      {
-        "rank": 1,
-        "player": "Sylvia Elsrode",
-        "rating": 0.81,
-        "n_events": 68,
-        "finish": "Runners-Up in Who Wants to Be a Millionaire?",
-        "finish_label": "Runner-up",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Joss Mooney",
+        "partner": "Brad Fiorenza",
         "partners_history": [
-          "Joss Mooney"
+          "Brad Fiorenza"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 2,
+        "rank": 13,
+        "player": "Brad Fiorenza",
+        "rating": -0.348,
+        "n_events": 21,
+        "finish": "Eliminated in It's Always Sunny in South Africa",
+        "finish_label": "Eliminated",
+        "finish_episode": "It's Always Sunny in South Africa",
+        "elim_position": 6,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Nelson Thomas",
+          "Shane Landrum"
+        ],
+        "partner": "Kyle Christie",
+        "partners_history": [
+          "Kyle Christie"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Zach Nichols",
+        "rating": -0.429,
+        "n_events": 23,
+        "finish": "Medically Disqualified in Wheel of Fortune",
+        "finish_label": "Medical DQ",
+        "finish_episode": "Wheel of Fortune",
+        "elim_position": 7,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Cory Wharton",
+          "Devin Walker"
+        ],
+        "partner": "Amanda Garcia",
+        "partners_history": [
+          "Amanda Garcia"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 15,
+        "player": "CT Tamburello",
+        "rating": -0.501,
+        "n_events": 6,
+        "finish": "Eliminated in Redemption House of Cards",
+        "finish_label": "Eliminated",
+        "finish_episode": "Redemption House of Cards",
+        "elim_position": 2,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Brad Fiorenza",
+          "Kyle Christie"
+        ],
+        "partner": "Veronica Portillo",
+        "partners_history": [
+          "Veronica Portillo"
+        ],
+        "team": "",
+        "forced_exit": false
+      }
+    ],
+    "F": [
+      {
+        "rank": 1,
         "player": "Ashley Mitchell",
-        "rating": 0.742,
-        "n_events": 58,
+        "rating": 1.047,
+        "n_events": 37,
         "finish": "Winners in Who Wants to Be a Millionaire?",
         "finish_label": "Champion",
         "finish_episode": "Who Wants to Be a Millionaire?",
@@ -345,50 +327,28 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.624,
-        "n_events": 93,
-        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
-        "finish_label": "4th",
+        "rank": 2,
+        "player": "Sylvia Elsrode",
+        "rating": 0.876,
+        "n_events": 53,
+        "finish": "Runners-Up in Who Wants to Be a Millionaire?",
+        "finish_label": "Runner-up",
         "finish_episode": "Who Wants to Be a Millionaire?",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Marie Roda",
+        "partner": "Joss Mooney",
         "partners_history": [
-          "Marie Roda"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
-        "player": "Kam Williams",
-        "rating": 0.587,
-        "n_events": 71,
-        "finish": "Eliminated in It's Always Sunny in South Africa",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Always Sunny in South Africa",
-        "elim_position": 7,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Sylvia Elsrode",
           "Joss Mooney"
         ],
-        "partner": "Kayleigh Morris",
-        "partners_history": [
-          "Melissa Reeves",
-          "Kayleigh Morris"
-        ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 3,
         "player": "Natalie Negrotti",
-        "rating": 0.53,
-        "n_events": 94,
+        "rating": 0.688,
+        "n_events": 43,
         "finish": "Third Place in Who Wants to Be a Millionaire?",
         "finish_label": "3rd",
         "finish_episode": "Who Wants to Be a Millionaire?",
@@ -403,28 +363,46 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Kailah Casillas-Bird",
-        "rating": 0.419,
-        "n_events": 73,
-        "finish": "Disqualified in Six Feet Under",
-        "finish_label": "Disqualified",
-        "finish_episode": "Six Feet Under",
+        "rank": 4,
+        "player": "Marie Roda",
+        "rating": 0.342,
+        "n_events": 34,
+        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
+        "finish_label": "4th",
+        "finish_episode": "Who Wants to Be a Millionaire?",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Kayleigh Morris",
+        "partner": "Cara Maria Sorbello",
         "partners_history": [
-          "Kayleigh Morris"
+          "Cara Maria Sorbello"
         ],
         "team": "",
-        "forced_exit": true
+        "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 5,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.342,
+        "n_events": 34,
+        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
+        "finish_label": "4th",
+        "finish_episode": "Who Wants to Be a Millionaire?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Marie Roda",
+        "partners_history": [
+          "Marie Roda"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 6,
         "player": "Kayleigh Morris",
-        "rating": 0.279,
-        "n_events": 66,
+        "rating": -0.0,
+        "n_events": 40,
         "finish": "Eliminated in It's Always Sunny in South Africa",
         "finish_label": "Eliminated",
         "finish_episode": "It's Always Sunny in South Africa",
@@ -443,70 +421,32 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "player": "Tori Deal",
-        "rating": 0.214,
-        "n_events": 57,
-        "finish": "Eliminated in Redemption House of Cards",
+        "rank": 7,
+        "player": "Kam Williams",
+        "rating": -0.023,
+        "n_events": 40,
+        "finish": "Eliminated in It's Always Sunny in South Africa",
         "finish_label": "Eliminated",
-        "finish_episode": "Redemption House of Cards",
-        "elim_position": 3,
+        "finish_episode": "It's Always Sunny in South Africa",
+        "elim_position": 7,
         "elim_total": 9,
         "eliminated_by": [
           "Sylvia Elsrode",
           "Joss Mooney"
         ],
-        "partner": "Derrick Henry",
+        "partner": "Kayleigh Morris",
         "partners_history": [
-          "Derrick Henry"
+          "Melissa Reeves",
+          "Kayleigh Morris"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Marie Roda",
-        "rating": 0.167,
-        "n_events": 66,
-        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
-        "finish_label": "4th",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Cara Maria Sorbello",
-        "partners_history": [
-          "Cara Maria Sorbello"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
-        "player": "Da'Vonne Rogers",
-        "rating": -0.04,
-        "n_events": 36,
-        "finish": "Eliminated in Wheel of Fortune",
-        "finish_label": "Eliminated",
-        "finish_episode": "Wheel of Fortune",
-        "elim_position": 6,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Cory Wharton",
-          "Devin Walker"
-        ],
-        "partner": "Jozea Flores",
-        "partners_history": [
-          "Jozea Flores"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
+        "rank": 8,
         "player": "Amanda Garcia",
-        "rating": -0.045,
-        "n_events": 32,
+        "rating": -0.138,
+        "n_events": 24,
         "finish": "Medically Disqualified in Wheel of Fortune",
         "finish_label": "Medical DQ",
         "finish_episode": "Wheel of Fortune",
@@ -524,9 +464,9 @@
         "forced_exit": true
       },
       {
-        "rank": 12,
+        "rank": 9,
         "player": "Faith Stowers",
-        "rating": -0.096,
+        "rating": -0.183,
         "n_events": 23,
         "finish": "Eliminated in Redemption House of Cards",
         "finish_label": "Eliminated",
@@ -545,9 +485,9 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 10,
         "player": "Angela Babicz",
-        "rating": -0.096,
+        "rating": -0.184,
         "n_events": 23,
         "finish": "Eliminated in Redemption House of Cards",
         "finish_label": "Eliminated",
@@ -566,28 +506,52 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
-        "player": "Jenna Compono",
-        "rating": -0.249,
-        "n_events": 33,
-        "finish": "Eliminated in The Affair",
+        "rank": 11,
+        "player": "Tori Deal",
+        "rating": -0.19,
+        "n_events": 24,
+        "finish": "Eliminated in Redemption House of Cards",
         "finish_label": "Eliminated",
-        "finish_episode": "The Affair",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jemmye Carroll",
+        "finish_episode": "Redemption House of Cards",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Sylvia Elsrode",
+          "Joss Mooney"
+        ],
+        "partner": "Derrick Henry",
         "partners_history": [
-          "Jemmye Carroll"
+          "Derrick Henry"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 15,
+        "rank": 12,
+        "player": "Da'Vonne Rogers",
+        "rating": -0.201,
+        "n_events": 36,
+        "finish": "Eliminated in Wheel of Fortune",
+        "finish_label": "Eliminated",
+        "finish_episode": "Wheel of Fortune",
+        "elim_position": 6,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Cory Wharton",
+          "Devin Walker"
+        ],
+        "partner": "Jozea Flores",
+        "partners_history": [
+          "Jozea Flores"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "player": "Britni Thornton",
-        "rating": -0.29,
-        "n_events": 52,
+        "rating": -0.341,
+        "n_events": 5,
         "finish": "Eliminated in The Affair",
         "finish_label": "Eliminated",
         "finish_episode": "The Affair",
@@ -605,28 +569,10 @@
         "forced_exit": false
       },
       {
-        "rank": 16,
-        "player": "Melissa Reeves",
-        "rating": -0.377,
-        "n_events": 28,
-        "finish": "Disqualified in Six Feet Under",
-        "finish_label": "Disqualified",
-        "finish_episode": "Six Feet Under",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Kam Williams",
-        "partners_history": [
-          "Kam Williams"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 17,
+        "rank": 14,
         "player": "Veronica Portillo",
-        "rating": -0.418,
-        "n_events": 25,
+        "rating": -0.344,
+        "n_events": 8,
         "finish": "Eliminated in Redemption House of Cards",
         "finish_label": "Eliminated",
         "finish_episode": "Redemption House of Cards",
@@ -644,10 +590,46 @@
         "forced_exit": false
       },
       {
-        "rank": 18,
+        "rank": 15,
+        "player": "Melissa Reeves",
+        "rating": -0.423,
+        "n_events": 21,
+        "finish": "Disqualified in Six Feet Under",
+        "finish_label": "Disqualified",
+        "finish_episode": "Six Feet Under",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Kam Williams",
+        "partners_history": [
+          "Kam Williams"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 16,
+        "player": "Kailah Casillas-Bird",
+        "rating": -0.423,
+        "n_events": 21,
+        "finish": "Disqualified in Six Feet Under",
+        "finish_label": "Disqualified",
+        "finish_episode": "Six Feet Under",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Kayleigh Morris",
+        "partners_history": [
+          "Kayleigh Morris"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 17,
         "player": "Jemmye Carroll",
-        "rating": -0.46,
-        "n_events": 43,
+        "rating": -0.423,
+        "n_events": 21,
         "finish": "Eliminated in The Affair",
         "finish_label": "Eliminated",
         "finish_episode": "The Affair",
@@ -657,6 +639,24 @@
         "partner": "Jenna Compono",
         "partners_history": [
           "Jenna Compono"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 18,
+        "player": "Jenna Compono",
+        "rating": -0.423,
+        "n_events": 21,
+        "finish": "Eliminated in The Affair",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Affair",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Jemmye Carroll",
+        "partners_history": [
+          "Jemmye Carroll"
         ],
         "team": "",
         "forced_exit": false

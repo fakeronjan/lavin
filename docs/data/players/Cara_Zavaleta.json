@@ -3,13 +3,13 @@
   "safe_name": "Cara_Zavaleta",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.883,
-    "peak_season_id": "s09_battle_of_the_sexes_2",
-    "active_rating": -0.234,
+    "era_rating": 0.8,
+    "peak_rating": 0.824,
+    "peak_season_id": "s07_the_gauntlet",
+    "active_rating": -0.415,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 3,
-    "n_snapshots": 12,
+    "n_snapshots": 9,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.685,
+      "rating_at_end": -0.202,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Kina Dean"
       ],
-      "rating_at_end": 0.023,
+      "rating_at_end": -0.601,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.83,
+      "rating_at_end": 0.824,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -78,17 +78,17 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.83
+      "rating": 0.824
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.023
+      "rating": -0.601
     },
     {
       "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.685
+      "rating": -0.202
     }
   ]
 }

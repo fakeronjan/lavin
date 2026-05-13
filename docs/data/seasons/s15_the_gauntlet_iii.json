@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Frank Roessler",
-        "rating": 0.85,
+        "rating": 0.884,
         "n_events": 64,
         "finish": "Winners in The Finale",
         "finish_label": "Champion",
@@ -25,7 +25,7 @@
       {
         "rank": 2,
         "player": "Nehemiah Clark",
-        "rating": 0.658,
+        "rating": 0.806,
         "n_events": 58,
         "finish": "Winners in The Finale",
         "finish_label": "Champion",
@@ -40,9 +40,9 @@
       },
       {
         "rank": 3,
-        "player": "Kenny Santucci",
-        "rating": 0.367,
-        "n_events": 82,
+        "player": "Adam King",
+        "rating": 0.319,
+        "n_events": 48,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
         "finish_episode": "The Finale",
@@ -57,7 +57,7 @@
       {
         "rank": 4,
         "player": "Brad Fiorenza",
-        "rating": 0.339,
+        "rating": 0.307,
         "n_events": 59,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
@@ -72,9 +72,9 @@
       },
       {
         "rank": 5,
-        "player": "Adam King",
-        "rating": 0.272,
-        "n_events": 48,
+        "player": "Kenny Santucci",
+        "rating": 0.305,
+        "n_events": 80,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
         "finish_episode": "The Finale",
@@ -89,7 +89,7 @@
       {
         "rank": 6,
         "player": "Evan Starkman",
-        "rating": 0.248,
+        "rating": 0.281,
         "n_events": 85,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
@@ -105,8 +105,8 @@
       {
         "rank": 7,
         "player": "Big Easy Banks",
-        "rating": 0.163,
-        "n_events": 62,
+        "rating": 0.206,
+        "n_events": 60,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
         "finish_episode": "The Finale",
@@ -121,7 +121,7 @@
       {
         "rank": 8,
         "player": "Ryan Kehoe",
-        "rating": 0.054,
+        "rating": 0.095,
         "n_events": 63,
         "finish": "Eliminated in Cold Blooded",
         "finish_label": "Eliminated",
@@ -155,7 +155,7 @@
       {
         "rank": 10,
         "player": "Tyler Duckworth",
-        "rating": -0.223,
+        "rating": -0.237,
         "n_events": 34,
         "finish": "Eliminated in It's Personal",
         "finish_label": "Eliminated",
@@ -173,7 +173,7 @@
       {
         "rank": 11,
         "player": "MJ Garrett",
-        "rating": -0.279,
+        "rating": -0.267,
         "n_events": 32,
         "finish": "Eliminated in All Alone",
         "finish_label": "Eliminated",
@@ -191,7 +191,7 @@
       {
         "rank": 12,
         "player": "Johnny Bananas",
-        "rating": -0.405,
+        "rating": -0.359,
         "n_events": 45,
         "finish": "Eliminated in Less Is More",
         "finish_label": "Eliminated",
@@ -209,7 +209,7 @@
       {
         "rank": 13,
         "player": "Derek McCray",
-        "rating": -0.428,
+        "rating": -0.41,
         "n_events": 30,
         "finish": "Eliminated in Match-Up of the Century",
         "finish_label": "Eliminated",
@@ -226,26 +226,8 @@
       },
       {
         "rank": 14,
-        "player": "Zach Mann",
-        "rating": -0.543,
-        "n_events": 17,
-        "finish": "Eliminated in It's Not Fair",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Not Fair",
-        "elim_position": 4,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Frank Roessler"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Rookies",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
         "player": "Alex Smith",
-        "rating": -0.558,
+        "rating": -0.518,
         "n_events": 11,
         "finish": "Eliminated in Viva Mexico",
         "finish_label": "Eliminated",
@@ -261,9 +243,27 @@
         "forced_exit": false
       },
       {
+        "rank": 15,
+        "player": "Zach Mann",
+        "rating": -0.519,
+        "n_events": 17,
+        "finish": "Eliminated in It's Not Fair",
+        "finish_label": "Eliminated",
+        "finish_episode": "It's Not Fair",
+        "elim_position": 4,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Frank Roessler"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Rookies",
+        "forced_exit": false
+      },
+      {
         "rank": 16,
         "player": "Tyri Ballard-Brown",
-        "rating": -0.579,
+        "rating": -0.531,
         "n_events": 46,
         "finish": "Quit in Less Is More",
         "finish_label": "Quit",
@@ -279,7 +279,7 @@
       {
         "rank": 17,
         "player": "Danny Jamieson",
-        "rating": -0.783,
+        "rating": -0.752,
         "n_events": 37,
         "finish": "Eliminated in The Finale",
         "finish_label": "Eliminated",
@@ -299,7 +299,7 @@
       {
         "rank": 1,
         "player": "Jillian Zoboroski",
-        "rating": 0.756,
+        "rating": 0.783,
         "n_events": 56,
         "finish": "Winners in The Finale",
         "finish_label": "Champion",
@@ -315,7 +315,7 @@
       {
         "rank": 2,
         "player": "Tori Hall",
-        "rating": 0.707,
+        "rating": 0.745,
         "n_events": 40,
         "finish": "Winners in The Finale",
         "finish_label": "Champion",
@@ -331,8 +331,8 @@
       {
         "rank": 3,
         "player": "Johanna Botta",
-        "rating": 0.45,
-        "n_events": 42,
+        "rating": 0.718,
+        "n_events": 41,
         "finish": "Winners in The Finale",
         "finish_label": "Champion",
         "finish_episode": "The Finale",
@@ -347,7 +347,7 @@
       {
         "rank": 4,
         "player": "Rachel Moyal",
-        "rating": 0.272,
+        "rating": 0.446,
         "n_events": 52,
         "finish": "Winners in The Finale",
         "finish_label": "Champion",
@@ -363,7 +363,7 @@
       {
         "rank": 5,
         "player": "Evelyn Smith",
-        "rating": 0.231,
+        "rating": 0.284,
         "n_events": 60,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
@@ -379,7 +379,7 @@
       {
         "rank": 6,
         "player": "Janelle Casanave",
-        "rating": 0.193,
+        "rating": 0.221,
         "n_events": 48,
         "finish": "Eliminated in It's Not Fair",
         "finish_label": "Eliminated",
@@ -396,17 +396,15 @@
       },
       {
         "rank": 7,
-        "player": "Casey Cooper",
-        "rating": 0.143,
-        "n_events": 55,
-        "finish": "Eliminated in What Goes Around",
-        "finish_label": "Eliminated",
-        "finish_episode": "What Goes Around",
-        "elim_position": 6,
-        "elim_total": 7,
-        "eliminated_by": [
-          "Evelyn Smith"
-        ],
+        "player": "Paula Meronek",
+        "rating": 0.024,
+        "n_events": 64,
+        "finish": "Runners-Up in The Finale",
+        "finish_label": "Runner-up",
+        "finish_episode": "The Finale",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
         "partner": "",
         "partners_history": [],
         "team": "Veterans",
@@ -415,7 +413,7 @@
       {
         "rank": 8,
         "player": "Diem Brown",
-        "rating": -0.051,
+        "rating": 0.019,
         "n_events": 75,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
@@ -431,7 +429,7 @@
       {
         "rank": 9,
         "player": "Robin Hibbard",
-        "rating": -0.079,
+        "rating": -0.091,
         "n_events": 48,
         "finish": "Runners-Up in The Finale",
         "finish_label": "Runner-up",
@@ -446,24 +444,8 @@
       },
       {
         "rank": 10,
-        "player": "Paula Meronek",
-        "rating": -0.109,
-        "n_events": 64,
-        "finish": "Runners-Up in The Finale",
-        "finish_label": "Runner-up",
-        "finish_episode": "The Finale",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
         "player": "Brooke LaBarbera",
-        "rating": -0.241,
+        "rating": -0.243,
         "n_events": 27,
         "finish": "Eliminated in Less Is More",
         "finish_label": "Eliminated",
@@ -479,9 +461,9 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
+        "rank": 11,
         "player": "Coral Smith",
-        "rating": -0.305,
+        "rating": -0.253,
         "n_events": 39,
         "finish": "Quit in What Goes Around",
         "finish_label": "Quit",
@@ -495,27 +477,9 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
-        "player": "Katie Cooley",
-        "rating": -0.353,
-        "n_events": 37,
-        "finish": "Eliminated in Cold Blooded",
-        "finish_label": "Eliminated",
-        "finish_episode": "Cold Blooded",
-        "elim_position": 7,
-        "elim_total": 7,
-        "eliminated_by": [
-          "Paula Meronek"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
+        "rank": 12,
         "player": "Melinda Collins",
-        "rating": -0.379,
+        "rating": -0.299,
         "n_events": 32,
         "finish": "Eliminated in All Alone",
         "finish_label": "Eliminated",
@@ -531,17 +495,17 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
-        "player": "Beth Stolarczyk",
-        "rating": -0.521,
-        "n_events": 35,
-        "finish": "Eliminated in Match-Up of the Century",
+        "rank": 13,
+        "player": "Casey Cooper",
+        "rating": -0.315,
+        "n_events": 50,
+        "finish": "Eliminated in What Goes Around",
         "finish_label": "Eliminated",
-        "finish_episode": "Match-Up of the Century",
-        "elim_position": 4,
+        "finish_episode": "What Goes Around",
+        "elim_position": 6,
         "elim_total": 7,
         "eliminated_by": [
-          "Coral Smith"
+          "Evelyn Smith"
         ],
         "partner": "",
         "partners_history": [],
@@ -549,9 +513,27 @@
         "forced_exit": false
       },
       {
-        "rank": 16,
+        "rank": 14,
+        "player": "Katie Cooley",
+        "rating": -0.466,
+        "n_events": 35,
+        "finish": "Eliminated in Cold Blooded",
+        "finish_label": "Eliminated",
+        "finish_episode": "Cold Blooded",
+        "elim_position": 7,
+        "elim_total": 7,
+        "eliminated_by": [
+          "Paula Meronek"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
         "player": "Angel Turlington",
-        "rating": -0.594,
+        "rating": -0.541,
         "n_events": 11,
         "finish": "Eliminated in It's Personal",
         "finish_label": "Eliminated",
@@ -564,6 +546,24 @@
         "partner": "",
         "partners_history": [],
         "team": "Rookies",
+        "forced_exit": false
+      },
+      {
+        "rank": 16,
+        "player": "Beth Stolarczyk",
+        "rating": -0.654,
+        "n_events": 35,
+        "finish": "Eliminated in Match-Up of the Century",
+        "finish_label": "Eliminated",
+        "finish_episode": "Match-Up of the Century",
+        "elim_position": 4,
+        "elim_total": 7,
+        "eliminated_by": [
+          "Coral Smith"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Veterans",
         "forced_exit": false
       }
     ]

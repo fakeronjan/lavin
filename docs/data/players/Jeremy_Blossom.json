@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.188,
-    "peak_season_id": "s13_the_duel",
-    "active_rating": -0.188,
-    "active_season_id": "s13_the_duel",
+    "peak_rating": -0.306,
+    "peak_season_id": "s08_the_inferno",
+    "active_rating": -0.415,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 6,
+    "n_snapshots": 4,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.363,
+      "rating_at_end": -0.415,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Mike Mizanin"
       ],
-      "rating_at_end": -0.214,
+      "rating_at_end": -0.306,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -62,12 +62,12 @@
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": -0.214
+      "rating": -0.306
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.363
+      "rating": -0.415
     }
   ]
 }

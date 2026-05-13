@@ -3,13 +3,13 @@
   "safe_name": "Paulie_Calafiore",
   "gender": "M",
   "career": {
-    "era_rating": 2.2,
-    "peak_rating": 0.906,
+    "era_rating": 2.0,
+    "peak_rating": 0.702,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.53,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.465,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
-    "n_snapshots": 8,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": -0.771,
+      "rating_at_end": -0.465,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.565,
+      "rating_at_end": 0.596,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.682,
+      "rating_at_end": 0.692,
       "partner": "Natalie Duran",
       "partners_history": [
         "Natalie Duran",
@@ -88,7 +88,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.906,
+      "rating_at_end": 0.702,
       "partner": "Natalie Negrotti",
       "partners_history": [
         "Natalie Negrotti"
@@ -101,22 +101,22 @@
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.906
+      "rating": 0.702
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.682
+      "rating": 0.692
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.565
+      "rating": 0.596
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.771
+      "rating": -0.465
     }
   ]
 }

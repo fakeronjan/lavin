@@ -8,9 +8,9 @@
     "M": [
       {
         "rank": 1,
-        "player": "Theo von Kurnatowski",
-        "rating": 0.638,
-        "n_events": 109,
+        "player": "Eric Nies",
+        "rating": 0.708,
+        "n_events": 69,
         "finish": "Winners in Episode 17",
         "finish_label": "Champion",
         "finish_episode": "Episode 17",
@@ -25,8 +25,8 @@
       {
         "rank": 2,
         "player": "Dan Setzler",
-        "rating": 0.536,
-        "n_events": 101,
+        "rating": 0.7,
+        "n_events": 79,
         "finish": "Winners in Episode 17",
         "finish_label": "Champion",
         "finish_episode": "Episode 17",
@@ -40,9 +40,9 @@
       },
       {
         "rank": 3,
-        "player": "Eric Nies",
-        "rating": 0.426,
-        "n_events": 103,
+        "player": "Theo von Kurnatowski",
+        "rating": 0.665,
+        "n_events": 87,
         "finish": "Winners in Episode 17",
         "finish_label": "Champion",
         "finish_episode": "Episode 17",
@@ -56,44 +56,8 @@
       },
       {
         "rank": 4,
-        "player": "Mark Long",
-        "rating": 0.422,
-        "n_events": 87,
-        "finish": "Eliminated in Episode 16",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 16",
-        "elim_position": 14,
-        "elim_total": 14,
-        "eliminated_by": [
-          "Theo von Kurnatowski"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
-        "player": "Mike Mizanin",
-        "rating": 0.224,
-        "n_events": 120,
-        "finish": "Eliminated in Episode 8",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 8",
-        "elim_position": 7,
-        "elim_total": 14,
-        "eliminated_by": [
-          "Nick Haggart"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
         "player": "Brad Fiorenza",
-        "rating": 0.199,
+        "rating": 0.262,
         "n_events": 61,
         "finish": "Eliminated in Episode 15",
         "finish_label": "Eliminated",
@@ -109,9 +73,9 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 5,
         "player": "Frank Roessler",
-        "rating": 0.177,
+        "rating": 0.171,
         "n_events": 56,
         "finish": "Eliminated in Episode 11",
         "finish_label": "Eliminated",
@@ -127,9 +91,27 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 6,
+        "player": "Mark Long",
+        "rating": 0.117,
+        "n_events": 49,
+        "finish": "Eliminated in Episode 16",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 16",
+        "elim_position": 14,
+        "elim_total": 14,
+        "eliminated_by": [
+          "Theo von Kurnatowski"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
         "player": "Abram Boise",
-        "rating": 0.038,
+        "rating": 0.097,
         "n_events": 78,
         "finish": "Eliminated in Episode 5",
         "finish_label": "Eliminated",
@@ -145,9 +127,9 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "player": "Steven Hill",
-        "rating": -0.047,
+        "rating": -0.036,
         "n_events": 30,
         "finish": "Disqualified in Episode 13",
         "finish_label": "Disqualified",
@@ -161,10 +143,10 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
+        "rank": 9,
         "player": "Shane Landrum",
-        "rating": -0.072,
-        "n_events": 148,
+        "rating": -0.089,
+        "n_events": 88,
         "finish": "Eliminated in Episode 14",
         "finish_label": "Eliminated",
         "finish_episode": "Episode 14",
@@ -179,9 +161,9 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Randy Barry",
-        "rating": -0.093,
+        "rating": -0.094,
         "n_events": 36,
         "finish": "Eliminated in Episode 12",
         "finish_label": "Eliminated",
@@ -197,9 +179,27 @@
         "forced_exit": false
       },
       {
+        "rank": 11,
+        "player": "Mike Mizanin",
+        "rating": -0.143,
+        "n_events": 104,
+        "finish": "Eliminated in Episode 8",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 8",
+        "elim_position": 7,
+        "elim_total": 14,
+        "eliminated_by": [
+          "Nick Haggart"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 12,
         "player": "Chris Graebe",
-        "rating": -0.174,
+        "rating": -0.167,
         "n_events": 34,
         "finish": "Eliminated in Episode 9",
         "finish_label": "Eliminated",
@@ -217,7 +217,7 @@
       {
         "rank": 13,
         "player": "Derrick Kosinski",
-        "rating": -0.313,
+        "rating": -0.28,
         "n_events": 27,
         "finish": "Eliminated in Episode 6",
         "finish_label": "Eliminated",
@@ -234,26 +234,8 @@
       },
       {
         "rank": 14,
-        "player": "Nick Haggart",
-        "rating": -0.321,
-        "n_events": 23,
-        "finish": "Eliminated in Episode 10",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 10",
-        "elim_position": 9,
-        "elim_total": 14,
-        "eliminated_by": [
-          "Steven Hill"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
         "player": "Adam King",
-        "rating": -0.34,
+        "rating": -0.325,
         "n_events": 27,
         "finish": "Eliminated in Episode 4",
         "finish_label": "Eliminated",
@@ -269,9 +251,45 @@
         "forced_exit": false
       },
       {
+        "rank": 15,
+        "player": "Jacquese Smith",
+        "rating": -0.361,
+        "n_events": 8,
+        "finish": "Eliminated in Episode 2",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 2",
+        "elim_position": 1,
+        "elim_total": 14,
+        "eliminated_by": [
+          "Eric Nies"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 16,
+        "player": "Nick Haggart",
+        "rating": -0.369,
+        "n_events": 23,
+        "finish": "Eliminated in Episode 10",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 10",
+        "elim_position": 9,
+        "elim_total": 14,
+        "eliminated_by": [
+          "Steven Hill"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 17,
         "player": "Shawn Sealy",
-        "rating": -0.425,
+        "rating": -0.398,
         "n_events": 18,
         "finish": "Eliminated in Episode 7",
         "finish_label": "Eliminated",
@@ -287,9 +305,9 @@
         "forced_exit": false
       },
       {
-        "rank": 17,
+        "rank": 18,
         "player": "Ace Amerson",
-        "rating": -0.525,
+        "rating": -0.521,
         "n_events": 28,
         "finish": "Eliminated in Episode 3",
         "finish_label": "Eliminated",
@@ -303,31 +321,13 @@
         "partners_history": [],
         "team": "",
         "forced_exit": false
-      },
-      {
-        "rank": 18,
-        "player": "Jacquese Smith",
-        "rating": -0.57,
-        "n_events": 8,
-        "finish": "Eliminated in Episode 2",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 2",
-        "elim_position": 1,
-        "elim_total": 14,
-        "eliminated_by": [
-          "Eric Nies"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Sophia Pasquis",
-        "rating": 0.826,
+        "rating": 0.699,
         "n_events": 57,
         "finish": "Runners-Up in Episode 17",
         "finish_label": "Runner-up",
@@ -343,7 +343,7 @@
       {
         "rank": 2,
         "player": "Arissa Hill",
-        "rating": 0.814,
+        "rating": 0.688,
         "n_events": 62,
         "finish": "Runners-Up in Episode 17",
         "finish_label": "Runner-up",
@@ -358,9 +358,25 @@
       },
       {
         "rank": 3,
+        "player": "Coral Smith",
+        "rating": 0.339,
+        "n_events": 120,
+        "finish": "Runners-Up in Episode 17",
+        "finish_label": "Runner-up",
+        "finish_episode": "Episode 17",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 4,
         "player": "Ruthie Alcaide",
-        "rating": 0.607,
-        "n_events": 112,
+        "rating": 0.231,
+        "n_events": 50,
         "finish": "Eliminated in Episode 15",
         "finish_label": "Eliminated",
         "finish_episode": "Episode 15",
@@ -375,25 +391,9 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
-        "player": "Coral Smith",
-        "rating": 0.376,
-        "n_events": 136,
-        "finish": "Runners-Up in Episode 17",
-        "finish_label": "Runner-up",
-        "finish_episode": "Episode 17",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 5,
         "player": "Katie Cooley",
-        "rating": 0.326,
+        "rating": 0.214,
         "n_events": 72,
         "finish": "Eliminated in Episode 9",
         "finish_label": "Eliminated",
@@ -410,44 +410,8 @@
       },
       {
         "rank": 6,
-        "player": "Veronica Portillo",
-        "rating": 0.287,
-        "n_events": 109,
-        "finish": "Eliminated in Episode 11",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 11",
-        "elim_position": 9,
-        "elim_total": 13,
-        "eliminated_by": [
-          "Tina Barta"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
-        "player": "Rachel Robinson",
-        "rating": 0.224,
-        "n_events": 67,
-        "finish": "Eliminated in Episode 8",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 8",
-        "elim_position": 6,
-        "elim_total": 13,
-        "eliminated_by": [
-          "Tonya Cooley"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
         "player": "Tina Barta",
-        "rating": 0.207,
+        "rating": 0.2,
         "n_events": 48,
         "finish": "Eliminated in Episode 16",
         "finish_label": "Eliminated",
@@ -463,10 +427,46 @@
         "forced_exit": false
       },
       {
+        "rank": 7,
+        "player": "Veronica Portillo",
+        "rating": 0.167,
+        "n_events": 85,
+        "finish": "Eliminated in Episode 11",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 11",
+        "elim_position": 9,
+        "elim_total": 13,
+        "eliminated_by": [
+          "Tina Barta"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 8,
+        "player": "Rachel Robinson",
+        "rating": -0.036,
+        "n_events": 50,
+        "finish": "Eliminated in Episode 8",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 8",
+        "elim_position": 6,
+        "elim_total": 13,
+        "eliminated_by": [
+          "Tonya Cooley"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 9,
         "player": "Tonya Cooley",
-        "rating": 0.113,
-        "n_events": 82,
+        "rating": -0.072,
+        "n_events": 42,
         "finish": "Eliminated in Episode 13",
         "finish_label": "Eliminated",
         "finish_episode": "Episode 13",
@@ -480,26 +480,8 @@
       },
       {
         "rank": 10,
-        "player": "Cameran Eubanks",
-        "rating": 0.025,
-        "n_events": 23,
-        "finish": "Eliminated in Episode 3",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 3",
-        "elim_position": 2,
-        "elim_total": 13,
-        "eliminated_by": [
-          "Coral Smith"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
         "player": "Robin Hibbard",
-        "rating": -0.008,
+        "rating": -0.094,
         "n_events": 27,
         "finish": "Eliminated in Episode 14",
         "finish_label": "Eliminated",
@@ -515,9 +497,27 @@
         "forced_exit": false
       },
       {
+        "rank": 11,
+        "player": "Cameran Eubanks",
+        "rating": -0.141,
+        "n_events": 23,
+        "finish": "Eliminated in Episode 3",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 3",
+        "elim_position": 2,
+        "elim_total": 13,
+        "eliminated_by": [
+          "Coral Smith"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 12,
         "player": "Ibis Nieves",
-        "rating": -0.046,
+        "rating": -0.321,
         "n_events": 32,
         "finish": "Eliminated in Episode 12",
         "finish_label": "Eliminated",
@@ -534,45 +534,9 @@
       },
       {
         "rank": 13,
-        "player": "Ayanna Mackins",
-        "rating": -0.239,
-        "n_events": 36,
-        "finish": "Eliminated in Episode 5",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 5",
-        "elim_position": 3,
-        "elim_total": 13,
-        "eliminated_by": [
-          "Sophia Pasquis"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
-        "player": "Genesis Moss",
-        "rating": -0.3,
-        "n_events": 33,
-        "finish": "Eliminated in Episode 2",
-        "finish_label": "Eliminated",
-        "finish_episode": "Episode 2",
-        "elim_position": 1,
-        "elim_total": 13,
-        "eliminated_by": [
-          "Tina Barta"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
         "player": "Aneesa Ferreira",
-        "rating": -0.321,
-        "n_events": 42,
+        "rating": -0.322,
+        "n_events": 25,
         "finish": "Eliminated in Episode 10",
         "finish_label": "Eliminated",
         "finish_episode": "Episode 10",
@@ -587,9 +551,27 @@
         "forced_exit": false
       },
       {
-        "rank": 16,
+        "rank": 14,
+        "player": "Ayanna Mackins",
+        "rating": -0.438,
+        "n_events": 10,
+        "finish": "Eliminated in Episode 5",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 5",
+        "elim_position": 3,
+        "elim_total": 13,
+        "eliminated_by": [
+          "Sophia Pasquis"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
         "player": "Kina Dean",
-        "rating": -0.448,
+        "rating": -0.545,
         "n_events": 19,
         "finish": "Eliminated in Episode 4",
         "finish_label": "Eliminated",
@@ -603,9 +585,27 @@
         "forced_exit": false
       },
       {
+        "rank": 16,
+        "player": "Genesis Moss",
+        "rating": -0.584,
+        "n_events": 6,
+        "finish": "Eliminated in Episode 2",
+        "finish_label": "Eliminated",
+        "finish_episode": "Episode 2",
+        "elim_position": 1,
+        "elim_total": 13,
+        "eliminated_by": [
+          "Tina Barta"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 17,
         "player": "Cynthia Roberts",
-        "rating": -0.546,
+        "rating": -0.635,
         "n_events": 11,
         "finish": "Eliminated in Episode 6",
         "finish_label": "Eliminated",
@@ -623,7 +623,7 @@
       {
         "rank": 18,
         "player": "Angela Trimbur",
-        "rating": -0.607,
+        "rating": -0.717,
         "n_events": 12,
         "finish": "Eliminated in Episode 7",
         "finish_label": "Eliminated",

@@ -3,13 +3,13 @@
   "safe_name": "Nia_Moore",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.773,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.258,
+    "era_rating": 0.5,
+    "peak_rating": 0.791,
+    "peak_season_id": "s27_battle_of_the_bloodlines",
+    "active_rating": -0.435,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
-    "n_snapshots": 8,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.258,
+      "rating_at_end": -0.435,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": -0.078,
+      "rating_at_end": -0.026,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.117,
+      "rating_at_end": 0.528,
       "partner": "Leroy Garrett",
       "partners_history": [
         "Leroy Garrett"
@@ -89,7 +89,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.729,
+      "rating_at_end": -0.541,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -100,22 +100,22 @@
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.729
+      "rating": -0.541
     },
     {
       "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.117
+      "rating": 0.528
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.078
+      "rating": -0.026
     },
     {
       "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.258
+      "rating": -0.435
     }
   ]
 }

@@ -3,13 +3,13 @@
   "safe_name": "Kam_Williams",
   "gender": "F",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.856,
+    "era_rating": 1.6,
+    "peak_rating": 0.861,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.786,
-    "active_season_id": "s38_ride_or_dies",
+    "active_rating": 0.564,
+    "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 5,
-    "n_snapshots": 8,
+    "n_snapshots": 7,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 7,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.326,
+      "rating_at_end": 0.543,
       "partner": "Kyle Christie",
       "partners_history": [
         "Kyle Christie",
@@ -50,7 +50,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.004,
+      "rating_at_end": 0.171,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -71,7 +71,7 @@
         "Natalie Duran",
         "Paulie Calafiore"
       ],
-      "rating_at_end": -0.022,
+      "rating_at_end": -0.122,
       "partner": "Ashley Cain",
       "partners_history": [
         "Ashley Cain"
@@ -94,7 +94,7 @@
         "Sylvia Elsrode",
         "Joss Mooney"
       ],
-      "rating_at_end": 0.587,
+      "rating_at_end": -0.023,
       "partner": "Kayleigh Morris",
       "partners_history": [
         "Melissa Reeves",
@@ -115,7 +115,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.856,
+      "rating_at_end": 0.861,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -126,27 +126,27 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.856
+      "rating": 0.861
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.587
+      "rating": -0.023
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.022
+      "rating": -0.122
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.004
+      "rating": 0.171
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.326
+      "rating": 0.543
     }
   ]
 }

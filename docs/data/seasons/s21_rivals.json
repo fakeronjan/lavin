@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Tyler Duckworth",
-        "rating": 0.95,
+        "rating": 0.933,
         "n_events": 88,
         "finish": "Winners in At the End of the World",
         "finish_label": "Champion",
@@ -27,8 +27,8 @@
       {
         "rank": 2,
         "player": "Johnny Bananas",
-        "rating": 0.732,
-        "n_events": 97,
+        "rating": 0.782,
+        "n_events": 79,
         "finish": "Winners in At the End of the World",
         "finish_label": "Champion",
         "finish_episode": "At the End of the World",
@@ -45,8 +45,8 @@
       {
         "rank": 3,
         "player": "Kenny Santucci",
-        "rating": 0.661,
-        "n_events": 109,
+        "rating": 0.525,
+        "n_events": 65,
         "finish": "Runners-Up in At the End of the World",
         "finish_label": "Runner-up",
         "finish_episode": "At the End of the World",
@@ -63,8 +63,8 @@
       {
         "rank": 4,
         "player": "Wes Bergmann",
-        "rating": 0.31,
-        "n_events": 80,
+        "rating": 0.486,
+        "n_events": 55,
         "finish": "Runners-Up in At the End of the World",
         "finish_label": "Runner-up",
         "finish_episode": "At the End of the World",
@@ -81,7 +81,7 @@
       {
         "rank": 5,
         "player": "Leroy Garrett",
-        "rating": 0.168,
+        "rating": 0.101,
         "n_events": 47,
         "finish": "Third Place in At the End of the World",
         "finish_label": "3rd",
@@ -99,8 +99,26 @@
       },
       {
         "rank": 6,
+        "player": "Michael Ross",
+        "rating": 0.063,
+        "n_events": 36,
+        "finish": "Third Place in At the End of the World",
+        "finish_label": "3rd",
+        "finish_episode": "At the End of the World",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Leroy Garrett",
+        "partners_history": [
+          "Leroy Garrett"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
         "player": "CT Tamburello",
-        "rating": 0.106,
+        "rating": -0.063,
         "n_events": 48,
         "finish": "Eliminated in The Storm Before the Storm",
         "finish_label": "Eliminated",
@@ -119,49 +137,10 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
-        "player": "Michael Ross",
-        "rating": 0.089,
-        "n_events": 36,
-        "finish": "Third Place in At the End of the World",
-        "finish_label": "3rd",
-        "finish_episode": "At the End of the World",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Leroy Garrett",
-        "partners_history": [
-          "Leroy Garrett"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 8,
-        "player": "Brandon Nelson",
-        "rating": 0.016,
-        "n_events": 104,
-        "finish": "Eliminated in D-Day",
-        "finish_label": "Eliminated",
-        "finish_episode": "D-Day",
-        "elim_position": 3,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Kenny Santucci",
-          "Wes Bergmann"
-        ],
-        "partner": "Ty Ruff",
-        "partners_history": [
-          "Ty Ruff"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
         "player": "Adam King",
-        "rating": 0.012,
-        "n_events": 52,
+        "rating": -0.066,
+        "n_events": 48,
         "finish": "Eliminated in The Storm Before the Storm",
         "finish_label": "Eliminated",
         "finish_episode": "The Storm Before the Storm",
@@ -179,30 +158,30 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Evan Starkman",
-        "rating": -0.097,
-        "n_events": 34,
-        "finish": "Eliminated in Blowup",
+        "rank": 9,
+        "player": "Brandon Nelson",
+        "rating": -0.267,
+        "n_events": 77,
+        "finish": "Eliminated in D-Day",
         "finish_label": "Eliminated",
-        "finish_episode": "Blowup",
-        "elim_position": 6,
+        "finish_episode": "D-Day",
+        "elim_position": 3,
         "elim_total": 8,
         "eliminated_by": [
-          "Adam King",
-          "CT Tamburello"
+          "Kenny Santucci",
+          "Wes Bergmann"
         ],
-        "partner": "Nehemiah Clark",
+        "partner": "Ty Ruff",
         "partners_history": [
-          "Nehemiah Clark"
+          "Ty Ruff"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Adam Royer",
-        "rating": -0.228,
+        "rating": -0.368,
         "n_events": 35,
         "finish": "Disqualified in Welcome to the Jungle",
         "finish_label": "Disqualified",
@@ -218,9 +197,9 @@
         "forced_exit": true
       },
       {
-        "rank": 12,
+        "rank": 11,
         "player": "Ty Ruff",
-        "rating": -0.454,
+        "rating": -0.482,
         "n_events": 42,
         "finish": "Eliminated in D-Day",
         "finish_label": "Eliminated",
@@ -239,9 +218,9 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 12,
         "player": "Tyri Ballard-Brown",
-        "rating": -0.537,
+        "rating": -0.528,
         "n_events": 12,
         "finish": "Eliminated in Through the Looking Glass",
         "finish_label": "Eliminated",
@@ -260,9 +239,9 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 13,
         "player": "Davis Mallory",
-        "rating": -0.537,
+        "rating": -0.528,
         "n_events": 12,
         "finish": "Eliminated in Through the Looking Glass",
         "finish_label": "Eliminated",
@@ -281,9 +260,30 @@
         "forced_exit": false
       },
       {
+        "rank": 14,
+        "player": "Evan Starkman",
+        "rating": -0.75,
+        "n_events": 22,
+        "finish": "Eliminated in Blowup",
+        "finish_label": "Eliminated",
+        "finish_episode": "Blowup",
+        "elim_position": 6,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Adam King",
+          "CT Tamburello"
+        ],
+        "partner": "Nehemiah Clark",
+        "partners_history": [
+          "Nehemiah Clark"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 15,
         "player": "Nehemiah Clark",
-        "rating": -0.712,
+        "rating": -0.753,
         "n_events": 22,
         "finish": "Eliminated in Blowup",
         "finish_label": "Eliminated",
@@ -306,8 +306,8 @@
       {
         "rank": 1,
         "player": "Evelyn Smith",
-        "rating": 0.692,
-        "n_events": 96,
+        "rating": 0.936,
+        "n_events": 55,
         "finish": "Winners in At the End of the World",
         "finish_label": "Champion",
         "finish_episode": "At the End of the World",
@@ -323,45 +323,9 @@
       },
       {
         "rank": 2,
-        "player": "Laurel Stucky",
-        "rating": 0.647,
-        "n_events": 107,
-        "finish": "Runners-Up in At the End of the World",
-        "finish_label": "Runner-up",
-        "finish_episode": "At the End of the World",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Cara Maria Sorbello",
-        "partners_history": [
-          "Cara Maria Sorbello"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 3,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.508,
-        "n_events": 90,
-        "finish": "Runners-Up in At the End of the World",
-        "finish_label": "Runner-up",
-        "finish_episode": "At the End of the World",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Laurel Stucky",
-        "partners_history": [
-          "Laurel Stucky"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
         "player": "Paula Meronek",
-        "rating": 0.405,
-        "n_events": 90,
+        "rating": 0.709,
+        "n_events": 72,
         "finish": "Winners in At the End of the World",
         "finish_label": "Champion",
         "finish_episode": "At the End of the World",
@@ -376,31 +340,46 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
-        "player": "Sarah Rice",
-        "rating": 0.133,
-        "n_events": 76,
-        "finish": "Eliminated in Ill Communication",
-        "finish_label": "Eliminated",
-        "finish_episode": "Ill Communication",
-        "elim_position": 6,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Jasmine Reynaud",
-          "Jonna Mannion"
-        ],
-        "partner": "Katelynn Cusanelli",
+        "rank": 3,
+        "player": "Laurel Stucky",
+        "rating": 0.593,
+        "n_events": 80,
+        "finish": "Runners-Up in At the End of the World",
+        "finish_label": "Runner-up",
+        "finish_episode": "At the End of the World",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Cara Maria Sorbello",
         "partners_history": [
-          "Katelynn Cusanelli"
+          "Cara Maria Sorbello"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 6,
+        "rank": 4,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.56,
+        "n_events": 74,
+        "finish": "Runners-Up in At the End of the World",
+        "finish_label": "Runner-up",
+        "finish_episode": "At the End of the World",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Laurel Stucky",
+        "partners_history": [
+          "Laurel Stucky"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
         "player": "Jenn Grijalva",
-        "rating": 0.102,
-        "n_events": 89,
+        "rating": 0.05,
+        "n_events": 73,
         "finish": "Third Place in At the End of the World",
         "finish_label": "3rd",
         "finish_episode": "At the End of the World",
@@ -415,30 +394,27 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
-        "player": "Jasmine Reynaud",
-        "rating": -0.012,
-        "n_events": 32,
-        "finish": "Eliminated in Blood on the Dance Floor",
-        "finish_label": "Eliminated",
-        "finish_episode": "Blood on the Dance Floor",
-        "elim_position": 7,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Cara Maria Sorbello",
-          "Laurel Stucky"
-        ],
-        "partner": "Jonna Mannion",
+        "rank": 6,
+        "player": "Mandi Moyer",
+        "rating": -0.016,
+        "n_events": 45,
+        "finish": "Third Place in At the End of the World",
+        "finish_label": "3rd",
+        "finish_episode": "At the End of the World",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Jenn Grijalva",
         "partners_history": [
-          "Jonna Mannion"
+          "Jenn Grijalva"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "player": "Jonna Mannion",
-        "rating": -0.012,
+        "rating": -0.137,
         "n_events": 32,
         "finish": "Eliminated in Blood on the Dance Floor",
         "finish_label": "Eliminated",
@@ -457,49 +433,52 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Mandi Moyer",
-        "rating": -0.132,
-        "n_events": 66,
-        "finish": "Third Place in At the End of the World",
-        "finish_label": "3rd",
-        "finish_episode": "At the End of the World",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jenn Grijalva",
+        "rank": 8,
+        "player": "Jasmine Reynaud",
+        "rating": -0.143,
+        "n_events": 32,
+        "finish": "Eliminated in Blood on the Dance Floor",
+        "finish_label": "Eliminated",
+        "finish_episode": "Blood on the Dance Floor",
+        "elim_position": 7,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Cara Maria Sorbello",
+          "Laurel Stucky"
+        ],
+        "partner": "Jonna Mannion",
         "partners_history": [
-          "Jenn Grijalva"
+          "Jonna Mannion"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
+        "player": "Sarah Rice",
+        "rating": -0.172,
+        "n_events": 43,
+        "finish": "Eliminated in Ill Communication",
+        "finish_label": "Eliminated",
+        "finish_episode": "Ill Communication",
+        "elim_position": 6,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Jasmine Reynaud",
+          "Jonna Mannion"
+        ],
+        "partner": "Katelynn Cusanelli",
+        "partners_history": [
+          "Katelynn Cusanelli"
         ],
         "team": "",
         "forced_exit": false
       },
       {
         "rank": 10,
-        "player": "Camila Nakagawa",
-        "rating": -0.289,
-        "n_events": 31,
-        "finish": "Eliminated in Underdog Day Afternoon",
-        "finish_label": "Eliminated",
-        "finish_episode": "Underdog Day Afternoon",
-        "elim_position": 3,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Cara Maria Sorbello",
-          "Laurel Stucky"
-        ],
-        "partner": "Theresa Jones",
-        "partners_history": [
-          "Theresa Jones"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
         "player": "Theresa Jones",
-        "rating": -0.366,
-        "n_events": 63,
+        "rating": -0.393,
+        "n_events": 47,
         "finish": "Eliminated in Underdog Day Afternoon",
         "finish_label": "Eliminated",
         "finish_episode": "Underdog Day Afternoon",
@@ -517,30 +496,9 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
-        "player": "Katelynn Cusanelli",
-        "rating": -0.465,
-        "n_events": 49,
-        "finish": "Eliminated in Ill Communication",
-        "finish_label": "Eliminated",
-        "finish_episode": "Ill Communication",
-        "elim_position": 5,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Jasmine Reynaud",
-          "Jonna Mannion"
-        ],
-        "partner": "Sarah Rice",
-        "partners_history": [
-          "Sarah Rice"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
+        "rank": 11,
         "player": "Robin Hibbard",
-        "rating": -0.549,
+        "rating": -0.419,
         "n_events": 10,
         "finish": "Eliminated in Welcome to the Jungle",
         "finish_label": "Eliminated",
@@ -559,9 +517,30 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "player": "Camila Nakagawa",
+        "rating": -0.42,
+        "n_events": 31,
+        "finish": "Eliminated in Underdog Day Afternoon",
+        "finish_label": "Eliminated",
+        "finish_episode": "Underdog Day Afternoon",
+        "elim_position": 3,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Cara Maria Sorbello",
+          "Laurel Stucky"
+        ],
+        "partner": "Theresa Jones",
+        "partners_history": [
+          "Theresa Jones"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "player": "Aneesa Ferreira",
-        "rating": -0.549,
+        "rating": -0.421,
         "n_events": 10,
         "finish": "Eliminated in Welcome to the Jungle",
         "finish_label": "Eliminated",
@@ -575,6 +554,27 @@
         "partner": "Robin Hibbard",
         "partners_history": [
           "Robin Hibbard"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Katelynn Cusanelli",
+        "rating": -0.772,
+        "n_events": 22,
+        "finish": "Eliminated in Ill Communication",
+        "finish_label": "Eliminated",
+        "finish_episode": "Ill Communication",
+        "elim_position": 5,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Jasmine Reynaud",
+          "Jonna Mannion"
+        ],
+        "partner": "Sarah Rice",
+        "partners_history": [
+          "Sarah Rice"
         ],
         "team": "",
         "forced_exit": false

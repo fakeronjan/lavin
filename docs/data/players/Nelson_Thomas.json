@@ -3,13 +3,13 @@
   "safe_name": "Nelson_Thomas",
   "gender": "M",
   "career": {
-    "era_rating": 2.0,
-    "peak_rating": 0.502,
-    "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.289,
-    "active_season_id": "s40_battle_of_the_eras",
+    "era_rating": 2.2,
+    "peak_rating": 0.675,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.399,
+    "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 9,
-    "n_snapshots": 13,
+    "n_snapshots": 11,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": -0.042,
+      "rating_at_end": -0.106,
       "partner": "Nurys Mateo",
       "partners_history": [
         "Nurys Mateo"
@@ -51,7 +51,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.124,
+      "rating_at_end": 0.144,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -71,7 +71,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": -0.389,
+      "rating_at_end": -0.275,
       "partner": "Amber Martinez",
       "partners_history": [
         "Amber Martinez"
@@ -93,7 +93,7 @@
       "eliminated_by": [
         "Rogan O'Connor"
       ],
-      "rating_at_end": -0.532,
+      "rating_at_end": -0.52,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -114,7 +114,7 @@
         "Paulie Calafiore",
         "Natalie Negrotti"
       ],
-      "rating_at_end": 0.138,
+      "rating_at_end": 0.105,
       "partner": "Shane Landrum",
       "partners_history": [
         "Shane Landrum"
@@ -136,7 +136,7 @@
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": 0.496,
+      "rating_at_end": 0.348,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -154,7 +154,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.446,
+      "rating_at_end": 0.563,
       "partner": "Veronica Portillo",
       "partners_history": [
         "Veronica Portillo"
@@ -174,7 +174,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.403,
+      "rating_at_end": 0.675,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -195,7 +195,7 @@
         "Jamie Banks",
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.502,
+      "rating_at_end": 0.359,
       "partner": "Amanda Garcia",
       "partners_history": [
         "Amanda Garcia"
@@ -208,47 +208,47 @@
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.502
+      "rating": 0.359
     },
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.403
+      "rating": 0.675
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.446
+      "rating": 0.563
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.496
+      "rating": 0.348
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.138
+      "rating": 0.105
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.532
+      "rating": -0.52
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.389
+      "rating": -0.275
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.124
+      "rating": 0.144
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.042
+      "rating": -0.106
     }
   ]
 }

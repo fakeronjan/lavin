@@ -3,13 +3,13 @@
   "safe_name": "Dario_Medrano",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": -0.121,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.121,
-    "active_season_id": "s32_final_reckoning",
+    "era_rating": 0.1,
+    "peak_rating": 0.054,
+    "peak_season_id": "s28_rivals_iii",
+    "active_rating": -0.124,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": -0.359,
+      "rating_at_end": -0.179,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": -0.433,
+      "rating_at_end": -0.157,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -72,7 +72,7 @@
         "Johnny Bananas",
         "Sarah Rice"
       ],
-      "rating_at_end": -0.152,
+      "rating_at_end": 0.054,
       "partner": "Nicole Ramos",
       "partners_history": [
         "Nicole Ramos"
@@ -94,7 +94,7 @@
       "eliminated_by": [
         "Raphy Medrano"
       ],
-      "rating_at_end": -0.224,
+      "rating_at_end": -0.05,
       "partner": "Raphy Medrano",
       "partners_history": [
         "Raphy Medrano"
@@ -107,22 +107,22 @@
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.224
+      "rating": -0.05
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": -0.152
+      "rating": 0.054
     },
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.433
+      "rating": -0.157
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.359
+      "rating": -0.179
     }
   ]
 }

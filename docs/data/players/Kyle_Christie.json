@@ -3,13 +3,13 @@
   "safe_name": "Kyle_Christie",
   "gender": "M",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 0.739,
+    "era_rating": 3.0,
+    "peak_rating": 0.866,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.718,
-    "active_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": 0.819,
+    "active_season_id": "s38_ride_or_dies",
     "n_seasons": 7,
-    "n_snapshots": 9,
+    "n_snapshots": 8,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 6,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.41,
+      "rating_at_end": 0.632,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": 0.336,
+      "rating_at_end": 0.443,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez",
@@ -74,7 +74,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.408,
+      "rating_at_end": 0.523,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -94,7 +94,7 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": -0.011,
+      "rating_at_end": 0.181,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -114,7 +114,7 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": 0.088,
+      "rating_at_end": 0.38,
       "partner": "Mattie Lynn Breaux",
       "partners_history": [
         "Mattie Lynn Breaux"
@@ -137,7 +137,7 @@
         "Nelson Thomas",
         "Shane Landrum"
       ],
-      "rating_at_end": 0.374,
+      "rating_at_end": -0.344,
       "partner": "Brad Fiorenza",
       "partners_history": [
         "Brad Fiorenza"
@@ -157,7 +157,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.739,
+      "rating_at_end": 0.866,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -168,37 +168,37 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.739
+      "rating": 0.866
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.374
+      "rating": -0.344
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.088
+      "rating": 0.38
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.011
+      "rating": 0.181
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.408
+      "rating": 0.523
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.336
+      "rating": 0.443
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.41
+      "rating": 0.632
     }
   ]
 }

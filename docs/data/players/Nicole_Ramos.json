@@ -3,13 +3,13 @@
   "safe_name": "Nicole_Ramos",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.007,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": -0.513,
-    "active_season_id": "s32_final_reckoning",
+    "era_rating": 0.1,
+    "peak_rating": 0.158,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.017,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 4,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.007,
+      "rating_at_end": -0.017,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Britni Thornton"
       ],
-      "rating_at_end": -0.017,
+      "rating_at_end": 0.147,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,7 +70,7 @@
         "Sarah Rice",
         "Johnny Bananas"
       ],
-      "rating_at_end": -0.183,
+      "rating_at_end": -0.019,
       "partner": "Dario Medrano",
       "partners_history": [
         "Dario Medrano"
@@ -92,7 +92,7 @@
       "eliminated_by": [
         "Nany Gonz\u00e1lez"
       ],
-      "rating_at_end": -0.795,
+      "rating_at_end": -0.701,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez"
@@ -105,22 +105,22 @@
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.795
+      "rating": -0.701
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": -0.183
+      "rating": -0.019
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.017
+      "rating": 0.147
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.007
+      "rating": -0.017
     }
   ]
 }

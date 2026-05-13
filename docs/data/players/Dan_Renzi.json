@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.018,
+    "peak_rating": -0.001,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.586,
-    "active_season_id": "s12_fresh_meat",
+    "active_rating": -0.443,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 5,
     "championships": 2,
     "pre_anchor_titles": 1,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Landon Lueck"
       ],
-      "rating_at_end": -0.607,
+      "rating_at_end": -0.418,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": 0.018,
+      "rating_at_end": -0.001,
       "partner": "Jamie Murray",
       "partners_history": [
         "Jamie Murray"
@@ -64,12 +64,12 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.018
+      "rating": -0.001
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.607
+      "rating": -0.418
     }
   ]
 }

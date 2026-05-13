@@ -3,13 +3,13 @@
   "safe_name": "Jodi_Weatherton",
   "gender": "F",
   "career": {
-    "era_rating": 1.4,
-    "peak_rating": 1.084,
-    "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.251,
+    "era_rating": 1.6,
+    "peak_rating": 1.255,
+    "peak_season_id": "s13_the_duel",
+    "active_rating": -0.355,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
-    "n_snapshots": 11,
+    "n_snapshots": 9,
     "championships": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.233,
+      "rating_at_end": -0.206,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.02,
+      "rating_at_end": 1.255,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -65,7 +65,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.353,
+      "rating_at_end": 0.304,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -85,7 +85,7 @@
       "eliminated_by": [
         "Veronica Portillo"
       ],
-      "rating_at_end": -0.113,
+      "rating_at_end": -0.345,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -96,22 +96,22 @@
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.113
+      "rating": -0.345
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.353
+      "rating": 0.304
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 1.02
+      "rating": 1.255
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.233
+      "rating": -0.206
     }
   ]
 }

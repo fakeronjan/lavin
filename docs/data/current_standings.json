@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Yeremi Hykel",
-        "rating": 0.999,
+        "rating": 1.094,
         "n_events": 64,
         "finish": "Winner <small>'' in Finale Part II",
         "finish_label": "Champion",
@@ -29,8 +29,8 @@
       {
         "rank": 2,
         "player": "Turbo \u00c7amk\u0131ran",
-        "rating": 0.707,
-        "n_events": 90,
+        "rating": 0.893,
+        "n_events": 86,
         "finish": "Runner-Up <small>''in Finale Part II",
         "finish_label": "Runner-up",
         "finish_episode": "Finale Part II",
@@ -49,7 +49,7 @@
       {
         "rank": 3,
         "player": "Cedric Hodges",
-        "rating": 0.62,
+        "rating": 0.719,
         "n_events": 53,
         "finish": "Third Place <small>''in Finale Part II",
         "finish_label": "3rd",
@@ -66,30 +66,9 @@
       },
       {
         "rank": 4,
-        "player": "Johnny Bananas",
-        "rating": 0.506,
-        "n_events": 118,
-        "finish": "Eliminated in Wish I'd Been Practicing",
-        "finish_label": "Eliminated",
-        "finish_episode": "Wish I'd Been Practicing",
-        "elim_position": 2,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Gabe Wai"
-        ],
-        "partner": "Dee Valladares",
-        "partners_history": [
-          "Dee Valladares",
-          "Leka Sodade"
-        ],
-        "team": "Vets",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
         "player": "Theo Campbell",
-        "rating": 0.49,
-        "n_events": 171,
+        "rating": 0.584,
+        "n_events": 150,
         "finish": "Fourth Place <small>''in Finale Part II",
         "finish_label": "4th",
         "finish_episode": "Finale Part II",
@@ -105,9 +84,9 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
+        "rank": 5,
         "player": "Leonardo Dionicio",
-        "rating": 0.47,
+        "rating": 0.431,
         "n_events": 82,
         "finish": "",
         "finish_label": "",
@@ -123,10 +102,29 @@
         "forced_exit": false
       },
       {
+        "rank": 6,
+        "player": "Gabe Wai",
+        "rating": 0.328,
+        "n_events": 52,
+        "finish": "Eliminated in A King of Kamikaze",
+        "finish_label": "Eliminated",
+        "finish_episode": "A King of Kamikaze",
+        "elim_position": 6,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Yeremi Hykel",
+          "Aviv Melmed"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "New Threats",
+        "forced_exit": false
+      },
+      {
         "rank": 7,
         "player": "Derek Chavez",
-        "rating": 0.434,
-        "n_events": 89,
+        "rating": 0.304,
+        "n_events": 81,
         "finish": "Eliminated in Justice for Leka",
         "finish_label": "Eliminated",
         "finish_episode": "Justice for Leka",
@@ -147,27 +145,29 @@
       },
       {
         "rank": 8,
-        "player": "Gabe Wai",
-        "rating": 0.395,
-        "n_events": 52,
-        "finish": "Eliminated in A King of Kamikaze",
+        "player": "Johnny Bananas",
+        "rating": 0.293,
+        "n_events": 89,
+        "finish": "Eliminated in Wish I'd Been Practicing",
         "finish_label": "Eliminated",
-        "finish_episode": "A King of Kamikaze",
-        "elim_position": 6,
+        "finish_episode": "Wish I'd Been Practicing",
+        "elim_position": 2,
         "elim_total": 9,
         "eliminated_by": [
-          "Yeremi Hykel",
-          "Aviv Melmed"
+          "Gabe Wai"
         ],
-        "partner": "",
-        "partners_history": [],
-        "team": "New Threats",
+        "partner": "Dee Valladares",
+        "partners_history": [
+          "Dee Valladares",
+          "Leka Sodade"
+        ],
+        "team": "Vets",
         "forced_exit": false
       },
       {
         "rank": 9,
         "player": "Justin Hinsley",
-        "rating": 0.248,
+        "rating": 0.261,
         "n_events": 65,
         "finish": "",
         "finish_label": "",
@@ -187,9 +187,25 @@
       },
       {
         "rank": 10,
+        "player": "Jake Cornish",
+        "rating": 0.182,
+        "n_events": 60,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "New Threats",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
         "player": "CT Tamburello",
-        "rating": 0.174,
-        "n_events": 112,
+        "rating": 0.032,
+        "n_events": 61,
         "finish": "Eliminated in A War Brewing",
         "finish_label": "Eliminated",
         "finish_episode": "A War Brewing",
@@ -208,65 +224,9 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
-        "player": "Jake Cornish",
-        "rating": 0.17,
-        "n_events": 60,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "New Threats",
-        "forced_exit": false
-      },
-      {
         "rank": 12,
-        "player": "Derrick Kosinski",
-        "rating": 0.065,
-        "n_events": 88,
-        "finish": "Eliminated in Punch You in Your Face",
-        "finish_label": "Eliminated",
-        "finish_episode": "Punch You in Your Face",
-        "elim_position": 7,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Theo Campbell",
-          "Adrienne Naylor"
-        ],
-        "partner": "Blue Kim",
-        "partners_history": [
-          "Blue Kim",
-          "Dee Valladares"
-        ],
-        "team": "Vets",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
-        "player": "Ben Davis",
-        "rating": -0.051,
-        "n_events": 33,
-        "finish": "Eliminated in Pride Comes Before the Fall",
-        "finish_label": "Eliminated",
-        "finish_episode": "Pride Comes Before the Fall",
-        "elim_position": 3,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Derek Chavez"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "New Threats",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
         "player": "Will Gagnon",
-        "rating": -0.168,
+        "rating": -0.069,
         "n_events": 40,
         "finish": "",
         "finish_label": "",
@@ -286,10 +246,10 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
+        "rank": 13,
         "player": "Leroy Garrett",
-        "rating": -0.183,
-        "n_events": 73,
+        "rating": -0.08,
+        "n_events": 52,
         "finish": "Eliminated in They Are Like Cockroaches",
         "finish_label": "Eliminated",
         "finish_episode": "They Are Like Cockroaches",
@@ -304,9 +264,49 @@
         "forced_exit": false
       },
       {
+        "rank": 14,
+        "player": "Ben Davis",
+        "rating": -0.085,
+        "n_events": 33,
+        "finish": "Eliminated in Pride Comes Before the Fall",
+        "finish_label": "Eliminated",
+        "finish_episode": "Pride Comes Before the Fall",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Derek Chavez"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "New Threats",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
+        "player": "Derrick Kosinski",
+        "rating": -0.153,
+        "n_events": 79,
+        "finish": "Eliminated in Punch You in Your Face",
+        "finish_label": "Eliminated",
+        "finish_episode": "Punch You in Your Face",
+        "elim_position": 7,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Theo Campbell",
+          "Adrienne Naylor"
+        ],
+        "partner": "Blue Kim",
+        "partners_history": [
+          "Blue Kim",
+          "Dee Valladares"
+        ],
+        "team": "Vets",
+        "forced_exit": false
+      },
+      {
         "rank": 16,
         "player": "Rogan O'Connor",
-        "rating": -0.52,
+        "rating": -0.391,
         "n_events": 15,
         "finish": "Eliminated in Welcome to The Challenge",
         "finish_label": "Eliminated",
@@ -327,8 +327,26 @@
     "F": [
       {
         "rank": 1,
+        "player": "Olivia Kaiser",
+        "rating": 0.749,
+        "n_events": 127,
+        "finish": "Winner <small>''in Finale Part II",
+        "finish_label": "Champion",
+        "finish_episode": "Finale Part II",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Yeremi Hykel",
+        "partners_history": [
+          "Yeremi Hykel"
+        ],
+        "team": "Vets",
+        "forced_exit": false
+      },
+      {
+        "rank": 2,
         "player": "Sydney Segal",
-        "rating": 0.745,
+        "rating": 0.688,
         "n_events": 91,
         "finish": "Runner-Up <small>''in Finale Part II",
         "finish_label": "Runner-up",
@@ -346,9 +364,9 @@
         "forced_exit": false
       },
       {
-        "rank": 2,
+        "rank": 3,
         "player": "Michaela Bradshaw",
-        "rating": 0.655,
+        "rating": 0.577,
         "n_events": 88,
         "finish": "Third Place <small>''in Finale Part II",
         "finish_label": "3rd",
@@ -364,9 +382,9 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
+        "rank": 4,
         "player": "Adrienne Naylor",
-        "rating": 0.586,
+        "rating": 0.47,
         "n_events": 121,
         "finish": "Fourth Place <small>''in Finale Part II",
         "finish_label": "4th",
@@ -383,59 +401,9 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
-        "player": "Olivia Kaiser",
-        "rating": 0.477,
-        "n_events": 206,
-        "finish": "Winner <small>''in Finale Part II",
-        "finish_label": "Champion",
-        "finish_episode": "Finale Part II",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Yeremi Hykel",
-        "partners_history": [
-          "Yeremi Hykel"
-        ],
-        "team": "Vets",
-        "forced_exit": false
-      },
-      {
         "rank": 5,
-        "player": "Nany Gonz\u00e1lez",
-        "rating": 0.398,
-        "n_events": 55,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Vets",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
-        "player": "Aneesa Ferreira",
-        "rating": 0.281,
-        "n_events": 111,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Vets",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Nany Gonzalez",
-        "rating": 0.181,
+        "rating": 0.064,
         "n_events": 70,
         "finish": "",
         "finish_label": "",
@@ -454,9 +422,48 @@
         "forced_exit": false
       },
       {
+        "rank": 6,
+        "player": "Ashley Mitchell",
+        "rating": 0.016,
+        "n_events": 64,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "Vets",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
+        "player": "Aviv Melmed",
+        "rating": -0.015,
+        "n_events": 99,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 7,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Michaela Bradshaw",
+          "Cedric Hodges"
+        ],
+        "partner": "Derek Chavez",
+        "partners_history": [
+          "Derek Chavez",
+          "Yeremi Hykel",
+          "Will Gagnon"
+        ],
+        "team": "Vets",
+        "forced_exit": false
+      },
+      {
         "rank": 8,
         "player": "Tay Wilcoxson",
-        "rating": 0.122,
+        "rating": -0.016,
         "n_events": 42,
         "finish": "Eliminated in A War Brewing",
         "finish_label": "Eliminated",
@@ -477,24 +484,8 @@
       },
       {
         "rank": 9,
-        "player": "Ashley Mitchell",
-        "rating": 0.113,
-        "n_events": 64,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Vets",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
         "player": "Dee Valladares",
-        "rating": 0.054,
+        "rating": -0.091,
         "n_events": 58,
         "finish": "Eliminated in Punch You in Your Face",
         "finish_label": "Eliminated",
@@ -515,9 +506,9 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Izzy Fairthorne",
-        "rating": 0.048,
+        "rating": -0.129,
         "n_events": 56,
         "finish": "Eliminated in At Least Someone's Getting Laid!",
         "finish_label": "Eliminated",
@@ -538,32 +529,62 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
-        "player": "Aviv Melmed",
-        "rating": 0.025,
-        "n_events": 107,
+        "rank": 11,
+        "player": "Aneesa Ferreira",
+        "rating": -0.162,
+        "n_events": 73,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
-        "elim_position": 7,
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "Vets",
+        "forced_exit": false
+      },
+      {
+        "rank": 12,
+        "player": "Jonna Mannion",
+        "rating": -0.162,
+        "n_events": 69,
+        "finish": "Eliminated in A King of Kamikaze",
+        "finish_label": "Eliminated",
+        "finish_episode": "A King of Kamikaze",
+        "elim_position": 5,
         "elim_total": 8,
         "eliminated_by": [
-          "Michaela Bradshaw",
-          "Cedric Hodges"
+          "Aviv Melmed",
+          "Yeremi Hykel"
         ],
-        "partner": "Derek Chavez",
-        "partners_history": [
-          "Derek Chavez",
-          "Yeremi Hykel",
-          "Will Gagnon"
-        ],
+        "partner": "",
+        "partners_history": [],
         "team": "Vets",
         "forced_exit": false
       },
       {
         "rank": 13,
+        "player": "America Lopez",
+        "rating": -0.168,
+        "n_events": 50,
+        "finish": "Eliminated in They Are Like Cockroaches",
+        "finish_label": "Eliminated",
+        "finish_episode": "They Are Like Cockroaches",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Leroy Garrett",
+        "partners_history": [
+          "Leroy Garrett"
+        ],
+        "team": "New Threats",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Leka Sodade",
-        "rating": -0.11,
+        "rating": -0.17,
         "n_events": 38,
         "finish": "Eliminated in Is He Throwing It?",
         "finish_label": "Eliminated",
@@ -583,37 +604,16 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
-        "player": "America Lopez",
-        "rating": -0.142,
-        "n_events": 50,
-        "finish": "Eliminated in They Are Like Cockroaches",
-        "finish_label": "Eliminated",
-        "finish_episode": "They Are Like Cockroaches",
+        "rank": 15,
+        "player": "Cara Maria Sorbello",
+        "rating": -0.246,
+        "n_events": 82,
+        "finish": "Quit in Pride Comes Before the Fall",
+        "finish_label": "Quit",
+        "finish_episode": "Pride Comes Before the Fall",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Leroy Garrett",
-        "partners_history": [
-          "Leroy Garrett"
-        ],
-        "team": "New Threats",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
-        "player": "Jonna Mannion",
-        "rating": -0.182,
-        "n_events": 77,
-        "finish": "Eliminated in A King of Kamikaze",
-        "finish_label": "Eliminated",
-        "finish_episode": "A King of Kamikaze",
-        "elim_position": 5,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Aviv Melmed",
-          "Yeremi Hykel"
-        ],
         "partner": "",
         "partners_history": [],
         "team": "Vets",
@@ -622,8 +622,8 @@
       {
         "rank": 16,
         "player": "Nia Moore",
-        "rating": -0.258,
-        "n_events": 88,
+        "rating": -0.435,
+        "n_events": 67,
         "finish": "Medically Disqualified in I Am The Challenge",
         "finish_label": "Medical DQ",
         "finish_episode": "I Am The Challenge",
@@ -637,12 +637,12 @@
       },
       {
         "rank": 17,
-        "player": "Cara Maria Sorbello",
-        "rating": -0.261,
-        "n_events": 111,
-        "finish": "Quit in Pride Comes Before the Fall",
-        "finish_label": "Quit",
-        "finish_episode": "Pride Comes Before the Fall",
+        "player": "Nany Gonz\u00e1lez",
+        "rating": -0.578,
+        "n_events": 34,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
@@ -654,7 +654,7 @@
       {
         "rank": 18,
         "player": "Blue Kim",
-        "rating": -0.635,
+        "rating": -0.632,
         "n_events": 17,
         "finish": "Eliminated in We Used to Hook Up",
         "finish_label": "Eliminated",

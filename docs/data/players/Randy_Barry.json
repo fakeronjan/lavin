@@ -3,13 +3,13 @@
   "safe_name": "Randy_Barry",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.645,
-    "peak_season_id": "s13_the_duel",
-    "active_rating": 0.645,
-    "active_season_id": "s13_the_duel",
+    "era_rating": 0.4,
+    "peak_rating": 0.381,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": 0.381,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 3,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.311,
+      "rating_at_end": 0.381,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Shane Landrum"
       ],
-      "rating_at_end": -0.093,
+      "rating_at_end": -0.094,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -60,12 +60,12 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.093
+      "rating": -0.094
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.311
+      "rating": 0.381
     }
   ]
 }

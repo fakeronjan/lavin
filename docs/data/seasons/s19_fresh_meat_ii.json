@@ -8,27 +8,9 @@
     "M": [
       {
         "rank": 1,
-        "player": "Kenny Santucci",
-        "rating": 0.566,
-        "n_events": 152,
-        "finish": "Runners-Up in Well Done, Meat",
-        "finish_label": "Runner-up",
-        "finish_episode": "Well Done, Meat",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Laurel Stucky",
-        "partners_history": [
-          "Laurel Stucky"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 2,
         "player": "Landon Lueck",
-        "rating": 0.552,
-        "n_events": 77,
+        "rating": 0.995,
+        "n_events": 55,
         "finish": "Winners in Well Done, Meat",
         "finish_label": "Champion",
         "finish_episode": "Well Done, Meat",
@@ -43,9 +25,27 @@
         "forced_exit": false
       },
       {
+        "rank": 2,
+        "player": "Kenny Santucci",
+        "rating": 0.767,
+        "n_events": 108,
+        "finish": "Runners-Up in Well Done, Meat",
+        "finish_label": "Runner-up",
+        "finish_episode": "Well Done, Meat",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Laurel Stucky",
+        "partners_history": [
+          "Laurel Stucky"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 3,
         "player": "Pete Connolly",
-        "rating": 0.409,
+        "rating": 0.556,
         "n_events": 51,
         "finish": "Third Place in Well Done, Meat",
         "finish_label": "3rd",
@@ -63,7 +63,7 @@
       {
         "rank": 4,
         "player": "Luke Wolfe",
-        "rating": 0.201,
+        "rating": 0.372,
         "n_events": 43,
         "finish": "Eliminated in All U Can Eat Stakes",
         "finish_label": "Eliminated",
@@ -84,7 +84,7 @@
       {
         "rank": 5,
         "player": "Noor Jehangir",
-        "rating": 0.119,
+        "rating": 0.284,
         "n_events": 33,
         "finish": "Fourth Place in Well Done, Meat",
         "finish_label": "4th",
@@ -101,6 +101,27 @@
       },
       {
         "rank": 6,
+        "player": "CJ Koegel",
+        "rating": 0.154,
+        "n_events": 35,
+        "finish": "Eliminated in Checkmeat!",
+        "finish_label": "Eliminated",
+        "finish_episode": "Checkmeat!",
+        "elim_position": 5,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Landon Lueck",
+          "Carley Johnson"
+        ],
+        "partner": "Sydney Walker",
+        "partners_history": [
+          "Sydney Walker"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
         "player": "Darrell Taylor",
         "rating": 0.06,
         "n_events": 54,
@@ -121,51 +142,9 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
-        "player": "Ryan Kehoe",
-        "rating": 0.018,
-        "n_events": 122,
-        "finish": "Eliminated in Well Done, Meat",
-        "finish_label": "Eliminated",
-        "finish_episode": "Well Done, Meat",
-        "elim_position": 8,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Noor Jehangir",
-          "Jenn Grijalva"
-        ],
-        "partner": "Theresa Jones",
-        "partners_history": [
-          "Theresa Jones"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 8,
-        "player": "CJ Koegel",
-        "rating": -0.043,
-        "n_events": 35,
-        "finish": "Eliminated in Checkmeat!",
-        "finish_label": "Eliminated",
-        "finish_episode": "Checkmeat!",
-        "elim_position": 5,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Landon Lueck",
-          "Carley Johnson"
-        ],
-        "partner": "Sydney Walker",
-        "partners_history": [
-          "Sydney Walker"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
         "player": "Vinny Foti",
-        "rating": -0.183,
+        "rating": -0.081,
         "n_events": 21,
         "finish": "Eliminated in Meating of the Minds",
         "finish_label": "Eliminated",
@@ -184,9 +163,9 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
+        "rank": 9,
         "player": "Brandon Nelson",
-        "rating": -0.312,
+        "rating": -0.175,
         "n_events": 33,
         "finish": "Disqualified in Meats 'N Potatoes",
         "finish_label": "Disqualified",
@@ -202,9 +181,9 @@
         "forced_exit": true
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Jeff Barr",
-        "rating": -0.326,
+        "rating": -0.187,
         "n_events": 22,
         "finish": "Eliminated in Sloppy Ho's",
         "finish_label": "Eliminated",
@@ -223,9 +202,9 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
+        "rank": 11,
         "player": "Wes Bergmann",
-        "rating": -0.331,
+        "rating": -0.219,
         "n_events": 42,
         "finish": "Eliminated in Trimming the Fat",
         "finish_label": "Eliminated",
@@ -244,10 +223,10 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 12,
         "player": "Danny Jamieson",
-        "rating": -0.514,
-        "n_events": 56,
+        "rating": -0.227,
+        "n_events": 36,
         "finish": "Eliminated in Road Kill",
         "finish_label": "Eliminated",
         "finish_episode": "Road Kill",
@@ -263,13 +242,34 @@
         ],
         "team": "",
         "forced_exit": false
+      },
+      {
+        "rank": 13,
+        "player": "Ryan Kehoe",
+        "rating": -0.369,
+        "n_events": 28,
+        "finish": "Eliminated in Well Done, Meat",
+        "finish_label": "Eliminated",
+        "finish_episode": "Well Done, Meat",
+        "elim_position": 8,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Noor Jehangir",
+          "Jenn Grijalva"
+        ],
+        "partner": "Theresa Jones",
+        "partners_history": [
+          "Theresa Jones"
+        ],
+        "team": "",
+        "forced_exit": false
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Carley Johnson",
-        "rating": 1.043,
+        "rating": 0.98,
         "n_events": 44,
         "finish": "Winners in Well Done, Meat",
         "finish_label": "Champion",
@@ -287,7 +287,7 @@
       {
         "rank": 2,
         "player": "Laurel Stucky",
-        "rating": 0.798,
+        "rating": 0.696,
         "n_events": 41,
         "finish": "Runners-Up in Well Done, Meat",
         "finish_label": "Runner-up",
@@ -305,8 +305,8 @@
       {
         "rank": 3,
         "player": "Jillian Zoboroski",
-        "rating": 0.651,
-        "n_events": 90,
+        "rating": 0.496,
+        "n_events": 51,
         "finish": "Third Place in Well Done, Meat",
         "finish_label": "3rd",
         "finish_episode": "Well Done, Meat",
@@ -322,8 +322,47 @@
       },
       {
         "rank": 4,
+        "player": "Evelyn Smith",
+        "rating": 0.219,
+        "n_events": 51,
+        "finish": "Eliminated in All U Can Eat Stakes",
+        "finish_label": "Eliminated",
+        "finish_episode": "All U Can Eat Stakes",
+        "elim_position": 7,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Carley Johnson",
+          "Landon Lueck"
+        ],
+        "partner": "Luke Wolfe",
+        "partners_history": [
+          "Luke Wolfe"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
+        "player": "Jenn Grijalva",
+        "rating": 0.208,
+        "n_events": 46,
+        "finish": "Fourth Place in Well Done, Meat",
+        "finish_label": "4th",
+        "finish_episode": "Well Done, Meat",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Noor Jehangir",
+        "partners_history": [
+          "Noor Jehangir"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 6,
         "player": "Sarah Rice",
-        "rating": 0.371,
+        "rating": 0.155,
         "n_events": 53,
         "finish": "Eliminated in Meating of the Minds",
         "finish_label": "Eliminated",
@@ -342,48 +381,9 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
-        "player": "Evelyn Smith",
-        "rating": 0.322,
-        "n_events": 126,
-        "finish": "Eliminated in All U Can Eat Stakes",
-        "finish_label": "Eliminated",
-        "finish_episode": "All U Can Eat Stakes",
-        "elim_position": 7,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Carley Johnson",
-          "Landon Lueck"
-        ],
-        "partner": "Luke Wolfe",
-        "partners_history": [
-          "Luke Wolfe"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
-        "player": "Jenn Grijalva",
-        "rating": 0.256,
-        "n_events": 97,
-        "finish": "Fourth Place in Well Done, Meat",
-        "finish_label": "4th",
-        "finish_episode": "Well Done, Meat",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Noor Jehangir",
-        "partners_history": [
-          "Noor Jehangir"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 7,
         "player": "Sydney Walker",
-        "rating": 0.251,
+        "rating": 0.105,
         "n_events": 35,
         "finish": "Eliminated in Checkmeat!",
         "finish_label": "Eliminated",
@@ -404,7 +404,7 @@
       {
         "rank": 8,
         "player": "Cara Maria Sorbello",
-        "rating": 0.054,
+        "rating": -0.184,
         "n_events": 20,
         "finish": "Eliminated in Nice to Meat You",
         "finish_label": "Eliminated",
@@ -424,29 +424,8 @@
       },
       {
         "rank": 9,
-        "player": "Paula Meronek",
-        "rating": -0.031,
-        "n_events": 102,
-        "finish": "Eliminated in Sloppy Ho's",
-        "finish_label": "Eliminated",
-        "finish_episode": "Sloppy Ho's",
-        "elim_position": 3,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Evelyn Smith",
-          "Luke Wolfe"
-        ],
-        "partner": "Jeff Barr",
-        "partners_history": [
-          "Jeff Barr"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
         "player": "Sandy Kang",
-        "rating": -0.06,
+        "rating": -0.207,
         "n_events": 23,
         "finish": "Eliminated in Road Kill",
         "finish_label": "Eliminated",
@@ -465,9 +444,9 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 10,
         "player": "Katelynn Cusanelli",
-        "rating": -0.072,
+        "rating": -0.234,
         "n_events": 33,
         "finish": "Disqualified in Meats 'N Potatoes",
         "finish_label": "Disqualified",
@@ -483,9 +462,30 @@
         "forced_exit": true
       },
       {
+        "rank": 11,
+        "player": "Paula Meronek",
+        "rating": -0.258,
+        "n_events": 33,
+        "finish": "Eliminated in Sloppy Ho's",
+        "finish_label": "Eliminated",
+        "finish_episode": "Sloppy Ho's",
+        "elim_position": 3,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Evelyn Smith",
+          "Luke Wolfe"
+        ],
+        "partner": "Jeff Barr",
+        "partners_history": [
+          "Jeff Barr"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 12,
         "player": "Mandi Moyer",
-        "rating": -0.21,
+        "rating": -0.303,
         "n_events": 25,
         "finish": "Eliminated in Trimming the Fat",
         "finish_label": "Eliminated",
@@ -506,7 +506,7 @@
       {
         "rank": 13,
         "player": "Theresa Jones",
-        "rating": -0.36,
+        "rating": -0.424,
         "n_events": 25,
         "finish": "Eliminated in Well Done, Meat",
         "finish_label": "Eliminated",

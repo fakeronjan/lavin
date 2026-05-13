@@ -3,13 +3,13 @@
   "safe_name": "Frank_Fox",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.628,
+    "era_rating": 1.8,
+    "peak_rating": 0.787,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.829,
-    "active_season_id": "s32_final_reckoning",
+    "active_rating": -0.351,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 4,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": -0.56,
+      "rating_at_end": -0.351,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.493,
+      "rating_at_end": 0.449,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.628,
+      "rating_at_end": 0.787,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -87,7 +87,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.604,
+      "rating_at_end": 0.581,
       "partner": "Ashley Kelsey",
       "partners_history": [
         "Ashley Kelsey"
@@ -100,22 +100,22 @@
     {
       "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.604
+      "rating": 0.581
     },
     {
       "ranking_id": 501,
       "season_id": "s24_rivals_ii",
-      "rating": 0.628
+      "rating": 0.787
     },
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.493
+      "rating": 0.449
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": -0.56
+      "rating": -0.351
     }
   ]
 }

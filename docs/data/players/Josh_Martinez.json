@@ -3,13 +3,13 @@
   "safe_name": "Josh_Martinez",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.005,
+    "era_rating": 0.1,
+    "peak_rating": 0.145,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": -0.355,
+    "active_rating": -0.62,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
-    "n_snapshots": 9,
+    "n_snapshots": 8,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.272,
+      "rating_at_end": -0.163,
       "partner": "",
       "partners_history": [],
       "team": "Era IV",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.134,
+      "rating_at_end": -0.235,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -71,7 +71,7 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": -0.063,
+      "rating_at_end": -0.074,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez"
@@ -93,7 +93,7 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.003,
+      "rating_at_end": -0.054,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -113,7 +113,7 @@
       "eliminated_by": [
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.005,
+      "rating_at_end": 0.145,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -134,7 +134,7 @@
         "Ashley Cain",
         "Kam Williams"
       ],
-      "rating_at_end": -0.206,
+      "rating_at_end": -0.216,
       "partner": "Amanda Garcia",
       "partners_history": [
         "Amanda Garcia"
@@ -147,32 +147,32 @@
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.206
+      "rating": -0.216
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.005
+      "rating": 0.145
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.003
+      "rating": -0.054
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.063
+      "rating": -0.074
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.134
+      "rating": -0.235
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.272
+      "rating": -0.163
     }
   ]
 }

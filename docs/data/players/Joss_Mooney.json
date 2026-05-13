@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 1.1,
-    "peak_rating": 0.7,
-    "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.098,
-    "active_season_id": "s37_spies_lies_allies",
+    "peak_rating": 0.714,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": 0.029,
+    "active_season_id": "s36_double_agents",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.454,
+      "rating_at_end": 0.37,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.69,
+      "rating_at_end": 0.714,
       "partner": "Sylvia Elsrode",
       "partners_history": [
         "Sylvia Elsrode"
@@ -69,7 +69,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.138,
+      "rating_at_end": -0.008,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -80,17 +80,17 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": -0.138
+      "rating": -0.008
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.69
+      "rating": 0.714
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.454
+      "rating": 0.37
     }
   ]
 }

@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 1.5,
-    "peak_rating": 0.538,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": 0.358,
-    "active_season_id": "s36_double_agents",
+    "peak_rating": 0.688,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": 0.108,
+    "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 3,
-    "n_snapshots": 6,
+    "n_snapshots": 4,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Julia Nolan"
       ],
-      "rating_at_end": 0.383,
+      "rating_at_end": 0.267,
       "partner": "JP Andrade",
       "partners_history": [
         "JP Andrade"
@@ -51,7 +51,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.53,
+      "rating_at_end": 0.688,
       "partner": "Paulie Calafiore",
       "partners_history": [
         "Paulie Calafiore"
@@ -73,7 +73,7 @@
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": 0.538,
+      "rating_at_end": 0.513,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -84,17 +84,17 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.538
+      "rating": 0.513
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.53
+      "rating": 0.688
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.383
+      "rating": 0.267
     }
   ]
 }

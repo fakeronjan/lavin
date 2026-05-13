@@ -3,13 +3,13 @@
   "safe_name": "Darrell_Taylor",
   "gender": "M",
   "career": {
-    "era_rating": 3.6,
-    "peak_rating": 0.798,
+    "era_rating": 4.4,
+    "peak_rating": 1.066,
     "peak_season_id": "s16_the_island",
-    "active_rating": 0.016,
+    "active_rating": -0.275,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 12,
-    "n_snapshots": 25,
+    "n_snapshots": 22,
     "championships": 4,
     "pre_anchor_titles": 0,
     "elim_wins": 8,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": 0.058,
+      "rating_at_end": 0.224,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.439,
+      "rating_at_end": -0.37,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,7 +70,7 @@
         "Chauncey Palmer",
         "Amber Borzotra"
       ],
-      "rating_at_end": -0.425,
+      "rating_at_end": -0.263,
       "partner": "Veronica Portillo",
       "partners_history": [
         "Veronica Portillo"
@@ -92,7 +92,7 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.235,
       "partner": "Amber Borzotra",
       "partners_history": [
         "Amber Borzotra"
@@ -112,7 +112,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.156,
+      "rating_at_end": 0.233,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -132,7 +132,7 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.286,
+      "rating_at_end": 0.666,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas",
@@ -176,7 +176,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.171,
+      "rating_at_end": 0.349,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -194,7 +194,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.688,
+      "rating_at_end": 0.471,
       "partner": "Aviv Melmed",
       "partners_history": [
         "Aviv Melmed"
@@ -214,7 +214,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.659,
+      "rating_at_end": 0.681,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -232,7 +232,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.719,
+      "rating_at_end": 0.731,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -250,7 +250,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.686,
+      "rating_at_end": 0.703,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -261,27 +261,27 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.686
+      "rating": 0.703
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.719
+      "rating": 0.731
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.659
+      "rating": 0.681
     },
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.688
+      "rating": 0.471
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": 0.171
+      "rating": 0.349
     },
     {
       "ranking_id": 334,
@@ -291,32 +291,32 @@
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.286
+      "rating": 0.666
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.156
+      "rating": 0.233
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.08
+      "rating": 0.235
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.425
+      "rating": -0.263
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.439
+      "rating": -0.37
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.058
+      "rating": 0.224
     }
   ]
 }

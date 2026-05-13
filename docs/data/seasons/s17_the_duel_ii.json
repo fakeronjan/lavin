@@ -9,8 +9,8 @@
       {
         "rank": 1,
         "player": "Evan Starkman",
-        "rating": 0.63,
-        "n_events": 148,
+        "rating": 0.802,
+        "n_events": 105,
         "finish": "Winner in Duel or Die",
         "finish_label": "Champion",
         "finish_episode": "Duel or Die",
@@ -25,8 +25,8 @@
       {
         "rank": 2,
         "player": "Nehemiah Clark",
-        "rating": 0.623,
-        "n_events": 80,
+        "rating": 0.691,
+        "n_events": 71,
         "finish": "Eliminated in Duel-ality",
         "finish_label": "Eliminated",
         "finish_episode": "Duel-ality",
@@ -43,8 +43,8 @@
       {
         "rank": 3,
         "player": "Brad Fiorenza",
-        "rating": 0.543,
-        "n_events": 103,
+        "rating": 0.595,
+        "n_events": 82,
         "finish": "Runner-Up in Duel or Die",
         "finish_label": "Runner-up",
         "finish_episode": "Duel or Die",
@@ -59,7 +59,7 @@
       {
         "rank": 4,
         "player": "Mark Long",
-        "rating": 0.198,
+        "rating": 0.275,
         "n_events": 33,
         "finish": "Third Place in Duel or Die",
         "finish_label": "3rd",
@@ -74,42 +74,8 @@
       },
       {
         "rank": 5,
-        "player": "Adam King",
-        "rating": 0.141,
-        "n_events": 70,
-        "finish": "Disqualified in Damned if You Duel...",
-        "finish_label": "Disqualified",
-        "finish_episode": "Damned if You Duel...",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
-        "player": "Big Easy Banks",
-        "rating": 0.113,
-        "n_events": 84,
-        "finish": "Eliminated in Dueling for Dunbar",
-        "finish_label": "Eliminated",
-        "finish_episode": "Dueling for Dunbar",
-        "elim_position": 6,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Derek McCray"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "MJ Garrett",
-        "rating": 0.095,
+        "rating": 0.142,
         "n_events": 80,
         "finish": "Eliminated in Duel or Die",
         "finish_label": "Eliminated",
@@ -125,10 +91,10 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 6,
         "player": "Ryan Kehoe",
-        "rating": 0.094,
-        "n_events": 119,
+        "rating": 0.09,
+        "n_events": 116,
         "finish": "Eliminated in Duel Unto Others",
         "finish_label": "Eliminated",
         "finish_episode": "Duel Unto Others",
@@ -143,28 +109,10 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Davis Mallory",
-        "rating": 0.041,
-        "n_events": 40,
-        "finish": "Eliminated in Duel What You Gotta Duel",
-        "finish_label": "Eliminated",
-        "finish_episode": "Duel What You Gotta Duel",
-        "elim_position": 3,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Evan Starkman"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 10,
-        "player": "CT Tamburello",
-        "rating": 0.018,
-        "n_events": 92,
+        "rank": 7,
+        "player": "Adam King",
+        "rating": 0.066,
+        "n_events": 70,
         "finish": "Disqualified in Damned if You Duel...",
         "finish_label": "Disqualified",
         "finish_episode": "Damned if You Duel...",
@@ -177,9 +125,27 @@
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 8,
+        "player": "Big Easy Banks",
+        "rating": 0.037,
+        "n_events": 60,
+        "finish": "Eliminated in Dueling for Dunbar",
+        "finish_label": "Eliminated",
+        "finish_episode": "Dueling for Dunbar",
+        "elim_position": 6,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Derek McCray"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
         "player": "Derek McCray",
-        "rating": -0.073,
+        "rating": 0.013,
         "n_events": 65,
         "finish": "Eliminated in If These Duels Could Talk",
         "finish_label": "Eliminated",
@@ -195,9 +161,27 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
+        "rank": 10,
+        "player": "Davis Mallory",
+        "rating": -0.039,
+        "n_events": 40,
+        "finish": "Eliminated in Duel What You Gotta Duel",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel What You Gotta Duel",
+        "elim_position": 3,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Evan Starkman"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
         "player": "Landon Lueck",
-        "rating": -0.139,
+        "rating": -0.11,
         "n_events": 33,
         "finish": "Eliminated in Duel or Die",
         "finish_label": "Eliminated",
@@ -213,9 +197,9 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
+        "rank": 12,
         "player": "Nick Brown",
-        "rating": -0.155,
+        "rating": -0.161,
         "n_events": 19,
         "finish": "Eliminated in Damned if You Duel...",
         "finish_label": "Eliminated",
@@ -231,9 +215,25 @@
         "forced_exit": false
       },
       {
+        "rank": 13,
+        "player": "CT Tamburello",
+        "rating": -0.201,
+        "n_events": 67,
+        "finish": "Disqualified in Damned if You Duel...",
+        "finish_label": "Disqualified",
+        "finish_episode": "Damned if You Duel...",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 14,
         "player": "Isaac Stout",
-        "rating": -0.382,
+        "rating": -0.332,
         "n_events": 23,
         "finish": "Eliminated in Duelers on the Verge of a Nervous Breakdown",
         "finish_label": "Eliminated",
@@ -251,7 +251,7 @@
       {
         "rank": 15,
         "player": "Dunbar Merrill",
-        "rating": -0.532,
+        "rating": -0.438,
         "n_events": 36,
         "finish": "Eliminated in Deja Duel",
         "finish_label": "Eliminated",
@@ -271,7 +271,7 @@
       {
         "rank": 1,
         "player": "Brittini Sherrod",
-        "rating": 0.461,
+        "rating": 0.557,
         "n_events": 46,
         "finish": "Runner-Up in Duel or Die",
         "finish_label": "Runner-up",
@@ -286,26 +286,8 @@
       },
       {
         "rank": 2,
-        "player": "Tori Hall",
-        "rating": 0.341,
-        "n_events": 65,
-        "finish": "Eliminated in Duel or Die",
-        "finish_label": "Eliminated",
-        "finish_episode": "Duel or Die",
-        "elim_position": 9,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Aneesa Ferreira"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 3,
         "player": "Rachel Robinson",
-        "rating": 0.298,
+        "rating": 0.475,
         "n_events": 53,
         "finish": "Winner in Duel or Die",
         "finish_label": "Champion",
@@ -319,10 +301,10 @@
         "forced_exit": false
       },
       {
-        "rank": 4,
+        "rank": 3,
         "player": "Aneesa Ferreira",
-        "rating": 0.222,
-        "n_events": 98,
+        "rating": 0.373,
+        "n_events": 81,
         "finish": "Third Place in Duel or Die",
         "finish_label": "3rd",
         "finish_episode": "Duel or Die",
@@ -335,9 +317,9 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 4,
         "player": "Kimberly Alexander",
-        "rating": 0.222,
+        "rating": 0.253,
         "n_events": 41,
         "finish": "Eliminated in Dueling for Dunbar",
         "finish_label": "Eliminated",
@@ -353,9 +335,27 @@
         "forced_exit": false
       },
       {
+        "rank": 5,
+        "player": "Tori Hall",
+        "rating": 0.249,
+        "n_events": 65,
+        "finish": "Eliminated in Duel or Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel or Die",
+        "elim_position": 9,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Aneesa Ferreira"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 6,
         "player": "Jenn Grijalva",
-        "rating": -0.006,
+        "rating": 0.116,
         "n_events": 76,
         "finish": "Eliminated in If These Duels Could Talk",
         "finish_label": "Eliminated",
@@ -373,8 +373,8 @@
       {
         "rank": 7,
         "player": "Paula Meronek",
-        "rating": -0.053,
-        "n_events": 111,
+        "rating": -0.015,
+        "n_events": 106,
         "finish": "Eliminated in Deja Duel",
         "finish_label": "Eliminated",
         "finish_episode": "Deja Duel",
@@ -390,9 +390,25 @@
       },
       {
         "rank": 8,
+        "player": "Diem Brown",
+        "rating": -0.035,
+        "n_events": 64,
+        "finish": "Eliminated in Duel or Die",
+        "finish_label": "Eliminated",
+        "finish_episode": "Duel or Die",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
         "player": "Robin Hibbard",
-        "rating": -0.054,
-        "n_events": 90,
+        "rating": -0.063,
+        "n_events": 70,
         "finish": "Eliminated in Duel Unto Others",
         "finish_label": "Eliminated",
         "finish_episode": "Duel Unto Others",
@@ -407,25 +423,9 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Diem Brown",
-        "rating": -0.058,
-        "n_events": 103,
-        "finish": "Eliminated in Duel or Die",
-        "finish_label": "Eliminated",
-        "finish_episode": "Duel or Die",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 10,
         "player": "Shauvon Torres",
-        "rating": -0.203,
+        "rating": -0.146,
         "n_events": 17,
         "finish": "Eliminated in Duel Unto Others",
         "finish_label": "Eliminated",
@@ -443,7 +443,7 @@
       {
         "rank": 11,
         "player": "Brooke LaBarbera",
-        "rating": -0.237,
+        "rating": -0.252,
         "n_events": 46,
         "finish": "Eliminated in Duel What You Gotta Duel",
         "finish_label": "Eliminated",
@@ -461,7 +461,7 @@
       {
         "rank": 12,
         "player": "Ruthie Alcaide",
-        "rating": -0.381,
+        "rating": -0.311,
         "n_events": 21,
         "finish": "Eliminated in Duelers on the Verge of a Nervous Breakdown",
         "finish_label": "Eliminated",
@@ -479,8 +479,8 @@
       {
         "rank": 13,
         "player": "Katie Cooley",
-        "rating": -0.505,
-        "n_events": 55,
+        "rating": -0.423,
+        "n_events": 52,
         "finish": "Eliminated in Duel-ality",
         "finish_label": "Eliminated",
         "finish_episode": "Duel-ality",

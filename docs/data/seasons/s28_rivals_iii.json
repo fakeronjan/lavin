@@ -8,8 +8,26 @@
     "M": [
       {
         "rank": 1,
+        "player": "Johnny Bananas",
+        "rating": 0.782,
+        "n_events": 56,
+        "finish": "Winners in Split Decision",
+        "finish_label": "Champion",
+        "finish_episode": "Split Decision",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Sarah Rice",
+        "partners_history": [
+          "Sarah Rice"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 2,
         "player": "Jamie Banks",
-        "rating": 0.892,
+        "rating": 0.746,
         "n_events": 93,
         "finish": "Eliminated in Let Sleeping Dogs Wake",
         "finish_label": "Eliminated",
@@ -28,9 +46,45 @@
         "forced_exit": false
       },
       {
-        "rank": 2,
+        "rank": 3,
+        "player": "Devin Walker",
+        "rating": 0.567,
+        "n_events": 46,
+        "finish": "Third Place in Split Decision",
+        "finish_label": "3rd",
+        "finish_episode": "Split Decision",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Cheyenne Floyd",
+        "partners_history": [
+          "Cheyenne Floyd"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 4,
+        "player": "Vince Gliatta",
+        "rating": 0.565,
+        "n_events": 47,
+        "finish": "Runners-Up in Split Decision",
+        "finish_label": "Runner-up",
+        "finish_episode": "Split Decision",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Jenna Compono",
+        "partners_history": [
+          "Jenna Compono"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
         "player": "Nelson Thomas",
-        "rating": 0.502,
+        "rating": 0.359,
         "n_events": 34,
         "finish": "Eliminated in Camilanator: Salvation",
         "finish_label": "Eliminated",
@@ -49,62 +103,31 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
-        "player": "Devin Walker",
-        "rating": 0.501,
-        "n_events": 46,
-        "finish": "Third Place in Split Decision",
-        "finish_label": "3rd",
-        "finish_episode": "Split Decision",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Cheyenne Floyd",
-        "partners_history": [
-          "Cheyenne Floyd"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
-        "player": "Johnny Bananas",
-        "rating": 0.485,
-        "n_events": 88,
-        "finish": "Winners in Split Decision",
-        "finish_label": "Champion",
-        "finish_episode": "Split Decision",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Sarah Rice",
-        "partners_history": [
-          "Sarah Rice"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
-        "player": "Leroy Garrett",
-        "rating": 0.432,
-        "n_events": 94,
-        "finish": "Medically Disqualified in The Curse of the Black Skull",
-        "finish_label": "Medical DQ",
-        "finish_episode": "The Curse of the Black Skull",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Averey Tressler",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": true
-      },
-      {
         "rank": 6,
+        "player": "Wes Bergmann",
+        "rating": 0.29,
+        "n_events": 54,
+        "finish": "Eliminated in Raging Bullies",
+        "finish_label": "Eliminated",
+        "finish_episode": "Raging Bullies",
+        "elim_position": 6,
+        "elim_total": 7,
+        "eliminated_by": [
+          "Dario Medrano",
+          "Nicole Ramos"
+        ],
+        "partner": "Nany Gonz\u00e1lez",
+        "partners_history": [
+          "Nany Gonz\u00e1lez"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 7,
         "player": "Johnny Reilly",
-        "rating": 0.429,
-        "n_events": 89,
+        "rating": 0.264,
+        "n_events": 37,
         "finish": "Eliminated in Where the Ratchet Things Are",
         "finish_label": "Eliminated",
         "finish_episode": "Where the Ratchet Things Are",
@@ -122,9 +145,9 @@
         "forced_exit": false
       },
       {
-        "rank": 7,
+        "rank": 8,
         "player": "Cory Wharton",
-        "rating": 0.415,
+        "rating": 0.251,
         "n_events": 68,
         "finish": "Eliminated in Rivals: Civil War",
         "finish_label": "Eliminated",
@@ -143,27 +166,9 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "player": "Vince Gliatta",
-        "rating": 0.368,
-        "n_events": 47,
-        "finish": "Runners-Up in Split Decision",
-        "finish_label": "Runner-up",
-        "finish_episode": "Split Decision",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jenna Compono",
-        "partners_history": [
-          "Jenna Compono"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 9,
         "player": "Nate Siebenmark",
-        "rating": 0.192,
+        "rating": 0.212,
         "n_events": 34,
         "finish": "Eliminated in Rivals: Civil War",
         "finish_label": "Eliminated",
@@ -183,47 +188,8 @@
       },
       {
         "rank": 10,
-        "player": "Wes Bergmann",
-        "rating": 0.097,
-        "n_events": 68,
-        "finish": "Eliminated in Raging Bullies",
-        "finish_label": "Eliminated",
-        "finish_episode": "Raging Bullies",
-        "elim_position": 6,
-        "elim_total": 7,
-        "eliminated_by": [
-          "Dario Medrano",
-          "Nicole Ramos"
-        ],
-        "partner": "Nany Gonz\u00e1lez",
-        "partners_history": [
-          "Nany Gonz\u00e1lez"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 11,
-        "player": "Brandon Tindel",
-        "rating": -0.054,
-        "n_events": 31,
-        "finish": "Quit in I'm Going Home",
-        "finish_label": "Quit",
-        "finish_episode": "I'm Going Home",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Briana LaCuesta",
-        "partners_history": [
-          "Briana LaCuesta"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 12,
         "player": "Dario Medrano",
-        "rating": -0.152,
+        "rating": 0.054,
         "n_events": 38,
         "finish": "Eliminated in Grapes. Wrath.",
         "finish_label": "Eliminated",
@@ -242,9 +208,43 @@
         "forced_exit": false
       },
       {
+        "rank": 11,
+        "player": "Leroy Garrett",
+        "rating": -0.044,
+        "n_events": 63,
+        "finish": "Medically Disqualified in The Curse of the Black Skull",
+        "finish_label": "Medical DQ",
+        "finish_episode": "The Curse of the Black Skull",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Averey Tressler",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 12,
+        "player": "Brandon Tindel",
+        "rating": -0.165,
+        "n_events": 31,
+        "finish": "Quit in I'm Going Home",
+        "finish_label": "Quit",
+        "finish_episode": "I'm Going Home",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Briana LaCuesta",
+        "partners_history": [
+          "Briana LaCuesta"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
         "rank": 13,
         "player": "Tony Raines",
-        "rating": -0.171,
+        "rating": -0.181,
         "n_events": 50,
         "finish": "Disqualified in Stand by Me",
         "finish_label": "Disqualified",
@@ -262,8 +262,8 @@
       {
         "rank": 14,
         "player": "Thomas Buell",
-        "rating": -0.402,
-        "n_events": 50,
+        "rating": -0.572,
+        "n_events": 35,
         "finish": "Quit in The Naked Truth",
         "finish_label": "Quit",
         "finish_episode": "The Naked Truth",
@@ -282,8 +282,8 @@
       {
         "rank": 1,
         "player": "Sarah Rice",
-        "rating": 0.718,
-        "n_events": 67,
+        "rating": 0.874,
+        "n_events": 53,
         "finish": "Winners in Split Decision",
         "finish_label": "Champion",
         "finish_episode": "Split Decision",
@@ -299,8 +299,26 @@
       },
       {
         "rank": 2,
+        "player": "Jenna Compono",
+        "rating": 0.545,
+        "n_events": 101,
+        "finish": "Runners-Up in Split Decision",
+        "finish_label": "Runner-up",
+        "finish_episode": "Split Decision",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Vince Gliatta",
+        "partners_history": [
+          "Vince Gliatta"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 3,
         "player": "Cheyenne Floyd",
-        "rating": 0.368,
+        "rating": 0.417,
         "n_events": 46,
         "finish": "Third Place in Split Decision",
         "finish_label": "3rd",
@@ -316,28 +334,31 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
-        "player": "Jenna Compono",
-        "rating": 0.365,
-        "n_events": 115,
-        "finish": "Runners-Up in Split Decision",
-        "finish_label": "Runner-up",
-        "finish_episode": "Split Decision",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Vince Gliatta",
+        "rank": 4,
+        "player": "Jessica McCain",
+        "rating": 0.14,
+        "n_events": 37,
+        "finish": "Eliminated in Where the Ratchet Things Are",
+        "finish_label": "Eliminated",
+        "finish_episode": "Where the Ratchet Things Are",
+        "elim_position": 1,
+        "elim_total": 7,
+        "eliminated_by": [
+          "Amanda Garcia",
+          "Nelson Thomas"
+        ],
+        "partner": "Johnny Reilly",
         "partners_history": [
-          "Vince Gliatta"
+          "Johnny Reilly"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Nany Gonz\u00e1lez",
-        "rating": 0.294,
-        "n_events": 108,
+        "rating": 0.119,
+        "n_events": 77,
         "finish": "Eliminated in Raging Bullies",
         "finish_label": "Eliminated",
         "finish_episode": "Raging Bullies",
@@ -355,9 +376,9 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 6,
         "player": "Amanda Garcia",
-        "rating": 0.213,
+        "rating": 0.098,
         "n_events": 34,
         "finish": "Eliminated in Camilanator: Salvation",
         "finish_label": "Eliminated",
@@ -376,25 +397,9 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Averey Tressler",
-        "rating": 0.157,
-        "n_events": 60,
-        "finish": "Medically Disqualified in The Curse of the Black Skull",
-        "finish_label": "Medical DQ",
-        "finish_episode": "The Curse of the Black Skull",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Leroy Garrett",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": true
-      },
-      {
         "rank": 7,
         "player": "KellyAnne Judd",
-        "rating": 0.142,
+        "rating": 0.066,
         "n_events": 60,
         "finish": "Eliminated in Let Sleeping Dogs Wake",
         "finish_label": "Eliminated",
@@ -414,21 +419,21 @@
       },
       {
         "rank": 8,
-        "player": "Jessica McCain",
-        "rating": 0.138,
-        "n_events": 54,
-        "finish": "Eliminated in Where the Ratchet Things Are",
+        "player": "Nicole Ramos",
+        "rating": -0.019,
+        "n_events": 38,
+        "finish": "Eliminated in Grapes. Wrath.",
         "finish_label": "Eliminated",
-        "finish_episode": "Where the Ratchet Things Are",
-        "elim_position": 1,
+        "finish_episode": "Grapes. Wrath.",
+        "elim_position": 7,
         "elim_total": 7,
         "eliminated_by": [
-          "Amanda Garcia",
-          "Nelson Thomas"
+          "Sarah Rice",
+          "Johnny Bananas"
         ],
-        "partner": "Johnny Reilly",
+        "partner": "Dario Medrano",
         "partners_history": [
-          "Johnny Reilly"
+          "Dario Medrano"
         ],
         "team": "",
         "forced_exit": false
@@ -436,7 +441,7 @@
       {
         "rank": 9,
         "player": "Christina LeBlanc",
-        "rating": -0.107,
+        "rating": -0.057,
         "n_events": 50,
         "finish": "Eliminated in Rivals: Civil War",
         "finish_label": "Eliminated",
@@ -456,29 +461,26 @@
       },
       {
         "rank": 10,
-        "player": "Nicole Ramos",
-        "rating": -0.183,
-        "n_events": 38,
-        "finish": "Eliminated in Grapes. Wrath.",
-        "finish_label": "Eliminated",
-        "finish_episode": "Grapes. Wrath.",
-        "elim_position": 7,
-        "elim_total": 7,
-        "eliminated_by": [
-          "Sarah Rice",
-          "Johnny Bananas"
-        ],
-        "partner": "Dario Medrano",
+        "player": "Camila Nakagawa",
+        "rating": -0.309,
+        "n_events": 40,
+        "finish": "Disqualified in Stand by Me",
+        "finish_label": "Disqualified",
+        "finish_episode": "Stand by Me",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Tony Raines",
         "partners_history": [
-          "Dario Medrano"
+          "Tony Raines"
         ],
         "team": "",
-        "forced_exit": false
+        "forced_exit": true
       },
       {
         "rank": 11,
         "player": "Briana LaCuesta",
-        "rating": -0.2,
+        "rating": -0.311,
         "n_events": 31,
         "finish": "Quit in I'm Going Home",
         "finish_label": "Quit",
@@ -495,44 +497,8 @@
       },
       {
         "rank": 12,
-        "player": "Simone Kelly",
-        "rating": -0.383,
-        "n_events": 38,
-        "finish": "Quit in The Naked Truth",
-        "finish_label": "Quit",
-        "finish_episode": "The Naked Truth",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Thomas Buell",
-        "partners_history": [
-          "Thomas Buell"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 13,
-        "player": "Camila Nakagawa",
-        "rating": -0.398,
-        "n_events": 43,
-        "finish": "Disqualified in Stand by Me",
-        "finish_label": "Disqualified",
-        "finish_episode": "Stand by Me",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Tony Raines",
-        "partners_history": [
-          "Tony Raines"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 14,
         "player": "Ashley Mitchell",
-        "rating": -0.444,
+        "rating": -0.395,
         "n_events": 24,
         "finish": "Eliminated in Rivals: Civil War",
         "finish_label": "Eliminated",
@@ -549,6 +515,40 @@
         ],
         "team": "",
         "forced_exit": false
+      },
+      {
+        "rank": 13,
+        "player": "Averey Tressler",
+        "rating": -0.607,
+        "n_events": 22,
+        "finish": "Medically Disqualified in The Curse of the Black Skull",
+        "finish_label": "Medical DQ",
+        "finish_episode": "The Curse of the Black Skull",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Leroy Garrett",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
+      },
+      {
+        "rank": 14,
+        "player": "Simone Kelly",
+        "rating": -0.607,
+        "n_events": 22,
+        "finish": "Quit in The Naked Truth",
+        "finish_label": "Quit",
+        "finish_episode": "The Naked Truth",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Thomas Buell",
+        "partners_history": [
+          "Thomas Buell"
+        ],
+        "team": "",
+        "forced_exit": true
       }
     ]
   }

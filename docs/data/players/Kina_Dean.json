@@ -3,13 +3,13 @@
   "safe_name": "Kina_Dean",
   "gender": "F",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.763,
-    "peak_season_id": "s13_the_duel",
-    "active_rating": -0.171,
-    "active_season_id": "s18_the_ruins",
+    "era_rating": 0.7,
+    "peak_rating": 0.467,
+    "peak_season_id": "s11_the_gauntlet_2",
+    "active_rating": -0.149,
+    "active_season_id": "s16_the_island",
     "n_seasons": 3,
-    "n_snapshots": 10,
+    "n_snapshots": 7,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Svetlana Shusterman"
       ],
-      "rating_at_end": 0.763,
+      "rating_at_end": 0.275,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.496,
+      "rating_at_end": 0.467,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.448,
+      "rating_at_end": -0.545,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -78,17 +78,17 @@
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.448
+      "rating": -0.545
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.496
+      "rating": 0.467
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.763
+      "rating": 0.275
     }
   ]
 }

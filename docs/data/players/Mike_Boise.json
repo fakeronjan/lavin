@@ -3,13 +3,13 @@
   "safe_name": "Mike_Boise",
   "gender": "M",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.733,
+    "era_rating": 0.9,
+    "peak_rating": 0.87,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.571,
-    "active_season_id": "s31_vendettas",
+    "active_rating": 0.159,
+    "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 1,
-    "n_snapshots": 5,
+    "n_snapshots": 3,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.733,
+      "rating_at_end": 0.87,
       "partner": "Abram Boise",
       "partners_history": [
         "Abram Boise"
@@ -42,7 +42,7 @@
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.733
+      "rating": 0.87
     }
   ]
 }

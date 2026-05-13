@@ -23,9 +23,9 @@ from lavin import compute_ratings, annotate_events, build_snapshot_meta
 HERE = Path(__file__).parent
 DATA = HERE / "data"
 
-WINDOW = 90
+WINDOW = 60
 EOS_ONLY = True
-DECAY = False
+DECAY = True  # 4-season linear-decay window (2026-05-12 tuning, see lavin.py)
 
 # Total scales — committed equal-weight tuning
 TOTAL_SCALES = {

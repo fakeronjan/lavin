@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.666,
-    "peak_season_id": "s14_the_inferno_3",
-    "active_rating": 0.025,
+    "peak_rating": 0.949,
+    "peak_season_id": "s16_the_island",
+    "active_rating": -0.015,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 3,
-    "n_snapshots": 8,
+    "n_snapshots": 7,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -32,7 +32,7 @@
         "Michaela Bradshaw",
         "Cedric Hodges"
       ],
-      "rating_at_end": 0.025,
+      "rating_at_end": -0.015,
       "partner": "Derek Chavez",
       "partners_history": [
         "Derek Chavez",
@@ -56,7 +56,7 @@
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.155,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -74,7 +74,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.454,
+      "rating_at_end": 0.462,
       "partner": "Darrell Taylor",
       "partners_history": [
         "Darrell Taylor"
@@ -87,17 +87,17 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.454
+      "rating": 0.462
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.08
+      "rating": 0.155
     },
     {
       "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.025
+      "rating": -0.015
     }
   ]
 }

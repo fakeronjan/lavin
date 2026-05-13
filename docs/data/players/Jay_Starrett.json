@@ -3,13 +3,13 @@
   "safe_name": "Jay_Starrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.176,
-    "peak_season_id": "s35_total_madness",
-    "active_rating": -0.315,
-    "active_season_id": "s41_vets_and_new_threats",
+    "era_rating": 0.4,
+    "peak_rating": 0.181,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.123,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 3,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.094,
+      "rating_at_end": -0.126,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -50,7 +50,7 @@
         "Horacio Guti\u00e9rrez Jr.",
         "Olivia Kaiser"
       ],
-      "rating_at_end": -0.172,
+      "rating_at_end": -0.057,
       "partner": "Michele Fitzgerald",
       "partners_history": [
         "Michele Fitzgerald"
@@ -72,7 +72,7 @@
       "eliminated_by": [
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.123,
+      "rating_at_end": 0.181,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -94,7 +94,7 @@
       "eliminated_by": [
         "Rogan O'Connor"
       ],
-      "rating_at_end": 0.176,
+      "rating_at_end": 0.169,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -105,22 +105,22 @@
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.176
+      "rating": 0.169
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.123
+      "rating": 0.181
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.172
+      "rating": -0.057
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.094
+      "rating": -0.126
     }
   ]
 }

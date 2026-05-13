@@ -3,13 +3,13 @@
   "safe_name": "Theo_Gantt",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.171,
+    "era_rating": 0.1,
+    "peak_rating": 0.148,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.215,
-    "active_season_id": "s11_the_gauntlet_2",
+    "active_rating": -0.354,
+    "active_season_id": "s09_battle_of_the_sexes_2",
     "n_seasons": 2,
-    "n_snapshots": 6,
+    "n_snapshots": 4,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Cara Zavaleta"
       ],
-      "rating_at_end": -0.175,
+      "rating_at_end": -0.22,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.171,
+      "rating_at_end": 0.148,
       "partner": "Puck Rainey",
       "partners_history": [
         "Puck Rainey"
@@ -62,12 +62,12 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.171
+      "rating": 0.148
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.175
+      "rating": -0.22
     }
   ]
 }

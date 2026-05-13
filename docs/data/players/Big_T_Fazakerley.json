@@ -3,13 +3,13 @@
   "safe_name": "Big_T_Fazakerley",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.272,
-    "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.272,
-    "active_season_id": "s41_vets_and_new_threats",
+    "era_rating": 0.2,
+    "peak_rating": 0.166,
+    "peak_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": 0.104,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 5,
-    "n_snapshots": 8,
+    "n_snapshots": 7,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": 0.089,
+      "rating_at_end": 0.166,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Emy Alupei"
       ],
-      "rating_at_end": -0.161,
+      "rating_at_end": -0.126,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -71,7 +71,7 @@
       "eliminated_by": [
         "Amber Borzotra"
       ],
-      "rating_at_end": -0.029,
+      "rating_at_end": 0.072,
       "partner": "Joseph Allen",
       "partners_history": [
         "Joseph Allen",
@@ -94,7 +94,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.404,
+      "rating_at_end": -0.359,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -114,7 +114,7 @@
       "eliminated_by": [
         "Georgia Harrison"
       ],
-      "rating_at_end": -0.464,
+      "rating_at_end": -0.422,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -125,27 +125,27 @@
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.464
+      "rating": -0.422
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.404
+      "rating": -0.359
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.029
+      "rating": 0.072
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.161
+      "rating": -0.126
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.089
+      "rating": 0.166
     }
   ]
 }

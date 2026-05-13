@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.212,
-    "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.776,
+    "peak_rating": -0.223,
+    "peak_season_id": "s20_cutthroat",
+    "active_rating": -0.906,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
-    "n_snapshots": 13,
+    "n_snapshots": 10,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
@@ -32,7 +32,7 @@
         "Big Easy Banks",
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.249,
+      "rating_at_end": -0.584,
       "partner": "Melinda Collins",
       "partners_history": [
         "Melinda Collins"
@@ -55,7 +55,7 @@
         "Pete Connolly",
         "Jillian Zoboroski"
       ],
-      "rating_at_end": -0.514,
+      "rating_at_end": -0.227,
       "partner": "Sandy Kang",
       "partners_history": [
         "Sandy Kang"
@@ -77,7 +77,7 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": -0.708,
+      "rating_at_end": -0.487,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -97,7 +97,7 @@
       "eliminated_by": [
         "Adam King"
       ],
-      "rating_at_end": -0.783,
+      "rating_at_end": -0.752,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -117,66 +117,38 @@
       "eliminated_by": [
         "Davis Mallory"
       ],
-      "rating_at_end": -0.767,
+      "rating_at_end": -0.832,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
-      "forced_exit": false
-    },
-    {
-      "season_id": "s12_fresh_meat",
-      "season_num": 12,
-      "season_name": "Fresh Meat",
-      "year": 2006,
-      "label": "S12 Fresh Meat (2006)",
-      "finish": "Eliminated in Anxieties Run High",
-      "finish_label": "Eliminated",
-      "finish_episode": "Anxieties Run High",
-      "elim_position": 1,
-      "elim_total": 8,
-      "eliminated_by": [
-        "Wes Bergmann",
-        "Casey Cooper"
-      ],
-      "rating_at_end": -0.212,
-      "partner": "Evelyn Smith",
-      "partners_history": [
-        "Evelyn Smith"
-      ],
-      "team": "",
       "forced_exit": false
     }
   ],
   "timeline": [
     {
-      "ranking_id": 210,
-      "season_id": "s12_fresh_meat",
-      "rating": -0.212
-    },
-    {
       "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.767
+      "rating": -0.832
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.783
+      "rating": -0.752
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": -0.708
+      "rating": -0.487
     },
     {
       "ranking_id": 334,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.514
+      "rating": -0.227
     },
     {
       "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.249
+      "rating": -0.584
     }
   ]
 }

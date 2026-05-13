@@ -3,13 +3,13 @@
   "safe_name": "Katie_Cooley",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.326,
-    "peak_season_id": "s09_battle_of_the_sexes_2",
-    "active_rating": -0.323,
-    "active_season_id": "s41_vets_and_new_threats",
+    "era_rating": 1.1,
+    "peak_rating": 0.47,
+    "peak_season_id": "s08_the_inferno",
+    "active_rating": -0.278,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 10,
-    "n_snapshots": 18,
+    "n_snapshots": 15,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 6,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.264,
+      "rating_at_end": -0.278,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.19,
+      "rating_at_end": -0.221,
       "partner": "",
       "partners_history": [],
       "team": "Blue Team",
@@ -71,7 +71,7 @@
       "eliminated_by": [
         "Sarah Rice"
       ],
-      "rating_at_end": -0.272,
+      "rating_at_end": -0.041,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -91,7 +91,7 @@
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.505,
+      "rating_at_end": -0.423,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -111,7 +111,7 @@
       "eliminated_by": [
         "Paula Meronek"
       ],
-      "rating_at_end": -0.353,
+      "rating_at_end": -0.466,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -132,7 +132,7 @@
         "Tina Barta",
         "Kenny Santucci"
       ],
-      "rating_at_end": -0.13,
+      "rating_at_end": 0.196,
       "partner": "Big Easy Banks",
       "partners_history": [
         "Big Easy Banks"
@@ -152,7 +152,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.016,
+      "rating_at_end": -0.317,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -172,7 +172,7 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": 0.326,
+      "rating_at_end": 0.214,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -190,7 +190,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.324,
+      "rating_at_end": 0.47,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -210,7 +210,7 @@
       "eliminated_by": [
         "Rachel Braband"
       ],
-      "rating_at_end": 0.219,
+      "rating_at_end": 0.203,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -221,52 +221,52 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.219
+      "rating": 0.203
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.324
+      "rating": 0.47
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.326
+      "rating": 0.214
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.016
+      "rating": -0.317
     },
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": -0.13
+      "rating": 0.196
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.353
+      "rating": -0.466
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.505
+      "rating": -0.423
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": -0.272
+      "rating": -0.041
     },
     {
       "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.19
+      "rating": -0.221
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.264
+      "rating": -0.278
     }
   ]
 }

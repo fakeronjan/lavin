@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.28,
-    "peak_season_id": "s31_vendettas",
-    "active_rating": 0.28,
-    "active_season_id": "s31_vendettas",
+    "peak_rating": 0.179,
+    "peak_season_id": "s29_invasion_of_the_champions",
+    "active_rating": 0.179,
+    "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 4,
-    "n_snapshots": 8,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -32,7 +32,7 @@
         "Amanda Garcia",
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.138,
+      "rating_at_end": 0.14,
       "partner": "Johnny Reilly",
       "partners_history": [
         "Johnny Reilly"
@@ -55,7 +55,7 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.392,
+      "rating_at_end": -0.346,
       "partner": "Dustin Zito",
       "partners_history": [
         "Dustin Zito"
@@ -77,7 +77,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.469,
+      "rating_at_end": -0.303,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -98,7 +98,7 @@
         "Cara Maria Sorbello",
         "Heather Cooke"
       ],
-      "rating_at_end": -0.435,
+      "rating_at_end": -0.342,
       "partner": "Anastasia Miller",
       "partners_history": [
         "Anastasia Miller"
@@ -111,22 +111,22 @@
     {
       "ranking_id": 501,
       "season_id": "s24_rivals_ii",
-      "rating": -0.435
+      "rating": -0.342
     },
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.469
+      "rating": -0.303
     },
     {
       "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.392
+      "rating": -0.346
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.138
+      "rating": 0.14
     }
   ]
 }

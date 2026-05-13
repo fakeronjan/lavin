@@ -3,13 +3,13 @@
   "safe_name": "Susie_Meister",
   "gender": "F",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.952,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.912,
-    "active_season_id": "s21_rivals",
+    "era_rating": 1.8,
+    "peak_rating": 1.037,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": 0.991,
+    "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
-    "n_snapshots": 11,
+    "n_snapshots": 8,
     "championships": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 7,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.723,
+      "rating_at_end": 1.037,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.139,
+      "rating_at_end": 0.291,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -65,7 +65,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.556,
+      "rating_at_end": 0.431,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -76,17 +76,17 @@
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.556
+      "rating": 0.431
     },
     {
       "ranking_id": 242,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.139
+      "rating": 0.291
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": 0.723
+      "rating": 1.037
     }
   ]
 }

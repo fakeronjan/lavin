@@ -3,13 +3,13 @@
   "safe_name": "Tony_Raines",
   "gender": "M",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.364,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.163,
+    "era_rating": 1.1,
+    "peak_rating": 0.7,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": -0.498,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
-    "n_snapshots": 11,
+    "n_snapshots": 10,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 3,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.192,
+      "rating_at_end": 0.191,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -52,7 +52,7 @@
         "Paulie Calafiore",
         "Natalie Negrotti"
       ],
-      "rating_at_end": 0.364,
+      "rating_at_end": -0.072,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -72,7 +72,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.316,
+      "rating_at_end": 0.7,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -92,7 +92,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.15,
+      "rating_at_end": 0.131,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -110,7 +110,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.455,
+      "rating_at_end": -0.302,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -128,7 +128,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.171,
+      "rating_at_end": -0.181,
       "partner": "Camila Nakagawa",
       "partners_history": [
         "Camila Nakagawa"
@@ -148,7 +148,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.041,
+      "rating_at_end": 0.128,
       "partner": "Shane Raines",
       "partners_history": [],
       "team": "",
@@ -159,37 +159,37 @@
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.041
+      "rating": 0.128
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": -0.171
+      "rating": -0.181
     },
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.455
+      "rating": -0.302
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.15
+      "rating": 0.131
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.316
+      "rating": 0.7
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.364
+      "rating": -0.072
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.192
+      "rating": 0.191
     }
   ]
 }

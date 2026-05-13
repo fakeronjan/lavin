@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.245,
-    "peak_season_id": "s13_the_duel",
-    "active_rating": -0.245,
-    "active_season_id": "s13_the_duel",
+    "peak_rating": -0.445,
+    "peak_season_id": "s06_battle_of_the_sexes",
+    "active_rating": -0.72,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 9,
+    "n_snapshots": 5,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.559,
+      "rating_at_end": -0.72,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.458,
+      "rating_at_end": -0.445,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -70,7 +70,7 @@
         "Holly Brentson",
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": -0.464,
+      "rating_at_end": -0.449,
       "partner": "Adam Larson",
       "partners_history": [
         "Adam Larson"
@@ -83,17 +83,17 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.464
+      "rating": -0.449
     },
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.458
+      "rating": -0.445
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.559
+      "rating": -0.72
     }
   ]
 }

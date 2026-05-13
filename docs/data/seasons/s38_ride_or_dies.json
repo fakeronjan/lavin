@@ -8,8 +8,26 @@
     "M": [
       {
         "rank": 1,
+        "player": "Devin Walker",
+        "rating": 0.953,
+        "n_events": 85,
+        "finish": "Winners <small>in The End of the Ride",
+        "finish_label": "Champion",
+        "finish_episode": "The End of the Ride",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Tori Deal",
+        "partners_history": [
+          "Tori Deal"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 2,
         "player": "Johnny Bananas",
-        "rating": 0.558,
+        "rating": 0.802,
         "n_events": 62,
         "finish": "Runners-Up <small>in The End of the Ride",
         "finish_label": "Runner-up",
@@ -25,27 +43,9 @@
         "forced_exit": false
       },
       {
-        "rank": 2,
-        "player": "Devin Walker",
-        "rating": 0.553,
-        "n_events": 108,
-        "finish": "Winners <small>in The End of the Ride",
-        "finish_label": "Champion",
-        "finish_episode": "The End of the Ride",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Tori Deal",
-        "partners_history": [
-          "Tori Deal"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
         "rank": 3,
         "player": "Horacio Guti\u00e9rrez Jr.",
-        "rating": 0.435,
+        "rating": 0.572,
         "n_events": 78,
         "finish": "Fourth Place <small>in Riders on the Storm",
         "finish_label": "4th",
@@ -63,7 +63,7 @@
       {
         "rank": 4,
         "player": "Jordan Wiseley",
-        "rating": 0.276,
+        "rating": 0.501,
         "n_events": 53,
         "finish": "Third Place <small>in The End of the Ride",
         "finish_label": "3rd",
@@ -81,8 +81,8 @@
       {
         "rank": 5,
         "player": "Faysal Shafaat",
-        "rating": 0.18,
-        "n_events": 105,
+        "rating": 0.314,
+        "n_events": 52,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -102,7 +102,7 @@
       {
         "rank": 6,
         "player": "Chauncey Palmer",
-        "rating": 0.007,
+        "rating": 0.188,
         "n_events": 49,
         "finish": "",
         "finish_label": "",
@@ -122,49 +122,8 @@
       },
       {
         "rank": 7,
-        "player": "Nelson Thomas",
-        "rating": -0.042,
-        "n_events": 79,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 10,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Faysal Shafaat"
-        ],
-        "partner": "Nurys Mateo",
-        "partners_history": [
-          "Nurys Mateo"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
-        "player": "Sam Bird",
-        "rating": -0.072,
-        "n_events": 22,
-        "finish": "Eliminated in Don't Die for Me, Argentina",
-        "finish_label": "Eliminated",
-        "finish_episode": "Don't Die for Me, Argentina",
-        "elim_position": 1,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Devin Walker",
-          "Tori Deal"
-        ],
-        "partner": "Kailah Casillas-Bird",
-        "partners_history": [
-          "Kailah Casillas-Bird"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
         "player": "Jakk Maddox",
-        "rating": -0.083,
+        "rating": -0.033,
         "n_events": 29,
         "finish": "",
         "finish_label": "",
@@ -183,9 +142,50 @@
         "forced_exit": false
       },
       {
+        "rank": 8,
+        "player": "Jay Starrett",
+        "rating": -0.057,
+        "n_events": 43,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 8,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Horacio Guti\u00e9rrez Jr.",
+          "Olivia Kaiser"
+        ],
+        "partner": "Michele Fitzgerald",
+        "partners_history": [
+          "Michele Fitzgerald"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
+        "player": "Nelson Thomas",
+        "rating": -0.106,
+        "n_events": 56,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 10,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Faysal Shafaat"
+        ],
+        "partner": "Nurys Mateo",
+        "partners_history": [
+          "Nurys Mateo"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 10,
         "player": "Tommy Bracco",
-        "rating": -0.092,
+        "rating": -0.138,
         "n_events": 38,
         "finish": "Eliminated in O'liv'n on the Edge",
         "finish_label": "Eliminated",
@@ -205,71 +205,8 @@
       },
       {
         "rank": 11,
-        "player": "Kim Tr\u00e4nka",
-        "rating": -0.115,
-        "n_events": 31,
-        "finish": "Eliminated in Get Rich or Ride or Die Tryin'",
-        "finish_label": "Eliminated",
-        "finish_episode": "Get Rich or Ride or Die Tryin'",
-        "elim_position": 5,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Jakk Maddox",
-          "Laurel Stucky"
-        ],
-        "partner": "Colleen Schneider",
-        "partners_history": [
-          "Colleen Schneider"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
-        "player": "Turbo \u00c7amk\u0131ran",
-        "rating": -0.153,
-        "n_events": 23,
-        "finish": "Eliminated in Friend or Faux",
-        "finish_label": "Eliminated",
-        "finish_episode": "Friend or Faux",
-        "elim_position": 2,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Horacio Guti\u00e9rrez Jr.",
-          "Olivia Kaiser"
-        ],
-        "partner": "Tamara Alfaro",
-        "partners_history": [
-          "Tamara Alfaro"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
-        "player": "Jay Starrett",
-        "rating": -0.172,
-        "n_events": 47,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 8,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Horacio Guti\u00e9rrez Jr.",
-          "Olivia Kaiser"
-        ],
-        "partner": "Michele Fitzgerald",
-        "partners_history": [
-          "Michele Fitzgerald"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 14,
         "player": "Johnny Middlebrooks",
-        "rating": -0.197,
+        "rating": -0.154,
         "n_events": 24,
         "finish": "Eliminated in A Bumpy Ride",
         "finish_label": "Eliminated",
@@ -288,10 +225,73 @@
         "forced_exit": false
       },
       {
+        "rank": 12,
+        "player": "Sam Bird",
+        "rating": -0.169,
+        "n_events": 22,
+        "finish": "Eliminated in Don't Die for Me, Argentina",
+        "finish_label": "Eliminated",
+        "finish_episode": "Don't Die for Me, Argentina",
+        "elim_position": 1,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Devin Walker",
+          "Tori Deal"
+        ],
+        "partner": "Kailah Casillas-Bird",
+        "partners_history": [
+          "Kailah Casillas-Bird"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
+        "player": "Turbo \u00c7amk\u0131ran",
+        "rating": -0.174,
+        "n_events": 23,
+        "finish": "Eliminated in Friend or Faux",
+        "finish_label": "Eliminated",
+        "finish_episode": "Friend or Faux",
+        "elim_position": 2,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Horacio Guti\u00e9rrez Jr.",
+          "Olivia Kaiser"
+        ],
+        "partner": "Tamara Alfaro",
+        "partners_history": [
+          "Tamara Alfaro"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
+        "player": "Kim Tr\u00e4nka",
+        "rating": -0.221,
+        "n_events": 31,
+        "finish": "Eliminated in Get Rich or Ride or Die Tryin'",
+        "finish_label": "Eliminated",
+        "finish_episode": "Get Rich or Ride or Die Tryin'",
+        "elim_position": 5,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Jakk Maddox",
+          "Laurel Stucky"
+        ],
+        "partner": "Colleen Schneider",
+        "partners_history": [
+          "Colleen Schneider"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 15,
         "player": "Darrell Taylor",
-        "rating": -0.425,
-        "n_events": 34,
+        "rating": -0.263,
+        "n_events": 30,
         "finish": "",
         "finish_label": "",
         "finish_episode": "",
@@ -310,24 +310,8 @@
       },
       {
         "rank": 16,
-        "player": "Nam Vo",
-        "rating": -0.66,
-        "n_events": 65,
-        "finish": "Quit in Friend or Faux",
-        "finish_label": "Quit",
-        "finish_episode": "Friend or Faux",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Emmy Russ",
-        "partners_history": [],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 17,
         "player": "Kenny Clark",
-        "rating": -0.695,
+        "rating": -0.44,
         "n_events": 24,
         "finish": "",
         "finish_label": "",
@@ -344,14 +328,30 @@
         ],
         "team": "",
         "forced_exit": false
+      },
+      {
+        "rank": 17,
+        "player": "Nam Vo",
+        "rating": -0.448,
+        "n_events": 40,
+        "finish": "Quit in Friend or Faux",
+        "finish_label": "Quit",
+        "finish_episode": "Friend or Faux",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Emmy Russ",
+        "partners_history": [],
+        "team": "",
+        "forced_exit": true
       }
     ],
     "F": [
       {
         "rank": 1,
         "player": "Tori Deal",
-        "rating": 0.679,
-        "n_events": 94,
+        "rating": 1.022,
+        "n_events": 69,
         "finish": "Winners <small>in The End of the Ride",
         "finish_label": "Champion",
         "finish_episode": "The End of the Ride",
@@ -367,30 +367,9 @@
       },
       {
         "rank": 2,
-        "player": "Amber Borzotra",
-        "rating": 0.535,
-        "n_events": 113,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 12,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Aneesa Ferreira",
-          "Jordan Wiseley"
-        ],
-        "partner": "Chauncey Palmer",
-        "partners_history": [
-          "Chauncey Palmer"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 3,
         "player": "Nany Gonz\u00e1lez",
-        "rating": 0.497,
-        "n_events": 119,
+        "rating": 0.893,
+        "n_events": 82,
         "finish": "Runners-Up <small>in The End of the Ride",
         "finish_label": "Runner-up",
         "finish_episode": "The End of the Ride",
@@ -405,9 +384,27 @@
         "forced_exit": false
       },
       {
+        "rank": 3,
+        "player": "Aneesa Ferreira",
+        "rating": 0.665,
+        "n_events": 58,
+        "finish": "Third Place <small>in The End of the Ride",
+        "finish_label": "3rd",
+        "finish_episode": "The End of the Ride",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Jordan Wiseley",
+        "partners_history": [
+          "Jordan Wiseley"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 4,
         "player": "Olivia Kaiser",
-        "rating": 0.45,
+        "rating": 0.538,
         "n_events": 60,
         "finish": "Fourth Place <small>in Riders on the Storm",
         "finish_label": "4th",
@@ -424,68 +421,8 @@
       },
       {
         "rank": 5,
-        "player": "Kaycee Clark",
-        "rating": 0.356,
-        "n_events": 83,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 11,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Aneesa Ferreira",
-          "Jordan Wiseley"
-        ],
-        "partner": "Kenny Clark",
-        "partners_history": [
-          "Kenny Clark"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 6,
-        "player": "Aneesa Ferreira",
-        "rating": 0.327,
-        "n_events": 95,
-        "finish": "Third Place <small>in The End of the Ride",
-        "finish_label": "3rd",
-        "finish_episode": "The End of the Ride",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jordan Wiseley",
-        "partners_history": [
-          "Jordan Wiseley"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
-        "player": "Michele Fitzgerald",
-        "rating": 0.182,
-        "n_events": 86,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 8,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Olivia Kaiser",
-          "Horacio Guti\u00e9rrez Jr."
-        ],
-        "partner": "Jay Starrett",
-        "partners_history": [
-          "Jay Starrett"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
         "player": "Moriah Jade",
-        "rating": 0.128,
+        "rating": 0.433,
         "n_events": 44,
         "finish": "",
         "finish_label": "",
@@ -504,51 +441,50 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
-        "player": "Kailah Casillas-Bird",
-        "rating": 0.031,
-        "n_events": 22,
-        "finish": "Eliminated in Don't Die for Me, Argentina",
-        "finish_label": "Eliminated",
-        "finish_episode": "Don't Die for Me, Argentina",
-        "elim_position": 1,
+        "rank": 6,
+        "player": "Amber Borzotra",
+        "rating": 0.363,
+        "n_events": 51,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 12,
         "elim_total": 12,
         "eliminated_by": [
-          "Tori Deal",
-          "Devin Walker"
+          "Aneesa Ferreira",
+          "Jordan Wiseley"
         ],
-        "partner": "Sam Bird",
+        "partner": "Chauncey Palmer",
         "partners_history": [
-          "Sam Bird"
+          "Chauncey Palmer"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Analyse Talavera",
-        "rating": 0.025,
+        "rank": 7,
+        "player": "Nurys Mateo",
+        "rating": 0.087,
         "n_events": 38,
-        "finish": "Eliminated in O'liv'n on the Edge",
-        "finish_label": "Eliminated",
-        "finish_episode": "O'liv'n on the Edge",
-        "elim_position": 4,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 9,
         "elim_total": 12,
         "eliminated_by": [
-          "Colleen Schneider",
-          "Kim Tr\u00e4nka"
+          "Amber Borzotra"
         ],
-        "partner": "Tommy Bracco",
+        "partner": "Nelson Thomas",
         "partners_history": [
-          "Tommy Bracco"
+          "Nelson Thomas"
         ],
         "team": "",
         "forced_exit": false
       },
       {
-        "rank": 11,
+        "rank": 8,
         "player": "Laurel Stucky",
-        "rating": 0.008,
+        "rating": 0.068,
         "n_events": 29,
         "finish": "",
         "finish_label": "",
@@ -567,42 +503,106 @@
         "forced_exit": false
       },
       {
-        "rank": 12,
-        "player": "Colleen Schneider",
+        "rank": 9,
+        "player": "Michele Fitzgerald",
         "rating": -0.013,
-        "n_events": 31,
-        "finish": "Eliminated in Get Rich or Ride or Die Tryin'",
-        "finish_label": "Eliminated",
-        "finish_episode": "Get Rich or Ride or Die Tryin'",
-        "elim_position": 5,
+        "n_events": 47,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 8,
         "elim_total": 12,
         "eliminated_by": [
-          "Laurel Stucky",
-          "Jakk Maddox"
+          "Olivia Kaiser",
+          "Horacio Guti\u00e9rrez Jr."
         ],
-        "partner": "Kim Tr\u00e4nka",
+        "partner": "Jay Starrett",
         "partners_history": [
+          "Jay Starrett"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 10,
+        "player": "Kaycee Clark",
+        "rating": -0.02,
+        "n_events": 46,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": 11,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Aneesa Ferreira",
+          "Jordan Wiseley"
+        ],
+        "partner": "Kenny Clark",
+        "partners_history": [
+          "Kenny Clark"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 11,
+        "player": "Analyse Talavera",
+        "rating": -0.034,
+        "n_events": 38,
+        "finish": "Eliminated in O'liv'n on the Edge",
+        "finish_label": "Eliminated",
+        "finish_episode": "O'liv'n on the Edge",
+        "elim_position": 4,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Colleen Schneider",
           "Kim Tr\u00e4nka"
+        ],
+        "partner": "Tommy Bracco",
+        "partners_history": [
+          "Tommy Bracco"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 12,
+        "player": "Kailah Casillas-Bird",
+        "rating": -0.093,
+        "n_events": 22,
+        "finish": "Eliminated in Don't Die for Me, Argentina",
+        "finish_label": "Eliminated",
+        "finish_episode": "Don't Die for Me, Argentina",
+        "elim_position": 1,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Tori Deal",
+          "Devin Walker"
+        ],
+        "partner": "Sam Bird",
+        "partners_history": [
+          "Sam Bird"
         ],
         "team": "",
         "forced_exit": false
       },
       {
         "rank": 13,
-        "player": "Nurys Mateo",
-        "rating": -0.042,
-        "n_events": 38,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
-        "elim_position": 9,
+        "player": "Ravyn Rochelle",
+        "rating": -0.101,
+        "n_events": 24,
+        "finish": "Eliminated in A Bumpy Ride",
+        "finish_label": "Eliminated",
+        "finish_episode": "A Bumpy Ride",
+        "elim_position": 3,
         "elim_total": 12,
         "eliminated_by": [
-          "Amber Borzotra"
+          "Olivia Kaiser",
+          "Horacio Guti\u00e9rrez Jr."
         ],
-        "partner": "Nelson Thomas",
+        "partner": "Johnny Middlebrooks",
         "partners_history": [
-          "Nelson Thomas"
+          "Johnny Middlebrooks"
         ],
         "team": "",
         "forced_exit": false
@@ -610,7 +610,7 @@
       {
         "rank": 14,
         "player": "Tamara Alfaro",
-        "rating": -0.077,
+        "rating": -0.113,
         "n_events": 23,
         "finish": "Eliminated in Friend or Faux",
         "finish_label": "Eliminated",
@@ -630,29 +630,8 @@
       },
       {
         "rank": 15,
-        "player": "Ravyn Rochelle",
-        "rating": -0.119,
-        "n_events": 24,
-        "finish": "Eliminated in A Bumpy Ride",
-        "finish_label": "Eliminated",
-        "finish_episode": "A Bumpy Ride",
-        "elim_position": 3,
-        "elim_total": 12,
-        "eliminated_by": [
-          "Olivia Kaiser",
-          "Horacio Guti\u00e9rrez Jr."
-        ],
-        "partner": "Johnny Middlebrooks",
-        "partners_history": [
-          "Johnny Middlebrooks"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 16,
         "player": "Veronica Portillo",
-        "rating": -0.197,
+        "rating": -0.154,
         "n_events": 30,
         "finish": "",
         "finish_label": "",
@@ -671,9 +650,30 @@
         "forced_exit": false
       },
       {
+        "rank": 16,
+        "player": "Colleen Schneider",
+        "rating": -0.167,
+        "n_events": 31,
+        "finish": "Eliminated in Get Rich or Ride or Die Tryin'",
+        "finish_label": "Eliminated",
+        "finish_episode": "Get Rich or Ride or Die Tryin'",
+        "elim_position": 5,
+        "elim_total": 12,
+        "eliminated_by": [
+          "Laurel Stucky",
+          "Jakk Maddox"
+        ],
+        "partner": "Kim Tr\u00e4nka",
+        "partners_history": [
+          "Kim Tr\u00e4nka"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 17,
         "player": "Emmy Russ",
-        "rating": -0.677,
+        "rating": -0.418,
         "n_events": 28,
         "finish": "Quit in Friend or Faux",
         "finish_label": "Quit",

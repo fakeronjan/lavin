@@ -3,13 +3,13 @@
   "safe_name": "KellyAnne_Judd",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.542,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.5,
+    "era_rating": 0.8,
+    "peak_rating": 0.521,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.312,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
-    "n_snapshots": 13,
+    "n_snapshots": 11,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.472,
+      "rating_at_end": -0.343,
       "partner": "",
       "partners_history": [],
       "team": "Era II",
@@ -52,7 +52,7 @@
         "Nany Gonz\u00e1lez",
         "Wes Bergmann"
       ],
-      "rating_at_end": 0.142,
+      "rating_at_end": 0.066,
       "partner": "Jamie Banks",
       "partners_history": [
         "Jamie Banks"
@@ -72,7 +72,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.106,
+      "rating_at_end": 0.18,
       "partner": "Anthony Cuomo",
       "partners_history": [
         "Anthony Cuomo"
@@ -92,7 +92,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.254,
+      "rating_at_end": 0.521,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -110,7 +110,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.929,
+      "rating_at_end": -0.808,
       "partner": "Robin Hibbard",
       "partners_history": [
         "Robin Hibbard"
@@ -123,27 +123,27 @@
     {
       "ranking_id": 263,
       "season_id": "s16_the_island",
-      "rating": -0.929
+      "rating": -0.808
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": 0.254
+      "rating": 0.521
     },
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.106
+      "rating": 0.18
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.142
+      "rating": 0.066
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.472
+      "rating": -0.343
     }
   ]
 }

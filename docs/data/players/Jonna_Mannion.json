@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.012,
-    "peak_season_id": "s21_rivals",
-    "active_rating": -0.182,
+    "peak_rating": -0.004,
+    "peak_season_id": "s23_battle_of_the_seasons_2012",
+    "active_rating": -0.162,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
-    "n_snapshots": 11,
+    "n_snapshots": 10,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -32,7 +32,7 @@
         "Aviv Melmed",
         "Yeremi Hykel"
       ],
-      "rating_at_end": -0.182,
+      "rating_at_end": -0.162,
       "partner": "",
       "partners_history": [],
       "team": "Vets",
@@ -52,7 +52,7 @@
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.486,
+      "rating_at_end": -0.338,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -73,7 +73,7 @@
         "Sarah Rice",
         "Jordan Wiseley"
       ],
-      "rating_at_end": -0.379,
+      "rating_at_end": -0.285,
       "partner": "Zach Nichols",
       "partners_history": [
         "Zach Nichols"
@@ -95,7 +95,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.309,
+      "rating_at_end": -0.153,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -116,7 +116,7 @@
         "Cara Maria Sorbello",
         "Heather Cooke"
       ],
-      "rating_at_end": -0.421,
+      "rating_at_end": -0.353,
       "partner": "Nany Gonz\u00e1lez",
       "partners_history": [
         "Nany Gonz\u00e1lez"
@@ -139,7 +139,7 @@
         "Ashley Kelsey",
         "Frank Fox"
       ],
-      "rating_at_end": -0.546,
+      "rating_at_end": -0.004,
       "partner": "Derek Chavez",
       "partners_history": [
         "Derek Chavez"
@@ -162,7 +162,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.012,
+      "rating_at_end": -0.137,
       "partner": "Jasmine Reynaud",
       "partners_history": [
         "Jasmine Reynaud"
@@ -175,37 +175,37 @@
     {
       "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": -0.012
+      "rating": -0.137
     },
     {
       "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.546
+      "rating": -0.004
     },
     {
       "ranking_id": 501,
       "season_id": "s24_rivals_ii",
-      "rating": -0.421
+      "rating": -0.353
     },
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": -0.309
+      "rating": -0.153
     },
     {
       "ranking_id": 563,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.379
+      "rating": -0.285
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.486
+      "rating": -0.338
     },
     {
       "ranking_id": 983,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.182
+      "rating": -0.162
     }
   ]
 }

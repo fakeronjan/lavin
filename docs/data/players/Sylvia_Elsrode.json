@@ -3,13 +3,13 @@
   "safe_name": "Sylvia_Elsrode",
   "gender": "F",
   "career": {
-    "era_rating": 1.6,
-    "peak_rating": 0.818,
-    "peak_season_id": "s36_double_agents",
-    "active_rating": 0.818,
-    "active_season_id": "s36_double_agents",
+    "era_rating": 1.5,
+    "peak_rating": 0.876,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": 0.832,
+    "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 3,
-    "n_snapshots": 8,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.81,
+      "rating_at_end": 0.876,
       "partner": "Joss Mooney",
       "partners_history": [
         "Joss Mooney"
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.388,
+      "rating_at_end": 0.15,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -69,7 +69,7 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": 0.384,
+      "rating_at_end": 0.454,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -80,17 +80,17 @@
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.384
+      "rating": 0.454
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.388
+      "rating": 0.15
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.81
+      "rating": 0.876
     }
   ]
 }

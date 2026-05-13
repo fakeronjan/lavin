@@ -3,13 +3,13 @@
   "safe_name": "Kayleigh_Morris",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.279,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.448,
-    "active_season_id": "s37_spies_lies_allies",
+    "era_rating": 0.2,
+    "peak_rating": 0.153,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": -0.471,
+    "active_season_id": "s36_double_agents",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.361,
+      "rating_at_end": -0.374,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -50,7 +50,7 @@
         "Sylvia Elsrode",
         "Joss Mooney"
       ],
-      "rating_at_end": 0.279,
+      "rating_at_end": -0.0,
       "partner": "Kam Williams",
       "partners_history": [
         "Kailah Casillas-Bird",
@@ -71,7 +71,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.152,
+      "rating_at_end": 0.153,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -82,17 +82,17 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.152
+      "rating": 0.153
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.279
+      "rating": -0.0
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.361
+      "rating": -0.374
     }
   ]
 }

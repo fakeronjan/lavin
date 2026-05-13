@@ -3,13 +3,13 @@
   "safe_name": "Melissa_Reeves",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.405,
-    "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.405,
-    "active_season_id": "s41_vets_and_new_threats",
+    "era_rating": 0.7,
+    "peak_rating": 0.428,
+    "peak_season_id": "s35_total_madness",
+    "active_rating": 0.272,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.246,
+      "rating_at_end": 0.281,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.278,
+      "rating_at_end": 0.428,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -65,7 +65,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.377,
+      "rating_at_end": -0.423,
       "partner": "Kam Williams",
       "partners_history": [
         "Kam Williams"
@@ -87,7 +87,7 @@
       "eliminated_by": [
         "Sylvia Elsrode"
       ],
-      "rating_at_end": -0.309,
+      "rating_at_end": -0.327,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -98,22 +98,22 @@
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": -0.309
+      "rating": -0.327
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": -0.377
+      "rating": -0.423
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": 0.278
+      "rating": 0.428
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.246
+      "rating": 0.281
     }
   ]
 }

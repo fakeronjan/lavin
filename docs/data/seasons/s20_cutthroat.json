@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Tyler Duckworth",
-        "rating": 0.81,
+        "rating": 0.798,
         "n_events": 34,
         "finish": "Winners in Czechmate",
         "finish_label": "Champion",
@@ -24,9 +24,9 @@
       },
       {
         "rank": 2,
-        "player": "Brad Fiorenza",
-        "rating": 0.527,
-        "n_events": 91,
+        "player": "Dunbar Merrill",
+        "rating": 0.67,
+        "n_events": 46,
         "finish": "Winners in Czechmate",
         "finish_label": "Champion",
         "finish_episode": "Czechmate",
@@ -40,27 +40,41 @@
       },
       {
         "rank": 3,
-        "player": "Johnny Bananas",
-        "rating": 0.432,
-        "n_events": 84,
-        "finish": "Eliminated in Always a Bridesmaid...",
-        "finish_label": "Eliminated",
-        "finish_episode": "Always a Bridesmaid...",
-        "elim_position": 8,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Tyler Duckworth"
-        ],
+        "player": "Brad Fiorenza",
+        "rating": 0.629,
+        "n_events": 37,
+        "finish": "Winners in Czechmate",
+        "finish_label": "Champion",
+        "finish_episode": "Czechmate",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
         "partner": "",
         "partners_history": [],
-        "team": "Blue Team",
+        "team": "Red Team",
         "forced_exit": false
       },
       {
         "rank": 4,
+        "player": "Luke Wolfe",
+        "rating": 0.24,
+        "n_events": 72,
+        "finish": "Runners-Up in Czechmate",
+        "finish_label": "Runner-up",
+        "finish_episode": "Czechmate",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "Grey Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
         "player": "Derrick Kosinski",
-        "rating": 0.402,
-        "n_events": 88,
+        "rating": 0.182,
+        "n_events": 58,
         "finish": "Eliminated in Czechmate",
         "finish_label": "Eliminated",
         "finish_episode": "Czechmate",
@@ -75,41 +89,9 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
-        "player": "Luke Wolfe",
-        "rating": 0.162,
-        "n_events": 72,
-        "finish": "Runners-Up in Czechmate",
-        "finish_label": "Runner-up",
-        "finish_episode": "Czechmate",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Grey Team",
-        "forced_exit": false
-      },
-      {
         "rank": 6,
-        "player": "Dunbar Merrill",
-        "rating": 0.152,
-        "n_events": 81,
-        "finish": "Winners in Czechmate",
-        "finish_label": "Champion",
-        "finish_episode": "Czechmate",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Red Team",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
         "player": "Brandon Nelson",
-        "rating": 0.112,
+        "rating": 0.154,
         "n_events": 86,
         "finish": "Eliminated in Where the Red Team Blows",
         "finish_label": "Eliminated",
@@ -125,9 +107,9 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
+        "rank": 7,
         "player": "Abram Boise",
-        "rating": -0.025,
+        "rating": 0.094,
         "n_events": 28,
         "finish": "Runners-Up in Czechmate",
         "finish_label": "Runner-up",
@@ -141,10 +123,10 @@
         "forced_exit": false
       },
       {
-        "rank": 9,
+        "rank": 8,
         "player": "Big Easy Banks",
-        "rating": -0.09,
-        "n_events": 59,
+        "rating": 0.071,
+        "n_events": 35,
         "finish": "Eliminated in Swat the Hell?",
         "finish_label": "Eliminated",
         "finish_episode": "Swat the Hell?",
@@ -159,17 +141,35 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Vinny Foti",
-        "rating": -0.272,
-        "n_events": 44,
-        "finish": "Eliminated in Karma's a Bitch",
+        "rank": 9,
+        "player": "Johnny Bananas",
+        "rating": -0.083,
+        "n_events": 54,
+        "finish": "Eliminated in Always a Bridesmaid...",
         "finish_label": "Eliminated",
-        "finish_episode": "Karma's a Bitch",
-        "elim_position": 3,
+        "finish_episode": "Always a Bridesmaid...",
+        "elim_position": 8,
         "elim_total": 9,
         "eliminated_by": [
-          "Big Easy Banks"
+          "Tyler Duckworth"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Blue Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 10,
+        "player": "Dan Walsh",
+        "rating": -0.248,
+        "n_events": 25,
+        "finish": "Eliminated in Hell Hath No Fury",
+        "finish_label": "Eliminated",
+        "finish_episode": "Hell Hath No Fury",
+        "elim_position": 7,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Dunbar Merrill"
         ],
         "partner": "",
         "partners_history": [],
@@ -179,7 +179,7 @@
       {
         "rank": 11,
         "player": "Derek Chavez",
-        "rating": -0.297,
+        "rating": -0.249,
         "n_events": 21,
         "finish": "Eliminated in Czech Yourself Before You Wreck Yourself",
         "finish_label": "Eliminated",
@@ -197,7 +197,7 @@
       {
         "rank": 12,
         "player": "JD Ordo\u00f1ez",
-        "rating": -0.332,
+        "rating": -0.272,
         "n_events": 22,
         "finish": "Eliminated in Newbie Doobie Doo",
         "finish_label": "Eliminated",
@@ -214,8 +214,26 @@
       },
       {
         "rank": 13,
+        "player": "Vinny Foti",
+        "rating": -0.273,
+        "n_events": 44,
+        "finish": "Eliminated in Karma's a Bitch",
+        "finish_label": "Eliminated",
+        "finish_episode": "Karma's a Bitch",
+        "elim_position": 3,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Big Easy Banks"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Grey Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Ty Ruff",
-        "rating": -0.427,
+        "rating": -0.337,
         "n_events": 24,
         "finish": "Disqualified in Couching Tyger, Hidden Danimal",
         "finish_label": "Disqualified",
@@ -231,28 +249,10 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
-        "player": "Dan Walsh",
-        "rating": -0.467,
-        "n_events": 25,
-        "finish": "Eliminated in Hell Hath No Fury",
-        "finish_label": "Eliminated",
-        "finish_episode": "Hell Hath No Fury",
-        "elim_position": 7,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Dunbar Merrill"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Grey Team",
-        "forced_exit": false
-      },
-      {
         "rank": 15,
         "player": "Chet Cannon",
-        "rating": -0.799,
-        "n_events": 27,
+        "rating": -0.661,
+        "n_events": 24,
         "finish": "Medically Disqualified in Where the Red Team Blows",
         "finish_label": "Medical DQ",
         "finish_episode": "Where the Red Team Blows",
@@ -268,8 +268,24 @@
     "F": [
       {
         "rank": 1,
+        "player": "Tori Hall",
+        "rating": 0.928,
+        "n_events": 33,
+        "finish": "Winners in Czechmate",
+        "finish_label": "Champion",
+        "finish_episode": "Czechmate",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "",
+        "partners_history": [],
+        "team": "Red Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 2,
         "player": "Laurel Stucky",
-        "rating": 0.507,
+        "rating": 0.639,
         "n_events": 73,
         "finish": "Runners-Up in Czechmate",
         "finish_label": "Runner-up",
@@ -283,26 +299,10 @@
         "forced_exit": false
       },
       {
-        "rank": 2,
-        "player": "Tori Hall",
-        "rating": 0.436,
-        "n_events": 58,
-        "finish": "Winners in Czechmate",
-        "finish_label": "Champion",
-        "finish_episode": "Czechmate",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "",
-        "partners_history": [],
-        "team": "Red Team",
-        "forced_exit": false
-      },
-      {
         "rank": 3,
-        "player": "Sarah Rice",
-        "rating": 0.302,
-        "n_events": 76,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.437,
+        "n_events": 56,
         "finish": "Runners-Up in Czechmate",
         "finish_label": "Runner-up",
         "finish_episode": "Czechmate",
@@ -316,9 +316,9 @@
       },
       {
         "rank": 4,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.228,
-        "n_events": 56,
+        "player": "Sarah Rice",
+        "rating": 0.389,
+        "n_events": 65,
         "finish": "Runners-Up in Czechmate",
         "finish_label": "Runner-up",
         "finish_episode": "Czechmate",
@@ -333,7 +333,7 @@
       {
         "rank": 5,
         "player": "Emily Schromm",
-        "rating": 0.038,
+        "rating": 0.178,
         "n_events": 41,
         "finish": "Third Place in Czechmate",
         "finish_label": "3rd",
@@ -349,8 +349,8 @@
       {
         "rank": 6,
         "player": "Jenn Grijalva",
-        "rating": -0.008,
-        "n_events": 97,
+        "rating": 0.06,
+        "n_events": 57,
         "finish": "Third Place in Czechmate",
         "finish_label": "3rd",
         "finish_episode": "Czechmate",
@@ -364,26 +364,8 @@
       },
       {
         "rank": 7,
-        "player": "Katie Cooley",
-        "rating": -0.19,
-        "n_events": 86,
-        "finish": "Eliminated in Couching Tyger, Hidden Danimal",
-        "finish_label": "Eliminated",
-        "finish_episode": "Couching Tyger, Hidden Danimal",
-        "elim_position": 3,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Camila Nakagawa"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Blue Team",
-        "forced_exit": false
-      },
-      {
-        "rank": 8,
         "player": "Camila Nakagawa",
-        "rating": -0.226,
+        "rating": -0.16,
         "n_events": 17,
         "finish": "Eliminated in Hell Hath No Fury",
         "finish_label": "Eliminated",
@@ -399,10 +381,46 @@
         "forced_exit": false
       },
       {
+        "rank": 8,
+        "player": "Katie Cooley",
+        "rating": -0.221,
+        "n_events": 37,
+        "finish": "Eliminated in Couching Tyger, Hidden Danimal",
+        "finish_label": "Eliminated",
+        "finish_episode": "Couching Tyger, Hidden Danimal",
+        "elim_position": 3,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Camila Nakagawa"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Blue Team",
+        "forced_exit": false
+      },
+      {
         "rank": 9,
+        "player": "Theresa Jones",
+        "rating": -0.302,
+        "n_events": 49,
+        "finish": "Eliminated in Always a Bridesmaid...",
+        "finish_label": "Eliminated",
+        "finish_episode": "Always a Bridesmaid...",
+        "elim_position": 7,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Tori Hall"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Blue Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 10,
         "player": "Shauvon Torres",
-        "rating": -0.336,
-        "n_events": 56,
+        "rating": -0.334,
+        "n_events": 29,
         "finish": "Quit in Karma's a Bitch",
         "finish_label": "Quit",
         "finish_episode": "Karma's a Bitch",
@@ -415,27 +433,9 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Emilee Fitzpatrick",
-        "rating": -0.481,
-        "n_events": 21,
-        "finish": "Eliminated in Czech Yourself Before You Wreck Yourself",
-        "finish_label": "Eliminated",
-        "finish_episode": "Czech Yourself Before You Wreck Yourself",
-        "elim_position": 1,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Camila Nakagawa"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Blue Team",
-        "forced_exit": false
-      },
-      {
         "rank": 11,
         "player": "Melinda Collins",
-        "rating": -0.514,
+        "rating": -0.366,
         "n_events": 23,
         "finish": "Eliminated in Where the Red Team Blows",
         "finish_label": "Eliminated",
@@ -452,8 +452,26 @@
       },
       {
         "rank": 12,
+        "player": "Emilee Fitzpatrick",
+        "rating": -0.384,
+        "n_events": 21,
+        "finish": "Eliminated in Czech Yourself Before You Wreck Yourself",
+        "finish_label": "Eliminated",
+        "finish_episode": "Czech Yourself Before You Wreck Yourself",
+        "elim_position": 1,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Camila Nakagawa"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Blue Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 13,
         "player": "Ayiiia Elizarrar\u00e1s",
-        "rating": -0.526,
+        "rating": -0.424,
         "n_events": 21,
         "finish": "Eliminated in Swat the Hell?",
         "finish_label": "Eliminated",
@@ -469,45 +487,9 @@
         "forced_exit": false
       },
       {
-        "rank": 13,
-        "player": "Theresa Jones",
-        "rating": -0.532,
-        "n_events": 49,
-        "finish": "Eliminated in Always a Bridesmaid...",
-        "finish_label": "Eliminated",
-        "finish_episode": "Always a Bridesmaid...",
-        "elim_position": 7,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Tori Hall"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Blue Team",
-        "forced_exit": false
-      },
-      {
         "rank": 14,
-        "player": "Paula Meronek",
-        "rating": -0.552,
-        "n_events": 63,
-        "finish": "Disqualified in Czechmate",
-        "finish_label": "Disqualified",
-        "finish_episode": "Czechmate",
-        "elim_position": 8,
-        "elim_total": 8,
-        "eliminated_by": [
-          "Emily Schromm"
-        ],
-        "partner": "",
-        "partners_history": [],
-        "team": "Red Team",
-        "forced_exit": false
-      },
-      {
-        "rank": 15,
         "player": "Mandi Moyer",
-        "rating": -0.603,
+        "rating": -0.473,
         "n_events": 34,
         "finish": "Eliminated in Newbie Doobie Doo",
         "finish_label": "Eliminated",
@@ -516,6 +498,24 @@
         "elim_total": 8,
         "eliminated_by": [
           "Cara Maria Sorbello"
+        ],
+        "partner": "",
+        "partners_history": [],
+        "team": "Red Team",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
+        "player": "Paula Meronek",
+        "rating": -0.596,
+        "n_events": 40,
+        "finish": "Disqualified in Czechmate",
+        "finish_label": "Disqualified",
+        "finish_episode": "Czechmate",
+        "elim_position": 8,
+        "elim_total": 8,
+        "eliminated_by": [
+          "Emily Schromm"
         ],
         "partner": "",
         "partners_history": [],

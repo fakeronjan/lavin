@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.104,
-    "peak_season_id": "s13_the_duel",
-    "active_rating": 0.104,
-    "active_season_id": "s13_the_duel",
+    "peak_rating": -0.233,
+    "peak_season_id": "s07_the_gauntlet",
+    "active_rating": -0.299,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 5,
-    "n_snapshots": 8,
+    "n_snapshots": 6,
     "championships": 2,
     "pre_anchor_titles": 1,
     "elim_wins": 1,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.323,
+      "rating_at_end": -0.299,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Tonya Cooley"
       ],
-      "rating_at_end": -0.369,
+      "rating_at_end": -0.368,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -69,7 +69,7 @@
       "eliminated_by": [
         "Katie Cooley"
       ],
-      "rating_at_end": -0.463,
+      "rating_at_end": -0.339,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -87,7 +87,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.474,
+      "rating_at_end": -0.441,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -98,22 +98,22 @@
     {
       "ranking_id": 56,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.474
+      "rating": -0.441
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": -0.463
+      "rating": -0.339
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.369
+      "rating": -0.368
     },
     {
       "ranking_id": 149,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.323
+      "rating": -0.299
     }
   ]
 }

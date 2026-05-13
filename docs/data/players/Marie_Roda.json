@@ -3,13 +3,13 @@
   "safe_name": "Marie_Roda",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.288,
-    "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": 0.211,
-    "active_season_id": "s36_double_agents",
+    "era_rating": 0.6,
+    "peak_rating": 0.342,
+    "peak_season_id": "s32_final_reckoning",
+    "active_rating": 0.212,
+    "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 5,
-    "n_snapshots": 11,
+    "n_snapshots": 9,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.167,
+      "rating_at_end": 0.342,
       "partner": "Cara Maria Sorbello",
       "partners_history": [
         "Cara Maria Sorbello"
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Kailah Casillas-Bird"
       ],
-      "rating_at_end": -0.095,
+      "rating_at_end": -0.055,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -69,7 +69,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.336,
+      "rating_at_end": -0.402,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -89,7 +89,7 @@
       "eliminated_by": [
         "Kailah Casillas-Bird"
       ],
-      "rating_at_end": -0.259,
+      "rating_at_end": -0.175,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -110,7 +110,7 @@
         "Trishelle Cannatella",
         "Dustin Zito"
       ],
-      "rating_at_end": -0.151,
+      "rating_at_end": 0.306,
       "partner": "Robb Schreiber",
       "partners_history": [
         "Robb Schreiber"
@@ -123,27 +123,27 @@
     {
       "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.151
+      "rating": 0.306
     },
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.259
+      "rating": -0.175
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.336
+      "rating": -0.402
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": -0.095
+      "rating": -0.055
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.167
+      "rating": 0.342
     }
   ]
 }

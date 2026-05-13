@@ -3,13 +3,13 @@
   "safe_name": "Tina_Barta",
   "gender": "F",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.615,
+    "era_rating": 1.6,
+    "peak_rating": 0.753,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.024,
+    "active_rating": 0.052,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
-    "n_snapshots": 14,
+    "n_snapshots": 13,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 8,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": 0.026,
+      "rating_at_end": 0.118,
       "partner": "",
       "partners_history": [],
       "team": "Era I",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.278,
+      "rating_at_end": 0.275,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.615,
+      "rating_at_end": 0.753,
       "partner": "Kenny Santucci",
       "partners_history": [
         "Kenny Santucci"
@@ -87,7 +87,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.129,
+      "rating_at_end": 0.232,
       "partner": "",
       "partners_history": [],
       "team": "Bad Asses",
@@ -107,7 +107,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": 0.207,
+      "rating_at_end": 0.2,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -127,7 +127,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.167,
+      "rating_at_end": -0.156,
       "partner": "",
       "partners_history": [],
       "team": "Road Rules",
@@ -138,32 +138,32 @@
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.167
+      "rating": -0.156
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.207
+      "rating": 0.2
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.129
+      "rating": 0.232
     },
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.615
+      "rating": 0.753
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.278
+      "rating": 0.275
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.026
+      "rating": 0.118
     }
   ]
 }

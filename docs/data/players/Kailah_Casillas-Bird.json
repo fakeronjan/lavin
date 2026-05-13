@@ -3,13 +3,13 @@
   "safe_name": "Kailah_Casillas-Bird",
   "gender": "F",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.651,
+    "era_rating": 1.4,
+    "peak_rating": 0.749,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.018,
-    "active_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": -0.093,
+    "active_season_id": "s38_ride_or_dies",
     "n_seasons": 6,
-    "n_snapshots": 11,
+    "n_snapshots": 9,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -32,7 +32,7 @@
         "Tori Deal",
         "Devin Walker"
       ],
-      "rating_at_end": 0.031,
+      "rating_at_end": -0.093,
       "partner": "Sam Bird",
       "partners_history": [
         "Sam Bird"
@@ -54,7 +54,7 @@
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": -0.365,
+      "rating_at_end": -0.235,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -72,7 +72,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.419,
+      "rating_at_end": -0.423,
       "partner": "Kayleigh Morris",
       "partners_history": [
         "Kayleigh Morris"
@@ -92,7 +92,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.651,
+      "rating_at_end": 0.749,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -112,7 +112,7 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.42,
+      "rating_at_end": 0.38,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -132,7 +132,7 @@
       "eliminated_by": [
         "Sylvia Elsrode"
       ],
-      "rating_at_end": 0.167,
+      "rating_at_end": 0.229,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -143,32 +143,32 @@
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.167
+      "rating": 0.229
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.42
+      "rating": 0.38
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.651
+      "rating": 0.749
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.419
+      "rating": -0.423
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.365
+      "rating": -0.235
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.031
+      "rating": -0.093
     }
   ]
 }

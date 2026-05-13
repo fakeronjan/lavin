@@ -3,13 +3,13 @@
   "safe_name": "Evan_Starkman",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.793,
-    "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.504,
-    "active_season_id": "s23_battle_of_the_seasons_2012",
+    "era_rating": 2.3,
+    "peak_rating": 0.811,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.537,
+    "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 6,
-    "n_snapshots": 12,
+    "n_snapshots": 11,
     "championships": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -32,7 +32,7 @@
         "Adam King",
         "CT Tamburello"
       ],
-      "rating_at_end": -0.097,
+      "rating_at_end": -0.75,
       "partner": "Nehemiah Clark",
       "partners_history": [
         "Nehemiah Clark"
@@ -52,7 +52,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.65,
+      "rating_at_end": 0.811,
       "partner": "",
       "partners_history": [],
       "team": "Champions",
@@ -70,7 +70,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.63,
+      "rating_at_end": 0.802,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -88,7 +88,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.248,
+      "rating_at_end": 0.281,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -108,7 +108,7 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.135,
+      "rating_at_end": 0.389,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -126,7 +126,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.162,
+      "rating_at_end": -0.412,
       "partner": "Coral Smith",
       "partners_history": [
         "Coral Smith"
@@ -139,32 +139,32 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": -0.162
+      "rating": -0.412
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": 0.135
+      "rating": 0.389
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.248
+      "rating": 0.281
     },
     {
       "ranking_id": 283,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.63
+      "rating": 0.802
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": 0.65
+      "rating": 0.811
     },
     {
       "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": -0.097
+      "rating": -0.75
     }
   ]
 }

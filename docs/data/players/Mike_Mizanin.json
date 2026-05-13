@@ -3,13 +3,13 @@
   "safe_name": "Mike_Mizanin",
   "gender": "M",
   "career": {
-    "era_rating": 2.1,
-    "peak_rating": 0.883,
+    "era_rating": 1.8,
+    "peak_rating": 0.915,
     "peak_season_id": "s05_battle_of_the_seasons",
-    "active_rating": 0.606,
-    "active_season_id": "s12_fresh_meat",
+    "active_rating": 0.552,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 5,
-    "n_snapshots": 8,
+    "n_snapshots": 7,
     "championships": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.204,
+      "rating_at_end": 0.445,
       "partner": "",
       "partners_history": [],
       "team": "Good Guys",
@@ -49,7 +49,7 @@
       "eliminated_by": [
         "Nick Haggart"
       ],
-      "rating_at_end": 0.224,
+      "rating_at_end": -0.143,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.379,
+      "rating_at_end": 0.179,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.457,
+      "rating_at_end": 0.309,
       "partner": "",
       "partners_history": [],
       "team": "Real World",
@@ -103,7 +103,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.883,
+      "rating_at_end": 0.915,
       "partner": "Coral Smith",
       "partners_history": [
         "Coral Smith"
@@ -116,27 +116,27 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.883
+      "rating": 0.915
     },
     {
       "ranking_id": 71,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.457
+      "rating": 0.309
     },
     {
       "ranking_id": 88,
       "season_id": "s08_the_inferno",
-      "rating": 0.379
+      "rating": 0.179
     },
     {
       "ranking_id": 116,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.224
+      "rating": -0.143
     },
     {
       "ranking_id": 133,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.204
+      "rating": 0.445
     }
   ]
 }

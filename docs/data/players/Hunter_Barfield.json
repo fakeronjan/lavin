@@ -3,13 +3,13 @@
   "safe_name": "Hunter_Barfield",
   "gender": "M",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.816,
+    "era_rating": 2.3,
+    "peak_rating": 0.897,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.265,
-    "active_season_id": "s37_spies_lies_allies",
+    "active_rating": 0.146,
+    "active_season_id": "s36_double_agents",
     "n_seasons": 4,
-    "n_snapshots": 9,
+    "n_snapshots": 8,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 4,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.503,
+      "rating_at_end": 0.573,
       "partner": "Georgia Harrison",
       "partners_history": [
         "Georgia Harrison"
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.816,
+      "rating_at_end": 0.897,
       "partner": "Ashley Mitchell",
       "partners_history": [
         "Ashley Mitchell"
@@ -69,7 +69,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.542,
+      "rating_at_end": 0.678,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -87,7 +87,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.21,
+      "rating_at_end": 0.144,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -98,22 +98,22 @@
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.21
+      "rating": 0.144
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.542
+      "rating": 0.678
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.816
+      "rating": 0.897
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.503
+      "rating": 0.573
     }
   ]
 }

@@ -3,13 +3,13 @@
   "safe_name": "Amanda_Garcia",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.213,
+    "era_rating": 0.1,
+    "peak_rating": 0.098,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.814,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": -0.495,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
-    "n_snapshots": 14,
+    "n_snapshots": 11,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 3,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Nia Moore"
       ],
-      "rating_at_end": -0.741,
+      "rating_at_end": -0.495,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": -0.118,
+      "rating_at_end": 0.032,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -72,7 +72,7 @@
         "Kam Williams",
         "Ashley Cain"
       ],
-      "rating_at_end": -0.181,
+      "rating_at_end": -0.344,
       "partner": "Josh Martinez",
       "partners_history": [
         "Josh Martinez"
@@ -95,7 +95,7 @@
         "Cory Wharton",
         "Devin Walker"
       ],
-      "rating_at_end": -0.045,
+      "rating_at_end": -0.138,
       "partner": "Zach Nichols",
       "partners_history": [
         "Zach Nichols"
@@ -115,7 +115,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.124,
+      "rating_at_end": -0.599,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -133,7 +133,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.002,
+      "rating_at_end": -0.192,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -154,7 +154,7 @@
         "KellyAnne Judd",
         "Jamie Banks"
       ],
-      "rating_at_end": 0.213,
+      "rating_at_end": 0.098,
       "partner": "Nelson Thomas",
       "partners_history": [
         "Nelson Thomas"
@@ -167,37 +167,37 @@
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.213
+      "rating": 0.098
     },
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.002
+      "rating": -0.192
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.124
+      "rating": -0.599
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": -0.045
+      "rating": -0.138
     },
     {
       "ranking_id": 763,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.181
+      "rating": -0.344
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.118
+      "rating": 0.032
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.741
+      "rating": -0.495
     }
   ]
 }

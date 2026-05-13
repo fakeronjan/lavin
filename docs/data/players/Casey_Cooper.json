@@ -3,13 +3,13 @@
   "safe_name": "Casey_Cooper",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.619,
+    "era_rating": 0.7,
+    "peak_rating": 0.554,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": 0.213,
-    "active_season_id": "s21_rivals",
+    "active_rating": 0.215,
+    "active_season_id": "s20_cutthroat",
     "n_seasons": 4,
-    "n_snapshots": 10,
+    "n_snapshots": 9,
     "championships": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 8,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": -0.331,
+      "rating_at_end": 0.04,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -51,7 +51,7 @@
       "eliminated_by": [
         "Evelyn Smith"
       ],
-      "rating_at_end": 0.143,
+      "rating_at_end": -0.315,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -71,7 +71,7 @@
       "eliminated_by": [
         "Robin Hibbard"
       ],
-      "rating_at_end": -0.021,
+      "rating_at_end": 0.065,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -89,7 +89,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.619,
+      "rating_at_end": 0.554,
       "partner": "Wes Bergmann",
       "partners_history": [
         "Wes Bergmann"
@@ -102,22 +102,22 @@
     {
       "ranking_id": 210,
       "season_id": "s12_fresh_meat",
-      "rating": 0.619
+      "rating": 0.554
     },
     {
       "ranking_id": 226,
       "season_id": "s13_the_duel",
-      "rating": -0.021
+      "rating": 0.065
     },
     {
       "ranking_id": 258,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.143
+      "rating": -0.315
     },
     {
       "ranking_id": 301,
       "season_id": "s18_the_ruins",
-      "rating": -0.331
+      "rating": 0.04
     }
   ]
 }

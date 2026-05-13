@@ -3,10 +3,10 @@
   "safe_name": "Tori_Deal",
   "gender": "F",
   "career": {
-    "era_rating": 3.0,
-    "peak_rating": 0.679,
+    "era_rating": 3.8,
+    "peak_rating": 1.022,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.462,
+    "active_rating": 0.489,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 12,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.456,
+      "rating_at_end": 0.512,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.595,
+      "rating_at_end": 0.534,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -65,7 +65,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.679,
+      "rating_at_end": 1.022,
       "partner": "Devin Walker",
       "partners_history": [
         "Devin Walker"
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.254,
+      "rating_at_end": 0.569,
       "partner": "Ed Eason",
       "partners_history": [
         "Ed Eason"
@@ -107,7 +107,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.093,
+      "rating_at_end": -0.204,
       "partner": "Devin Walker",
       "partners_history": [
         "Devin Walker"
@@ -129,7 +129,7 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": -0.008,
+      "rating_at_end": 0.016,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -147,7 +147,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.29,
+      "rating_at_end": 0.511,
       "partner": "",
       "partners_history": [],
       "team": "Team UK",
@@ -168,7 +168,7 @@
         "Sylvia Elsrode",
         "Joss Mooney"
       ],
-      "rating_at_end": 0.214,
+      "rating_at_end": -0.19,
       "partner": "Derrick Henry",
       "partners_history": [
         "Derrick Henry"
@@ -190,7 +190,7 @@
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": 0.224,
+      "rating_at_end": 0.278,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -208,7 +208,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.303,
+      "rating_at_end": 0.351,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -219,52 +219,52 @@
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.303
+      "rating": 0.351
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.224
+      "rating": 0.278
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.214
+      "rating": -0.19
     },
     {
       "ranking_id": 779,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.29
+      "rating": 0.511
     },
     {
       "ranking_id": 797,
       "season_id": "s35_total_madness",
-      "rating": -0.008
+      "rating": 0.016
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": -0.093
+      "rating": -0.204
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.254
+      "rating": 0.569
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.679
+      "rating": 1.022
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.595
+      "rating": 0.534
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.456
+      "rating": 0.512
     }
   ]
 }

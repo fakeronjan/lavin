@@ -9,7 +9,7 @@
       {
         "rank": 1,
         "player": "Turbo \u00c7amk\u0131ran",
-        "rating": 0.896,
+        "rating": 1.107,
         "n_events": 68,
         "finish": "Winner in This Is the End",
         "finish_label": "Champion",
@@ -28,7 +28,7 @@
       {
         "rank": 2,
         "player": "Theo Campbell",
-        "rating": 0.704,
+        "rating": 0.931,
         "n_events": 46,
         "finish": "Runner-Up in This Is the End",
         "finish_label": "Runner-up",
@@ -45,27 +45,8 @@
       },
       {
         "rank": 3,
-        "player": "Paulie Calafiore",
-        "rating": 0.682,
-        "n_events": 105,
-        "finish": "Eliminated in The Waterboy",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Waterboy",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Natalie Duran",
-        "partners_history": [
-          "Natalie Duran",
-          "Georgia Harrison"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 4,
         "player": "Wes Bergmann",
-        "rating": 0.638,
+        "rating": 0.809,
         "n_events": 86,
         "finish": "Third Place in This Is the End",
         "finish_label": "3rd",
@@ -82,10 +63,29 @@
         "forced_exit": false
       },
       {
+        "rank": 4,
+        "player": "Paulie Calafiore",
+        "rating": 0.692,
+        "n_events": 105,
+        "finish": "Eliminated in The Waterboy",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Waterboy",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Natalie Duran",
+        "partners_history": [
+          "Natalie Duran",
+          "Georgia Harrison"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
         "rank": 5,
         "player": "Hunter Barfield",
-        "rating": 0.503,
-        "n_events": 79,
+        "rating": 0.573,
+        "n_events": 70,
         "finish": "Sixth Place in This Is the End",
         "finish_label": "6th",
         "finish_episode": "This Is the End",
@@ -102,8 +102,8 @@
       {
         "rank": 6,
         "player": "Kyle Christie",
-        "rating": 0.088,
-        "n_events": 75,
+        "rating": 0.38,
+        "n_events": 58,
         "finish": "Eliminated in Final Destination",
         "finish_label": "Eliminated",
         "finish_episode": "Final Destination",
@@ -121,8 +121,49 @@
       },
       {
         "rank": 7,
+        "player": "Stephen Bear",
+        "rating": 0.009,
+        "n_events": 26,
+        "finish": "Eliminated in To All the Partners I've Loved Before",
+        "finish_label": "Eliminated",
+        "finish_episode": "To All the Partners I've Loved Before",
+        "elim_position": 9,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Kyle Christie"
+        ],
+        "partner": "Da'Vonne Rogers",
+        "partners_history": [
+          "Da'Vonne Rogers"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 8,
+        "player": "Zach Nichols",
+        "rating": -0.031,
+        "n_events": 18,
+        "finish": "Eliminated in The Greatest Showman",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Greatest Showman",
+        "elim_position": 5,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Wes Bergmann",
+          "Dee Nguyen"
+        ],
+        "partner": "Zahida Allen",
+        "partners_history": [
+          "Zahida Allen"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 9,
         "player": "Ashley Cain",
-        "rating": -0.133,
+        "rating": -0.04,
         "n_events": 23,
         "finish": "Eliminated in American Psycho",
         "finish_label": "Eliminated",
@@ -141,30 +182,10 @@
         "forced_exit": false
       },
       {
-        "rank": 8,
-        "player": "Stephen Bear",
-        "rating": -0.171,
-        "n_events": 26,
-        "finish": "Eliminated in To All the Partners I've Loved Before",
-        "finish_label": "Eliminated",
-        "finish_episode": "To All the Partners I've Loved Before",
-        "elim_position": 9,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Kyle Christie"
-        ],
-        "partner": "Da'Vonne Rogers",
-        "partners_history": [
-          "Da'Vonne Rogers"
-        ],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
-        "rank": 9,
+        "rank": 10,
         "player": "Johnny Bananas",
-        "rating": -0.187,
-        "n_events": 50,
+        "rating": -0.113,
+        "n_events": 41,
         "finish": "Eliminated in Casualties of War",
         "finish_label": "Eliminated",
         "finish_episode": "Casualties of War",
@@ -182,30 +203,9 @@
         "forced_exit": false
       },
       {
-        "rank": 10,
-        "player": "Josh Martinez",
-        "rating": -0.206,
-        "n_events": 22,
-        "finish": "Eliminated in This Means War",
-        "finish_label": "Eliminated",
-        "finish_episode": "This Means War",
-        "elim_position": 1,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Ashley Cain",
-          "Kam Williams"
-        ],
-        "partner": "Amanda Garcia",
-        "partners_history": [
-          "Amanda Garcia"
-        ],
-        "team": "Prospects",
-        "forced_exit": false
-      },
-      {
         "rank": 11,
         "player": "Gus Smyrnios",
-        "rating": -0.266,
+        "rating": -0.118,
         "n_events": 29,
         "finish": "Eliminated in Liar, Liar",
         "finish_label": "Eliminated",
@@ -225,29 +225,47 @@
       },
       {
         "rank": 12,
-        "player": "Zach Nichols",
-        "rating": -0.272,
-        "n_events": 36,
-        "finish": "Eliminated in The Greatest Showman",
+        "player": "CT Tamburello",
+        "rating": -0.12,
+        "n_events": 30,
+        "finish": "Eliminated in It's Complicated",
         "finish_label": "Eliminated",
-        "finish_episode": "The Greatest Showman",
-        "elim_position": 5,
-        "elim_total": 10,
-        "eliminated_by": [
-          "Wes Bergmann",
-          "Dee Nguyen"
-        ],
-        "partner": "Zahida Allen",
+        "finish_episode": "It's Complicated",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Julia Nolan",
         "partners_history": [
-          "Zahida Allen"
+          "Julia Nolan"
         ],
         "team": "Veterans",
         "forced_exit": false
       },
       {
         "rank": 13,
+        "player": "Josh Martinez",
+        "rating": -0.216,
+        "n_events": 22,
+        "finish": "Eliminated in This Means War",
+        "finish_label": "Eliminated",
+        "finish_episode": "This Means War",
+        "elim_position": 1,
+        "elim_total": 10,
+        "eliminated_by": [
+          "Ashley Cain",
+          "Kam Williams"
+        ],
+        "partner": "Amanda Garcia",
+        "partners_history": [
+          "Amanda Garcia"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Alan Valdez",
-        "rating": -0.419,
+        "rating": -0.242,
         "n_events": 26,
         "finish": "Medically Disqualified in Apocalypse Now",
         "finish_label": "Medical DQ",
@@ -261,9 +279,9 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 15,
         "player": "Chase McNary",
-        "rating": -0.439,
+        "rating": -0.25,
         "n_events": 7,
         "finish": "Eliminated in Hellraiser",
         "finish_label": "Eliminated",
@@ -282,27 +300,9 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
-        "player": "CT Tamburello",
-        "rating": -0.51,
-        "n_events": 32,
-        "finish": "Eliminated in It's Complicated",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Complicated",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Julia Nolan",
-        "partners_history": [
-          "Julia Nolan"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
         "rank": 16,
         "player": "Leroy Garrett",
-        "rating": -0.66,
+        "rating": -0.439,
         "n_events": 16,
         "finish": "Eliminated in In Love and War",
         "finish_label": "Eliminated",
@@ -323,7 +323,7 @@
       {
         "rank": 17,
         "player": "JP Andrade",
-        "rating": -0.813,
+        "rating": -0.461,
         "n_events": 12,
         "finish": "Eliminated in It's Complicated",
         "finish_label": "Eliminated",
@@ -345,7 +345,7 @@
       {
         "rank": 1,
         "player": "Natalie Duran",
-        "rating": 0.867,
+        "rating": 0.959,
         "n_events": 74,
         "finish": "Fourth Place in This Is the End",
         "finish_label": "4th",
@@ -363,9 +363,28 @@
       },
       {
         "rank": 2,
+        "player": "Georgia Harrison",
+        "rating": 0.712,
+        "n_events": 37,
+        "finish": "",
+        "finish_label": "",
+        "finish_episode": "",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Hunter Barfield",
+        "partners_history": [
+          "Hunter Barfield",
+          "Paulie Calafiore"
+        ],
+        "team": "Prospects",
+        "forced_exit": false
+      },
+      {
+        "rank": 3,
         "player": "Ashley Mitchell",
-        "rating": 0.746,
-        "n_events": 39,
+        "rating": 0.689,
+        "n_events": 26,
         "finish": "Eliminated in Hellraiser",
         "finish_label": "Eliminated",
         "finish_episode": "Hellraiser",
@@ -383,28 +402,27 @@
         "forced_exit": false
       },
       {
-        "rank": 3,
-        "player": "Georgia Harrison",
-        "rating": 0.677,
-        "n_events": 37,
-        "finish": "",
-        "finish_label": "",
-        "finish_episode": "",
+        "rank": 4,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.587,
+        "n_events": 64,
+        "finish": "Fifth Place in This Is the End",
+        "finish_label": "5th",
+        "finish_episode": "This Is the End",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Hunter Barfield",
+        "partner": "Theo Campbell",
         "partners_history": [
-          "Hunter Barfield",
-          "Paulie Calafiore"
+          "Theo Campbell"
         ],
-        "team": "Prospects",
+        "team": "Veterans",
         "forced_exit": false
       },
       {
-        "rank": 4,
+        "rank": 5,
         "player": "Dee Nguyen",
-        "rating": 0.485,
+        "rating": 0.532,
         "n_events": 71,
         "finish": "Eliminated in The Waterboy",
         "finish_label": "Eliminated",
@@ -422,9 +440,9 @@
         "forced_exit": false
       },
       {
-        "rank": 5,
+        "rank": 6,
         "player": "Mattie Lynn Breaux",
-        "rating": 0.411,
+        "rating": 0.53,
         "n_events": 46,
         "finish": "",
         "finish_label": "",
@@ -440,39 +458,20 @@
         "forced_exit": false
       },
       {
-        "rank": 6,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.385,
-        "n_events": 73,
-        "finish": "Fifth Place in This Is the End",
-        "finish_label": "5th",
-        "finish_episode": "This Is the End",
+        "rank": 7,
+        "player": "Da'Vonne Rogers",
+        "rating": 0.476,
+        "n_events": 37,
+        "finish": "Eliminated in The Waterboy",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Waterboy",
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Theo Campbell",
+        "partner": "Stephen Bear",
         "partners_history": [
-          "Theo Campbell"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 7,
-        "player": "Natalie Negrotti",
-        "rating": 0.383,
-        "n_events": 32,
-        "finish": "Eliminated in It's Complicated",
-        "finish_label": "Eliminated",
-        "finish_episode": "It's Complicated",
-        "elim_position": 4,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Julia Nolan"
-        ],
-        "partner": "JP Andrade",
-        "partners_history": [
-          "JP Andrade"
+          "Stephen Bear",
+          "Wes Bergmann"
         ],
         "team": "Veterans",
         "forced_exit": false
@@ -480,7 +479,7 @@
       {
         "rank": 8,
         "player": "Nany Gonz\u00e1lez",
-        "rating": 0.331,
+        "rating": 0.317,
         "n_events": 52,
         "finish": "Eliminated in Lost in Translation",
         "finish_label": "Eliminated",
@@ -499,19 +498,20 @@
       },
       {
         "rank": 9,
-        "player": "Da'Vonne Rogers",
-        "rating": 0.071,
-        "n_events": 65,
-        "finish": "Eliminated in The Waterboy",
+        "player": "Natalie Negrotti",
+        "rating": 0.267,
+        "n_events": 32,
+        "finish": "Eliminated in It's Complicated",
         "finish_label": "Eliminated",
-        "finish_episode": "The Waterboy",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Stephen Bear",
+        "finish_episode": "It's Complicated",
+        "elim_position": 4,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Julia Nolan"
+        ],
+        "partner": "JP Andrade",
         "partners_history": [
-          "Stephen Bear",
-          "Wes Bergmann"
+          "JP Andrade"
         ],
         "team": "Veterans",
         "forced_exit": false
@@ -519,7 +519,7 @@
       {
         "rank": 10,
         "player": "Julia Nolan",
-        "rating": 0.045,
+        "rating": -0.018,
         "n_events": 24,
         "finish": "Eliminated in It's Complicated",
         "finish_label": "Eliminated",
@@ -536,29 +536,8 @@
       },
       {
         "rank": 11,
-        "player": "Kam Williams",
-        "rating": -0.022,
-        "n_events": 43,
-        "finish": "Eliminated in American Psycho",
-        "finish_label": "Eliminated",
-        "finish_episode": "American Psycho",
-        "elim_position": 9,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Natalie Duran",
-          "Paulie Calafiore"
-        ],
-        "partner": "Ashley Cain",
-        "partners_history": [
-          "Ashley Cain"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
-        "rank": 12,
         "player": "Zahida Allen",
-        "rating": -0.042,
+        "rating": -0.058,
         "n_events": 12,
         "finish": "Eliminated in The Greatest Showman",
         "finish_label": "Eliminated",
@@ -577,9 +556,51 @@
         "forced_exit": false
       },
       {
+        "rank": 12,
+        "player": "Kam Williams",
+        "rating": -0.122,
+        "n_events": 26,
+        "finish": "Eliminated in American Psycho",
+        "finish_label": "Eliminated",
+        "finish_episode": "American Psycho",
+        "elim_position": 9,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Natalie Duran",
+          "Paulie Calafiore"
+        ],
+        "partner": "Ashley Cain",
+        "partners_history": [
+          "Ashley Cain"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
         "rank": 13,
+        "player": "Jenna Compono",
+        "rating": -0.124,
+        "n_events": 35,
+        "finish": "Eliminated in Liar, Liar",
+        "finish_label": "Eliminated",
+        "finish_episode": "Liar, Liar",
+        "elim_position": 8,
+        "elim_total": 11,
+        "eliminated_by": [
+          "Da'Vonne Rogers",
+          "Stephen Bear"
+        ],
+        "partner": "Gus Smyrnios",
+        "partners_history": [
+          "Gus Smyrnios"
+        ],
+        "team": "Veterans",
+        "forced_exit": false
+      },
+      {
+        "rank": 14,
         "player": "Morgan Willett",
-        "rating": -0.084,
+        "rating": -0.148,
         "n_events": 21,
         "finish": "Eliminated in Casualties of War",
         "finish_label": "Eliminated",
@@ -598,10 +619,10 @@
         "forced_exit": false
       },
       {
-        "rank": 14,
+        "rank": 15,
         "player": "Amanda Garcia",
-        "rating": -0.181,
-        "n_events": 50,
+        "rating": -0.344,
+        "n_events": 34,
         "finish": "Eliminated in This Means War",
         "finish_label": "Eliminated",
         "finish_episode": "This Means War",
@@ -619,30 +640,9 @@
         "forced_exit": false
       },
       {
-        "rank": 15,
-        "player": "Jenna Compono",
-        "rating": -0.378,
-        "n_events": 44,
-        "finish": "Eliminated in Liar, Liar",
-        "finish_label": "Eliminated",
-        "finish_episode": "Liar, Liar",
-        "elim_position": 8,
-        "elim_total": 11,
-        "eliminated_by": [
-          "Da'Vonne Rogers",
-          "Stephen Bear"
-        ],
-        "partner": "Gus Smyrnios",
-        "partners_history": [
-          "Gus Smyrnios"
-        ],
-        "team": "Veterans",
-        "forced_exit": false
-      },
-      {
         "rank": 16,
         "player": "Shaleen Sutherland",
-        "rating": -0.668,
+        "rating": -0.409,
         "n_events": 13,
         "finish": "Eliminated in In Love and War",
         "finish_label": "Eliminated",

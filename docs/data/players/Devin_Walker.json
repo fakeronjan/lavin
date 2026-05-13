@@ -3,13 +3,13 @@
   "safe_name": "Devin_Walker",
   "gender": "M",
   "career": {
-    "era_rating": 3.2,
-    "peak_rating": 0.562,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.326,
+    "era_rating": 3.3,
+    "peak_rating": 0.953,
+    "peak_season_id": "s38_ride_or_dies",
+    "active_rating": -0.662,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
-    "n_snapshots": 14,
+    "n_snapshots": 13,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 6,
@@ -31,7 +31,7 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": 0.404,
+      "rating_at_end": 0.008,
       "partner": "",
       "partners_history": [],
       "team": "Era III",
@@ -49,7 +49,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.562,
+      "rating_at_end": 0.644,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.553,
+      "rating_at_end": 0.953,
       "partner": "Tori Deal",
       "partners_history": [
         "Tori Deal"
@@ -87,7 +87,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.356,
+      "rating_at_end": 0.468,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -107,7 +107,7 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.221,
+      "rating_at_end": 0.335,
       "partner": "Nicole Zanatta",
       "partners_history": [
         "Nicole Zanatta",
@@ -129,7 +129,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.1,
+      "rating_at_end": -0.048,
       "partner": "Cory Wharton",
       "partners_history": [
         "Cory Wharton"
@@ -151,7 +151,7 @@
       "eliminated_by": [
         "Zach Nichols"
       ],
-      "rating_at_end": 0.313,
+      "rating_at_end": 0.277,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -169,7 +169,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.159,
+      "rating_at_end": 0.081,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -187,7 +187,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.501,
+      "rating_at_end": 0.567,
       "partner": "Cheyenne Floyd",
       "partners_history": [
         "Cheyenne Floyd"
@@ -200,47 +200,47 @@
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": 0.501
+      "rating": 0.567
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.159
+      "rating": 0.081
     },
     {
       "ranking_id": 665,
       "season_id": "s31_vendettas",
-      "rating": 0.313
+      "rating": 0.277
     },
     {
       "ranking_id": 726,
       "season_id": "s32_final_reckoning",
-      "rating": 0.1
+      "rating": -0.048
     },
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.221
+      "rating": 0.335
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.356
+      "rating": 0.468
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.553
+      "rating": 0.953
     },
     {
       "ranking_id": 918,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.562
+      "rating": 0.644
     },
     {
       "ranking_id": 955,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.404
+      "rating": 0.008
     }
   ]
 }

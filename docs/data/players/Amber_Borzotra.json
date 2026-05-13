@@ -3,13 +3,13 @@
   "safe_name": "Amber_Borzotra",
   "gender": "F",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.752,
+    "era_rating": 1.7,
+    "peak_rating": 0.817,
     "peak_season_id": "s36_double_agents",
-    "active_rating": -0.329,
-    "active_season_id": "s41_vets_and_new_threats",
+    "active_rating": 0.257,
+    "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 3,
-    "n_snapshots": 6,
+    "n_snapshots": 4,
     "championships": 1,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
@@ -32,7 +32,7 @@
         "Aneesa Ferreira",
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.535,
+      "rating_at_end": 0.363,
       "partner": "Chauncey Palmer",
       "partners_history": [
         "Chauncey Palmer"
@@ -55,7 +55,7 @@
         "Bettina Buchanan",
         "Cory Wharton"
       ],
-      "rating_at_end": 0.513,
+      "rating_at_end": 0.481,
       "partner": "Hughie Maughan",
       "partners_history": [
         "Hughie Maughan",
@@ -76,7 +76,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.752,
+      "rating_at_end": 0.817,
       "partner": "Darrell Taylor",
       "partners_history": [
         "Darrell Taylor",
@@ -92,17 +92,17 @@
     {
       "ranking_id": 815,
       "season_id": "s36_double_agents",
-      "rating": 0.752
+      "rating": 0.817
     },
     {
       "ranking_id": 849,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.513
+      "rating": 0.481
     },
     {
       "ranking_id": 903,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.535
+      "rating": 0.363
     }
   ]
 }

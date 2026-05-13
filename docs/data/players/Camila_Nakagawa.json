@@ -3,13 +3,13 @@
   "safe_name": "Camila_Nakagawa",
   "gender": "F",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.957,
-    "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.957,
-    "active_season_id": "s32_final_reckoning",
+    "era_rating": 2.8,
+    "peak_rating": 0.94,
+    "peak_season_id": "s31_vendettas",
+    "active_rating": 0.94,
+    "active_season_id": "s31_vendettas",
     "n_seasons": 10,
-    "n_snapshots": 13,
+    "n_snapshots": 12,
     "championships": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 7,
@@ -29,7 +29,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.513,
+      "rating_at_end": 0.802,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -47,7 +47,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.088,
+      "rating_at_end": 0.377,
       "partner": "Laurel Stucky",
       "partners_history": [
         "Laurel Stucky"
@@ -67,7 +67,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.398,
+      "rating_at_end": -0.309,
       "partner": "Tony Raines",
       "partners_history": [
         "Tony Raines"
@@ -89,7 +89,7 @@
       "eliminated_by": [
         "Larissa Nakagawa"
       ],
-      "rating_at_end": 0.086,
+      "rating_at_end": -0.727,
       "partner": "Larissa Nakagawa",
       "partners_history": [
         "Larissa Nakagawa"
@@ -111,7 +111,7 @@
       "eliminated_by": [
         "Theresa Jones"
       ],
-      "rating_at_end": 0.102,
+      "rating_at_end": 0.183,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -129,7 +129,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.518,
+      "rating_at_end": 0.324,
       "partner": "Jemmye Carroll",
       "partners_history": [
         "Jemmye Carroll"
@@ -152,7 +152,7 @@
         "Devyn Simone",
         "JD Ordo\u00f1ez"
       ],
-      "rating_at_end": 0.346,
+      "rating_at_end": 0.379,
       "partner": "Big Easy Banks",
       "partners_history": [
         "Big Easy Banks"
@@ -172,7 +172,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.154,
+      "rating_at_end": 0.688,
       "partner": "Johnny Bananas",
       "partners_history": [
         "Johnny Bananas"
@@ -195,7 +195,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.289,
+      "rating_at_end": -0.42,
       "partner": "Theresa Jones",
       "partners_history": [
         "Theresa Jones"
@@ -217,7 +217,7 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.226,
+      "rating_at_end": -0.16,
       "partner": "",
       "partners_history": [],
       "team": "Red Team",
@@ -228,52 +228,52 @@
     {
       "ranking_id": 353,
       "season_id": "s20_cutthroat",
-      "rating": -0.226
+      "rating": -0.16
     },
     {
       "ranking_id": 386,
       "season_id": "s21_rivals",
-      "rating": -0.289
+      "rating": -0.42
     },
     {
       "ranking_id": 419,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.154
+      "rating": 0.688
     },
     {
       "ranking_id": 464,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.346
+      "rating": 0.379
     },
     {
       "ranking_id": 501,
       "season_id": "s24_rivals_ii",
-      "rating": 0.518
+      "rating": 0.324
     },
     {
       "ranking_id": 522,
       "season_id": "s25_free_agents",
-      "rating": 0.102
+      "rating": 0.183
     },
     {
       "ranking_id": 577,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.086
+      "rating": -0.727
     },
     {
       "ranking_id": 610,
       "season_id": "s28_rivals_iii",
-      "rating": -0.398
+      "rating": -0.309
     },
     {
       "ranking_id": 622,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.088
+      "rating": 0.377
     },
     {
       "ranking_id": 646,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.513
+      "rating": 0.802
     }
   ]
 }
