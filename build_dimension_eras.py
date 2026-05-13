@@ -35,12 +35,22 @@ TOTAL_SCALES = {
     "final_field":  0.31,
 }
 
-# Component variants — 4x the chosen dimension, keep OTHERS at baseline.
+# Component variants — Nx the chosen dimension, keep OTHERS at baseline.
 # This keeps the full event set in the regression (vs. zeroing-out which
 # makes data sparse and produces weird ratings for thin-sample players).
 # A player whose rating rises sharply under one of these is "leveraged"
 # on that dimension; one whose rating barely moves is dimension-agnostic.
-BOOST = 4.0
+#
+# Boost calibration (2026-05-12): 10x chosen over 4x after side-by-side
+# comparison. At 4x the %-spread across dimensions averaged 12pts for
+# men / 17pts for women; at 10x it's 18pts / 25pts. Specialists like
+# Leroy (43% elim), Cory Wharton (35% made-final), Ashley Mitchell
+# (48% won-final), Rachel Robinson (49% won-final) become visually
+# obvious instead of muted. The "Bananas/CT great at everything"
+# pattern still holds (they top every absolute sort) but their
+# %-breakdowns now show CT as more championship-leaning, Wiseley as
+# elim-leaning, etc.
+BOOST = 10.0
 COMPONENT_VARIANTS = {
     "daily":        {**TOTAL_SCALES, "daily":        TOTAL_SCALES["daily"]        * BOOST},
     "elim":         {**TOTAL_SCALES, "elimination":  TOTAL_SCALES["elimination"]  * BOOST},
