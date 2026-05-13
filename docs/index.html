@@ -138,11 +138,17 @@
     vertical-align: top;
   }
   tbody tr:hover { background: #fffdf3; }
-  td.rank-col, td.rank-cell { width: 40px; color: #888; font-weight: 600; text-align: center; }
+  td.rank-col, td.rank-cell, th.rank-cell { width: 40px; color: #888; font-weight: 600; text-align: center; }
   td.num { font-variant-numeric: tabular-nums; text-align: right; }
   td.player { font-weight: 600; }
   td.player.linked { cursor: pointer; color: #1a6b8a; }
   td.player.linked:hover { text-decoration: underline; }
+
+  /* Standings table column sizing — let the Player column flex to take
+     remaining space; pin Daily/Elim narrow since they hold 1-2 digits. */
+  .player-cell { width: auto; min-width: 160px; }
+  .stat-narrow { width: 56px; text-align: center; }
+  td.stat-narrow { text-align: center; }
 
   /* Rating bar (DUNCAN-aligned) — pairs the numeric rating with a small
      positive/negative bar so columns line up across sites in the fleet. */
@@ -401,16 +407,16 @@ async function fetchJSON(path) {
   return data;
 }
 
+// Fleet convention: no leading "+" on positive ratings — DUNCAN/ZIDANE/etc.
+// all show plain "1.23" / "-0.45". The negative sign is the only indicator.
 function fmtRating(r) {
   if (r === null || r === undefined) return '—';
-  const sign = r >= 0 ? '+' : '';
-  return `${sign}${r.toFixed(2)}`;
+  return r.toFixed(2);
 }
 
 function fmtEra(v) {
   if (v === null || v === undefined) return '—';
-  const sign = v >= 0 ? '+' : '';
-  return `${sign}${v.toFixed(1)}`;
+  return v.toFixed(1);
 }
 
 // DUNCAN-aligned rating bar: number on the left, small +/- bar on the right.
@@ -586,9 +592,9 @@ async function renderStandings() {
       return `
       <tr>
         <td class="rank-cell">${s.rank}</td>
-        <td><div class="player linked" data-player="${s.player}">${s.player}</div>${ctxHtml}</td>
-        <td class="num col-hide-mobile">${s.daily_wins || 0}</td>
-        <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
+        <td class="player-cell"><div class="player linked" data-player="${s.player}">${s.player}</div>${ctxHtml}</td>
+        <td class="num stat-narrow col-hide-mobile">${s.daily_wins || 0}</td>
+        <td class="num stat-narrow col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
         <td>${fmtFinish(s)}</td>
         <td>${ratingBar(s.rating)}</td>
       </tr>
@@ -599,8 +605,8 @@ async function renderStandings() {
         <thead><tr>
           <th class="rank-cell">Rank</th>
           <th>Player</th>
-          <th class="col-hide-mobile">Daily Wins</th>
-          <th class="col-hide-mobile">Eliminations</th>
+          <th class="stat-narrow col-hide-mobile">Daily</th>
+          <th class="stat-narrow col-hide-mobile">Elim</th>
           <th>Finish</th>
           <th>Rating</th>
         </tr></thead>
@@ -645,13 +651,13 @@ async function renderPlayer() {
       <h2>${p.player}</h2>
       <p style="color:#666;font-size:12px;margin-top:2px">${p.gender === 'M' ? 'Men\'s' : 'Women\'s'} bracket</p>
       <div class="stats-row">
-        <div class="stat"><div class="label">ERA</div><div class="value">${fmtEra(c.era_rating)}</div></div>
-        <div class="stat"><div class="label">Peak Rating</div><div class="value">${fmtRating(c.peak_rating)}</div></div>
         <div class="stat"><div class="label">Seasons</div><div class="value">${c.n_seasons}</div></div>
+        <div class="stat"><div class="label">Daily Wins</div><div class="value">${c.daily_wins}</div></div>
+        <div class="stat"><div class="label">Elim Record</div><div class="value">${c.elim_wins}-${c.elim_losses}</div></div>
         <div class="stat"><div class="label">Finals</div><div class="value">${c.finals_reached}</div></div>
         <div class="stat"><div class="label">Championships</div><div class="value">${c.championships}</div></div>
-        <div class="stat"><div class="label">Elim Record</div><div class="value">${c.elim_wins}-${c.elim_losses}</div></div>
-        <div class="stat"><div class="label">Daily Wins</div><div class="value">${c.daily_wins}</div></div>
+        <div class="stat"><div class="label">ERA</div><div class="value">${fmtEra(c.era_rating)}</div></div>
+        <div class="stat"><div class="label">Peak Rating</div><div class="value">${fmtRating(c.peak_rating)}</div></div>
       </div>
     </div>
     <svg id="player-chart"></svg>
