@@ -39,9 +39,30 @@ def main():
     print(f"Loaded {len(ratings):,} per-snapshot rating rows.")
     print(f"  unique players: {ratings['player'].nunique()}")
 
-    # PEAK — max rating any player ever held
+    # ── Played-EOS filter ──────────────────────────────────────────────
+    # The WLS solver publishes a rating at every (player, season) snapshot
+    # where the player's prior events are still in the rolling window — so
+    # a player keeps getting "ghost" ratings for seasons after their last
+    # appearance as their events age out. Both PEAK and ERA need to ignore
+    # those ghost rows, otherwise:
+    #   - PEAK can be a ghost EOS at a season the player wasn't cast in
+    #     (e.g., Bananas peaked at +1.281 at S23 BotS 2012, which he didn't
+    #     play; his true played-EOS peak is +1.067 at S25 Free Agents).
+    #   - ERA accumulates fake stature from seasons the player wasn't on.
+    apps = pd.read_csv(DATA / "appearances.csv")
+    played = set(zip(apps["player"].astype(str), apps["season_id"].astype(str)))
+
+    end_of_season = (
+        ratings.sort_values("ranking_id")
+        .groupby(["player", "season_id"]).tail(1)
+    )
+    mask = [(p, s) in played for p, s in zip(end_of_season["player"].astype(str),
+                                              end_of_season["season_id"].astype(str))]
+    eos_played = end_of_season[mask]
+
+    # PEAK — max EOS rating across played seasons only
     peak = (
-        ratings.sort_values("rating", ascending=False)
+        eos_played.sort_values("rating", ascending=False)
         .groupby("player")
         .head(1)
         .rename(columns={"rating": "peak_rating",
@@ -61,25 +82,7 @@ def main():
         [["player", "active_rating", "active_ranking_id", "active_season_id"]]
     )
 
-    # ERA — sum of POSITIVE end-of-season ratings across the seasons the
-    # player actually PLAYED. Critical filter: by default the WLS solver
-    # publishes a rating at every snapshot where a player's events are
-    # within the rolling window (so a player keeps "earning" ratings for
-    # ~6 seasons after their last appearance as their events age out).
-    # Without this filter we'd accumulate "ghost ERA" from seasons the
-    # player wasn't even cast in.
-    import pandas as _pd
-    apps = _pd.read_csv(DATA / "appearances.csv")
-    played = set(zip(apps["player"].astype(str), apps["season_id"].astype(str)))
-
-    end_of_season = (
-        ratings.sort_values("ranking_id")
-        .groupby(["player", "season_id"]).tail(1)
-    )
-    # Keep only EOS rows for (player, season) the player actually played
-    mask = [(p, s) in played for p, s in zip(end_of_season["player"].astype(str),
-                                              end_of_season["season_id"].astype(str))]
-    eos_played = end_of_season[mask]
+    # ERA — sum of POSITIVE played-EOS ratings (cumulative career stature).
     pos_eos = eos_played[eos_played["rating"] > 0]
     era_pos = (
         pos_eos.groupby("player")["rating"].sum()
