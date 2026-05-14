@@ -34,6 +34,34 @@ DOCS_PLAYERS = DOCS_DATA / "players"
 # from rating-quality filters (PEAK_MIN_SNAPSHOTS in derive_views.py).
 PLAYER_PAGE_MIN_SNAPSHOTS = 1
 
+# Manual team rosters for seasons whose cast wikitable mis-encodes a team
+# format as adjacent pair-rows. The wiki uses pair layout because eliminations
+# in these seasons sent M+F pairs to the Arena, but the SEASON identity was
+# 4-person teams. For these seasons we suppress `partner` display and surface
+# `team` instead.
+#
+# To add a new season: include {season_id: {team_name: [player, player, ...]}}.
+MANUAL_TEAM_ROSTERS = {
+    "s23_battle_of_the_seasons_2012": {
+        "San Diego":   ["Ashley Kelsey", "Frank Fox", "Sam McGinn", "Zach Nichols"],
+        "Las Vegas":   ["Trishelle Cannatella", "Alton Williams", "Dustin Zito", "Nany González"],
+        "Brooklyn":    ["Chet Cannon", "Devyn Simone", "JD Ordoñez", "Sarah Rice"],
+        "Cancun":      ["Derek Chavez", "Jonna Mannion", "CJ Koegel", "Jasmine Reynaud"],
+        "St. Thomas":  ["Marie Roda", "Robb Schreiber", "Laura Waller", "Trey Weatherholtz"],
+        "New Orleans": ["Jemmye Carroll", "Ryan Knight", "McKenzie Coburn", "Preston Roberson-Charles"],
+        "Austin":      ["Danny Jamieson", "Melinda Collins", "Lacey Buehler", "Wes Bergmann"],
+        "Fresh Meat":  ["Camila Nakagawa", "Big Easy Banks", "Brandon Nelson", "Cara Maria Sorbello"],
+    },
+}
+
+# Inverse lookup: (season_id, player) → team_name
+_PLAYER_TEAM_OVERRIDE = {
+    (sid, p): team
+    for sid, roster in MANUAL_TEAM_ROSTERS.items()
+    for team, players in roster.items()
+    for p in players
+}
+
 
 def safe_filename(name):
     """Make a filesystem-safe filename out of a player name."""
@@ -396,6 +424,12 @@ def main():
                 ph = partner_history.get((sid, p), [])
                 if not partner and ph:
                     partner = ph[0]
+                # Manual team-roster override (for team-format seasons that
+                # the wiki mis-encodes as pairs — see MANUAL_TEAM_ROSTERS).
+                if (sid, p) in _PLAYER_TEAM_OVERRIDE:
+                    team = _PLAYER_TEAM_OVERRIDE[(sid, p)]
+                    partner = ""
+                    ph = []
                 f_label, f_ep = standardize_finish(finish_str)
                 forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
                 ep = elim_pos.get((sid, p))
@@ -724,6 +758,12 @@ def main():
             # show), use first partner from the elim-chart history.
             if not partner and partners_history:
                 partner = partners_history[0]
+            # Manual team-roster override (for team-format seasons that
+            # the wiki mis-encodes as pairs — see MANUAL_TEAM_ROSTERS).
+            if (sid, p) in _PLAYER_TEAM_OVERRIDE:
+                team = _PLAYER_TEAM_OVERRIDE[(sid, p)]
+                partner = ""
+                partners_history = []
             forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
             rank_tuple = season_rank_map.get((sid, p))
             seasons_data.append({
