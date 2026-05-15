@@ -3,7 +3,7 @@
   "safe_name": "Nelson_Thomas",
   "gender": "M",
   "career": {
-    "era_rating": 2.1,
+    "era_rating": 2.0,
     "peak_rating": 0.805,
     "peak_season_id": "s29_invasion_of_the_champions",
     "active_rating": -0.467,
@@ -14,7 +14,7 @@
     "finals_reached": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 9,
-    "elim_losses": 6,
+    "elim_losses": 7,
     "daily_wins": 8
   },
   "seasons": [
@@ -160,17 +160,17 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 9,
+      "elim_position": 8,
       "elim_total": 10,
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": 0.277,
-      "rank": 7,
-      "rank_total": 16,
+      "rating_at_end": 0.132,
+      "rank": 9,
+      "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 1,
-      "elim_losses": 1,
+      "elim_losses": 2,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -268,32 +268,32 @@
       "rating": 0.771
     },
     {
-      "ranking_id": 709,
+      "ranking_id": 710,
       "season_id": "s31_vendettas",
-      "rating": 0.277
+      "rating": 0.132
     },
     {
-      "ranking_id": 770,
+      "ranking_id": 771,
       "season_id": "s32_final_reckoning",
       "rating": -0.078
     },
     {
-      "ranking_id": 842,
+      "ranking_id": 843,
       "season_id": "s35_total_madness",
       "rating": -0.164
     },
     {
-      "ranking_id": 860,
+      "ranking_id": 861,
       "season_id": "s36_double_agents",
       "rating": -0.12
     },
     {
-      "ranking_id": 894,
+      "ranking_id": 895,
       "season_id": "s37_spies_lies_allies",
       "rating": 0.188
     },
     {
-      "ranking_id": 948,
+      "ranking_id": 949,
       "season_id": "s38_ride_or_dies",
       "rating": 0.023
     }

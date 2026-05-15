@@ -8,12 +8,12 @@
     "peak_season_id": "s08_the_inferno",
     "active_rating": -0.193,
     "active_season_id": "s40_battle_of_the_eras",
-    "n_seasons": 12,
+    "n_seasons": 13,
     "n_snapshots": 21,
     "championships": 4,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
-    "elim_wins": 8,
+    "elim_wins": 9,
     "elim_losses": 8,
     "daily_wins": 42
   },
@@ -120,6 +120,29 @@
       "partners_history": [
         "Amber Borzotra"
       ],
+      "team": "",
+      "forced_exit": false
+    },
+    {
+      "season_id": "s31_vendettas",
+      "season_num": 31,
+      "season_name": "Vendettas",
+      "year": 2018,
+      "label": "S31 Vendettas (2018)",
+      "finish": "Mercenary in Yankin' My Chain",
+      "finish_label": "Mercenary",
+      "finish_episode": "Yankin' My Chain",
+      "elim_position": null,
+      "elim_total": null,
+      "eliminated_by": [],
+      "rating_at_end": -0.0,
+      "rank": 11,
+      "rank_total": 17,
+      "daily_wins": 0,
+      "elim_wins": 1,
+      "elim_losses": 0,
+      "partner": "",
+      "partners_history": [],
       "team": "",
       "forced_exit": false
     },
@@ -361,22 +384,27 @@
       "rating": 0.118
     },
     {
-      "ranking_id": 860,
+      "ranking_id": 710,
+      "season_id": "s31_vendettas",
+      "rating": -0.0
+    },
+    {
+      "ranking_id": 861,
       "season_id": "s36_double_agents",
       "rating": 0.246
     },
     {
-      "ranking_id": 948,
+      "ranking_id": 949,
       "season_id": "s38_ride_or_dies",
       "rating": -0.563
     },
     {
-      "ranking_id": 969,
+      "ranking_id": 970,
       "season_id": "s39_battle_for_a_new_champion",
       "rating": -0.405
     },
     {
-      "ranking_id": 1008,
+      "ranking_id": 1009,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.193
     }

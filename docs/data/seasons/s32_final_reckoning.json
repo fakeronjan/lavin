@@ -437,28 +437,6 @@
       {
         "rank": 4,
         "rank_total": 18,
-        "player": "Cara Maria Sorbello",
-        "rating": 0.344,
-        "n_events": 21,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 0,
-        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
-        "finish_label": "4th",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Marie Roda",
-        "partners_history": [
-          "Marie Roda"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
-        "rank_total": 18,
         "player": "Marie Roda",
         "rating": 0.344,
         "n_events": 21,
@@ -474,6 +452,28 @@
         "partner": "Cara Maria Sorbello",
         "partners_history": [
           "Cara Maria Sorbello"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
+        "rank_total": 18,
+        "player": "Cara Maria Sorbello",
+        "rating": 0.344,
+        "n_events": 21,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 0,
+        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
+        "finish_label": "4th",
+        "finish_episode": "Who Wants to Be a Millionaire?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Marie Roda",
+        "partners_history": [
+          "Marie Roda"
         ],
         "team": "",
         "forced_exit": false
@@ -633,31 +633,6 @@
       {
         "rank": 12,
         "rank_total": 18,
-        "player": "Veronica Portillo",
-        "rating": -0.326,
-        "n_events": 5,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 0,
-        "finish": "Eliminated in Redemption House of Cards",
-        "finish_label": "Eliminated",
-        "finish_episode": "Redemption House of Cards",
-        "elim_position": 2,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Brad Fiorenza",
-          "Kyle Christie"
-        ],
-        "partner": "CT Tamburello",
-        "partners_history": [
-          "CT Tamburello"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
-        "rank_total": 18,
         "player": "Britni Thornton",
         "rating": -0.326,
         "n_events": 5,
@@ -681,9 +656,34 @@
         "forced_exit": false
       },
       {
+        "rank": 13,
+        "rank_total": 18,
+        "player": "Veronica Portillo",
+        "rating": -0.326,
+        "n_events": 5,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 0,
+        "finish": "Eliminated in Redemption House of Cards",
+        "finish_label": "Eliminated",
+        "finish_episode": "Redemption House of Cards",
+        "elim_position": 2,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Brad Fiorenza",
+          "Kyle Christie"
+        ],
+        "partner": "CT Tamburello",
+        "partners_history": [
+          "CT Tamburello"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 14,
         "rank_total": 18,
-        "player": "Jemmye Carroll",
+        "player": "Jenna Compono",
         "rating": -0.347,
         "n_events": 12,
         "daily_wins": 0,
@@ -695,37 +695,15 @@
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Jenna Compono",
+        "partner": "Jemmye Carroll",
         "partners_history": [
-          "Jenna Compono"
+          "Jemmye Carroll"
         ],
         "team": "",
         "forced_exit": false
       },
       {
         "rank": 15,
-        "rank_total": 18,
-        "player": "Melissa Reeves",
-        "rating": -0.347,
-        "n_events": 12,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 0,
-        "finish": "Disqualified in Six Feet Under",
-        "finish_label": "Disqualified",
-        "finish_episode": "Six Feet Under",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Kam Williams",
-        "partners_history": [
-          "Kam Williams"
-        ],
-        "team": "",
-        "forced_exit": true
-      },
-      {
-        "rank": 16,
         "rank_total": 18,
         "player": "Kailah Casillas-Bird",
         "rating": -0.347,
@@ -747,9 +725,31 @@
         "forced_exit": true
       },
       {
+        "rank": 16,
+        "rank_total": 18,
+        "player": "Melissa Reeves",
+        "rating": -0.347,
+        "n_events": 12,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 0,
+        "finish": "Disqualified in Six Feet Under",
+        "finish_label": "Disqualified",
+        "finish_episode": "Six Feet Under",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Kam Williams",
+        "partners_history": [
+          "Kam Williams"
+        ],
+        "team": "",
+        "forced_exit": true
+      },
+      {
         "rank": 17,
         "rank_total": 18,
-        "player": "Jenna Compono",
+        "player": "Jemmye Carroll",
         "rating": -0.347,
         "n_events": 12,
         "daily_wins": 0,
@@ -761,9 +761,9 @@
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Jemmye Carroll",
+        "partner": "Jenna Compono",
         "partners_history": [
-          "Jemmye Carroll"
+          "Jenna Compono"
         ],
         "team": "",
         "forced_exit": false

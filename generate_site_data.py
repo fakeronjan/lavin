@@ -126,7 +126,7 @@ def standardize_finish(text):
     elif "twelfth place" in low:                label = "12th"
     elif re.search(r"\bbottom\s+(two|three|four|five|six|seven|eight|\d+)\b", low):
         label = "Eliminated"  # "Bottom Four" = group-eliminated in same event
-    elif "champion mercenary" in low:            label = "Mercenary"
+    elif "mercenary" in low:                     label = "Mercenary"
     elif "medically" in low or "medical" in low: label = "Medical DQ"
     elif "disqualif" in low:                    label = "Disqualified"
     elif "quit" in low:                         label = "Quit"
