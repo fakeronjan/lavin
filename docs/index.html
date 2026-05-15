@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LAVIN — The Challenge Power Rankings</title>
+<title>LAVIN - The Challenge Power Rankings</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -145,13 +145,13 @@
   .player.linked { cursor: pointer; color: #1a6b8a; }
   .player.linked:hover { text-decoration: underline; }
 
-  /* Standings table column sizing — let the Player column flex to take
+  /* Standings table column sizing - let the Player column flex to take
      remaining space; pin Daily/Elim narrow since they hold 1-2 digits. */
   .player-cell { width: auto; min-width: 160px; }
   .stat-narrow { width: 56px; text-align: center; }
   td.stat-narrow { text-align: center; }
 
-  /* Rating bar (DUNCAN-aligned) — pairs the numeric rating with a small
+  /* Rating bar (DUNCAN-aligned) - pairs the numeric rating with a small
      positive/negative bar so columns line up across sites in the fleet. */
   .rating-cell {
     font-weight: 700;
@@ -307,7 +307,7 @@
   <p class="subtitle">The Challenge Power Rankings · Beta</p>
   <p class="model-note">
     Head-to-head WLS ratings derived from elimination wins, daily wins, and finals placements across S5-S41.
-    Rating is a relative strength score — positive = above average, negative = below.
+    Rating is a relative strength score - positive = above average, negative = below.
     <strong>ERA</strong> = cumulative positive rating across career (quality × longevity).
     <strong>PEAK</strong> = highest end-of-season rating.
   </p>
@@ -352,7 +352,7 @@
     <button data-scope="all">All players</button>
   </div>
   <div class="controls">
-    <select id="player-select"><option value="">— Select a player —</option></select>
+    <select id="player-select"><option value="">- Select a player -</option></select>
   </div>
   <div id="player-content"><p class="empty">Select a player above.</p></div>
 </div>
@@ -401,7 +401,7 @@ const BASE = './data';
 let state = {
   standingsGender: 'M',
   playerGender: 'all',
-  playerScope: '3plus',   // '3plus' (default) | 'all' — filters the Player
+  playerScope: '3plus',   // '3plus' (default) | 'all' - filters the Player
                           // Summary dropdown. Deep-links from other tabs to
                           // 1-season players auto-switch scope to 'all'.
   championsGender: 'M',
@@ -421,26 +421,26 @@ async function fetchJSON(path) {
   return data;
 }
 
-// Fleet convention: no leading "+" on positive ratings — DUNCAN/ZIDANE/etc.
+// Fleet convention: no leading "+" on positive ratings - DUNCAN/ZIDANE/etc.
 // all show plain "1.23" / "-0.45". The negative sign is the only indicator.
 function fmtRating(r) {
-  if (r === null || r === undefined) return '—';
+  if (r === null || r === undefined) return '-';
   return r.toFixed(2);
 }
 
 function fmtEra(v) {
-  if (v === null || v === undefined) return '—';
+  if (v === null || v === undefined) return '-';
   return v.toFixed(1);
 }
 
 // DUNCAN-aligned rating bar: number on the left, small +/- bar on the right.
-// Bar width is clipped to a fixed [-2, 2] range — wide enough to encode
+// Bar width is clipped to a fixed [-2, 2] range - wide enough to encode
 // LAVIN's typical rating spread, narrow enough that small differences are
 // visible. (LAVIN ratings sit in a tighter band than DUNCAN's NBA scale.)
 const RATING_BAR_MIN = -2, RATING_BAR_MAX = 2, RATING_BAR_RANGE = 4;
 function ratingBar(rating) {
   if (rating === null || rating === undefined) {
-    return `<div class="rating-bar-wrap"><span class="rating-cell">—</span></div>`;
+    return `<div class="rating-bar-wrap"><span class="rating-cell">-</span></div>`;
   }
   const clipped = Math.max(RATING_BAR_MIN, Math.min(RATING_BAR_MAX, rating));
   let leftPct, widthPct;
@@ -460,18 +460,18 @@ function ratingBar(rating) {
   </div>`;
 }
 
-// Compact "W-L" elim record. Returns "—" when no elim activity (e.g. a
+// Compact "W-L" elim record. Returns "-" when no elim activity (e.g. a
 // player who only competed in dailies, was DQ'd before their first elim,
 // or appeared in seasons predating our elim chart parser's coverage).
 function fmtElim(w, l) {
   w = w || 0; l = l || 0;
-  if (w === 0 && l === 0) return '<span style="color:#bbb">—</span>';
+  if (w === 0 && l === 0) return '<span style="color:#bbb">-</span>';
   return `${w}-${l}`;
 }
 
 // "3 (out of 12)" rank cell with the total greyed out.
 function fmtRank(rank, total) {
-  if (rank == null) return '<span style="color:#bbb">—</span>';
+  if (rank == null) return '<span style="color:#bbb">-</span>';
   if (!total) return String(rank);
   return `${rank} <span style="color:#888;font-size:11px">(of ${total})</span>`;
 }
@@ -492,7 +492,7 @@ function renderPartnerContext(s) {
     ctx = s.team;
   }
   if (s.forced_exit) {
-    ctx += ' <span title="Shared exit — partner had the same DQ/quit. Attribution uncertain.">⚠️</span>';
+    ctx += ' <span title="Shared exit - partner had the same DQ/quit. Attribution uncertain.">⚠️</span>';
   }
   return ctx;
 }
@@ -538,7 +538,7 @@ function fmtFinish(textOrEntry) {
 
   // Visual hierarchy: keep the LABEL (Eliminated / Quit / DQ / etc.) at the
   // default cell size, and demote everything that follows (eliminator names,
-  // position, episode) to small grey — matches the "🥇 Champion · Finale
+  // position, episode) to small grey - matches the "🥇 Champion · Finale
   // Part II" pattern used by finalists.
   const ord = (n) => n + (['st','nd','rd'][((n+90)%100-10)%10-1] || 'th');
   const subBits = [];
@@ -633,11 +633,11 @@ async function renderStandings() {
 // PLAYER SUMMARY
 // ════════════════════════════════════════════════════════════════
 let playersIndex = null;
-let _playerSet   = null;  // Set of indexed player names — built once playersIndex loads
+let _playerSet   = null;  // Set of indexed player names - built once playersIndex loads
 
 // Render a player name as a linked span only if the player exists in
 // players_index.json. Recent first-season cast often aren't indexed yet
-// (rating eligibility threshold) — rendering them as `.linked` produces
+// (rating eligibility threshold) - rendering them as `.linked` produces
 // dead clicks. Unknown players render as plain inline text.
 function playerLink(name) {
   if (!name) return '';
@@ -661,7 +661,7 @@ async function loadPlayer() {
   const labelFor = state.playerGender === 'all'
     ? (p => `${p.player} · ${p.gender === 'M' ? 'M' : 'F'}`)
     : (p => p.player);
-  sel.innerHTML = '<option value="">— Select a player —</option>' +
+  sel.innerHTML = '<option value="">- Select a player -</option>' +
     filtered.map(p => `<option value="${p.safe_name}">${labelFor(p)}</option>`).join('');
   sel.addEventListener('change', renderPlayer, { once: false });
 }
@@ -692,7 +692,7 @@ async function renderPlayer() {
   `;
   const rows = p.seasons.map(s => {
     const ctx = renderPartnerContext(s);
-    // Pre-S5 (S2-S4) team-format seasons aren't in seasons_index — don't
+    // Pre-S5 (S2-S4) team-format seasons aren't in seasons_index - don't
     // link them. Mirrors the Champions tab pre_anchor handling.
     const seasonCell = (s.season_num != null && s.season_num < 5)
       ? `<td style="font-size:11px;color:#555">${s.label}</td>`
@@ -700,7 +700,7 @@ async function renderPlayer() {
     return `
     <tr>
       ${seasonCell}
-      <td style="font-size:12px;color:#666">${ctx || '<span style="color:#bbb">—</span>'}</td>
+      <td style="font-size:12px;color:#666">${ctx || '<span style="color:#bbb">-</span>'}</td>
       <td class="num col-hide-mobile">${s.daily_wins || 0}</td>
       <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
       <td>${fmtFinish(s)}</td>
@@ -820,7 +820,7 @@ function drawTimeline(p) {
 
 bindGenderPills('player-gender', 'playerGender', loadPlayer);
 
-// Scope pill ("3+ seasons" vs "All players") — same UI pattern as the
+// Scope pill ("3+ seasons" vs "All players") - same UI pattern as the
 // gender pills, different state key.
 document.querySelectorAll('#player-scope button').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -862,7 +862,7 @@ function renderChampions() {
   }
   const seasons = Object.values(bySeason).sort((a, b) => b.season_num - a.season_num);
 
-  // Cell renderers — DUNCAN-aligned: emoji replaces "#" prefix, count is
+  // Cell renderers - DUNCAN-aligned: emoji replaces "#" prefix, count is
   // small grey trailing the player name, champion column gets pale-gold
   // background (.col-champ), runner-up column gets silver (.col-ru).
   const champCell = arr => arr.length
@@ -872,7 +872,7 @@ function renderChampions() {
           : '';
         return `${playerLink(c.player)}${total}`;
       }).join('<br>')
-    : '<span style="color:#bbb">—</span>';
+    : '<span style="color:#bbb">-</span>';
   const ruCell = arr => arr.length
     ? arr.map(c => {
         const total = c.runner_up_no
@@ -880,7 +880,7 @@ function renderChampions() {
           : '';
         return `${playerLink(c.player)}${total}`;
       }).join('<br>')
-    : '<span style="color:#bbb">—</span>';
+    : '<span style="color:#bbb">-</span>';
 
   // Pre-anchor seasons (S2-S4) aren't in seasons_index.json (Standings dropdown
   // is S5+ only), so leave those cells unlinked.
@@ -933,7 +933,7 @@ function renderGoat() {
   for (const g of ['M', 'F']) {
     const wrap = document.getElementById(`goat-table-${g}`);
     if (state.goatView === 'career') {
-      // Original "Best Careers" view — Total ERA + Peak + Sn + Finals + Champs
+      // Original "Best Careers" view - Total ERA + Peak + Sn + Finals + Champs
       const list = state._goat.career[g] || [];
       const rows = list.map(p => `
         <tr>
@@ -955,9 +955,9 @@ function renderGoat() {
         </table>
       `;
     } else if (state.goatView === 'components') {
-      // Component-breakdown view — Total + 4 isolation ERAs, sortable.
+      // Component-breakdown view - Total + 4 isolation ERAs, sortable.
       // Each cell also shows the player's share of THEIR OWN dimension
-      // sum (4 components only — Total isn't counted in the pie).
+      // sum (4 components only - Total isn't counted in the pie).
       const list = (state._goat.career[g] || []).slice()
         .sort((a, b) => (b[state.goatSort] ?? 0) - (a[state.goatSort] ?? 0));
       const dim = state.goatSort;
@@ -1035,7 +1035,7 @@ function setGoatView(v) {
   // Update the note
   const notes = {
     career:     'Top 50 careers by sum of positive end-of-season ratings. Rewards quality × longevity.',
-    components: 'Same Top 50 as Best Careers, but each ERA column is computed from an isolation run (only that event type counts). Columns are NOT additive — they show which dimension drives each player.',
+    components: 'Same Top 50 as Best Careers, but each ERA column is computed from an isolation run (only that event type counts). Columns are NOT additive - they show which dimension drives each player.',
     seasons:    'Top 50 single-season ratings (end-of-season rating, filtered to that season\'s cast).',
   };
   document.getElementById('goat-note').textContent = notes[v];
