@@ -38,6 +38,7 @@
       "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "Challengers",
@@ -63,6 +64,7 @@
       "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "Veterans",
@@ -88,6 +90,7 @@
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -111,6 +114,7 @@
       "daily_wins": 0,
       "elim_wins": 8,
       "elim_losses": 2,
+      "elim_loss_survived": true,
       "partner": "Wes Bergmann",
       "partners_history": [
         "Wes Bergmann"

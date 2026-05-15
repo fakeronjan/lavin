@@ -36,6 +36,7 @@
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "Team USA",
@@ -62,6 +63,7 @@
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "Zahida Allen",
       "partners_history": [
         "Zahida Allen"
@@ -90,6 +92,7 @@
       "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
+      "elim_loss_survived": true,
       "partner": "Amanda Garcia",
       "partners_history": [
         "Amanda Garcia"
@@ -115,6 +118,7 @@
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -140,6 +144,7 @@
       "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -166,6 +171,7 @@
       "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "Jonna Mannion",
       "partners_history": [
         "Jonna Mannion"
@@ -191,6 +197,7 @@
       "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 0,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -217,6 +224,7 @@
       "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
+      "elim_loss_survived": true,
       "partner": "Trey Weatherholtz",
       "partners_history": [
         "Trey Weatherholtz"
@@ -242,6 +250,7 @@
       "daily_wins": 2,
       "elim_wins": 2,
       "elim_losses": 0,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "San Diego",

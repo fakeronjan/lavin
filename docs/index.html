@@ -463,10 +463,16 @@ function ratingBar(rating) {
 // Compact "W-L" elim record. Returns "-" when no elim activity (e.g. a
 // player who only competed in dailies, was DQ'd before their first elim,
 // or appeared in seasons predating our elim chart parser's coverage).
-function fmtElim(w, l) {
+// When `survived` is true, append an asterisk: the player lost an elim
+// round but did not end the season as Eliminated (Redemption / Mercenary /
+// Purgatory comeback, or multi-elim mechanic like BotE2's double-cross).
+function fmtElim(w, l, survived) {
   w = w || 0; l = l || 0;
   if (w === 0 && l === 0) return '<span style="color:#bbb">-</span>';
-  return `${w}-${l}`;
+  const star = survived
+    ? '<sup title="Lost an elim round but did not end the season as Eliminated (comeback mechanic, mercenary role, or multi-elim format).">*</sup>'
+    : '';
+  return `${w}-${l}${star}`;
 }
 
 // "3 (out of 12)" rank cell with the total greyed out.
@@ -606,7 +612,7 @@ async function renderStandings() {
         <td class="rank-cell">${s.rank}</td>
         <td class="player-cell">${playerLink(s.player)}${ctxHtml}</td>
         <td class="num stat-narrow col-hide-mobile">${s.daily_wins || 0}</td>
-        <td class="num stat-narrow col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
+        <td class="num stat-narrow col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses, s.elim_loss_survived)}</td>
         <td>${fmtFinish(s)}</td>
         <td>${ratingBar(s.rating)}</td>
       </tr>
@@ -702,7 +708,7 @@ async function renderPlayer() {
       ${seasonCell}
       <td style="font-size:12px;color:#666">${ctx || '<span style="color:#bbb">-</span>'}</td>
       <td class="num col-hide-mobile">${s.daily_wins || 0}</td>
-      <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses)}</td>
+      <td class="num col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses, s.elim_loss_survived)}</td>
       <td>${fmtFinish(s)}</td>
       <td class="rank-cell">${fmtRank(s.rank, s.rank_total)}</td>
       <td>${ratingBar(s.rating_at_end)}</td>

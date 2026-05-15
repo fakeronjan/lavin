@@ -433,6 +433,9 @@ def main():
                 f_label, f_ep = standardize_finish(finish_str)
                 forced_exit = bool(partner) and f_label in ("Disqualified", "Quit", "Medical DQ", "Removed")
                 ep = elim_pos.get((sid, p))
+                _ew = int(elim_wins_per_season.get((sid, p), 0))
+                _el = int(elim_losses_per_season.get((sid, p), 0))
+                _survived = _el > 0 and (f_label != "Eliminated" or _el > 1)
                 rows.append({
                     "rank": i,
                     "rank_total": len(g_snap),
@@ -440,8 +443,9 @@ def main():
                     "rating": round(float(row["rating"]), 3),
                     "n_events": int(row["n_events"]),
                     "daily_wins":  int(daily_wins_per_season.get((sid, p), 0)),
-                    "elim_wins":   int(elim_wins_per_season.get((sid, p), 0)),
-                    "elim_losses": int(elim_losses_per_season.get((sid, p), 0)),
+                    "elim_wins":   _ew,
+                    "elim_losses": _el,
+                    "elim_loss_survived": _survived,
                     "finish": finish_str,
                     "finish_label": f_label,
                     "finish_episode": f_ep,
@@ -784,6 +788,10 @@ def main():
                 "daily_wins":  int(daily_wins_per_season.get((sid, p), 0)),
                 "elim_wins":   int(elim_wins_per_season.get((sid, p), 0)),
                 "elim_losses": int(elim_losses_per_season.get((sid, p), 0)),
+                "elim_loss_survived": (
+                    int(elim_losses_per_season.get((sid, p), 0)) > 0
+                    and (f_label != "Eliminated" or int(elim_losses_per_season.get((sid, p), 0)) > 1)
+                ),
                 "partner": partner,
                 "partners_history": partners_history,
                 "team": team,
