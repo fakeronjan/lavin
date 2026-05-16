@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.1,
+    "peak_rating": 0.096,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.266,
     "active_season_id": "s09_battle_of_the_sexes_2",
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Cara Zavaleta"
       ],
-      "rating_at_end": -0.145,
+      "rating_at_end": -0.143,
       "rank": 9,
       "rank_total": 14,
       "daily_wins": 5,
@@ -58,7 +58,7 @@
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": 0.1,
+      "rating_at_end": 0.096,
       "rank": 6,
       "rank_total": 18,
       "daily_wins": 1,
@@ -75,12 +75,12 @@
     {
       "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.1
+      "rating": 0.096
     },
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.145
+      "rating": -0.143
     }
   ]
 }

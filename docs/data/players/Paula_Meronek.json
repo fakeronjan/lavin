@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 2.6,
-    "peak_rating": 1.028,
+    "peak_rating": 1.032,
     "peak_season_id": "s24_rivals_ii",
     "active_rating": 1.067,
     "active_season_id": "s25_free_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 23
+    "daily_wins": 29
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.028,
-      "rank": 2,
+      "rating_at_end": 1.032,
+      "rank": 1,
       "rank_total": 17,
       "daily_wins": 6,
       "elim_wins": 0,
@@ -168,7 +168,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": 0.032,
+      "rating_at_end": 0.045,
       "rank": 9,
       "rank_total": 12,
       "daily_wins": 0,
@@ -192,7 +192,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.135,
+      "rating_at_end": 0.151,
       "rank": 5,
       "rank_total": 10,
       "daily_wins": 0,
@@ -216,10 +216,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.006,
+      "rating_at_end": 0.024,
       "rank": 9,
       "rank_total": 16,
-      "daily_wins": 4,
+      "daily_wins": 10,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -293,17 +293,17 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.006
+      "rating": 0.024
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.135
+      "rating": 0.151
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.032
+      "rating": 0.045
     },
     {
       "ranking_id": 355,
@@ -328,7 +328,7 @@
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": 1.028
+      "rating": 1.032
     }
   ]
 }

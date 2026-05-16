@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.119,
+    "peak_rating": -0.126,
     "peak_season_id": "s17_the_duel_ii",
     "active_rating": -0.428,
     "active_season_id": "s19_fresh_meat_ii",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": -0.119,
-      "rank": 10,
+      "rating_at_end": -0.126,
+      "rank": 11,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Ryan Kehoe"
       ],
-      "rating_at_end": -0.702,
+      "rating_at_end": -0.819,
       "rank": 17,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -75,12 +75,12 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.702
+      "rating": -0.819
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.119
+      "rating": -0.126
     }
   ]
 }

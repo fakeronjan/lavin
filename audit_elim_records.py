@@ -34,8 +34,17 @@ def build_season_map():
     """
     seasons = pd.read_csv(HERE / "seasons.csv")
     m = {}
+    seen_keys = {}  # key -> sid, to detect ambiguous keys (BotS 2002 vs 2012)
     def add(k, sid):
-        m[k.lower().strip()] = sid
+        k = k.lower().strip()
+        if k in seen_keys and seen_keys[k] != sid:
+            # Ambiguous — drop the key entirely rather than letting later
+            # seasons silently override earlier ones (was attributing S5 BotS
+            # wins to S23 BotS 2012).
+            m.pop(k, None)
+            return
+        seen_keys[k] = sid
+        m[k] = sid
     for _, r in seasons.iterrows():
         sid = r["season_id"]
         pn, sn = r["page_name"], r["season_name"]

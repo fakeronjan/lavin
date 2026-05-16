@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.9,
-    "peak_rating": 0.81,
+    "peak_rating": 0.811,
     "peak_season_id": "s15_the_gauntlet_iii",
     "active_rating": 1.038,
     "active_season_id": "s18_the_ruins",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 1,
-    "daily_wins": 5
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.81,
+      "rating_at_end": 0.811,
       "rank": 1,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 5,
       "elim_wins": 3,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -78,7 +78,7 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.81
+      "rating": 0.811
     }
   ]
 }

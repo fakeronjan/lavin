@@ -4,8 +4,8 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.18,
-    "peak_season_id": "s17_the_duel_ii",
+    "peak_rating": -0.192,
+    "peak_season_id": "s40_battle_of_the_eras",
     "active_rating": -0.565,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 3
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -87,7 +87,7 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": -0.18,
+      "rating_at_end": -0.223,
       "rank": 12,
       "rank_total": 15,
       "daily_wins": 0,
@@ -111,7 +111,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.21,
+      "rating_at_end": -0.281,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 0,
@@ -137,10 +137,10 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": -0.287,
-      "rank": 9,
+      "rating_at_end": -0.429,
+      "rank": 10,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -188,17 +188,17 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.287
+      "rating": -0.429
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.21
+      "rating": -0.281
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.18
+      "rating": -0.223
     },
     {
       "ranking_id": 355,

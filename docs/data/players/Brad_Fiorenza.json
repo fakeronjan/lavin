@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 3.2,
-    "peak_rating": 0.764,
+    "peak_rating": 0.794,
     "peak_season_id": "s17_the_duel_ii",
     "active_rating": -0.467,
     "active_season_id": "s40_battle_of_the_eras",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 7,
     "elim_losses": 7,
-    "daily_wins": 23
+    "daily_wins": 29
   },
   "seasons": [
     {
@@ -161,7 +161,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.389,
+      "rating_at_end": 0.396,
       "rank": 6,
       "rank_total": 14,
       "daily_wins": 1,
@@ -185,7 +185,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.764,
+      "rating_at_end": 0.794,
       "rank": 3,
       "rank_total": 15,
       "daily_wins": 0,
@@ -209,10 +209,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.351,
+      "rating_at_end": 0.393,
       "rank": 3,
       "rank_total": 17,
-      "daily_wins": 4,
+      "daily_wins": 10,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -348,17 +348,17 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.351
+      "rating": 0.393
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.764
+      "rating": 0.794
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.389
+      "rating": 0.396
     },
     {
       "ranking_id": 373,

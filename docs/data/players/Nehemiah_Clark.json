@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 1.6,
-    "peak_rating": 0.8,
+    "peak_rating": 0.803,
     "peak_season_id": "s17_the_duel_ii",
     "active_rating": -0.519,
     "active_season_id": "s41_vets_and_new_threats",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 3,
-    "daily_wins": 4
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -85,7 +85,7 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": 0.8,
+      "rating_at_end": 0.803,
       "rank": 2,
       "rank_total": 15,
       "daily_wins": 0,
@@ -109,10 +109,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.779,
+      "rating_at_end": 0.773,
       "rank": 2,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 5,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -157,12 +157,12 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.779
+      "rating": 0.773
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.8
+      "rating": 0.803
     },
     {
       "ranking_id": 406,

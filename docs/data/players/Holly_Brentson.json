@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.367,
+    "peak_rating": 0.398,
     "peak_season_id": "s05_battle_of_the_seasons",
-    "active_rating": -0.053,
+    "active_rating": -0.031,
     "active_season_id": "s07_the_gauntlet",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 0,
-    "daily_wins": 2
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.367,
+      "rating_at_end": 0.398,
       "rank": 4,
       "rank_total": 16,
-      "daily_wins": 2,
+      "daily_wins": 3,
       "elim_wins": 5,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -49,7 +49,7 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.367
+      "rating": 0.398
     }
   ]
 }

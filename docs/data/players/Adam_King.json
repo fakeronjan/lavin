@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.235,
+    "peak_rating": 0.277,
     "peak_season_id": "s15_the_gauntlet_iii",
     "active_rating": -0.02,
     "active_season_id": "s22_battle_of_the_exes",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 4,
-    "daily_wins": 10
+    "daily_wins": 16
   },
   "seasons": [
     {
@@ -61,7 +61,7 @@
       "eliminated_by": [
         "Syrus Yarbrough"
       ],
-      "rating_at_end": -0.186,
+      "rating_at_end": -0.178,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 1,
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.219,
+      "rating_at_end": 0.257,
       "rank": 6,
       "rank_total": 15,
       "daily_wins": 0,
@@ -109,10 +109,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.235,
+      "rating_at_end": 0.277,
       "rank": 6,
       "rank_total": 17,
-      "daily_wins": 4,
+      "daily_wins": 10,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -188,17 +188,17 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.235
+      "rating": 0.277
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.219
+      "rating": 0.257
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.186
+      "rating": -0.178
     },
     {
       "ranking_id": 406,

@@ -15,6 +15,64 @@ API = "https://thechallenge.fandom.com/api.php"
 UA = "lavin-research/0.1 (rjsikdar@gmail.com)"
 
 
+# Manual season-level team rosters. Use this when the cast page doesn't
+# expose team labels in a way the contestants parser can pick up, but the
+# elimination chart's daily-winner column uses team names that we need to
+# expand into rosters (BotS-style "Power Team" charts). Manual entries
+# take precedence over auto-detected ones; missing seasons fall back to
+# whatever the cast parser found in the `team` column.
+MANUAL_TEAM_ROSTERS = {
+    "s05_battle_of_the_seasons": {
+        "Real World": [
+            "Sean Duffy", "Elka Walker", "Mike Mizanin", "Coral Smith",
+            "Danny Roberts", "Kelley Limp", "Norman Korpi", "Becky Blasband",
+            "Mike Lambert", "Flora Alekseyeva", "Stephen Williams",
+            "Lindsay Brien", "Mike Johnson", "Sharon Gitau", "Jon Brennan",
+            "Beth Stolarczyk",
+        ],
+        "Road Rules": [
+            "Theo von Kurnatowski", "Holly Brentson", "Dan Setzler",
+            "Tara McDaniel", "Timmy Beggy", "Emily Bailey", "Josh Florence",
+            "Holly Shand", "Adam Larson", "Jisela Delgado", "Chris Melling",
+            "Belou Den Tex", "Chadwick Pelletier", "Piggy Thomas", "Yes Duffy",
+            "Veronica Portillo",
+        ],
+    },
+    "s23_battle_of_the_seasons_2012": {
+        "Team Austin": ["Danny Jamieson", "Melinda Collins", "Lacey Buehler", "Wes Bergmann"],
+        "Team Brooklyn": ["Chet Cannon", "Devyn Simone", "JD Ordoñez", "Sarah Rice"],
+        "Team Cancun": ["Derek Chavez", "Jonna Mannion", "CJ Koegel", "Jasmine Reynaud"],
+        "Team Fresh Meat": ["Camila Nakagawa", "Big Easy Banks", "Brandon Nelson", "Cara Maria Sorbello"],
+        "Team Las Vegas": ["Dustin Zito", "Trishelle Cannatella", "Alton Williams", "Nany González"],
+        "Team New Orleans": ["Jemmye Carroll", "Ryan Knight", "McKenzie Coburn", "Preston Roberson-Charles"],
+        "Team San Diego": ["Ashley Kelsey", "Frank Fox", "Sam McGinn", "Zach Nichols"],
+        "Team St. Thomas": ["Marie Roda", "Robb Schreiber", "Laura Waller", "Trey Weatherholtz"],
+    },
+    "s40_battle_of_the_eras": {
+        "Era I": [
+            "Rachel Robinson", "Derrick Kosinski", "Darrell Taylor", "Tina Barta",
+            "Brad Fiorenza", "CT Tamburello", "Aneesa Ferreira", "Jodi Weatherton",
+            "Katie Cooley", "Mark Long",
+        ],
+        "Era II": [
+            "Derek Chavez", "Johnny Bananas", "Cara Maria Sorbello", "Aviv Melmed",
+            "Nehemiah Clark", "Laurel Stucky", "Ryan Kehoe", "Emily Schromm",
+            "Brandon Nelson", "KellyAnne Judd",
+        ],
+        "Era III": [
+            "Jordan Wiseley", "Tori Deal", "Cory Wharton", "Nia Moore",
+            "Devin Walker", "Averey Tressler", "Jonna Mannion", "Tony Raines",
+            "Leroy Garrett", "Amanda Garcia",
+        ],
+        "Era IV": [
+            "Jenny West", "Michele Fitzgerald", "Kyland Young", "Josh Martinez",
+            "Olivia Kaiser", "Theo Campbell", "Kaycee Clark", "Horacio Gutiérrez Jr.",
+            "Nurys Mateo", "Paulie Calafiore",
+        ],
+    },
+}
+
+
 # ---------------------------------------------------------
 # Fetch
 # ---------------------------------------------------------
@@ -903,10 +961,16 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
         # Scan the leading text cells (2 and 3) for a known team name. S20
         # Cutthroat puts the team name at cell[2]; S15 Gauntlet III etc.
         # put a Gender label at cell[2] and the team name at cell[3].
-        if not is_continuation and team_lower:
-            for cand_idx in (2, 3):
-                if cand_idx >= len(cells):
-                    break
+        # Look for a team name. For double-daily formats like S15 Gauntlet III
+        # the team-name cell sits on the continuation row too (each row has
+        # its own female daily challenge with its own winning team), so the
+        # lookup must run for both row types. To avoid mis-firing on S20-
+        # Cutthroat continuation rows (where the team-name cell is bled in
+        # by rowspan from the parent row, not actually a new daily), only
+        # check NATIVE cells on continuation rows.
+        if team_lower:
+            scan_limit = native_len if is_continuation else len(cells)
+            for cand_idx in range(2, min(5, scan_limit)):
                 if _is_player_cell(cells[cand_idx]):
                     continue
                 text = _cell_plain(cells[cand_idx]).strip().lower()
@@ -1031,6 +1095,17 @@ def scrape_season(season_id, page_name, out_dir):
         t = str(c.get("team") or "").strip()
         if t:
             team_rosters.setdefault(t, []).append(c["player"])
+
+    # Merge in any season-level manual team-roster overrides. These are
+    # necessary when the cast page doesn't expose explicit team labels but
+    # the elim chart's daily-winner column uses team names (BotS-style
+    # seasons whose teams group by Real World city, era, franchise, etc.).
+    # Manual entries take precedence on conflicts so we can fix mis-parsed
+    # cast entries (S40 Era assignments leaking origin URLs into team).
+    manual = MANUAL_TEAM_ROSTERS.get(season_id)
+    if manual:
+        for tn, players in manual.items():
+            team_rosters[tn] = list(players)
 
     # Players who exited mid-season (QUIT / MED-DQ / withdrew) per Episode
     # Progress table — filters out over-credits in team-roster expansions

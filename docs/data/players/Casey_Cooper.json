@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 8,
     "elim_losses": 5,
-    "daily_wins": 5
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": -0.229,
+      "rating_at_end": -0.242,
       "rank": 11,
       "rank_total": 14,
       "daily_wins": 1,
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Evelyn Smith"
       ],
-      "rating_at_end": -0.259,
+      "rating_at_end": -0.292,
       "rank": 11,
       "rank_total": 16,
-      "daily_wins": 4,
+      "daily_wins": 9,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -137,12 +137,12 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.259
+      "rating": -0.292
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.229
+      "rating": -0.242
     }
   ]
 }

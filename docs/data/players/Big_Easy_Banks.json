@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.174,
+    "peak_rating": 0.211,
     "peak_season_id": "s15_the_gauntlet_iii",
     "active_rating": -0.851,
     "active_season_id": "s25_free_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 6
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -33,8 +33,8 @@
         "JD Ordo\u00f1ez",
         "Devyn Simone"
       ],
-      "rating_at_end": -0.345,
-      "rank": 7,
+      "rating_at_end": -0.389,
+      "rank": 10,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 2,
@@ -85,7 +85,7 @@
       "eliminated_by": [
         "Derek McCray"
       ],
-      "rating_at_end": -0.012,
+      "rating_at_end": 0.011,
       "rank": 8,
       "rank_total": 15,
       "daily_wins": 0,
@@ -109,10 +109,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.174,
+      "rating_at_end": 0.211,
       "rank": 7,
       "rank_total": 17,
-      "daily_wins": 4,
+      "daily_wins": 10,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -191,12 +191,12 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.174
+      "rating": 0.211
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.012
+      "rating": 0.011
     },
     {
       "ranking_id": 373,
@@ -206,7 +206,7 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.345
+      "rating": -0.389
     }
   ]
 }
