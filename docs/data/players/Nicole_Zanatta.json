@@ -3,10 +3,10 @@
   "safe_name": "Nicole_Zanatta",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.346,
+    "era_rating": 0.9,
+    "peak_rating": 0.513,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.425,
+    "active_rating": -0.319,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.289,
-      "rank": 12,
+      "rating_at_end": -0.184,
+      "rank": 11,
       "rank_total": 15,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.343,
+      "rating_at_end": 0.381,
       "rank": 5,
       "rank_total": 18,
       "daily_wins": 1,
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.346,
+      "rating_at_end": 0.513,
       "rank": 4,
       "rank_total": 13,
       "daily_wins": 2,
@@ -97,17 +97,17 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.346
+      "rating": 0.513
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.343
+      "rating": 0.381
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.289
+      "rating": -0.184
     }
   ]
 }

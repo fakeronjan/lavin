@@ -3,10 +3,10 @@
   "safe_name": "Svetlana_Shusterman",
   "gender": "F",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 1.052,
+    "era_rating": 1.0,
+    "peak_rating": 1.024,
     "peak_season_id": "s13_the_duel",
-    "active_rating": 0.616,
+    "active_rating": 0.639,
     "active_season_id": "s16_the_island",
     "n_seasons": 1,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 0,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.052,
+      "rating_at_end": 1.024,
       "rank": 2,
       "rank_total": 10,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 3,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -47,7 +47,7 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 1.052
+      "rating": 1.024
     }
   ]
 }

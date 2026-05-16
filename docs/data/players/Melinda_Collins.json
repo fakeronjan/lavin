@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.068,
+    "peak_rating": -0.121,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.752,
+    "active_rating": -0.71,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 4,
-    "daily_wins": 4
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Camila Nakagawa",
         "Big Easy Banks"
       ],
-      "rating_at_end": -0.068,
+      "rating_at_end": -0.121,
       "rank": 14,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,8 +59,8 @@
       "eliminated_by": [
         "Emily Schromm"
       ],
-      "rating_at_end": -0.381,
-      "rank": 10,
+      "rating_at_end": -0.345,
+      "rank": 9,
       "rank_total": 15,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -85,7 +85,7 @@
       "eliminated_by": [
         "Tori Hall"
       ],
-      "rating_at_end": -0.584,
+      "rating_at_end": -0.59,
       "rank": 14,
       "rank_total": 16,
       "daily_wins": 1,
@@ -136,17 +136,17 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.584
+      "rating": -0.59
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.381
+      "rating": -0.345
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.068
+      "rating": -0.121
     }
   ]
 }

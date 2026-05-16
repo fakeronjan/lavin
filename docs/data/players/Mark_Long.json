@@ -3,10 +3,10 @@
   "safe_name": "Mark_Long",
   "gender": "M",
   "career": {
-    "era_rating": 1.4,
+    "era_rating": 1.5,
     "peak_rating": 0.739,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.357,
+    "active_rating": -0.519,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 11,
     "elim_losses": 3,
-    "daily_wins": 11
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.357,
-      "rank": 16,
+      "rating_at_end": -0.519,
+      "rank": 19,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,7 +59,7 @@
         "Johnny Bananas",
         "Camila Nakagawa"
       ],
-      "rating_at_end": 0.0,
+      "rating_at_end": 0.002,
       "rank": 6,
       "rank_total": 12,
       "daily_wins": 1,
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.466,
+      "rating_at_end": 0.568,
       "rank": 4,
       "rank_total": 15,
       "daily_wins": 1,
@@ -109,7 +109,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.015,
+      "rating_at_end": -0.006,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 6,
@@ -135,8 +135,8 @@
       "eliminated_by": [
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": 0.153,
-      "rank": 7,
+      "rating_at_end": 0.192,
+      "rank": 6,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -181,27 +181,27 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.153
+      "rating": 0.192
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.015
+      "rating": -0.006
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.466
+      "rating": 0.568
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.0
+      "rating": 0.002
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.357
+      "rating": -0.519
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Nia_Moore",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.645,
+    "era_rating": 0.7,
+    "peak_rating": 0.68,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.398,
+    "active_rating": -0.423,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.398,
+      "rating_at_end": -0.423,
       "rank": 14,
       "rank_total": 17,
       "daily_wins": 0,
@@ -60,8 +60,8 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": -0.231,
-      "rank": 12,
+      "rating_at_end": -0.058,
+      "rank": 9,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 1,
@@ -84,7 +84,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.645,
+      "rating_at_end": 0.68,
       "rank": 2,
       "rank_total": 13,
       "daily_wins": 1,
@@ -112,7 +112,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.427,
+      "rating_at_end": -0.373,
       "rank": 12,
       "rank_total": 14,
       "daily_wins": 0,
@@ -129,22 +129,22 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.427
+      "rating": -0.373
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.645
+      "rating": 0.68
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.231
+      "rating": -0.058
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.398
+      "rating": -0.423
     }
   ]
 }

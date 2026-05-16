@@ -3,10 +3,10 @@
   "safe_name": "Faysal_Shafaat",
   "gender": "M",
   "career": {
-    "era_rating": 1.7,
-    "peak_rating": 0.501,
+    "era_rating": 1.8,
+    "peak_rating": 0.572,
     "peak_season_id": "s35_total_madness",
-    "active_rating": 0.072,
+    "active_rating": 0.074,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 1,
-    "daily_wins": 10
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Johnny Bananas",
         "Nany Gonz\u00e1lez"
       ],
-      "rating_at_end": 0.345,
+      "rating_at_end": 0.3,
       "rank": 5,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,8 +59,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.328,
-      "rank": 7,
+      "rating_at_end": 0.429,
+      "rank": 5,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -83,10 +83,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.499,
+      "rating_at_end": 0.533,
       "rank": 4,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -107,8 +107,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.501,
-      "rank": 5,
+      "rating_at_end": 0.572,
+      "rank": 4,
       "rank_total": 14,
       "daily_wins": 3,
       "elim_wins": 1,
@@ -122,24 +122,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.501
+      "rating": 0.572
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.499
+      "rating": 0.533
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.328
+      "rating": 0.429
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.345
+      "rating": 0.3
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Joss_Mooney",
   "gender": "M",
   "career": {
-    "era_rating": 1.2,
-    "peak_rating": 0.817,
+    "era_rating": 1.3,
+    "peak_rating": 0.834,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.014,
+    "active_rating": 0.074,
     "active_season_id": "s36_double_agents",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.392,
+      "rating_at_end": 0.429,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 1,
@@ -54,7 +54,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.817,
+      "rating_at_end": 0.834,
       "rank": 2,
       "rank_total": 15,
       "daily_wins": 1,
@@ -82,9 +82,9 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.074,
-      "rank": 12,
-      "rank_total": 17,
+      "rating_at_end": -0.028,
+      "rank": 11,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
@@ -97,19 +97,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.074
+      "rating": -0.028
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 0.817
+      "rating": 0.834
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.392
+      "rating": 0.429
     }
   ]
 }

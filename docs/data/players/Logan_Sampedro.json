@@ -3,10 +3,10 @@
   "safe_name": "Logan_Sampedro",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.47,
+    "era_rating": 0.3,
+    "peak_rating": 0.345,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": -0.075,
+    "active_rating": -0.407,
     "active_season_id": "s38_ride_or_dies",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 1,
-    "daily_wins": 4
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Emanuel Neagu"
       ],
-      "rating_at_end": 0.47,
-      "rank": 5,
+      "rating_at_end": 0.345,
+      "rank": 6,
       "rank_total": 18,
-      "daily_wins": 4,
+      "daily_wins": 2,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -50,9 +50,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.47
+      "rating": 0.345
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 4.3,
-    "peak_rating": 1.012,
+    "peak_rating": 0.971,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": 0.701,
+    "active_rating": 0.694,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 8,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 3,
-    "daily_wins": 28
+    "daily_wins": 24
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.515,
+      "rating_at_end": 0.501,
       "rank": 3,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.012,
+      "rating_at_end": 0.971,
       "rank": 2,
       "rank_total": 13,
       "daily_wins": 5,
@@ -82,10 +82,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.852,
-      "rank": 1,
+      "rating_at_end": 0.748,
+      "rank": 3,
       "rank_total": 14,
-      "daily_wins": 11,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -106,7 +106,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.379,
+      "rating_at_end": 0.429,
       "rank": 2,
       "rank_total": 10,
       "daily_wins": 0,
@@ -130,8 +130,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.266,
-      "rank": 6,
+      "rating_at_end": 0.309,
+      "rank": 4,
       "rank_total": 17,
       "daily_wins": 4,
       "elim_wins": 0,
@@ -154,7 +154,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.362,
+      "rating_at_end": 0.356,
       "rank": 2,
       "rank_total": 11,
       "daily_wins": 4,
@@ -180,8 +180,8 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": 0.336,
-      "rank": 5,
+      "rating_at_end": 0.335,
+      "rank": 4,
       "rank_total": 10,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -228,37 +228,37 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.336
+      "rating": 0.335
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.362
+      "rating": 0.356
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.266
+      "rating": 0.309
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.379
+      "rating": 0.429
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.852
+      "rating": 0.748
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 1.012
+      "rating": 0.971
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.515
+      "rating": 0.501
     }
   ]
 }

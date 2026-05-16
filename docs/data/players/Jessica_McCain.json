@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.234,
+    "peak_rating": -0.258,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.062,
+    "active_rating": 0.023,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -33,7 +33,7 @@
         "Amanda Garcia",
         "Nelson Thomas"
       ],
-      "rating_at_end": -0.234,
+      "rating_at_end": -0.258,
       "rank": 8,
       "rank_total": 14,
       "daily_wins": 0,
@@ -62,7 +62,7 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.591,
+      "rating_at_end": -0.569,
       "rank": 11,
       "rank_total": 13,
       "daily_wins": 0,
@@ -90,7 +90,7 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.409,
+      "rating_at_end": -0.372,
       "rank": 11,
       "rank_total": 14,
       "daily_wins": 0,
@@ -117,7 +117,7 @@
         "Cara Maria Sorbello",
         "Heather Cooke"
       ],
-      "rating_at_end": -0.342,
+      "rating_at_end": -0.351,
       "rank": 14,
       "rank_total": 17,
       "daily_wins": 0,
@@ -136,22 +136,22 @@
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.342
+      "rating": -0.351
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.409
+      "rating": -0.372
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.591
+      "rating": -0.569
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.234
+      "rating": -0.258
     }
   ]
 }

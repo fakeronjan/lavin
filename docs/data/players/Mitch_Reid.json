@@ -3,10 +3,10 @@
   "safe_name": "Mitch_Reid",
   "gender": "M",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.857,
+    "era_rating": 0.8,
+    "peak_rating": 0.833,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": 0.438,
+    "active_rating": 0.474,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 0,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.857,
+      "rating_at_end": 0.833,
       "rank": 2,
       "rank_total": 16,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -49,7 +49,7 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.857
+      "rating": 0.833
     }
   ]
 }

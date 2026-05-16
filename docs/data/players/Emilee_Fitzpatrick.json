@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.512,
+    "peak_rating": -0.638,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.822,
+    "active_rating": -0.764,
     "active_season_id": "s25_free_agents",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Jonna Mannion"
       ],
-      "rating_at_end": -0.822,
+      "rating_at_end": -0.764,
       "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.512,
-      "rank": 13,
+      "rating_at_end": -0.638,
+      "rank": 14,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -75,12 +75,12 @@
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.512
+      "rating": -0.638
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.822
+      "rating": -0.764
     }
   ]
 }

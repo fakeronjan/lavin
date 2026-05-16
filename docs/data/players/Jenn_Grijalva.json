@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 0.8,
-    "peak_rating": 0.408,
+    "peak_rating": 0.416,
     "peak_season_id": "s19_fresh_meat_ii",
     "active_rating": -0.022,
     "active_season_id": "s22_battle_of_the_exes",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 5,
-    "daily_wins": 8
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.089,
+      "rating_at_end": 0.105,
       "rank": 5,
       "rank_total": 14,
       "daily_wins": 1,
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.169,
+      "rating_at_end": 0.201,
       "rank": 5,
       "rank_total": 15,
       "daily_wins": 2,
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.408,
+      "rating_at_end": 0.416,
       "rank": 4,
       "rank_total": 13,
       "daily_wins": 1,
@@ -108,10 +108,10 @@
       "eliminated_by": [
         "Diem Brown"
       ],
-      "rating_at_end": 0.135,
-      "rank": 6,
-      "rank_total": 13,
-      "daily_wins": 2,
+      "rating_at_end": 0.04,
+      "rank": 8,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -132,7 +132,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.026,
+      "rating_at_end": -0.073,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 0,
@@ -158,7 +158,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": -0.366,
+      "rating_at_end": -0.404,
       "rank": 8,
       "rank_total": 10,
       "daily_wins": 2,
@@ -175,32 +175,32 @@
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.366
+      "rating": -0.404
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.026
+      "rating": -0.073
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.135
+      "rating": 0.04
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.408
+      "rating": 0.416
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.169
+      "rating": 0.201
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.089
+      "rating": 0.105
     }
   ]
 }

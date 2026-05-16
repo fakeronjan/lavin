@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.08,
+    "peak_rating": 0.072,
     "peak_season_id": "s14_the_inferno_3",
-    "active_rating": -0.41,
+    "active_rating": -0.411,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 3,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 3,
-    "daily_wins": 7
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.537,
+      "rating_at_end": -0.546,
       "rank": 13,
       "rank_total": 15,
       "daily_wins": 0,
@@ -61,10 +61,10 @@
       "eliminated_by": [
         "Evan Starkman"
       ],
-      "rating_at_end": 0.049,
-      "rank": 7,
+      "rating_at_end": -0.121,
+      "rank": 11,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -87,7 +87,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.072,
       "rank": 5,
       "rank_total": 11,
       "daily_wins": 6,
@@ -104,17 +104,17 @@
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.08
+      "rating": 0.072
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.049
+      "rating": -0.121
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.537
+      "rating": -0.546
     }
   ]
 }

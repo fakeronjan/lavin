@@ -3,10 +3,10 @@
   "safe_name": "Berna_Canbeldek",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.438,
+    "era_rating": 0.5,
+    "peak_rating": 0.516,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.628,
+    "active_rating": 0.668,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.438,
+      "rating_at_end": 0.516,
       "rank": 4,
       "rank_total": 17,
       "daily_wins": 0,
@@ -57,8 +57,8 @@
         "Priscilla Anyabu",
         "Jeremiah White"
       ],
-      "rating_at_end": -0.165,
-      "rank": 13,
+      "rating_at_end": -0.206,
+      "rank": 11,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -75,14 +75,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.165
+      "rating": -0.206
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.438
+      "rating": 0.516
     }
   ]
 }

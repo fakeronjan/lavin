@@ -3,10 +3,10 @@
   "safe_name": "Tony_Raines",
   "gender": "M",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.653,
+    "era_rating": 0.9,
+    "peak_rating": 0.624,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.202,
+    "active_rating": -0.276,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 7,
     "n_snapshots": 8,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 6,
-    "daily_wins": 13
+    "daily_wins": 9
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": -0.202,
-      "rank": 15,
+      "rating_at_end": -0.276,
+      "rank": 14,
       "rank_total": 20,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,7 +59,7 @@
         "Paulie Calafiore",
         "Natalie Negrotti"
       ],
-      "rating_at_end": -0.018,
+      "rating_at_end": 0.007,
       "rank": 7,
       "rank_total": 15,
       "daily_wins": 2,
@@ -85,10 +85,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.653,
+      "rating_at_end": 0.624,
       "rank": 5,
-      "rank_total": 17,
-      "daily_wins": 5,
+      "rank_total": 16,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -111,10 +111,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": 0.327,
-      "rank": 7,
+      "rating_at_end": 0.245,
+      "rank": 10,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 2,
       "elim_loss_survived": true,
@@ -137,10 +137,10 @@
       "eliminated_by": [
         "Shane Landrum"
       ],
-      "rating_at_end": -0.016,
-      "rank": 10,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rating_at_end": -0.306,
+      "rank": 11,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -161,7 +161,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.287,
+      "rating_at_end": -0.213,
       "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
@@ -187,8 +187,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.195,
-      "rank": 14,
+      "rating_at_end": -0.132,
+      "rank": 12,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -204,37 +204,37 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.195
+      "rating": -0.132
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.287
+      "rating": -0.213
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.016
+      "rating": -0.306
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.327
+      "rating": 0.245
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.653
+      "rating": 0.624
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.018
+      "rating": 0.007
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.202
+      "rating": -0.276
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 1.9,
-    "peak_rating": 1.118,
+    "peak_rating": 1.129,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": 0.364,
+    "active_rating": 0.404,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -33,8 +33,8 @@
         "Wes Bergmann",
         "Nany Gonz\u00e1lez"
       ],
-      "rating_at_end": 0.821,
-      "rank": 2,
+      "rating_at_end": 0.812,
+      "rank": 3,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -59,10 +59,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.118,
+      "rating_at_end": 1.129,
       "rank": 1,
       "rank_total": 16,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -78,12 +78,12 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 1.118
+      "rating": 1.129
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.821
+      "rating": 0.812
     }
   ]
 }

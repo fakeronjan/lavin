@@ -3,10 +3,10 @@
   "safe_name": "Veronica_Portillo",
   "gender": "F",
   "career": {
-    "era_rating": 1.2,
-    "peak_rating": 0.495,
+    "era_rating": 0.9,
+    "peak_rating": 0.497,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.55,
+    "active_rating": -0.438,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 12,
     "n_snapshots": 17,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 1,
     "elim_wins": 5,
     "elim_losses": 9,
-    "daily_wins": 27
+    "daily_wins": 24
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Amber Borzotra",
         "Chauncey Palmer"
       ],
-      "rating_at_end": -0.408,
+      "rating_at_end": -0.393,
       "rank": 16,
       "rank_total": 17,
       "daily_wins": 0,
@@ -62,8 +62,8 @@
         "Brad Fiorenza",
         "Kyle Christie"
       ],
-      "rating_at_end": -0.326,
-      "rank": 13,
+      "rating_at_end": -0.317,
+      "rank": 12,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -90,7 +90,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.358,
+      "rating_at_end": -0.403,
       "rank": 16,
       "rank_total": 18,
       "daily_wins": 0,
@@ -114,8 +114,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.09,
-      "rank": 11,
+      "rating_at_end": -0.087,
+      "rank": 10,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -140,10 +140,10 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.472,
-      "rank": 4,
+      "rating_at_end": 0.147,
+      "rank": 6,
       "rank_total": 14,
-      "daily_wins": 7,
+      "daily_wins": 5,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -164,7 +164,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.028,
+      "rating_at_end": 0.005,
       "rank": 5,
       "rank_total": 10,
       "daily_wins": 4,
@@ -190,7 +190,7 @@
       "eliminated_by": [
         "Tina Barta"
       ],
-      "rating_at_end": 0.045,
+      "rating_at_end": 0.07,
       "rank": 7,
       "rank_total": 18,
       "daily_wins": 0,
@@ -214,10 +214,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.166,
+      "rating_at_end": 0.16,
       "rank": 5,
       "rank_total": 10,
-      "daily_wins": 8,
+      "daily_wins": 7,
       "elim_wins": 0,
       "elim_losses": 2,
       "elim_loss_survived": true,
@@ -238,7 +238,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.495,
+      "rating_at_end": 0.497,
       "rank": 5,
       "rank_total": 14,
       "daily_wins": 8,
@@ -264,7 +264,7 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.074,
+      "rating_at_end": -0.076,
       "rank": 8,
       "rank_total": 18,
       "daily_wins": 0,
@@ -291,7 +291,7 @@
         "Holly Brentson",
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": -0.426,
+      "rating_at_end": -0.431,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 0,
@@ -310,57 +310,57 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.426
+      "rating": -0.431
     },
     {
       "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.074
+      "rating": -0.076
     },
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.495
+      "rating": 0.497
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.166
+      "rating": 0.16
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.045
+      "rating": 0.07
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.028
+      "rating": 0.005
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.472
+      "rating": 0.147
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.09
+      "rating": -0.087
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.358
+      "rating": -0.403
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.326
+      "rating": -0.317
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.408
+      "rating": -0.393
     }
   ]
 }

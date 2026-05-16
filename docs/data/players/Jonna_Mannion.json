@@ -3,10 +3,10 @@
   "safe_name": "Jonna_Mannion",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.03,
+    "era_rating": 0.1,
+    "peak_rating": 0.133,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.323,
+    "active_rating": -0.359,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 7,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 7,
-    "daily_wins": 6
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Aviv Melmed",
         "Yeremi Hykel"
       ],
-      "rating_at_end": -0.323,
+      "rating_at_end": -0.359,
       "rank": 13,
       "rank_total": 17,
       "daily_wins": 1,
@@ -64,8 +64,8 @@
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.283,
-      "rank": 14,
+      "rating_at_end": -0.12,
+      "rank": 10,
       "rank_total": 20,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -91,7 +91,7 @@
         "Sarah Rice",
         "Jordan Wiseley"
       ],
-      "rating_at_end": -0.1,
+      "rating_at_end": -0.055,
       "rank": 7,
       "rank_total": 13,
       "daily_wins": 1,
@@ -119,7 +119,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.441,
+      "rating_at_end": -0.407,
       "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
@@ -146,8 +146,8 @@
         "Cara Maria Sorbello",
         "Heather Cooke"
       ],
-      "rating_at_end": -0.353,
-      "rank": 15,
+      "rating_at_end": -0.392,
+      "rank": 16,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -175,10 +175,10 @@
         "Ashley Kelsey",
         "Frank Fox"
       ],
-      "rating_at_end": 0.03,
-      "rank": 11,
+      "rating_at_end": 0.133,
+      "rank": 8,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -202,7 +202,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.087,
+      "rating_at_end": -0.078,
       "rank": 8,
       "rank_total": 14,
       "daily_wins": 1,
@@ -221,37 +221,37 @@
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.087
+      "rating": -0.078
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.03
+      "rating": 0.133
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.353
+      "rating": -0.392
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.441
+      "rating": -0.407
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.1
+      "rating": -0.055
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.283
+      "rating": -0.12
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.323
+      "rating": -0.359
     }
   ]
 }

@@ -3,8 +3,8 @@
   "safe_name": "Paula_Meronek",
   "gender": "F",
   "career": {
-    "era_rating": 2.5,
-    "peak_rating": 1.032,
+    "era_rating": 2.6,
+    "peak_rating": 1.028,
     "peak_season_id": "s24_rivals_ii",
     "active_rating": 1.067,
     "active_season_id": "s25_free_agents",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 24
+    "daily_wins": 23
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.032,
+      "rating_at_end": 1.028,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 6,
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.729,
+      "rating_at_end": 0.745,
       "rank": 2,
       "rank_total": 14,
       "daily_wins": 4,
@@ -113,7 +113,7 @@
       "eliminated_by": [
         "Emily Schromm"
       ],
-      "rating_at_end": -0.428,
+      "rating_at_end": -0.398,
       "rank": 11,
       "rank_total": 15,
       "daily_wins": 2,
@@ -140,7 +140,7 @@
         "Evelyn Smith",
         "Luke Wolfe"
       ],
-      "rating_at_end": -0.389,
+      "rating_at_end": -0.384,
       "rank": 12,
       "rank_total": 13,
       "daily_wins": 0,
@@ -168,10 +168,10 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.007,
+      "rating_at_end": 0.032,
       "rank": 9,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -192,7 +192,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.112,
+      "rating_at_end": 0.135,
       "rank": 5,
       "rank_total": 10,
       "daily_wins": 0,
@@ -216,7 +216,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.016,
+      "rating_at_end": 0.006,
       "rank": 9,
       "rank_total": 16,
       "daily_wins": 4,
@@ -240,7 +240,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.084,
+      "rating_at_end": 0.047,
       "rank": 5,
       "rank_total": 10,
       "daily_wins": 6,
@@ -266,7 +266,7 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.161,
+      "rating_at_end": -0.188,
       "rank": 10,
       "rank_total": 10,
       "daily_wins": 0,
@@ -283,42 +283,42 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": -0.161
+      "rating": -0.188
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.084
+      "rating": 0.047
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.016
+      "rating": 0.006
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.112
+      "rating": 0.135
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.007
+      "rating": 0.032
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.389
+      "rating": -0.384
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.428
+      "rating": -0.398
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.729
+      "rating": 0.745
     },
     {
       "ranking_id": 439,
@@ -328,7 +328,7 @@
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": 1.032
+      "rating": 1.028
     }
   ]
 }

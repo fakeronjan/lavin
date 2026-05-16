@@ -3,10 +3,10 @@
   "safe_name": "Jenn_Lee",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.116,
+    "era_rating": 0.0,
+    "peak_rating": -0.213,
     "peak_season_id": "s35_total_madness",
-    "active_rating": 0.078,
+    "active_rating": -0.228,
     "active_season_id": "s36_double_agents",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Jenny West"
       ],
-      "rating_at_end": 0.116,
-      "rank": 8,
+      "rating_at_end": -0.213,
+      "rank": 12,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -47,9 +47,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.116
+      "rating": -0.213
     }
   ]
 }

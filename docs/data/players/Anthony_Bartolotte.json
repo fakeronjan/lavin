@@ -3,10 +3,10 @@
   "safe_name": "Anthony_Bartolotte",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.138,
+    "era_rating": 0.0,
+    "peak_rating": -0.179,
     "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.023,
+    "active_rating": -0.278,
     "active_season_id": "s30_xxx_dirty_30",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.138,
-      "rank": 8,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rating_at_end": -0.179,
+      "rank": 9,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -49,7 +49,7 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.138
+      "rating": -0.179
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Zach_Nichols",
   "gender": "M",
   "career": {
-    "era_rating": 2.9,
-    "peak_rating": 0.972,
+    "era_rating": 3.2,
+    "peak_rating": 1.008,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.238,
+    "active_rating": 0.29,
     "active_season_id": "s36_double_agents",
     "n_seasons": 9,
     "n_snapshots": 13,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 5,
-    "daily_wins": 11
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.346,
+      "rating_at_end": 0.363,
       "rank": 9,
       "rank_total": 16,
       "daily_wins": 0,
@@ -57,7 +57,7 @@
         "Wes Bergmann",
         "Dee Nguyen"
       ],
-      "rating_at_end": -0.052,
+      "rating_at_end": -0.043,
       "rank": 9,
       "rank_total": 17,
       "daily_wins": 0,
@@ -86,10 +86,10 @@
         "Cory Wharton",
         "Devin Walker"
       ],
-      "rating_at_end": -0.079,
-      "rank": 10,
+      "rating_at_end": -0.266,
+      "rank": 11,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": true,
@@ -112,9 +112,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.972,
+      "rating_at_end": 1.008,
       "rank": 1,
-      "rank_total": 17,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -138,10 +138,10 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.055,
-      "rank": 9,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rating_at_end": -0.27,
+      "rank": 10,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -165,7 +165,7 @@
         "Jordan Wiseley",
         "Sarah Rice"
       ],
-      "rating_at_end": 0.243,
+      "rating_at_end": 0.289,
       "rank": 7,
       "rank_total": 13,
       "daily_wins": 1,
@@ -191,10 +191,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.456,
+      "rating_at_end": 0.507,
       "rank": 5,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -218,7 +218,7 @@
         "Leroy Garrett",
         "Ty Ruff"
       ],
-      "rating_at_end": 0.225,
+      "rating_at_end": 0.253,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 2,
@@ -244,10 +244,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.638,
-      "rank": 1,
+      "rating_at_end": 0.828,
+      "rank": 2,
       "rank_total": 16,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -261,47 +261,47 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.638
+      "rating": 0.828
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": 0.225
+      "rating": 0.253
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.456
+      "rating": 0.507
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.243
+      "rating": 0.289
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.055
+      "rating": -0.27
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.972
+      "rating": 1.008
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.079
+      "rating": -0.266
     },
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.052
+      "rating": -0.043
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.346
+      "rating": 0.363
     }
   ]
 }

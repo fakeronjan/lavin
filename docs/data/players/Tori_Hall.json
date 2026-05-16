@@ -3,19 +3,19 @@
   "safe_name": "Tori_Hall",
   "gender": "F",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.918,
+    "era_rating": 2.0,
+    "peak_rating": 0.95,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": 0.873,
+    "active_rating": 0.894,
     "active_season_id": "s21_rivals",
     "n_seasons": 3,
-    "n_snapshots": 7,
+    "n_snapshots": 6,
     "championships": 2,
     "finals_reached": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 1,
-    "daily_wins": 6
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.918,
+      "rating_at_end": 0.95,
       "rank": 1,
       "rank_total": 15,
       "daily_wins": 2,
@@ -56,10 +56,10 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": 0.258,
-      "rank": 5,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rating_at_end": 0.395,
+      "rank": 4,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -80,8 +80,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.687,
-      "rank": 2,
+      "rating_at_end": 0.681,
+      "rank": 3,
       "rank_total": 16,
       "daily_wins": 3,
       "elim_wins": 1,
@@ -97,17 +97,17 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.687
+      "rating": 0.681
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.258
+      "rating": 0.395
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.918
+      "rating": 0.95
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Dario_Medrano",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.337,
+    "era_rating": 0.4,
+    "peak_rating": 0.405,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.14,
+    "active_rating": -0.382,
     "active_season_id": "s31_vendettas",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 4,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": -0.131,
-      "rank": 13,
+      "rating_at_end": -0.295,
+      "rank": 15,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -58,9 +58,9 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": -0.106,
-      "rank": 12,
-      "rank_total": 13,
+      "rating_at_end": 0.014,
+      "rank": 8,
+      "rank_total": 12,
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -85,8 +85,8 @@
         "Johnny Bananas",
         "Sarah Rice"
       ],
-      "rating_at_end": 0.337,
-      "rank": 7,
+      "rating_at_end": 0.405,
+      "rank": 6,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 1,
@@ -113,7 +113,7 @@
       "eliminated_by": [
         "Mitch Reid"
       ],
-      "rating_at_end": -0.169,
+      "rating_at_end": -0.14,
       "rank": 13,
       "rank_total": 16,
       "daily_wins": 0,
@@ -132,22 +132,22 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.169
+      "rating": -0.14
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.337
+      "rating": 0.405
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.106
+      "rating": 0.014
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.131
+      "rating": -0.295
     }
   ]
 }

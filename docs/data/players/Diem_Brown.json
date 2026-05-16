@@ -6,7 +6,7 @@
     "era_rating": 1.1,
     "peak_rating": 0.811,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.122,
+    "active_rating": -0.155,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 8,
     "n_snapshots": 14,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 5,
-    "daily_wins": 15
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.312,
+      "rating_at_end": -0.279,
       "rank": 9,
       "rank_total": 13,
       "daily_wins": 0,
@@ -57,10 +57,10 @@
         "Camila Nakagawa",
         "Jemmye Carroll"
       ],
-      "rating_at_end": -0.166,
-      "rank": 10,
+      "rating_at_end": -0.342,
+      "rank": 12,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -111,7 +111,7 @@
       "eliminated_by": [
         "Tonya Cooley"
       ],
-      "rating_at_end": -0.194,
+      "rating_at_end": -0.17,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 0,
@@ -137,10 +137,10 @@
       "eliminated_by": [
         "Brittini Sherrod"
       ],
-      "rating_at_end": -0.013,
-      "rank": 10,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rating_at_end": 0.072,
+      "rank": 7,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -161,7 +161,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.031,
+      "rating_at_end": 0.027,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 4,
@@ -187,8 +187,8 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": 0.243,
-      "rank": 7,
+      "rating_at_end": 0.236,
+      "rank": 8,
       "rank_total": 10,
       "daily_wins": 3,
       "elim_wins": 0,
@@ -238,22 +238,22 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.243
+      "rating": 0.236
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.031
+      "rating": 0.027
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.013
+      "rating": 0.072
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.194
+      "rating": -0.17
     },
     {
       "ranking_id": 439,
@@ -263,12 +263,12 @@
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.166
+      "rating": -0.342
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.312
+      "rating": -0.279
     }
   ]
 }

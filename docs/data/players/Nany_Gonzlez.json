@@ -3,10 +3,10 @@
   "safe_name": "Nany_Gonzlez",
   "gender": "F",
   "career": {
-    "era_rating": 2.3,
-    "peak_rating": 0.951,
+    "era_rating": 2.4,
+    "peak_rating": 0.972,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.055,
+    "active_rating": -0.098,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
     "n_snapshots": 16,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 10,
-    "daily_wins": 16
+    "daily_wins": 12
   },
   "seasons": [
     {
@@ -33,8 +33,8 @@
         "Michaela Bradshaw",
         "Cedric Hodges"
       ],
-      "rating_at_end": -0.055,
-      "rank": 6,
+      "rating_at_end": -0.098,
+      "rank": 5,
       "rank_total": 17,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -55,6 +55,42 @@
       "forced_exit": false
     },
     {
+      "season_id": "s41_vets_and_new_threats",
+      "season_num": 41,
+      "season_name": "Vets and New Threats",
+      "year": 2025,
+      "label": "S41 Vets and New Threats (2025)",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
+      "elim_position": 11,
+      "elim_total": 11,
+      "eliminated_by": [
+        "Michaela Bradshaw",
+        "Cedric Hodges"
+      ],
+      "rating_at_end": -0.098,
+      "rank": 5,
+      "rank_total": 17,
+      "daily_wins": 2,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "elim_loss_survived": true,
+      "partner": "Ben Davis",
+      "partners_history": [
+        "Ben Davis",
+        "Yeremi Hykel",
+        "Will Gagnon",
+        "Jake Cornish",
+        "Justin Hinsley",
+        "Theo Campbell",
+        "Cedric Hodges",
+        "Justin Hinsley"
+      ],
+      "team": "",
+      "forced_exit": false
+    },
+    {
       "season_id": "s38_ride_or_dies",
       "season_num": 38,
       "season_name": "Ride or Dies",
@@ -66,7 +102,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.951,
+      "rating_at_end": 0.972,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 2,
@@ -92,7 +128,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.291,
+      "rating_at_end": 0.368,
       "rank": 5,
       "rank_total": 18,
       "daily_wins": 1,
@@ -120,7 +156,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.25,
+      "rating_at_end": 0.291,
       "rank": 4,
       "rank_total": 15,
       "daily_wins": 0,
@@ -151,10 +187,10 @@
       "eliminated_by": [
         "Melissa Reeves"
       ],
-      "rating_at_end": -0.06,
-      "rank": 11,
+      "rating_at_end": -0.068,
+      "rank": 10,
       "rank_total": 14,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -177,7 +213,7 @@
       "eliminated_by": [
         "Ashley Mitchell"
       ],
-      "rating_at_end": -0.162,
+      "rating_at_end": -0.166,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 1,
@@ -232,8 +268,8 @@
         "Nicole Ramos",
         "Dario Medrano"
       ],
-      "rating_at_end": -0.018,
-      "rank": 6,
+      "rating_at_end": -0.078,
+      "rank": 5,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 2,
@@ -260,10 +296,10 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": -0.211,
-      "rank": 8,
+      "rating_at_end": -0.418,
+      "rank": 13,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -289,7 +325,7 @@
         "Theresa Jones",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.181,
+      "rating_at_end": 0.227,
       "rank": 5,
       "rank_total": 13,
       "daily_wins": 1,
@@ -315,8 +351,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.436,
-      "rank": 3,
+      "rating_at_end": 0.552,
+      "rank": 2,
       "rank_total": 14,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -342,7 +378,7 @@
         "Cara Maria Sorbello",
         "Heather Cooke"
       ],
-      "rating_at_end": -0.408,
+      "rating_at_end": -0.452,
       "rank": 17,
       "rank_total": 17,
       "daily_wins": 0,
@@ -371,10 +407,10 @@
         "Marie Roda",
         "Robb Schreiber"
       ],
-      "rating_at_end": 0.175,
-      "rank": 8,
+      "rating_at_end": -0.06,
+      "rank": 12,
       "rank_total": 16,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -388,67 +424,67 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.175
+      "rating": -0.06
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.408
+      "rating": -0.452
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.436
+      "rating": 0.552
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.181
+      "rating": 0.227
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.211
+      "rating": -0.418
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.018
+      "rating": -0.078
     },
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.321
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": -0.162
+      "rating": -0.166
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.06
+      "rating": -0.068
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.25
-    },
-    {
-      "ranking_id": 895,
-      "season_id": "s37_spies_lies_allies",
       "rating": 0.291
     },
     {
-      "ranking_id": 949,
-      "season_id": "s38_ride_or_dies",
-      "rating": 0.951
+      "ranking_id": 894,
+      "season_id": "s37_spies_lies_allies",
+      "rating": 0.368
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 948,
+      "season_id": "s38_ride_or_dies",
+      "rating": 0.972
+    },
+    {
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.055
+      "rating": -0.098
     }
   ]
 }

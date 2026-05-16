@@ -3,10 +3,10 @@
   "safe_name": "Brittini_Sherrod",
   "gender": "F",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.627,
+    "era_rating": 0.8,
+    "peak_rating": 0.818,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": 0.617,
+    "active_rating": 0.665,
     "active_season_id": "s19_fresh_meat_ii",
     "n_seasons": 1,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 0,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.627,
+      "rating_at_end": 0.818,
       "rank": 1,
-      "rank_total": 13,
-      "daily_wins": 2,
+      "rank_total": 12,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -47,7 +47,7 @@
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.627
+      "rating": 0.818
     }
   ]
 }

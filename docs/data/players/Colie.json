@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.437,
-    "peak_season_id": "s16_the_island",
-    "active_rating": -0.458,
+    "peak_rating": -0.519,
+    "peak_season_id": "s14_the_inferno_3",
+    "active_rating": -0.804,
     "active_season_id": "s18_the_ruins",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Johanna Botta"
       ],
-      "rating_at_end": -0.437,
+      "rating_at_end": -0.625,
       "rank": 8,
       "rank_total": 10,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -58,7 +58,7 @@
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.481,
+      "rating_at_end": -0.519,
       "rank": 9,
       "rank_total": 10,
       "daily_wins": 3,
@@ -75,12 +75,12 @@
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.481
+      "rating": -0.519
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.437
+      "rating": -0.625
     }
   ]
 }

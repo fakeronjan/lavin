@@ -3,19 +3,19 @@
   "safe_name": "Darrell_Taylor",
   "gender": "M",
   "career": {
-    "era_rating": 4.3,
-    "peak_rating": 0.805,
+    "era_rating": 4.1,
+    "peak_rating": 0.812,
     "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.193,
+    "active_rating": -0.246,
     "active_season_id": "s40_battle_of_the_eras",
-    "n_seasons": 13,
+    "n_seasons": 12,
     "n_snapshots": 21,
     "championships": 4,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
-    "elim_wins": 9,
+    "elim_wins": 8,
     "elim_losses": 8,
-    "daily_wins": 42
+    "daily_wins": 37
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.193,
-      "rank": 12,
+      "rating_at_end": -0.246,
+      "rank": 13,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -58,9 +58,9 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.405,
+      "rating_at_end": -0.503,
       "rank": 16,
-      "rank_total": 17,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -85,7 +85,7 @@
         "Chauncey Palmer",
         "Amber Borzotra"
       ],
-      "rating_at_end": -0.563,
+      "rating_at_end": -0.541,
       "rank": 17,
       "rank_total": 17,
       "daily_wins": 0,
@@ -113,10 +113,10 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": 0.246,
-      "rank": 7,
+      "rating_at_end": 0.211,
+      "rank": 6,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -124,30 +124,6 @@
       "partners_history": [
         "Amber Borzotra"
       ],
-      "team": "",
-      "forced_exit": false
-    },
-    {
-      "season_id": "s31_vendettas",
-      "season_num": 31,
-      "season_name": "Vendettas",
-      "year": 2018,
-      "label": "S31 Vendettas (2018)",
-      "finish": "Mercenary in Yankin' My Chain",
-      "finish_label": "Mercenary",
-      "finish_episode": "Yankin' My Chain",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": -0.0,
-      "rank": 11,
-      "rank_total": 17,
-      "daily_wins": 0,
-      "elim_wins": 1,
-      "elim_losses": 0,
-      "elim_loss_survived": false,
-      "partner": "",
-      "partners_history": [],
       "team": "",
       "forced_exit": false
     },
@@ -165,8 +141,8 @@
       "eliminated_by": [
         "Shane Raines"
       ],
-      "rating_at_end": 0.118,
-      "rank": 11,
+      "rating_at_end": -0.019,
+      "rank": 12,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -191,10 +167,10 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.695,
-      "rank": 3,
-      "rank_total": 13,
-      "daily_wins": 3,
+      "rating_at_end": 0.602,
+      "rank": 5,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -244,7 +220,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.399,
+      "rating_at_end": 0.468,
       "rank": 5,
       "rank_total": 14,
       "daily_wins": 7,
@@ -294,7 +270,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.665,
+      "rating_at_end": 0.653,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 8,
@@ -318,7 +294,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.805,
+      "rating_at_end": 0.812,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 11,
@@ -342,7 +318,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.75,
+      "rating_at_end": 0.748,
       "rank": 1,
       "rank_total": 14,
       "daily_wins": 8,
@@ -359,17 +335,17 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.75
+      "rating": 0.748
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": 0.805
+      "rating": 0.812
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.665
+      "rating": 0.653
     },
     {
       "ranking_id": 225,
@@ -379,7 +355,7 @@
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.399
+      "rating": 0.468
     },
     {
       "ranking_id": 355,
@@ -389,37 +365,32 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.695
+      "rating": 0.602
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.118
+      "rating": -0.019
     },
     {
-      "ranking_id": 710,
-      "season_id": "s31_vendettas",
-      "rating": -0.0
-    },
-    {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.246
+      "rating": 0.211
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.563
+      "rating": -0.541
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.405
+      "rating": -0.503
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.193
+      "rating": -0.246
     }
   ]
 }

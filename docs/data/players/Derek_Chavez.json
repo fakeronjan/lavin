@@ -3,10 +3,10 @@
   "safe_name": "Derek_Chavez",
   "gender": "M",
   "career": {
-    "era_rating": 1.0,
-    "peak_rating": 0.717,
+    "era_rating": 1.1,
+    "peak_rating": 0.757,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.318,
+    "active_rating": 0.337,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 5,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 5,
-    "daily_wins": 4
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.318,
-      "rank": 7,
+      "rating_at_end": 0.337,
+      "rank": 6,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -64,10 +64,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.717,
+      "rating_at_end": 0.757,
       "rank": 2,
       "rank_total": 20,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": true,
@@ -91,7 +91,7 @@
         "Ryan Knight",
         "Preston Roberson-Charles"
       ],
-      "rating_at_end": -0.348,
+      "rating_at_end": -0.382,
       "rank": 14,
       "rank_total": 16,
       "daily_wins": 0,
@@ -120,10 +120,10 @@
         "Frank Fox",
         "Ashley Kelsey"
       ],
-      "rating_at_end": -0.419,
-      "rank": 10,
+      "rating_at_end": -0.367,
+      "rank": 8,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -146,7 +146,7 @@
       "eliminated_by": [
         "Brandon Nelson"
       ],
-      "rating_at_end": -0.697,
+      "rating_at_end": -0.678,
       "rank": 15,
       "rank_total": 15,
       "daily_wins": 0,
@@ -163,27 +163,27 @@
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.697
+      "rating": -0.678
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.419
+      "rating": -0.367
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.348
+      "rating": -0.382
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.717
+      "rating": 0.757
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.318
+      "rating": 0.337
     }
   ]
 }

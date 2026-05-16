@@ -3,10 +3,10 @@
   "safe_name": "Adam_King",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.279,
+    "era_rating": 0.5,
+    "peak_rating": 0.235,
     "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": -0.023,
+    "active_rating": -0.02,
     "active_season_id": "s22_battle_of_the_exes",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 4,
-    "daily_wins": 12
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Johnny Bananas",
         "Tyler Duckworth"
       ],
-      "rating_at_end": -0.07,
+      "rating_at_end": -0.068,
       "rank": 8,
       "rank_total": 15,
       "daily_wins": 2,
@@ -61,7 +61,7 @@
       "eliminated_by": [
         "Syrus Yarbrough"
       ],
-      "rating_at_end": -0.197,
+      "rating_at_end": -0.186,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 1,
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.16,
+      "rating_at_end": 0.219,
       "rank": 6,
       "rank_total": 15,
       "daily_wins": 0,
@@ -109,10 +109,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.279,
-      "rank": 5,
+      "rating_at_end": 0.235,
+      "rank": 6,
       "rank_total": 17,
-      "daily_wins": 6,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -135,7 +135,7 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.549,
+      "rating_at_end": -0.542,
       "rank": 15,
       "rank_total": 16,
       "daily_wins": 2,
@@ -161,8 +161,8 @@
       "eliminated_by": [
         "Shawn Sealy"
       ],
-      "rating_at_end": -0.291,
-      "rank": 14,
+      "rating_at_end": -0.281,
+      "rank": 13,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -178,32 +178,32 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.291
+      "rating": -0.281
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.549
+      "rating": -0.542
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.279
+      "rating": 0.235
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.16
+      "rating": 0.219
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.197
+      "rating": -0.186
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.07
+      "rating": -0.068
     }
   ]
 }

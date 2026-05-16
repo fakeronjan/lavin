@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.5,
-    "peak_rating": 0.468,
+    "peak_rating": 0.478,
     "peak_season_id": "s11_the_gauntlet_2",
-    "active_rating": 0.468,
+    "active_rating": 0.478,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.468,
+      "rating_at_end": 0.478,
       "rank": 5,
       "rank_total": 16,
       "daily_wins": 9,
@@ -56,7 +56,7 @@
       "eliminated_by": [
         "Shane Landrum"
       ],
-      "rating_at_end": -0.054,
+      "rating_at_end": -0.072,
       "rank": 10,
       "rank_total": 18,
       "daily_wins": 1,
@@ -73,12 +73,12 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.054
+      "rating": -0.072
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.468
+      "rating": 0.478
     }
   ]
 }

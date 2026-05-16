@@ -4,18 +4,18 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.166,
+    "peak_rating": -0.16,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.494,
-    "active_season_id": "s29_invasion_of_the_champions",
+    "active_rating": -0.015,
+    "active_season_id": "s28_rivals_iii",
     "n_seasons": 1,
-    "n_snapshots": 3,
+    "n_snapshots": 2,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.166,
-      "rank": 7,
+      "rating_at_end": -0.16,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -51,7 +51,7 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.166
+      "rating": -0.16
     }
   ]
 }

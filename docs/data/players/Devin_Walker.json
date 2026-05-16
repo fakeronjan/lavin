@@ -3,10 +3,10 @@
   "safe_name": "Devin_Walker",
   "gender": "M",
   "career": {
-    "era_rating": 3.5,
-    "peak_rating": 1.017,
+    "era_rating": 3.9,
+    "peak_rating": 1.055,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.568,
+    "active_rating": -0.557,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 9,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 4,
-    "daily_wins": 13
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.197,
-      "rank": 14,
+      "rating_at_end": -0.102,
+      "rank": 9,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 0,
@@ -56,9 +56,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.646,
-      "rank": 4,
-      "rank_total": 17,
+      "rating_at_end": 0.799,
+      "rank": 3,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.017,
+      "rating_at_end": 1.055,
       "rank": 1,
       "rank_total": 17,
       "daily_wins": 3,
@@ -106,10 +106,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.541,
+      "rating_at_end": 0.571,
       "rank": 3,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -138,10 +138,10 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": 0.345,
-      "rank": 6,
+      "rating_at_end": 0.195,
+      "rank": 7,
       "rank_total": 15,
-      "daily_wins": 4,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -166,7 +166,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.14,
+      "rating_at_end": 0.124,
       "rank": 4,
       "rank_total": 15,
       "daily_wins": 0,
@@ -189,14 +189,14 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 9,
+      "elim_position": 8,
       "elim_total": 10,
       "eliminated_by": [
         "Zach Nichols"
       ],
-      "rating_at_end": 0.234,
-      "rank": 7,
-      "rank_total": 17,
+      "rating_at_end": 0.302,
+      "rank": 6,
+      "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
@@ -218,8 +218,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.124,
-      "rank": 10,
+      "rating_at_end": 0.281,
+      "rank": 7,
       "rank_total": 15,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -242,7 +242,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.5,
+      "rating_at_end": 0.563,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 0,
@@ -261,47 +261,47 @@
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.5
+      "rating": 0.563
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
+      "rating": 0.281
+    },
+    {
+      "ranking_id": 709,
+      "season_id": "s31_vendettas",
+      "rating": 0.302
+    },
+    {
+      "ranking_id": 770,
+      "season_id": "s32_final_reckoning",
       "rating": 0.124
     },
     {
-      "ranking_id": 710,
-      "season_id": "s31_vendettas",
-      "rating": 0.234
-    },
-    {
-      "ranking_id": 771,
-      "season_id": "s32_final_reckoning",
-      "rating": 0.14
-    },
-    {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.345
+      "rating": 0.195
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.541
+      "rating": 0.571
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 1.017
+      "rating": 1.055
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.646
+      "rating": 0.799
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.197
+      "rating": -0.102
     }
   ]
 }

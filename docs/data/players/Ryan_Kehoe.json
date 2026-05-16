@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.048,
-    "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": -0.574,
+    "peak_rating": -0.18,
+    "peak_season_id": "s17_the_duel_ii",
+    "active_rating": -0.565,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 5,
-    "daily_wins": 8
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": -0.191,
-      "rank": 11,
+      "rating_at_end": -0.192,
+      "rank": 12,
       "rank_total": 20,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,7 +59,7 @@
         "Noor Jehangir",
         "Jenn Grijalva"
       ],
-      "rating_at_end": -0.28,
+      "rating_at_end": -0.305,
       "rank": 12,
       "rank_total": 13,
       "daily_wins": 0,
@@ -87,10 +87,10 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": -0.062,
-      "rank": 11,
+      "rating_at_end": -0.18,
+      "rank": 12,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -111,7 +111,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.113,
+      "rating_at_end": -0.21,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 0,
@@ -137,10 +137,10 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": -0.048,
+      "rating_at_end": -0.287,
       "rank": 9,
       "rank_total": 17,
-      "daily_wins": 5,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -188,27 +188,27 @@
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.048
+      "rating": -0.287
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.113
+      "rating": -0.21
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.062
+      "rating": -0.18
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.28
+      "rating": -0.305
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.191
+      "rating": -0.192
     }
   ]
 }

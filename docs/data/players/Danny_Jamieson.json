@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.224,
+    "peak_rating": -0.23,
     "peak_season_id": "s19_fresh_meat_ii",
-    "active_rating": -0.825,
+    "active_rating": -0.851,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 8,
-    "daily_wins": 8
+    "daily_wins": 7
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "Big Easy Banks",
         "Camila Nakagawa"
       ],
-      "rating_at_end": -0.535,
+      "rating_at_end": -0.662,
       "rank": 15,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -60,7 +60,7 @@
         "Pete Connolly",
         "Jillian Zoboroski"
       ],
-      "rating_at_end": -0.224,
+      "rating_at_end": -0.23,
       "rank": 10,
       "rank_total": 13,
       "daily_wins": 0,
@@ -88,8 +88,8 @@
       "eliminated_by": [
         "Darrell Taylor"
       ],
-      "rating_at_end": -0.381,
-      "rank": 12,
+      "rating_at_end": -0.322,
+      "rank": 11,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -114,8 +114,8 @@
       "eliminated_by": [
         "Adam King"
       ],
-      "rating_at_end": -0.572,
-      "rank": 16,
+      "rating_at_end": -0.544,
+      "rank": 15,
       "rank_total": 17,
       "daily_wins": 4,
       "elim_wins": 0,
@@ -140,7 +140,7 @@
       "eliminated_by": [
         "Davis Mallory"
       ],
-      "rating_at_end": -0.724,
+      "rating_at_end": -0.73,
       "rank": 10,
       "rank_total": 11,
       "daily_wins": 2,
@@ -157,27 +157,27 @@
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": -0.724
+      "rating": -0.73
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": -0.572
+      "rating": -0.544
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.381
+      "rating": -0.322
     },
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.224
+      "rating": -0.23
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.535
+      "rating": -0.662
     }
   ]
 }

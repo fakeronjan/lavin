@@ -3,10 +3,10 @@
   "safe_name": "Cory_Wharton",
   "gender": "M",
   "career": {
-    "era_rating": 4.0,
-    "peak_rating": 0.779,
-    "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.185,
+    "era_rating": 4.3,
+    "peak_rating": 0.841,
+    "peak_season_id": "s36_double_agents",
+    "active_rating": -0.333,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 9,
     "elim_losses": 6,
-    "daily_wins": 17
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Derek Chavez"
       ],
-      "rating_at_end": 0.247,
+      "rating_at_end": 0.243,
       "rank": 5,
       "rank_total": 20,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 3,
       "elim_losses": 2,
       "elim_loss_survived": true,
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Logan Sampedro"
       ],
-      "rating_at_end": 0.529,
+      "rating_at_end": 0.544,
       "rank": 4,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -84,7 +84,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.772,
+      "rating_at_end": 0.841,
       "rank": 2,
       "rank_total": 15,
       "daily_wins": 5,
@@ -117,10 +117,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.646,
-      "rank": 2,
+      "rating_at_end": 0.682,
+      "rank": 3,
       "rank_total": 14,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -141,7 +141,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.126,
+      "rating_at_end": 0.112,
       "rank": 5,
       "rank_total": 15,
       "daily_wins": 0,
@@ -169,9 +169,9 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": -0.247,
-      "rank": 13,
-      "rank_total": 17,
+      "rating_at_end": -0.187,
+      "rank": 12,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -195,7 +195,7 @@
       "eliminated_by": [
         "Hunter Barfield"
       ],
-      "rating_at_end": 0.176,
+      "rating_at_end": 0.26,
       "rank": 9,
       "rank_total": 15,
       "daily_wins": 0,
@@ -219,9 +219,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.351,
+      "rating_at_end": 0.436,
       "rank": 6,
-      "rank_total": 13,
+      "rank_total": 12,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -246,8 +246,8 @@
         "Nate Siebenmark",
         "Christina LeBlanc"
       ],
-      "rating_at_end": 0.34,
-      "rank": 6,
+      "rating_at_end": 0.374,
+      "rank": 7,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -272,7 +272,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.779,
+      "rating_at_end": 0.827,
       "rank": 3,
       "rank_total": 16,
       "daily_wins": 2,
@@ -291,52 +291,52 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.779
+      "rating": 0.827
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.34
+      "rating": 0.374
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.351
+      "rating": 0.436
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.176
+      "rating": 0.26
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.247
+      "rating": -0.187
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 0.126
+      "rating": 0.112
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.646
+      "rating": 0.682
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.772
+      "rating": 0.841
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.529
+      "rating": 0.544
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.247
+      "rating": 0.243
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Nicole_Ramos",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.128,
+    "era_rating": 0.2,
+    "peak_rating": 0.122,
     "peak_season_id": "s28_rivals_iii",
-    "active_rating": -0.177,
+    "active_rating": -0.133,
     "active_season_id": "s31_vendettas",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.177,
-      "rank": 14,
+      "rating_at_end": -0.133,
+      "rank": 13,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -56,7 +56,7 @@
       "eliminated_by": [
         "Britni Thornton"
       ],
-      "rating_at_end": -0.02,
+      "rating_at_end": 0.095,
       "rank": 9,
       "rank_total": 16,
       "daily_wins": 1,
@@ -83,7 +83,7 @@
         "Sarah Rice",
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.128,
+      "rating_at_end": 0.122,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 1,
@@ -111,7 +111,7 @@
       "eliminated_by": [
         "KellyAnne Judd"
       ],
-      "rating_at_end": -0.604,
+      "rating_at_end": -0.578,
       "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
@@ -130,22 +130,22 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.604
+      "rating": -0.578
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.128
+      "rating": 0.122
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": -0.02
+      "rating": 0.095
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.177
+      "rating": -0.133
     }
   ]
 }

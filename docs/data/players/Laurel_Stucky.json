@@ -3,10 +3,10 @@
   "safe_name": "Laurel_Stucky",
   "gender": "F",
   "career": {
-    "era_rating": 4.2,
-    "peak_rating": 1.024,
+    "era_rating": 4.4,
+    "peak_rating": 1.044,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.383,
+    "active_rating": -0.238,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 16,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 11,
     "elim_losses": 4,
-    "daily_wins": 25
+    "daily_wins": 17
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.263,
-      "rank": 13,
+      "rating_at_end": -0.346,
+      "rank": 15,
       "rank_total": 20,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -56,8 +56,8 @@
       "eliminated_by": [
         "Ravyn Rochelle"
       ],
-      "rating_at_end": -0.524,
-      "rank": 15,
+      "rating_at_end": -0.45,
+      "rank": 13,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -83,7 +83,7 @@
         "Aneesa Ferreira",
         "Jordan Wiseley"
       ],
-      "rating_at_end": -0.087,
+      "rating_at_end": -0.064,
       "rank": 10,
       "rank_total": 17,
       "daily_wins": 0,
@@ -111,7 +111,7 @@
       "eliminated_by": [
         "Natalie Duran"
       ],
-      "rating_at_end": 0.401,
+      "rating_at_end": 0.405,
       "rank": 7,
       "rank_total": 16,
       "daily_wins": 2,
@@ -129,13 +129,13 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "Mercenary in Yankin' My Chain",
-      "finish_label": "Mercenary",
-      "finish_episode": "Yankin' My Chain",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.216,
+      "rating_at_end": 0.251,
       "rank": 7,
       "rank_total": 18,
       "daily_wins": 0,
@@ -161,10 +161,10 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": 0.169,
-      "rank": 6,
+      "rating_at_end": 0.251,
+      "rank": 5,
       "rank_total": 13,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -185,10 +185,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.024,
+      "rating_at_end": 1.044,
       "rank": 1,
       "rank_total": 14,
-      "daily_wins": 6,
+      "daily_wins": 2,
       "elim_wins": 4,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -209,7 +209,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.644,
+      "rating_at_end": 0.645,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 1,
@@ -235,10 +235,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.801,
+      "rating_at_end": 0.795,
       "rank": 2,
       "rank_total": 15,
-      "daily_wins": 6,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -259,7 +259,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.986,
+      "rating_at_end": 0.995,
       "rank": 2,
       "rank_total": 13,
       "daily_wins": 5,
@@ -278,52 +278,52 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": 0.986
+      "rating": 0.995
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.801
+      "rating": 0.795
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": 0.644
+      "rating": 0.645
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 1.024
+      "rating": 1.044
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.169
+      "rating": 0.251
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.216
+      "rating": 0.251
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.401
+      "rating": 0.405
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.087
+      "rating": -0.064
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.524
+      "rating": -0.45
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.263
+      "rating": -0.346
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Tori_Deal",
   "gender": "F",
   "career": {
-    "era_rating": 4.2,
-    "peak_rating": 1.115,
+    "era_rating": 4.6,
+    "peak_rating": 1.15,
     "peak_season_id": "s38_ride_or_dies",
-    "active_rating": 0.519,
+    "active_rating": 0.563,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 10,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 10,
     "elim_losses": 5,
-    "daily_wins": 12
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.43,
+      "rating_at_end": 0.523,
       "rank": 4,
       "rank_total": 20,
-      "daily_wins": 5,
+      "daily_wins": 4,
       "elim_wins": 4,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -54,7 +54,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.626,
+      "rating_at_end": 0.805,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 0,
@@ -78,7 +78,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.115,
+      "rating_at_end": 1.15,
       "rank": 1,
       "rank_total": 17,
       "daily_wins": 1,
@@ -104,10 +104,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.642,
-      "rank": 3,
+      "rating_at_end": 0.688,
+      "rank": 2,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -136,8 +136,8 @@
       "eliminated_by": [
         "Aneesa Ferreira"
       ],
-      "rating_at_end": -0.158,
-      "rank": 11,
+      "rating_at_end": -0.116,
+      "rank": 10,
       "rank_total": 15,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -165,8 +165,8 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": 0.034,
-      "rank": 9,
+      "rating_at_end": 0.066,
+      "rank": 8,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -189,7 +189,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.554,
+      "rating_at_end": 0.59,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 1,
@@ -216,7 +216,7 @@
         "Sylvia Elsrode",
         "Joss Mooney"
       ],
-      "rating_at_end": -0.298,
+      "rating_at_end": -0.29,
       "rank": 11,
       "rank_total": 18,
       "daily_wins": 0,
@@ -236,15 +236,15 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "Mercenary in Crazy 8",
-      "finish_label": "Mercenary",
-      "finish_episode": "Crazy 8",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
       "elim_position": 4,
       "elim_total": 9,
       "eliminated_by": [
         "Kam Williams"
       ],
-      "rating_at_end": 0.325,
+      "rating_at_end": 0.327,
       "rank": 6,
       "rank_total": 18,
       "daily_wins": 0,
@@ -268,8 +268,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.469,
-      "rank": 3,
+      "rating_at_end": 0.491,
+      "rank": 4,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -285,52 +285,52 @@
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.469
+      "rating": 0.491
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.325
+      "rating": 0.327
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.298
+      "rating": -0.29
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.554
+      "rating": 0.59
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.034
+      "rating": 0.066
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.158
+      "rating": -0.116
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.642
+      "rating": 0.688
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 1.115
+      "rating": 1.15
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.626
+      "rating": 0.805
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.43
+      "rating": 0.523
     }
   ]
 }

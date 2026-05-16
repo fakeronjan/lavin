@@ -3,10 +3,10 @@
   "safe_name": "Asaf_Goren",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.201,
+    "era_rating": 0.3,
+    "peak_rating": 0.274,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.245,
+    "active_rating": -0.227,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -32,9 +32,9 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.201,
-      "rank": 10,
-      "rank_total": 17,
+      "rating_at_end": 0.274,
+      "rank": 9,
+      "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -58,7 +58,7 @@
       "eliminated_by": [
         "Jay Starrett"
       ],
-      "rating_at_end": -0.54,
+      "rating_at_end": -0.563,
       "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.54
+      "rating": -0.563
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.201
+      "rating": 0.274
     }
   ]
 }

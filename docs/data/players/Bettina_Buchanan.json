@@ -3,10 +3,10 @@
   "safe_name": "Bettina_Buchanan",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.159,
+    "era_rating": 0.0,
+    "peak_rating": 0.04,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.159,
+    "active_rating": 0.04,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 1,
     "n_snapshots": 1,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Emy Alupei"
       ],
-      "rating_at_end": 0.159,
-      "rank": 6,
+      "rating_at_end": 0.04,
+      "rank": 7,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -49,9 +49,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.159
+      "rating": 0.04
     }
   ]
 }

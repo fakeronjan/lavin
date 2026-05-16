@@ -3,10 +3,10 @@
   "safe_name": "Nelson_Thomas",
   "gender": "M",
   "career": {
-    "era_rating": 2.0,
-    "peak_rating": 0.805,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.467,
+    "era_rating": 2.3,
+    "peak_rating": 0.829,
+    "peak_season_id": "s30_xxx_dirty_30",
+    "active_rating": -0.398,
     "active_season_id": "s39_battle_for_a_new_champion",
     "n_seasons": 9,
     "n_snapshots": 11,
@@ -14,8 +14,8 @@
     "finals_reached": 2,
     "pre_anchor_titles": 0,
     "elim_wins": 9,
-    "elim_losses": 7,
-    "daily_wins": 8
+    "elim_losses": 6,
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": 0.023,
+      "rating_at_end": 0.048,
       "rank": 6,
       "rank_total": 17,
       "daily_wins": 2,
@@ -58,8 +58,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.188,
-      "rank": 9,
+      "rating_at_end": 0.262,
+      "rank": 7,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -87,10 +87,10 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": -0.12,
-      "rank": 12,
+      "rating_at_end": -0.306,
+      "rank": 11,
       "rank_total": 15,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -115,10 +115,10 @@
       "eliminated_by": [
         "Rogan O'Connor"
       ],
-      "rating_at_end": -0.164,
+      "rating_at_end": -0.286,
       "rank": 12,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -142,7 +142,7 @@
         "Paulie Calafiore",
         "Natalie Negrotti"
       ],
-      "rating_at_end": -0.078,
+      "rating_at_end": -0.049,
       "rank": 9,
       "rank_total": 15,
       "daily_wins": 0,
@@ -165,18 +165,18 @@
       "finish": "Eliminated in Czechmate",
       "finish_label": "Eliminated",
       "finish_episode": "Czechmate",
-      "elim_position": 8,
+      "elim_position": 9,
       "elim_total": 10,
       "eliminated_by": [
         "Tony Raines"
       ],
-      "rating_at_end": 0.132,
-      "rank": 9,
-      "rank_total": 17,
+      "rating_at_end": 0.279,
+      "rank": 7,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
-      "elim_losses": 2,
-      "elim_loss_survived": true,
+      "elim_losses": 1,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -194,10 +194,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.771,
+      "rating_at_end": 0.829,
       "rank": 4,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -218,10 +218,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.805,
+      "rating_at_end": 0.797,
       "rank": 2,
-      "rank_total": 13,
-      "daily_wins": 2,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 3,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -245,7 +245,7 @@
         "Jamie Banks",
         "KellyAnne Judd"
       ],
-      "rating_at_end": 0.081,
+      "rating_at_end": 0.129,
       "rank": 9,
       "rank_total": 14,
       "daily_wins": 0,
@@ -264,47 +264,47 @@
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": 0.081
+      "rating": 0.129
     },
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.805
+      "rating": 0.797
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.771
+      "rating": 0.829
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.132
+      "rating": 0.279
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.078
+      "rating": -0.049
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.164
+      "rating": -0.286
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.12
+      "rating": -0.306
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.188
+      "rating": 0.262
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.023
+      "rating": 0.048
     }
   ]
 }

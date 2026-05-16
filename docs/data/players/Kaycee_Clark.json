@@ -3,10 +3,10 @@
   "safe_name": "Kaycee_Clark",
   "gender": "F",
   "career": {
-    "era_rating": 2.2,
-    "peak_rating": 0.849,
+    "era_rating": 2.4,
+    "peak_rating": 0.876,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.174,
+    "active_rating": -0.2,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 7,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 2,
-    "daily_wins": 15
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": -0.092,
-      "rank": 10,
+      "rating_at_end": -0.131,
+      "rank": 11,
       "rank_total": 20,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -56,8 +56,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.244,
-      "rank": 13,
+      "rating_at_end": -0.208,
+      "rank": 10,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -83,8 +83,8 @@
         "Aneesa Ferreira",
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.052,
-      "rank": 9,
+      "rating_at_end": 0.098,
+      "rank": 7,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -109,7 +109,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.717,
+      "rating_at_end": 0.815,
       "rank": 1,
       "rank_total": 18,
       "daily_wins": 1,
@@ -136,7 +136,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.574,
+      "rating_at_end": 0.621,
       "rank": 3,
       "rank_total": 15,
       "daily_wins": 5,
@@ -162,10 +162,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.849,
+      "rating_at_end": 0.876,
       "rank": 2,
       "rank_total": 14,
-      "daily_wins": 5,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -177,34 +177,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.849
+      "rating": 0.876
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.574
+      "rating": 0.621
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.717
+      "rating": 0.815
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.052
+      "rating": 0.098
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.244
+      "rating": -0.208
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.092
+      "rating": -0.131
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.089,
+    "peak_rating": -0.339,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.043,
+    "active_rating": -0.209,
     "active_season_id": "s28_rivals_iii",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": -0.089,
-      "rank": 5,
+      "rating_at_end": -0.339,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -51,7 +51,7 @@
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": -0.089
+      "rating": -0.339
     }
   ]
 }

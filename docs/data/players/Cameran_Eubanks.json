@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.166,
+    "peak_rating": -0.527,
     "peak_season_id": "s09_battle_of_the_sexes_2",
-    "active_rating": -0.827,
+    "active_rating": -0.852,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.827,
+      "rating_at_end": -0.852,
       "rank": 15,
       "rank_total": 16,
       "daily_wins": 1,
@@ -56,10 +56,10 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.166,
-      "rank": 11,
+      "rating_at_end": -0.527,
+      "rank": 14,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -73,12 +73,12 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.166
+      "rating": -0.527
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.827
+      "rating": -0.852
     }
   ]
 }

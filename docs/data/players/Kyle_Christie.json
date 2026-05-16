@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 2.8,
-    "peak_rating": 0.822,
+    "peak_rating": 0.864,
     "peak_season_id": "s31_vendettas",
-    "active_rating": 0.91,
+    "active_rating": 0.95,
     "active_season_id": "s38_ride_or_dies",
     "n_seasons": 7,
     "n_snapshots": 8,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 4,
-    "daily_wins": 13
+    "daily_wins": 8
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.71,
+      "rating_at_end": 0.746,
       "rank": 2,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -59,7 +59,7 @@
       "eliminated_by": [
         "Faysal Shafaat"
       ],
-      "rating_at_end": 0.451,
+      "rating_at_end": 0.507,
       "rank": 5,
       "rank_total": 15,
       "daily_wins": 3,
@@ -90,10 +90,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.524,
-      "rank": 4,
+      "rating_at_end": 0.528,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -116,10 +116,10 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": 0.085,
-      "rank": 12,
+      "rating_at_end": -0.156,
+      "rank": 14,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -142,10 +142,10 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": 0.208,
-      "rank": 6,
+      "rating_at_end": 0.122,
+      "rank": 7,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -171,7 +171,7 @@
         "Nelson Thomas",
         "Shane Landrum"
       ],
-      "rating_at_end": -0.532,
+      "rating_at_end": -0.514,
       "rank": 13,
       "rank_total": 15,
       "daily_wins": 1,
@@ -197,9 +197,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.822,
+      "rating_at_end": 0.864,
       "rank": 2,
-      "rank_total": 17,
+      "rank_total": 16,
       "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 0,
@@ -212,39 +212,39 @@
   ],
   "timeline": [
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.822
+      "rating": 0.864
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.532
+      "rating": -0.514
     },
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.208
+      "rating": 0.122
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.085
+      "rating": -0.156
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.524
+      "rating": 0.528
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.451
+      "rating": 0.507
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.71
+      "rating": 0.746
     }
   ]
 }

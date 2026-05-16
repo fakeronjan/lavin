@@ -3,10 +3,10 @@
   "safe_name": "Michele_Fitzgerald",
   "gender": "F",
   "career": {
-    "era_rating": 0.5,
-    "peak_rating": 0.414,
+    "era_rating": 0.6,
+    "peak_rating": 0.502,
     "peak_season_id": "s40_battle_of_the_eras",
-    "active_rating": 0.673,
+    "active_rating": 0.697,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 6
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.414,
+      "rating_at_end": 0.502,
       "rank": 5,
       "rank_total": 20,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 3,
       "elim_losses": 2,
       "elim_loss_survived": true,
@@ -56,8 +56,8 @@
       "eliminated_by": [
         "Berna Canbeldek"
       ],
-      "rating_at_end": -0.418,
-      "rank": 14,
+      "rating_at_end": -0.301,
+      "rank": 11,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -83,7 +83,7 @@
         "Olivia Kaiser",
         "Horacio Guti\u00e9rrez Jr."
       ],
-      "rating_at_end": 0.065,
+      "rating_at_end": 0.08,
       "rank": 8,
       "rank_total": 17,
       "daily_wins": 2,
@@ -112,8 +112,8 @@
         "Amber Borzotra",
         "Hughie Maughan"
       ],
-      "rating_at_end": -0.335,
-      "rank": 14,
+      "rating_at_end": -0.292,
+      "rank": 12,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -131,24 +131,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.335
+      "rating": -0.292
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.065
+      "rating": 0.08
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.418
+      "rating": -0.301
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.414
+      "rating": 0.502
     }
   ]
 }

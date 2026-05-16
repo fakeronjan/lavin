@@ -3,10 +3,10 @@
   "safe_name": "Tina_Barta",
   "gender": "F",
   "career": {
-    "era_rating": 1.2,
+    "era_rating": 1.3,
     "peak_rating": 0.63,
     "peak_season_id": "s12_fresh_meat",
-    "active_rating": -0.41,
+    "active_rating": -0.272,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 6,
     "n_snapshots": 11,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": -0.41,
-      "rank": 15,
+      "rating_at_end": -0.272,
+      "rank": 14,
       "rank_total": 20,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -56,8 +56,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.242,
-      "rank": 8,
+      "rating_at_end": 0.269,
+      "rank": 7,
       "rank_total": 10,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -106,7 +106,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.138,
+      "rating_at_end": 0.177,
       "rank": 2,
       "rank_total": 10,
       "daily_wins": 2,
@@ -132,8 +132,8 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": 0.155,
-      "rank": 6,
+      "rating_at_end": 0.211,
+      "rank": 5,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 4,
@@ -158,7 +158,7 @@
       "eliminated_by": [
         "Coral Smith"
       ],
-      "rating_at_end": -0.255,
+      "rating_at_end": -0.253,
       "rank": 13,
       "rank_total": 14,
       "daily_wins": 3,
@@ -175,17 +175,17 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.255
+      "rating": -0.253
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.155
+      "rating": 0.211
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.138
+      "rating": 0.177
     },
     {
       "ranking_id": 225,
@@ -195,12 +195,12 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.242
+      "rating": 0.269
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.41
+      "rating": -0.272
     }
   ]
 }

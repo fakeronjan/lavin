@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 1.5,
-    "peak_rating": 0.879,
+    "peak_rating": 0.842,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 0.879,
+    "active_rating": 0.842,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 1,
-    "daily_wins": 8
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.879,
+      "rating_at_end": 0.842,
       "rank": 1,
       "rank_total": 17,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -65,10 +65,10 @@
       "eliminated_by": [
         "Michele Fitzgerald"
       ],
-      "rating_at_end": -0.066,
+      "rating_at_end": -0.025,
       "rank": 7,
       "rank_total": 20,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -91,10 +91,10 @@
       "eliminated_by": [
         "James Lock"
       ],
-      "rating_at_end": 0.138,
-      "rank": 10,
+      "rating_at_end": 0.194,
+      "rank": 9,
       "rank_total": 17,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -115,7 +115,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.461,
+      "rating_at_end": 0.488,
       "rank": 4,
       "rank_total": 17,
       "daily_wins": 0,
@@ -132,24 +132,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.461
+      "rating": 0.488
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.138
+      "rating": 0.194
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.066
+      "rating": -0.025
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.879
+      "rating": 0.842
     }
   ]
 }

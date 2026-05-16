@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 3.0,
-    "peak_rating": 1.154,
+    "peak_rating": 1.161,
     "peak_season_id": "s41_vets_and_new_threats",
-    "active_rating": 1.154,
+    "active_rating": 1.161,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.154,
+      "rating_at_end": 1.161,
       "rank": 2,
       "rank_total": 16,
       "daily_wins": 4,
@@ -67,8 +67,8 @@
         "Horacio Guti\u00e9rrez Jr.",
         "Olivia Kaiser"
       ],
-      "rating_at_end": -0.326,
-      "rank": 12,
+      "rating_at_end": -0.321,
+      "rank": 13,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -93,7 +93,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.742,
+      "rating_at_end": 0.756,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 1,
@@ -117,7 +117,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.125,
+      "rating_at_end": 1.129,
       "rank": 1,
       "rank_total": 17,
       "daily_wins": 0,
@@ -135,24 +135,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 1.125
+      "rating": 1.129
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.742
+      "rating": 0.756
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.326
+      "rating": -0.321
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 1.154
+      "rating": 1.161
     }
   ]
 }

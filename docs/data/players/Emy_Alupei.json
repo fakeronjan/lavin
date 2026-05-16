@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.647,
+    "peak_rating": 0.646,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": 0.663,
+    "active_rating": 0.671,
     "active_season_id": "s38_ride_or_dies",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 0,
-    "daily_wins": 3
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,10 +30,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.647,
-      "rank": 2,
+      "rating_at_end": 0.646,
+      "rank": 3,
       "rank_total": 18,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 4,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -53,9 +53,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.647
+      "rating": 0.646
     }
   ]
 }

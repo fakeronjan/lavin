@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.18,
+    "peak_rating": 0.174,
     "peak_season_id": "s15_the_gauntlet_iii",
-    "active_rating": -0.825,
+    "active_rating": -0.851,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 12,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 5,
-    "daily_wins": 11
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -33,10 +33,10 @@
         "JD Ordo\u00f1ez",
         "Devyn Simone"
       ],
-      "rating_at_end": -0.131,
-      "rank": 6,
+      "rating_at_end": -0.345,
+      "rank": 7,
       "rank_total": 16,
-      "daily_wins": 3,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": true,
@@ -59,10 +59,10 @@
       "eliminated_by": [
         "Luke Wolfe"
       ],
-      "rating_at_end": -0.143,
-      "rank": 9,
+      "rating_at_end": -0.212,
+      "rank": 10,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -85,8 +85,8 @@
       "eliminated_by": [
         "Derek McCray"
       ],
-      "rating_at_end": -0.062,
-      "rank": 10,
+      "rating_at_end": -0.012,
+      "rank": 8,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -109,10 +109,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.18,
+      "rating_at_end": 0.174,
       "rank": 7,
       "rank_total": 17,
-      "daily_wins": 5,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -135,7 +135,7 @@
       "eliminated_by": [
         "Brad Fiorenza"
       ],
-      "rating_at_end": -0.0,
+      "rating_at_end": -0.011,
       "rank": 7,
       "rank_total": 10,
       "daily_wins": 1,
@@ -186,27 +186,27 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": -0.0
+      "rating": -0.011
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.18
+      "rating": 0.174
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.062
+      "rating": -0.012
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.143
+      "rating": -0.212
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.131
+      "rating": -0.345
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 1.0,
-    "peak_rating": 0.497,
-    "peak_season_id": "s38_ride_or_dies",
-    "active_rating": -0.091,
+    "peak_rating": 0.501,
+    "peak_season_id": "s39_battle_for_a_new_champion",
+    "active_rating": -0.109,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 3,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 1,
-    "daily_wins": 5
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.091,
-      "rank": 9,
+      "rating_at_end": -0.109,
+      "rank": 10,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -56,9 +56,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.477,
+      "rating_at_end": 0.501,
       "rank": 5,
-      "rank_total": 17,
+      "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -80,10 +80,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.497,
-      "rank": 3,
+      "rating_at_end": 0.453,
+      "rank": 4,
       "rank_total": 17,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 5,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -97,19 +97,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.497
+      "rating": 0.453
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.477
+      "rating": 0.501
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.091
+      "rating": -0.109
     }
   ]
 }

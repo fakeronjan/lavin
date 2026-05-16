@@ -3,10 +3,10 @@
   "safe_name": "Dan_Walsh",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.071,
+    "era_rating": 0.0,
+    "peak_rating": -0.032,
     "peak_season_id": "s16_the_island",
-    "active_rating": 0.026,
+    "active_rating": 0.07,
     "active_season_id": "s21_rivals",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 5
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Dunbar Merrill"
       ],
-      "rating_at_end": -0.146,
-      "rank": 10,
+      "rating_at_end": -0.103,
+      "rank": 8,
       "rank_total": 15,
       "daily_wins": 3,
       "elim_wins": 0,
@@ -56,10 +56,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.071,
+      "rating_at_end": -0.032,
       "rank": 5,
       "rank_total": 10,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -73,12 +73,12 @@
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.071
+      "rating": -0.032
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.146
+      "rating": -0.103
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Dustin_Zito",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.39,
+    "era_rating": 0.5,
+    "peak_rating": 0.503,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.399,
+    "active_rating": -0.339,
     "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 2,
-    "daily_wins": 2
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Adam Kuhn",
         "Brittany Baldi"
       ],
-      "rating_at_end": -0.399,
+      "rating_at_end": -0.339,
       "rank": 12,
       "rank_total": 13,
       "daily_wins": 0,
@@ -61,8 +61,8 @@
       "eliminated_by": [
         "Frank Fox"
       ],
-      "rating_at_end": -0.275,
-      "rank": 12,
+      "rating_at_end": -0.198,
+      "rank": 10,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -85,10 +85,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.39,
+      "rating_at_end": 0.503,
       "rank": 3,
       "rank_total": 16,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -109,7 +109,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.419,
+      "rating_at_end": -0.417,
       "rank": 10,
       "rank_total": 12,
       "daily_wins": 0,
@@ -126,22 +126,22 @@
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.419
+      "rating": -0.417
     },
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.39
+      "rating": 0.503
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.275
+      "rating": -0.198
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.399
+      "rating": -0.339
     }
   ]
 }

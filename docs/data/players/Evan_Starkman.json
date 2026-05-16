@@ -3,8 +3,8 @@
   "safe_name": "Evan_Starkman",
   "gender": "M",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 0.912,
+    "era_rating": 2.5,
+    "peak_rating": 0.98,
     "peak_season_id": "s17_the_duel_ii",
     "active_rating": -0.515,
     "active_season_id": "s22_battle_of_the_exes",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 2,
-    "daily_wins": 29
+    "daily_wins": 25
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Adam King",
         "CT Tamburello"
       ],
-      "rating_at_end": -0.755,
+      "rating_at_end": -0.761,
       "rank": 14,
       "rank_total": 15,
       "daily_wins": 0,
@@ -59,10 +59,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.807,
-      "rank": 2,
+      "rating_at_end": 0.874,
+      "rank": 1,
       "rank_total": 14,
-      "daily_wins": 9,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -83,10 +83,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.912,
+      "rating_at_end": 0.98,
       "rank": 1,
       "rank_total": 15,
-      "daily_wins": 4,
+      "daily_wins": 2,
       "elim_wins": 3,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -107,10 +107,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.294,
-      "rank": 4,
+      "rating_at_end": 0.286,
+      "rank": 5,
       "rank_total": 17,
-      "daily_wins": 5,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -133,8 +133,8 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.341,
-      "rank": 4,
+      "rating_at_end": 0.326,
+      "rank": 5,
       "rank_total": 10,
       "daily_wins": 6,
       "elim_wins": 0,
@@ -181,27 +181,27 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.341
+      "rating": 0.326
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.294
+      "rating": 0.286
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.912
+      "rating": 0.98
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.807
+      "rating": 0.874
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.755
+      "rating": -0.761
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Theresa_Jones",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.635,
+    "era_rating": 0.8,
+    "peak_rating": 0.664,
     "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": 0.073,
+    "active_rating": 0.002,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 7,
     "n_snapshots": 11,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 7,
-    "daily_wins": 12
+    "daily_wins": 9
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": 0.153,
-      "rank": 6,
+      "rating_at_end": 0.072,
+      "rank": 8,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,7 +59,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.635,
+      "rating_at_end": 0.664,
       "rank": 3,
       "rank_total": 13,
       "daily_wins": 3,
@@ -88,10 +88,10 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": 0.159,
+      "rating_at_end": 0.064,
       "rank": 8,
       "rank_total": 14,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -115,8 +115,8 @@
         "Camila Nakagawa",
         "Jemmye Carroll"
       ],
-      "rating_at_end": -0.289,
-      "rank": 11,
+      "rating_at_end": -0.307,
+      "rank": 9,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -144,7 +144,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.418,
+      "rating_at_end": -0.39,
       "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
@@ -172,8 +172,8 @@
       "eliminated_by": [
         "Tori Hall"
       ],
-      "rating_at_end": -0.325,
-      "rank": 9,
+      "rating_at_end": -0.26,
+      "rank": 8,
       "rank_total": 15,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -199,7 +199,7 @@
         "Jenn Grijalva",
         "Noor Jehangir"
       ],
-      "rating_at_end": -0.316,
+      "rating_at_end": -0.307,
       "rank": 11,
       "rank_total": 13,
       "daily_wins": 0,
@@ -218,37 +218,37 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.316
+      "rating": -0.307
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.325
+      "rating": -0.26
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.418
+      "rating": -0.39
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.289
+      "rating": -0.307
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.159
+      "rating": 0.064
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.635
+      "rating": 0.664
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.153
+      "rating": 0.072
     }
   ]
 }

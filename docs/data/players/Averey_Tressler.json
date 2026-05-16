@@ -3,10 +3,10 @@
   "safe_name": "Averey_Tressler",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": 0.01,
-    "peak_season_id": "s26_battle_of_the_exes_ii",
-    "active_rating": -0.074,
+    "era_rating": 0.1,
+    "peak_rating": 0.046,
+    "peak_season_id": "s40_battle_of_the_eras",
+    "active_rating": 0.046,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Rachel Robinson"
       ],
-      "rating_at_end": -0.074,
-      "rank": 9,
+      "rating_at_end": 0.046,
+      "rank": 6,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 1,
@@ -56,8 +56,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.356,
-      "rank": 12,
+      "rating_at_end": -0.371,
+      "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -83,7 +83,7 @@
         "Nia Moore",
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.01,
+      "rating_at_end": 0.043,
       "rank": 6,
       "rank_total": 13,
       "daily_wins": 0,
@@ -102,17 +102,17 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.01
+      "rating": 0.043
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.356
+      "rating": -0.371
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.074
+      "rating": 0.046
     }
   ]
 }

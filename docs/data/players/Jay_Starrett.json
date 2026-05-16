@@ -3,10 +3,10 @@
   "safe_name": "Jay_Starrett",
   "gender": "M",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.456,
+    "era_rating": 0.6,
+    "peak_rating": 0.51,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.462,
+    "active_rating": 0.56,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 3,
     "elim_losses": 3,
-    "daily_wins": 5
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -30,9 +30,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.456,
-      "rank": 7,
-      "rank_total": 17,
+      "rating_at_end": 0.51,
+      "rank": 4,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -57,7 +57,7 @@
         "Horacio Guti\u00e9rrez Jr.",
         "Olivia Kaiser"
       ],
-      "rating_at_end": 0.007,
+      "rating_at_end": 0.009,
       "rank": 7,
       "rank_total": 17,
       "daily_wins": 2,
@@ -85,10 +85,10 @@
       "eliminated_by": [
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.187,
+      "rating_at_end": 0.067,
       "rank": 8,
       "rank_total": 15,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -113,10 +113,10 @@
       "eliminated_by": [
         "Rogan O'Connor"
       ],
-      "rating_at_end": 0.175,
-      "rank": 8,
+      "rating_at_end": 0.019,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": true,
@@ -128,24 +128,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.175
+      "rating": 0.019
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.187
+      "rating": 0.067
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.007
+      "rating": 0.009
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.456
+      "rating": 0.51
     }
   ]
 }

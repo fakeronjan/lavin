@@ -3,10 +3,10 @@
   "safe_name": "Emanuel_Neagu",
   "gender": "M",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 1.078,
+    "era_rating": 1.4,
+    "peak_rating": 1.159,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.992,
+    "active_rating": 1.105,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 4
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -30,9 +30,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.078,
+      "rating_at_end": 1.159,
       "rank": 1,
-      "rank_total": 17,
+      "rank_total": 16,
       "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 0,
@@ -56,10 +56,10 @@
       "eliminated_by": [
         "Devin Walker"
       ],
-      "rating_at_end": 0.394,
-      "rank": 6,
+      "rating_at_end": 0.254,
+      "rank": 8,
       "rank_total": 18,
-      "daily_wins": 3,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.394
+      "rating": 0.254
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 1.078
+      "rating": 1.159
     }
   ]
 }

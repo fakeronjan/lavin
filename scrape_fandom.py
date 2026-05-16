@@ -933,30 +933,49 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
                     "winner": p,
                 })
         else:
-            if is_continuation:
-                start_idx = 1; n_emit = 2
-            elif cell2_is_player:
-                start_idx = 2; n_emit = 1
+            # Bug 1 fix (S20 Cutthroat-style): in team-format seasons (where
+            # the daily winner is named by team and we expand from a cast
+            # roster on row 1), the continuation row holds female-side gulag
+            # NOMINEES, not daily winners. Suppress emission there entirely.
+            if is_continuation and team_lower:
+                pass  # skip — nominee data, not daily winners
             else:
-                start_idx = 3; n_emit = 2
+                if is_continuation:
+                    start_idx = 1; n_emit = 2
+                elif cell2_is_player:
+                    start_idx = 2; n_emit = 1
+                else:
+                    start_idx = 3; n_emit = 2
 
-            daily_cell_idx = [i for i in player_idx if start_idx <= i < daily_range_end]
-            roles = ["prize", "safety"]
-            for j, idx in enumerate(daily_cell_idx[:n_emit]):
-                cell_players = _players_from_icons(cells[idx])
-                if not cell_players:
-                    continue
-                n = len(cell_players)
-                fmt = "individual" if n == 1 else ("pair" if n == 2 else "team")
-                role = roles[j] if j < len(roles) else "winner"
-                for p in cell_players:
-                    dailies.append({
-                        "episode": episode,
-                        "challenge": challenge,
-                        "format": fmt,
-                        "role": role,
-                        "winner": p,
-                    })
+                daily_cell_idx = [i for i in player_idx if start_idx <= i < daily_range_end]
+                roles = ["prize", "safety"]
+                # Bug 2 fix (S23 BotS-style): the "Nominated pair" / "Last-place
+                # pair" cells get mis-labeled as prize/safety winners. Drop any
+                # daily-winner players who are ALSO arena participants in this
+                # same row — by show rules, daily prize/safety means you avoid
+                # arena, so you can't be both daily winner AND arena player.
+                same_row_arena = set()
+                if not elim_skipped:
+                    same_row_arena = set(winner_players) | set(loser_players)
+                for j, idx in enumerate(daily_cell_idx[:n_emit]):
+                    cell_players = _players_from_icons(cells[idx])
+                    if not cell_players:
+                        continue
+                    n = len(cell_players)
+                    fmt = "individual" if n == 1 else ("pair" if n == 2 else "team")
+                    role = roles[j] if j < len(roles) else "winner"
+                    if same_row_arena and role in ("prize", "safety"):
+                        cell_players = [p for p in cell_players if p not in same_row_arena]
+                        if not cell_players:
+                            continue
+                    for p in cell_players:
+                        dailies.append({
+                            "episode": episode,
+                            "challenge": challenge,
+                            "format": fmt,
+                            "role": role,
+                            "winner": p,
+                        })
 
     return eliminations, dailies
 

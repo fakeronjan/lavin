@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.08,
+    "peak_rating": 0.078,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": 0.096,
+    "active_rating": 0.116,
     "active_season_id": "s09_battle_of_the_sexes_2",
     "n_seasons": 2,
     "n_snapshots": 5,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.08,
+      "rating_at_end": 0.078,
       "rank": 8,
       "rank_total": 14,
       "daily_wins": 6,
@@ -57,7 +57,7 @@
         "Sean Duffy",
         "Elka Walker"
       ],
-      "rating_at_end": -0.207,
+      "rating_at_end": -0.196,
       "rank": 8,
       "rank_total": 16,
       "daily_wins": 1,
@@ -76,12 +76,12 @@
     {
       "ranking_id": 41,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.207
+      "rating": -0.196
     },
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.08
+      "rating": 0.078
     }
   ]
 }

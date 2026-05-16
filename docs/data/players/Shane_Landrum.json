@@ -3,10 +3,10 @@
   "safe_name": "Shane_Landrum",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.216,
-    "peak_season_id": "s29_invasion_of_the_champions",
-    "active_rating": -0.356,
+    "era_rating": 0.4,
+    "peak_rating": 0.188,
+    "peak_season_id": "s12_fresh_meat",
+    "active_rating": -0.352,
     "active_season_id": "s33_war_of_the_worlds",
     "n_seasons": 7,
     "n_snapshots": 14,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 8,
-    "daily_wins": 14
+    "daily_wins": 13
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Paulie Calafiore",
         "Natalie Negrotti"
       ],
-      "rating_at_end": -0.068,
+      "rating_at_end": -0.039,
       "rank": 8,
       "rank_total": 15,
       "daily_wins": 0,
@@ -61,9 +61,9 @@
       "eliminated_by": [
         "Jordan Wiseley"
       ],
-      "rating_at_end": -0.335,
-      "rank": 15,
-      "rank_total": 17,
+      "rating_at_end": -0.285,
+      "rank": 13,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -87,10 +87,10 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": 0.216,
+      "rating_at_end": 0.076,
       "rank": 7,
-      "rank_total": 13,
-      "daily_wins": 1,
+      "rank_total": 12,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -142,7 +142,7 @@
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": -0.025,
+      "rating_at_end": -0.003,
       "rank": 9,
       "rank_total": 18,
       "daily_wins": 3,
@@ -168,7 +168,7 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": -0.316,
+      "rating_at_end": -0.319,
       "rank": 9,
       "rank_total": 10,
       "daily_wins": 5,
@@ -194,7 +194,7 @@
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": 0.183,
+      "rating_at_end": 0.184,
       "rank": 5,
       "rank_total": 18,
       "daily_wins": 3,
@@ -211,17 +211,17 @@
     {
       "ranking_id": 71,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.183
+      "rating": 0.184
     },
     {
       "ranking_id": 103,
       "season_id": "s08_the_inferno",
-      "rating": -0.316
+      "rating": -0.319
     },
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.025
+      "rating": -0.003
     },
     {
       "ranking_id": 225,
@@ -231,17 +231,17 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.216
+      "rating": 0.076
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.335
+      "rating": -0.285
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.068
+      "rating": -0.039
     }
   ]
 }

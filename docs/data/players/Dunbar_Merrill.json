@@ -3,10 +3,10 @@
   "safe_name": "Dunbar_Merrill",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.64,
+    "era_rating": 0.7,
+    "peak_rating": 0.667,
     "peak_season_id": "s20_cutthroat",
-    "active_rating": -0.33,
+    "active_rating": -0.277,
     "active_season_id": "s25_free_agents",
     "n_seasons": 6,
     "n_snapshots": 10,
@@ -33,7 +33,7 @@
         "Derek Chavez",
         "Robb Schreiber"
       ],
-      "rating_at_end": -0.549,
+      "rating_at_end": -0.56,
       "rank": 15,
       "rank_total": 16,
       "daily_wins": 0,
@@ -62,7 +62,7 @@
         "Ty Ruff",
         "Emily Schromm"
       ],
-      "rating_at_end": -0.244,
+      "rating_at_end": -0.242,
       "rank": 8,
       "rank_total": 12,
       "daily_wins": 1,
@@ -88,7 +88,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.64,
+      "rating_at_end": 0.667,
       "rank": 2,
       "rank_total": 15,
       "daily_wins": 2,
@@ -114,8 +114,8 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": -0.376,
-      "rank": 11,
+      "rating_at_end": -0.346,
+      "rank": 12,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -140,7 +140,7 @@
       "eliminated_by": [
         "MJ Garrett"
       ],
-      "rating_at_end": -0.664,
+      "rating_at_end": -0.647,
       "rank": 15,
       "rank_total": 15,
       "daily_wins": 0,
@@ -164,8 +164,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.833,
-      "rank": 9,
+      "rating_at_end": -0.816,
+      "rank": 10,
       "rank_total": 10,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -181,32 +181,32 @@
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.833
+      "rating": -0.816
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": -0.664
+      "rating": -0.647
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.376
+      "rating": -0.346
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.64
+      "rating": 0.667
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.244
+      "rating": -0.242
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.549
+      "rating": -0.56
     }
   ]
 }

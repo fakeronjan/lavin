@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.191,
+    "peak_rating": -0.198,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.83,
+    "active_rating": -0.721,
     "active_season_id": "s27_battle_of_the_bloodlines",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Adam Kuhn",
         "Brittany Baldi"
       ],
-      "rating_at_end": -0.42,
+      "rating_at_end": -0.359,
       "rank": 13,
       "rank_total": 13,
       "daily_wins": 0,
@@ -62,7 +62,7 @@
         "Jordan Wiseley",
         "Marlon Williams"
       ],
-      "rating_at_end": -0.191,
+      "rating_at_end": -0.198,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 0,
@@ -91,10 +91,10 @@
         "Zach Nichols",
         "Sam McGinn"
       ],
-      "rating_at_end": -0.38,
-      "rank": 8,
+      "rating_at_end": -0.396,
+      "rank": 10,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -108,17 +108,17 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.38
+      "rating": -0.396
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.191
+      "rating": -0.198
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.42
+      "rating": -0.359
     }
   ]
 }

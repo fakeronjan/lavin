@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.1,
-    "peak_rating": 0.133,
+    "peak_rating": 0.066,
     "peak_season_id": "s27_battle_of_the_bloodlines",
-    "active_rating": -0.471,
+    "active_rating": -0.41,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.211,
-      "rank": 12,
+      "rating_at_end": -0.201,
+      "rank": 13,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Mike Boise"
       ],
-      "rating_at_end": 0.133,
-      "rank": 9,
+      "rating_at_end": 0.066,
+      "rank": 6,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -87,7 +87,7 @@
         "Johnny Reilly",
         "Averey Tressler"
       ],
-      "rating_at_end": -0.283,
+      "rating_at_end": -0.222,
       "rank": 10,
       "rank_total": 13,
       "daily_wins": 0,
@@ -106,17 +106,17 @@
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.283
+      "rating": -0.222
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.133
+      "rating": 0.066
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.211
+      "rating": -0.201
     }
   ]
 }

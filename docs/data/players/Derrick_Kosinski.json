@@ -3,10 +3,10 @@
   "safe_name": "Derrick_Kosinski",
   "gender": "M",
   "career": {
-    "era_rating": 3.5,
-    "peak_rating": 1.011,
+    "era_rating": 3.7,
+    "peak_rating": 1.118,
     "peak_season_id": "s30_xxx_dirty_30",
-    "active_rating": -0.0,
+    "active_rating": 0.009,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 13,
     "n_snapshots": 17,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 13,
     "elim_losses": 8,
-    "daily_wins": 41
+    "daily_wins": 36
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Theo Campbell",
         "Adrienne Naylor"
       ],
-      "rating_at_end": -0.0,
+      "rating_at_end": 0.009,
       "rank": 13,
       "rank_total": 16,
       "daily_wins": 1,
@@ -68,10 +68,10 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.04,
-      "rank": 7,
+      "rating_at_end": -0.181,
+      "rank": 11,
       "rank_total": 20,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -86,15 +86,15 @@
       "season_name": "Vendettas",
       "year": 2018,
       "label": "S31 Vendettas (2018)",
-      "finish": "Mercenary in Crazy 8",
-      "finish_label": "Mercenary",
-      "finish_episode": "Crazy 8",
+      "finish": "",
+      "finish_label": "",
+      "finish_episode": "",
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.703,
+      "rating_at_end": 0.776,
       "rank": 4,
-      "rank_total": 17,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -116,7 +116,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.011,
+      "rating_at_end": 1.118,
       "rank": 2,
       "rank_total": 15,
       "daily_wins": 2,
@@ -142,10 +142,10 @@
       "eliminated_by": [
         "Tyler Duckworth"
       ],
-      "rating_at_end": 0.124,
+      "rating_at_end": 0.08,
       "rank": 6,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -166,10 +166,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.768,
-      "rank": 3,
+      "rating_at_end": 0.847,
+      "rank": 2,
       "rank_total": 14,
-      "daily_wins": 9,
+      "daily_wins": 8,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -190,7 +190,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.489,
+      "rating_at_end": 0.481,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 0,
@@ -214,7 +214,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.301,
+      "rating_at_end": 0.297,
       "rank": 3,
       "rank_total": 11,
       "daily_wins": 6,
@@ -240,7 +240,7 @@
       "eliminated_by": [
         "Wes Bergmann"
       ],
-      "rating_at_end": 0.06,
+      "rating_at_end": 0.063,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 1,
@@ -295,7 +295,7 @@
       "eliminated_by": [
         "Timmy Beggy"
       ],
-      "rating_at_end": -0.017,
+      "rating_at_end": -0.014,
       "rank": 8,
       "rank_total": 16,
       "daily_wins": 6,
@@ -319,7 +319,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.019,
+      "rating_at_end": -0.047,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 7,
@@ -345,10 +345,10 @@
       "eliminated_by": [
         "Randy Barry"
       ],
-      "rating_at_end": -0.245,
-      "rank": 13,
+      "rating_at_end": -0.649,
+      "rank": 18,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -362,17 +362,17 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.245
+      "rating": -0.649
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.019
+      "rating": -0.047
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.017
+      "rating": -0.014
     },
     {
       "ranking_id": 225,
@@ -382,47 +382,47 @@
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.06
+      "rating": 0.063
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.301
+      "rating": 0.297
     },
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": 0.489
+      "rating": 0.481
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.768
+      "rating": 0.847
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.124
+      "rating": 0.08
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 1.011
+      "rating": 1.118
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.703
+      "rating": 0.776
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.04
+      "rating": -0.181
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.0
+      "rating": 0.009
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.28,
+    "peak_rating": -0.269,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.354,
+    "active_rating": -0.314,
     "active_season_id": "s25_free_agents",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 2,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -33,7 +33,7 @@
         "Leroy Garrett",
         "Ty Ruff"
       ],
-      "rating_at_end": -0.28,
+      "rating_at_end": -0.269,
       "rank": 12,
       "rank_total": 16,
       "daily_wins": 2,
@@ -62,10 +62,10 @@
         "Dustin Zito",
         "Nany Gonz\u00e1lez"
       ],
-      "rating_at_end": -0.434,
+      "rating_at_end": -0.499,
       "rank": 11,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -79,12 +79,12 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.434
+      "rating": -0.499
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.28
+      "rating": -0.269
     }
   ]
 }

@@ -3,47 +3,21 @@
   "safe_name": "Hughie_Maughan",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.143,
-    "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.123,
-    "active_season_id": "s40_battle_of_the_eras",
+    "era_rating": 0.0,
+    "peak_rating": -0.372,
+    "peak_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.372,
+    "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 2,
-    "n_snapshots": 3,
+    "n_snapshots": 1,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 2,
-    "daily_wins": 1
+    "daily_wins": 0
   },
   "seasons": [
-    {
-      "season_id": "s39_battle_for_a_new_champion",
-      "season_num": 39,
-      "season_name": "Battle for a New Champion",
-      "year": 2023,
-      "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Eliminated in I'm Coming Out",
-      "finish_label": "Eliminated",
-      "finish_episode": "I'm Coming Out",
-      "elim_position": 2,
-      "elim_total": 9,
-      "eliminated_by": [
-        "Kyland Young"
-      ],
-      "rating_at_end": 0.143,
-      "rank": 11,
-      "rank_total": 17,
-      "daily_wins": 1,
-      "elim_wins": 0,
-      "elim_losses": 1,
-      "elim_loss_survived": false,
-      "partner": "",
-      "partners_history": [],
-      "team": "",
-      "forced_exit": false
-    },
     {
       "season_id": "s37_spies_lies_allies",
       "season_num": 37,
@@ -59,8 +33,8 @@
         "Jeremiah White",
         "Priscilla Anyabu"
       ],
-      "rating_at_end": -0.422,
-      "rank": 12,
+      "rating_at_end": -0.372,
+      "rank": 13,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -79,14 +53,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.422
-    },
-    {
-      "ranking_id": 970,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.143
+      "rating": -0.372
     }
   ]
 }

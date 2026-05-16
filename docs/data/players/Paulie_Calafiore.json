@@ -3,10 +3,10 @@
   "safe_name": "Paulie_Calafiore",
   "gender": "M",
   "career": {
-    "era_rating": 1.9,
-    "peak_rating": 0.693,
+    "era_rating": 2.0,
+    "peak_rating": 0.706,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": -0.537,
+    "active_rating": -0.496,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Theo Campbell"
       ],
-      "rating_at_end": -0.537,
-      "rank": 20,
+      "rating_at_end": -0.496,
+      "rank": 18,
       "rank_total": 20,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.586,
+      "rating_at_end": 0.599,
       "rank": 6,
       "rank_total": 16,
       "daily_wins": 1,
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.646,
+      "rating_at_end": 0.65,
       "rank": 4,
       "rank_total": 17,
       "daily_wins": 3,
@@ -107,7 +107,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.693,
+      "rating_at_end": 0.706,
       "rank": 3,
       "rank_total": 15,
       "daily_wins": 1,
@@ -124,24 +124,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 0.693
+      "rating": 0.706
     },
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.646
+      "rating": 0.65
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.586
+      "rating": 0.599
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.537
+      "rating": -0.496
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.064,
+    "peak_rating": -0.062,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": -0.014,
+    "active_rating": 0.01,
     "active_season_id": "s23_battle_of_the_seasons_2012",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.064,
+      "rating_at_end": -0.062,
       "rank": 7,
       "rank_total": 12,
       "daily_wins": 1,
@@ -58,7 +58,7 @@
       "eliminated_by": [
         "Big Easy Banks"
       ],
-      "rating_at_end": -0.442,
+      "rating_at_end": -0.448,
       "rank": 12,
       "rank_total": 15,
       "daily_wins": 1,
@@ -85,7 +85,7 @@
         "Kenny Santucci",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.091,
+      "rating_at_end": -0.124,
       "rank": 8,
       "rank_total": 13,
       "daily_wins": 0,
@@ -104,17 +104,17 @@
     {
       "ranking_id": 355,
       "season_id": "s19_fresh_meat_ii",
-      "rating": -0.091
+      "rating": -0.124
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.442
+      "rating": -0.448
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": -0.064
+      "rating": -0.062
     }
   ]
 }

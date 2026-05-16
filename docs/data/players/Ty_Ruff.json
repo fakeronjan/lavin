@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.4,
-    "peak_rating": 0.312,
+    "peak_rating": 0.314,
     "peak_season_id": "s22_battle_of_the_exes",
-    "active_rating": 0.02,
+    "active_rating": 0.06,
     "active_season_id": "s25_free_agents",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -33,7 +33,7 @@
         "Jordan Wiseley",
         "Marlon Williams"
       ],
-      "rating_at_end": 0.092,
+      "rating_at_end": 0.099,
       "rank": 8,
       "rank_total": 16,
       "daily_wins": 1,
@@ -59,7 +59,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.312,
+      "rating_at_end": 0.314,
       "rank": 4,
       "rank_total": 12,
       "daily_wins": 0,
@@ -88,7 +88,7 @@
         "Kenny Santucci",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.52,
+      "rating_at_end": -0.521,
       "rank": 11,
       "rank_total": 15,
       "daily_wins": 0,
@@ -116,7 +116,7 @@
       "eliminated_by": [
         "Brandon Nelson"
       ],
-      "rating_at_end": -0.561,
+      "rating_at_end": -0.536,
       "rank": 14,
       "rank_total": 15,
       "daily_wins": 1,
@@ -133,22 +133,22 @@
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.561
+      "rating": -0.536
     },
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.52
+      "rating": -0.521
     },
     {
       "ranking_id": 439,
       "season_id": "s22_battle_of_the_exes",
-      "rating": 0.312
+      "rating": 0.314
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": 0.092
+      "rating": 0.099
     }
   ]
 }

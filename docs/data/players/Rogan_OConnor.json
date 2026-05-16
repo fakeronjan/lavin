@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 1.6,
-    "peak_rating": 1.106,
+    "peak_rating": 1.138,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": -0.171,
+    "active_rating": -0.165,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 5,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Justin Hinsley"
       ],
-      "rating_at_end": -0.171,
+      "rating_at_end": -0.165,
       "rank": 15,
       "rank_total": 16,
       "daily_wins": 0,
@@ -58,10 +58,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.47,
+      "rating_at_end": 0.482,
       "rank": 6,
       "rank_total": 14,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -82,7 +82,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.106,
+      "rating_at_end": 1.138,
       "rank": 2,
       "rank_total": 16,
       "daily_wins": 1,
@@ -97,19 +97,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 1.106
+      "rating": 1.138
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": 0.47
+      "rating": 0.482
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": -0.171
+      "rating": -0.165
     }
   ]
 }

@@ -3,10 +3,10 @@
   "safe_name": "Stephen_Bear",
   "gender": "M",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.124,
+    "era_rating": 0.1,
+    "peak_rating": 0.112,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": -0.389,
+    "active_rating": -0.346,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 3,
     "n_snapshots": 5,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Nelson Thomas"
       ],
-      "rating_at_end": -0.367,
+      "rating_at_end": -0.358,
       "rank": 13,
       "rank_total": 14,
       "daily_wins": 1,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Joss Mooney"
       ],
-      "rating_at_end": 0.046,
-      "rank": 13,
+      "rating_at_end": 0.029,
+      "rank": 12,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -84,7 +84,7 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": 0.124,
+      "rating_at_end": 0.112,
       "rank": 8,
       "rank_total": 17,
       "daily_wins": 1,
@@ -101,19 +101,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.124
+      "rating": 0.112
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.046
+      "rating": 0.029
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.367
+      "rating": -0.358
     }
   ]
 }

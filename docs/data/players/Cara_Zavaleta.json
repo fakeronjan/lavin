@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.8,
-    "peak_rating": 0.775,
+    "peak_rating": 0.778,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.185,
+    "active_rating": -0.169,
     "active_season_id": "s17_the_duel_ii",
     "n_seasons": 3,
     "n_snapshots": 8,
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.073,
+      "rating_at_end": 0.035,
       "rank": 6,
       "rank_total": 10,
       "daily_wins": 6,
@@ -56,7 +56,7 @@
       "eliminated_by": [
         "Kina Dean"
       ],
-      "rating_at_end": -0.519,
+      "rating_at_end": -0.537,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 6,
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.775,
+      "rating_at_end": 0.778,
       "rank": 2,
       "rank_total": 14,
       "daily_wins": 8,
@@ -97,17 +97,17 @@
     {
       "ranking_id": 86,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.775
+      "rating": 0.778
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.519
+      "rating": -0.537
     },
     {
       "ranking_id": 258,
       "season_id": "s14_the_inferno_3",
-      "rating": 0.073
+      "rating": 0.035
     }
   ]
 }

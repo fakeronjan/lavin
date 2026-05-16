@@ -3,10 +3,10 @@
   "safe_name": "Ravyn_Rochelle",
   "gender": "F",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.408,
+    "era_rating": 0.3,
+    "peak_rating": 0.345,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.442,
+    "active_rating": 0.348,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 1,
-    "daily_wins": 6
+    "daily_wins": 4
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Ed Eason"
       ],
-      "rating_at_end": 0.408,
+      "rating_at_end": 0.345,
       "rank": 5,
       "rank_total": 17,
-      "daily_wins": 5,
+      "daily_wins": 3,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -59,8 +59,8 @@
         "Olivia Kaiser",
         "Horacio Guti\u00e9rrez Jr."
       ],
-      "rating_at_end": -0.171,
-      "rank": 11,
+      "rating_at_end": -0.146,
+      "rank": 12,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -76,14 +76,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.171
+      "rating": -0.146
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.408
+      "rating": 0.345
     }
   ]
 }

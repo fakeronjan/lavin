@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.2,
-    "peak_rating": 0.162,
+    "peak_rating": 0.186,
     "peak_season_id": "s34_war_of_the_worlds_2",
-    "active_rating": -0.75,
+    "active_rating": -0.789,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 6,
     "n_snapshots": 8,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 7,
-    "daily_wins": 11
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.196,
-      "rank": 13,
+      "rating_at_end": -0.098,
+      "rank": 8,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 0,
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.094,
-      "rank": 10,
+      "rating_at_end": -0.234,
+      "rank": 11,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -89,8 +89,8 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": -0.071,
-      "rank": 10,
+      "rating_at_end": 0.004,
+      "rank": 9,
       "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -118,7 +118,7 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.051,
+      "rating_at_end": 0.015,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 4,
@@ -144,7 +144,7 @@
       "eliminated_by": [
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.162,
+      "rating_at_end": 0.186,
       "rank": 11,
       "rank_total": 16,
       "daily_wins": 2,
@@ -171,7 +171,7 @@
         "Ashley Cain",
         "Kam Williams"
       ],
-      "rating_at_end": -0.164,
+      "rating_at_end": -0.161,
       "rank": 11,
       "rank_total": 17,
       "daily_wins": 1,
@@ -188,34 +188,34 @@
   ],
   "timeline": [
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": -0.164
+      "rating": -0.161
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.162
+      "rating": 0.186
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.051
+      "rating": 0.015
     },
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": -0.071
+      "rating": 0.004
     },
     {
-      "ranking_id": 895,
+      "ranking_id": 894,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.094
+      "rating": -0.234
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.196
+      "rating": -0.098
     }
   ]
 }

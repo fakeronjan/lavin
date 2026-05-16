@@ -3,10 +3,10 @@
   "safe_name": "KellyAnne_Judd",
   "gender": "F",
   "career": {
-    "era_rating": 0.8,
-    "peak_rating": 0.559,
+    "era_rating": 0.6,
+    "peak_rating": 0.531,
     "peak_season_id": "s18_the_ruins",
-    "active_rating": -0.434,
+    "active_rating": -0.517,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 5,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 4,
-    "daily_wins": 6
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.434,
-      "rank": 16,
+      "rating_at_end": -0.517,
+      "rank": 18,
       "rank_total": 20,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,8 +59,8 @@
         "Nany Gonz\u00e1lez",
         "Wes Bergmann"
       ],
-      "rating_at_end": -0.011,
-      "rank": 5,
+      "rating_at_end": -0.132,
+      "rank": 7,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -87,10 +87,10 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": 0.222,
+      "rating_at_end": 0.041,
       "rank": 4,
       "rank_total": 14,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -113,7 +113,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.559,
+      "rating_at_end": 0.531,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 1,
@@ -139,10 +139,10 @@
       "eliminated_by": [
         "Johanna Botta"
       ],
-      "rating_at_end": -0.128,
+      "rating_at_end": -0.304,
       "rank": 7,
       "rank_total": 10,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -156,27 +156,27 @@
     {
       "ranking_id": 283,
       "season_id": "s16_the_island",
-      "rating": -0.128
+      "rating": -0.304
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.559
+      "rating": 0.531
     },
     {
       "ranking_id": 607,
       "season_id": "s27_battle_of_the_bloodlines",
-      "rating": 0.222
+      "rating": 0.041
     },
     {
       "ranking_id": 640,
       "season_id": "s28_rivals_iii",
-      "rating": -0.011
+      "rating": -0.132
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.434
+      "rating": -0.517
     }
   ]
 }

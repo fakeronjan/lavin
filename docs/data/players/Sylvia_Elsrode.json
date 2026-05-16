@@ -3,10 +3,10 @@
   "safe_name": "Sylvia_Elsrode",
   "gender": "F",
   "career": {
-    "era_rating": 1.2,
-    "peak_rating": 0.908,
+    "era_rating": 1.0,
+    "peak_rating": 0.919,
     "peak_season_id": "s32_final_reckoning",
-    "active_rating": 0.825,
+    "active_rating": 0.815,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 5,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.908,
+      "rating_at_end": 0.919,
       "rank": 2,
       "rank_total": 18,
       "daily_wins": 1,
@@ -56,8 +56,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.059,
-      "rank": 13,
+      "rating_at_end": -0.064,
+      "rank": 11,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 1,
@@ -82,10 +82,10 @@
       "eliminated_by": [
         "Jenna Compono"
       ],
-      "rating_at_end": 0.281,
-      "rank": 5,
+      "rating_at_end": 0.04,
+      "rank": 6,
       "rank_total": 13,
-      "daily_wins": 2,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -99,17 +99,17 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": 0.281
+      "rating": 0.04
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.059
+      "rating": -0.064
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": 0.908
+      "rating": 0.919
     }
   ]
 }

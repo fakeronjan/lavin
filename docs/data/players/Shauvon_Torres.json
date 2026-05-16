@@ -4,18 +4,18 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.085,
-    "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.6,
+    "peak_rating": -0.382,
+    "peak_season_id": "s18_the_ruins",
+    "active_rating": -0.577,
     "active_season_id": "s21_rivals",
     "n_seasons": 3,
-    "n_snapshots": 5,
+    "n_snapshots": 4,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 1
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.462,
+      "rating_at_end": -0.426,
       "rank": 12,
       "rank_total": 15,
       "daily_wins": 1,
@@ -54,8 +54,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.296,
-      "rank": 13,
+      "rating_at_end": -0.382,
+      "rank": 14,
       "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -65,49 +65,18 @@
       "partners_history": [],
       "team": "Challengers",
       "forced_exit": false
-    },
-    {
-      "season_id": "s17_the_duel_ii",
-      "season_num": 17,
-      "season_name": "The Duel II",
-      "year": 2009,
-      "label": "S17 The Duel II (2009)",
-      "finish": "Eliminated in Duel Unto Others",
-      "finish_label": "Eliminated",
-      "finish_episode": "Duel Unto Others",
-      "elim_position": 1,
-      "elim_total": 10,
-      "eliminated_by": [
-        "Aneesa Ferreira"
-      ],
-      "rating_at_end": -0.085,
-      "rank": 11,
-      "rank_total": 13,
-      "daily_wins": 1,
-      "elim_wins": 0,
-      "elim_losses": 1,
-      "elim_loss_survived": false,
-      "partner": "",
-      "partners_history": [],
-      "team": "",
-      "forced_exit": false
     }
   ],
   "timeline": [
     {
-      "ranking_id": 304,
-      "season_id": "s17_the_duel_ii",
-      "rating": -0.085
-    },
-    {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": -0.296
+      "rating": -0.382
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": -0.462
+      "rating": -0.426
     }
   ]
 }

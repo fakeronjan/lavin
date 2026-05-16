@@ -3,10 +3,10 @@
   "safe_name": "Brad_Fiorenza",
   "gender": "M",
   "career": {
-    "era_rating": 3.1,
-    "peak_rating": 0.664,
+    "era_rating": 3.2,
+    "peak_rating": 0.764,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.51,
+    "active_rating": -0.467,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
     "n_snapshots": 16,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 7,
     "elim_losses": 7,
-    "daily_wins": 25
+    "daily_wins": 23
   },
   "seasons": [
     {
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.51,
-      "rank": 19,
+      "rating_at_end": -0.467,
+      "rank": 17,
       "rank_total": 20,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -58,9 +58,9 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.319,
-      "rank": 14,
-      "rank_total": 17,
+      "rating_at_end": -0.478,
+      "rank": 15,
+      "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -85,7 +85,7 @@
         "Nelson Thomas",
         "Shane Landrum"
       ],
-      "rating_at_end": -0.539,
+      "rating_at_end": -0.522,
       "rank": 14,
       "rank_total": 15,
       "daily_wins": 1,
@@ -113,10 +113,10 @@
       "eliminated_by": [
         "Leroy Garrett"
       ],
-      "rating_at_end": 0.288,
-      "rank": 6,
-      "rank_total": 17,
-      "daily_wins": 2,
+      "rating_at_end": 0.114,
+      "rank": 9,
+      "rank_total": 16,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -137,7 +137,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.631,
+      "rating_at_end": 0.657,
       "rank": 3,
       "rank_total": 15,
       "daily_wins": 2,
@@ -161,7 +161,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.322,
+      "rating_at_end": 0.389,
       "rank": 6,
       "rank_total": 14,
       "daily_wins": 1,
@@ -185,7 +185,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.664,
+      "rating_at_end": 0.764,
       "rank": 3,
       "rank_total": 15,
       "daily_wins": 0,
@@ -209,7 +209,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.313,
+      "rating_at_end": 0.351,
       "rank": 3,
       "rank_total": 17,
       "daily_wins": 4,
@@ -233,10 +233,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.585,
+      "rating_at_end": 0.548,
       "rank": 2,
       "rank_total": 10,
-      "daily_wins": 2,
+      "daily_wins": 1,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -259,7 +259,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.33,
+      "rating_at_end": -0.325,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 5,
@@ -285,7 +285,7 @@
       "eliminated_by": [
         "Abram Boise"
       ],
-      "rating_at_end": -0.162,
+      "rating_at_end": -0.148,
       "rank": 7,
       "rank_total": 10,
       "daily_wins": 4,
@@ -311,7 +311,7 @@
       "eliminated_by": [
         "Eric Nies"
       ],
-      "rating_at_end": 0.298,
+      "rating_at_end": 0.341,
       "rank": 4,
       "rank_total": 18,
       "daily_wins": 4,
@@ -328,62 +328,62 @@
     {
       "ranking_id": 131,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.298
+      "rating": 0.341
     },
     {
       "ranking_id": 148,
       "season_id": "s10_the_inferno_ii",
-      "rating": -0.162
+      "rating": -0.148
     },
     {
       "ranking_id": 164,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.33
+      "rating": -0.325
     },
     {
       "ranking_id": 241,
       "season_id": "s13_the_duel",
-      "rating": 0.585
+      "rating": 0.548
     },
     {
       "ranking_id": 274,
       "season_id": "s15_the_gauntlet_iii",
-      "rating": 0.313
+      "rating": 0.351
     },
     {
       "ranking_id": 304,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.664
+      "rating": 0.764
     },
     {
       "ranking_id": 322,
       "season_id": "s18_the_ruins",
-      "rating": 0.322
+      "rating": 0.389
     },
     {
       "ranking_id": 373,
       "season_id": "s20_cutthroat",
-      "rating": 0.631
+      "rating": 0.657
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.288
+      "rating": 0.114
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.539
+      "rating": -0.522
     },
     {
-      "ranking_id": 970,
+      "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.319
+      "rating": -0.478
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.51
+      "rating": -0.467
     }
   ]
 }

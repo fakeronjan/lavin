@@ -3,10 +3,10 @@
   "safe_name": "Jemmye_Carroll",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.329,
+    "era_rating": 0.8,
+    "peak_rating": 0.302,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.517,
+    "active_rating": -0.533,
     "active_season_id": "s34_war_of_the_worlds_2",
     "n_seasons": 7,
     "n_snapshots": 10,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 2,
     "elim_losses": 5,
-    "daily_wins": 5
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.347,
-      "rank": 17,
+      "rating_at_end": -0.329,
+      "rank": 14,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -58,7 +58,7 @@
       "eliminated_by": [
         "Nicole Zanatta"
       ],
-      "rating_at_end": -0.279,
+      "rating_at_end": -0.232,
       "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
@@ -84,8 +84,8 @@
       "eliminated_by": [
         "Camila Nakagawa"
       ],
-      "rating_at_end": 0.024,
-      "rank": 8,
+      "rating_at_end": 0.159,
+      "rank": 5,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -111,7 +111,7 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.612,
+      "rating_at_end": -0.58,
       "rank": 13,
       "rank_total": 13,
       "daily_wins": 0,
@@ -139,10 +139,10 @@
       "eliminated_by": [
         "LaToya Jackson"
       ],
-      "rating_at_end": 0.3,
-      "rank": 4,
+      "rating_at_end": 0.229,
+      "rank": 5,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -163,7 +163,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.329,
+      "rating_at_end": 0.302,
       "rank": 5,
       "rank_total": 17,
       "daily_wins": 1,
@@ -192,10 +192,10 @@
         "Sam McGinn",
         "Zach Nichols"
       ],
-      "rating_at_end": 0.064,
-      "rank": 10,
+      "rating_at_end": 0.098,
+      "rank": 9,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -209,37 +209,37 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.064
+      "rating": 0.098
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": 0.329
+      "rating": 0.302
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.3
+      "rating": 0.229
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.612
+      "rating": -0.58
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.024
+      "rating": 0.159
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": -0.279
+      "rating": -0.232
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.347
+      "rating": -0.329
     }
   ]
 }

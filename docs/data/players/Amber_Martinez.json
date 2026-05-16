@@ -3,10 +3,10 @@
   "safe_name": "Amber_Martinez",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.168,
+    "era_rating": 0.1,
+    "peak_rating": 0.115,
     "peak_season_id": "s36_double_agents",
-    "active_rating": 0.003,
+    "active_rating": -0.087,
     "active_season_id": "s37_spies_lies_allies",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 3
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Amber Borzotra"
       ],
-      "rating_at_end": 0.168,
-      "rank": 5,
+      "rating_at_end": 0.115,
+      "rank": 7,
       "rank_total": 15,
-      "daily_wins": 3,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -51,9 +51,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 861,
+      "ranking_id": 860,
       "season_id": "s36_double_agents",
-      "rating": 0.168
+      "rating": 0.115
     }
   ]
 }

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.15,
-    "peak_season_id": "s25_free_agents",
-    "active_rating": -0.335,
+    "peak_rating": -0.182,
+    "peak_season_id": "s24_rivals_ii",
+    "active_rating": -0.803,
     "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 2
+    "daily_wins": 0
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": -0.15,
-      "rank": 11,
+      "rating_at_end": -0.319,
+      "rank": 12,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,7 +59,7 @@
         "Jordan Wiseley",
         "Marlon Williams"
       ],
-      "rating_at_end": -0.18,
+      "rating_at_end": -0.182,
       "rank": 10,
       "rank_total": 16,
       "daily_wins": 0,
@@ -88,10 +88,10 @@
         "Chet Cannon",
         "Sarah Rice"
       ],
-      "rating_at_end": -0.498,
+      "rating_at_end": -0.589,
       "rank": 14,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -105,17 +105,17 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": -0.498
+      "rating": -0.589
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.18
+      "rating": -0.182
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.15
+      "rating": -0.319
     }
   ]
 }

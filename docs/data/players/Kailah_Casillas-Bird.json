@@ -3,10 +3,10 @@
   "safe_name": "Kailah_Casillas-Bird",
   "gender": "F",
   "career": {
-    "era_rating": 1.1,
-    "peak_rating": 0.736,
+    "era_rating": 0.9,
+    "peak_rating": 0.728,
     "peak_season_id": "s31_vendettas",
-    "active_rating": -0.171,
+    "active_rating": -0.143,
     "active_season_id": "s38_ride_or_dies",
     "n_seasons": 6,
     "n_snapshots": 9,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 3,
-    "daily_wins": 5
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -33,8 +33,8 @@
         "Tori Deal",
         "Devin Walker"
       ],
-      "rating_at_end": -0.171,
-      "rank": 12,
+      "rating_at_end": -0.143,
+      "rank": 11,
       "rank_total": 17,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -61,8 +61,8 @@
       "eliminated_by": [
         "Kaycee Clark"
       ],
-      "rating_at_end": -0.21,
-      "rank": 13,
+      "rating_at_end": -0.158,
+      "rank": 11,
       "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.347,
+      "rating_at_end": -0.329,
       "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
@@ -111,7 +111,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.736,
+      "rating_at_end": 0.728,
       "rank": 3,
       "rank_total": 18,
       "daily_wins": 2,
@@ -137,10 +137,10 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": 0.374,
-      "rank": 5,
+      "rating_at_end": 0.155,
+      "rank": 6,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 2,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -163,10 +163,10 @@
       "eliminated_by": [
         "Sylvia Elsrode"
       ],
-      "rating_at_end": -0.094,
-      "rank": 9,
+      "rating_at_end": -0.39,
+      "rank": 10,
       "rank_total": 13,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -180,32 +180,32 @@
     {
       "ranking_id": 659,
       "season_id": "s29_invasion_of_the_champions",
-      "rating": -0.094
+      "rating": -0.39
     },
     {
       "ranking_id": 689,
       "season_id": "s30_xxx_dirty_30",
-      "rating": 0.374
+      "rating": 0.155
     },
     {
-      "ranking_id": 710,
+      "ranking_id": 709,
       "season_id": "s31_vendettas",
-      "rating": 0.736
+      "rating": 0.728
     },
     {
-      "ranking_id": 771,
+      "ranking_id": 770,
       "season_id": "s32_final_reckoning",
-      "rating": -0.347
+      "rating": -0.329
     },
     {
-      "ranking_id": 843,
+      "ranking_id": 842,
       "season_id": "s35_total_madness",
-      "rating": -0.21
+      "rating": -0.158
     },
     {
-      "ranking_id": 949,
+      "ranking_id": 948,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.171
+      "rating": -0.143
     }
   ]
 }

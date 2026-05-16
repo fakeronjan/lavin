@@ -4,18 +4,18 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": 0.02,
+    "peak_rating": 0.033,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.183,
-    "active_season_id": "s26_battle_of_the_exes_ii",
+    "active_rating": -0.271,
+    "active_season_id": "s25_free_agents",
     "n_seasons": 5,
-    "n_snapshots": 6,
+    "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 5,
-    "daily_wins": 4
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.111,
-      "rank": 9,
+      "rating_at_end": -0.271,
+      "rank": 10,
       "rank_total": 14,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -59,8 +59,8 @@
         "Camila Nakagawa",
         "Jemmye Carroll"
       ],
-      "rating_at_end": -0.307,
-      "rank": 12,
+      "rating_at_end": -0.332,
+      "rank": 10,
       "rank_total": 17,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -88,10 +88,10 @@
         "Sam McGinn",
         "Zach Nichols"
       ],
-      "rating_at_end": 0.02,
-      "rank": 12,
+      "rating_at_end": 0.033,
+      "rank": 10,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -144,7 +144,7 @@
         "Cara Maria Sorbello",
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.093,
+      "rating_at_end": -0.084,
       "rank": 9,
       "rank_total": 14,
       "daily_wins": 1,
@@ -163,7 +163,7 @@
     {
       "ranking_id": 406,
       "season_id": "s21_rivals",
-      "rating": -0.093
+      "rating": -0.084
     },
     {
       "ranking_id": 439,
@@ -173,17 +173,17 @@
     {
       "ranking_id": 484,
       "season_id": "s23_battle_of_the_seasons_2012",
-      "rating": 0.02
+      "rating": 0.033
     },
     {
       "ranking_id": 521,
       "season_id": "s24_rivals_ii",
-      "rating": -0.307
+      "rating": -0.332
     },
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.111
+      "rating": -0.271
     }
   ]
 }

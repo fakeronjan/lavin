@@ -3,10 +3,10 @@
   "safe_name": "Theo_Campbell",
   "gender": "M",
   "career": {
-    "era_rating": 2.4,
-    "peak_rating": 1.018,
+    "era_rating": 2.3,
+    "peak_rating": 1.013,
     "peak_season_id": "s33_war_of_the_worlds",
-    "active_rating": 0.638,
+    "active_rating": 0.645,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 4,
     "n_snapshots": 6,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 9,
     "elim_losses": 3,
-    "daily_wins": 12
+    "daily_wins": 10
   },
   "seasons": [
     {
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.638,
+      "rating_at_end": 0.645,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 3,
@@ -65,10 +65,10 @@
       "eliminated_by": [
         "Johnny Bananas"
       ],
-      "rating_at_end": -0.048,
-      "rank": 8,
+      "rating_at_end": -0.035,
+      "rank": 6,
       "rank_total": 20,
-      "daily_wins": 4,
+      "daily_wins": 3,
       "elim_wins": 1,
       "elim_losses": 2,
       "elim_loss_survived": true,
@@ -91,10 +91,10 @@
       "eliminated_by": [
         "Jordan Wiseley"
       ],
-      "rating_at_end": 0.735,
+      "rating_at_end": 0.675,
       "rank": 5,
       "rank_total": 16,
-      "daily_wins": 1,
+      "daily_wins": 0,
       "elim_wins": 3,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -115,7 +115,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.018,
+      "rating_at_end": 1.013,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 4,
@@ -132,24 +132,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 808,
+      "ranking_id": 807,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 1.018
+      "rating": 1.013
     },
     {
-      "ranking_id": 824,
+      "ranking_id": 823,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.735
+      "rating": 0.675
     },
     {
-      "ranking_id": 1009,
+      "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.048
+      "rating": -0.035
     },
     {
-      "ranking_id": 1049,
+      "ranking_id": 1048,
       "season_id": "s41_vets_and_new_threats",
-      "rating": 0.638
+      "rating": 0.645
     }
   ]
 }
