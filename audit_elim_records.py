@@ -37,11 +37,13 @@ def build_season_map():
     seen_keys = {}  # key -> sid, to detect ambiguous keys (BotS 2002 vs 2012)
     def add(k, sid):
         k = k.lower().strip()
-        if k in seen_keys and seen_keys[k] != sid:
-            # Ambiguous — drop the key entirely rather than letting later
-            # seasons silently override earlier ones (was attributing S5 BotS
-            # wins to S23 BotS 2012).
-            m.pop(k, None)
+        if k in seen_keys:
+            # Ambiguous — keep the FIRST season's claim. Iteration order is
+            # chronological (seasons.csv is sorted), so the unstripped key
+            # ("Battle of the Seasons") goes to s05 BotS, while the
+            # parenthetical year variant ("Battle of the Seasons (2012)")
+            # only gets added once (by s23) and goes to s23. This recovers
+            # S5 attribution without re-introducing the S23 over-count.
             return
         seen_keys[k] = sid
         m[k] = sid
