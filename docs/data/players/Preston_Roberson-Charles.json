@@ -6,7 +6,7 @@
     "era_rating": 0.0,
     "peak_rating": -0.185,
     "peak_season_id": "s24_rivals_ii",
-    "active_rating": -0.803,
+    "active_rating": -0.757,
     "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 3,
     "n_snapshots": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 3,
-    "daily_wins": 0
+    "daily_wins": 2
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": -0.319,
-      "rank": 12,
+      "rating_at_end": -0.233,
+      "rank": 11,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 2,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -115,7 +115,7 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.319
+      "rating": -0.233
     }
   ]
 }

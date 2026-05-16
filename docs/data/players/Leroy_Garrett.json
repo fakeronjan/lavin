@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 3.0,
-    "peak_rating": 1.02,
+    "peak_rating": 1.011,
     "peak_season_id": "s26_battle_of_the_exes_ii",
     "active_rating": -0.236,
     "active_season_id": "s41_vets_and_new_threats",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 9,
     "elim_losses": 7,
-    "daily_wins": 13
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -273,7 +273,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.02,
+      "rating_at_end": 1.011,
       "rank": 2,
       "rank_total": 13,
       "daily_wins": 1,
@@ -302,10 +302,10 @@
       "eliminated_by": [
         "CT Tamburello"
       ],
-      "rating_at_end": 0.159,
+      "rating_at_end": 0.163,
       "rank": 7,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -419,12 +419,12 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": 0.159
+      "rating": 0.163
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 1.02
+      "rating": 1.011
     },
     {
       "ranking_id": 607,

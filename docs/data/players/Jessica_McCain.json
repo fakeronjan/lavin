@@ -4,8 +4,8 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.258,
-    "peak_season_id": "s28_rivals_iii",
+    "peak_rating": -0.185,
+    "peak_season_id": "s25_free_agents",
     "active_rating": 0.023,
     "active_season_id": "s29_invasion_of_the_champions",
     "n_seasons": 4,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 4,
-    "daily_wins": 0
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -62,7 +62,7 @@
         "Brittany Baldi",
         "Adam Kuhn"
       ],
-      "rating_at_end": -0.569,
+      "rating_at_end": -0.534,
       "rank": 11,
       "rank_total": 13,
       "daily_wins": 0,
@@ -90,10 +90,10 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.372,
-      "rank": 11,
+      "rating_at_end": -0.185,
+      "rank": 10,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -141,12 +141,12 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.372
+      "rating": -0.185
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": -0.569
+      "rating": -0.534
     },
     {
       "ranking_id": 640,

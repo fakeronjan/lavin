@@ -185,6 +185,196 @@ _EXIT_RE = re.compile(
 )
 
 
+_NAME_OVERRIDES_BY_SEASON = {
+    # Where a short name in Team Progress is ambiguous (cast has two players
+    # who share a first or last name), pin the short form to the intended
+    # full name here. Add entries as new seasons surface ambiguity.
+    "s25_free_agents": {
+        # "Johnny" alone vs "Bananas" — Bananas is Johnny Bananas, plain
+        # "Johnny" is Johnny Reilly.
+        "Johnny": "Johnny Reilly",
+        # "Brandon" alone refers to Nelson; Swift is referenced as "Swift".
+        "Brandon": "Brandon Nelson",
+    },
+}
+
+
+def _resolve_short_name(short, cast_players, overrides=None):
+    """Resolve a short/nicknamed name to a full cast name.
+
+    Tries exact match, season-level override, then unique substring match
+    on first/last name. Returns None if ambiguous or unresolved."""
+    overrides = overrides or {}
+    s = short.strip()
+    if not s:
+        return None
+    if s in overrides:
+        return overrides[s]
+    if s in cast_players:
+        return s
+    # Try as last name (most disambiguating)
+    last_matches = [p for p in cast_players if p.split()[-1] == s]
+    if len(last_matches) == 1:
+        return last_matches[0]
+    # Try as first name
+    first_matches = [p for p in cast_players if p.split()[0] == s]
+    if len(first_matches) == 1:
+        return first_matches[0]
+    # Try as multi-word prefix (e.g. "Cara Maria" -> "Cara Maria Sorbello")
+    prefix_matches = [p for p in cast_players if p.startswith(s + " ")]
+    if len(prefix_matches) == 1:
+        return prefix_matches[0]
+    return None
+
+
+def parse_team_progress(wikitext, cast_players, season_id=None):
+    """Parse the ===Team Progress=== table that appears in individual-format
+    seasons (S25 Free Agents, S30 Dirty 30, S31 Vendettas, S37 Spies Lies
+    Allies, S39 Battle for a New Champion). Returns a dict:
+
+      {episode_label_str: {team_color: [player_full_name, ...]}}
+
+    Each player row in the table shows a per-episode cell whose
+    *background-color* style encodes the team that player was on that
+    episode. Cell *content* is either the team color name or the partner's
+    short name; we ignore the content and key off the background color.
+
+    Returns {} if no Team Progress section, or the table can't be parsed.
+    """
+    m = re.search(
+        r'===\s*Team Progress\s*===\s*\n(\{\|.*?\n\|\})',
+        wikitext, re.DOTALL,
+    )
+    if not m:
+        return {}
+    table_wt = m.group(1)
+
+    # Split into row blocks
+    rows = re.split(r'\n\|-[^\n]*\n', table_wt)
+    if len(rows) < 3:
+        return {}
+
+    # Row 2 has the episode numbers. Tables vary: "!1!!2!!3" inline, or
+    # "!1\n!2\n!3" on separate lines. Headers like "!colspan=3|Finale"
+    # expand to 3 sequential labels of the same value (one per finale stage).
+    ep_row = rows[2] if len(rows) > 2 else ""
+    raw_pieces = re.split(r'\n!|!!|^!', ep_row)
+    ep_labels = []
+    for piece in raw_pieces:
+        piece = piece.strip()
+        if not piece:
+            continue
+        colspan = 1
+        # "colspan=3|Finale" -> colspan=3, label=Finale
+        cs_m = re.match(r'\bcolspan\s*=\s*"?(\d+)"?\s*\|\s*(.*)$', piece)
+        if cs_m:
+            colspan = int(cs_m.group(1))
+            piece = cs_m.group(2).strip()
+        elif '|' in piece:
+            # Strip non-colspan attribute prefix (e.g. style="...")
+            piece = piece.split('|', 1)[1].strip()
+        if piece.lower() in ("contestants", "episodes"):
+            continue
+        if not piece or piece.startswith('{|'):
+            continue
+        for _ in range(colspan):
+            ep_labels.append(piece)
+    if not ep_labels:
+        return {}
+
+    overrides = _NAME_OVERRIDES_BY_SEASON.get(season_id, {})
+
+    # Build a parsed row list: each row is a list of (attrs, content, rowspan, colspan)
+    # tuples in display order, native cells only (no rowspan inheritance applied yet).
+    SKIP_BG_COLORS = {
+        "lightblue", "pink", "lightpink", "lightgray", "darkgray", "darkgrey",
+        "gray", "grey", "dimgray", "dimgrey",
+    }
+
+    def parse_cell(cell):
+        cm = re.match(r'\|\s*([^|]*?)\|\s*(.*?)\s*$', cell, re.DOTALL)
+        if not cm:
+            return None
+        attrs, content = cm.group(1), cm.group(2)
+        rs = int(re.search(r'\browspan\s*=\s*"?(\d+)"?', attrs).group(1)) if re.search(r'\browspan\s*=\s*"?(\d+)"?', attrs) else 1
+        cs = int(re.search(r'\bcolspan\s*=\s*"?(\d+)"?', attrs).group(1)) if re.search(r'\bcolspan\s*=\s*"?(\d+)"?', attrs) else 1
+        return attrs, content, rs, cs
+
+    parsed_rows = []
+    for row in rows[3:]:
+        cell_strs = re.split(r'\n(?=\|[^-])', row)
+        row_cells = []
+        for c in cell_strs:
+            pc = parse_cell(c)
+            if pc:
+                row_cells.append(pc)
+        if row_cells:
+            parsed_rows.append(row_cells)
+
+    # Expand into a grid honoring rowspan + colspan. Each cell occupies a
+    # (row, col) span; later cells skip occupied positions.
+    n_rows = len(parsed_rows)
+    n_cols = 1 + len(ep_labels) + 4  # name + episodes + finale slack
+    grid = [[None] * n_cols for _ in range(n_rows)]
+    for i, row_cells in enumerate(parsed_rows):
+        col = 0
+        for attrs, content, rs, cs in row_cells:
+            while col < n_cols and grid[i][col] is not None:
+                col += 1
+            if col >= n_cols:
+                break
+            for dr in range(rs):
+                for dc in range(cs):
+                    if i + dr < n_rows and col + dc < n_cols:
+                        grid[i + dr][col + dc] = (attrs, content)
+            col += cs
+
+    out = {}
+    for i in range(n_rows):
+        # Cell [0] = player name
+        if grid[i][0] is None:
+            continue
+        _, raw_name = grid[i][0]
+        raw_name = re.sub(r"'''|''", "", raw_name).strip()
+        raw_name = re.sub(r'\[\[(?:[^|\]]+\|)?([^\]]+)\]\]', r'\1', raw_name).strip()
+        if not raw_name or raw_name.lower() in ("colspan", "rowspan"):
+            continue
+        full = _resolve_short_name(raw_name, cast_players, overrides)
+        if not full:
+            continue
+        # Cells [1..] = per-episode team color (via background)
+        for ep_i, ep_label in enumerate(ep_labels):
+            cell = grid[i][1 + ep_i]
+            if cell is None:
+                continue
+            attrs, content = cell
+            # Strip wikitext markup from content
+            clean = re.sub(r"'''|''", "", content).strip()
+            clean = re.sub(r'<[^>]+>', '', clean).strip()
+            clean = re.sub(r'\[\[(?:[^|\]]+\|)?([^\]]+)\]\]', r'\1', clean).strip()
+            if clean.lower() == "individual":
+                continue
+            # If content matches "Team N" or "Team Color", prefer that as the
+            # canonical team label (numeric-team seasons like S31 / S39).
+            team_name = None
+            if re.match(r'^Team\s+[A-Za-z0-9]+$', clean):
+                team_name = clean
+            else:
+                bg_m = re.search(
+                    r'(?:background-color\s*:\s*|bgcolor\s*=\s*"?)([a-zA-Z]+|#[0-9A-Fa-f]+)',
+                    attrs,
+                )
+                if bg_m:
+                    color = bg_m.group(1).strip().lower()
+                    if color in SKIP_BG_COLORS:
+                        continue
+                    team_name = f"Team {color.capitalize()}"
+            if not team_name:
+                continue
+            out.setdefault(ep_label, {}).setdefault(team_name, []).append(full)
+    return out
+
+
 def parse_episode_progress(wikitext, cast_players=None):
     """
     Parse the `===Episode Progress===` table to find players who exited the
@@ -785,7 +975,8 @@ def _is_player_cell(cell):
     return bool(_cell_player(cell))
 
 
-def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=None):
+def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=None,
+                                   episodic_team_rosters=None):
     """
     Parse the elimination chart for individual-format seasons.
     Robust to varying column counts (Duel: 10 cols, Total Madness: 13 cols, etc.)
@@ -808,6 +999,10 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
     team_rosters = team_rosters or {}
     team_lower = {k.lower(): v for k, v in team_rosters.items()}
     exit_episodes = exit_episodes or {}
+    # Per-episode team rosters take precedence over season-wide ones. Built
+    # from the Team Progress table for individual-format seasons (S25, S30,
+    # S31, S37, S39) where the daily winner is a rotating-color team.
+    episodic_team_rosters = episodic_team_rosters or {}
 
     elim_table = None
     for table in _iter_wikitables(mwp.parse(sec)):
@@ -968,12 +1163,19 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
         # Cutthroat continuation rows (where the team-name cell is bled in
         # by rowspan from the parent row, not actually a new daily), only
         # check NATIVE cells on continuation rows.
-        if team_lower:
+        # Per-episode rosters (Team Progress) take precedence over the
+        # season-wide map for individual-format rotating-color seasons.
+        episode_rosters = episodic_team_rosters.get(str(episode), {}) if episodic_team_rosters else {}
+        ep_lower = {k.lower(): v for k, v in episode_rosters.items()}
+        if team_lower or ep_lower:
             scan_limit = native_len if is_continuation else len(cells)
             for cand_idx in range(2, min(5, scan_limit)):
                 if _is_player_cell(cells[cand_idx]):
                     continue
                 text = _cell_plain(cells[cand_idx]).strip().lower()
+                if text in ep_lower:
+                    team_roster_for_row = ep_lower[text]
+                    break
                 if text in team_lower:
                     team_roster_for_row = team_lower[text]
                     break
@@ -1112,8 +1314,14 @@ def scrape_season(season_id, page_name, out_dir):
     # (S15 Coral, S20 Shauvon).
     exit_episodes = parse_episode_progress(wt, cast_players=cast_players)
 
+    # Per-episode team rosters from the Team Progress table. Only present on
+    # individual-format seasons where dailies are played by rotating-color
+    # teams (S25 Free Agents, S30 Dirty 30, etc.).
+    episodic_team_rosters = parse_team_progress(wt, cast_players=cast_players, season_id=season_id)
+
     eliminations, dailies = parse_game_summary_individual(
-        wt, team_rosters=team_rosters, exit_episodes=exit_episodes
+        wt, team_rosters=team_rosters, exit_episodes=exit_episodes,
+        episodic_team_rosters=episodic_team_rosters,
     )
     df_e = pd.DataFrame(eliminations)
     if len(df_e):

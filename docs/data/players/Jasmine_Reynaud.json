@@ -6,16 +6,16 @@
     "era_rating": 0.2,
     "peak_rating": 0.172,
     "peak_season_id": "s23_battle_of_the_seasons_2012",
-    "active_rating": -0.271,
-    "active_season_id": "s25_free_agents",
+    "active_rating": -0.407,
+    "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 5,
-    "n_snapshots": 5,
+    "n_snapshots": 6,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 5,
-    "daily_wins": 4
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Laurel Stucky"
       ],
-      "rating_at_end": -0.271,
-      "rank": 10,
+      "rating_at_end": -0.289,
+      "rank": 12,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -183,7 +183,7 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.271
+      "rating": -0.289
     }
   ]
 }

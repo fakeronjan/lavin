@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.68,
+    "peak_rating": 0.687,
     "peak_season_id": "s26_battle_of_the_exes_ii",
     "active_rating": -0.423,
     "active_season_id": "s41_vets_and_new_threats",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 4,
     "elim_losses": 2,
-    "daily_wins": 4
+    "daily_wins": 5
   },
   "seasons": [
     {
@@ -84,7 +84,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.68,
+      "rating_at_end": 0.687,
       "rank": 2,
       "rank_total": 13,
       "daily_wins": 1,
@@ -112,10 +112,10 @@
       "eliminated_by": [
         "Cara Maria Sorbello"
       ],
-      "rating_at_end": -0.373,
-      "rank": 12,
+      "rating_at_end": -0.266,
+      "rank": 11,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 1,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -129,12 +129,12 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.373
+      "rating": -0.266
     },
     {
       "ranking_id": 584,
       "season_id": "s26_battle_of_the_exes_ii",
-      "rating": 0.68
+      "rating": 0.687
     },
     {
       "ranking_id": 1008,

@@ -4,9 +4,9 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.369,
+    "peak_rating": 0.018,
     "peak_season_id": "s25_free_agents",
-    "active_rating": -0.362,
+    "active_rating": -0.276,
     "active_season_id": "s26_battle_of_the_exes_ii",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 0,
     "elim_losses": 1,
-    "daily_wins": 0
+    "daily_wins": 3
   },
   "seasons": [
     {
@@ -32,10 +32,10 @@
       "eliminated_by": [
         "Jordan Wiseley"
       ],
-      "rating_at_end": -0.369,
-      "rank": 14,
+      "rating_at_end": 0.018,
+      "rank": 9,
       "rank_total": 14,
-      "daily_wins": 0,
+      "daily_wins": 3,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -49,7 +49,7 @@
     {
       "ranking_id": 543,
       "season_id": "s25_free_agents",
-      "rating": -0.369
+      "rating": 0.018
     }
   ]
 }
