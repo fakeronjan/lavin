@@ -50,7 +50,17 @@ def main():
     #     play; his true played-EOS peak is +1.067 at S25 Free Agents).
     #   - ERA accumulates fake stature from seasons the player wasn't on.
     apps = pd.read_csv(DATA / "appearances.csv")
-    played = set(zip(apps["player"].astype(str), apps["season_id"].astype(str)))
+    # Mercenary cameos (one Arena elim, no other participation) get excluded
+    # from PEAK and ERA aggregations — they were guest appearances, not real
+    # seasons of cast participation. Their per-snapshot rating still lives in
+    # the timeline; we just don't credit a full season's career stature for
+    # a single elim. See build_events.py MERCENARY_FINISH_TAGS for the source.
+    MERC_TAGS = {"Champion Mercenary"}
+    mercs = set(zip(
+        apps.loc[apps["finish"].isin(MERC_TAGS), "player"].astype(str),
+        apps.loc[apps["finish"].isin(MERC_TAGS), "season_id"].astype(str),
+    ))
+    played = set(zip(apps["player"].astype(str), apps["season_id"].astype(str))) - mercs
 
     end_of_season = (
         ratings.sort_values("ranking_id")

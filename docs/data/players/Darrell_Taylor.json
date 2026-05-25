@@ -6,7 +6,7 @@
     "era_rating": 4.1,
     "peak_rating": 0.812,
     "peak_season_id": "s08_the_inferno",
-    "active_rating": -0.246,
+    "active_rating": -0.143,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
     "n_snapshots": 21,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.246,
+      "rating_at_end": -0.143,
       "rank": 13,
       "rank_total": 20,
       "daily_wins": 0,
@@ -58,9 +58,9 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": -0.503,
-      "rank": 16,
-      "rank_total": 16,
+      "rating_at_end": -0.799,
+      "rank": 14,
+      "rank_total": 14,
       "daily_wins": 0,
       "elim_wins": 0,
       "elim_losses": 1,
@@ -385,12 +385,12 @@
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.503
+      "rating": -0.799
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.246
+      "rating": -0.143
     }
   ]
 }

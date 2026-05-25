@@ -3,7 +3,7 @@
   "safe_name": "Tori_Deal",
   "gender": "F",
   "career": {
-    "era_rating": 4.6,
+    "era_rating": 4.0,
     "peak_rating": 1.15,
     "peak_season_id": "s38_ride_or_dies",
     "active_rating": 0.563,
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.523,
-      "rank": 4,
+      "rating_at_end": 0.705,
+      "rank": 3,
       "rank_total": 20,
       "daily_wins": 4,
       "elim_wins": 4,
@@ -54,9 +54,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.805,
-      "rank": 2,
-      "rank_total": 17,
+      "rating_at_end": 1.282,
+      "rank": 1,
+      "rank_total": 15,
       "daily_wins": 0,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -325,12 +325,12 @@
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.805
+      "rating": 1.282
     },
     {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.523
+      "rating": 0.705
     }
   ]
 }

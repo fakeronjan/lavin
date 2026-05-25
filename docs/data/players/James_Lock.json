@@ -3,10 +3,10 @@
   "safe_name": "James_Lock",
   "gender": "M",
   "career": {
-    "era_rating": 0.4,
-    "peak_rating": 0.43,
+    "era_rating": 0.2,
+    "peak_rating": 0.249,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.142,
+    "active_rating": -0.105,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -30,9 +30,9 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.43,
-      "rank": 6,
-      "rank_total": 16,
+      "rating_at_end": 0.249,
+      "rank": 8,
+      "rank_total": 14,
       "daily_wins": 1,
       "elim_wins": 1,
       "elim_losses": 0,
@@ -47,7 +47,7 @@
     {
       "ranking_id": 969,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.43
+      "rating": 0.249
     }
   ]
 }

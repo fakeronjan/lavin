@@ -3,13 +3,13 @@
   "safe_name": "Cara_Maria_Sorbello",
   "gender": "F",
   "career": {
-    "era_rating": 6.9,
+    "era_rating": 7.1,
     "peak_rating": 0.972,
     "peak_season_id": "s27_battle_of_the_bloodlines",
     "active_rating": -0.31,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 17,
-    "n_snapshots": 21,
+    "n_snapshots": 20,
     "championships": 2,
     "finals_reached": 9,
     "pre_anchor_titles": 0,
@@ -61,8 +61,8 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": -0.047,
-      "rank": 8,
+      "rating_at_end": 0.143,
+      "rank": 7,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 1,
@@ -71,32 +71,6 @@
       "partner": "",
       "partners_history": [],
       "team": "Era II",
-      "forced_exit": false
-    },
-    {
-      "season_id": "s39_battle_for_a_new_champion",
-      "season_num": 39,
-      "season_name": "Battle for a New Champion",
-      "year": 2023,
-      "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Champion Mercenary",
-      "finish_label": "Mercenary",
-      "finish_episode": "",
-      "elim_position": 7,
-      "elim_total": 11,
-      "eliminated_by": [
-        "Michele Fitzgerald"
-      ],
-      "rating_at_end": -0.758,
-      "rank": 16,
-      "rank_total": 17,
-      "daily_wins": 0,
-      "elim_wins": 0,
-      "elim_losses": 1,
-      "elim_loss_survived": true,
-      "partner": "",
-      "partners_history": [],
-      "team": "",
       "forced_exit": false
     },
     {
@@ -162,7 +136,7 @@
       "elim_total": null,
       "eliminated_by": [],
       "rating_at_end": 0.353,
-      "rank": 4,
+      "rank": 5,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -535,14 +509,9 @@
       "rating": 0.844
     },
     {
-      "ranking_id": 969,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.758
-    },
-    {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.047
+      "rating": 0.143
     },
     {
       "ranking_id": 1048,

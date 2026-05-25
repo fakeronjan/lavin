@@ -3,7 +3,7 @@
     {
       "rank": 1,
       "player": "Johnny Bananas",
-      "era_rating": 9.9,
+      "era_rating": 10.0,
       "era_daily": 7.9,
       "era_elim": 9.8,
       "era_within": 12.5,
@@ -19,14 +19,14 @@
     {
       "rank": 2,
       "player": "CT Tamburello",
-      "era_rating": 9.1,
+      "era_rating": 8.7,
       "era_daily": 7.3,
       "era_elim": 11.0,
       "era_within": 11.1,
       "era_field": 7.2,
       "peak_rating": 1.313,
       "active_rating": 0.022,
-      "n_snapshots": 31,
+      "n_snapshots": 30,
       "n_seasons": 22,
       "championships": 5,
       "finals_reached": 10,
@@ -35,7 +35,7 @@
     {
       "rank": 3,
       "player": "Jordan Wiseley",
-      "era_rating": 7.9,
+      "era_rating": 7.7,
       "era_daily": 4.7,
       "era_elim": 8.9,
       "era_within": 8.6,
@@ -67,7 +67,7 @@
     {
       "rank": 5,
       "player": "Cory Wharton",
-      "era_rating": 4.3,
+      "era_rating": 4.4,
       "era_daily": 3.9,
       "era_elim": 4.7,
       "era_within": 4.1,
@@ -105,7 +105,7 @@
       "era_within": 5.3,
       "era_field": 2.5,
       "peak_rating": 0.812,
-      "active_rating": -0.246,
+      "active_rating": -0.143,
       "n_snapshots": 21,
       "n_seasons": 12,
       "championships": 4,
@@ -114,22 +114,6 @@
     },
     {
       "rank": 8,
-      "player": "Devin Walker",
-      "era_rating": 3.9,
-      "era_daily": 2.5,
-      "era_elim": 3.5,
-      "era_within": 4.0,
-      "era_field": 3.7,
-      "peak_rating": 1.055,
-      "active_rating": -0.557,
-      "n_snapshots": 12,
-      "n_seasons": 9,
-      "championships": 1,
-      "finals_reached": 3,
-      "peak_season": "s38_ride_or_dies"
-    },
-    {
-      "rank": 9,
       "player": "Derrick Kosinski",
       "era_rating": 3.7,
       "era_daily": 4.2,
@@ -145,7 +129,7 @@
       "peak_season": "s30_xxx_dirty_30"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "player": "Brad Fiorenza",
       "era_rating": 3.2,
       "era_daily": 1.7,
@@ -153,15 +137,15 @@
       "era_within": 2.8,
       "era_field": 3.7,
       "peak_rating": 0.794,
-      "active_rating": -0.467,
-      "n_snapshots": 16,
+      "active_rating": -0.391,
+      "n_snapshots": 15,
       "n_seasons": 12,
       "championships": 1,
       "finals_reached": 4,
       "peak_season": "s17_the_duel_ii"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "player": "Zach Nichols",
       "era_rating": 3.2,
       "era_daily": 1.7,
@@ -175,6 +159,22 @@
       "championships": 1,
       "finals_reached": 4,
       "peak_season": "s31_vendettas"
+    },
+    {
+      "rank": 11,
+      "player": "Devin Walker",
+      "era_rating": 3.1,
+      "era_daily": 2.5,
+      "era_elim": 3.5,
+      "era_within": 4.0,
+      "era_field": 3.7,
+      "peak_rating": 1.055,
+      "active_rating": -0.557,
+      "n_snapshots": 12,
+      "n_seasons": 9,
+      "championships": 1,
+      "finals_reached": 3,
+      "peak_season": "s38_ride_or_dies"
     },
     {
       "rank": 12,
@@ -274,24 +274,8 @@
     },
     {
       "rank": 18,
-      "player": "Nelson Thomas",
-      "era_rating": 2.3,
-      "era_daily": 2.0,
-      "era_elim": 2.7,
-      "era_within": 2.1,
-      "era_field": 2.0,
-      "peak_rating": 0.829,
-      "active_rating": -0.398,
-      "n_snapshots": 11,
-      "n_seasons": 9,
-      "championships": 0,
-      "finals_reached": 2,
-      "peak_season": "s30_xxx_dirty_30"
-    },
-    {
-      "rank": 19,
       "player": "Theo Campbell",
-      "era_rating": 2.3,
+      "era_rating": 2.4,
       "era_daily": 1.8,
       "era_elim": 2.5,
       "era_within": 2.5,
@@ -303,6 +287,22 @@
       "championships": 0,
       "finals_reached": 2,
       "peak_season": "s33_war_of_the_worlds"
+    },
+    {
+      "rank": 19,
+      "player": "Nelson Thomas",
+      "era_rating": 2.3,
+      "era_daily": 2.0,
+      "era_elim": 2.7,
+      "era_within": 2.1,
+      "era_field": 2.0,
+      "peak_rating": 0.829,
+      "active_rating": -0.297,
+      "n_snapshots": 11,
+      "n_seasons": 9,
+      "championships": 0,
+      "finals_reached": 2,
+      "peak_season": "s30_xxx_dirty_30"
     },
     {
       "rank": 20,
@@ -329,7 +329,7 @@
       "era_within": 0.9,
       "era_field": 1.9,
       "peak_rating": 0.706,
-      "active_rating": -0.496,
+      "active_rating": -0.385,
       "n_snapshots": 6,
       "n_seasons": 4,
       "championships": 0,
@@ -393,7 +393,7 @@
       "era_within": 0.8,
       "era_field": 1.9,
       "peak_rating": 0.572,
-      "active_rating": 0.074,
+      "active_rating": 0.188,
       "n_snapshots": 5,
       "n_seasons": 4,
       "championships": 0,
@@ -473,7 +473,7 @@
       "era_within": 0.9,
       "era_field": 1.8,
       "peak_rating": 0.735,
-      "active_rating": -0.519,
+      "active_rating": -0.411,
       "n_snapshots": 12,
       "n_seasons": 7,
       "championships": 2,
@@ -498,22 +498,6 @@
     },
     {
       "rank": 32,
-      "player": "Emanuel Neagu",
-      "era_rating": 1.4,
-      "era_daily": 0.8,
-      "era_elim": 1.4,
-      "era_within": 1.4,
-      "era_field": 1.1,
-      "peak_rating": 1.159,
-      "active_rating": 1.105,
-      "n_snapshots": 4,
-      "n_seasons": 2,
-      "championships": 1,
-      "finals_reached": 1,
-      "peak_season": "s39_battle_for_a_new_champion"
-    },
-    {
-      "rank": 33,
       "player": "Jamie Murray",
       "era_rating": 1.4,
       "era_daily": 0.5,
@@ -529,7 +513,7 @@
       "peak_season": "s06_battle_of_the_sexes"
     },
     {
-      "rank": 34,
+      "rank": 33,
       "player": "Yeremi Hykel",
       "era_rating": 1.3,
       "era_daily": 0.5,
@@ -545,7 +529,7 @@
       "peak_season": "s41_vets_and_new_threats"
     },
     {
-      "rank": 35,
+      "rank": 34,
       "player": "Joss Mooney",
       "era_rating": 1.3,
       "era_daily": 0.7,
@@ -561,14 +545,30 @@
       "peak_season": "s32_final_reckoning"
     },
     {
+      "rank": 35,
+      "player": "Emanuel Neagu",
+      "era_rating": 1.3,
+      "era_daily": 0.8,
+      "era_elim": 1.4,
+      "era_within": 1.4,
+      "era_field": 1.1,
+      "peak_rating": 1.001,
+      "active_rating": 0.946,
+      "n_snapshots": 4,
+      "n_seasons": 2,
+      "championships": 1,
+      "finals_reached": 1,
+      "peak_season": "s39_battle_for_a_new_champion"
+    },
+    {
       "rank": 36,
       "player": "Derek Chavez",
-      "era_rating": 1.1,
+      "era_rating": 1.2,
       "era_daily": 1.0,
       "era_elim": 1.2,
       "era_within": 1.5,
       "era_field": 1.3,
-      "peak_rating": 0.757,
+      "peak_rating": 0.866,
       "active_rating": 0.337,
       "n_snapshots": 7,
       "n_seasons": 5,
@@ -594,38 +594,6 @@
     },
     {
       "rank": 38,
-      "player": "Horacio Guti\u00e9rrez Jr.",
-      "era_rating": 1.0,
-      "era_daily": 1.6,
-      "era_elim": 2.1,
-      "era_within": 0.0,
-      "era_field": 1.5,
-      "peak_rating": 0.501,
-      "active_rating": -0.109,
-      "n_snapshots": 3,
-      "n_seasons": 3,
-      "championships": 0,
-      "finals_reached": 1,
-      "peak_season": "s39_battle_for_a_new_champion"
-    },
-    {
-      "rank": 39,
-      "player": "Corey Lay",
-      "era_rating": 0.9,
-      "era_daily": 1.6,
-      "era_elim": 0.7,
-      "era_within": 0.8,
-      "era_field": 1.1,
-      "peak_rating": 0.938,
-      "active_rating": 0.847,
-      "n_snapshots": 3,
-      "n_seasons": 2,
-      "championships": 0,
-      "finals_reached": 1,
-      "peak_season": "s39_battle_for_a_new_champion"
-    },
-    {
-      "rank": 40,
       "player": "Cedric Hodges",
       "era_rating": 0.9,
       "era_daily": 0.3,
@@ -641,7 +609,23 @@
       "peak_season": "s41_vets_and_new_threats"
     },
     {
-      "rank": 41,
+      "rank": 39,
+      "player": "Horacio Guti\u00e9rrez Jr.",
+      "era_rating": 0.9,
+      "era_daily": 1.6,
+      "era_elim": 2.1,
+      "era_within": 0.0,
+      "era_field": 1.5,
+      "peak_rating": 0.453,
+      "active_rating": -0.098,
+      "n_snapshots": 3,
+      "n_seasons": 3,
+      "championships": 0,
+      "finals_reached": 1,
+      "peak_season": "s38_ride_or_dies"
+    },
+    {
+      "rank": 40,
       "player": "Tony Raines",
       "era_rating": 0.9,
       "era_daily": 2.5,
@@ -649,7 +633,7 @@
       "era_within": 1.2,
       "era_field": 0.4,
       "peak_rating": 0.624,
-      "active_rating": -0.276,
+      "active_rating": -0.167,
       "n_snapshots": 8,
       "n_seasons": 7,
       "championships": 0,
@@ -657,7 +641,7 @@
       "peak_season": "s31_vendettas"
     },
     {
-      "rank": 42,
+      "rank": 41,
       "player": "Frank Roessler",
       "era_rating": 0.9,
       "era_daily": 1.2,
@@ -673,7 +657,7 @@
       "peak_season": "s15_the_gauntlet_iii"
     },
     {
-      "rank": 43,
+      "rank": 42,
       "player": "Danny Roberts",
       "era_rating": 0.9,
       "era_daily": 0.8,
@@ -689,7 +673,7 @@
       "peak_season": "s05_battle_of_the_seasons"
     },
     {
-      "rank": 44,
+      "rank": 43,
       "player": "Sean Duffy",
       "era_rating": 0.8,
       "era_daily": 0.6,
@@ -705,7 +689,7 @@
       "peak_season": "s05_battle_of_the_seasons"
     },
     {
-      "rank": 45,
+      "rank": 44,
       "player": "Vince Gliatta",
       "era_rating": 0.8,
       "era_daily": 0.2,
@@ -721,7 +705,7 @@
       "peak_season": "s28_rivals_iii"
     },
     {
-      "rank": 46,
+      "rank": 45,
       "player": "Mitch Reid",
       "era_rating": 0.8,
       "era_daily": 1.2,
@@ -737,7 +721,7 @@
       "peak_season": "s27_battle_of_the_bloodlines"
     },
     {
-      "rank": 47,
+      "rank": 46,
       "player": "Timmy Beggy",
       "era_rating": 0.8,
       "era_daily": 1.1,
@@ -753,7 +737,7 @@
       "peak_season": "s08_the_inferno"
     },
     {
-      "rank": 48,
+      "rank": 47,
       "player": "Eric Nies",
       "era_rating": 0.8,
       "era_daily": 0.6,
@@ -769,7 +753,7 @@
       "peak_season": "s09_battle_of_the_sexes_2"
     },
     {
-      "rank": 49,
+      "rank": 48,
       "player": "Dave Giuntoli",
       "era_rating": 0.8,
       "era_daily": 0.3,
@@ -783,6 +767,22 @@
       "championships": 1,
       "finals_reached": 1,
       "peak_season": "s07_the_gauntlet"
+    },
+    {
+      "rank": 49,
+      "player": "Corey Lay",
+      "era_rating": 0.7,
+      "era_daily": 1.6,
+      "era_elim": 0.7,
+      "era_within": 0.8,
+      "era_field": 1.1,
+      "peak_rating": 0.738,
+      "active_rating": 0.631,
+      "n_snapshots": 3,
+      "n_seasons": 2,
+      "championships": 0,
+      "finals_reached": 1,
+      "peak_season": "s39_battle_for_a_new_champion"
     },
     {
       "rank": 50,
@@ -805,14 +805,14 @@
     {
       "rank": 1,
       "player": "Cara Maria Sorbello",
-      "era_rating": 6.9,
+      "era_rating": 7.1,
       "era_daily": 5.2,
       "era_elim": 6.3,
       "era_within": 6.5,
       "era_field": 7.2,
       "peak_rating": 0.972,
       "active_rating": -0.31,
-      "n_snapshots": 21,
+      "n_snapshots": 20,
       "n_seasons": 17,
       "championships": 2,
       "finals_reached": 9,
@@ -820,22 +820,6 @@
     },
     {
       "rank": 2,
-      "player": "Tori Deal",
-      "era_rating": 4.6,
-      "era_daily": 1.9,
-      "era_elim": 5.0,
-      "era_within": 4.1,
-      "era_field": 4.2,
-      "peak_rating": 1.15,
-      "active_rating": 0.563,
-      "n_snapshots": 12,
-      "n_seasons": 10,
-      "championships": 1,
-      "finals_reached": 4,
-      "peak_season": "s38_ride_or_dies"
-    },
-    {
-      "rank": 3,
       "player": "Laurel Stucky",
       "era_rating": 4.4,
       "era_daily": 3.0,
@@ -849,6 +833,22 @@
       "championships": 1,
       "finals_reached": 4,
       "peak_season": "s25_free_agents"
+    },
+    {
+      "rank": 3,
+      "player": "Tori Deal",
+      "era_rating": 4.0,
+      "era_daily": 1.9,
+      "era_elim": 5.0,
+      "era_within": 4.1,
+      "era_field": 4.2,
+      "peak_rating": 1.15,
+      "active_rating": 0.563,
+      "n_snapshots": 12,
+      "n_seasons": 10,
+      "championships": 1,
+      "finals_reached": 4,
+      "peak_season": "s38_ride_or_dies"
     },
     {
       "rank": 4,
@@ -949,7 +949,7 @@
     {
       "rank": 10,
       "player": "Kaycee Clark",
-      "era_rating": 2.4,
+      "era_rating": 2.5,
       "era_daily": 1.2,
       "era_elim": 2.3,
       "era_within": 2.9,
@@ -964,6 +964,22 @@
     },
     {
       "rank": 11,
+      "player": "Rachel Robinson",
+      "era_rating": 2.4,
+      "era_daily": 1.1,
+      "era_elim": 2.2,
+      "era_within": 3.8,
+      "era_field": 2.3,
+      "peak_rating": 1.005,
+      "active_rating": 1.015,
+      "n_snapshots": 14,
+      "n_seasons": 8,
+      "championships": 3,
+      "finals_reached": 4,
+      "peak_season": "s40_battle_of_the_eras"
+    },
+    {
+      "rank": 12,
       "player": "Nany Gonz\u00e1lez",
       "era_rating": 2.4,
       "era_daily": 2.7,
@@ -979,23 +995,23 @@
       "peak_season": "s38_ride_or_dies"
     },
     {
-      "rank": 12,
-      "player": "Rachel Robinson",
-      "era_rating": 2.3,
-      "era_daily": 1.1,
-      "era_elim": 2.2,
-      "era_within": 3.8,
-      "era_field": 2.3,
-      "peak_rating": 0.866,
-      "active_rating": 1.015,
-      "n_snapshots": 14,
-      "n_seasons": 8,
-      "championships": 3,
-      "finals_reached": 4,
+      "rank": 13,
+      "player": "Jenny West",
+      "era_rating": 2.1,
+      "era_daily": 1.4,
+      "era_elim": 2.1,
+      "era_within": 2.8,
+      "era_field": 1.6,
+      "peak_rating": 1.036,
+      "active_rating": 1.033,
+      "n_snapshots": 6,
+      "n_seasons": 3,
+      "championships": 2,
+      "finals_reached": 2,
       "peak_season": "s40_battle_of_the_eras"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player": "Natalie Duran",
       "era_rating": 2.0,
       "era_daily": 1.2,
@@ -1011,7 +1027,7 @@
       "peak_season": "s33_war_of_the_worlds"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player": "Tori Hall",
       "era_rating": 2.0,
       "era_daily": 0.9,
@@ -1027,7 +1043,7 @@
       "peak_season": "s20_cutthroat"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player": "Aneesa Ferreira",
       "era_rating": 1.9,
       "era_daily": 3.7,
@@ -1043,22 +1059,6 @@
       "peak_season": "s38_ride_or_dies"
     },
     {
-      "rank": 16,
-      "player": "Jenny West",
-      "era_rating": 1.9,
-      "era_daily": 1.4,
-      "era_elim": 2.1,
-      "era_within": 2.8,
-      "era_field": 1.6,
-      "peak_rating": 0.905,
-      "active_rating": 1.033,
-      "n_snapshots": 6,
-      "n_seasons": 3,
-      "championships": 2,
-      "finals_reached": 2,
-      "peak_season": "s35_total_madness"
-    },
-    {
       "rank": 17,
       "player": "Emily Schromm",
       "era_rating": 1.8,
@@ -1067,7 +1067,7 @@
       "era_within": 1.5,
       "era_field": 2.0,
       "peak_rating": 1.032,
-      "active_rating": -0.45,
+      "active_rating": -0.307,
       "n_snapshots": 7,
       "n_seasons": 4,
       "championships": 1,
@@ -1108,6 +1108,22 @@
     },
     {
       "rank": 20,
+      "player": "Olivia Kaiser",
+      "era_rating": 1.6,
+      "era_daily": 1.4,
+      "era_elim": 1.7,
+      "era_within": 1.2,
+      "era_field": 2.0,
+      "peak_rating": 0.842,
+      "active_rating": 0.842,
+      "n_snapshots": 4,
+      "n_seasons": 4,
+      "championships": 1,
+      "finals_reached": 2,
+      "peak_season": "s41_vets_and_new_threats"
+    },
+    {
+      "rank": 21,
       "player": "Amber Borzotra",
       "era_rating": 1.6,
       "era_daily": 1.4,
@@ -1115,7 +1131,7 @@
       "era_within": 2.7,
       "era_field": 1.0,
       "peak_rating": 0.938,
-      "active_rating": 0.219,
+      "active_rating": 0.354,
       "n_snapshots": 4,
       "n_seasons": 3,
       "championships": 1,
@@ -1123,7 +1139,7 @@
       "peak_season": "s36_double_agents"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "player": "Jodi Weatherton",
       "era_rating": 1.6,
       "era_daily": 1.1,
@@ -1131,7 +1147,7 @@
       "era_within": 2.0,
       "era_field": 1.3,
       "peak_rating": 1.299,
-      "active_rating": -0.52,
+      "active_rating": -0.376,
       "n_snapshots": 7,
       "n_seasons": 4,
       "championships": 2,
@@ -1139,7 +1155,7 @@
       "peak_season": "s13_the_duel"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "player": "Coral Smith",
       "era_rating": 1.6,
       "era_daily": 1.3,
@@ -1155,7 +1171,7 @@
       "peak_season": "s05_battle_of_the_seasons"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "player": "Johanna Botta",
       "era_rating": 1.6,
       "era_daily": 1.0,
@@ -1171,7 +1187,7 @@
       "peak_season": "s15_the_gauntlet_iii"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "player": "Dee Nguyen",
       "era_rating": 1.5,
       "era_daily": 2.0,
@@ -1187,39 +1203,7 @@
       "peak_season": "s34_war_of_the_worlds_2"
     },
     {
-      "rank": 25,
-      "player": "Olivia Kaiser",
-      "era_rating": 1.5,
-      "era_daily": 1.4,
-      "era_elim": 1.7,
-      "era_within": 1.2,
-      "era_field": 2.0,
-      "peak_rating": 0.842,
-      "active_rating": 0.842,
-      "n_snapshots": 4,
-      "n_seasons": 4,
-      "championships": 1,
-      "finals_reached": 2,
-      "peak_season": "s41_vets_and_new_threats"
-    },
-    {
       "rank": 26,
-      "player": "Nurys Mateo",
-      "era_rating": 1.5,
-      "era_daily": 1.7,
-      "era_elim": 0.4,
-      "era_within": 2.1,
-      "era_field": 1.1,
-      "peak_rating": 0.878,
-      "active_rating": 0.581,
-      "n_snapshots": 3,
-      "n_seasons": 3,
-      "championships": 0,
-      "finals_reached": 1,
-      "peak_season": "s39_battle_for_a_new_champion"
-    },
-    {
-      "rank": 27,
       "player": "Natalie Negrotti",
       "era_rating": 1.4,
       "era_daily": 1.7,
@@ -1235,7 +1219,7 @@
       "peak_season": "s32_final_reckoning"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "player": "Jillian Zoboroski",
       "era_rating": 1.4,
       "era_daily": 0.7,
@@ -1249,6 +1233,22 @@
       "championships": 1,
       "finals_reached": 2,
       "peak_season": "s15_the_gauntlet_iii"
+    },
+    {
+      "rank": 28,
+      "player": "Nurys Mateo",
+      "era_rating": 1.3,
+      "era_daily": 1.7,
+      "era_elim": 0.4,
+      "era_within": 2.1,
+      "era_field": 1.1,
+      "peak_rating": 0.838,
+      "active_rating": 0.497,
+      "n_snapshots": 3,
+      "n_seasons": 3,
+      "championships": 0,
+      "finals_reached": 1,
+      "peak_season": "s39_battle_for_a_new_champion"
     },
     {
       "rank": 29,
@@ -1291,7 +1291,7 @@
       "era_within": 1.6,
       "era_field": 1.3,
       "peak_rating": 0.63,
-      "active_rating": -0.272,
+      "active_rating": -0.133,
       "n_snapshots": 11,
       "n_seasons": 6,
       "championships": 0,
@@ -1531,7 +1531,7 @@
       "era_within": 2.7,
       "era_field": 1.0,
       "peak_rating": 0.497,
-      "active_rating": -0.438,
+      "active_rating": -0.257,
       "n_snapshots": 17,
       "n_seasons": 12,
       "championships": 3,

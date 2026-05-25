@@ -3,13 +3,13 @@
   "safe_name": "CT_Tamburello",
   "gender": "M",
   "career": {
-    "era_rating": 9.1,
+    "era_rating": 8.7,
     "peak_rating": 1.313,
     "peak_season_id": "s29_invasion_of_the_champions",
     "active_rating": 0.022,
     "active_season_id": "s41_vets_and_new_threats",
     "n_seasons": 22,
-    "n_snapshots": 31,
+    "n_snapshots": 30,
     "championships": 5,
     "finals_reached": 10,
     "pre_anchor_titles": 0,
@@ -69,7 +69,7 @@
       "eliminated_by": [
         "Nehemiah Clark"
       ],
-      "rating_at_end": -0.416,
+      "rating_at_end": -0.356,
       "rank": 16,
       "rank_total": 20,
       "daily_wins": 0,
@@ -79,30 +79,6 @@
       "partner": "",
       "partners_history": [],
       "team": "Era I",
-      "forced_exit": false
-    },
-    {
-      "season_id": "s39_battle_for_a_new_champion",
-      "season_num": 39,
-      "season_name": "Battle for a New Champion",
-      "year": 2023,
-      "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Champion Mercenary",
-      "finish_label": "Mercenary",
-      "finish_episode": "",
-      "elim_position": null,
-      "elim_total": null,
-      "eliminated_by": [],
-      "rating_at_end": 0.366,
-      "rank": 7,
-      "rank_total": 16,
-      "daily_wins": 0,
-      "elim_wins": 1,
-      "elim_losses": 0,
-      "elim_loss_survived": false,
-      "partner": "",
-      "partners_history": [],
-      "team": "",
       "forced_exit": false
     },
     {
@@ -691,14 +667,9 @@
       "rating": 1.049
     },
     {
-      "ranking_id": 969,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.366
-    },
-    {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.416
+      "rating": -0.356
     },
     {
       "ranking_id": 1048,

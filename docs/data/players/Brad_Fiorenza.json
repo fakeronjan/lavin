@@ -6,10 +6,10 @@
     "era_rating": 3.2,
     "peak_rating": 0.794,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.467,
+    "active_rating": -0.391,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
-    "n_snapshots": 16,
+    "n_snapshots": 15,
     "championships": 1,
     "finals_reached": 4,
     "pre_anchor_titles": 0,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.467,
-      "rank": 17,
+      "rating_at_end": -0.391,
+      "rank": 18,
       "rank_total": 20,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -42,32 +42,6 @@
       "partner": "",
       "partners_history": [],
       "team": "Era I",
-      "forced_exit": false
-    },
-    {
-      "season_id": "s39_battle_for_a_new_champion",
-      "season_num": 39,
-      "season_name": "Battle for a New Champion",
-      "year": 2023,
-      "label": "S39 Battle for a New Champion (2023)",
-      "finish": "Champion Mercenary",
-      "finish_label": "Mercenary",
-      "finish_episode": "",
-      "elim_position": 6,
-      "elim_total": 9,
-      "eliminated_by": [
-        "Kyland Young"
-      ],
-      "rating_at_end": -0.478,
-      "rank": 15,
-      "rank_total": 16,
-      "daily_wins": 0,
-      "elim_wins": 0,
-      "elim_losses": 1,
-      "elim_loss_survived": true,
-      "partner": "",
-      "partners_history": [],
-      "team": "",
       "forced_exit": false
     },
     {
@@ -376,14 +350,9 @@
       "rating": -0.522
     },
     {
-      "ranking_id": 969,
-      "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.478
-    },
-    {
       "ranking_id": 1008,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.467
+      "rating": -0.391
     }
   ]
 }

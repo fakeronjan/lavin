@@ -38,6 +38,18 @@ WEIGHT_DAILY_BASE = 0.2
 # are pure-team mission outcomes captured separately for historical reference.
 MIN_SEASON_NUM = 5
 
+# Cameo-mechanic finish tags. Players with these finishes appeared in just one
+# Arena elimination and otherwise had zero participation in the season — they
+# must NOT be included in daily/final cross-products (which would credit them
+# with phantom losses against full-season cast members). Their real elim still
+# generates an event via build_elimination_events. Add new tags here if other
+# merc-style mechanics get explicit labels later.
+MERCENARY_FINISH_TAGS = {"Champion Mercenary"}
+
+
+def is_mercenary(finish_text):
+    return isinstance(finish_text, str) and finish_text.strip() in MERCENARY_FINISH_TAGS
+
 
 # ---------------------------------------------------------
 # Helpers
@@ -106,9 +118,15 @@ def compute_active_sets(season_appearances, season_elims):
     episode in which they were eliminated. After that they're inactive.
 
     Players with no elimination row are considered active throughout the
-    season (finalists, DQ-on-last-day, etc.).
+    season (finalists, DQ-on-last-day, etc.). Mercenaries (one-shot Arena
+    cameos) are excluded — they were physically present only for their one
+    elim and never competed in dailies.
     """
-    all_players = set(season_appearances["player"].dropna().astype(str))
+    merc_players = {str(r["player"]).strip()
+                    for _, r in season_appearances.iterrows()
+                    if is_mercenary(r.get("finish"))}
+    all_players = (set(season_appearances["player"].dropna().astype(str))
+                   - merc_players)
 
     # Player -> episode they were eliminated in (lowest seen)
     elim_at = {}
@@ -197,9 +215,14 @@ def build_final_events(appearances, gender_map):
                     "format": "final",
                 })
 
-        # Field-expansion: each finalist beats each non-finalist (same gender)
+        # Field-expansion: each finalist beats each non-finalist (same gender).
+        # Mercenaries are excluded from the non-finalist pool — they were
+        # one-shot Arena cameos and never competed for the season's title.
         finalist_set = set(ranks.keys())
-        season_players = set(sdf["player"].dropna().astype(str))
+        merc_players = {str(r["player"]).strip()
+                        for _, r in sdf.iterrows()
+                        if is_mercenary(r.get("finish"))}
+        season_players = set(sdf["player"].dropna().astype(str)) - merc_players
         non_finalists = season_players - finalist_set
         for finalist in finalist_set:
             fg = gender_map.get(finalist)
