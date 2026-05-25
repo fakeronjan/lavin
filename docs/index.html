@@ -1156,7 +1156,10 @@ function attachPlayerLinks() {
 
 // ── Init ──
 (async () => {
-  document.getElementById('last-updated').textContent = `Last updated: ${new Date().toISOString().slice(0, 10)}`;
+  const seasonIdx = await fetchJSON('seasons_index.json');
+  const latest = seasonIdx[0];
+  const stamp = latest.finale_aired || String(latest.year);
+  document.getElementById('last-updated').textContent = `Last updated: S${latest.season_num} ${stamp}`;
   // Load players_index first so playerLink() can gate on membership before
   // any render. Many recent-season cast members aren't indexed.
   if (!playersIndex) playersIndex = await fetchJSON('players_index.json');

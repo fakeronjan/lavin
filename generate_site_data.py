@@ -358,11 +358,17 @@ def main():
         sid = r["season_id"]
         cast = appearances[appearances["season_id"] == sid]
         n_cast = cast["player"].nunique()
+        finale_aired = r.get("finale_aired")
+        if pd.isna(finale_aired) or not str(finale_aired).strip():
+            finale_aired = None
+        else:
+            finale_aired = str(finale_aired).strip()
         season_index.append({
             "season_id": sid,
             "season_num": int(r["season_num"]),
             "season_name": r["season_name"],
             "year": int(r["year"]),
+            "finale_aired": finale_aired,
             "label": season_label(sid, seasons),
             "cast_count": int(n_cast),
         })
