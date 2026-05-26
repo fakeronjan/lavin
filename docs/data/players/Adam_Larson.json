@@ -6,14 +6,14 @@
     "era_rating": 0.7,
     "peak_rating": 0.687,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.392,
+    "active_rating": -0.766,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
     "n_snapshots": 6,
     "championships": 1,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
-    "elim_wins": 1,
+    "elim_wins": 0,
     "elim_losses": 2,
     "daily_wins": 10
   },
@@ -32,11 +32,11 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.392,
-      "rank": 12,
+      "rating_at_end": -0.766,
+      "rank": 16,
       "rank_total": 16,
       "daily_wins": 0,
-      "elim_wins": 1,
+      "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
       "partner": "",
@@ -110,9 +110,9 @@
       "rating": 0.687
     },
     {
-      "ranking_id": 164,
+      "ranking_id": 162,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.392
+      "rating": -0.766
     }
   ]
 }

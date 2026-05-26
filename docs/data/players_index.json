@@ -392,17 +392,8 @@
     "gender": "M",
     "era_rating": 1.8,
     "peak_rating": 0.878,
-    "active_rating": 0.493,
+    "active_rating": 0.494,
     "n_seasons": 5
-  },
-  {
-    "player": "Susie Meister",
-    "safe_name": "Susie_Meister",
-    "gender": "F",
-    "era_rating": 1.7,
-    "peak_rating": 1.064,
-    "active_rating": 1.008,
-    "n_seasons": 4
   },
   {
     "player": "Tyler Duckworth",
@@ -411,6 +402,15 @@
     "era_rating": 1.7,
     "peak_rating": 0.942,
     "active_rating": 1.124,
+    "n_seasons": 4
+  },
+  {
+    "player": "Susie Meister",
+    "safe_name": "Susie_Meister",
+    "gender": "F",
+    "era_rating": 1.7,
+    "peak_rating": 1.064,
+    "active_rating": 1.008,
     "n_seasons": 4
   },
   {
@@ -450,15 +450,6 @@
     "n_seasons": 5
   },
   {
-    "player": "Jodi Weatherton",
-    "safe_name": "Jodi_Weatherton",
-    "gender": "F",
-    "era_rating": 1.6,
-    "peak_rating": 1.299,
-    "active_rating": -0.376,
-    "n_seasons": 4
-  },
-  {
     "player": "Coral Smith",
     "safe_name": "Coral_Smith",
     "gender": "F",
@@ -495,6 +486,15 @@
     "n_seasons": 7
   },
   {
+    "player": "Jodi Weatherton",
+    "safe_name": "Jodi_Weatherton",
+    "gender": "F",
+    "era_rating": 1.5,
+    "peak_rating": 1.299,
+    "active_rating": -0.376,
+    "n_seasons": 4
+  },
+  {
     "player": "Johnny Reilly",
     "safe_name": "Johnny_Reilly",
     "gender": "M",
@@ -504,21 +504,21 @@
     "n_seasons": 3
   },
   {
+    "player": "Jamie Murray",
+    "safe_name": "Jamie_Murray",
+    "gender": "M",
+    "era_rating": 1.4,
+    "peak_rating": 0.819,
+    "active_rating": 0.593,
+    "n_seasons": 3
+  },
+  {
     "player": "Natalie Negrotti",
     "safe_name": "Natalie_Negrotti",
     "gender": "F",
     "era_rating": 1.4,
     "peak_rating": 0.696,
     "active_rating": 0.01,
-    "n_seasons": 3
-  },
-  {
-    "player": "Jamie Murray",
-    "safe_name": "Jamie_Murray",
-    "gender": "M",
-    "era_rating": 1.4,
-    "peak_rating": 0.819,
-    "active_rating": 0.559,
     "n_seasons": 3
   },
   {
@@ -662,7 +662,7 @@
     "gender": "M",
     "era_rating": 1.1,
     "peak_rating": 0.756,
-    "active_rating": 0.819,
+    "active_rating": 0.828,
     "n_seasons": 3
   },
   {
@@ -855,15 +855,6 @@
     "n_seasons": 3
   },
   {
-    "player": "Sarah Greyson",
-    "safe_name": "Sarah_Greyson",
-    "gender": "F",
-    "era_rating": 0.8,
-    "peak_rating": 0.8,
-    "active_rating": 0.747,
-    "n_seasons": 1
-  },
-  {
     "player": "Timmy Beggy",
     "safe_name": "Timmy_Beggy",
     "gender": "M",
@@ -871,6 +862,15 @@
     "peak_rating": 0.447,
     "active_rating": -0.718,
     "n_seasons": 4
+  },
+  {
+    "player": "Sarah Greyson",
+    "safe_name": "Sarah_Greyson",
+    "gender": "F",
+    "era_rating": 0.8,
+    "peak_rating": 0.8,
+    "active_rating": 0.747,
+    "n_seasons": 1
   },
   {
     "player": "Jenn Grijalva",
@@ -887,7 +887,7 @@
     "gender": "M",
     "era_rating": 0.8,
     "peak_rating": 0.769,
-    "active_rating": 0.767,
+    "active_rating": 0.78,
     "n_seasons": 2
   },
   {
@@ -977,7 +977,7 @@
     "gender": "F",
     "era_rating": 0.7,
     "peak_rating": 0.706,
-    "active_rating": 0.938,
+    "active_rating": 0.84,
     "n_seasons": 1
   },
   {
@@ -999,21 +999,12 @@
     "n_seasons": 4
   },
   {
-    "player": "Kina Dean",
-    "safe_name": "Kina_Dean",
-    "gender": "F",
-    "era_rating": 0.7,
-    "peak_rating": 0.408,
-    "active_rating": -0.099,
-    "n_seasons": 3
-  },
-  {
     "player": "Jamie Chung",
     "safe_name": "Jamie_Chung",
     "gender": "F",
     "era_rating": 0.7,
     "peak_rating": 0.691,
-    "active_rating": 0.981,
+    "active_rating": 0.885,
     "n_seasons": 1
   },
   {
@@ -1022,7 +1013,7 @@
     "gender": "F",
     "era_rating": 0.7,
     "peak_rating": 0.691,
-    "active_rating": 0.927,
+    "active_rating": 0.829,
     "n_seasons": 1
   },
   {
@@ -1031,7 +1022,7 @@
     "gender": "M",
     "era_rating": 0.7,
     "peak_rating": 0.687,
-    "active_rating": -0.392,
+    "active_rating": -0.766,
     "n_seasons": 3
   },
   {
@@ -1071,15 +1062,6 @@
     "n_seasons": 1
   },
   {
-    "player": "Alton Williams",
-    "safe_name": "Alton_Williams",
-    "gender": "M",
-    "era_rating": 0.7,
-    "peak_rating": 0.5,
-    "active_rating": -0.895,
-    "n_seasons": 4
-  },
-  {
     "player": "Emy Alupei",
     "safe_name": "Emy_Alupei",
     "gender": "F",
@@ -1114,6 +1096,24 @@
     "peak_rating": 0.605,
     "active_rating": 0.692,
     "n_seasons": 2
+  },
+  {
+    "player": "Kina Dean",
+    "safe_name": "Kina_Dean",
+    "gender": "F",
+    "era_rating": 0.6,
+    "peak_rating": 0.31,
+    "active_rating": -0.099,
+    "n_seasons": 3
+  },
+  {
+    "player": "MJ Garrett",
+    "safe_name": "MJ_Garrett",
+    "gender": "M",
+    "era_rating": 0.6,
+    "peak_rating": 0.593,
+    "active_rating": -0.5,
+    "n_seasons": 3
   },
   {
     "player": "Kyland Young",
@@ -1152,21 +1152,12 @@
     "n_seasons": 1
   },
   {
-    "player": "MJ Garrett",
-    "safe_name": "MJ_Garrett",
-    "gender": "M",
-    "era_rating": 0.6,
-    "peak_rating": 0.559,
-    "active_rating": -0.5,
-    "n_seasons": 3
-  },
-  {
     "player": "Christena Pyle",
     "safe_name": "Christena_Pyle",
     "gender": "F",
     "era_rating": 0.6,
     "peak_rating": 0.552,
-    "active_rating": 0.982,
+    "active_rating": 1.236,
     "n_seasons": 1
   },
   {
@@ -1220,7 +1211,7 @@
     "gender": "F",
     "era_rating": 0.5,
     "peak_rating": 0.522,
-    "active_rating": 0.98,
+    "active_rating": 1.236,
     "n_seasons": 3
   },
   {
@@ -1233,6 +1224,15 @@
     "n_seasons": 1
   },
   {
+    "player": "Randy Barry",
+    "safe_name": "Randy_Barry",
+    "gender": "M",
+    "era_rating": 0.5,
+    "peak_rating": 0.503,
+    "active_rating": 0.503,
+    "n_seasons": 2
+  },
+  {
     "player": "Marlon Williams",
     "safe_name": "Marlon_Williams",
     "gender": "M",
@@ -1242,6 +1242,15 @@
     "n_seasons": 1
   },
   {
+    "player": "Alton Williams",
+    "safe_name": "Alton_Williams",
+    "gender": "M",
+    "era_rating": 0.5,
+    "peak_rating": 0.33,
+    "active_rating": -0.895,
+    "n_seasons": 4
+  },
+  {
     "player": "Dustin Zito",
     "safe_name": "Dustin_Zito",
     "gender": "M",
@@ -1249,15 +1258,6 @@
     "peak_rating": 0.484,
     "active_rating": -0.345,
     "n_seasons": 4
-  },
-  {
-    "player": "Randy Barry",
-    "safe_name": "Randy_Barry",
-    "gender": "M",
-    "era_rating": 0.5,
-    "peak_rating": 0.478,
-    "active_rating": 0.478,
-    "n_seasons": 2
   },
   {
     "player": "Da'Vonne Rogers",
@@ -1274,7 +1274,7 @@
     "gender": "F",
     "era_rating": 0.5,
     "peak_rating": 0.475,
-    "active_rating": 0.977,
+    "active_rating": 1.236,
     "n_seasons": 1
   },
   {
@@ -1404,15 +1404,6 @@
     "n_seasons": 2
   },
   {
-    "player": "Ibis Nieves",
-    "safe_name": "Ibis_Nieves",
-    "gender": "F",
-    "era_rating": 0.3,
-    "peak_rating": 0.342,
-    "active_rating": -0.433,
-    "n_seasons": 3
-  },
-  {
     "player": "Asaf Goren",
     "safe_name": "Asaf_Goren",
     "gender": "M",
@@ -1519,6 +1510,15 @@
     "peak_rating": 0.249,
     "active_rating": -0.105,
     "n_seasons": 1
+  },
+  {
+    "player": "Ibis Nieves",
+    "safe_name": "Ibis_Nieves",
+    "gender": "F",
+    "era_rating": 0.2,
+    "peak_rating": 0.243,
+    "active_rating": -0.433,
+    "n_seasons": 3
   },
   {
     "player": "Averey Tressler",
@@ -1769,7 +1769,7 @@
     "gender": "M",
     "era_rating": 0.1,
     "peak_rating": 0.07,
-    "active_rating": -0.053,
+    "active_rating": -0.025,
     "n_seasons": 1
   },
   {
@@ -1877,7 +1877,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.376,
-    "active_rating": -0.407,
+    "active_rating": -0.386,
     "n_seasons": 1
   },
   {
@@ -1931,7 +1931,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.387,
-    "active_rating": -0.963,
+    "active_rating": -0.948,
     "n_seasons": 2
   },
   {
@@ -2111,7 +2111,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.334,
-    "active_rating": -0.864,
+    "active_rating": -0.942,
     "n_seasons": 3
   },
   {
@@ -2120,7 +2120,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.335,
-    "active_rating": -0.233,
+    "active_rating": -0.26,
     "n_seasons": 1
   },
   {
@@ -2147,7 +2147,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.342,
-    "active_rating": -0.276,
+    "active_rating": -0.259,
     "n_seasons": 1
   },
   {
@@ -2326,8 +2326,8 @@
     "safe_name": "Danny_Dias",
     "gender": "M",
     "era_rating": 0.0,
-    "peak_rating": -0.602,
-    "active_rating": -0.602,
+    "peak_rating": -0.626,
+    "active_rating": -0.626,
     "n_seasons": 1
   },
   {
@@ -2372,7 +2372,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.657,
-    "active_rating": -0.277,
+    "active_rating": -0.396,
     "n_seasons": 1
   },
   {
@@ -2390,16 +2390,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.69,
-    "active_rating": -0.307,
-    "n_seasons": 1
-  },
-  {
-    "player": "Jo Rhodes",
-    "safe_name": "Jo_Rhodes",
-    "gender": "F",
-    "era_rating": 0.0,
-    "peak_rating": -0.745,
-    "active_rating": -0.745,
+    "active_rating": -0.422,
     "n_seasons": 1
   },
   {
@@ -2427,6 +2418,15 @@
     "era_rating": 0.0,
     "peak_rating": -0.849,
     "active_rating": -0.603,
+    "n_seasons": 1
+  },
+  {
+    "player": "Ashli Robson",
+    "safe_name": "Ashli_Robson",
+    "gender": "F",
+    "era_rating": 0.0,
+    "peak_rating": -0.921,
+    "active_rating": -0.888,
     "n_seasons": 1
   },
   {
@@ -2516,7 +2516,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.502,
-    "active_rating": -0.757,
+    "active_rating": -0.847,
     "n_seasons": 3
   },
   {
@@ -2606,7 +2606,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.527,
-    "active_rating": -0.852,
+    "active_rating": -0.935,
     "n_seasons": 2
   },
   {
@@ -2651,7 +2651,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.306,
-    "active_rating": -0.247,
+    "active_rating": -0.245,
     "n_seasons": 1
   },
   {
@@ -2687,7 +2687,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.113,
-    "active_rating": -0.192,
+    "active_rating": -0.161,
     "n_seasons": 1
   },
   {
@@ -2723,7 +2723,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.122,
-    "active_rating": 0.139,
+    "active_rating": 0.046,
     "n_seasons": 1
   },
   {
@@ -2736,13 +2736,13 @@
     "n_seasons": 2
   },
   {
-    "player": "Julie Stoffer",
-    "safe_name": "Julie_Stoffer",
-    "gender": "F",
+    "player": "Raphy Medrano",
+    "safe_name": "Raphy_Medrano",
+    "gender": "M",
     "era_rating": 0.0,
-    "peak_rating": -0.135,
-    "active_rating": -0.135,
-    "n_seasons": 5
+    "peak_rating": -0.14,
+    "active_rating": -0.301,
+    "n_seasons": 1
   },
   {
     "player": "Jill Tuttle",
@@ -2751,15 +2751,6 @@
     "era_rating": 0.0,
     "peak_rating": -0.099,
     "active_rating": -0.387,
-    "n_seasons": 1
-  },
-  {
-    "player": "Raphy Medrano",
-    "safe_name": "Raphy_Medrano",
-    "gender": "M",
-    "era_rating": 0.0,
-    "peak_rating": -0.14,
-    "active_rating": -0.301,
     "n_seasons": 1
   },
   {
@@ -2826,12 +2817,21 @@
     "n_seasons": 1
   },
   {
+    "player": "Leka Sodade",
+    "safe_name": "Leka_Sodade",
+    "gender": "F",
+    "era_rating": 0.0,
+    "peak_rating": -0.165,
+    "active_rating": -0.165,
+    "n_seasons": 1
+  },
+  {
     "player": "Dan Renzi",
     "safe_name": "Dan_Renzi",
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.104,
-    "active_rating": -0.516,
+    "active_rating": -0.497,
     "n_seasons": 3
   },
   {
@@ -2853,12 +2853,12 @@
     "n_seasons": 3
   },
   {
-    "player": "Gabby Allen",
-    "safe_name": "Gabby_Allen",
-    "gender": "F",
+    "player": "Swaggy C Williams",
+    "safe_name": "Swaggy_C_Williams",
+    "gender": "M",
     "era_rating": 0.0,
-    "peak_rating": -0.041,
-    "active_rating": -0.092,
+    "peak_rating": -0.038,
+    "active_rating": -0.37,
     "n_seasons": 1
   },
   {
@@ -2916,6 +2916,15 @@
     "n_seasons": 2
   },
   {
+    "player": "David Burns",
+    "safe_name": "David_Burns",
+    "gender": "M",
+    "era_rating": 0.0,
+    "peak_rating": -0.034,
+    "active_rating": -0.034,
+    "n_seasons": 3
+  },
+  {
     "player": "James Orlando",
     "safe_name": "James_Orlando",
     "gender": "M",
@@ -2925,22 +2934,13 @@
     "n_seasons": 2
   },
   {
-    "player": "Swaggy C Williams",
-    "safe_name": "Swaggy_C_Williams",
-    "gender": "M",
+    "player": "Gabby Allen",
+    "safe_name": "Gabby_Allen",
+    "gender": "F",
     "era_rating": 0.0,
-    "peak_rating": -0.038,
-    "active_rating": -0.37,
+    "peak_rating": -0.041,
+    "active_rating": -0.092,
     "n_seasons": 1
-  },
-  {
-    "player": "David Burns",
-    "safe_name": "David_Burns",
-    "gender": "M",
-    "era_rating": 0.0,
-    "peak_rating": -0.042,
-    "active_rating": -0.042,
-    "n_seasons": 3
   },
   {
     "player": "Idris Virgo",
@@ -2957,7 +2957,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.046,
-    "active_rating": -0.159,
+    "active_rating": -0.296,
     "n_seasons": 2
   },
   {
@@ -3024,15 +3024,6 @@
     "n_seasons": 6
   },
   {
-    "player": "Leka Sodade",
-    "safe_name": "Leka_Sodade",
-    "gender": "F",
-    "era_rating": 0.0,
-    "peak_rating": -0.165,
-    "active_rating": -0.165,
-    "n_seasons": 1
-  },
-  {
     "player": "Derrick Henry",
     "safe_name": "Derrick_Henry",
     "gender": "M",
@@ -3048,6 +3039,15 @@
     "era_rating": 0.0,
     "peak_rating": -0.171,
     "active_rating": -0.537,
+    "n_seasons": 1
+  },
+  {
+    "player": "Anthony Bartolotte",
+    "safe_name": "Anthony_Bartolotte",
+    "gender": "M",
+    "era_rating": 0.0,
+    "peak_rating": -0.179,
+    "active_rating": -0.278,
     "n_seasons": 1
   },
   {
@@ -3092,7 +3092,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.26,
-    "active_rating": -0.129,
+    "active_rating": -0.234,
     "n_seasons": 3
   },
   {
@@ -3141,12 +3141,12 @@
     "n_seasons": 1
   },
   {
-    "player": "Anthony Bartolotte",
-    "safe_name": "Anthony_Bartolotte",
-    "gender": "M",
+    "player": "Lacey Buehler",
+    "safe_name": "Lacey_Buehler",
+    "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.179,
-    "active_rating": -0.278,
+    "active_rating": -0.717,
     "n_seasons": 1
   },
   {
@@ -3209,7 +3209,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.293,
-    "active_rating": -0.215,
+    "active_rating": -0.196,
     "n_seasons": 1
   },
   {
@@ -3218,7 +3218,7 @@
     "gender": "F",
     "era_rating": 0.0,
     "peak_rating": -0.301,
-    "active_rating": -0.076,
+    "active_rating": -0.26,
     "n_seasons": 1
   },
   {
@@ -3229,6 +3229,15 @@
     "peak_rating": -0.23,
     "active_rating": -0.895,
     "n_seasons": 6
+  },
+  {
+    "player": "Julie Stoffer",
+    "safe_name": "Julie_Stoffer",
+    "gender": "F",
+    "era_rating": 0.0,
+    "peak_rating": -0.229,
+    "active_rating": -0.229,
+    "n_seasons": 5
   },
   {
     "player": "Steve Meinke",
@@ -3249,24 +3258,6 @@
     "n_seasons": 1
   },
   {
-    "player": "Chase McNary",
-    "safe_name": "Chase_McNary",
-    "gender": "M",
-    "era_rating": 0.0,
-    "peak_rating": -0.224,
-    "active_rating": -0.465,
-    "n_seasons": 1
-  },
-  {
-    "player": "Lacey Buehler",
-    "safe_name": "Lacey_Buehler",
-    "gender": "F",
-    "era_rating": 0.0,
-    "peak_rating": -0.179,
-    "active_rating": -0.717,
-    "n_seasons": 1
-  },
-  {
     "player": "Amaya Brecher",
     "safe_name": "Amaya_Brecher",
     "gender": "F",
@@ -3281,7 +3272,7 @@
     "gender": "M",
     "era_rating": 0.0,
     "peak_rating": -0.184,
-    "active_rating": -0.371,
+    "active_rating": -0.349,
     "n_seasons": 2
   },
   {
@@ -3411,12 +3402,21 @@
     "n_seasons": 1
   },
   {
-    "player": "Ashli Robson",
-    "safe_name": "Ashli_Robson",
+    "player": "Chase McNary",
+    "safe_name": "Chase_McNary",
+    "gender": "M",
+    "era_rating": 0.0,
+    "peak_rating": -0.224,
+    "active_rating": -0.465,
+    "n_seasons": 1
+  },
+  {
+    "player": "Jo Rhodes",
+    "safe_name": "Jo_Rhodes",
     "gender": "F",
     "era_rating": 0.0,
-    "peak_rating": -0.921,
-    "active_rating": -0.888,
+    "peak_rating": -1.008,
+    "active_rating": -1.008,
     "n_seasons": 1
   }
 ]

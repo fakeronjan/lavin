@@ -455,29 +455,6 @@
       {
         "rank": 4,
         "rank_total": 18,
-        "player": "Marie Roda",
-        "rating": 0.353,
-        "n_events": 20,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 0,
-        "elim_loss_survived": false,
-        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
-        "finish_label": "4th",
-        "finish_episode": "Who Wants to Be a Millionaire?",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Cara Maria Sorbello",
-        "partners_history": [
-          "Cara Maria Sorbello"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 5,
-        "rank_total": 18,
         "player": "Cara Maria Sorbello",
         "rating": 0.353,
         "n_events": 20,
@@ -494,6 +471,29 @@
         "partner": "Marie Roda",
         "partners_history": [
           "Marie Roda"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 5,
+        "rank_total": 18,
+        "player": "Marie Roda",
+        "rating": 0.353,
+        "n_events": 20,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 0,
+        "elim_loss_survived": false,
+        "finish": "Fourth Place in Who Wants to Be a Millionaire?",
+        "finish_label": "4th",
+        "finish_episode": "Who Wants to Be a Millionaire?",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Cara Maria Sorbello",
+        "partners_history": [
+          "Cara Maria Sorbello"
         ],
         "team": "",
         "forced_exit": false
@@ -659,32 +659,6 @@
       {
         "rank": 12,
         "rank_total": 18,
-        "player": "Britni Thornton",
-        "rating": -0.317,
-        "n_events": 5,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 1,
-        "elim_loss_survived": false,
-        "finish": "Eliminated in The Affair",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Affair",
-        "elim_position": 1,
-        "elim_total": 9,
-        "eliminated_by": [
-          "Amanda Garcia",
-          "Zach Nichols"
-        ],
-        "partner": "Chuck Mowery",
-        "partners_history": [
-          "Chuck Mowery"
-        ],
-        "team": "",
-        "forced_exit": false
-      },
-      {
-        "rank": 13,
-        "rank_total": 18,
         "player": "Veronica Portillo",
         "rating": -0.317,
         "n_events": 5,
@@ -709,7 +683,56 @@
         "forced_exit": false
       },
       {
+        "rank": 13,
+        "rank_total": 18,
+        "player": "Britni Thornton",
+        "rating": -0.317,
+        "n_events": 5,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 1,
+        "elim_loss_survived": false,
+        "finish": "Eliminated in The Affair",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Affair",
+        "elim_position": 1,
+        "elim_total": 9,
+        "eliminated_by": [
+          "Amanda Garcia",
+          "Zach Nichols"
+        ],
+        "partner": "Chuck Mowery",
+        "partners_history": [
+          "Chuck Mowery"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
         "rank": 14,
+        "rank_total": 18,
+        "player": "Jemmye Carroll",
+        "rating": -0.329,
+        "n_events": 11,
+        "daily_wins": 0,
+        "elim_wins": 0,
+        "elim_losses": 0,
+        "elim_loss_survived": false,
+        "finish": "Eliminated in The Affair",
+        "finish_label": "Eliminated",
+        "finish_episode": "The Affair",
+        "elim_position": null,
+        "elim_total": null,
+        "eliminated_by": [],
+        "partner": "Jenna Compono",
+        "partners_history": [
+          "Jenna Compono"
+        ],
+        "team": "",
+        "forced_exit": false
+      },
+      {
+        "rank": 15,
         "rank_total": 18,
         "player": "Kailah Casillas-Bird",
         "rating": -0.329,
@@ -730,29 +753,6 @@
         ],
         "team": "",
         "forced_exit": true
-      },
-      {
-        "rank": 15,
-        "rank_total": 18,
-        "player": "Jenna Compono",
-        "rating": -0.329,
-        "n_events": 11,
-        "daily_wins": 0,
-        "elim_wins": 0,
-        "elim_losses": 0,
-        "elim_loss_survived": false,
-        "finish": "Eliminated in The Affair",
-        "finish_label": "Eliminated",
-        "finish_episode": "The Affair",
-        "elim_position": null,
-        "elim_total": null,
-        "eliminated_by": [],
-        "partner": "Jemmye Carroll",
-        "partners_history": [
-          "Jemmye Carroll"
-        ],
-        "team": "",
-        "forced_exit": false
       },
       {
         "rank": 16,
@@ -780,7 +780,7 @@
       {
         "rank": 17,
         "rank_total": 18,
-        "player": "Jemmye Carroll",
+        "player": "Jenna Compono",
         "rating": -0.329,
         "n_events": 11,
         "daily_wins": 0,
@@ -793,9 +793,9 @@
         "elim_position": null,
         "elim_total": null,
         "eliminated_by": [],
-        "partner": "Jenna Compono",
+        "partner": "Jemmye Carroll",
         "partners_history": [
-          "Jenna Compono"
+          "Jemmye Carroll"
         ],
         "team": "",
         "forced_exit": false

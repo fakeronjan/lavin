@@ -3,8 +3,8 @@
   "safe_name": "Alton_Williams",
   "gender": "M",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.5,
+    "era_rating": 0.5,
+    "peak_rating": 0.33,
     "peak_season_id": "s11_the_gauntlet_2",
     "active_rating": -0.895,
     "active_season_id": "s25_free_agents",
@@ -14,7 +14,7 @@
     "finals_reached": 3,
     "pre_anchor_titles": 0,
     "elim_wins": 5,
-    "elim_losses": 2,
+    "elim_losses": 1,
     "daily_wins": 13
   },
   "seasons": [
@@ -81,13 +81,13 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.5,
-      "rank": 4,
+      "rating_at_end": 0.33,
+      "rank": 5,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 3,
-      "elim_losses": 1,
-      "elim_loss_survived": true,
+      "elim_losses": 0,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "Rookies",
@@ -125,17 +125,17 @@
       "rating": 0.156
     },
     {
-      "ranking_id": 164,
+      "ranking_id": 162,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.5
+      "rating": 0.33
     },
     {
-      "ranking_id": 258,
+      "ranking_id": 256,
       "season_id": "s14_the_inferno_3",
       "rating": -0.113
     },
     {
-      "ranking_id": 484,
+      "ranking_id": 482,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.654
     }
