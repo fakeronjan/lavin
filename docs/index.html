@@ -650,17 +650,24 @@ async function renderStandings() {
     const rows = standings.map(s => {
       const ctx = renderPartnerContext(s);
       const ctxHtml = ctx ? `<div style="font-size:11px;color:#888">${ctx}</div>` : '';
+      const isMerc = s.finish === 'Champion Mercenary';
+      const dagger = isMerc ? ' <sup style="color:#888">†</sup>' : '';
+      const rankCell = s.rank == null ? '<span style="color:#bbb">-</span>' : s.rank;
       return `
-      <tr>
-        <td class="rank-cell">${s.rank}</td>
+      <tr${isMerc ? ' style="background:#fafafa"' : ''}>
+        <td class="rank-cell">${rankCell}</td>
         <td class="player-cell">${playerLink(s.player)}${ctxHtml}</td>
         <td class="num stat-narrow col-hide-mobile">${s.daily_wins || 0}</td>
         <td class="num stat-narrow col-hide-mobile">${fmtElim(s.elim_wins, s.elim_losses, s.elim_loss_survived)}</td>
-        <td>${fmtFinish(s)}</td>
+        <td>${fmtFinish(s)}${dagger}</td>
         <td>${ratingBar(s.rating)}</td>
       </tr>
     `;
     }).join('');
+    const anyMerc = standings.some(s => s.finish === 'Champion Mercenary');
+    const footnote = anyMerc
+      ? '<p style="font-size:11px;color:#888;margin-top:8px"><sup>†</sup> Champion Mercenary cameos. Vets brought in for one Arena elimination, not full-season cast - excluded from this season\'s rank/rating and from career PEAK/ERA totals.</p>'
+      : '';
     wrap.innerHTML = `
       <table>
         <thead><tr>
@@ -673,6 +680,7 @@ async function renderStandings() {
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
+      ${footnote}
     `;
   }
   attachPlayerLinks();

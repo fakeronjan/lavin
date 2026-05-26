@@ -305,6 +305,17 @@ def main():
         dailies.groupby(["season_id", "winner"]).size().to_dict()
     )
 
+    # Mercenary cameos (one-shot Arena guest spots — see build_events.py
+    # MERCENARY_FINISH_TAGS) are excluded from rank/rating displays.
+    # Their per-snapshot rating is dominated by prior-career rolling-window
+    # carryover, not a real S39 performance, and we already exclude them
+    # from PEAK/ERA. Surfacing a "rank 1" rating row would mislead readers.
+    _MERC_FINISH_TAGS = {"Champion Mercenary"}
+    merc_pairs = set(zip(
+        appearances.loc[appearances["finish"].isin(_MERC_FINISH_TAGS), "season_id"].astype(str),
+        appearances.loc[appearances["finish"].isin(_MERC_FINISH_TAGS), "player"].astype(str),
+    ))
+
     # Per-(season, player) rating-rank within same gender. Built from each
     # season's end-of-season snapshot, filtered to that season's CAST (skip
     # rolling-window ghosts — players whose events from a few seasons back
@@ -323,8 +334,10 @@ def main():
                 end_snap[(end_snap["gender"] == g) & (end_snap["player"].isin(cast))]
                 .sort_values("rating", ascending=False)
             )
-            for i, (_, r) in enumerate(g_snap.iterrows(), 1):
-                season_rank_map[(sid_x, r["player"])] = (i, len(g_snap))
+            non_merc = [r for _, r in g_snap.iterrows()
+                        if (sid_x, str(r["player"])) not in merc_pairs]
+            for i, r in enumerate(non_merc, 1):
+                season_rank_map[(sid_x, r["player"])] = (i, len(non_merc))
 
     # Mid-season partner sequence (from audit_partner_changes.py).
     # Maps (season_id, player) → ordered list of partner names. Preserves
@@ -408,9 +421,34 @@ def main():
                 end_snap[(end_snap["gender"] == g) & (end_snap["player"].isin(cast_players))]
                 .sort_values("rating", ascending=False)
             )
+            # Split mercenaries out — they get rank=None/rating=None below
+            # and are appended to the end of the standings array. Non-mercs
+            # are ranked 1..N where N is the non-merc count for this gender.
+            g_snap_rows = list(g_snap.iterrows())
+            non_merc_rows = [r for _, r in g_snap_rows
+                             if (sid, str(r["player"])) not in merc_pairs]
+            rated_mercs = [r for _, r in g_snap_rows
+                           if (sid, str(r["player"])) in merc_pairs]
+            # Some mercs may not have a S39 EOS rating row at all (their one
+            # elim left them below MIN_EVENTS_PER_PLAYER in the rolling
+            # window). Still surface them in standings — they were on the
+            # cast, just with no published rating to display.
+            rated_players_g = {str(r["player"]) for _, r in g_snap_rows}
+            unrated_merc_players = [
+                p for p in cast_players
+                if (sid, p) in merc_pairs
+                and gmap.get(p) == g
+                and p not in rated_players_g
+            ]
+            unrated_merc_stubs = [{"player": p, "rating": 0.0, "n_events": 0}
+                                  for p in unrated_merc_players]
+            merc_rows = sorted(rated_mercs + unrated_merc_stubs,
+                               key=lambda r: str(r["player"]))
+            non_merc_total = len(non_merc_rows)
             rows = []
-            for i, (_, row) in enumerate(g_snap.iterrows(), 1):
+            for i, row in enumerate(non_merc_rows + merc_rows, 1):
                 p = row["player"]
+                is_merc = (sid, str(p)) in merc_pairs
                 cast_row = cast[cast["player"] == p]
                 finish = cast_row.iloc[0]["finish"] if len(cast_row) else ""
                 finish_str = "" if pd.isna(finish) else str(finish)
@@ -443,10 +481,10 @@ def main():
                 _el = int(elim_losses_per_season.get((sid, p), 0))
                 _survived = _el > 0 and (f_label != "Eliminated" or _el > 1)
                 rows.append({
-                    "rank": i,
-                    "rank_total": len(g_snap),
+                    "rank": None if is_merc else (i if i <= non_merc_total else None),
+                    "rank_total": None if is_merc else non_merc_total,
                     "player": p,
-                    "rating": round(float(row["rating"]), 3),
+                    "rating": None if is_merc else round(float(row["rating"]), 3),
                     "n_events": int(row["n_events"]),
                     "daily_wins":  int(daily_wins_per_season.get((sid, p), 0)),
                     "elim_wins":   _ew,
@@ -747,10 +785,17 @@ def main():
                 continue
             srow = srow.iloc[0]
             sub = ratings[(ratings["season_id"] == sid) & (ratings["player"] == p)]
-            if not len(sub):
+            is_merc_season = (sid, p) in merc_pairs
+            # Mercenary cameos: blank the rating to match standings/PEAK/ERA
+            # treatment, but still surface the season in player history even
+            # if there's no published rating row (mercs with too few events
+            # in the rolling window — e.g. CT in S39 — wouldn't otherwise
+            # show up in their own player profile).
+            if not len(sub) and not is_merc_season:
                 continue
-            sub_sorted = sub.sort_values("ranking_id")
-            rating_end = float(sub_sorted.iloc[-1]["rating"])
+            rating_end = None if (is_merc_season or not len(sub)) else float(
+                sub.sort_values("ranking_id").iloc[-1]["rating"]
+            )
             # Partner: other player sharing this season's pair_id
             partner = ""
             pid_raw = ar.get("pair_id")
@@ -788,7 +833,7 @@ def main():
                 "elim_position": ep[0] if ep else None,
                 "elim_total":    ep[1] if ep else None,
                 "eliminated_by": eliminated_by_map.get((sid, p), []),
-                "rating_at_end": round(rating_end, 3),
+                "rating_at_end": None if rating_end is None else round(rating_end, 3),
                 "rank":       rank_tuple[0] if rank_tuple else None,
                 "rank_total": rank_tuple[1] if rank_tuple else None,
                 "daily_wins":  int(daily_wins_per_season.get((sid, p), 0)),
