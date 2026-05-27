@@ -6,10 +6,10 @@
     "era_rating": 0.0,
     "peak_rating": -0.372,
     "peak_season_id": "s37_spies_lies_allies",
-    "active_rating": -0.372,
-    "active_season_id": "s37_spies_lies_allies",
+    "active_rating": -0.298,
+    "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
-    "n_snapshots": 1,
+    "n_snapshots": 3,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -18,6 +18,32 @@
     "daily_wins": 0
   },
   "seasons": [
+    {
+      "season_id": "s39_battle_for_a_new_champion",
+      "season_num": 39,
+      "season_name": "Battle for a New Champion",
+      "year": 2023,
+      "label": "S39 Battle for a New Champion (2023)",
+      "finish": "Eliminated in I'm Coming Out",
+      "finish_label": "Eliminated",
+      "finish_episode": "I'm Coming Out",
+      "elim_position": 2,
+      "elim_total": 9,
+      "eliminated_by": [
+        "Kyland Young"
+      ],
+      "rating_at_end": -0.717,
+      "rank": 12,
+      "rank_total": 12,
+      "daily_wins": 0,
+      "elim_wins": 0,
+      "elim_losses": 1,
+      "elim_loss_survived": false,
+      "partner": "",
+      "partners_history": [],
+      "team": "",
+      "forced_exit": false
+    },
     {
       "season_id": "s37_spies_lies_allies",
       "season_num": 37,
@@ -56,6 +82,11 @@
       "ranking_id": 892,
       "season_id": "s37_spies_lies_allies",
       "rating": -0.372
+    },
+    {
+      "ranking_id": 957,
+      "season_id": "s39_battle_for_a_new_champion",
+      "rating": -0.717
     }
   ]
 }

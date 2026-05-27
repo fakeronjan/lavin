@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 0.7,
-    "peak_rating": 0.62,
+    "peak_rating": 0.662,
     "peak_season_id": "s40_battle_of_the_eras",
     "active_rating": 0.697,
     "active_season_id": "s41_vets_and_new_threats",
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.62,
+      "rating_at_end": 0.662,
       "rank": 4,
       "rank_total": 20,
       "daily_wins": 3,
@@ -56,11 +56,11 @@
       "eliminated_by": [
         "Berna Canbeldek"
       ],
-      "rating_at_end": -0.434,
+      "rating_at_end": -0.458,
       "rank": 9,
       "rank_total": 12,
       "daily_wins": 0,
-      "elim_wins": 1,
+      "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
       "partner": "",
@@ -141,14 +141,14 @@
       "rating": 0.08
     },
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.434
+      "rating": -0.458
     },
     {
-      "ranking_id": 1006,
+      "ranking_id": 996,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.62
+      "rating": 0.662
     }
   ]
 }

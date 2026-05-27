@@ -3,7 +3,7 @@
   "safe_name": "Devin_Walker",
   "gender": "M",
   "career": {
-    "era_rating": 3.1,
+    "era_rating": 3.5,
     "peak_rating": 1.055,
     "peak_season_id": "s38_ride_or_dies",
     "active_rating": -0.557,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": 0.018,
-      "rank": 8,
+      "rating_at_end": 0.381,
+      "rank": 6,
       "rank_total": 20,
       "daily_wins": 3,
       "elim_wins": 0,
@@ -60,7 +60,7 @@
       "rank": null,
       "rank_total": null,
       "daily_wins": 0,
-      "elim_wins": 1,
+      "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
       "partner": "",
@@ -294,14 +294,14 @@
       "rating": 1.055
     },
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 1.064
+      "rating": 1.098
     },
     {
-      "ranking_id": 1006,
+      "ranking_id": 996,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.018
+      "rating": 0.381
     }
   ]
 }

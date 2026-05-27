@@ -327,6 +327,24 @@ def main():
     eliminations = eliminations[eliminations["snum"] >= MIN_SEASON_NUM].copy()
     dailies = dailies[dailies["snum"] >= MIN_SEASON_NUM].copy()
 
+    # Filter merc-induced elim rows: cameo Arena appearances (Champion
+    # Mercenary tag in appearances.finish) shouldn't generate rating events.
+    # The merc gets a one-shot data point from a season they didn't actually
+    # compete in. compute_active_sets already filters mercs from active
+    # rosters; this filter ensures build_elimination_events doesn't process
+    # the row in the first place.
+    merc_pairs = {(r["season_id"], str(r["player"]).strip())
+                  for _, r in appearances.iterrows()
+                  if is_mercenary(r.get("finish"))}
+    if merc_pairs:
+        n_before = len(eliminations)
+        elim_keys_w = list(zip(eliminations["season_id"], eliminations["winner"].astype(str).str.strip()))
+        elim_keys_l = list(zip(eliminations["season_id"], eliminations["loser"].astype(str).str.strip()))
+        merc_mask = [(kw in merc_pairs) or (kl in merc_pairs)
+                     for kw, kl in zip(elim_keys_w, elim_keys_l)]
+        eliminations = eliminations[~pd.Series(merc_mask, index=eliminations.index)].copy()
+        print(f"  filtered {n_before - len(eliminations)} merc-cameo elim rows")
+
     print(f"  {len(appearances)} appearances, {len(eliminations)} elims, {len(dailies)} dailies (S{MIN_SEASON_NUM}+)")
 
     all_events = []

@@ -3,8 +3,8 @@
   "safe_name": "Kyland_Young",
   "gender": "M",
   "career": {
-    "era_rating": 0.6,
-    "peak_rating": 0.585,
+    "era_rating": 0.7,
+    "peak_rating": 0.671,
     "peak_season_id": "s40_battle_of_the_eras",
     "active_rating": 0.303,
     "active_season_id": "s41_vets_and_new_threats",
@@ -30,7 +30,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.585,
+      "rating_at_end": 0.671,
       "rank": 4,
       "rank_total": 20,
       "daily_wins": 3,
@@ -56,11 +56,11 @@
       "eliminated_by": [
         "Horacio Guti\u00e9rrez Jr."
       ],
-      "rating_at_end": -0.181,
-      "rank": 8,
-      "rank_total": 11,
+      "rating_at_end": -0.256,
+      "rank": 7,
+      "rank_total": 12,
       "daily_wins": 0,
-      "elim_wins": 3,
+      "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
       "partner": "",
@@ -71,14 +71,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": -0.181
+      "rating": -0.256
     },
     {
-      "ranking_id": 1006,
+      "ranking_id": 996,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.585
+      "rating": 0.671
     }
   ]
 }

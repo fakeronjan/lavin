@@ -3,10 +3,10 @@
   "safe_name": "Zara_Zoffany",
   "gender": "F",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.139,
+    "era_rating": 0.0,
+    "peak_rating": 0.014,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": -0.049,
+    "active_rating": -0.064,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 1,
     "n_snapshots": 2,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Kyland Young"
       ],
-      "rating_at_end": 0.139,
+      "rating_at_end": 0.014,
       "rank": 8,
       "rank_total": 12,
       "daily_wins": 2,
@@ -47,9 +47,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.139
+      "rating": 0.014
     }
   ]
 }

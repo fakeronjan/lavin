@@ -302,6 +302,17 @@ def diff_vs_ours(truth):
     players = pd.read_csv(DATA / "players.csv")
     gmap = dict(zip(players["player"], players["gender"]))
 
+    # Mercenary cameos: Fandom records the matchup ONLY on the contestant's
+    # personal page (e.g., Kyland Young's page shows "W vs Brad Fiorenza"
+    # but Brad's page doesn't). Filter the merc-side ordered pair from our
+    # set, but keep the contestant-side so the contestant's record still
+    # matches Fandom truth.
+    appearances = pd.read_csv(DATA / "appearances.csv")
+    merc_pairs = set(zip(
+        appearances.loc[appearances["finish"] == "Champion Mercenary", "season_id"].astype(str),
+        appearances.loc[appearances["finish"] == "Champion Mercenary", "player"].astype(str),
+    ))
+
     ours_set = set()
     for _, r in e.iterrows():
         w, l, sid = r.get("winner"), r.get("loser"), r["season_id"]
@@ -309,8 +320,10 @@ def diff_vs_ours(truth):
             continue
         if gmap.get(w) != gmap.get(l):  # filter mixed-gender cross-product
             continue
-        ours_set.add((sid, w, l, "W"))
-        ours_set.add((sid, l, w, "L"))
+        if (sid, w) not in merc_pairs:
+            ours_set.add((sid, w, l, "W"))
+        if (sid, l) not in merc_pairs:
+            ours_set.add((sid, l, w, "L"))
 
     truth_set = set()
     for _, r in truth.iterrows():

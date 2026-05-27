@@ -3,10 +3,10 @@
   "safe_name": "Melissa_Reeves",
   "gender": "F",
   "career": {
-    "era_rating": 0.7,
+    "era_rating": 0.5,
     "peak_rating": 0.443,
     "peak_season_id": "s35_total_madness",
-    "active_rating": -0.129,
+    "active_rating": -0.033,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 4,
     "n_snapshots": 9,
@@ -32,12 +32,12 @@
       "eliminated_by": [
         "Tori Deal"
       ],
-      "rating_at_end": 0.252,
+      "rating_at_end": 0.052,
       "rank": 6,
       "rank_total": 12,
       "daily_wins": 2,
       "elim_wins": 0,
-      "elim_losses": 1,
+      "elim_losses": 0,
       "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
@@ -81,7 +81,7 @@
       "elim_total": null,
       "eliminated_by": [],
       "rating_at_end": -0.329,
-      "rank": 16,
+      "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -138,9 +138,9 @@
       "rating": 0.443
     },
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.252
+      "rating": 0.052
     }
   ]
 }

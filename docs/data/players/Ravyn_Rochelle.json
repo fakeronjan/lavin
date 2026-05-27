@@ -3,10 +3,10 @@
   "safe_name": "Ravyn_Rochelle",
   "gender": "F",
   "career": {
-    "era_rating": 0.3,
-    "peak_rating": 0.328,
+    "era_rating": 0.1,
+    "peak_rating": 0.104,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.222,
+    "active_rating": 0.062,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 2,
     "n_snapshots": 3,
@@ -32,11 +32,11 @@
       "eliminated_by": [
         "Ed Eason"
       ],
-      "rating_at_end": 0.328,
-      "rank": 4,
+      "rating_at_end": 0.104,
+      "rank": 5,
       "rank_total": 12,
       "daily_wins": 3,
-      "elim_wins": 2,
+      "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
       "partner": "",
@@ -81,9 +81,9 @@
       "rating": -0.146
     },
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.328
+      "rating": 0.104
     }
   ]
 }

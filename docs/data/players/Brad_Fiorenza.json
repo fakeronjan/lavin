@@ -6,7 +6,7 @@
     "era_rating": 3.2,
     "peak_rating": 0.794,
     "peak_season_id": "s17_the_duel_ii",
-    "active_rating": -0.391,
+    "active_rating": -0.329,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
     "n_snapshots": 15,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Cory Wharton"
       ],
-      "rating_at_end": -0.391,
-      "rank": 18,
+      "rating_at_end": -0.329,
+      "rank": 17,
       "rank_total": 20,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -63,8 +63,8 @@
       "rank_total": null,
       "daily_wins": 0,
       "elim_wins": 0,
-      "elim_losses": 1,
-      "elim_loss_survived": true,
+      "elim_losses": 0,
+      "elim_loss_survived": false,
       "partner": "",
       "partners_history": [],
       "team": "",
@@ -376,9 +376,9 @@
       "rating": -0.522
     },
     {
-      "ranking_id": 1006,
+      "ranking_id": 996,
       "season_id": "s40_battle_of_the_eras",
-      "rating": -0.391
+      "rating": -0.329
     }
   ]
 }

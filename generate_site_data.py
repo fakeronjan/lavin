@@ -293,6 +293,19 @@ def main():
     e_w_g = eliminations["winner"].map(gmap)
     e_l_g = eliminations["loser"].map(gmap)
     same_gender_elims = eliminations[(e_w_g.isin(["M","F"])) & (e_w_g == e_l_g)]
+    # Exclude merc-cameo rows from per-season W-L. They didn't compete in
+    # that season — the row exists so compute_eliminated_by can attribute
+    # the contestant's exit, not so the merc's seasonal record inflates.
+    # merc_pairs is built below at line ~314; build a local copy here.
+    _merc_pairs_local = set(zip(
+        appearances.loc[appearances["finish"].isin({"Champion Mercenary"}), "season_id"].astype(str),
+        appearances.loc[appearances["finish"].isin({"Champion Mercenary"}), "player"].astype(str),
+    ))
+    merc_mask = [((sid, str(w)) in _merc_pairs_local) or ((sid, str(l)) in _merc_pairs_local)
+                 for sid, w, l in zip(same_gender_elims["season_id"],
+                                       same_gender_elims["winner"],
+                                       same_gender_elims["loser"])]
+    same_gender_elims = same_gender_elims[~pd.Series(merc_mask, index=same_gender_elims.index)]
     elim_wins_per_season = (
         same_gender_elims.drop_duplicates(subset=["season_id", "episode", "winner"])
         .groupby(["season_id", "winner"]).size().to_dict()
@@ -679,6 +692,8 @@ def main():
         for _, row in end_snap.iterrows():
             p = row["player"]
             if p not in cast_players:
+                continue
+            if (sid, str(p)) in merc_pairs:
                 continue
             g = gmap.get(p, "")
             if g not in ("M", "F"):

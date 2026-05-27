@@ -3,10 +3,10 @@
   "safe_name": "Nurys_Mateo",
   "gender": "F",
   "career": {
-    "era_rating": 1.3,
-    "peak_rating": 0.838,
+    "era_rating": 1.1,
+    "peak_rating": 0.667,
     "peak_season_id": "s39_battle_for_a_new_champion",
-    "active_rating": 0.497,
+    "active_rating": 0.405,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 3,
     "n_snapshots": 3,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Olivia Kaiser"
       ],
-      "rating_at_end": 0.497,
+      "rating_at_end": 0.405,
       "rank": 5,
       "rank_total": 20,
       "daily_wins": 0,
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.838,
+      "rating_at_end": 0.667,
       "rank": 1,
       "rank_total": 12,
       "daily_wins": 2,
@@ -104,14 +104,14 @@
       "rating": 0.013
     },
     {
-      "ranking_id": 967,
+      "ranking_id": 957,
       "season_id": "s39_battle_for_a_new_champion",
-      "rating": 0.838
+      "rating": 0.667
     },
     {
-      "ranking_id": 1006,
+      "ranking_id": 996,
       "season_id": "s40_battle_of_the_eras",
-      "rating": 0.497
+      "rating": 0.405
     }
   ]
 }
