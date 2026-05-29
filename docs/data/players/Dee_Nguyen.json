@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 1.5,
-    "peak_rating": 0.821,
+    "peak_rating": 0.826,
     "peak_season_id": "s34_war_of_the_worlds_2",
     "active_rating": 0.07,
     "active_season_id": "s37_spies_lies_allies",
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.821,
+      "rating_at_end": 0.826,
       "rank": 3,
       "rank_total": 16,
       "daily_wins": 1,
@@ -77,12 +77,12 @@
       "finish": "Eliminated in The Waterboy",
       "finish_label": "Eliminated",
       "finish_episode": "The Waterboy",
-      "elim_position": 11,
-      "elim_total": 11,
+      "elim_position": 12,
+      "elim_total": 12,
       "eliminated_by": [
         "Da'Vonne Rogers"
       ],
-      "rating_at_end": 0.091,
+      "rating_at_end": 0.085,
       "rank": 9,
       "rank_total": 17,
       "daily_wins": 1,
@@ -99,17 +99,17 @@
   ],
   "timeline": [
     {
-      "ranking_id": 701,
+      "ranking_id": 703,
       "season_id": "s33_war_of_the_worlds",
-      "rating": 0.091
+      "rating": 0.085
     },
     {
-      "ranking_id": 717,
+      "ranking_id": 719,
       "season_id": "s34_war_of_the_worlds_2",
-      "rating": 0.821
+      "rating": 0.826
     },
     {
-      "ranking_id": 736,
+      "ranking_id": 738,
       "season_id": "s35_total_madness",
       "rating": 0.619
     }
