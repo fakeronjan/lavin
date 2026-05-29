@@ -347,9 +347,30 @@ def main():
 
     print(f"  {len(appearances)} appearances, {len(eliminations)} elims, {len(dailies)} dailies (S{MIN_SEASON_NUM}+)")
 
+    # Vote-based / face-off seasons have NO 1v1 elimination games — the player
+    # who went home was chosen by vote, not beaten head-to-head. Our scrape
+    # pairs the episode's daily/face-off winner with the eliminated player,
+    # which fabricates H2H matchups that never happened (verified vs Fandom:
+    # e.g. Mark Long shows 11 "elim wins" in S6 but Fandom credits him 2 career
+    # eliminations). Detect these structurally — a season where ZERO elim rows
+    # carry a named game — and skip their rows when generating H2H elim events.
+    # Expected matches: S5, S6, S9 (Inner Circle / Team Leaders vote) and S16
+    # (The Island face-off + vote). The eliminations themselves are kept in the
+    # full df above so active-set/daily computation still knows who left and when.
+    season_has_game = (
+        eliminations.assign(_g=eliminations["game"].notna())
+        .groupby("season_id")["_g"].any()
+    )
+    gameless_seasons = set(season_has_game[~season_has_game].index)
+    elim_for_events = eliminations[~eliminations["season_id"].isin(gameless_seasons)]
+    if gameless_seasons:
+        n_skipped = len(eliminations) - len(elim_for_events)
+        print(f"  skipping H2H elim events for {len(gameless_seasons)} vote/face-off "
+              f"seasons ({n_skipped} rows): {sorted(gameless_seasons)}")
+
     all_events = []
     print("\nBuilding elimination events...")
-    elim_events = build_elimination_events(eliminations)
+    elim_events = build_elimination_events(elim_for_events)
     print(f"  +{len(elim_events)} elim events")
     all_events.extend(elim_events)
 

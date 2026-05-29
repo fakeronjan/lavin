@@ -3,13 +3,13 @@
   "safe_name": "Elka_Walker",
   "gender": "F",
   "career": {
-    "era_rating": 0.9,
-    "peak_rating": 0.846,
+    "era_rating": 1.1,
+    "peak_rating": 0.81,
     "peak_season_id": "s05_battle_of_the_seasons",
-    "active_rating": -0.426,
-    "active_season_id": "s09_battle_of_the_sexes_2",
+    "active_rating": -0.71,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 5,
+    "n_snapshots": 7,
     "championships": 1,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Cara Zavaleta"
       ],
-      "rating_at_end": 0.085,
+      "rating_at_end": 0.301,
       "rank": 7,
       "rank_total": 14,
       "daily_wins": 2,
@@ -56,8 +56,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.846,
-      "rank": 3,
+      "rating_at_end": 0.81,
+      "rank": 1,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 3,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 41,
+      "ranking_id": 1,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.846
+      "rating": 0.81
     },
     {
-      "ranking_id": 86,
+      "ranking_id": 17,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.085
+      "rating": 0.301
     }
   ]
 }

@@ -3,9 +3,9 @@
   "safe_name": "Kimberly_Alexander",
   "gender": "F",
   "career": {
-    "era_rating": 0.2,
-    "peak_rating": 0.085,
-    "peak_season_id": "s17_the_duel_ii",
+    "era_rating": 0.1,
+    "peak_rating": 0.06,
+    "peak_season_id": "s18_the_ruins",
     "active_rating": -0.133,
     "active_season_id": "s20_cutthroat",
     "n_seasons": 2,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Susie Meister"
       ],
-      "rating_at_end": 0.069,
+      "rating_at_end": 0.06,
       "rank": 8,
       "rank_total": 14,
       "daily_wins": 1,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Jenn Grijalva"
       ],
-      "rating_at_end": 0.085,
-      "rank": 6,
+      "rating_at_end": -0.02,
+      "rank": 7,
       "rank_total": 12,
       "daily_wins": 0,
       "elim_wins": 2,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 302,
+      "ranking_id": 198,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.085
+      "rating": -0.02
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 216,
       "season_id": "s18_the_ruins",
-      "rating": 0.069
+      "rating": 0.06
     }
   ]
 }

@@ -3,13 +3,13 @@
   "safe_name": "Adam_Larson",
   "gender": "M",
   "career": {
-    "era_rating": 0.7,
-    "peak_rating": 0.687,
+    "era_rating": 0.5,
+    "peak_rating": 0.504,
     "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.766,
+    "active_rating": -0.235,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 6,
+    "n_snapshots": 7,
     "championships": 1,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.766,
-      "rank": 16,
+      "rating_at_end": -0.235,
+      "rank": 12,
       "rank_total": 16,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -56,7 +56,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.687,
+      "rating_at_end": 0.504,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 8,
@@ -83,8 +83,8 @@
         "Theo von Kurnatowski",
         "Holly Brentson"
       ],
-      "rating_at_end": -0.334,
-      "rank": 10,
+      "rating_at_end": -0.206,
+      "rank": 7,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -100,19 +100,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 41,
+      "ranking_id": 1,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.334
+      "rating": -0.206
     },
     {
-      "ranking_id": 86,
+      "ranking_id": 17,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.687
+      "rating": 0.504
     },
     {
-      "ranking_id": 162,
+      "ranking_id": 66,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.766
+      "rating": -0.235
     }
   ]
 }

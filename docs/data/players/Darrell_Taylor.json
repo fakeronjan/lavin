@@ -4,8 +4,8 @@
   "gender": "M",
   "career": {
     "era_rating": 4.1,
-    "peak_rating": 0.812,
-    "peak_season_id": "s08_the_inferno",
+    "peak_rating": 0.794,
+    "peak_season_id": "s10_the_inferno_ii",
     "active_rating": -0.081,
     "active_season_id": "s40_battle_of_the_eras",
     "n_seasons": 12,
@@ -85,7 +85,7 @@
         "Chauncey Palmer",
         "Amber Borzotra"
       ],
-      "rating_at_end": -0.541,
+      "rating_at_end": -0.546,
       "rank": 17,
       "rank_total": 17,
       "daily_wins": 0,
@@ -220,7 +220,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.474,
+      "rating_at_end": 0.449,
       "rank": 5,
       "rank_total": 14,
       "daily_wins": 7,
@@ -270,7 +270,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.653,
+      "rating_at_end": 0.794,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 8,
@@ -294,7 +294,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.812,
+      "rating_at_end": 0.769,
       "rank": 1,
       "rank_total": 10,
       "daily_wins": 11,
@@ -318,8 +318,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.75,
-      "rank": 2,
+      "rating_at_end": 0.667,
+      "rank": 1,
       "rank_total": 14,
       "daily_wins": 8,
       "elim_wins": 0,
@@ -333,62 +333,62 @@
   ],
   "timeline": [
     {
-      "ranking_id": 86,
+      "ranking_id": 17,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.75
+      "rating": 0.667
     },
     {
-      "ranking_id": 103,
+      "ranking_id": 34,
       "season_id": "s08_the_inferno",
-      "rating": 0.812
+      "rating": 0.769
     },
     {
-      "ranking_id": 148,
+      "ranking_id": 52,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.653
+      "rating": 0.794
     },
     {
-      "ranking_id": 223,
+      "ranking_id": 127,
       "season_id": "s12_fresh_meat",
       "rating": 0.454
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 216,
       "season_id": "s18_the_ruins",
-      "rating": 0.474
+      "rating": 0.449
     },
     {
-      "ranking_id": 353,
+      "ranking_id": 249,
       "season_id": "s19_fresh_meat_ii",
       "rating": 0.128
     },
     {
-      "ranking_id": 657,
+      "ranking_id": 553,
       "season_id": "s29_invasion_of_the_champions",
       "rating": 0.602
     },
     {
-      "ranking_id": 687,
+      "ranking_id": 583,
       "season_id": "s30_xxx_dirty_30",
       "rating": -0.019
     },
     {
-      "ranking_id": 858,
+      "ranking_id": 754,
       "season_id": "s36_double_agents",
       "rating": 0.211
     },
     {
-      "ranking_id": 946,
+      "ranking_id": 842,
       "season_id": "s38_ride_or_dies",
-      "rating": -0.541
+      "rating": -0.546
     },
     {
-      "ranking_id": 957,
+      "ranking_id": 853,
       "season_id": "s39_battle_for_a_new_champion",
       "rating": -0.555
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.081
     }

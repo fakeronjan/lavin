@@ -2,8 +2,10 @@ season_id,player,episode,game,opponent,fandom_result
 s07_the_gauntlet,Abram Boise,12,Knock Your Block Off,Mike Mizanin,L
 s10_the_inferno_ii,Abram Boise,10,Balls In,Brad Fiorenza,W
 s14_the_inferno_3,Abram Boise,10,Smash House,Timmy Beggy,W
-s16_the_island,Abram Boise,1,Leaning Tower,Kenny Santucci,L
+s16_the_island,Abram Boise,1,Leaning Tower,Kenny Santucci,W
+s16_the_island,Abram Boise,1,Leaning Tower,Tonya Cooley,W
 s16_the_island,Abram Boise,2,Ring Wrestle,Derrick Kosinski,L
+s16_the_island,Abram Boise,2,Ring Wrestle,Johnny Bananas,?
 s22_battle_of_the_exes,Abram Boise,5,X Battle,Emily Schromm,L
 s22_battle_of_the_exes,Abram Boise,5,X Battle,Ty Ruff,L
 s08_the_inferno,Ace Amerson,2,Bug Helmet,Jeremy Blossom,L
@@ -46,6 +48,7 @@ s28_rivals_iii,Amanda Garcia,5,Weight for Me,Johnny Reilly,W
 s28_rivals_iii,Amanda Garcia,7,Chill Out,Jamie Banks,L
 s28_rivals_iii,Amanda Garcia,7,Chill Out,KellyAnne Judd,L
 s29_invasion_of_the_champions,Amanda Garcia,11,Inside Out,Ashley Mitchell,L
+s29_invasion_of_the_champions,Amanda Garcia,11,Inside Out,Nicole Zanatta,L
 s32_final_reckoning,Amanda Garcia,13,Shake It Off,Cory Wharton,L
 s32_final_reckoning,Amanda Garcia,13,Shake It Off,Devin Walker,L
 s33_war_of_the_worlds,Amanda Garcia,7,Uphill Battle,Kam Williams,L
@@ -102,8 +105,8 @@ s38_ride_or_dies,Aneesa Ferreira,6,In Your Face,Jakk Maddox,W
 s38_ride_or_dies,Aneesa Ferreira,6,In Your Face,Laurel Stucky,W
 s38_ride_or_dies,Aneesa Ferreira,14/15,Don't Let Me Down,Faysal Shafaat,?
 s38_ride_or_dies,Aneesa Ferreira,14/15,Don't Let Me Down,Moriah Jade,?
-s38_ride_or_dies,Aneesa Ferreira,14/15,Don't Let Me Down,Kaycee Clark,?
-s38_ride_or_dies,Aneesa Ferreira,14/15,Don't Let Me Down,Kenny Clark,?
+s38_ride_or_dies,Aneesa Ferreira,14/15,Don't Let Me Down,Kaycee Clark,W
+s38_ride_or_dies,Aneesa Ferreira,14/15,Don't Let Me Down,Kenny Clark,W
 s38_ride_or_dies,Aneesa Ferreira,14/15,Knot So Fast,Kaycee Clark,W
 s38_ride_or_dies,Aneesa Ferreira,14/15,Knot So Fast,Kenny Clark,W
 s38_ride_or_dies,Aneesa Ferreira,15,Rumble Tumble,Amber Borzotra,W
@@ -128,7 +131,8 @@ s23_battle_of_the_seasons_2012,Ashley Kelsey,11,Knot So Fast,Jonna Mannion,W
 s29_invasion_of_the_champions,Ashley Kelsey,7,Pole Wrestle,Cara Maria Sorbello,L
 s28_rivals_iii,Ashley Mitchell,10/11,Spun Out,Christina LeBlanc,L
 s28_rivals_iii,Ashley Mitchell,10/11,Spun Out,Nate Siebenmark,L
-s29_invasion_of_the_champions,Ashley Mitchell,11,Inside Out,Amanda Garcia,L
+s29_invasion_of_the_champions,Ashley Mitchell,11,Inside Out,Amanda Garcia,W
+s29_invasion_of_the_champions,Ashley Mitchell,11,Inside Out,Nicole Zanatta,W
 s32_final_reckoning,Ashley Mitchell,8,No Slack,Angela Babicz,W
 s32_final_reckoning,Ashley Mitchell,8,No Slack,Faith Stowers,W
 s33_war_of_the_worlds,Ashley Mitchell,2,Drone Ball Drop,Hunter Barfield,L
@@ -163,7 +167,7 @@ s37_spies_lies_allies,Berna Canbeldek,8,Race to Escape,Jeremiah White,L
 s37_spies_lies_allies,Berna Canbeldek,8,Race to Escape,Priscilla Anyabu,L
 s11_the_gauntlet_2,Beth Stolarczyk,7,Reverse Tug-O-War,Ruthie Alcaide,W
 s11_the_gauntlet_2,Beth Stolarczyk,9,Reverse Tug-O-War,Montana McGlynn,W
-s13_the_duel,Beth Stolarczyk,8,Push Me,Svetlana Shusterman,?
+s13_the_duel,Beth Stolarczyk,8,Push Me,Svetlana Shusterman,L
 s15_the_gauntlet_iii,Beth Stolarczyk,5,Ball Brawl,Coral Smith,L
 s37_spies_lies_allies,Bettina Buchanan,9,Hang in the Balance,Amber Borzotra,W
 s37_spies_lies_allies,Bettina Buchanan,9,Hang in the Balance,Jeremiah White,W
@@ -179,8 +183,8 @@ s23_battle_of_the_seasons_2012,Big Easy Banks,1,Hall Brawl,Lacey Buehler,W
 s23_battle_of_the_seasons_2012,Big Easy Banks,1,Hall Brawl,Wes Bergmann,W
 s23_battle_of_the_seasons_2012,Big Easy Banks,2,Balls Out,Danny Jamieson,W
 s23_battle_of_the_seasons_2012,Big Easy Banks,2,Balls Out,Melinda Collins,W
-s23_battle_of_the_seasons_2012,Big Easy Banks,5,Water Torture,Devyn Simone,?
-s23_battle_of_the_seasons_2012,Big Easy Banks,5,Water Torture,JD Ordoñez,?
+s23_battle_of_the_seasons_2012,Big Easy Banks,5,Water Torture,Devyn Simone,L
+s23_battle_of_the_seasons_2012,Big Easy Banks,5,Water Torture,JD Ordoñez,L
 s34_war_of_the_worlds_2,Big T Fazakerley,2,Firestarter,Georgia Harrison,L
 s36_double_agents,Big T Fazakerley,15,Fire Escape,Aneesa Ferreira,W
 s36_double_agents,Big T Fazakerley,16,Hall Brawl,Amber Borzotra,L
@@ -237,7 +241,7 @@ s23_battle_of_the_seasons_2012,CJ Koegel,8,Hall Brawl,Sam McGinn,L
 s23_battle_of_the_seasons_2012,CJ Koegel,8,Hall Brawl,Zach Nichols,L
 s08_the_inferno,CT Tamburello,10,Don't Toss Your Cookies,Shane Landrum,W
 s13_the_duel,CT Tamburello,13,Ascender,Evan Starkman,W
-s13_the_duel,CT Tamburello,15,Push Me,Brad Fiorenza,?
+s13_the_duel,CT Tamburello,15,Push Me,Brad Fiorenza,L
 s21_rivals,CT Tamburello,6,Rail Slide,Evan Starkman,W
 s21_rivals,CT Tamburello,6,Rail Slide,Nehemiah Clark,W
 s21_rivals,CT Tamburello,8/9,T-Bone,Johnny Bananas,L
@@ -246,6 +250,7 @@ s25_free_agents,CT Tamburello,11,Wrecking Wall,Leroy Garrett,W
 s25_free_agents,CT Tamburello,11,Puzzle Pyramid,Johnny Bananas,L
 s29_invasion_of_the_champions,CT Tamburello,12/13,Knot So Fast,Darrell Taylor,W
 s33_war_of_the_worlds,CT Tamburello,4,Ring Tossed,JP Andrade,L
+s33_war_of_the_worlds,CT Tamburello,4,Ring Tossed,Kyle Christie,L
 s35_total_madness,CT Tamburello,3,Take Shelter,Jay Starrett,L
 s36_double_agents,CT Tamburello,12,Dead Ringer,Josh Martinez,W
 s40_battle_of_the_eras,CT Tamburello,5,Getting Hammered,Nehemiah Clark,L
@@ -262,8 +267,8 @@ s22_battle_of_the_exes,Camila Nakagawa,9,X Battle,Mark Long,W
 s22_battle_of_the_exes,Camila Nakagawa,9,X Battle,Robin Hibbard,W
 s23_battle_of_the_seasons_2012,Camila Nakagawa,2,Balls Out,Danny Jamieson,W
 s23_battle_of_the_seasons_2012,Camila Nakagawa,2,Balls Out,Melinda Collins,W
-s23_battle_of_the_seasons_2012,Camila Nakagawa,5,Water Torture,Devyn Simone,?
-s23_battle_of_the_seasons_2012,Camila Nakagawa,5,Water Torture,JD Ordoñez,?
+s23_battle_of_the_seasons_2012,Camila Nakagawa,5,Water Torture,Devyn Simone,L
+s23_battle_of_the_seasons_2012,Camila Nakagawa,5,Water Torture,JD Ordoñez,L
 s24_rivals_ii,Camila Nakagawa,6,Catch-22,Jasmine Reynaud,W
 s24_rivals_ii,Camila Nakagawa,6,Catch-22,Theresa Jones,W
 s24_rivals_ii,Camila Nakagawa,10/11,Hanging by a Thread,Aneesa Ferreira,W
@@ -340,7 +345,7 @@ s23_battle_of_the_seasons_2012,Chet Cannon,3,Knot So Fast,Brandon Nelson,W
 s23_battle_of_the_seasons_2012,Chet Cannon,3,Knot So Fast,Cara Maria Sorbello,W
 s23_battle_of_the_seasons_2012,Chet Cannon,5,Balls Out,McKenzie Coburn,W
 s23_battle_of_the_seasons_2012,Chet Cannon,5,Balls Out,Preston Charles,W
-s25_free_agents,Chet Cannon,1,Balls In,Frank Fox,?
+s25_free_agents,Chet Cannon,1,Balls In,Frank Fox,L
 s28_rivals_iii,Cheyenne Floyd,2,Back It Up,Jessica McCain,L
 s28_rivals_iii,Cheyenne Floyd,2,Back It Up,Johnny Reilly,L
 s08_the_inferno,Christena Pyle,8,Noise Pollution,Mallory Snyder,W
@@ -349,7 +354,8 @@ s28_rivals_iii,Christina LeBlanc,10/11,Spun Out,Ashley Mitchell,W
 s28_rivals_iii,Christina LeBlanc,10/11,Spun Out,Cory Wharton,W
 s28_rivals_iii,Christina LeBlanc,11,Shattered Dreams,Nany González,L
 s28_rivals_iii,Christina LeBlanc,11,Shattered Dreams,Wes Bergmann,L
-s16_the_island,Cohutta Grindstaff,6,Rat in a Cage,Derrick Kosinski,L
+s16_the_island,Cohutta Grindstaff,6,Rat in a Cage,Derrick Kosinski,?
+s16_the_island,Cohutta Grindstaff,6,Rat in a Cage,Johnny Bananas,L
 s18_the_ruins,Cohutta Grindstaff,5,Spool,Wes Bergmann,W
 s18_the_ruins,Cohutta Grindstaff,6,Hog Tie,Syrus Yarbrough,W
 s18_the_ruins,Cohutta Grindstaff,7,Crunch,Darrell Taylor,L
@@ -357,7 +363,8 @@ s25_free_agents,Cohutta Grindstaff,8,Oppenheimer,Preston Roberson-Charles,W
 s25_free_agents,Cohutta Grindstaff,9,Balls In,Leroy Garrett,L
 s27_battle_of_the_bloodlines,Cohutta Grindstaff,2,Squaring Off,Thomas Buell,L
 s14_the_inferno_3,Colie,8,Spokesmodel,Jenn Grijalva,L
-s16_the_island,Colie,7,Timber,Johanna Botta,L
+s16_the_island,Colie,7,Timber,Johanna Botta,?
+s16_the_island,Colie,7,Timber,Ryan Kehoe,L
 s38_ride_or_dies,Colleen Schneider,4,Flipping Wasted,Analyse Talavera,W
 s38_ride_or_dies,Colleen Schneider,4,Flipping Wasted,Tommy Bracco,W
 s38_ride_or_dies,Colleen Schneider,5,Give Me Some Slack,Jakk Maddox,L
@@ -372,7 +379,8 @@ s39_battle_for_a_new_champion,Corey Lay,18,Control Elimination,Jay Starrett,W
 s28_rivals_iii,Cory Wharton,10/11,Spun Out,Christina LeBlanc,L
 s28_rivals_iii,Cory Wharton,10/11,Spun Out,Nate Siebenmark,L
 s29_invasion_of_the_champions,Cory Wharton,3,Who's Got Balls,Theo King-Bradley,W
-s29_invasion_of_the_champions,Cory Wharton,11/12,Inside Out,Nelson Thomas,L
+s29_invasion_of_the_champions,Cory Wharton,11/12,Inside Out,Nelson Thomas,W
+s29_invasion_of_the_champions,Cory Wharton,11/12,Inside Out,Shane Landrum,W
 s30_xxx_dirty_30,Cory Wharton,3,Balls to the Wall,Derrick Henry,W
 s30_xxx_dirty_30,Cory Wharton,7/8,Deadweight,Hunter Barfield,L
 s31_vendettas,Cory Wharton,3,Balls of Fire,Nelson Thomas,L
@@ -401,7 +409,10 @@ s33_war_of_the_worlds,Da'Vonne Rogers,14,Tug O' War,Dee Nguyen,W
 s10_the_inferno_ii,Dan Renzi,2,Hang Tough,Jon Brennan,W
 s10_the_inferno_ii,Dan Renzi,14,Pegged,Landon Lueck,L
 s16_the_island,Dan Walsh,5,Bridge It,Evelyn Smith,L
+s16_the_island,Dan Walsh,5,Bridge It,Tyri Ballard-Brown,?
 s16_the_island,Dan Walsh,8,Water Bound,Evelyn Smith,L
+s16_the_island,Dan Walsh,8,Water Bound,Johanna Botta,L
+s16_the_island,Dan Walsh,8,Water Bound,KellyAnne Judd,L
 s20_cutthroat,Dan Walsh,7,Die Hard,Dunbar Merrill,L
 s11_the_gauntlet_2,Danny Dias,4,Beach Brawl,Alton Williams,L
 s12_fresh_meat,Danny Jamieson,2,Beach Course,Wes Bergmann,L
@@ -475,8 +486,10 @@ s12_fresh_meat,Derrick Kosinski,15,Forest Course,Aviv Melmed,L
 s13_the_duel,Derrick Kosinski,3,Ascender,Tyler Duckworth,W
 s13_the_duel,Derrick Kosinski,9,Pole Wrestle,Wes Bergmann,L
 s14_the_inferno_3,Derrick Kosinski,14,Corner Ball,Davis Mallory,W
-s16_the_island,Derrick Kosinski,2,Ring Wrestle,Abram Boise,L
-s16_the_island,Derrick Kosinski,6,Rat in a Cage,Cohutta Grindstaff,L
+s16_the_island,Derrick Kosinski,2,Ring Wrestle,Abram Boise,W
+s16_the_island,Derrick Kosinski,2,Ring Wrestle,Johnny Bananas,W
+s16_the_island,Derrick Kosinski,6,Rat in a Cage,Cohutta Grindstaff,?
+s16_the_island,Derrick Kosinski,6,Rat in a Cage,Johnny Bananas,L
 s20_cutthroat,Derrick Kosinski,6,Handcuffs,Brandon Nelson,W
 s20_cutthroat,Derrick Kosinski,9/10,Pole Me Over,Tyler Duckworth,L
 s30_xxx_dirty_30,Derrick Kosinski,14,The Reel World,Johnny Bananas,W
@@ -558,8 +571,11 @@ s21_rivals,Evan Starkman,| 6,| Rail Slide,CT Tamburello,L
 s12_fresh_meat,Evelyn Smith,2,Beach Course,Wes Bergmann,L
 s12_fresh_meat,Evelyn Smith,2,Beach Course,Casey Cooper,L
 s15_the_gauntlet_iii,Evelyn Smith,7,Ball Brawl,Casey Cooper,W
-s16_the_island,Evelyn Smith,5,Bridge It,Dan Walsh,L
-s16_the_island,Evelyn Smith,8,Water Bound,Dan Walsh,L
+s16_the_island,Evelyn Smith,5,Bridge It,Dan Walsh,W
+s16_the_island,Evelyn Smith,5,Bridge It,Tyri Ballard-Brown,W
+s16_the_island,Evelyn Smith,8,Water Bound,Dan Walsh,W
+s16_the_island,Evelyn Smith,8,Water Bound,Johanna Botta,W
+s16_the_island,Evelyn Smith,8,Water Bound,KellyAnne Judd,W
 s18_the_ruins,Evelyn Smith,2,Shadowfighter,KellyAnne Judd,L
 s19_fresh_meat_ii,Evelyn Smith,3,Lost and Found,Paula Meronek,W
 s19_fresh_meat_ii,Evelyn Smith,3,Lost and Found,Jeff Barr,W
@@ -575,10 +591,10 @@ s35_total_madness,Faysal Shafaat,8,Pole Wrestle,Jordan Wiseley,W
 s36_double_agents,Faysal Shafaat,4,Hall Brawl,Nelson Thomas,W
 s36_double_agents,Faysal Shafaat,17,Hall Brawl,Kyle Christie,W
 s38_ride_or_dies,Faysal Shafaat,12,Spearheaded,Nelson Thomas,W
-s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Aneesa Ferreira,W
-s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Jordan Wiseley,W
-s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Kaycee Clark,W
-s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Kenny Clark,W
+s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Aneesa Ferreira,?
+s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Jordan Wiseley,?
+s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Kaycee Clark,?
+s38_ride_or_dies,Faysal Shafaat,14,Don't Let Me Down,Kenny Clark,?
 s38_ride_or_dies,Faysal Shafaat,16,Bridge It,Johnny Bananas,L
 s38_ride_or_dies,Faysal Shafaat,16,Bridge It,Nany González,L
 s23_battle_of_the_seasons_2012,Frank Fox,11,Knot So Fast,Derek Chavez,W
@@ -616,8 +632,10 @@ s38_ride_or_dies,Horacio Gutiérrez Jr.,8,Spun Out,Jay Starrett,W
 s38_ride_or_dies,Horacio Gutiérrez Jr.,8,Spun Out,Michele Fitzgerald,W
 s38_ride_or_dies,Horacio Gutiérrez Jr.,10,Breaking Barriers,Kenny Clark,W
 s38_ride_or_dies,Horacio Gutiérrez Jr.,14,Balls In,Jordan Wiseley,W
-s39_battle_for_a_new_champion,Horacio Gutiérrez Jr.,15,Conquest Elimination,Kyland Young,L
+s39_battle_for_a_new_champion,Horacio Gutiérrez Jr.,15,Conquest Elimination,Kyland Young,W
+s39_battle_for_a_new_champion,Horacio Gutiérrez Jr.,15,Conquest Elimination,Zara Zoffany,W
 s39_battle_for_a_new_champion,Horacio Gutiérrez Jr.,16,Conquest Elimination,Kyland Young,L
+s39_battle_for_a_new_champion,Horacio Gutiérrez Jr.,16,Conquest Elimination,Nurys Mateo,L
 s40_battle_of_the_eras,Horacio Gutiérrez Jr.,4,Pick It Up,Derrick Kosinski,L
 s37_spies_lies_allies,Hughie Maughan,4,Down to the Wire,Corey Lay,W
 s37_spies_lies_allies,Hughie Maughan,4,Down to the Wire,Michele Fitzgerald,W
@@ -643,6 +661,7 @@ s20_cutthroat,JD Ordoñez,2,Back Up Off Me,Brandon Nelson,L
 s23_battle_of_the_seasons_2012,JD Ordoñez,| 5,| Water Torture,Camila Nakagawa,W
 s23_battle_of_the_seasons_2012,JD Ordoñez,| 5,| Water Torture,Big Easy Banks,W
 s33_war_of_the_worlds,JP Andrade,4,Ring Tossed,CT Tamburello,L
+s33_war_of_the_worlds,JP Andrade,4,Ring Tossed,Kyle Christie,L
 s41_vets_and_new_threats,Jake Cornish,15,Loose Ends,Theo Campbell,L
 s41_vets_and_new_threats,Jake Cornish,15,Loose Ends,Adrienne Naylor,L
 s38_ride_or_dies,Jakk Maddox,5,Give Me Some Slack,Colleen Schneider,W
@@ -651,6 +670,7 @@ s38_ride_or_dies,Jakk Maddox,6,In Your Face,Aneesa Ferreira,L
 s38_ride_or_dies,Jakk Maddox,6,In Your Face,Jordan Wiseley,L
 s39_battle_for_a_new_champion,James Lock,2,Might Light,Chauncey Palmer,W
 s39_battle_for_a_new_champion,James Lock,17,Conquest Elimination,Nurys Mateo,L
+s39_battle_for_a_new_champion,James Lock,17,Conquest Elimination,Olivia Kaiser,L
 s27_battle_of_the_bloodlines,Jamie Banks,9,Hand It Over,Mike Boise,W
 s27_battle_of_the_bloodlines,Jamie Banks,10,Through Thick and Thin,Johnny Bananas,W
 s27_battle_of_the_bloodlines,Jamie Banks,10,Through Thick and Thin,Vince Gliatta,W
@@ -672,7 +692,7 @@ s24_rivals_ii,Jasmine Reynaud,6,Catch-22,Jemmye Carroll,L
 s25_free_agents,Jasmine Reynaud,5,Balls In,Laurel Stucky,L
 s35_total_madness,Jay Starrett,1,Air Strike,Asaf Goren,W
 s35_total_madness,Jay Starrett,3,Take Shelter,CT Tamburello,W
-s35_total_madness,Jay Starrett,5/6,Fire Ball,Rogan O'Connor,?
+s35_total_madness,Jay Starrett,5/6,Fire Ball,Rogan O'Connor,L
 s36_double_agents,Jay Starrett,7,Fire Escape,Leroy Garrett,L
 s38_ride_or_dies,Jay Starrett,8,Spun Out,Horacio Gutiérrez Jr.,L
 s38_ride_or_dies,Jay Starrett,8,Spun Out,Olivia Kaiser,L
@@ -692,7 +712,8 @@ s30_xxx_dirty_30,Jemmye Carroll,13,Body Check,Camila Nakagawa,L
 s14_the_inferno_3,Jenn Grijalva,4,Ejection,Rachel Moyal,W
 s14_the_inferno_3,Jenn Grijalva,8,Spokesmodel,Colie,W
 s14_the_inferno_3,Jenn Grijalva,12,Zero Gravity,Susie Meister,L
-s16_the_island,Jenn Grijalva,4,Ball Buster,Ashli Robson,L
+s16_the_island,Jenn Grijalva,4,Ball Buster,Ashli Robson,?
+s16_the_island,Jenn Grijalva,4,Ball Buster,Paula Meronek,L
 s17_the_duel_ii,Jenn Grijalva,4,Push Over,Katie Cooley,W
 s17_the_duel_ii,Jenn Grijalva,6,Push Over,Kimberly Alexander,W
 s17_the_duel_ii,Jenn Grijalva,8,Push Over,Diem Brown,L
@@ -747,8 +768,11 @@ s10_the_inferno_ii,Jodi Weatherton,8,That's a Wrap,Veronica Portillo,L
 s40_battle_of_the_eras,Jodi Weatherton,3,One Step at a Time,Averey Tressler,L
 s12_fresh_meat,Johanna Botta,6,Cliffside Course,Wes Bergmann,L
 s12_fresh_meat,Johanna Botta,6,Cliffside Course,Casey Cooper,L
-s16_the_island,Johanna Botta,7,Timber,Colie,L
+s16_the_island,Johanna Botta,7,Timber,Colie,?
+s16_the_island,Johanna Botta,7,Timber,Ryan Kehoe,L
 s16_the_island,Johanna Botta,8,Water Bound,Dan Walsh,L
+s16_the_island,Johanna Botta,8,Water Bound,Evelyn Smith,L
+s16_the_island,Johanna Botta,8,Water Bound,KellyAnne Judd,L
 s18_the_ruins,Johanna Botta,7,Crunch,Sarah Rice,L
 s26_battle_of_the_exes_ii,John Jacobs,3,"He Said, She Said",Adam Kuhn,L
 s26_battle_of_the_exes_ii,John Jacobs,3,"He Said, She Said",Brittany Baldi,L
@@ -756,8 +780,10 @@ s12_fresh_meat,Johnnie McBride,8,Forest Course,Wes Bergmann,L
 s12_fresh_meat,Johnnie McBride,8,Forest Course,Casey Cooper,L
 s13_the_duel,Johnny Bananas,2,I Can,Tyler Duckworth,L
 s15_the_gauntlet_iii,Johnny Bananas,3,Sliders,Evan Starkman,L
-s16_the_island,Johnny Bananas,2,Ring Wrestle,Abram Boise,L
-s16_the_island,Johnny Bananas,6,Rat in a Cage,Cohutta Grindstaff,L
+s16_the_island,Johnny Bananas,2,Ring Wrestle,Abram Boise,?
+s16_the_island,Johnny Bananas,2,Ring Wrestle,Derrick Kosinski,L
+s16_the_island,Johnny Bananas,6,Rat in a Cage,Cohutta Grindstaff,W
+s16_the_island,Johnny Bananas,6,Rat in a Cage,Derrick Kosinski,W
 s18_the_ruins,Johnny Bananas,8/9,Rag Doll,Dunbar Merrill,W
 s20_cutthroat,Johnny Bananas,8/9,Back Up Off Me,Tyler Duckworth,L
 s21_rivals,Johnny Bananas,9,T-Bone,Adam King,W
@@ -839,8 +865,8 @@ s38_ride_or_dies,Jordan Wiseley,6,In Your Face,Laurel Stucky,W
 s38_ride_or_dies,Jordan Wiseley,14,Balls In,Horacio Gutiérrez Jr.,L
 s38_ride_or_dies,Jordan Wiseley,14/15,Don't Let Me Down,Faysal Shafaat,?
 s38_ride_or_dies,Jordan Wiseley,14/15,Don't Let Me Down,Moriah Jade,?
-s38_ride_or_dies,Jordan Wiseley,14/15,Don't Let Me Down,Kaycee Clark,?
-s38_ride_or_dies,Jordan Wiseley,14/15,Don't Let Me Down,Kenny Clark,?
+s38_ride_or_dies,Jordan Wiseley,14/15,Don't Let Me Down,Kaycee Clark,W
+s38_ride_or_dies,Jordan Wiseley,14/15,Don't Let Me Down,Kenny Clark,W
 s38_ride_or_dies,Jordan Wiseley,14/15,Knot So Fast,Kaycee Clark,W
 s38_ride_or_dies,Jordan Wiseley,14/15,Knot So Fast,Kenny Clark,W
 s38_ride_or_dies,Jordan Wiseley,15,Rumble Tumble,Amber Borzotra,W
@@ -868,6 +894,7 @@ s32_final_reckoning,Jozea Flores,13,Shake It Off,Cory Wharton,L
 s32_final_reckoning,Jozea Flores,13,Shake It Off,Devin Walker,L
 s39_battle_for_a_new_champion,Jujuy Jiménez,3,Dirty Deeds,Ravyn Rochelle,L
 s33_war_of_the_worlds,Julia Nolan,4,Ring Tossed,Mattie Lynn Breaux,L
+s33_war_of_the_worlds,Julia Nolan,4,Ring Tossed,Natalie Negrotti,L
 s08_the_inferno,Julie Stoffer,12,Scratchathon,Katie Cooley,L
 s10_the_inferno_ii,Julie Stoffer,12,Patch Work,Tonya Cooley,L
 s41_vets_and_new_threats,Justin Hinsley,1,Inertia,Rogan O'Connor,W
@@ -913,6 +940,8 @@ s36_double_agents,Kaycee Clark,9,Snapping Point,Theresa Jones,W
 s37_spies_lies_allies,Kaycee Clark,19,Back Me Up,Nany González,W
 s38_ride_or_dies,Kaycee Clark,14/15,Don't Let Me Down,Aneesa Ferreira,L
 s38_ride_or_dies,Kaycee Clark,14/15,Don't Let Me Down,Jordan Wiseley,L
+s38_ride_or_dies,Kaycee Clark,14/15,Don't Let Me Down,Faysal Shafaat,?
+s38_ride_or_dies,Kaycee Clark,14/15,Don't Let Me Down,Moriah Jade,?
 s38_ride_or_dies,Kaycee Clark,14/15,Knot So Fast,Aneesa Ferreira,L
 s38_ride_or_dies,Kaycee Clark,14/15,Knot So Fast,Jordan Wiseley,L
 s40_battle_of_the_eras,Kaycee Clark,9,Cable Connection Showdown,Tori Deal,L
@@ -920,8 +949,11 @@ s32_final_reckoning,Kayleigh Morris,3,Think Outside the Box,Natalie Negrotti,W
 s32_final_reckoning,Kayleigh Morris,3,Think Outside the Box,Paulie Calafiore,W
 s32_final_reckoning,Kayleigh Morris,9,Think Tank,Da'Vonne Rogers,W
 s32_final_reckoning,Kayleigh Morris,9,Think Tank,Jozea Flores,W
-s16_the_island,KellyAnne Judd,3,The Rack,Rachel Robinson,L
+s16_the_island,KellyAnne Judd,3,The Rack,Rachel Robinson,W
+s16_the_island,KellyAnne Judd,3,The Rack,Robin Hibbard,W
 s16_the_island,KellyAnne Judd,8,Water Bound,Dan Walsh,L
+s16_the_island,KellyAnne Judd,8,Water Bound,Evelyn Smith,L
+s16_the_island,KellyAnne Judd,8,Water Bound,Johanna Botta,L
 s18_the_ruins,KellyAnne Judd,2,Shadowfighter,Evelyn Smith,W
 s18_the_ruins,KellyAnne Judd,6,Hog Tie,Veronica Portillo,W
 s27_battle_of_the_bloodlines,KellyAnne Judd,6,Ring My Bell,Nany González,W
@@ -937,6 +969,8 @@ s08_the_inferno,Kendal Sheppard,14/15,Brick by Brick,Leah Gillingwater,W
 s38_ride_or_dies,Kenny Clark,10,Breaking Barriers,Horacio Gutiérrez Jr.,L
 s38_ride_or_dies,Kenny Clark,14/15,Don't Let Me Down,Aneesa Ferreira,L
 s38_ride_or_dies,Kenny Clark,14/15,Don't Let Me Down,Jordan Wiseley,L
+s38_ride_or_dies,Kenny Clark,14/15,Don't Let Me Down,Faysal Shafaat,?
+s38_ride_or_dies,Kenny Clark,14/15,Don't Let Me Down,Moriah Jade,?
 s38_ride_or_dies,Kenny Clark,14/15,Knot So Fast,Aneesa Ferreira,L
 s38_ride_or_dies,Kenny Clark,14/15,Knot So Fast,Jordan Wiseley,L
 s12_fresh_meat,Kenny Santucci,10,Beach Course,Katie Cooley,W
@@ -945,6 +979,7 @@ s12_fresh_meat,Kenny Santucci,14,Beach Course,Theo von Kurnatowski,W
 s12_fresh_meat,Kenny Santucci,14,Beach Course,Chanda Sneed,W
 s13_the_duel,Kenny Santucci,5,Ascender,Nehemiah Clark,L
 s16_the_island,Kenny Santucci,1,Leaning Tower,Abram Boise,L
+s16_the_island,Kenny Santucci,1,Leaning Tower,Tonya Cooley,?
 s19_fresh_meat_ii,Kenny Santucci,| 2,| Weight for Me,Sarah Rice,W
 s19_fresh_meat_ii,Kenny Santucci,| 2,| Weight for Me,Vinny Foti,W
 s21_rivals,Kenny Santucci,| 2,| Blast Off,Davis Mallory,W
@@ -966,19 +1001,22 @@ s13_the_duel,Kina Dean,12,Push Me,Svetlana Shusterman,L
 s39_battle_for_a_new_champion,Kyland Young,4,How I Roll,Hughie Maughan,W
 s39_battle_for_a_new_champion,Kyland Young,10,Fire Walker,Darrell Taylor,W
 s39_battle_for_a_new_champion,Kyland Young,13,What's Going Down,Brad Fiorenza,W
-s39_battle_for_a_new_champion,Kyland Young,15,Conquest Elimination,Horacio Gutiérrez Jr.,L
+s39_battle_for_a_new_champion,Kyland Young,15,Conquest Elimination,Horacio Gutiérrez Jr.,W
+s39_battle_for_a_new_champion,Kyland Young,15,Conquest Elimination,Zara Zoffany,W
 s39_battle_for_a_new_champion,Kyland Young,16,Conquest Elimination,Horacio Gutiérrez Jr.,L
+s39_battle_for_a_new_champion,Kyland Young,16,Conquest Elimination,Nurys Mateo,L
 s40_battle_of_the_eras,Kyland Young,7,Boxster-phobia,Darrell Taylor,W
 s40_battle_of_the_eras,Kyland Young,9,Cable Connection Showdown,Devin Walker,W
 s32_final_reckoning,Kyle Christie,12,Tread Lightly,Nelson Thomas,L
 s32_final_reckoning,Kyle Christie,12,Tread Lightly,Shane Landrum,L
-s33_war_of_the_worlds,Kyle Christie,4,Ring Tossed,CT Tamburello,L
+s33_war_of_the_worlds,Kyle Christie,4,Ring Tossed,CT Tamburello,W
+s33_war_of_the_worlds,Kyle Christie,4,Ring Tossed,JP Andrade,W
 s33_war_of_the_worlds,Kyle Christie,10,King of the World,Stephen Bear,W
 s33_war_of_the_worlds,Kyle Christie,13,Hall Brawl,Theo Campbell,L
 s34_war_of_the_worlds_2,Kyle Christie,8,Running Riot,Theo Campbell,L
 s35_total_madness,Kyle Christie,14,Knots of War,Josh Martinez,W
 s36_double_agents,Kyle Christie,2,Ring of Spies,Joseph Allen,W
-s36_double_agents,Kyle Christie,17,Hall Brawl,Faysal Shafaat,?
+s36_double_agents,Kyle Christie,17,Hall Brawl,Faysal Shafaat,L
 s37_spies_lies_allies,Kyle Christie,11,Pole Wrestle,Ed Eason,W
 s37_spies_lies_allies,Kyle Christie,15,Burning Bridges,Josh Martinez,W
 s37_spies_lies_allies,Kyle Christie,19,Back Me Up,Nelson Thomas,W
@@ -1088,7 +1126,8 @@ s24_rivals_ii,Marlon Williams,7,Last Chance,Ty Ruff,W
 s24_rivals_ii,Marlon Williams,9,Breaking on Through,Ryan Knight,W
 s24_rivals_ii,Marlon Williams,9,Breaking on Through,Preston Charles,W
 s07_the_gauntlet,Matt Smith,6,Dead Man's Drop,Sarah Greyson,L
-s33_war_of_the_worlds,Mattie Lynn Breaux,4,Ring Tossed,Julia Nolan,L
+s33_war_of_the_worlds,Mattie Lynn Breaux,4,Ring Tossed,Julia Nolan,W
+s33_war_of_the_worlds,Mattie Lynn Breaux,4,Ring Tossed,Natalie Negrotti,W
 s35_total_madness,Mattie Lynn Breaux,11,Tunnel Vision,Dee Nguyen,L
 s23_battle_of_the_seasons_2012,McKenzie Coburn,5,Balls Out,Chet Cannon,L
 s23_battle_of_the_seasons_2012,McKenzie Coburn,5,Balls Out,Sarah Rice,L
@@ -1129,10 +1168,10 @@ s11_the_gauntlet_2,Montana McGlynn,9,Reverse Tug-O-War,Beth Stolarczyk,L
 s33_war_of_the_worlds,Morgan Willett,3,Map It Out,Zach Nichols,L
 s33_war_of_the_worlds,Morgan Willett,3,Map It Out,Zahida Allen,L
 s38_ride_or_dies,Moriah Jade,13,I Can See,Nany González,L
-s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Aneesa Ferreira,W
-s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Jordan Wiseley,W
-s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Kaycee Clark,W
-s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Kenny Clark,W
+s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Aneesa Ferreira,?
+s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Jordan Wiseley,?
+s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Kaycee Clark,?
+s38_ride_or_dies,Moriah Jade,14,Don't Let Me Down,Kenny Clark,?
 s38_ride_or_dies,Moriah Jade,16,Bridge It,Johnny Bananas,L
 s38_ride_or_dies,Moriah Jade,16,Bridge It,Nany González,L
 s39_battle_for_a_new_champion,Moriah Jade,19,Chaos Elimination,Nurys Mateo,L
@@ -1180,6 +1219,7 @@ s32_final_reckoning,Natalie Negrotti,3,Think Outside the Box,Kayleigh Morris,L
 s32_final_reckoning,Natalie Negrotti,19,Milk and Cookies,Johnny Bananas,W
 s32_final_reckoning,Natalie Negrotti,19,Milk and Cookies,Tony Raines,W
 s33_war_of_the_worlds,Natalie Negrotti,4,Ring Tossed,Julia Nolan,L
+s33_war_of_the_worlds,Natalie Negrotti,4,Ring Tossed,Mattie Lynn Breaux,L
 s28_rivals_iii,Nate Siebenmark,10/11,Spun Out,Ashley Mitchell,W
 s28_rivals_iii,Nate Siebenmark,10/11,Spun Out,Cory Wharton,W
 s28_rivals_iii,Nate Siebenmark,11,Shattered Dreams,Nany González,L
@@ -1200,7 +1240,8 @@ s28_rivals_iii,Nelson Thomas,7,Chill Out,Jamie Banks,L
 s28_rivals_iii,Nelson Thomas,7,Chill Out,KellyAnne Judd,L
 s29_invasion_of_the_champions,Nelson Thomas,4,Thai Rise,Anthony Bartolotte,W
 s29_invasion_of_the_champions,Nelson Thomas,8,Bell Ringer,Dario Medrano,W
-s29_invasion_of_the_champions,Nelson Thomas,11/12,Inside Out,Cory Wharton,L
+s29_invasion_of_the_champions,Nelson Thomas,11/12,Inside Out,Cory Wharton,W
+s29_invasion_of_the_champions,Nelson Thomas,11/12,Inside Out,Shane Landrum,W
 s30_xxx_dirty_30,Nelson Thomas,9,Rampage,Hunter Barfield,W
 s31_vendettas,Nelson Thomas,3,Balls of Fire,Cory Wharton,W
 s31_vendettas,Nelson Thomas,11,Yankin' My Chain,Darrell Taylor,?
@@ -1230,12 +1271,15 @@ s28_rivals_iii,Nicole Ramos,12,Tunnel Vision,Wes Bergmann,W
 s28_rivals_iii,Nicole Ramos,13,Don't Wine for Me Argentina,Johnny Bananas,L
 s28_rivals_iii,Nicole Ramos,13,Don't Wine for Me Argentina,Sarah Rice,L
 s30_xxx_dirty_30,Nicole Ramos,9,Rampage,Britni Thornton,L
-s29_invasion_of_the_champions,Nicole Zanatta,11,Inside Out,Amanda Garcia,L
+s29_invasion_of_the_champions,Nicole Zanatta,11,Inside Out,Amanda Garcia,W
+s29_invasion_of_the_champions,Nicole Zanatta,11,Inside Out,Ashley Mitchell,W
 s19_fresh_meat_ii,Noor Jehangir,9/10,Weight for Me: Black Out,Ryan Kehoe,W
 s19_fresh_meat_ii,Noor Jehangir,9/10,Weight for Me: Black Out,Theresa Jones,W
 s38_ride_or_dies,Nurys Mateo,11,Pato Brawl,Amber Borzotra,L
-s39_battle_for_a_new_champion,Nurys Mateo,16,Conquest Elimination,Horacio Gutiérrez Jr.,L
-s39_battle_for_a_new_champion,Nurys Mateo,17,Conquest Elimination,James Lock,L
+s39_battle_for_a_new_champion,Nurys Mateo,16,Conquest Elimination,Horacio Gutiérrez Jr.,W
+s39_battle_for_a_new_champion,Nurys Mateo,16,Conquest Elimination,Kyland Young,W
+s39_battle_for_a_new_champion,Nurys Mateo,17,Conquest Elimination,James Lock,W
+s39_battle_for_a_new_champion,Nurys Mateo,17,Conquest Elimination,Olivia Kaiser,W
 s39_battle_for_a_new_champion,Nurys Mateo,19,Chaos Elimination,Moriah Jade,W
 s40_battle_of_the_eras,Nurys Mateo,2,Hall Brawl,Olivia Kaiser,L
 s38_ride_or_dies,Olivia Kaiser,2,Memory Lane,Tamara Alfaro,W
@@ -1245,17 +1289,19 @@ s38_ride_or_dies,Olivia Kaiser,3,Double Decker,Ravyn Rochelle,W
 s38_ride_or_dies,Olivia Kaiser,8,Spun Out,Jay Starrett,W
 s38_ride_or_dies,Olivia Kaiser,8,Spun Out,Michele Fitzgerald,W
 s39_battle_for_a_new_champion,Olivia Kaiser,17,Conquest Elimination,James Lock,L
+s39_battle_for_a_new_champion,Olivia Kaiser,17,Conquest Elimination,Nurys Mateo,L
 s40_battle_of_the_eras,Olivia Kaiser,2,Hall Brawl,Nurys Mateo,W
 s40_battle_of_the_eras,Olivia Kaiser,13,Stranded,Michele Fitzgerald,L
 s41_vets_and_new_threats,Olivia Kaiser,6,Out of Time,Leka Sodade,W
 s13_the_duel,Paula Meronek,4,Pole Wrestle,Aneesa Ferreira,L
 s14_the_inferno_3,Paula Meronek,15,Shimmy,Aneesa Ferreira,W
 s15_the_gauntlet_iii,Paula Meronek,8,Sliders,Katie Cooley,W
-s16_the_island,Paula Meronek,4,Ball Buster,Ashli Robson,L
+s16_the_island,Paula Meronek,4,Ball Buster,Ashli Robson,W
+s16_the_island,Paula Meronek,4,Ball Buster,Jenn Grijalva,W
 s17_the_duel_ii,Paula Meronek,7,Back Off,Aneesa Ferreira,L
 s19_fresh_meat_ii,Paula Meronek,3,Lost and Found,Evelyn Smith,L
 s19_fresh_meat_ii,Paula Meronek,3,Lost and Found,Luke Wolfe,L
-s20_cutthroat,Paula Meronek,9/10,Pole Me Over,Emily Schromm,?
+s20_cutthroat,Paula Meronek,9/10,Pole Me Over,Emily Schromm,L
 s21_rivals,Paula Meronek,1,Hands On,Aneesa Ferreira,W
 s21_rivals,Paula Meronek,1,Hands On,Robin Hibbard,W
 s22_battle_of_the_exes,Paula Meronek,6,Banded Together,Aneesa Ferreira,W
@@ -1289,6 +1335,7 @@ s07_the_gauntlet,Rachel Braband,4,Hangman,Katie Cooley,W
 s07_the_gauntlet,Rachel Braband,10,Ride 'Em Cowboy,Sarah Greyson,L
 s14_the_inferno_3,Rachel Moyal,4,Ejection,Jenn Grijalva,L
 s16_the_island,Rachel Robinson,3,The Rack,KellyAnne Judd,L
+s16_the_island,Rachel Robinson,3,The Rack,Robin Hibbard,?
 s22_battle_of_the_exes,Rachel Robinson,4,X Knocks the Spot,Jasmine Reynaud,W
 s22_battle_of_the_exes,Rachel Robinson,4,X Knocks the Spot,Tyri Ballard-Brown,W
 s22_battle_of_the_exes,Rachel Robinson,6,Banded Together,Dunbar Merrill,L
@@ -1310,6 +1357,7 @@ s10_the_inferno_ii,Robin Hibbard,4,Shack Attack,Tina Barta,L
 s13_the_duel,Robin Hibbard,6,Pole Wrestle,Casey Cooper,W
 s13_the_duel,Robin Hibbard,10,Ascender,Aneesa Ferreira,L
 s16_the_island,Robin Hibbard,3,The Rack,KellyAnne Judd,L
+s16_the_island,Robin Hibbard,3,The Rack,Rachel Robinson,?
 s17_the_duel_ii,Robin Hibbard,2,Duel Pole Dancing,Kimberly Alexander,L
 s21_rivals,Robin Hibbard,| 1,| Hands On,Evelyn Smith,L
 s21_rivals,Robin Hibbard,| 1,| Hands On,Paula Meronek,L
@@ -1326,7 +1374,8 @@ s12_fresh_meat,Ryan Kehoe,4,Forest Course,Wes Bergmann,L
 s12_fresh_meat,Ryan Kehoe,4,Forest Course,Casey Cooper,L
 s15_the_gauntlet_iii,Ryan Kehoe,5,Sliders,Derek McCray,W
 s15_the_gauntlet_iii,Ryan Kehoe,7,Ram It Home,Nehemiah Clark,L
-s16_the_island,Ryan Kehoe,7,Timber,Colie,L
+s16_the_island,Ryan Kehoe,7,Timber,Colie,W
+s16_the_island,Ryan Kehoe,7,Timber,Johanna Botta,W
 s17_the_duel_ii,Ryan Kehoe,1,The Elevator,Nick Brown,W
 s17_the_duel_ii,Ryan Kehoe,2,Push Over,MJ Garrett,L
 s19_fresh_meat_ii,Ryan Kehoe,9/10,Weight for Me: Black Out,Jenn Grijalva,L
@@ -1376,6 +1425,7 @@ s12_fresh_meat,Shane Landrum,12,Cliffside Course,Wes Bergmann,L
 s12_fresh_meat,Shane Landrum,12,Cliffside Course,Casey Cooper,L
 s29_invasion_of_the_champions,Shane Landrum,6,Tuk Tuk Bang Bang,Tony Raines,W
 s29_invasion_of_the_champions,Shane Landrum,11/12,Inside Out,Cory Wharton,L
+s29_invasion_of_the_champions,Shane Landrum,11/12,Inside Out,Nelson Thomas,L
 s31_vendettas,Shane Landrum,7,Crazy 8,Jordan Wiseley,L
 s32_final_reckoning,Shane Landrum,12,Tread Lightly,Brad Fiorenza,W
 s32_final_reckoning,Shane Landrum,12,Tread Lightly,Kyle Christie,W
@@ -1442,7 +1492,7 @@ s41_vets_and_new_threats,Theo Campbell,13,Think Alike,America Lopez,W
 s41_vets_and_new_threats,Theo Campbell,15,Loose Ends,Aneesa Ferreira,W
 s41_vets_and_new_threats,Theo Campbell,15,Loose Ends,Jake Cornish,W
 s07_the_gauntlet,Theo Gantt,15,Ride 'Em Cowboy,Cara Zavaleta,L
-s29_invasion_of_the_champions,Theo King-Bradley,3,Who's Got Balls,Cory Wharton,?
+s29_invasion_of_the_champions,Theo King-Bradley,3,Who's Got Balls,Cory Wharton,L
 s12_fresh_meat,Theo von Kurnatowski,14,Beach Course,Tina Barta,L
 s19_fresh_meat_ii,Theresa Jones,9/10,Weight for Me: Black Out,Jenn Grijalva,L
 s19_fresh_meat_ii,Theresa Jones,9/10,Weight for Me: Black Out,Noor Jehangir,L
@@ -1462,7 +1512,7 @@ s26_battle_of_the_exes_ii,Thomas Buell,2,Banded Together,Averey Tressler,L
 s26_battle_of_the_exes_ii,Thomas Buell,2,Banded Together,Johnny Reilly,L
 s27_battle_of_the_bloodlines,Thomas Buell,2,Squaring Off,Cohutta Grindstaff,W
 s11_the_gauntlet_2,Timmy Beggy,16/17,Reverse Tug-O-War,Derrick Kosinski,W
-s14_the_inferno_3,Timmy Beggy,10,Smash House,Abram Boise,?
+s14_the_inferno_3,Timmy Beggy,10,Smash House,Abram Boise,L
 s07_the_gauntlet,Tina Barta,5,Dead Man's Drop,Coral Smith,L
 s10_the_inferno_ii,Tina Barta,4,Shack Attack,Robin Hibbard,W
 s12_fresh_meat,Tina Barta,10,Beach Course,Katie Cooley,W
@@ -1489,6 +1539,7 @@ s10_the_inferno_ii,Tonya Cooley,15,Spinner,Shavonda Billingslea,W
 s12_fresh_meat,Tonya Cooley,8,Forest Course,Wes Bergmann,L
 s12_fresh_meat,Tonya Cooley,8,Forest Course,Casey Cooper,L
 s16_the_island,Tonya Cooley,1,Leaning Tower,Abram Boise,L
+s16_the_island,Tonya Cooley,1,Leaning Tower,Kenny Santucci,?
 s18_the_ruins,Tonya Cooley,1,Shoots and Ladders,Diem Brown,W
 s30_xxx_dirty_30,Tori Deal,7,Striptease,Marie Roda,W
 s32_final_reckoning,Tori Deal,7,Ramp It Up,Joss Mooney,L
@@ -1509,8 +1560,8 @@ s37_spies_lies_allies,Tracy Candela,2,Flipping Agents,Ed Eason,L
 s37_spies_lies_allies,Tracy Candela,2,Flipping Agents,Emy Alupei,L
 s23_battle_of_the_seasons_2012,Trey Weatherholtz,6,Knot So Fast,Dustin Zito,L
 s23_battle_of_the_seasons_2012,Trey Weatherholtz,6,Knot So Fast,Nany González,L
-s24_rivals_ii,Trey Weatherholtz,5,Breaking on Through,Leroy Garrett,?
-s24_rivals_ii,Trey Weatherholtz,5,Breaking on Through,Ty Ruff,?
+s24_rivals_ii,Trey Weatherholtz,5,Breaking on Through,Leroy Garrett,L
+s24_rivals_ii,Trey Weatherholtz,5,Breaking on Through,Ty Ruff,L
 s07_the_gauntlet,Trishelle Cannatella,8,Perfect Fit,Steve Meinke,W
 s07_the_gauntlet,Trishelle Cannatella,9,Perfect Fit,Sarah Greyson,L
 s08_the_inferno,Trishelle Cannatella,4,Chili Counter,Holly Shand,L
@@ -1520,7 +1571,7 @@ s38_ride_or_dies,Turbo Çamkıran,2,Memory Lane,Horacio Gutiérrez Jr.,L
 s38_ride_or_dies,Turbo Çamkıran,2,Memory Lane,Olivia Kaiser,L
 s41_vets_and_new_threats,Turbo Çamkıran,14,Weight Me Up,Ashley Mitchell,W
 s41_vets_and_new_threats,Turbo Çamkıran,14,Weight Me Up,Leonardo Dionicio,W
-s20_cutthroat,Ty Ruff,5,Pole Me Over,Brandon Nelson,?
+s20_cutthroat,Ty Ruff,5,Pole Me Over,Brandon Nelson,L
 s21_rivals,Ty Ruff,4,Going Up,Kenny Santucci,L
 s21_rivals,Ty Ruff,4,Going Up,Wes Bergmann,L
 s22_battle_of_the_exes,Ty Ruff,3,Banded Together,Leroy Garrett,W
@@ -1541,7 +1592,8 @@ s20_cutthroat,Tyler Duckworth,9/10,Pole Me Over,Derrick Kosinski,W
 s21_rivals,Tyler Duckworth,8/9,T-Bone,Adam King,W
 s21_rivals,Tyler Duckworth,8/9,T-Bone,CT Tamburello,W
 s14_the_inferno_3,Tyri Ballard-Brown,2/3,Head Rush,Alton Williams,L
-s16_the_island,Tyri Ballard-Brown,5,Bridge It,Dan Walsh,L
+s16_the_island,Tyri Ballard-Brown,5,Bridge It,Dan Walsh,?
+s16_the_island,Tyri Ballard-Brown,5,Bridge It,Evelyn Smith,L
 s21_rivals,Tyri Ballard-Brown,2,Blast Off,Kenny Santucci,L
 s21_rivals,Tyri Ballard-Brown,2,Blast Off,Wes Bergmann,L
 s22_battle_of_the_exes,Tyri Ballard-Brown,4,X Knocks the Spot,Aneesa Ferreira,L
@@ -1606,8 +1658,8 @@ s23_battle_of_the_seasons_2012,Zach Nichols,7,Water Torture,Jemmye Carroll,W
 s23_battle_of_the_seasons_2012,Zach Nichols,7,Water Torture,Ryan Knight,W
 s23_battle_of_the_seasons_2012,Zach Nichols,8,Hall Brawl,CJ Koegel,W
 s23_battle_of_the_seasons_2012,Zach Nichols,8,Hall Brawl,Jasmine Reynaud,W
-s24_rivals_ii,Zach Nichols,5,Breaking on Through,Leroy Garrett,?
-s24_rivals_ii,Zach Nichols,5,Breaking on Through,Ty Ruff,?
+s24_rivals_ii,Zach Nichols,5,Breaking on Through,Leroy Garrett,L
+s24_rivals_ii,Zach Nichols,5,Breaking on Through,Ty Ruff,L
 s25_free_agents,Zach Nichols,4,Oppenheimer,Brandon Nelson,W
 s26_battle_of_the_exes_ii,Zach Nichols,8,Hammer It Home,Jordan Wiseley,L
 s26_battle_of_the_exes_ii,Zach Nichols,8,Hammer It Home,Sarah Rice,L
@@ -1623,3 +1675,4 @@ s33_war_of_the_worlds,Zahida Allen,3,Map It Out,Morgan Willett,W
 s33_war_of_the_worlds,Zahida Allen,5,Lights Out,Wes Bergmann,L
 s33_war_of_the_worlds,Zahida Allen,5,Lights Out,Dee Nguyen,L
 s39_battle_for_a_new_champion,Zara Zoffany,15,Conquest Elimination,Horacio Gutiérrez Jr.,L
+s39_battle_for_a_new_champion,Zara Zoffany,15,Conquest Elimination,Kyland Young,L

@@ -4,12 +4,12 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.334,
+    "peak_rating": -0.206,
     "peak_season_id": "s05_battle_of_the_seasons",
-    "active_rating": -0.942,
+    "active_rating": -0.788,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 5,
+    "n_snapshots": 7,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.942,
-      "rank": 15,
+      "rating_at_end": -0.788,
+      "rank": 14,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Veronica Portillo"
       ],
-      "rating_at_end": -0.506,
-      "rank": 17,
+      "rating_at_end": -0.285,
+      "rank": 12,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -85,8 +85,8 @@
         "Holly Brentson",
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": -0.334,
-      "rank": 10,
+      "rating_at_end": -0.206,
+      "rank": 7,
       "rank_total": 16,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -102,19 +102,19 @@
   ],
   "timeline": [
     {
-      "ranking_id": 41,
+      "ranking_id": 1,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": -0.334
+      "rating": -0.206
     },
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.506
+      "rating": -0.285
     },
     {
-      "ranking_id": 162,
+      "ranking_id": 66,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.942
+      "rating": -0.788
     }
   ]
 }

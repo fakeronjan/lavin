@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 3.5,
-    "peak_rating": 1.055,
+    "peak_rating": 1.05,
     "peak_season_id": "s38_ride_or_dies",
     "active_rating": -0.557,
     "active_season_id": "s41_vets_and_new_threats",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 4,
-    "daily_wins": 10
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.055,
+      "rating_at_end": 1.05,
       "rank": 1,
       "rank_total": 17,
       "daily_wins": 3,
@@ -106,10 +106,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.571,
+      "rating_at_end": 0.648,
       "rank": 3,
       "rank_total": 18,
-      "daily_wins": 0,
+      "daily_wins": 4,
       "elim_wins": 1,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -259,47 +259,47 @@
   ],
   "timeline": [
     {
-      "ranking_id": 638,
+      "ranking_id": 534,
       "season_id": "s28_rivals_iii",
       "rating": 0.563
     },
     {
-      "ranking_id": 687,
+      "ranking_id": 583,
       "season_id": "s30_xxx_dirty_30",
       "rating": 0.281
     },
     {
-      "ranking_id": 707,
+      "ranking_id": 603,
       "season_id": "s31_vendettas",
       "rating": 0.302
     },
     {
-      "ranking_id": 768,
+      "ranking_id": 664,
       "season_id": "s32_final_reckoning",
       "rating": 0.124
     },
     {
-      "ranking_id": 858,
+      "ranking_id": 754,
       "season_id": "s36_double_agents",
       "rating": 0.195
     },
     {
-      "ranking_id": 892,
+      "ranking_id": 788,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.571
+      "rating": 0.648
     },
     {
-      "ranking_id": 946,
+      "ranking_id": 842,
       "season_id": "s38_ride_or_dies",
-      "rating": 1.055
+      "rating": 1.05
     },
     {
-      "ranking_id": 957,
+      "ranking_id": 853,
       "season_id": "s39_battle_for_a_new_champion",
       "rating": 1.098
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": 0.381
     }

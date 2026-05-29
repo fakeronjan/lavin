@@ -4,9 +4,9 @@
   "gender": "F",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.26,
+    "peak_rating": -0.223,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.234,
+    "active_rating": -0.462,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
     "n_snapshots": 6,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Sophia Pasquis"
       ],
-      "rating_at_end": -0.417,
-      "rank": 12,
+      "rating_at_end": -0.38,
+      "rank": 15,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.26,
-      "rank": 12,
+      "rating_at_end": -0.223,
+      "rank": 11,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.26
+      "rating": -0.223
     },
     {
-      "ranking_id": 131,
+      "ranking_id": 35,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.417
+      "rating": -0.38
     }
   ]
 }

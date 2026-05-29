@@ -148,19 +148,10 @@
       "player": "Devin Walker",
       "season_id": "s38_ride_or_dies",
       "season_label": "S38 Ride or Dies (2022)",
-      "rating_at_end": 1.055,
+      "rating_at_end": 1.05,
       "finish": "Winners in The End of the Ride",
-      "n_events": 63,
+      "n_events": 67,
       "rank": 17
-    },
-    {
-      "player": "CT Tamburello",
-      "season_id": "s37_spies_lies_allies",
-      "season_label": "S37 Spies Lies and Allies (2021)",
-      "rating_at_end": 1.049,
-      "finish": "Winner in The Decision",
-      "n_events": 129,
-      "rank": 18
     },
     {
       "player": "Hunter Barfield",
@@ -169,6 +160,15 @@
       "rating_at_end": 1.034,
       "finish": "Winners in Who Wants to Be a Millionaire?",
       "n_events": 25,
+      "rank": 18
+    },
+    {
+      "player": "CT Tamburello",
+      "season_id": "s37_spies_lies_allies",
+      "season_label": "S37 Spies Lies and Allies (2021)",
+      "rating_at_end": 1.024,
+      "finish": "Winner in The Decision",
+      "n_events": 164,
       "rank": 19
     },
     {
@@ -208,22 +208,13 @@
       "rank": 23
     },
     {
-      "player": "Evan Starkman",
-      "season_id": "s17_the_duel_ii",
-      "season_label": "S17 The Duel II (2009)",
-      "rating_at_end": 1.008,
-      "finish": "Winner in Duel or Die",
-      "n_events": 85,
-      "rank": 24
-    },
-    {
       "player": "Emanuel Neagu",
       "season_id": "s39_battle_for_a_new_champion",
       "season_label": "S39 Battle for a New Champion (2023)",
       "rating_at_end": 0.975,
       "finish": "Winner in Only One Gets the Crown",
       "n_events": 29,
-      "rank": 25
+      "rank": 24
     },
     {
       "player": "Kenny Santucci",
@@ -232,7 +223,7 @@
       "rating_at_end": 0.971,
       "finish": "Runners-Up in Well Done, Meat",
       "n_events": 112,
-      "rank": 26
+      "rank": 25
     },
     {
       "player": "Johnny Reilly",
@@ -241,7 +232,7 @@
       "rating_at_end": 0.962,
       "finish": "Runner-Up in A Walk in the Clouds",
       "n_events": 35,
-      "rank": 27
+      "rank": 26
     },
     {
       "player": "Tyler Duckworth",
@@ -250,6 +241,15 @@
       "rating_at_end": 0.942,
       "finish": "Winners in At the End of the World",
       "n_events": 102,
+      "rank": 27
+    },
+    {
+      "player": "Jamie Murray",
+      "season_id": "s06_battle_of_the_sexes",
+      "season_label": "S6 Battle of the Sexes (2003)",
+      "rating_at_end": 0.938,
+      "finish": "Winners in Handsome Reward",
+      "n_events": 124,
       "rank": 28
     },
     {
@@ -280,40 +280,22 @@
       "rank": 31
     },
     {
+      "player": "Evan Starkman",
+      "season_id": "s17_the_duel_ii",
+      "season_label": "S17 The Duel II (2009)",
+      "rating_at_end": 0.911,
+      "finish": "Winner in Duel or Die",
+      "n_events": 89,
+      "rank": 32
+    },
+    {
       "player": "CT Tamburello",
       "season_id": "s30_xxx_dirty_30",
       "season_label": "S30 XXX: Dirty 30 (2017)",
       "rating_at_end": 0.884,
       "finish": "Third Place in One in a Million",
       "n_events": 50,
-      "rank": 32
-    },
-    {
-      "player": "Evan Starkman",
-      "season_id": "s18_the_ruins",
-      "season_label": "S18 The Ruins (2009)",
-      "rating_at_end": 0.883,
-      "finish": "Winners in Good Thai and Good Luck",
-      "n_events": 115,
       "rank": 33
-    },
-    {
-      "player": "Mike Mizanin",
-      "season_id": "s05_battle_of_the_seasons",
-      "season_label": "S5 Battle of the Seasons (2002)",
-      "rating_at_end": 0.878,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 43,
-      "rank": 34
-    },
-    {
-      "player": "Johnny Bananas",
-      "season_id": "s38_ride_or_dies",
-      "season_label": "S38 Ride or Dies (2022)",
-      "rating_at_end": 0.874,
-      "finish": "Runners-Up in The End of the Ride",
-      "n_events": 48,
-      "rank": 35
     },
     {
       "player": "CT Tamburello",
@@ -322,16 +304,25 @@
       "rating_at_end": 0.873,
       "finish": "Winner in The World Is Not Enough",
       "n_events": 123,
-      "rank": 36
+      "rank": 34
     },
     {
-      "player": "Danny Roberts",
-      "season_id": "s05_battle_of_the_seasons",
-      "season_label": "S5 Battle of the Seasons (2002)",
-      "rating_at_end": 0.866,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 44,
-      "rank": 37
+      "player": "Evan Starkman",
+      "season_id": "s18_the_ruins",
+      "season_label": "S18 The Ruins (2009)",
+      "rating_at_end": 0.87,
+      "finish": "Winners in Good Thai and Good Luck",
+      "n_events": 132,
+      "rank": 35
+    },
+    {
+      "player": "Johnny Bananas",
+      "season_id": "s38_ride_or_dies",
+      "season_label": "S38 Ride or Dies (2022)",
+      "rating_at_end": 0.869,
+      "finish": "Runners-Up in The End of the Ride",
+      "n_events": 48,
+      "rank": 36
     },
     {
       "player": "Kyle Christie",
@@ -340,7 +331,7 @@
       "rating_at_end": 0.864,
       "finish": "Third Place in Vendettas Never Die",
       "n_events": 60,
-      "rank": 38
+      "rank": 37
     },
     {
       "player": "Johnny Bananas",
@@ -349,25 +340,7 @@
       "rating_at_end": 0.857,
       "finish": "Winner in It's the End of the World As We Know It",
       "n_events": 71,
-      "rank": 39
-    },
-    {
-      "player": "Derrick Kosinski",
-      "season_id": "s18_the_ruins",
-      "season_label": "S18 The Ruins (2009)",
-      "rating_at_end": 0.849,
-      "finish": "Winners in Good Thai and Good Luck",
-      "n_events": 57,
-      "rank": 40
-    },
-    {
-      "player": "Sean Duffy",
-      "season_id": "s05_battle_of_the_seasons",
-      "season_label": "S5 Battle of the Seasons (2002)",
-      "rating_at_end": 0.845,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 46,
-      "rank": 41
+      "rank": 38
     },
     {
       "player": "Cory Wharton",
@@ -376,7 +349,7 @@
       "rating_at_end": 0.841,
       "finish": "Runner-Up in The World Is Not Enough",
       "n_events": 128,
-      "rank": 42
+      "rank": 39
     },
     {
       "player": "CT Tamburello",
@@ -385,7 +358,16 @@
       "rating_at_end": 0.841,
       "finish": "Winners in Give Me Liberty or Give Me Cash",
       "n_events": 53,
-      "rank": 43
+      "rank": 40
+    },
+    {
+      "player": "Derrick Kosinski",
+      "season_id": "s18_the_ruins",
+      "season_label": "S18 The Ruins (2009)",
+      "rating_at_end": 0.839,
+      "finish": "Winners in Good Thai and Good Luck",
+      "n_events": 65,
+      "rank": 41
     },
     {
       "player": "Joss Mooney",
@@ -394,7 +376,7 @@
       "rating_at_end": 0.834,
       "finish": "Runners-Up in Who Wants to Be a Millionaire?",
       "n_events": 30,
-      "rank": 44
+      "rank": 42
     },
     {
       "player": "Vince Gliatta",
@@ -403,7 +385,7 @@
       "rating_at_end": 0.834,
       "finish": "Runners-Up in Split Decision",
       "n_events": 42,
-      "rank": 45
+      "rank": 43
     },
     {
       "player": "Mitch Reid",
@@ -412,7 +394,7 @@
       "rating_at_end": 0.833,
       "finish": "Runners-Up in Family Matters",
       "n_events": 29,
-      "rank": 46
+      "rank": 44
     },
     {
       "player": "Nelson Thomas",
@@ -421,7 +403,7 @@
       "rating_at_end": 0.829,
       "finish": "Disqualified in The Heart is a Lonely Hunter",
       "n_events": 46,
-      "rank": 47
+      "rank": 45
     },
     {
       "player": "Cory Wharton",
@@ -430,16 +412,7 @@
       "rating_at_end": 0.827,
       "finish": "Runners-Up in Family Matters",
       "n_events": 27,
-      "rank": 48
-    },
-    {
-      "player": "Jamie Murray",
-      "season_id": "s06_battle_of_the_sexes",
-      "season_label": "S6 Battle of the Sexes (2003)",
-      "rating_at_end": 0.819,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 125,
-      "rank": 49
+      "rank": 46
     },
     {
       "player": "Jamie Banks",
@@ -448,6 +421,33 @@
       "rating_at_end": 0.812,
       "finish": "Eliminated in Let Sleeping Dogs Wake",
       "n_events": 50,
+      "rank": 47
+    },
+    {
+      "player": "Frank Roessler",
+      "season_id": "s15_the_gauntlet_iii",
+      "season_label": "S15 The Gauntlet III (2008)",
+      "rating_at_end": 0.811,
+      "finish": "Winners in The Finale",
+      "n_events": 55,
+      "rank": 48
+    },
+    {
+      "player": "Danny Roberts",
+      "season_id": "s05_battle_of_the_seasons",
+      "season_label": "S5 Battle of the Seasons (2002)",
+      "rating_at_end": 0.81,
+      "finish": "Winners in Handsome Reward",
+      "n_events": 43,
+      "rank": 49
+    },
+    {
+      "player": "Mike Mizanin",
+      "season_id": "s05_battle_of_the_seasons",
+      "season_label": "S5 Battle of the Seasons (2002)",
+      "rating_at_end": 0.81,
+      "finish": "Winners in Handsome Reward",
+      "n_events": 43,
       "rank": 50
     }
   ],
@@ -492,9 +492,9 @@
       "player": "Tori Deal",
       "season_id": "s38_ride_or_dies",
       "season_label": "S38 Ride or Dies (2022)",
-      "rating_at_end": 1.15,
+      "rating_at_end": 1.145,
       "finish": "Winners in The End of the Ride",
-      "n_events": 49,
+      "n_events": 51,
       "rank": 5
     },
     {
@@ -534,22 +534,13 @@
       "rank": 9
     },
     {
-      "player": "Susie Meister",
-      "season_id": "s18_the_ruins",
-      "season_label": "S18 The Ruins (2009)",
-      "rating_at_end": 1.064,
-      "finish": "Winners in Good Thai and Good Luck",
-      "n_events": 69,
-      "rank": 10
-    },
-    {
       "player": "Sarah Rice",
       "season_id": "s26_battle_of_the_exes_ii",
       "season_label": "S26 Battle of the Exes II (2015)",
       "rating_at_end": 1.055,
       "finish": "Winners in The Greatest Love of All",
       "n_events": 37,
-      "rank": 11
+      "rank": 10
     },
     {
       "player": "Camila Nakagawa",
@@ -558,7 +549,7 @@
       "rating_at_end": 1.032,
       "finish": "Winner in One in a Million",
       "n_events": 60,
-      "rank": 12
+      "rank": 11
     },
     {
       "player": "Emily Schromm",
@@ -567,7 +558,7 @@
       "rating_at_end": 1.032,
       "finish": "Winners in The Island of Misfit Challengers",
       "n_events": 103,
-      "rank": 13
+      "rank": 12
     },
     {
       "player": "Paula Meronek",
@@ -576,6 +567,15 @@
       "rating_at_end": 1.032,
       "finish": "Winners in The Island of Misfit Challengers",
       "n_events": 103,
+      "rank": 13
+    },
+    {
+      "player": "Susie Meister",
+      "season_id": "s18_the_ruins",
+      "season_label": "S18 The Ruins (2009)",
+      "rating_at_end": 1.03,
+      "finish": "Winners in Good Thai and Good Luck",
+      "n_events": 83,
       "rank": 14
     },
     {
@@ -633,21 +633,21 @@
       "rank": 20
     },
     {
-      "player": "Nany Gonz\u00e1lez",
-      "season_id": "s38_ride_or_dies",
-      "season_label": "S38 Ride or Dies (2022)",
-      "rating_at_end": 0.972,
-      "finish": "Runners-Up in The End of the Ride",
-      "n_events": 64,
-      "rank": 21
-    },
-    {
       "player": "Cara Maria Sorbello",
       "season_id": "s27_battle_of_the_bloodlines",
       "season_label": "S27 Battle of the Bloodlines (2015)",
       "rating_at_end": 0.972,
       "finish": "Winners in Family Matters",
       "n_events": 27,
+      "rank": 21
+    },
+    {
+      "player": "Nany Gonz\u00e1lez",
+      "season_id": "s38_ride_or_dies",
+      "season_label": "S38 Ride or Dies (2022)",
+      "rating_at_end": 0.967,
+      "finish": "Runners-Up in The End of the Ride",
+      "n_events": 66,
       "rank": 22
     },
     {
@@ -705,31 +705,22 @@
       "rank": 28
     },
     {
-      "player": "Coral Smith",
-      "season_id": "s05_battle_of_the_seasons",
-      "season_label": "S5 Battle of the Seasons (2002)",
-      "rating_at_end": 0.878,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 43,
-      "rank": 29
-    },
-    {
       "player": "Kaycee Clark",
       "season_id": "s35_total_madness",
       "season_label": "S35 Total Madness (2020)",
       "rating_at_end": 0.876,
       "finish": "Runner-Up in It's the End of the World As We Know It",
       "n_events": 64,
-      "rank": 30
+      "rank": 29
     },
     {
-      "player": "Kelley Limp",
-      "season_id": "s05_battle_of_the_seasons",
-      "season_label": "S5 Battle of the Seasons (2002)",
-      "rating_at_end": 0.865,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 44,
-      "rank": 31
+      "player": "Cara Zavaleta",
+      "season_id": "s07_the_gauntlet",
+      "season_label": "S7 The Gauntlet (2004)",
+      "rating_at_end": 0.862,
+      "finish": "Winners in Gold Rush Part 2",
+      "n_events": 68,
+      "rank": 30
     },
     {
       "player": "Cara Maria Sorbello",
@@ -738,7 +729,7 @@
       "rating_at_end": 0.86,
       "finish": "Winner in Vendettas Never Die",
       "n_events": 76,
-      "rank": 32
+      "rank": 31
     },
     {
       "player": "Ashley Mitchell",
@@ -747,16 +738,16 @@
       "rating_at_end": 0.856,
       "finish": "Winner in The True Champions",
       "n_events": 38,
-      "rank": 33
+      "rank": 32
     },
     {
-      "player": "Elka Walker",
-      "season_id": "s05_battle_of_the_seasons",
-      "season_label": "S5 Battle of the Seasons (2002)",
-      "rating_at_end": 0.846,
-      "finish": "Winners in Handsome Reward",
-      "n_events": 46,
-      "rank": 34
+      "player": "Sarah Greyson",
+      "season_id": "s07_the_gauntlet",
+      "season_label": "S7 The Gauntlet (2004)",
+      "rating_at_end": 0.855,
+      "finish": "Winners in Gold Rush Part 2",
+      "n_events": 70,
+      "rank": 33
     },
     {
       "player": "Cara Maria Sorbello",
@@ -765,7 +756,7 @@
       "rating_at_end": 0.844,
       "finish": "Runners-Up in Give Me Liberty or Give Me Cash",
       "n_events": 137,
-      "rank": 35
+      "rank": 34
     },
     {
       "player": "Olivia Kaiser",
@@ -774,6 +765,15 @@
       "rating_at_end": 0.842,
       "finish": "Winner in Finale Part II",
       "n_events": 69,
+      "rank": 35
+    },
+    {
+      "player": "Sophia Pasquis",
+      "season_id": "s09_battle_of_the_sexes_2",
+      "season_label": "S9 Battle of the Sexes 2 (2004)",
+      "rating_at_end": 0.842,
+      "finish": "Runners-Up in Episode 17",
+      "n_events": 53,
       "rank": 36
     },
     {
@@ -786,30 +786,30 @@
       "rank": 37
     },
     {
+      "player": "Arissa Hill",
+      "season_id": "s09_battle_of_the_sexes_2",
+      "season_label": "S9 Battle of the Sexes 2 (2004)",
+      "rating_at_end": 0.824,
+      "finish": "Runners-Up in Episode 17",
+      "n_events": 59,
+      "rank": 38
+    },
+    {
       "player": "Dee Nguyen",
       "season_id": "s34_war_of_the_worlds_2",
       "season_label": "S34 War of the Worlds 2 (2019)",
       "rating_at_end": 0.821,
       "finish": "Winners in Give Me Liberty or Give Me Cash",
       "n_events": 68,
-      "rank": 38
-    },
-    {
-      "player": "Brittini Sherrod",
-      "season_id": "s17_the_duel_ii",
-      "season_label": "S17 The Duel II (2009)",
-      "rating_at_end": 0.82,
-      "finish": "Runner-Up in Duel or Die",
-      "n_events": 25,
       "rank": 39
     },
     {
-      "player": "Kaycee Clark",
-      "season_id": "s37_spies_lies_allies",
-      "season_label": "S37 Spies Lies and Allies (2021)",
-      "rating_at_end": 0.815,
-      "finish": "Winner in The Decision",
-      "n_events": 153,
+      "player": "Rachel Robinson",
+      "season_id": "s17_the_duel_ii",
+      "season_label": "S17 The Duel II (2009)",
+      "rating_at_end": 0.814,
+      "finish": "Winner in Duel or Die",
+      "n_events": 30,
       "rank": 40
     },
     {
@@ -822,22 +822,58 @@
       "rank": 41
     },
     {
+      "player": "Coral Smith",
+      "season_id": "s05_battle_of_the_seasons",
+      "season_label": "S5 Battle of the Seasons (2002)",
+      "rating_at_end": 0.81,
+      "finish": "Winners in Handsome Reward",
+      "n_events": 43,
+      "rank": 42
+    },
+    {
+      "player": "Elka Walker",
+      "season_id": "s05_battle_of_the_seasons",
+      "season_label": "S5 Battle of the Seasons (2002)",
+      "rating_at_end": 0.81,
+      "finish": "Winners in Handsome Reward",
+      "n_events": 43,
+      "rank": 43
+    },
+    {
+      "player": "Kelley Limp",
+      "season_id": "s05_battle_of_the_seasons",
+      "season_label": "S5 Battle of the Seasons (2002)",
+      "rating_at_end": 0.81,
+      "finish": "Winners in Handsome Reward",
+      "n_events": 43,
+      "rank": 44
+    },
+    {
       "player": "Tori Deal",
       "season_id": "s40_battle_of_the_eras",
       "season_label": "S40 Battle of the Eras (2024)",
       "rating_at_end": 0.809,
       "finish": "Fourth Place in The End of an Era, Part 2",
       "n_events": 105,
-      "rank": 42
+      "rank": 45
     },
     {
-      "player": "Sarah Greyson",
+      "player": "Kaycee Clark",
+      "season_id": "s37_spies_lies_allies",
+      "season_label": "S37 Spies Lies and Allies (2021)",
+      "rating_at_end": 0.804,
+      "finish": "Winner in The Decision",
+      "n_events": 185,
+      "rank": 46
+    },
+    {
+      "player": "Roni Martin",
       "season_id": "s07_the_gauntlet",
       "season_label": "S7 The Gauntlet (2004)",
-      "rating_at_end": 0.8,
+      "rating_at_end": 0.799,
       "finish": "Winners in Gold Rush Part 2",
-      "n_events": 70,
-      "rank": 43
+      "n_events": 67,
+      "rank": 47
     },
     {
       "player": "Laurel Stucky",
@@ -846,25 +882,7 @@
       "rating_at_end": 0.795,
       "finish": "Runners-Up in Czechmate",
       "n_events": 131,
-      "rank": 44
-    },
-    {
-      "player": "Rachel Robinson",
-      "season_id": "s17_the_duel_ii",
-      "season_label": "S17 The Duel II (2009)",
-      "rating_at_end": 0.786,
-      "finish": "Winner in Duel or Die",
-      "n_events": 31,
-      "rank": 45
-    },
-    {
-      "player": "Cara Zavaleta",
-      "season_id": "s07_the_gauntlet",
-      "season_label": "S7 The Gauntlet (2004)",
-      "rating_at_end": 0.777,
-      "finish": "Winners in Gold Rush Part 2",
-      "n_events": 68,
-      "rank": 46
+      "rank": 48
     },
     {
       "player": "Jenna Compono",
@@ -873,7 +891,7 @@
       "rating_at_end": 0.772,
       "finish": "Eliminated in The Bloodbath",
       "n_events": 54,
-      "rank": 47
+      "rank": 49
     },
     {
       "player": "Kam Williams",
@@ -882,24 +900,6 @@
       "rating_at_end": 0.763,
       "finish": "Bottom Four in Vendettas Never Die",
       "n_events": 16,
-      "rank": 48
-    },
-    {
-      "player": "Sydney Segal",
-      "season_id": "s41_vets_and_new_threats",
-      "season_label": "S41 Vets and New Threats (2025)",
-      "rating_at_end": 0.747,
-      "finish": "Runner-Up in Finale Part II",
-      "n_events": 75,
-      "rank": 49
-    },
-    {
-      "player": "Paula Meronek",
-      "season_id": "s21_rivals",
-      "season_label": "S21 Rivals (2011)",
-      "rating_at_end": 0.745,
-      "finish": "Winners in At the End of the World",
-      "n_events": 103,
       "rank": 50
     }
   ]

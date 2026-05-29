@@ -3,7 +3,7 @@
   "safe_name": "Johnny_Bananas",
   "gender": "M",
   "career": {
-    "era_rating": 10.1,
+    "era_rating": 9.9,
     "peak_rating": 1.144,
     "peak_season_id": "s28_rivals_iii",
     "active_rating": 0.276,
@@ -80,7 +80,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.874,
+      "rating_at_end": 0.869,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 2,
@@ -504,7 +504,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.717,
+      "rating_at_end": 0.609,
       "rank": 4,
       "rank_total": 14,
       "daily_wins": 8,
@@ -528,7 +528,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.096,
+      "rating_at_end": -0.02,
       "rank": 4,
       "rank_total": 10,
       "daily_wins": 0,
@@ -596,9 +596,9 @@
       "season_name": "The Duel",
       "year": 2006,
       "label": "S13 The Duel (2006)",
-      "finish": "Eliminated in Welcome to Brazil",
+      "finish": "Eliminated in The First Female Duel",
       "finish_label": "Eliminated",
-      "finish_episode": "Welcome to Brazil",
+      "finish_episode": "The First Female Duel",
       "elim_position": 1,
       "elim_total": 8,
       "eliminated_by": [
@@ -619,117 +619,117 @@
   ],
   "timeline": [
     {
-      "ranking_id": 239,
+      "ranking_id": 143,
       "season_id": "s13_the_duel",
       "rating": -0.935
     },
     {
-      "ranking_id": 256,
+      "ranking_id": 160,
       "season_id": "s14_the_inferno_3",
       "rating": -0.218
     },
     {
-      "ranking_id": 272,
+      "ranking_id": 176,
       "season_id": "s15_the_gauntlet_iii",
       "rating": -0.275
     },
     {
-      "ranking_id": 281,
+      "ranking_id": 177,
       "season_id": "s16_the_island",
-      "rating": 0.096
+      "rating": -0.02
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 216,
       "season_id": "s18_the_ruins",
-      "rating": 0.717
+      "rating": 0.609
     },
     {
-      "ranking_id": 371,
+      "ranking_id": 267,
       "season_id": "s20_cutthroat",
       "rating": -0.007
     },
     {
-      "ranking_id": 404,
+      "ranking_id": 300,
       "season_id": "s21_rivals",
       "rating": 0.787
     },
     {
-      "ranking_id": 437,
+      "ranking_id": 333,
       "season_id": "s22_battle_of_the_exes",
       "rating": 1.022
     },
     {
-      "ranking_id": 519,
+      "ranking_id": 415,
       "season_id": "s24_rivals_ii",
       "rating": 0.78
     },
     {
-      "ranking_id": 541,
+      "ranking_id": 437,
       "season_id": "s25_free_agents",
       "rating": 1.135
     },
     {
-      "ranking_id": 582,
+      "ranking_id": 478,
       "season_id": "s26_battle_of_the_exes_ii",
       "rating": 0.562
     },
     {
-      "ranking_id": 605,
+      "ranking_id": 501,
       "season_id": "s27_battle_of_the_bloodlines",
       "rating": -0.209
     },
     {
-      "ranking_id": 638,
+      "ranking_id": 534,
       "season_id": "s28_rivals_iii",
       "rating": 1.144
     },
     {
-      "ranking_id": 657,
+      "ranking_id": 553,
       "season_id": "s29_invasion_of_the_champions",
       "rating": 0.736
     },
     {
-      "ranking_id": 687,
+      "ranking_id": 583,
       "season_id": "s30_xxx_dirty_30",
       "rating": 0.132
     },
     {
-      "ranking_id": 707,
+      "ranking_id": 603,
       "season_id": "s31_vendettas",
       "rating": 0.222
     },
     {
-      "ranking_id": 768,
+      "ranking_id": 664,
       "season_id": "s32_final_reckoning",
       "rating": 0.009
     },
     {
-      "ranking_id": 805,
+      "ranking_id": 701,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.164
     },
     {
-      "ranking_id": 821,
+      "ranking_id": 717,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": -0.254
     },
     {
-      "ranking_id": 840,
+      "ranking_id": 736,
       "season_id": "s35_total_madness",
       "rating": 0.857
     },
     {
-      "ranking_id": 946,
+      "ranking_id": 842,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.874
+      "rating": 0.869
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": 0.726
     },
     {
-      "ranking_id": 1036,
+      "ranking_id": 932,
       "season_id": "s41_vets_and_new_threats",
       "rating": 0.276
     }

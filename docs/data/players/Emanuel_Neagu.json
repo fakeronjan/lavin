@@ -3,7 +3,7 @@
   "safe_name": "Emanuel_Neagu",
   "gender": "M",
   "career": {
-    "era_rating": 1.2,
+    "era_rating": 1.5,
     "peak_rating": 0.975,
     "peak_season_id": "s39_battle_for_a_new_champion",
     "active_rating": 1.139,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 1,
-    "daily_wins": 2
+    "daily_wins": 6
   },
   "seasons": [
     {
@@ -56,10 +56,10 @@
       "eliminated_by": [
         "Devin Walker"
       ],
-      "rating_at_end": 0.254,
-      "rank": 8,
+      "rating_at_end": 0.501,
+      "rank": 4,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 5,
       "elim_wins": 1,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -73,12 +73,12 @@
   ],
   "timeline": [
     {
-      "ranking_id": 892,
+      "ranking_id": 788,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.254
+      "rating": 0.501
     },
     {
-      "ranking_id": 957,
+      "ranking_id": 853,
       "season_id": "s39_battle_for_a_new_champion",
       "rating": 0.975
     }

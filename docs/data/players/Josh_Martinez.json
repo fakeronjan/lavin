@@ -3,7 +3,7 @@
   "safe_name": "Josh_Martinez",
   "gender": "M",
   "career": {
-    "era_rating": 0.3,
+    "era_rating": 0.4,
     "peak_rating": 0.186,
     "peak_season_id": "s34_war_of_the_worlds_2",
     "active_rating": -0.789,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 1,
     "elim_losses": 7,
-    "daily_wins": 10
+    "daily_wins": 14
   },
   "seasons": [
     {
@@ -58,10 +58,10 @@
       "eliminated_by": [
         "Kyle Christie"
       ],
-      "rating_at_end": -0.234,
-      "rank": 11,
+      "rating_at_end": 0.122,
+      "rank": 9,
       "rank_total": 18,
-      "daily_wins": 0,
+      "daily_wins": 4,
       "elim_wins": 0,
       "elim_losses": 1,
       "elim_loss_survived": false,
@@ -188,32 +188,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 805,
+      "ranking_id": 701,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.161
     },
     {
-      "ranking_id": 821,
+      "ranking_id": 717,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.186
     },
     {
-      "ranking_id": 840,
+      "ranking_id": 736,
       "season_id": "s35_total_madness",
       "rating": 0.015
     },
     {
-      "ranking_id": 858,
+      "ranking_id": 754,
       "season_id": "s36_double_agents",
       "rating": 0.004
     },
     {
-      "ranking_id": 892,
+      "ranking_id": 788,
       "season_id": "s37_spies_lies_allies",
-      "rating": -0.234
+      "rating": 0.122
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": 0.078
     }

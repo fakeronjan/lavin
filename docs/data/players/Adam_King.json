@@ -3,7 +3,7 @@
   "safe_name": "Adam_King",
   "gender": "M",
   "career": {
-    "era_rating": 0.5,
+    "era_rating": 0.6,
     "peak_rating": 0.277,
     "peak_season_id": "s15_the_gauntlet_iii",
     "active_rating": -0.02,
@@ -61,7 +61,7 @@
       "eliminated_by": [
         "Syrus Yarbrough"
       ],
-      "rating_at_end": -0.178,
+      "rating_at_end": -0.083,
       "rank": 10,
       "rank_total": 14,
       "daily_wins": 1,
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.257,
+      "rating_at_end": 0.228,
       "rank": 6,
       "rank_total": 15,
       "daily_wins": 0,
@@ -135,7 +135,7 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.543,
+      "rating_at_end": -0.299,
       "rank": 14,
       "rank_total": 16,
       "daily_wins": 2,
@@ -161,8 +161,8 @@
       "eliminated_by": [
         "Shawn Sealy"
       ],
-      "rating_at_end": -0.281,
-      "rank": 13,
+      "rating_at_end": 0.098,
+      "rank": 9,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 0,
@@ -176,32 +176,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 131,
+      "ranking_id": 35,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.281
+      "rating": 0.098
     },
     {
-      "ranking_id": 162,
+      "ranking_id": 66,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.543
+      "rating": -0.299
     },
     {
-      "ranking_id": 272,
+      "ranking_id": 176,
       "season_id": "s15_the_gauntlet_iii",
       "rating": 0.277
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 198,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.257
+      "rating": 0.228
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 216,
       "season_id": "s18_the_ruins",
-      "rating": -0.178
+      "rating": -0.083
     },
     {
-      "ranking_id": 404,
+      "ranking_id": 300,
       "season_id": "s21_rivals",
       "rating": -0.068
     }

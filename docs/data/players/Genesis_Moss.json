@@ -3,10 +3,10 @@
   "safe_name": "Genesis_Moss",
   "gender": "F",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": -0.046,
+    "era_rating": 0.2,
+    "peak_rating": 0.195,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.296,
+    "active_rating": -0.454,
     "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
     "n_snapshots": 6,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Tina Barta"
       ],
-      "rating_at_end": -0.576,
-      "rank": 15,
+      "rating_at_end": -0.091,
+      "rank": 10,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Ruthie Alcaide"
       ],
-      "rating_at_end": -0.046,
-      "rank": 5,
+      "rating_at_end": 0.195,
+      "rank": 6,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 0,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.046
+      "rating": 0.195
     },
     {
-      "ranking_id": 131,
+      "ranking_id": 35,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": -0.576
+      "rating": -0.091
     }
   ]
 }

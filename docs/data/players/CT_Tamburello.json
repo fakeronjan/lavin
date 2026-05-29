@@ -3,7 +3,7 @@
   "safe_name": "CT_Tamburello",
   "gender": "M",
   "career": {
-    "era_rating": 8.7,
+    "era_rating": 8.8,
     "peak_rating": 1.313,
     "peak_season_id": "s29_invasion_of_the_champions",
     "active_rating": 0.022,
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 9,
     "elim_losses": 8,
-    "daily_wins": 51
+    "daily_wins": 54
   },
   "seasons": [
     {
@@ -117,10 +117,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 1.049,
+      "rating_at_end": 1.024,
       "rank": 1,
       "rank_total": 18,
-      "daily_wins": 2,
+      "daily_wins": 5,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -459,7 +459,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.157,
+      "rating_at_end": 0.127,
       "rank": 7,
       "rank_total": 15,
       "daily_wins": 0,
@@ -557,7 +557,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.015,
+      "rating_at_end": 0.083,
       "rank": 5,
       "rank_total": 10,
       "daily_wins": 7,
@@ -581,7 +581,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.019,
+      "rating_at_end": -0.04,
       "rank": 5,
       "rank_total": 10,
       "daily_wins": 4,
@@ -596,107 +596,107 @@
   ],
   "timeline": [
     {
-      "ranking_id": 103,
+      "ranking_id": 34,
       "season_id": "s08_the_inferno",
-      "rating": -0.019
+      "rating": -0.04
     },
     {
-      "ranking_id": 148,
+      "ranking_id": 52,
       "season_id": "s10_the_inferno_ii",
-      "rating": 0.015
+      "rating": 0.083
     },
     {
-      "ranking_id": 239,
+      "ranking_id": 143,
       "season_id": "s13_the_duel",
       "rating": 0.344
     },
     {
-      "ranking_id": 256,
+      "ranking_id": 160,
       "season_id": "s14_the_inferno_3",
       "rating": 0.075
     },
     {
-      "ranking_id": 272,
+      "ranking_id": 176,
       "season_id": "s15_the_gauntlet_iii",
       "rating": 0.15
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 198,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.157
+      "rating": 0.127
     },
     {
-      "ranking_id": 404,
+      "ranking_id": 300,
       "season_id": "s21_rivals",
       "rating": -0.065
     },
     {
-      "ranking_id": 437,
+      "ranking_id": 333,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.539
     },
     {
-      "ranking_id": 519,
+      "ranking_id": 415,
       "season_id": "s24_rivals_ii",
       "rating": 1.211
     },
     {
-      "ranking_id": 541,
+      "ranking_id": 437,
       "season_id": "s25_free_agents",
       "rating": 0.919
     },
     {
-      "ranking_id": 582,
+      "ranking_id": 478,
       "season_id": "s26_battle_of_the_exes_ii",
       "rating": 0.02
     },
     {
-      "ranking_id": 657,
+      "ranking_id": 553,
       "season_id": "s29_invasion_of_the_champions",
       "rating": 1.313
     },
     {
-      "ranking_id": 687,
+      "ranking_id": 583,
       "season_id": "s30_xxx_dirty_30",
       "rating": 0.884
     },
     {
-      "ranking_id": 768,
+      "ranking_id": 664,
       "season_id": "s32_final_reckoning",
       "rating": -0.483
     },
     {
-      "ranking_id": 805,
+      "ranking_id": 701,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.083
     },
     {
-      "ranking_id": 821,
+      "ranking_id": 717,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": 0.841
     },
     {
-      "ranking_id": 840,
+      "ranking_id": 736,
       "season_id": "s35_total_madness",
       "rating": 0.332
     },
     {
-      "ranking_id": 858,
+      "ranking_id": 754,
       "season_id": "s36_double_agents",
       "rating": 0.873
     },
     {
-      "ranking_id": 892,
+      "ranking_id": 788,
       "season_id": "s37_spies_lies_allies",
-      "rating": 1.049
+      "rating": 1.024
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.408
     },
     {
-      "ranking_id": 1036,
+      "ranking_id": 932,
       "season_id": "s41_vets_and_new_threats",
       "rating": 0.022
     }

@@ -4,12 +4,12 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.313,
-    "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.439,
-    "active_season_id": "s09_battle_of_the_sexes_2",
+    "peak_rating": -0.304,
+    "peak_season_id": "s06_battle_of_the_sexes",
+    "active_rating": -0.511,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 3,
-    "n_snapshots": 4,
+    "n_snapshots": 6,
     "championships": 0,
     "finals_reached": 1,
     "pre_anchor_titles": 0,
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Alton Williams"
       ],
-      "rating_at_end": -0.313,
+      "rating_at_end": -0.365,
       "rank": 12,
       "rank_total": 14,
       "daily_wins": 7,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Theo Gantt"
       ],
-      "rating_at_end": -0.534,
-      "rank": 17,
+      "rating_at_end": -0.304,
+      "rank": 13,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.534
+      "rating": -0.304
     },
     {
-      "ranking_id": 86,
+      "ranking_id": 17,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.313
+      "rating": -0.365
     }
   ]
 }

@@ -4,7 +4,7 @@
   "gender": "M",
   "career": {
     "era_rating": 0.0,
-    "peak_rating": -0.009,
+    "peak_rating": -0.01,
     "peak_season_id": "s18_the_ruins",
     "active_rating": -0.701,
     "active_season_id": "s20_cutthroat",
@@ -32,7 +32,7 @@
       "eliminated_by": [
         "Cohutta Grindstaff"
       ],
-      "rating_at_end": -0.009,
+      "rating_at_end": -0.01,
       "rank": 8,
       "rank_total": 14,
       "daily_wins": 4,
@@ -58,7 +58,7 @@
       "eliminated_by": [
         "Derrick Kosinski"
       ],
-      "rating_at_end": -0.5,
+      "rating_at_end": -0.262,
       "rank": 13,
       "rank_total": 16,
       "daily_wins": 3,
@@ -82,8 +82,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.149,
-      "rank": 6,
+      "rating_at_end": -0.189,
+      "rank": 7,
       "rank_total": 10,
       "daily_wins": 4,
       "elim_wins": 0,
@@ -108,8 +108,8 @@
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": -0.39,
-      "rank": 15,
+      "rating_at_end": -0.398,
+      "rank": 17,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 0,
@@ -123,24 +123,24 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.39
+      "rating": -0.398
     },
     {
-      "ranking_id": 103,
+      "ranking_id": 34,
       "season_id": "s08_the_inferno",
-      "rating": -0.149
+      "rating": -0.189
     },
     {
-      "ranking_id": 162,
+      "ranking_id": 66,
       "season_id": "s11_the_gauntlet_2",
-      "rating": -0.5
+      "rating": -0.262
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 216,
       "season_id": "s18_the_ruins",
-      "rating": -0.009
+      "rating": -0.01
     }
   ]
 }

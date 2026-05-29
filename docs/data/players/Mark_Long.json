@@ -3,8 +3,8 @@
   "safe_name": "Mark_Long",
   "gender": "M",
   "career": {
-    "era_rating": 1.5,
-    "peak_rating": 0.735,
+    "era_rating": 1.4,
+    "peak_rating": 0.537,
     "peak_season_id": "s06_battle_of_the_sexes",
     "active_rating": -0.348,
     "active_season_id": "s40_battle_of_the_eras",
@@ -85,7 +85,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.584,
+      "rating_at_end": 0.514,
       "rank": 4,
       "rank_total": 15,
       "daily_wins": 1,
@@ -109,8 +109,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.009,
-      "rank": 7,
+      "rating_at_end": 0.128,
+      "rank": 8,
       "rank_total": 16,
       "daily_wins": 6,
       "elim_wins": 0,
@@ -135,8 +135,8 @@
       "eliminated_by": [
         "Theo von Kurnatowski"
       ],
-      "rating_at_end": 0.192,
-      "rank": 6,
+      "rating_at_end": 0.2,
+      "rank": 7,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -159,8 +159,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.735,
-      "rank": 2,
+      "rating_at_end": 0.537,
+      "rank": 3,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 10,
@@ -174,32 +174,32 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.735
+      "rating": 0.537
     },
     {
-      "ranking_id": 131,
+      "ranking_id": 35,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.192
+      "rating": 0.2
     },
     {
-      "ranking_id": 162,
+      "ranking_id": 66,
       "season_id": "s11_the_gauntlet_2",
-      "rating": 0.009
+      "rating": 0.128
     },
     {
-      "ranking_id": 302,
+      "ranking_id": 198,
       "season_id": "s17_the_duel_ii",
-      "rating": 0.584
+      "rating": 0.514
     },
     {
-      "ranking_id": 437,
+      "ranking_id": 333,
       "season_id": "s22_battle_of_the_exes",
       "rating": 0.002
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.348
     }

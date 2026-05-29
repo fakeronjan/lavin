@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 2.4,
-    "peak_rating": 0.972,
+    "peak_rating": 0.967,
     "peak_season_id": "s38_ride_or_dies",
     "active_rating": -0.098,
     "active_season_id": "s41_vets_and_new_threats",
@@ -15,7 +15,7 @@
     "pre_anchor_titles": 0,
     "elim_wins": 6,
     "elim_losses": 10,
-    "daily_wins": 15
+    "daily_wins": 19
   },
   "seasons": [
     {
@@ -66,7 +66,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.972,
+      "rating_at_end": 0.967,
       "rank": 2,
       "rank_total": 17,
       "daily_wins": 2,
@@ -92,10 +92,10 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.368,
+      "rating_at_end": 0.401,
       "rank": 5,
       "rank_total": 18,
-      "daily_wins": 1,
+      "daily_wins": 5,
       "elim_wins": 0,
       "elim_losses": 0,
       "elim_loss_survived": false,
@@ -386,67 +386,67 @@
   ],
   "timeline": [
     {
-      "ranking_id": 482,
+      "ranking_id": 378,
       "season_id": "s23_battle_of_the_seasons_2012",
       "rating": -0.004
     },
     {
-      "ranking_id": 519,
+      "ranking_id": 415,
       "season_id": "s24_rivals_ii",
       "rating": -0.45
     },
     {
-      "ranking_id": 541,
+      "ranking_id": 437,
       "season_id": "s25_free_agents",
       "rating": 0.544
     },
     {
-      "ranking_id": 582,
+      "ranking_id": 478,
       "season_id": "s26_battle_of_the_exes_ii",
       "rating": 0.227
     },
     {
-      "ranking_id": 605,
+      "ranking_id": 501,
       "season_id": "s27_battle_of_the_bloodlines",
       "rating": -0.418
     },
     {
-      "ranking_id": 638,
+      "ranking_id": 534,
       "season_id": "s28_rivals_iii",
       "rating": -0.078
     },
     {
-      "ranking_id": 805,
+      "ranking_id": 701,
       "season_id": "s33_war_of_the_worlds",
       "rating": -0.321
     },
     {
-      "ranking_id": 821,
+      "ranking_id": 717,
       "season_id": "s34_war_of_the_worlds_2",
       "rating": -0.166
     },
     {
-      "ranking_id": 840,
+      "ranking_id": 736,
       "season_id": "s35_total_madness",
       "rating": -0.068
     },
     {
-      "ranking_id": 858,
+      "ranking_id": 754,
       "season_id": "s36_double_agents",
       "rating": 0.291
     },
     {
-      "ranking_id": 892,
+      "ranking_id": 788,
       "season_id": "s37_spies_lies_allies",
-      "rating": 0.368
+      "rating": 0.401
     },
     {
-      "ranking_id": 946,
+      "ranking_id": 842,
       "season_id": "s38_ride_or_dies",
-      "rating": 0.972
+      "rating": 0.967
     },
     {
-      "ranking_id": 1036,
+      "ranking_id": 932,
       "season_id": "s41_vets_and_new_threats",
       "rating": -0.098
     }

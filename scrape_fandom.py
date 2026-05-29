@@ -292,17 +292,47 @@ def parse_team_progress(wikitext, cast_players, season_id=None):
     }
 
     def parse_cell(cell):
+        # Cells come in two shapes: `| attrs |content` (with attrs/style)
+        # OR `|content` (no attrs). For the latter, attrs is empty and the
+        # whole cell after `|` is content.
         cm = re.match(r'\|\s*([^|]*?)\|\s*(.*?)\s*$', cell, re.DOTALL)
-        if not cm:
-            return None
-        attrs, content = cm.group(1), cm.group(2)
+        if cm:
+            attrs, content = cm.group(1), cm.group(2)
+        else:
+            # No `|` separator after the leading `|`. Treat the whole rest
+            # as content with empty attrs.
+            cm2 = re.match(r'\|\s*(.*?)\s*$', cell, re.DOTALL)
+            if not cm2:
+                return None
+            attrs, content = "", cm2.group(1)
         rs = int(re.search(r'\browspan\s*=\s*"?(\d+)"?', attrs).group(1)) if re.search(r'\browspan\s*=\s*"?(\d+)"?', attrs) else 1
         cs = int(re.search(r'\bcolspan\s*=\s*"?(\d+)"?', attrs).group(1)) if re.search(r'\bcolspan\s*=\s*"?(\d+)"?', attrs) else 1
         return attrs, content, rs, cs
 
     parsed_rows = []
     for row in rows[3:]:
-        cell_strs = re.split(r'\n(?=\|[^-])', row)
+        # Split into individual cells. Wiki tables allow two styles:
+        #   1) each cell on its own line starting with `|`
+        #   2) multiple cells on one line separated by `||`
+        # S37 / S39 / etc. use mostly style 2 for team-progress rows.
+        # First split by newlines to get physical lines, then within each
+        # line split on `||` to handle inline cell separators.
+        cell_strs = []
+        for line in re.split(r'\n(?=\|[^-])', row):
+            line = line.strip()
+            if not line:
+                continue
+            # Trim leading `|` so `_split_cells` doesn't see the cell-opening
+            # token as part of the first cell.
+            if line.startswith('|'):
+                payload = line[1:]
+            else:
+                payload = line
+            parts = _split_cells(payload, '||')
+            for p in parts:
+                p = p.strip()
+                if p:
+                    cell_strs.append('| ' + p)
         row_cells = []
         for c in cell_strs:
             pc = parse_cell(c)
@@ -336,6 +366,10 @@ def parse_team_progress(wikitext, cast_players, season_id=None):
             continue
         _, raw_name = grid[i][0]
         raw_name = re.sub(r"'''|''", "", raw_name).strip()
+        # Strip HTML tags like <font color="..."> that wrap the name in
+        # newer-format pages (S37+). Without this, raw_name = "<font ...>CT</font>"
+        # never resolves to a cast player.
+        raw_name = re.sub(r'<[^>]+>', '', raw_name).strip()
         raw_name = re.sub(r'\[\[(?:[^|\]]+\|)?([^\]]+)\]\]', r'\1', raw_name).strip()
         if not raw_name or raw_name.lower() in ("colspan", "rowspan"):
             continue
@@ -356,22 +390,31 @@ def parse_team_progress(wikitext, cast_players, season_id=None):
                 continue
             # If content matches "Team N" or "Team Color", prefer that as the
             # canonical team label (numeric-team seasons like S31 / S39).
-            team_name = None
+            # Also register content text as alias (e.g. "Emerald" / "Sapphire"
+            # in S37) AND content + " Cell" (Game Summary uses "Emerald Cell"
+            # while Team Progress shortens to "Emerald").
+            team_names = []
             if re.match(r'^Team\s+[A-Za-z0-9]+$', clean):
-                team_name = clean
-            else:
-                bg_m = re.search(
-                    r'(?:background-color\s*:\s*|bgcolor\s*=\s*"?)([a-zA-Z]+|#[0-9A-Fa-f]+)',
-                    attrs,
-                )
-                if bg_m:
-                    color = bg_m.group(1).strip().lower()
-                    if color in SKIP_BG_COLORS:
-                        continue
-                    team_name = f"Team {color.capitalize()}"
-            if not team_name:
+                team_names.append(clean)
+            elif clean and len(clean) <= 30 and re.match(r'^[A-Za-z][A-Za-z0-9 ]*$', clean):
+                # Bare team name like "Emerald" / "Sapphire" / "Ruby"
+                team_names.append(clean)
+                team_names.append(f"{clean} Cell")  # Game Summary form
+            bg_m = re.search(
+                r'(?:background-color\s*:\s*|bgcolor\s*=\s*"?)([a-zA-Z]+|#[0-9A-Fa-f]+)',
+                attrs,
+            )
+            if bg_m:
+                color = bg_m.group(1).strip().lower()
+                if color in SKIP_BG_COLORS:
+                    continue
+                team_names.append(f"Team {color.capitalize()}")
+            if not team_names:
                 continue
-            out.setdefault(ep_label, {}).setdefault(team_name, []).append(full)
+            for tn in team_names:
+                roster = out.setdefault(ep_label, {}).setdefault(tn, [])
+                if full not in roster:
+                    roster.append(full)
     return out
 
 

@@ -3,13 +3,13 @@
   "safe_name": "Theo_von_Kurnatowski",
   "gender": "M",
   "career": {
-    "era_rating": 1.8,
-    "peak_rating": 0.691,
-    "peak_season_id": "s07_the_gauntlet",
-    "active_rating": -0.381,
-    "active_season_id": "s15_the_gauntlet_iii",
+    "era_rating": 1.4,
+    "peak_rating": 0.526,
+    "peak_season_id": "s09_battle_of_the_sexes_2",
+    "active_rating": -0.256,
+    "active_season_id": "s16_the_island",
     "n_seasons": 4,
-    "n_snapshots": 11,
+    "n_snapshots": 12,
     "championships": 2,
     "finals_reached": 3,
     "pre_anchor_titles": 0,
@@ -59,8 +59,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.684,
-      "rank": 3,
+      "rating_at_end": 0.526,
+      "rank": 2,
       "rank_total": 18,
       "daily_wins": 0,
       "elim_wins": 4,
@@ -83,7 +83,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.691,
+      "rating_at_end": 0.521,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 8,
@@ -107,7 +107,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.402,
+      "rating_at_end": 0.285,
       "rank": 4,
       "rank_total": 16,
       "daily_wins": 3,
@@ -124,22 +124,22 @@
   ],
   "timeline": [
     {
-      "ranking_id": 41,
+      "ranking_id": 1,
       "season_id": "s05_battle_of_the_seasons",
-      "rating": 0.402
+      "rating": 0.285
     },
     {
-      "ranking_id": 86,
+      "ranking_id": 17,
       "season_id": "s07_the_gauntlet",
-      "rating": 0.691
+      "rating": 0.521
     },
     {
-      "ranking_id": 131,
+      "ranking_id": 35,
       "season_id": "s09_battle_of_the_sexes_2",
-      "rating": 0.684
+      "rating": 0.526
     },
     {
-      "ranking_id": 223,
+      "ranking_id": 127,
       "season_id": "s12_fresh_meat",
       "rating": 0.069
     }

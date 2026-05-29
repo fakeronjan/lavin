@@ -159,6 +159,31 @@ def _row_cell_count_with_rowspan(cell_text):
     return int(m.group(1)) if m else 1
 
 
+def _cell_colspan(cell_text):
+    """Return colspan integer (default 1) for a cell."""
+    m = re.search(r'\bcolspan\s*=\s*"?(\d+)"?', cell_text, re.IGNORECASE)
+    return int(m.group(1)) if m else 1
+
+
+def _header_columns(header_cells):
+    """
+    Given header cells, return [(header_text, start_col, span)] expanded across
+    the data-column grid. e.g. headers ['Episode', 'Elimination',
+    'colspan=2|Opponents', 'Result'] yields:
+      [('Episode', 0, 1), ('Elimination', 1, 1),
+       ('Opponents', 2, 2), ('Result', 4, 1)]
+    Data rows then map column N (0-indexed) to whichever header_text covers it.
+    """
+    cols = []
+    pos = 0
+    for h in header_cells:
+        cs = _cell_colspan(h)
+        text = _plain(_strip_attrs(h))
+        cols.append((text, pos, cs))
+        pos += cs
+    return cols
+
+
 def parse_player_elims(wt, player_name, season_map):
     """Yield (season_id, episode, game, opponents, result) for each row."""
     if not wt:
@@ -185,60 +210,82 @@ def parse_player_elims(wt, player_name, season_map):
         header, data_rows = _split_table_rows(table_text)
         if not header or not data_rows:
             continue
-        opp_idx = None
-        res_idx = None
-        for j, h in enumerate(header):
-            h_text = _plain(_strip_attrs(h))
-            if opp_idx is None and _OPP_HEADER_RE.search(h_text):
-                opp_idx = j
-            if res_idx is None and _RESULT_HEADER_RE.search(h_text):
-                res_idx = j
-        if opp_idx is None or res_idx is None:
+        # Expand headers with colspan so we can map data columns to headers.
+        # S16/S29/S33/S35/S37/S38/S39 use `colspan=2|Opponents` for two
+        # opponent cells, which the old indexing logic flattened to one cell.
+        header_cols = _header_columns(header)
+        opp_start = opp_span = None
+        res_start = None
+        for text, start, span in header_cols:
+            if opp_start is None and _OPP_HEADER_RE.search(text):
+                opp_start, opp_span = start, span
+            if res_start is None and _RESULT_HEADER_RE.search(text):
+                res_start = start
+        if opp_start is None or res_start is None:
             continue
+        opp_idx = opp_start
+        res_idx = res_start
 
-        # Walk data rows, handling rowspan: track which columns are "filled
-        # in" by a prior rowspan and which positions in current row are new.
+        # Walk data rows, handling rowspan AND colspan: track which columns
+        # are "filled in" by a prior rowspan and expand cells with colspan>1
+        # across multiple grid columns. The opponent column may span multiple
+        # data cells (S16/S29/S33/S35/S37/S38/S39 use `colspan=2|Opponent(s)`),
+        # so we collect every cell whose grid position falls in the opponent
+        # range, not just the one at opp_start.
         pending = {}  # col_idx -> (cell_text, remaining_rows)
         for row in data_rows:
-            # Reconstruct full row by inserting pending rowspan cells.
+            # Reconstruct full row by inserting pending rowspan cells AND
+            # expanding colspan cells. full_row[col] points to the source
+            # cell text covering that grid column.
             full_row = []
-            row_iter = iter(row)
-            col = 0
             row_cells = list(row)
-            # For each column up to max needed
-            target_len = max(opp_idx, res_idx) + 1
-            placed = 0
-            while placed < target_len:
+            target_len = max(opp_idx + (opp_span or 1), res_idx + 1)
+            col = 0
+            while col < target_len:
                 if col in pending:
                     full_row.append(pending[col][0])
                     pending[col] = (pending[col][0], pending[col][1] - 1)
                     if pending[col][1] <= 0:
                         del pending[col]
+                    col += 1
                 else:
                     if not row_cells:
                         full_row.append("")
-                        placed += 1
                         col += 1
                         continue
                     cell = row_cells.pop(0)
-                    full_row.append(cell)
-                    # Register rowspan for future rows
+                    cs = _cell_colspan(cell)
                     rs = _row_cell_count_with_rowspan(cell)
-                    if rs > 1:
-                        pending[col] = (cell, rs - 1)
-                placed += 1
-                col += 1
-            # Append remaining original row cells
+                    for k in range(cs):
+                        full_row.append(cell)
+                        if rs > 1:
+                            pending[col + k] = (cell, rs - 1)
+                    col += cs
+            # Append any remaining cells beyond target_len so we don't lose them
             full_row.extend(row_cells)
 
             if len(full_row) <= max(opp_idx, res_idx):
                 continue
             ep_cell = _strip_attrs(full_row[0])
             game_cell = _strip_attrs(full_row[1]) if len(full_row) > 1 else ""
-            opp_cell = _strip_attrs(full_row[opp_idx])
+            # Collect every data cell covering the opponent column range.
+            opp_cells = []
+            seen_ids = set()
+            for k in range(opp_idx, opp_idx + (opp_span or 1)):
+                if k < len(full_row):
+                    cid = id(full_row[k])
+                    if cid not in seen_ids:
+                        seen_ids.add(cid)
+                        opp_cells.append(full_row[k])
             res_cell = _strip_attrs(full_row[res_idx])
 
-            opponents = _players_from_cell(opp_cell)
+            opponents = []
+            opp_seen = set()
+            for oc in opp_cells:
+                for p in _players_from_cell(_strip_attrs(oc)):
+                    if p not in opp_seen:
+                        opp_seen.add(p)
+                        opponents.append(p)
             res_players = _players_from_cell(res_cell)
             res_text = _plain(res_cell).upper()
 
@@ -313,10 +360,21 @@ def diff_vs_ours(truth):
         appearances.loc[appearances["finish"] == "Champion Mercenary", "player"].astype(str),
     ))
 
+    # Vote / face-off seasons (S5, S6, S9, S16) have no 1v1 elimination games —
+    # our scrape pairs the daily/face-off winner with the voted-out player,
+    # fabricating H2H matchups Fandom never records. build_events.py already
+    # skips these from rating events; exclude them here too so the audit diff
+    # isn't dominated by matchups we've established aren't real. Detected
+    # structurally: a season where no elim row carries a named game.
+    season_has_game = e.assign(_g=e["game"].notna()).groupby("season_id")["_g"].any()
+    gameless_seasons = set(season_has_game[~season_has_game].index)
+
     ours_set = set()
     for _, r in e.iterrows():
         w, l, sid = r.get("winner"), r.get("loser"), r["season_id"]
         if not (isinstance(w, str) and isinstance(l, str)):
+            continue
+        if sid in gameless_seasons:  # vote/face-off season — not real H2H
             continue
         if gmap.get(w) != gmap.get(l):  # filter mixed-gender cross-product
             continue
@@ -329,6 +387,8 @@ def diff_vs_ours(truth):
     for _, r in truth.iterrows():
         if r["fandom_result"] not in ("W", "L"):
             continue
+        if r["season_id"] in gameless_seasons:  # vote/face-off — excluded both sides
+            continue
         if gmap.get(r["player"]) != gmap.get(r["opponent"]):
             continue
         truth_set.add((r["season_id"], r["player"], r["opponent"], r["fandom_result"]))
@@ -336,11 +396,34 @@ def diff_vs_ours(truth):
     return truth_set - ours_set, ours_set - truth_set, truth_set, ours_set
 
 
+def infer_unparsed_results(truth):
+    """Some Fandom result cells don't parse to W/L (odd color/markup) and come
+    back as "?". When the opponent's reciprocal row IS parsed, infer this row:
+    if B shows "W vs A", then A's result vs B is "L" (and vice versa). Recovers
+    ~38 rows that would otherwise show as false extras/missings."""
+    known = {(r.season_id, r.player, r.opponent): r.fandom_result
+             for r in truth.itertuples() if r.fandom_result in ("W", "L")}
+    flip = {"W": "L", "L": "W"}
+    fixed = 0
+    res = truth["fandom_result"].tolist()
+    for i, r in enumerate(truth.itertuples()):
+        if r.fandom_result == "?":
+            opp = known.get((r.season_id, r.opponent, r.player))
+            if opp:
+                res[i] = flip[opp]
+                fixed += 1
+    truth = truth.copy()
+    truth["fandom_result"] = res
+    print(f"  inferred {fixed} unparsed '?' results from reciprocal opponent rows")
+    return truth
+
+
 def main():
     print("Parsing Fandom personal pages...")
     truth = build_fandom_truth()
     print(f"  {len(truth)} per-opponent rows from {truth['player'].nunique()} players "
           f"(covering {truth['season_id'].nunique()} seasons)")
+    truth = infer_unparsed_results(truth)
 
     missing, extra, truth_set, ours_set = diff_vs_ours(truth)
 

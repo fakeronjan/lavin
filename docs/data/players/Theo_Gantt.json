@@ -3,13 +3,13 @@
   "safe_name": "Theo_Gantt",
   "gender": "M",
   "career": {
-    "era_rating": 0.1,
-    "peak_rating": 0.096,
+    "era_rating": 0.0,
+    "peak_rating": -0.038,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.266,
-    "active_season_id": "s09_battle_of_the_sexes_2",
+    "active_rating": -0.369,
+    "active_season_id": "s11_the_gauntlet_2",
     "n_seasons": 2,
-    "n_snapshots": 4,
+    "n_snapshots": 6,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -32,8 +32,8 @@
       "eliminated_by": [
         "Cara Zavaleta"
       ],
-      "rating_at_end": -0.143,
-      "rank": 9,
+      "rating_at_end": -0.274,
+      "rank": 10,
       "rank_total": 14,
       "daily_wins": 5,
       "elim_wins": 0,
@@ -58,8 +58,8 @@
       "eliminated_by": [
         "Mark Long"
       ],
-      "rating_at_end": 0.096,
-      "rank": 6,
+      "rating_at_end": -0.038,
+      "rank": 11,
       "rank_total": 18,
       "daily_wins": 1,
       "elim_wins": 2,
@@ -73,14 +73,14 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": 0.096
+      "rating": -0.038
     },
     {
-      "ranking_id": 86,
+      "ranking_id": 17,
       "season_id": "s07_the_gauntlet",
-      "rating": -0.143
+      "rating": -0.274
     }
   ]
 }

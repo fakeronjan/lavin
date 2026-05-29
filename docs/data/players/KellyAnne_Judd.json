@@ -4,7 +4,7 @@
   "gender": "F",
   "career": {
     "era_rating": 0.6,
-    "peak_rating": 0.531,
+    "peak_rating": 0.583,
     "peak_season_id": "s18_the_ruins",
     "active_rating": -0.273,
     "active_season_id": "s40_battle_of_the_eras",
@@ -113,7 +113,7 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": 0.531,
+      "rating_at_end": 0.583,
       "rank": 3,
       "rank_total": 14,
       "daily_wins": 1,
@@ -139,7 +139,7 @@
       "eliminated_by": [
         "Johanna Botta"
       ],
-      "rating_at_end": -0.299,
+      "rating_at_end": -0.234,
       "rank": 7,
       "rank_total": 10,
       "daily_wins": 1,
@@ -154,27 +154,27 @@
   ],
   "timeline": [
     {
-      "ranking_id": 281,
+      "ranking_id": 177,
       "season_id": "s16_the_island",
-      "rating": -0.299
+      "rating": -0.234
     },
     {
-      "ranking_id": 320,
+      "ranking_id": 216,
       "season_id": "s18_the_ruins",
-      "rating": 0.531
+      "rating": 0.583
     },
     {
-      "ranking_id": 605,
+      "ranking_id": 501,
       "season_id": "s27_battle_of_the_bloodlines",
       "rating": 0.041
     },
     {
-      "ranking_id": 638,
+      "ranking_id": 534,
       "season_id": "s28_rivals_iii",
       "rating": -0.132
     },
     {
-      "ranking_id": 996,
+      "ranking_id": 892,
       "season_id": "s40_battle_of_the_eras",
       "rating": -0.273
     }

@@ -3,13 +3,13 @@
   "safe_name": "Puck_Rainey",
   "gender": "M",
   "career": {
-    "era_rating": 0.0,
-    "peak_rating": -0.01,
+    "era_rating": 0.1,
+    "peak_rating": 0.138,
     "peak_season_id": "s06_battle_of_the_sexes",
-    "active_rating": -0.508,
-    "active_season_id": "s08_the_inferno",
+    "active_rating": -0.089,
+    "active_season_id": "s10_the_inferno_ii",
     "n_seasons": 1,
-    "n_snapshots": 3,
+    "n_snapshots": 5,
     "championships": 0,
     "finals_reached": 0,
     "pre_anchor_titles": 0,
@@ -30,8 +30,8 @@
       "elim_position": null,
       "elim_total": null,
       "eliminated_by": [],
-      "rating_at_end": -0.01,
-      "rank": 7,
+      "rating_at_end": 0.138,
+      "rank": 8,
       "rank_total": 18,
       "daily_wins": 2,
       "elim_wins": 1,
@@ -45,9 +45,9 @@
   ],
   "timeline": [
     {
-      "ranking_id": 71,
+      "ranking_id": 2,
       "season_id": "s06_battle_of_the_sexes",
-      "rating": -0.01
+      "rating": 0.138
     }
   ]
 }
