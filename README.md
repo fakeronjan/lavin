@@ -8,10 +8,10 @@ Head-to-head WLS power ratings for MTV's The Challenge, covering seasons S5
 ## What this is
 
 LAVIN turns every elimination, daily challenge, and finals placement on
-The Challenge into a pairwise H2H event, then solves a weighted least-squares
-(WLS) regression for player ratings. Same modeling skeleton as the rest of
-the fakeronjan sports rating fleet (LOBO, DUNCAN, DILLON, ZIDANE, SALAAM,
-COBI, MESSI), adapted for individual-vs-individual competition.
+The Challenge into a pairwise H2H event, then solves a fakeronjan WLS
+regression for player ratings. Same modeling skeleton as the rest of the
+fakeronjan sports rating fleet, adapted for individual-vs-individual
+competition.
 
 ## Three views
 
@@ -55,6 +55,35 @@ where available with Fandom page categories (`Male_Contestants` /
 - **Anchor:** S5 (first season with individual elimination signal).
   S2-S4 are pure-team mission outcomes - present in champions for
   historical context but don't feed the rating.
+
+## Sibling rating sites
+
+Portal: [fakeronjan.com/sports](https://fakeronjan.com/sports) ([repo](https://github.com/fakeronjan/sports-ratings))
+
+**Basketball**
+- [DUNCAN](https://github.com/fakeronjan/duncan) - NBA
+- [LOBO](https://github.com/fakeronjan/lobo) - WNBA
+- [CARMELO](https://github.com/fakeronjan/carmelo) - Men's international basketball
+
+**Football**
+- [DILLON](https://github.com/fakeronjan/dillon) - NFL
+- [SALAAM](https://github.com/fakeronjan/salaam) - NCAA football
+
+**Soccer**
+- [ZIDANE](https://github.com/fakeronjan/zidane) - European club soccer
+- [COBI](https://github.com/fakeronjan/cobi) - MLS
+- [MESSI](https://github.com/fakeronjan/messi) - Men's international soccer
+
+**Baseball**
+- [GRIFFEY](https://github.com/fakeronjan/griffey) - MLB
+- [ICHIRO](https://github.com/fakeronjan/ichiro) - Men's international baseball
+
+**Hockey**
+- [SAKIC](https://github.com/fakeronjan/sakic) - NHL
+- [FORSBERG](https://github.com/fakeronjan/forsberg) - Men's international hockey
+
+**Tennis**
+- [Tennis](https://github.com/fakeronjan/tennis) - Open-era Grand Slams (data-viz, no rating model)
 
 ## License
 
