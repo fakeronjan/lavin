@@ -1,7 +1,7 @@
 # =========================================================
 # LAVIN — WLS ratings for The Challenge
 #
-# Pattern adapted from DUNCAN's _solve_massey:
+# Pattern adapted from DUNCAN's _solve_wls:
 #   - X (n_events × n_players) with +1 for winner, -1 for loser
 #   - y = 1.0 (binary "win margin" — every event row records a victory)
 #   - W = base_event_weight × recency_factor
@@ -147,7 +147,7 @@ def build_snapshot_meta(events):
 
 
 # ---------------------------------------------------------
-# WLS solver (adapted from DUNCAN._solve_massey)
+# WLS solver (adapted from DUNCAN._solve_wls)
 # ---------------------------------------------------------
 def solve_wls(window_events):
     """
