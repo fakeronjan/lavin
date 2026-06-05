@@ -139,7 +139,7 @@ _NON_PARTNER_TOKENS = {
 }
 
 
-def parse_partner_progress(wt, cast_players=None):
+def parse_partner_progress(wt, cast_players=None, nickname_map=None):
     """
     Parse a season's ===Partner Progress=== / ===Team Progress=== table —
     the canonical per-episode partner sequence for rotating-pair seasons
@@ -149,8 +149,13 @@ def parse_partner_progress(wt, cast_players=None):
     consecutive duplicates collapsed. Team-color and special-status cells
     (Rogue, Hangnail, Sapphire, etc.) are skipped — they aren't real
     partnerships.
+
+    nickname_map: dict mapping wiki-display nickname → canonical cast name
+    (e.g. "Fessy" → "Faysal Shafaat"). Checked before first-name lookup so
+    show-only nicknames resolve.
     """
     cast_players = cast_players or []
+    nickname_map = nickname_map or {}
     # First-name lookup map for canonicalization (Episode rows use short
     # display names — "Coral", "Fessy", "Corey L." — not canonical names)
     fn_map = {}
@@ -163,6 +168,13 @@ def parse_partner_progress(wt, cast_players=None):
             return None
         if s in cast_players:
             return s
+        # Nickname override — handles wiki short names that aren't a prefix
+        # of the canonical name ("Fessy" for Faysal Shafaat, "CT" for Chris
+        # Tamburello, etc.). Aliases come from data/aliases.csv.
+        if s in nickname_map:
+            mapped = nickname_map[s]
+            if mapped in cast_players:
+                return mapped
         tokens = s.split()
         first = tokens[0]
         cands = fn_map.get(first, [])
@@ -244,6 +256,18 @@ def _pair_cell_fraction(wt):
 
 def main():
     seasons = pd.read_csv(HERE / "seasons.csv")
+    # Load aliases.csv as nickname → canonical map. Used to resolve wiki
+    # display names like "Fessy" → "Faysal Shafaat" inside parse_partner_progress.
+    nickname_map = {}
+    aliases_path = DATA / "aliases.csv"
+    if aliases_path.exists():
+        try:
+            adf = pd.read_csv(aliases_path)
+            for _, ar in adf.iterrows():
+                nickname_map[str(ar["alias"]).strip()] = str(ar["canonical"]).strip()
+        except Exception:
+            pass
+
     rows = []
     summary_rows = []
 
@@ -278,7 +302,7 @@ def main():
                 cast_names = [str(p) for p in pd.read_csv(cast_path)["player"].dropna()]
             except Exception:
                 pass
-        pp = parse_partner_progress(wt, cast_players=cast_names)
+        pp = parse_partner_progress(wt, cast_players=cast_names, nickname_map=nickname_map)
         if pp:
             for player, seq in pp.items():
                 for i, partner in enumerate(seq, 1):
@@ -344,6 +368,29 @@ def main():
                         phases.append(them)
                     elif phases[0] != them:
                         phases.insert(0, them)
+
+        # Cast pair_id fallback: for pair-format seasons where the cast
+        # table publishes a definitive partner (bloodlines, exes, etc.) AND
+        # a pair was eliminated before any 2-icon pair-cell or strikethrough
+        # entry was logged, neither player would otherwise show up in the
+        # audit. Seed those pairs from contestants.csv so the cast pair is
+        # at least surfaced once. Cases caught: S27 Tony/Shane Raines, S27
+        # Leroy/Candice Fowler (both DQ'd before their elim chart pair-cell
+        # would have appeared).
+        if cast_path.exists():
+            try:
+                cast = pd.read_csv(cast_path)
+                if "pair_id" in cast.columns:
+                    for pair_id, grp in cast.dropna(subset=["pair_id"]).groupby("pair_id"):
+                        members = [str(p) for p in grp["player"].dropna()]
+                        if len(members) != 2:
+                            continue
+                        a, b = members
+                        for me, them in [(a, b), (b, a)]:
+                            if me not in per_player_phases:
+                                per_player_phases[me] = [them]
+            except Exception:
+                pass
 
         # Emit one row per phase per player. Includes single-partner players
         # because the cast table sometimes leaves `pair_id` empty (e.g. when
