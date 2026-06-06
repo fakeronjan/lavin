@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — resolve Fandom redirects for every player name in our data,
+# LAVIN - resolve Fandom redirects for every player name in our data,
 # so duplicates like Frank Fox / Frank Sweeney merge into one identity.
 #
 # For each player, query Fandom's API. If the page redirects to a
@@ -23,7 +23,7 @@ OUT = DATA / "aliases.csv"
 def resolve_canonical(name):
     """
     Return canonical Fandom page title for `name`, or '' if not found.
-    Uses ?action=query&redirects=1 — if there's a redirect, the response
+    Uses ?action=query&redirects=1 - if there's a redirect, the response
     includes `query.redirects` listing the redirect chain and `query.pages`
     keyed by the canonical title.
     """
@@ -77,10 +77,10 @@ def main():
             n_new += 1
             print(f"  [{i:3d}/{len(names)}] ALIAS  {name:30s} → {canonical}")
         elif canonical:
-            # Already canonical — no need to record
+            # Already canonical - no need to record
             pass
         else:
-            # Page doesn't exist — record so we don't re-query
+            # Page doesn't exist - record so we don't re-query
             print(f"  [{i:3d}/{len(names)}] ?      {name:30s} (no Fandom page)")
         time.sleep(0.4)
 

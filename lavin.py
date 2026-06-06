@@ -1,9 +1,9 @@
 # =========================================================
-# LAVIN — WLS ratings for The Challenge
+# LAVIN - WLS ratings for The Challenge
 #
 # Pattern adapted from DUNCAN's _solve_wls:
 #   - X (n_events × n_players) with +1 for winner, -1 for loser
-#   - y = 1.0 (binary "win margin" — every event row records a victory)
+#   - y = 1.0 (binary "win margin" - every event row records a victory)
 #   - W = base_event_weight × recency_factor
 #   - Zero-sum constraint as a high-weight extra row (centers ratings at 0)
 #   - WLS via row-scaling: solve (sqrt(W) X) r = sqrt(W) y by lstsq
@@ -31,7 +31,7 @@ DATA = HERE / "data"
 # ---------------------------------------------------------
 # Within an episode, dailies come BEFORE the elimination they precede,
 # and finals come last in the season. This ordering matters when building
-# rolling snapshots — daily events fold into the next elim's window.
+# rolling snapshots - daily events fold into the next elim's window.
 EVENT_TYPE_ORDER = {"daily": 0, "elimination": 1, "final": 2}
 
 # Window × finals_field-scale matrix. Each config is (window_size, final_field_scale).
@@ -42,12 +42,12 @@ CONFIGS = {
     # the WLS at every elim was producing within-season noise nobody saw.
     # Now: one rating per (player, season-end-snapshot).
     #
-    # Settings (2026-05-12 tuning — replaced window=90/no-decay):
+    # Settings (2026-05-12 tuning - replaced window=90/no-decay):
     #   - 4-season window (~60 elims back from each season-end)
     #   - Linear recency decay: events at the snapshot have weight 1.0,
     #     events at the window edge have weight ~0. Effective per-season
     #     weights are roughly 40/30/20/10 across the 4 seasons, which is
-    #     what the user's "1-2-3-4" weighting concept asked for — current-
+    #     what the user's "1-2-3-4" weighting concept asked for - current-
     #     season signal dominates instead of being diluted across 6 flat
     #     seasons (the old 90/flat had this season at only ~17% of weight).
     #   - "Equal-weight" type_scales: target ~25% of total weight per
@@ -82,7 +82,7 @@ def annotate_events(events):
     Add bookkeeping columns:
       snum            integer season number (for sort order)
       type_ord        within-episode event ordering (daily < elim < final)
-      elim_idx_global monotonic int — the snapshot a row belongs to.
+      elim_idx_global monotonic int - the snapshot a row belongs to.
                       For elim rows: the elim's own snapshot.
                       For daily rows: the snapshot of the NEXT elim in the
                                       same season.
@@ -220,7 +220,7 @@ def compute_ratings(events, gender_map, window_size,
 
     snapshots = sorted(events["elim_idx_global"].unique())
     if eos_only:
-        # Keep only the last snapshot of each season — that's our EOS point.
+        # Keep only the last snapshot of each season - that's our EOS point.
         last_per_season = (
             events.sort_values("elim_idx_global")
             .groupby("season_id")["elim_idx_global"].max()

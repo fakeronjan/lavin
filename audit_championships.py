@@ -1,15 +1,15 @@
 # =========================================================
-# LAVIN — audit each player's championship count vs Fandom truth.
+# LAVIN - audit each player's championship count vs Fandom truth.
 #
 # Reads cached Fandom wikitext (data/.fandom_player_cache/),
 # parses the InfoboxChallenger `challenges` field, and counts entries
-# that match "(won)" — those are the player's championship-winning seasons.
+# that match "(won)" - those are the player's championship-winning seasons.
 #
 # Filters to MAIN-SERIES seasons only (excludes Champs vs. Pros, All Stars,
-# UK Challenge, Spies Lies & Allies of Sweden, etc. — anything not in the
+# UK Challenge, Spies Lies & Allies of Sweden, etc. - anything not in the
 # main Challenge canon S5-S41 we model).
 #
-# Output: data/audit_championships.csv — one row per player with mismatches.
+# Output: data/audit_championships.csv - one row per player with mismatches.
 # =========================================================
 import re
 from pathlib import Path

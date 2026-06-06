@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — scrape all seasons from seasons.csv
+# LAVIN - scrape all seasons from seasons.csv
 # =========================================================
 import time
 import sys

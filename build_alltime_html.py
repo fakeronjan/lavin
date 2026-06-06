@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — all-time top-25 HTML view for PEAK / ERA / ACTIVE
+# LAVIN - all-time top-25 HTML view for PEAK / ERA / ACTIVE
 # Output: data/all_time.html
 # =========================================================
 from pathlib import Path
@@ -41,7 +41,7 @@ def main():
                     cells.append(f'<td><div class="name">{name}</div>'
                                  f'<div class="meta">{primary_str} · {int(row["era_n_snapshots"])} snaps</div></td>')
                 else:
-                    cells.append("<td class='empty'>—</td>")
+                    cells.append("<td class='empty'>-</td>")
             rows.append("<tr>" + "".join(cells) + "</tr>")
 
         sections.append(f"""
@@ -63,7 +63,7 @@ def main():
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>LAVIN — All-Time Top {TOP_N}</title>
+  <title>LAVIN - All-Time Top {TOP_N}</title>
   <style>
     body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
            background: #fafafa; color: #222; padding: 28px; max-width: 1400px; margin: 0 auto; }}
@@ -85,18 +85,18 @@ def main():
   </style>
 </head>
 <body>
-  <h1>LAVIN — All-Time Top {TOP_N}</h1>
+  <h1>LAVIN - All-Time Top {TOP_N}</h1>
   <p class="subtitle">Three views derived from one rating timeline.</p>
   <div class="legend">
-    <strong>ERA</strong> — cumulative positive rating across the player's career.
+    <strong>ERA</strong> - cumulative positive rating across the player's career.
     Rewards <em>both quality and longevity</em>. A score of 200 ≈ "held a +1.0 rating
     for 200 snapshots." The all-time greatness view.
     <br><br>
-    <strong>PEAK</strong> — the highest rating the player ever achieved at any
+    <strong>PEAK</strong> - the highest rating the player ever achieved at any
     single snapshot. Captures dominant moments. Min {PEAK_MIN_SNAPSHOTS} snapshots
     to filter one-snapshot spikes.
     <br><br>
-    <strong>ACTIVE</strong> — the player's rating at their <em>most recent</em>
+    <strong>ACTIVE</strong> - the player's rating at their <em>most recent</em>
     snapshot. Reflects current form; retired players show their final rating.
   </div>
   {''.join(sections)}

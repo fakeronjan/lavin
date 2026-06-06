@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — derive the three player views (PEAK / ERA / ACTIVE) from the
+# LAVIN - derive the three player views (PEAK / ERA / ACTIVE) from the
 # single solver's per-snapshot rating timeline.
 #
 # Fleet pattern (mirrors LOBO/DUNCAN/ZIDANE): one solver outputs ratings
@@ -41,7 +41,7 @@ def main():
 
     # ── Played-EOS filter ──────────────────────────────────────────────
     # The WLS solver publishes a rating at every (player, season) snapshot
-    # where the player's prior events are still in the rolling window — so
+    # where the player's prior events are still in the rolling window - so
     # a player keeps getting "ghost" ratings for seasons after their last
     # appearance as their events age out. Both PEAK and ERA need to ignore
     # those ghost rows, otherwise:
@@ -51,7 +51,7 @@ def main():
     #   - ERA accumulates fake stature from seasons the player wasn't on.
     apps = pd.read_csv(DATA / "appearances.csv")
     # Mercenary cameos (one Arena elim, no other participation) get excluded
-    # from PEAK and ERA aggregations — they were guest appearances, not real
+    # from PEAK and ERA aggregations - they were guest appearances, not real
     # seasons of cast participation. Their per-snapshot rating still lives in
     # the timeline; we just don't credit a full season's career stature for
     # a single elim. See build_events.py MERCENARY_FINISH_TAGS for the source.
@@ -70,7 +70,7 @@ def main():
                                               end_of_season["season_id"].astype(str))]
     eos_played = end_of_season[mask]
 
-    # PEAK — max EOS rating across played seasons only
+    # PEAK - max EOS rating across played seasons only
     peak = (
         eos_played.sort_values("rating", ascending=False)
         .groupby("player")
@@ -81,7 +81,7 @@ def main():
         [["player", "gender", "peak_rating", "peak_ranking_id", "peak_season_id"]]
     )
 
-    # ACTIVE — rating at most recent snapshot the player appears in
+    # ACTIVE - rating at most recent snapshot the player appears in
     active = (
         ratings.sort_values("ranking_id", ascending=True)
         .groupby("player")
@@ -92,7 +92,7 @@ def main():
         [["player", "active_rating", "active_ranking_id", "active_season_id"]]
     )
 
-    # ERA — sum of POSITIVE played-EOS ratings (cumulative career stature).
+    # ERA - sum of POSITIVE played-EOS ratings (cumulative career stature).
     pos_eos = eos_played[eos_played["rating"] > 0]
     era_pos = (
         pos_eos.groupby("player")["rating"].sum()
@@ -117,11 +117,11 @@ def main():
     elig_peak = views[views["era_n_snapshots"] >= PEAK_MIN_SNAPSHOTS]
 
     for g, label in [("M", "MEN"), ("F", "WOMEN")]:
-        print(f"\n=== TOP 10 ERA — {label} (career stature) ===")
+        print(f"\n=== TOP 10 ERA - {label} (career stature) ===")
         for _, row in views[views["gender"] == g].sort_values("era_rating", ascending=False).head(10).iterrows():
             print(f"  {row['player']:25s}  era={row['era_rating']:+6.1f}  peak={row['peak_rating']:+.2f}  active={row['active_rating']:+.2f}  snaps={int(row['era_n_snapshots']):4d}")
 
-        print(f"\n=== TOP 10 PEAK — {label} (best single moment, ≥ {PEAK_MIN_SNAPSHOTS} snaps) ===")
+        print(f"\n=== TOP 10 PEAK - {label} (best single moment, ≥ {PEAK_MIN_SNAPSHOTS} snaps) ===")
         for _, row in elig_peak[elig_peak["gender"] == g].sort_values("peak_rating", ascending=False).head(10).iterrows():
             print(f"  {row['player']:25s}  peak={row['peak_rating']:+.2f}  era={row['era_rating']:+6.1f}  active={row['active_rating']:+.2f}  snaps={int(row['era_n_snapshots']):4d}")
 

@@ -1,10 +1,10 @@
 # =========================================================
-# LAVIN — END-OF-SEASON top-10 snapshots across configs
+# LAVIN - END-OF-SEASON top-10 snapshots across configs
 # Output: data/comparison.html
 #
 # For each "showcase" season, show the top 10 men + women at the season's
 # final ranking_id, under each of the 6 configs side-by-side.
-# This is the proper face-validity view — does the model put the right
+# This is the proper face-validity view - does the model put the right
 # players at the top of the era's rankings at the END of that season?
 # =========================================================
 from pathlib import Path
@@ -78,7 +78,7 @@ def season_end_top(cfg, season_id, gender, top_n=TOP_N):
     """
     Return top players at the LAST ranking_id of `season_id`, filtered to
     players who actually competed in that season. This is the proper face-
-    validity view — "after season X concluded, who's top among the cast?"
+    validity view - "after season X concluded, who's top among the cast?"
     """
     r = pd.read_csv(DATA / f"ratings_{cfg}" / "ratings.csv")
     sub = r[(r["season_id"] == season_id) & (r["gender"] == gender)]
@@ -97,7 +97,7 @@ def season_end_top(cfg, season_id, gender, top_n=TOP_N):
 
 def build_cell(row, touchstones):
     if row.empty:
-        return "<td class='empty'>—</td>"
+        return "<td class='empty'>-</td>"
     cls = ' class="touchstone"' if row["player"] in touchstones else ""
     return (
         f'<td{cls}>'
@@ -119,7 +119,7 @@ def build_season_table(season_id, season_label, gender, gender_label, touchstone
                 row = df.iloc[i - 1]
                 rows.append(build_cell(row, touchstones))
             else:
-                rows.append("<td class='empty'>—</td>")
+                rows.append("<td class='empty'>-</td>")
         rows.append("</tr>")
     headers = "".join(f"<th>{lbl}</th>" for _, lbl in CONFIGS)
     return f"""
@@ -143,7 +143,7 @@ def main():
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>LAVIN — End-of-Season Top 10 Comparison</title>
+  <title>LAVIN - End-of-Season Top 10 Comparison</title>
   <style>
     body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
            background: #fafafa; color: #222; padding: 24px; max-width: 1600px; margin: 0 auto; }}
@@ -170,7 +170,7 @@ def main():
   </style>
 </head>
 <body>
-  <h1>LAVIN — End-of-Season Top 10</h1>
+  <h1>LAVIN - End-of-Season Top 10</h1>
   <p class="subtitle">
     At each showcased season's <strong>finals snapshot</strong>, the top 10 men and women
     by rating. Each section compares all 6 (window × finals_field) configs side-by-side.

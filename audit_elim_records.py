@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — audit per-elim H2H records vs Fandom personal pages.
+# LAVIN - audit per-elim H2H records vs Fandom personal pages.
 #
 # For each player with a cached Fandom page, parse the per-season
 # "===Elimination History===" tables. Headers vary by season:
@@ -11,7 +11,7 @@
 # then use that index for each data row. Handle rowspan-merged cells
 # (game cell shared across consecutive rows of the same elim).
 #
-# Output: diff report — what's in Fandom but not in our eliminations.csv,
+# Output: diff report - what's in Fandom but not in our eliminations.csv,
 # and what's in our data but not in Fandom.
 # =========================================================
 import re
@@ -38,7 +38,7 @@ def build_season_map():
     def add(k, sid):
         k = k.lower().strip()
         if k in seen_keys:
-            # Ambiguous — keep the FIRST season's claim. Iteration order is
+            # Ambiguous - keep the FIRST season's claim. Iteration order is
             # chronological (seasons.csv is sorted), so the unstripped key
             # ("Battle of the Seasons") goes to s05 BotS, while the
             # parenthetical year variant ("Battle of the Seasons (2012)")
@@ -360,7 +360,7 @@ def diff_vs_ours(truth):
         appearances.loc[appearances["finish"] == "Champion Mercenary", "player"].astype(str),
     ))
 
-    # Vote / face-off seasons (S5, S6, S9, S16) have no 1v1 elimination games —
+    # Vote / face-off seasons (S5, S6, S9, S16) have no 1v1 elimination games -
     # our scrape pairs the daily/face-off winner with the voted-out player,
     # fabricating H2H matchups Fandom never records. build_events.py already
     # skips these from rating events; exclude them here too so the audit diff
@@ -374,7 +374,7 @@ def diff_vs_ours(truth):
         w, l, sid = r.get("winner"), r.get("loser"), r["season_id"]
         if not (isinstance(w, str) and isinstance(l, str)):
             continue
-        if sid in gameless_seasons:  # vote/face-off season — not real H2H
+        if sid in gameless_seasons:  # vote/face-off season - not real H2H
             continue
         if gmap.get(w) != gmap.get(l):  # filter mixed-gender cross-product
             continue
@@ -387,7 +387,7 @@ def diff_vs_ours(truth):
     for _, r in truth.iterrows():
         if r["fandom_result"] not in ("W", "L"):
             continue
-        if r["season_id"] in gameless_seasons:  # vote/face-off — excluded both sides
+        if r["season_id"] in gameless_seasons:  # vote/face-off - excluded both sides
             continue
         if gmap.get(r["player"]) != gmap.get(r["opponent"]):
             continue

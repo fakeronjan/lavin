@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — audit daily wins vs Fandom personal-page Challenge History.
+# LAVIN - audit daily wins vs Fandom personal-page Challenge History.
 #
 # For each player with a cached Fandom page, parse the per-season
 # "===Challenge History===" tables. Rows where Result column contains

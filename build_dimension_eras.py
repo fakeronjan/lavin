@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — per-dimension ERA breakdown.
+# LAVIN - per-dimension ERA breakdown.
 #
 # Runs the WLS solver 4 extra times, each isolating ONE event type
 # (other 3 zeroed). For each player, computes their EOS-positive-sum
@@ -7,7 +7,7 @@
 # their career rating leans on dailies vs eliminations vs making
 # finals vs winning finals.
 #
-# CAVEAT: these dimension ERAs are NOT additive — WLS is non-linear and
+# CAVEAT: these dimension ERAs are NOT additive - WLS is non-linear and
 # events interact through the regression. But they're directionally
 # meaningful as "this player is daily-driven" / "elim-driven" signals.
 #
@@ -27,7 +27,7 @@ WINDOW = 60
 EOS_ONLY = True
 DECAY = True  # 4-season linear-decay window (2026-05-12 tuning, see lavin.py)
 
-# Total scales — committed equal-weight tuning
+# Total scales - committed equal-weight tuning
 TOTAL_SCALES = {
     "elimination":  1.0,
     "daily":        1.24,
@@ -35,7 +35,7 @@ TOTAL_SCALES = {
     "final_field":  0.31,
 }
 
-# Component variants — Nx the chosen dimension, keep OTHERS at baseline.
+# Component variants - Nx the chosen dimension, keep OTHERS at baseline.
 # This keeps the full event set in the regression (vs. zeroing-out which
 # makes data sparse and produces weird ratings for thin-sample players).
 # A player whose rating rises sharply under one of these is "leveraged"

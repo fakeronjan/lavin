@@ -1,16 +1,16 @@
 # =========================================================
-# LAVIN — generate the JSON files the docs/ microsite consumes.
+# LAVIN - generate the JSON files the docs/ microsite consumes.
 #
 # Outputs under docs/data/:
-#   current_standings.json   — most recent end-of-season ranking
-#   champions.json           — winners by season (per gender)
-#   goat_players.json        — top 50 by ERA (career stature) per gender
-#   goat_player_seasons.json — top 50 player-seasons by end-of-season rating
-#   seasons_index.json       — list of all seasons (id, year, name, etc.)
-#   seasons/<season_id>.json — end-of-season standings (per-cast) plus
+#   current_standings.json   - most recent end-of-season ranking
+#   champions.json           - winners by season (per gender)
+#   goat_players.json        - top 50 by ERA (career stature) per gender
+#   goat_player_seasons.json - top 50 player-seasons by end-of-season rating
+#   seasons_index.json       - list of all seasons (id, year, name, etc.)
+#   seasons/<season_id>.json - end-of-season standings (per-cast) plus
 #                              snapshot history
-#   players_index.json       — list of all rated players
-#   players/<safe_name>.json — per-player career timeline + season-by-season
+#   players_index.json       - list of all rated players
+#   players/<safe_name>.json - per-player career timeline + season-by-season
 # =========================================================
 import json
 import re
@@ -29,7 +29,7 @@ DOCS_PLAYERS = DOCS_DATA / "players"
 # Was 30 when we computed per-elim snapshots (hundreds per player). With the
 # EOS-only solver, snapshots are 1 per season the player was rated in
 # (~6-30 typical). Lowered to 1 so one-and-done newcomers (incl. S41 champ
-# Yeremi Hykel) get profile pages — clickable cells in Standings / Champions
+# Yeremi Hykel) get profile pages - clickable cells in Standings / Champions
 # / GOAT Best Seasons would otherwise dead-end. Page-eligibility is decoupled
 # from rating-quality filters (PEAK_MIN_SNAPSHOTS in derive_views.py).
 PLAYER_PAGE_MIN_SNAPSHOTS = 1
@@ -101,9 +101,9 @@ def parse_rank_from_finish(finish):
 def standardize_finish(text):
     """
     Return (label, episode) where:
-      label   — "Champion" / "Runner-up" / "3rd" / "Eliminated" / "Disqualified" /
+      label   - "Champion" / "Runner-up" / "3rd" / "Eliminated" / "Disqualified" /
                 "Quit" / "Medical DQ" / "" depending on the raw text
-      episode — the in-season episode portion (e.g. "I Will Always Love You"),
+      episode - the in-season episode portion (e.g. "I Will Always Love You"),
                 or "" if not present in source.
     """
     if not isinstance(text, str) or not text.strip():
@@ -145,7 +145,7 @@ def compute_eliminated_by(eliminations, gender_map, appearances):
     ordered list of opponents who beat them in their FINAL season elim.
 
     Individual format: 1 name.
-    Pair format: 2 names (the full winning pair — cross-product rows in
+    Pair format: 2 names (the full winning pair - cross-product rows in
     eliminations.csv mean both M and F winners appear as the "winner" of
     rows where this player is the loser in the same elim episode).
     Same-gender opponents are listed first.
@@ -192,7 +192,7 @@ def compute_elim_positions(eliminations, gender_map, appearances):
     gender, and total is the count of same-gender players who got
     eliminated that season (i.e. didn't make the finals).
 
-    Players who reached the FINALS are excluded — their final placement
+    Players who reached the FINALS are excluded - their final placement
     (Champion / Runner-up / 3rd / etc.) is the right signal for them.
     Some seasons (Total Madness, finales w/ multi-stage purgatory) have
     elim-chart "loser" rows during the final itself; we mustn't tag the
@@ -222,7 +222,7 @@ def compute_elim_positions(eliminations, gender_map, appearances):
                     continue
                 if gender_map.get(loser) != g:
                     continue
-                # Skip players who actually made the finals — their loss
+                # Skip players who actually made the finals - their loss
                 # was a finale-stage event, not an elimination.
                 if (sid, loser) in final_finishers:
                     continue
@@ -280,7 +280,7 @@ def main():
     for c in pre_anchor_champs:
         pre_anchor_titles_by_player[c["player"]] = pre_anchor_titles_by_player.get(c["player"], 0) + 1
 
-    # Elim positions per (season, player) — used for "1st eliminated" / "3rd of 12" labels
+    # Elim positions per (season, player) - used for "1st eliminated" / "3rd of 12" labels
     elim_pos = compute_elim_positions(eliminations, gmap, appearances)
     # Who eliminated each player in their final loss of the season
     eliminated_by_map = compute_eliminated_by(eliminations, gmap, appearances)
@@ -294,7 +294,7 @@ def main():
     e_l_g = eliminations["loser"].map(gmap)
     same_gender_elims = eliminations[(e_w_g.isin(["M","F"])) & (e_w_g == e_l_g)]
     # Exclude merc-cameo rows from per-season W-L. They didn't compete in
-    # that season — the row exists so compute_eliminated_by can attribute
+    # that season - the row exists so compute_eliminated_by can attribute
     # the contestant's exit, not so the merc's seasonal record inflates.
     # merc_pairs is built below at line ~314; build a local copy here.
     _merc_pairs_local = set(zip(
@@ -318,7 +318,7 @@ def main():
         dailies.groupby(["season_id", "winner"]).size().to_dict()
     )
 
-    # Mercenary cameos (one-shot Arena guest spots — see build_events.py
+    # Mercenary cameos (one-shot Arena guest spots - see build_events.py
     # MERCENARY_FINISH_TAGS) are excluded from rank/rating displays.
     # Their per-snapshot rating is dominated by prior-career rolling-window
     # carryover, not a real S39 performance, and we already exclude them
@@ -331,7 +331,7 @@ def main():
 
     # Per-(season, player) rating-rank within same gender. Built from each
     # season's end-of-season snapshot, filtered to that season's CAST (skip
-    # rolling-window ghosts — players whose events from a few seasons back
+    # rolling-window ghosts - players whose events from a few seasons back
     # still influence later snapshots). Matches the cast filter used for
     # standings_at_end so player-page and standings tabs show the same
     # "X of Y" total.
@@ -355,8 +355,8 @@ def main():
     # Mid-season partner sequence (from audit_partner_changes.py).
     # Maps (season_id, player) → ordered list of partner names. Preserves
     # X→Y→X back-to-original transitions. Applied across ALL seasons where
-    # detected — including rotation-format seasons (S36 Double Agents,
-    # S37 Spies Lies & Allies, S41 Vets & New Threats) — because that
+    # detected - including rotation-format seasons (S36 Double Agents,
+    # S37 Spies Lies & Allies, S41 Vets & New Threats) - because that
     # season-long rotation IS interesting signal.
     partner_history = {}
     pc_path = DATA / "partner_changes.csv"
@@ -369,7 +369,7 @@ def main():
 
     DOCS_SEASONS.mkdir(parents=True, exist_ok=True)
     DOCS_PLAYERS.mkdir(parents=True, exist_ok=True)
-    # Wipe any prior player JSONs — players who fall below the eligibility
+    # Wipe any prior player JSONs - players who fall below the eligibility
     # threshold (PLAYER_PAGE_MIN_SNAPSHOTS) on a re-rate would otherwise
     # leave stale files behind that disagree with the current player_index.
     for stale in DOCS_PLAYERS.glob("*.json"):
@@ -434,7 +434,7 @@ def main():
                 end_snap[(end_snap["gender"] == g) & (end_snap["player"].isin(cast_players))]
                 .sort_values("rating", ascending=False)
             )
-            # Split mercenaries out — they get rank=None/rating=None below
+            # Split mercenaries out - they get rank=None/rating=None below
             # and are appended to the end of the standings array. Non-mercs
             # are ranked 1..N where N is the non-merc count for this gender.
             g_snap_rows = list(g_snap.iterrows())
@@ -444,7 +444,7 @@ def main():
                            if (sid, str(r["player"])) in merc_pairs]
             # Some mercs may not have a S39 EOS rating row at all (their one
             # elim left them below MIN_EVENTS_PER_PLAYER in the rolling
-            # window). Still surface them in standings — they were on the
+            # window). Still surface them in standings - they were on the
             # cast, just with no published rating to display.
             rated_players_g = {str(r["player"]) for _, r in g_snap_rows}
             unrated_merc_players = [
@@ -482,7 +482,7 @@ def main():
                 if not partner and ph:
                     partner = ph[0]
                 # Manual team-roster override (for team-format seasons that
-                # the wiki mis-encodes as pairs — see MANUAL_TEAM_ROSTERS).
+                # the wiki mis-encodes as pairs - see MANUAL_TEAM_ROSTERS).
                 if (sid, p) in _PLAYER_TEAM_OVERRIDE:
                     team = _PLAYER_TEAM_OVERRIDE[(sid, p)]
                     partner = ""
@@ -521,7 +521,7 @@ def main():
     print(f"  Wrote {len(list(DOCS_SEASONS.glob('*.json')))} season files")
 
     # ---------------------------------------------------------
-    # champions.json — winners + runners-up by season + running championship totals
+    # champions.json - winners + runners-up by season + running championship totals
     # ---------------------------------------------------------
     champs = {"M": [], "F": []}
     # Walk seasons in ASCENDING order so we can accumulate per-player champ
@@ -617,7 +617,7 @@ def main():
     print(f"  Wrote champions.json (M winners:{n_w_m}, F winners:{n_w_f})")
 
     # ---------------------------------------------------------
-    # goat_players.json — top 50 ERA by gender
+    # goat_players.json - top 50 ERA by gender
     # ---------------------------------------------------------
     # Pre-compute championships and finals-reached counts per player.
     def _has_winner(s):
@@ -641,7 +641,7 @@ def main():
     # NOTE: pre-S5 wins are already in appearances.csv (S2-S4 contestants
     # have "Winners" finish text), so champ_counts already counts them.
     # The pre_anchor_titles_by_player map is used ONLY for Champions list
-    # display (flagging pre-S5 rows for the footnote) — DON'T fold here.
+    # display (flagging pre-S5 rows for the footnote) - DON'T fold here.
 
     # Per-dimension ERAs (from build_dimension_eras.py)
     dim_eras_path = DATA / "dimension_eras.csv"
@@ -676,7 +676,7 @@ def main():
     print(f"  Wrote goat_players.json")
 
     # ---------------------------------------------------------
-    # goat_player_seasons.json — top 50 best player-seasons by end-of-season rating
+    # goat_player_seasons.json - top 50 best player-seasons by end-of-season rating
     # ---------------------------------------------------------
     # For each (player, season) compute end-of-season rating, then rank top 50 per gender
     best_seasons = []
@@ -721,7 +721,7 @@ def main():
     print(f"  Wrote goat_player_seasons.json")
 
     # ---------------------------------------------------------
-    # current_standings.json — end of S41 (most recent season)
+    # current_standings.json - end of S41 (most recent season)
     # ---------------------------------------------------------
     latest_sid = s5plus.iloc[0]["season_id"]
     latest_file = DOCS_SEASONS / f"{latest_sid}.json"
@@ -730,7 +730,7 @@ def main():
         print(f"  Wrote current_standings.json (mirrors {latest_sid})")
 
     # ---------------------------------------------------------
-    # players_index.json — list of rated players (≥ min snapshots)
+    # players_index.json - list of rated players (≥ min snapshots)
     # ---------------------------------------------------------
     player_index = []
     elig = views[views["era_n_snapshots"] >= PLAYER_PAGE_MIN_SNAPSHOTS]
@@ -754,13 +754,13 @@ def main():
     # ---------------------------------------------------------
     # Clean eliminations for player-level W/L counts.
     # Three problems with raw counts:
-    #  1) Same-gender filter — raw file has MM+MF+FM+FF cross-product per
+    #  1) Same-gender filter - raw file has MM+MF+FM+FF cross-product per
     #     pair-elim; only the same-gender rows are real.
-    #  2) Multiple opponents per elim — in team-format elims (e.g. S21
+    #  2) Multiple opponents per elim - in team-format elims (e.g. S21
     #     Rail Slide: CT + Adam K beat Evan AND Nehemiah), CT appears as
     #     winner against 2 different losers IN THE SAME ELIM. He won ONE
     #     elim, not two. Dedup by (season, episode, role).
-    #  3) Malformed-episode rows where episode is icon-syntax junk —
+    #  3) Malformed-episode rows where episode is icon-syntax junk -
     #     these are real elim outcomes; we keep them but they should not
     #     dedupe against unrelated rows. The (season, episode, role) key
     #     handles them naturally.
@@ -775,7 +775,7 @@ def main():
 
     # Pre-build a partner lookup: (season, pair_id) → list of players
     # We resolve a player's partner by finding the OTHER player with same pair_id in same season.
-    # Critical: `str(NaN) == 'nan'` so naive `or ""` fallback fails — every
+    # Critical: `str(NaN) == 'nan'` so naive `or ""` fallback fails - every
     # individual-format season ends up with NaN pair_ids all being grouped
     # together under "nan". Use pd.isna() to handle NaN explicitly.
     pair_lookup = {}
@@ -804,7 +804,7 @@ def main():
             # Mercenary cameos: blank the rating to match standings/PEAK/ERA
             # treatment, but still surface the season in player history even
             # if there's no published rating row (mercs with too few events
-            # in the rolling window — e.g. CT in S39 — wouldn't otherwise
+            # in the rolling window - e.g. CT in S39 - wouldn't otherwise
             # show up in their own player profile).
             if not len(sub) and not is_merc_season:
                 continue
@@ -829,7 +829,7 @@ def main():
             if not partner and partners_history:
                 partner = partners_history[0]
             # Manual team-roster override (for team-format seasons that
-            # the wiki mis-encodes as pairs — see MANUAL_TEAM_ROSTERS).
+            # the wiki mis-encodes as pairs - see MANUAL_TEAM_ROSTERS).
             if (sid, p) in _PLAYER_TEAM_OVERRIDE:
                 team = _PLAYER_TEAM_OVERRIDE[(sid, p)]
                 partner = ""
@@ -865,7 +865,7 @@ def main():
             })
         seasons_data.sort(key=lambda x: x["season_num"], reverse=True)
 
-        # Snapshot history (rating timeline) — filtered to seasons the
+        # Snapshot history (rating timeline) - filtered to seasons the
         # player actually participated in. The solver publishes a rating
         # at every snapshot where the player's events are still in the
         # rolling window, which includes ~6 seasons after their last

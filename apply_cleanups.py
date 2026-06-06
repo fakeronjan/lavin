@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — apply cleanups to all derived data files in place:
+# LAVIN - apply cleanups to all derived data files in place:
 #   1. Player aliases (Frank Sweeney → Frank Fox, etc.)
 #   2. Drop rows with malformed player names (icon syntax leaks, non-player
 #      strings like "Champs vs. Pros" that came from edge-case cells)
@@ -27,7 +27,7 @@ MALFORMED_RE = re.compile(r"50px\|link=|^link=|<br|\{\{|\}\}")
 # placeholders).
 # Format: {(season_id, episode_str): reason_comment}
 NON_ELIM_ROWS = {
-    ("s11_the_gauntlet_2", "1"): "Royal Rumble captain-selection ceremony (both men's + women's brackets — Adam L vs Alton and Jo vs Ruthie were captain candidates, not Gauntlet contestants)",
+    ("s11_the_gauntlet_2", "1"): "Royal Rumble captain-selection ceremony (both men's + women's brackets - Adam L vs Alton and Jo vs Ruthie were captain candidates, not Gauntlet contestants)",
 }
 
 # Verified elimination corrections (vs Fandom + season wikitext). Each applies
@@ -37,7 +37,7 @@ NON_ELIM_ROWS = {
 #   scraper paired two CO-LOSERS of the same multi-team elimination as if one
 #   beat the other (verified: both show "Eliminated in <same episode>").
 # ADD_ELIM_ROWS: verified (season, episode, gender, game, winner, loser) rows
-#   our scraper missed — the actual winner-vs-each-loser pairs.
+#   our scraper missed - the actual winner-vs-each-loser pairs.
 # FLIP_ELIM_PAIRS: (season, recorded_winner, recorded_loser) to swap, where we
 #   recorded the result backwards.
 DROP_ELIM_PAIRS = {
@@ -114,7 +114,7 @@ def main():
     aliases = load_aliases()
     print(f"Loaded {len(aliases)} aliases\n")
 
-    # appearances.csv — keep all rows even if name becomes invalid (might be source='cast')
+    # appearances.csv - keep all rows even if name becomes invalid (might be source='cast')
     # But drop rows where the canonical player name is empty after cleaning.
     kept, drop = cleanup_file(
         DATA / "appearances.csv",
@@ -124,7 +124,7 @@ def main():
     )
     print(f"  appearances.csv:  kept {kept}, dropped {drop}")
 
-    # eliminations.csv — both winner and loser need to be valid
+    # eliminations.csv - both winner and loser need to be valid
     kept, drop = cleanup_file(
         DATA / "eliminations.csv",
         name_cols=["winner", "loser"],
@@ -133,7 +133,7 @@ def main():
     )
     print(f"  eliminations.csv: kept {kept}, dropped {drop}")
 
-    # dailies.csv — only winner is required
+    # dailies.csv - only winner is required
     kept, drop = cleanup_file(
         DATA / "dailies.csv",
         name_cols=["winner"],

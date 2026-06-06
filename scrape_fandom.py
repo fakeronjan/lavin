@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — FANDOM SCRAPER
+# LAVIN - FANDOM SCRAPER
 # Source: The Challenge Fandom wiki (https://thechallenge.fandom.com)
 # Access: MediaWiki API, no auth, custom UA to bypass Cloudflare-on-HTML
 # =========================================================
@@ -140,7 +140,7 @@ def _cell_colspan(cell):
 def _detect_pair_partner_columns(table):
     """
     Detect "Male partner | Female partner | Finish" column structure.
-    Returns (m_end_col, f_end_col) — logical columns < m_end are M, columns
+    Returns (m_end_col, f_end_col) - logical columns < m_end are M, columns
     < f_end are F, anything >= is Finish/other. Returns None if not such a
     table.
     """
@@ -190,7 +190,7 @@ _NAME_OVERRIDES_BY_SEASON = {
     # who share a first or last name), pin the short form to the intended
     # full name here. Add entries as new seasons surface ambiguity.
     "s25_free_agents": {
-        # "Johnny" alone vs "Bananas" — Bananas is Johnny Bananas, plain
+        # "Johnny" alone vs "Bananas" - Bananas is Johnny Bananas, plain
         # "Johnny" is Johnny Reilly.
         "Johnny": "Johnny Reilly",
         # "Brandon" alone refers to Nelson; Swift is referenced as "Swift".
@@ -509,7 +509,7 @@ def parse_season_winners(wikitext):
 
     Necessary because some team-format seasons (e.g. The Ruins S18, The
     Inferno 3 S14) put the team name ("Champions"/"Challengers") in the
-    cast table where the finish cell would otherwise live — so cast-table-
+    cast table where the finish cell would otherwise live - so cast-table-
     derived finish text never catches that the team won. The infobox
     `|winner` field is the canonical source.
 
@@ -654,7 +654,7 @@ def _extract_contestants_from_row(cells, table_gender, pair_cols=None):
         plain = " ".join(c.strip_code().split())
         # Strip residual HTML tags and wikicode markers (e.g. unclosed
         # <small> in S36/S38/S39/S41 finish cells where the closing
-        # </small> is missing — strip_code leaves "<small>''" between
+        # </small> is missing - strip_code leaves "<small>''" between
         # "Eliminated" and "in", breaking the substring match).
         plain = re.sub(r"<[^>]+>", " ", plain)
         plain = re.sub(r"''+", " ", plain)
@@ -662,7 +662,7 @@ def _extract_contestants_from_row(cells, table_gender, pair_cols=None):
         if not plain:
             continue
         pl = plain.lower()
-        # Be precise here — "champion" and "finalist" as bare keywords match
+        # Be precise here - "champion" and "finalist" as bare keywords match
         # bio text like "1x champion" in player cells. Use phrases or
         # leading-position-anchored matches that only fire on actual finish
         # cell content.
@@ -734,7 +734,7 @@ def _table_caption(table_text):
     """
     Return the |+ caption of a wikitable. Caption appears on its own line
     BEFORE the first row separator (|-) or first data cell (| / !). Stop
-    looking after that — otherwise nested tables' captions leak in.
+    looking after that - otherwise nested tables' captions leak in.
     """
     lines = table_text.splitlines()
     # Skip the {| opening line
@@ -770,9 +770,9 @@ def _propagate_rowspans(rows):
     This post-processing pass detects rowspan cells and appends their
     content to subsequent rows so downstream extractors see the full set
     of fields. Position-faithful column reconstruction isn't required for
-    our use case — we just need the finish text to be visible.
+    our use case - we just need the finish text to be visible.
 
-    Each row is annotated with `_native_len` (int) — the number of cells
+    Each row is annotated with `_native_len` (int) - the number of cells
     that came from THIS physical row, before rowspan content was appended.
     Downstream parsers that care about positional anchors (winner/loser
     is the last 2 cells of THIS row) should use cells[:_native_len].
@@ -850,7 +850,7 @@ def _iter_table_rows(table_text):
             if r:
                 rows.append(r)
         elif s.startswith("|+"):
-            # caption — not a data cell
+            # caption - not a data cell
             continue
         elif s.startswith("|") or s.startswith("!"):
             # New cell(s). `|` for data cells, `!` for header cells.
@@ -1010,7 +1010,7 @@ def _cell_plain(cell):
 #   - The first 1-2 player cells after the gender column are the daily
 #     winners (prize and/or safety)
 # Middle columns (tribunal, nominees, voted-in) vary by format and aren't
-# needed for the rating itself — captured separately if we want them later.
+# needed for the rating itself - captured separately if we want them later.
 
 
 def _is_player_cell(cell):
@@ -1060,7 +1060,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
 
     # S16 The Island uses a "Face-off" chart format whose outcome columns
     # [Winner | Key Stolen | Saved | Eliminated] don't map cleanly to binary
-    # H2H — the chart shows 3-4 nominees per face-off with no single named
+    # H2H - the chart shows 3-4 nominees per face-off with no single named
     # opponent. Detected for future reference, but currently parsed via the
     # default last-2-cells logic (which is wrong but at least non-misleading).
     is_face_off_chart = "Face-off nominees" in elim_table and "Key Stolen" in elim_table
@@ -1083,7 +1083,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
         first_plain = _cell_plain(cells[0])
         # Skip the chart header row ("Episode" / "#" / "Elimination chart")
         # but NOT continuation rows whose first cell is empty (style-only)
-        # or has colspan attributes — those are legitimate sub-rows in
+        # or has colspan attributes - those are legitimate sub-rows in
         # multi-row episodes (S29 X-It ep 11/12, S27 Final-stage events).
         if first_plain.lower() in ("episode", "#"):
             continue
@@ -1093,7 +1093,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
         # Detect continuation row: first cell isn't a real episode token.
         # Episode column often has rowspan=N (especially in modern multi-elim
         # charts like S40); continuation rows then start with a player icon,
-        # an "Era I/II" label, a gender label, etc. — never a number/range.
+        # an "Era I/II" label, a gender label, etc. - never a number/range.
         # A real episode is short and starts with a digit (or is "M"/"F"
         # under team-format charts that prefix with gender).
         first_lower = first_plain.lower()
@@ -1109,12 +1109,12 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
 
         # For positional winner/loser detection, look only at cells from
         # THIS physical row (exclude rowspan-appended content bled in from
-        # prior rows above — e.g. S30 Dirty 30 "The Reel World" had Jenna
+        # prior rows above - e.g. S30 Dirty 30 "The Reel World" had Jenna
         # Compono's icon bleeding into the men's elim row).
         native_len = getattr(cells, "_native_len", len(cells))
 
         # Skip rows where the elimination collapses to N/A. Check only the
-        # FINAL cell of the native row — that's the "Eliminated" column. A
+        # FINAL cell of the native row - that's the "Eliminated" column. A
         # mid-row N/A (e.g. S18 ep 8/9 row 18 where "Voted In" was N/A but
         # Bananas-vs-Dunbar still happened) doesn't mean elim was skipped.
         # Rowspan-bled cells from prior rows above are also excluded by
@@ -1183,7 +1183,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
         else:
             daily_range_end = len(cells)
 
-        # Daily winners — three chart shapes:
+        # Daily winners - three chart shapes:
         #   1) Team-format with team-NAME text at cell[2] (S20 Cutthroat:
         #      "Red Team"/"Grey Team"/"Blue Team"; no player icons in the
         #      Winners cell). The cells that DO have icons after position 2
@@ -1191,7 +1191,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
         #      cast roster instead.
         #   2) Pair-format with no Gender column at cell[2] (S19/S22/S26/
         #      S28/S38/S41 etc.). cell[2] is the Winners pair; cells after
-        #      it are dome/exile/zone NOMINEES — emit only ONE row.
+        #      it are dome/exile/zone NOMINEES - emit only ONE row.
         #   3) Individual gender-split charts (S35/S40 etc.). cell[2] is a
         #      "M"/"F" gender label; cells[3] and [4] are prize/safety.
         team_roster_for_row = None
@@ -1247,7 +1247,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
             # roster on row 1), the continuation row holds female-side gulag
             # NOMINEES, not daily winners. Suppress emission there entirely.
             if is_continuation and team_lower:
-                pass  # skip — nominee data, not daily winners
+                pass  # skip - nominee data, not daily winners
             else:
                 if is_continuation:
                     start_idx = 1; n_emit = 2
@@ -1261,7 +1261,7 @@ def parse_game_summary_individual(wikitext, team_rosters=None, exit_episodes=Non
                 # Bug 2 fix (S23 BotS-style): the "Nominated pair" / "Last-place
                 # pair" cells get mis-labeled as prize/safety winners. Drop any
                 # daily-winner players who are ALSO arena participants in this
-                # same row — by show rules, daily prize/safety means you avoid
+                # same row - by show rules, daily prize/safety means you avoid
                 # arena, so you can't be both daily winner AND arena player.
                 same_row_arena = set()
                 if not elim_skipped:
@@ -1332,7 +1332,7 @@ def scrape_season(season_id, page_name, out_dir):
 
     # Build team rosters for team-format elim charts (S20 Cutthroat puts
     # "Red Team" / "Grey Team" / "Blue Team" text in the daily-winners cell
-    # instead of player icons — we expand to roster via this map).
+    # instead of player icons - we expand to roster via this map).
     team_rosters = {}
     cast_players = []
     for c in contestants:
@@ -1353,7 +1353,7 @@ def scrape_season(season_id, page_name, out_dir):
             team_rosters[tn] = list(players)
 
     # Players who exited mid-season (QUIT / MED-DQ / withdrew) per Episode
-    # Progress table — filters out over-credits in team-roster expansions
+    # Progress table - filters out over-credits in team-roster expansions
     # (S15 Coral, S20 Shauvon).
     exit_episodes = parse_episode_progress(wt, cast_players=cast_players)
 

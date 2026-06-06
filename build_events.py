@@ -1,13 +1,13 @@
 # =========================================================
-# LAVIN — build the pairwise events.csv that feeds the WLS solver.
+# LAVIN - build the pairwise events.csv that feeds the WLS solver.
 #
 # Inputs (from build_appearances.py):
-#   data/appearances.csv     — (season, player, gender, finish, team, pair_id, ...)
-#   data/eliminations.csv    — (season, episode, gender, game, winner, loser)
-#   data/dailies.csv         — (season, episode, challenge, format, role, winner)
+#   data/appearances.csv     - (season, player, gender, finish, team, pair_id, ...)
+#   data/eliminations.csv    - (season, episode, gender, game, winner, loser)
+#   data/dailies.csv         - (season, episode, challenge, format, role, winner)
 #
 # Output:
-#   data/events.csv  — one pairwise row per event:
+#   data/events.csv  - one pairwise row per event:
 #     (season_id, season_episode_id, player_a, player_b, outcome, weight,
 #      event_type, format)
 #     outcome = 1 means player_a beat player_b; weight is sqrt-normalized.
@@ -39,7 +39,7 @@ WEIGHT_DAILY_BASE = 0.2
 MIN_SEASON_NUM = 5
 
 # Cameo-mechanic finish tags. Players with these finishes appeared in just one
-# Arena elimination and otherwise had zero participation in the season — they
+# Arena elimination and otherwise had zero participation in the season - they
 # must NOT be included in daily/final cross-products (which would credit them
 # with phantom losses against full-season cast members). Their real elim still
 # generates an event via build_elimination_events. Add new tags here if other
@@ -74,7 +74,7 @@ def episode_order(ep_str):
 
 
 # Map placement keywords to ranks (1 is best). None = not a final placement.
-# Allow plural forms — pair-format seasons use "Winners" / "Runners-Up" because
+# Allow plural forms - pair-format seasons use "Winners" / "Runners-Up" because
 # both members of the winning pair share the placement.
 FINAL_RANK_PATTERNS = [
     (re.compile(r"\bwinners?\b", re.I), 1),
@@ -102,7 +102,7 @@ def parse_final_rank(finish_text):
 def elim_episode_num(finish_text):
     """
     For non-final players, parse the elimination episode if encoded in the
-    finish text. Mostly we use eliminations.csv directly — this is just a
+    finish text. Mostly we use eliminations.csv directly - this is just a
     fallback for DQs and quits that don't appear in the elim chart.
     """
     return None  # not currently used; here for future extension
@@ -119,7 +119,7 @@ def compute_active_sets(season_appearances, season_elims):
 
     Players with no elimination row are considered active throughout the
     season (finalists, DQ-on-last-day, etc.). Mercenaries (one-shot Arena
-    cameos) are excluded — they were physically present only for their one
+    cameos) are excluded - they were physically present only for their one
     elim and never competed in dailies.
     """
     merc_players = {str(r["player"]).strip()
@@ -175,7 +175,7 @@ def build_final_events(appearances, gender_map):
     """
     Two kinds of finals events:
 
-      `final_within`: pairs of ranked finishers — rank-i beats rank-j for i<j.
+      `final_within`: pairs of ranked finishers - rank-i beats rank-j for i<j.
                       Weight WEIGHT_FINAL_WITHIN (default 2.0).
       `final_field`:  each finalist beats each non-finalist of the same
                       gender on the same season. Weight WEIGHT_FINAL_FIELD
@@ -216,7 +216,7 @@ def build_final_events(appearances, gender_map):
                 })
 
         # Field-expansion: each finalist beats each non-finalist (same gender).
-        # Mercenaries are excluded from the non-finalist pool — they were
+        # Mercenaries are excluded from the non-finalist pool - they were
         # one-shot Arena cameos and never competed for the season's title.
         finalist_set = set(ranks.keys())
         merc_players = {str(r["player"]).strip()
@@ -259,7 +259,7 @@ def build_daily_events(season_dailies, season_appearances, active_at,
         co-ed seasons may not be, but for the rating we treat dailies as
         within-gender signal to match the eliminations they help avoid).
       - Weight per pair = WEIGHT_DAILY_BASE / sqrt(N_winners * N_losers)
-        — see project_lavin_site memory for the rationale.
+        - see project_lavin_site memory for the rationale.
     """
     events = []
     if not len(season_dailies):
@@ -273,10 +273,10 @@ def build_daily_events(season_dailies, season_appearances, active_at,
             continue
 
         # Active set at this episode (eliminated-this-episode players still
-        # count as active for this daily — they were eligible).
+        # count as active for this daily - they were eligible).
         active = active_at.get(eo)
         if active is None:
-            # No elimination rows yet (very early dailies) — use all players
+            # No elimination rows yet (very early dailies) - use all players
             active = set(all_players)
         active = set(active)
 
@@ -347,13 +347,13 @@ def main():
 
     print(f"  {len(appearances)} appearances, {len(eliminations)} elims, {len(dailies)} dailies (S{MIN_SEASON_NUM}+)")
 
-    # Vote-based / face-off seasons have NO 1v1 elimination games — the player
+    # Vote-based / face-off seasons have NO 1v1 elimination games - the player
     # who went home was chosen by vote, not beaten head-to-head. Our scrape
     # pairs the episode's daily/face-off winner with the eliminated player,
     # which fabricates H2H matchups that never happened (verified vs Fandom:
     # e.g. Mark Long shows 11 "elim wins" in S6 but Fandom credits him 2 career
-    # eliminations). Detect these structurally — a season where ZERO elim rows
-    # carry a named game — and skip their rows when generating H2H elim events.
+    # eliminations). Detect these structurally - a season where ZERO elim rows
+    # carry a named game - and skip their rows when generating H2H elim events.
     # Expected matches: S5, S6, S9 (Inner Circle / Team Leaders vote) and S16
     # (The Island face-off + vote). The eliminations themselves are kept in the
     # full df above so active-set/daily computation still knows who left and when.

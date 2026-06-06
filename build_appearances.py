@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — build the consolidated CSVs from per-season raw output.
+# LAVIN - build the consolidated CSVs from per-season raw output.
 #   appearances.csv : one row per (season, player) with gender + finish
 #   eliminations.csv : flat file of every H2H elim across all seasons
 #   dailies.csv     : flat file of every daily win across all seasons
@@ -47,9 +47,9 @@ def build_gender_map(all_data):
     Authoritative gender per player.
 
     Priority order:
-      1. CAST captions (Male/Female/Men/Women tables) — unambiguous label of
+      1. CAST captions (Male/Female/Men/Women tables) - unambiguous label of
          the cast-table half a player appears in.
-      2. ELIM row gender — only as fallback. Reason: in team-format seasons
+      2. ELIM row gender - only as fallback. Reason: in team-format seasons
          (Battle of the Sexes 2, etc.) the elim chart's "gender" column
          labels which TEAM won the daily, not the elim contestants' gender.
          Trusting it as primary mislabels female players as male.
@@ -98,7 +98,7 @@ def build_gender_map(all_data):
 
 
 def fold_in_cast_gender(all_data, gmap):
-    """Backwards-compat shim — cast gender already folded into the first pass."""
+    """Backwards-compat shim - cast gender already folded into the first pass."""
     return 0
 
 
@@ -146,7 +146,7 @@ def build_appearances(all_data, gmap):
                     "source": "cast",
                 }
 
-        # 2) Add players from elims (winners + losers) — fills cast parser gaps
+        # 2) Add players from elims (winners + losers) - fills cast parser gaps
         e = rec["eliminations"]
         if len(e):
             for _, row in e.iterrows():
@@ -158,7 +158,7 @@ def build_appearances(all_data, gmap):
                             "source": "elim_only",
                         }
 
-        # 3) Add players from dailies — fills gaps for players who only won dailies
+        # 3) Add players from dailies - fills gaps for players who only won dailies
         d = rec["dailies"]
         if len(d):
             for _, row in d.iterrows():

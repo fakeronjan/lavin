@@ -1,23 +1,23 @@
 # =========================================================
-# LAVIN — sensitivity analysis on the 4 event-type weights.
+# LAVIN - sensitivity analysis on the 4 event-type weights.
 #
 # Runs 13 variants of the WLS solver and compares Top 20 ERA per gender:
 #
-#   baseline          — current weights (final_field 0.10, others 1.0)
-#   no_dailies        — daily weight = 0
-#   no_eliminations   — elim weight = 0
-#   no_finals_within  — finals_within weight = 0
-#   no_finals_field   — finals_field weight = 0  (effectively current * 0)
-#   dailies_0.5x      — half weight on dailies
-#   dailies_2x        — double weight on dailies
-#   elims_0.5x        — half weight on elims
-#   elims_2x          — double weight on elims
-#   within_0.5x       — half weight on finals_within
-#   within_2x         — double weight on finals_within
-#   field_0.5x        — finals_field scale 0.05 (half of 0.10)
-#   field_2x          — finals_field scale 0.20 (double of 0.10)
+#   baseline          - current weights (final_field 0.10, others 1.0)
+#   no_dailies        - daily weight = 0
+#   no_eliminations   - elim weight = 0
+#   no_finals_within  - finals_within weight = 0
+#   no_finals_field   - finals_field weight = 0  (effectively current * 0)
+#   dailies_0.5x      - half weight on dailies
+#   dailies_2x        - double weight on dailies
+#   elims_0.5x        - half weight on elims
+#   elims_2x          - double weight on elims
+#   within_0.5x       - half weight on finals_within
+#   within_2x         - double weight on finals_within
+#   field_0.5x        - finals_field scale 0.05 (half of 0.10)
+#   field_2x          - finals_field scale 0.20 (double of 0.10)
 #
-# Output: data/sensitivity.html — side-by-side Top 20 comparison.
+# Output: data/sensitivity.html - side-by-side Top 20 comparison.
 # =========================================================
 import json
 from pathlib import Path
@@ -153,7 +153,7 @@ def write_comparison_html(results, gmap):
                         arrow = f" <span style='color:{arrow_color};font-size:10px'>{arrow_str}{abs(delta)}</span>"
                     cells.append(f"<td class='num'>#{rk[0]}{arrow}</td>")
                 else:
-                    cells.append("<td class='empty'>—</td>")
+                    cells.append("<td class='empty'>-</td>")
             rows.append("<tr>" + "".join(cells) + "</tr>")
         sections.append(f"""
         <section>
@@ -169,7 +169,7 @@ def write_comparison_html(results, gmap):
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>LAVIN — Sensitivity Analysis</title>
+<title>LAVIN - Sensitivity Analysis</title>
 <style>
   body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
          background: #f8f8f6; color: #1a1a1a; padding: 24px; max-width: 1800px; margin: 0 auto; font-size: 13px; }}
@@ -190,7 +190,7 @@ def write_comparison_html(results, gmap):
 </style>
 </head>
 <body>
-<h1>LAVIN — Sensitivity Analysis</h1>
+<h1>LAVIN - Sensitivity Analysis</h1>
 <div class="legend">
   <p><strong>Methodology:</strong> baseline runs the EOS-only solver with current weights
      (elim 1.0 / daily 1.0 / finals_within 1.0 / finals_field 0.10). Each other variant
@@ -199,7 +199,7 @@ def write_comparison_html(results, gmap):
   <p><strong>Reading:</strong> each cell shows the player's rank under that variant.
      <span style="color:#2e7d32">▲N</span> = moved up N spots vs baseline.
      <span style="color:#c62828">▼N</span> = moved down N spots vs baseline.
-     "—" = fell out of the top 20.</p>
+     "-" = fell out of the top 20.</p>
   <p><strong>What to look for:</strong> who drops out of top 20 when <em>dailies</em> are zeroed?
      They're daily-driven. Who's unaffected by zeroing <em>finals_within</em>? Their rating
      doesn't lean on championship victories. Etc.</p>

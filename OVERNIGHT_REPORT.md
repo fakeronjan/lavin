@@ -1,4 +1,4 @@
-# LAVIN — Overnight Audit Report
+# LAVIN - Overnight Audit Report
 **Date:** 2026-05-12 (overnight)
 **Triggered by:** Adam Kuhn / Zach Nichols / Alton Williams data quality concerns
 
@@ -31,7 +31,7 @@
 
 **Root cause:** Team-format cast tables put the team's finish on the first row of the team using `rowspan=N`. Subsequent team-member rows had no finish cell. The parser missed those finishes.
 
-**Fix:** `_propagate_rowspans` post-processing pass — when a cell has `rowspan=N>1`, append its content to the next N-1 rows.
+**Fix:** `_propagate_rowspans` post-processing pass - when a cell has `rowspan=N>1`, append its content to the next N-1 rows.
 
 ### 3. Player alias merging
 **Symptom:** Frank Fox and Frank Sweeney listed as separate players (same person, different Fandom icon `link=` aliases in different seasons).
@@ -54,7 +54,7 @@ A bunch of Fandom-vs-our differences are **definitional, not bugs**, and shouldn
 - **`challengewins`** in Fandom infoboxes is total **career daily wins**, NOT championship count. We don't compare against this field.
 - **`eliminations`** in Fandom often excludes team-format gauntlets from a player's elim record. Our model includes every H2H matchup in the chart because that's all legit signal. So Mark Long having 4W/3L in our data vs Fandom's "2 (2 losses)" is correct on our side.
 
-## Touchstone seasons — face validity passing
+## Touchstone seasons - face validity passing
 
 PEAK config (3-season window with decay), top 3 men:
 
@@ -69,12 +69,12 @@ PEAK config (3-season window with decay), top 3 men:
 
 Full Fandom-vs-ours comparison across 356 event-relevant players:
 - **OK:** 53 (all-checks pass)
-- **Some mismatch:** 302 (mostly definitional — Fandom's broader scope counting Champs vs. Pros etc.)
+- **Some mismatch:** 302 (mostly definitional - Fandom's broader scope counting Champs vs. Pros etc.)
 - **No Fandom infobox:** 1
 
 **Genuinely suspicious cases that warrant your eye:**
 - Only 1 player (Jordan Wiseley) has MORE seasons in our data than Fandom (+2). Probably a season-name parsing nuance in his infobox, worth a quick look.
-- 7 players with elim-count gap ≥ 3 from Fandom — all explainable by team-format gauntlet inclusion (we keep them, Fandom excludes).
+- 7 players with elim-count gap ≥ 3 from Fandom - all explainable by team-format gauntlet inclusion (we keep them, Fandom excludes).
 
 Open `data/audit.html` for the visual report.
 
@@ -91,15 +91,15 @@ Open `data/audit.html` for the visual report.
 
 ## What to look at when you wake up
 
-1. **`data/comparison.html`** — refreshed end-of-season top 3 for S10-S30. All major touchstones now correct.
-2. **`data/audit.html`** — the audit report. Skim the elim-diff table and decide if any look suspicious enough to dig into.
-3. **This file** — for the full narrative.
+1. **`data/comparison.html`** - refreshed end-of-season top 3 for S10-S30. All major touchstones now correct.
+2. **`data/audit.html`** - the audit report. Skim the elim-diff table and decide if any look suspicious enough to dig into.
+3. **This file** - for the full narrative.
 
 ## Open items (parking lot)
 
-- **Microsite build** (task #6) — the actual LAVIN site mirroring ZIDANE structure.
-- **PEAK vs ERA decay choice** — based on yesterday's analysis, PEAK should use decay (recent-form), ERA should use NO decay (longevity). Worth committing.
-- **Fandom-infobox-derived seasons cross-check** — Jordan Wiseley shows +2 seasons vs Fandom; turned out to be a parse failure on my Fandom-side regex (his page formatting tripped it). His 10 seasons in our data are all legit. No action needed.
-- **`era_6_nodecay` over-rewards UK crossovers** — without recency decay, recent short-but-dominant UK Challenge players (Turbo Çamkıran, Hughie Maughan, Emy Alupei, etc.) appear above American legends in the all-time peak list. Their 6-season windows have few "off" events compared to Bananas/CT/Wiseley. Worth tuning before final commit — maybe ERA should also use light decay, or we add a min_events floor for the all-time view.
+- **Microsite build** (task #6) - the actual LAVIN site mirroring ZIDANE structure.
+- **PEAK vs ERA decay choice** - based on yesterday's analysis, PEAK should use decay (recent-form), ERA should use NO decay (longevity). Worth committing.
+- **Fandom-infobox-derived seasons cross-check** - Jordan Wiseley shows +2 seasons vs Fandom; turned out to be a parse failure on my Fandom-side regex (his page formatting tripped it). His 10 seasons in our data are all legit. No action needed.
+- **`era_6_nodecay` over-rewards UK crossovers** - without recency decay, recent short-but-dominant UK Challenge players (Turbo Çamkıran, Hughie Maughan, Emy Alupei, etc.) appear above American legends in the all-time peak list. Their 6-season windows have few "off" events compared to Bananas/CT/Wiseley. Worth tuning before final commit - maybe ERA should also use light decay, or we add a min_events floor for the all-time view.
 
 All 4 LAVIN data-trust bugs from this round are squashed. Ready to ship the site next session.

@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — fetch gender from Fandom for players we can't infer otherwise.
+# LAVIN - fetch gender from Fandom for players we can't infer otherwise.
 #
 # Some players only competed in team-format seasons where cast tables
 # have team captions (not Male/Female) and elim charts have no gender

@@ -1,11 +1,11 @@
 # =========================================================
-# LAVIN — per-player audit against Fandom infobox truth.
+# LAVIN - per-player audit against Fandom infobox truth.
 #
 # For each player in our data, fetch their Fandom page and parse the
 # `InfoboxChallenger` template:
-#   * challenges           — list of seasons (in italic-link format)
-#   * challengewins        — number of championships
-#   * eliminations         — text like "6 (5 wins, 1 loss)"
+#   * challenges           - list of seasons (in italic-link format)
+#   * challengewins        - number of championships
+#   * eliminations         - text like "6 (5 wins, 1 loss)"
 #
 # Compare to our derived stats:
 #   * appearances per player (seasons)

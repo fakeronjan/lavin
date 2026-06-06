@@ -1,5 +1,5 @@
 # =========================================================
-# LAVIN — audit mid-season partner swaps.
+# LAVIN - audit mid-season partner swaps.
 #
 # Walk each pair-format season's elim chart in episode order. Every pair-
 # cell (a cast-icon cell containing exactly 2 player icons) is a pair
@@ -141,13 +141,13 @@ _NON_PARTNER_TOKENS = {
 
 def parse_partner_progress(wt, cast_players=None, nickname_map=None):
     """
-    Parse a season's ===Partner Progress=== / ===Team Progress=== table —
+    Parse a season's ===Partner Progress=== / ===Team Progress=== table -
     the canonical per-episode partner sequence for rotating-pair seasons
     (S36 Double Agents, S37 Spies Lies & Allies, S41 Vets & New Threats).
 
     Returns {canonical_player_name: [partner_full_names_in_order]} with
     consecutive duplicates collapsed. Team-color and special-status cells
-    (Rogue, Hangnail, Sapphire, etc.) are skipped — they aren't real
+    (Rogue, Hangnail, Sapphire, etc.) are skipped - they aren't real
     partnerships.
 
     nickname_map: dict mapping wiki-display nickname → canonical cast name
@@ -157,7 +157,7 @@ def parse_partner_progress(wt, cast_players=None, nickname_map=None):
     cast_players = cast_players or []
     nickname_map = nickname_map or {}
     # First-name lookup map for canonicalization (Episode rows use short
-    # display names — "Coral", "Fessy", "Corey L." — not canonical names)
+    # display names - "Coral", "Fessy", "Corey L." - not canonical names)
     fn_map = {}
     for p in cast_players:
         fn_map.setdefault(p.split()[0], []).append(p)
@@ -168,7 +168,7 @@ def parse_partner_progress(wt, cast_players=None, nickname_map=None):
             return None
         if s in cast_players:
             return s
-        # Nickname override — handles wiki short names that aren't a prefix
+        # Nickname override - handles wiki short names that aren't a prefix
         # of the canonical name ("Fessy" for Faysal Shafaat, "CT" for Chris
         # Tamburello, etc.). Aliases come from data/aliases.csv.
         if s in nickname_map:
@@ -284,7 +284,7 @@ def main():
         # with transient Power Couples (S25) have <10%. Cast-table
         # pair_id presence is unreliable because rotating-partner seasons
         # (S36 Double Agents, S37 Spies Lies & Allies) don't publish a
-        # season-long pair in the cast table — partners only appear
+        # season-long pair in the cast table - partners only appear
         # per-episode in the chart.
         if _pair_cell_fraction(wt) < 0.20:
             continue
@@ -344,7 +344,7 @@ def main():
                     phases.append(them)
 
         # Layer in pre-elim pair transitions from Episode Progress
-        # strikethrough rows (e.g. S24 ''<s>Cooke</s> & Naomi'' — Naomi quit
+        # strikethrough rows (e.g. S24 ''<s>Cooke</s> & Naomi'' - Naomi quit
         # before reaching an elim, so the elim chart never saw this pair).
         cast_path = RAW / sid / "contestants.csv"
         if cast_path.exists():
@@ -394,7 +394,7 @@ def main():
 
         # Emit one row per phase per player. Includes single-partner players
         # because the cast table sometimes leaves `pair_id` empty (e.g. when
-        # an ex didn't show up or a player was DQ'd super early — Nia/Wes
+        # an ex didn't show up or a player was DQ'd super early - Nia/Wes
         # S26, Adam Royer S21). The elim chart shows their actual in-show
         # partner; that's what we want to surface.
         for player, phases in per_player_phases.items():
@@ -422,7 +422,7 @@ def main():
     sdf = pd.DataFrame(summary_rows).sort_values(["season_id", "player"])
     print(f"Wrote {OUT} ({len(df)} pair observations)")
     print()
-    print(f"=== Players with multiple partners (mid-season swaps) — {len(sdf)} cases ===")
+    print(f"=== Players with multiple partners (mid-season swaps) - {len(sdf)} cases ===")
     print(sdf.to_string(index=False))
 
 

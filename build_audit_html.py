@@ -1,10 +1,10 @@
 # =========================================================
-# LAVIN — build the audit HTML report from data/audit_report.csv.
+# LAVIN - build the audit HTML report from data/audit_report.csv.
 #
 # IMPORTANT correction vs. naive interpretation:
 #   Fandom's `challengewins` field is total DAILY CHALLENGES WON (career
 #   stat), NOT championship season count. The mismatch on this field is
-#   not a data bug — our championship count comes from parsing the
+#   not a data bug - our championship count comes from parsing the
 #   `finish` field for "Winner".
 #
 # What this report focuses on:
@@ -13,7 +13,7 @@
 #      format gauntlets often don't count for Fandom but DO appear in
 #      our chart). Worth eyeballing for genuine over/under-counts.
 #   2. Players entirely missing from Fandom (probably parser artifacts).
-#   3. Season-count differences — Fandom counts ALL series (Champs vs.
+#   3. Season-count differences - Fandom counts ALL series (Champs vs.
 #      Pros etc.), we count only the main S5-S41 window.
 # =========================================================
 from pathlib import Path
@@ -40,7 +40,7 @@ def main():
                       (df["fandom_seasons"] != df["our_seasons"]) &
                       (df["our_seasons"] > df["fandom_seasons"])].sort_values(
         "our_seasons", ascending=False
-    )  # we have MORE seasons than Fandom — that would be the suspicious direction
+    )  # we have MORE seasons than Fandom - that would be the suspicious direction
 
     def row_html(row, fields):
         cells = []
@@ -87,7 +87,7 @@ def main():
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>LAVIN — Player Audit Report</title>
+  <title>LAVIN - Player Audit Report</title>
   <style>
     body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
            background: #fafafa; color: #222; padding: 28px; max-width: 1200px; margin: 0 auto; }}
@@ -108,7 +108,7 @@ def main():
   </style>
 </head>
 <body>
-  <h1>LAVIN — Player Audit Report</h1>
+  <h1>LAVIN - Player Audit Report</h1>
   <p class="subtitle">
     Compared 356 event-relevant players against their Fandom infobox truth.
   </p>
@@ -127,7 +127,7 @@ def main():
     that we don't include. Mismatches in elim count can be definitional: Fandom often
     excludes team-format gauntlets from a player's elim record, while we count every
     H2H matchup in the chart. Use the report to flag <em>genuinely suspicious</em>
-    cases — large unexplained gaps in either direction.</p>
+    cases - large unexplained gaps in either direction.</p>
   </div>
 
   {table_html(elim_diffs, fields_elim, "Players with elim-count gap ≥ 3 vs Fandom")}
