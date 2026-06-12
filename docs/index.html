@@ -720,7 +720,11 @@ async function renderStandings() {
     }
     const rows = standings.map(s => {
       const ctx = renderPartnerContext(s);
-      const ctxHtml = ctx ? `<div style="font-size:11px;color:#888">${ctx}</div>` : '';
+      // white-space:normal lets long partner chains (rotating-partner seasons
+      // like S41 have 8-10 partners) wrap; the name above stays nowrap via
+      // .player-cell. Without this the sub-line inherits the cell's nowrap and
+      // overflows, blowing out the whole table width.
+      const ctxHtml = ctx ? `<div style="font-size:11px;color:#888;white-space:normal;line-height:1.35">${ctx}</div>` : '';
       const isMerc = s.finish === 'Champion Mercenary';
       const dagger = isMerc ? ' <sup style="color:#888">†</sup>' : '';
       const rankCell = s.rank == null ? '<span style="color:#bbb">-</span>' : s.rank;
