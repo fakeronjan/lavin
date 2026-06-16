@@ -23,3 +23,6 @@ __pycache__/
 # Old codex archive — 171MB of legacy work, not tracked.
 # Kept locally for reference but excluded from this repo.
 backup - codex version/
+
+# Engine-migration backup snapshots (never commit)
+*-bak
