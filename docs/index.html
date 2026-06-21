@@ -1087,8 +1087,8 @@ function renderGoat() {
         <tr>
           <td class="rank-col">${p.rank}</td>
           <td>${playerLink(p.player)}</td>
-          <td class="num">${fmtEra(p.era_rating)}</td>
-          <td class="num">${fmtRating(p.peak_rating)}</td>
+          <td class="num" style="text-align:center">${fmtEra(p.era_rating)}</td>
+          <td class="num" style="text-align:center">${fmtRating(p.peak_rating)}</td>
           <td class="num">${p.n_seasons}</td>
           <td class="num">${p.finals_reached}</td>
           <td class="num">${p.championships}${p.championships ? ' 🥇' : ''}</td>
@@ -1097,7 +1097,7 @@ function renderGoat() {
       wrap.innerHTML = `
         <table>
           <thead><tr>
-            <th class="rank-col col-num">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Finals</th><th>Champs</th>
+            <th class="rank-col col-num">Rank</th><th>Player</th><th class="col-num">ERA</th><th class="col-num">Peak</th><th>Sn</th><th>Finals</th><th>Champs</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
@@ -1121,7 +1121,7 @@ function renderGoat() {
             pct = `<div style="font-size:10px;color:#888">${p100}%</div>`;
           }
         }
-        return `<td class="num${isCurrent ? ' sort-active' : ''}">${fmtEra(v)}${pct}</td>`;
+        return `<td class="num${isCurrent ? ' sort-active' : ''}" style="text-align:center">${fmtEra(v)}${pct}</td>`;
       };
       const rows = list.map(p => `
         <tr>
@@ -1135,7 +1135,7 @@ function renderGoat() {
         </tr>
       `).join('');
       const dimHeader = (label, key) =>
-        `<th class="num${key === dim ? ' sort-active' : ''}">${label}</th>`;
+        `<th class="num col-num${key === dim ? ' sort-active' : ''}">${label}</th>`;
       wrap.innerHTML = `
         <table>
           <thead><tr>
@@ -1156,7 +1156,7 @@ function renderGoat() {
           <td class="rank-col">${p.rank}</td>
           <td>${playerLink(p.player)}</td>
           <td class="season-cell linked" data-season-id="${p.season_id}">${p.season_label}</td>
-          <td class="num">${fmtRating(p.rating_at_end)}</td>
+          <td class="num" style="text-align:center">${fmtRating(p.rating_at_end)}</td>
         </tr>
       `).join('');
       wrap.innerHTML = `
