@@ -168,7 +168,9 @@
     font-weight: 700;
     font-variant-numeric: tabular-nums;
     color: #1a6b8a;
+    text-align: center;
   }
+  thead th.col-num { text-align: center; }
   .rating-bar-wrap {
     display: flex;
     flex-direction: column;
@@ -760,12 +762,12 @@ async function renderStandings() {
     wrap.innerHTML = `
       <table>
         <thead><tr>
-          <th class="rank-cell">Rank</th>
+          <th class="rank-cell col-num">Rank</th>
           <th>Player</th>
           <th class="stat-narrow col-hide-mobile">Daily</th>
           <th class="stat-narrow col-hide-mobile">Elim</th>
           <th>Finish</th>
-          <th>Rating</th>
+          <th class="col-num">Rating</th>
         </tr></thead>
         <tbody>${rows}</tbody>
       </table>
@@ -862,8 +864,8 @@ async function renderPlayer() {
         <th class="col-hide-mobile">Daily Wins</th>
         <th class="col-hide-mobile">Eliminations</th>
         <th>Finish</th>
-        <th class="rank-cell">Rank</th>
-        <th>Rating</th>
+        <th class="rank-cell col-num">Rank</th>
+        <th class="col-num">Rating</th>
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>
@@ -1095,7 +1097,7 @@ function renderGoat() {
       wrap.innerHTML = `
         <table>
           <thead><tr>
-            <th class="rank-col">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Finals</th><th>Champs</th>
+            <th class="rank-col col-num">Rank</th><th>Player</th><th>ERA</th><th>Peak</th><th>Sn</th><th>Finals</th><th>Champs</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
@@ -1137,7 +1139,7 @@ function renderGoat() {
       wrap.innerHTML = `
         <table>
           <thead><tr>
-            <th class="rank-col">Rank</th><th>Player</th>
+            <th class="rank-col col-num">Rank</th><th>Player</th>
             ${dimHeader('Total', 'era_rating')}
             ${dimHeader('Daily', 'era_daily')}
             ${dimHeader('Elim', 'era_elim')}
@@ -1160,7 +1162,7 @@ function renderGoat() {
       wrap.innerHTML = `
         <table>
           <thead><tr>
-            <th class="rank-col">Rank</th><th>Player</th><th>Season</th><th>Rating</th>
+            <th class="rank-col col-num">Rank</th><th>Player</th><th>Season</th><th class="col-num">Rating</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
