@@ -3,10 +3,10 @@
 Icon
 Icon?
 
-# Cached Fandom API responses — regenerable
+# Cached Fandom API responses - regenerable
 data/.fandom_player_cache/
 
-# Per-season raw wikitext — regenerable via scrape_fandom.py
+# Per-season raw wikitext - regenerable via scrape_fandom.py
 data/raw/*/_raw.wikitext
 
 # One-off run outputs
@@ -20,7 +20,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Old codex archive — 171MB of legacy work, not tracked.
+# Old codex archive - 171MB of legacy work, not tracked.
 # Kept locally for reference but excluded from this repo.
 backup - codex version/
 
