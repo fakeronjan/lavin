@@ -453,7 +453,7 @@
   <div class="controls">
     <select id="season-select"></select>
   </div>
-  <p class="data-note">Ratings at the end of the selected season, filtered to that season's cast.</p>
+  <p class="data-note">Ratings at the end of the selected season, filtered to that season's cast</p>
   <div class="split-tables">
     <div class="split-pane">
       <h3 class="split-heading">Men</h3>
@@ -480,12 +480,12 @@
   <div class="controls">
     <select id="player-select"><option value="">- Select a player -</option></select>
   </div>
-  <div id="player-content"><p class="empty">Select a player above.</p></div>
+  <div id="player-content"><p class="empty">Select a player above</p></div>
 </div>
 
 <!-- ── CHAMPIONS ──────────────────────────────────────────────────────── -->
 <div id="champions" class="tab">
-  <p class="data-note">Every season's champions, most recent first.</p>
+  <p class="data-note">Every season's champions, most recent first</p>
   <div id="champions-table"><p class="loading">Loading…</p></div>
 </div>
 
@@ -731,7 +731,7 @@ async function renderStandings() {
     const standings = data.standings_at_end[g] || [];
     const wrap = document.getElementById(`standings-table-${g}`);
     if (!standings.length) {
-      wrap.innerHTML = '<p class="empty">No ratings published.</p>';
+      wrap.innerHTML = '<p class="empty">No ratings published</p>';
       continue;
     }
     const rows = standings.map(s => {
@@ -817,7 +817,7 @@ async function loadPlayer() {
 async function renderPlayer() {
   const safe = document.getElementById('player-select').value;
   if (!safe) {
-    document.getElementById('player-content').innerHTML = '<p class="empty">Select a player above.</p>';
+    document.getElementById('player-content').innerHTML = '<p class="empty">Select a player above</p>';
     return;
   }
   const p = await fetchJSON(`players/${safe}.json`);
